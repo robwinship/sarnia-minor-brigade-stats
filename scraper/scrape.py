@@ -79,7 +79,7 @@ def fetch(url: str) -> str:
             headers={
                 "User-Agent": (
                     "SarniaBrigadeStatBot/1.0 "
-                    "(+https://github.com/robwinship/sarnia-brigade-stats)"
+                    "(+https://github.com/robwinship/sarnia-minor-brigade-stats)"
                 )
             },
         )

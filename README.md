@@ -4,7 +4,7 @@ Per-team season summary for the [Sarnia Brigade Minor Baseball Association](http
 
 ## Live Page
 
-> **[robwinship.github.io/sarnia-brigade-stats](https://robwinship.github.io/sarnia-brigade-stats)**
+> **[robwinship.github.io/sarnia-minor-brigade-stats](https://robwinship.github.io/sarnia-minor-brigade-stats)**
 
 ## What the grid shows
 
@@ -60,7 +60,7 @@ In your repo on GitHub:
 1. **Settings → Pages**
 2. Source: **Deploy from a branch**
 3. Branch: `main` · Folder: `/docs`
-4. Save — your page will be live at `https://robwinship.github.io/sarnia-brigade-stats/`
+4. Save — your page will be live at `https://robwinship.github.io/sarnia-minor-brigade-stats/`
 
 ## Score parsing note
 
