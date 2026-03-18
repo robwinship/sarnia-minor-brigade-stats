@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarnia Brigade — Season Summary</title>
+  <style>
+    /* ---------------------------------------------------------------
+       Design tokens
+    ---------------------------------------------------------------- */
+    :root {
+      --brand:     #002d62;   /* deep navy */
+      --brand-mid: #003f8a;
+      --accent:    #f5a800;   /* gold      */
+      --bg:        #f0f3f8;
+      --card:      #ffffff;
+      --border:    #d3dae8;
+      --text:      #1a1f2e;
+      --muted:     #6b7585;
+      --th-bg:     #eef1f8;
+
+      --w-bg: #d1fae5; --w-fg: #065f46;
+      --l-bg: #fee2e2; --l-fg: #991b1b;
+      --t-bg: #fef9c3; --t-fg: #78350f;
+    }
+
+    /* ---------------------------------------------------------------
+       Reset / base
+    ---------------------------------------------------------------- */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ---------------------------------------------------------------
+       Page header
+    ---------------------------------------------------------------- */
+    header {
+      background: linear-gradient(135deg, var(--brand) 0%, var(--brand-mid) 100%);
+      color: #fff;
+      padding: 1.4rem 2rem 1.2rem;
+    }
+
+    .header-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+
+    header h1 {
+      font-size: 1.9rem;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      line-height: 1.1;
+    }
+
+    header h1 .accent { color: var(--accent); }
+
+    .header-sub {
+      margin-top: 0.3rem;
+      font-size: 1rem;
+      opacity: 0.82;
+    }
+
+    #last-updated {
+      margin-top: 0.2rem;
+      font-size: 0.72rem;
+      opacity: 0.55;
+    }
+
+    /* ---------------------------------------------------------------
+       Main content
+    ---------------------------------------------------------------- */
+    main {
+      max-width: 1120px;
+      margin: 1.8rem auto 3rem;
+      padding: 0 1rem;
+    }
+
+    /* ---------------------------------------------------------------
+       Category blocks
+    ---------------------------------------------------------------- */
+    .cat-block {
+      margin-bottom: 1.8rem;
+      border-radius: 0.6rem;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      background: var(--card);
+    }
+
+    .cat-header {
+      background: var(--brand);
+      color: #fff;
+      padding: 0.55rem 1rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border-left: 4px solid var(--accent);
+    }
+
+    /* ---------------------------------------------------------------
+       Stats table
+    ---------------------------------------------------------------- */
+    .stats-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+
+    .stats-table thead th {
+      background: var(--th-bg);
+      padding: 0.45rem 0.8rem;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-bottom: 2px solid var(--border);
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .stats-table thead th.col-team { text-align: left; }
+
+    .stats-table tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.1s;
+    }
+
+    .stats-table tbody tr:last-child { border-bottom: none; }
+    .stats-table tbody tr:hover { background: #f5f8ff; }
+
+    .stats-table td {
+      padding: 0.55rem 0.8rem;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .col-team {
+      text-align: left !important;
+      font-weight: 600;
+      min-width: 155px;
+    }
+
+    /* ---------------------------------------------------------------
+       Cell styles
+    ---------------------------------------------------------------- */
+    .wins   { color: var(--w-fg); font-weight: 700; }
+    .losses { color: var(--l-fg); font-weight: 700; }
+    .ties   { color: var(--t-fg); font-weight: 700; }
+    .zero   { color: #bbc4d4; }
+
+    /* Win percentage */
+    .pct-good { color: var(--w-fg); font-weight: 700; }
+    .pct-bad  { color: var(--l-fg); }
+    .pct-none { color: #bbc4d4; }
+
+    /* Run differential */
+    .diff-pos { color: var(--w-fg); font-weight: 600; }
+    .diff-neg { color: var(--l-fg); }
+    .diff-zero{ color: #bbc4d4; }
+
+    /* Practice badge */
+    .practice-badge {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--brand);
+      border-radius: 999px;
+      padding: 0.15rem 0.65rem;
+      font-size: 0.78rem;
+      font-weight: 800;
+      min-width: 2.2rem;
+      text-align: center;
+    }
+
+    .practice-badge.zero-badge {
+      background: #e5e9f2;
+      color: #9aa5be;
+    }
+
+    /* Record string */
+    .record { letter-spacing: 0.03em; }
+
+    /* ---------------------------------------------------------------
+       Empty / loading states
+    ---------------------------------------------------------------- */
+    #loading {
+      text-align: center;
+      padding: 4rem 1rem;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .no-data-msg {
+      text-align: center;
+      padding: 1.4rem 1rem;
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-style: italic;
+    }
+
+    /* ---------------------------------------------------------------
+       Footer
+    ---------------------------------------------------------------- */
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem 2rem;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    footer a { color: var(--brand); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    footer .dot { margin: 0 0.4rem; }
+
+    /* ---------------------------------------------------------------
+       Responsive
+    ---------------------------------------------------------------- */
+    @media (max-width: 680px) {
+      header { padding: 1rem; }
+      header h1 { font-size: 1.45rem; }
+      .stats-table { font-size: 0.78rem; }
+      .stats-table thead th,
+      .stats-table td { padding: 0.4rem 0.45rem; }
+      .col-team { min-width: 110px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <h1>Sarnia <span class="accent">Brigade</span></h1>
+    <div class="header-sub" id="season-subtitle">Season Summary</div>
+    <div id="last-updated"></div>
+  </div>
+</header>
+
+<main>
+  <div id="loading">Loading season data&hellip;</div>
+  <div id="grid" style="display:none"></div>
+</main>
+
+<footer>
+  Data sourced from
+  <a href="https://www.sarniabrigade.ca" target="_blank" rel="noopener">sarniabrigade.ca</a>
+  <span class="dot">&bull;</span>
+  <a href="https://github.com/robwinship/sarnia-brigade-stats" target="_blank" rel="noopener">View on GitHub</a>
+</footer>
+
+<script>
+"use strict";
+
+/* ----------------------------------------------------------------
+   Category render order
+---------------------------------------------------------------- */
+const CATEGORY_ORDER = [
+  "OBA Rep",
+  "Select",
+  "River League",
+  "House League",
+  "Senior",
+  "Instructional",
+];
+
+/* ----------------------------------------------------------------
+   Helpers
+---------------------------------------------------------------- */
+function escHtml(s) {
+  return String(s ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+function pct(wins, gp) {
+  if (!gp) return null;
+  return wins / gp;
+}
+
+function fmtPct(p) {
+  if (p === null) return "—";
+  // Baseball style:  .500  .333  1.000
+  const s = p.toFixed(3);
+  return s.startsWith("1") ? "1.000" : s.replace(/^0/, "");
+}
+
+function pctClass(p) {
+  if (p === null) return "pct-none";
+  return p >= 0.500 ? "pct-good" : "pct-bad";
+}
+
+function numClass(n, posClass, negClass) {
+  if (n > 0) return posClass;
+  if (n < 0) return negClass;
+  return "";
+}
+
+function fmtDiff(diff) {
+  if (diff === 0) return "—";
+  return (diff > 0 ? "+" : "") + diff;
+}
+
+function diffClass(diff) {
+  if (diff > 0) return "diff-pos";
+  if (diff < 0) return "diff-neg";
+  return "diff-zero";
+}
+
+/* ----------------------------------------------------------------
+   Build one category card with its stats table
+---------------------------------------------------------------- */
+function buildCategoryBlock(categoryName, teams) {
+  const block = document.createElement("div");
+  block.className = "cat-block";
+
+  // Header bar
+  const hdr = document.createElement("div");
+  hdr.className = "cat-header";
+  hdr.textContent = categoryName;
+  block.appendChild(hdr);
+
+  // Table
+  const table = document.createElement("table");
+  table.className = "stats-table";
+  table.setAttribute("aria-label", categoryName + " season stats");
+
+  table.innerHTML = `
+    <thead>
+      <tr>
+        <th class="col-team">Team</th>
+        <th title="Games Played">GP</th>
+        <th title="Wins">W</th>
+        <th title="Losses">L</th>
+        <th title="Ties">T</th>
+        <th title="Runs For">RF</th>
+        <th title="Runs Against">RA</th>
+        <th title="Run Differential">+/&minus;</th>
+        <th title="Win Percentage">Pct</th>
+        <th title="Practices held this season">Practice</th>
+      </tr>
+    </thead>
+    <tbody></tbody>`;
+
+  const tbody = table.querySelector("tbody");
+
+  for (const t of teams) {
+    const w    = t.wins    ?? 0;
+    const l    = t.losses  ?? 0;
+    const ti   = t.ties    ?? 0;
+    const gp   = t.gp      ?? 0;
+    const rf   = t.runs_for     ?? 0;
+    const ra   = t.runs_against ?? 0;
+    const diff = rf - ra;
+    const p    = pct(w, gp);
+    const pr   = t.practices ?? 0;
+
+    const tr = document.createElement("tr");
+
+    tr.innerHTML = `
+      <td class="col-team">${escHtml(t.name)}</td>
+      <td class="${gp === 0 ? "zero" : ""}">${gp}</td>
+      <td class="${w  > 0 ? "wins"   : "zero"}">${w}</td>
+      <td class="${l  > 0 ? "losses" : "zero"}">${l}</td>
+      <td class="${ti > 0 ? "ties"   : "zero"}">${ti}</td>
+      <td class="${rf === 0 ? "zero" : ""}">${rf}</td>
+      <td class="${ra === 0 ? "zero" : ""}">${ra}</td>
+      <td class="${diffClass(diff)}">${fmtDiff(diff)}</td>
+      <td class="${pctClass(p)}">${fmtPct(p)}</td>
+      <td><span class="practice-badge ${pr === 0 ? "zero-badge" : ""}">${pr}</span></td>`;
+
+    tbody.appendChild(tr);
+  }
+
+  block.appendChild(table);
+  return block;
+}
+
+/* ----------------------------------------------------------------
+   Main render
+---------------------------------------------------------------- */
+async function render() {
+  const loading = document.getElementById("loading");
+  const grid    = document.getElementById("grid");
+
+  try {
+    const resp = await fetch("data.json");
+    if (!resp.ok) throw new Error(`HTTP ${resp.status} — could not load data.json`);
+    const data = await resp.json();
+
+    // Update title / header
+    const season = data.season ?? "—";
+    document.title = `Sarnia Brigade — ${season} Season Summary`;
+    document.getElementById("season-subtitle").textContent = `${season} Season Summary`;
+
+    if (data.generated) {
+      const d = new Date(data.generated);
+      document.getElementById("last-updated").textContent =
+        "Updated " + d.toLocaleString("en-CA", { dateStyle: "medium", timeStyle: "short", timeZone: "UTC" }) + " UTC";
+    }
+
+    // Group teams by category
+    const grouped = {};
+    for (const t of (data.teams ?? [])) {
+      const cat = t.category || "Other";
+      (grouped[cat] = grouped[cat] ?? []).push(t);
+    }
+
+    // Ordered list of categories present in the data
+    const present = CATEGORY_ORDER.filter(c => grouped[c]);
+    for (const c of Object.keys(grouped)) {
+      if (!present.includes(c)) present.push(c);
+    }
+
+    loading.style.display = "none";
+    grid.style.display    = "block";
+
+    if (present.length === 0) {
+      grid.innerHTML = `<div class="no-data-msg">No season data available yet. Check back once the season begins.</div>`;
+      return;
+    }
+
+    for (const cat of present) {
+      grid.appendChild(buildCategoryBlock(cat, grouped[cat]));
+    }
+
+  } catch (err) {
+    loading.textContent = "⚠ Could not load season data: " + err.message;
+  }
+}
+
+render();
+</script>
+</body>
+</html>

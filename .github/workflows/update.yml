@@ -1,0 +1,40 @@
+name: Update Season Stats
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 6:00 AM UTC every day throughout the season
+  workflow_dispatch:       # allows manual trigger from the Actions tab
+
+permissions:
+  contents: write          # needed to commit docs/data.json back to the repo
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Run scraper
+        run: python scraper/scrape.py
+
+      - name: Commit updated data (if changed)
+        run: |
+          git config user.name  "robwinship"
+          git config user.email "robwinship@hotmail.com"
+          git add docs/data.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update season data $(date -u '+%Y-%m-%d')"
+            git push
+          else
+            echo "No data changes — nothing to commit."
+          fi

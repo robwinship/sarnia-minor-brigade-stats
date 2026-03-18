@@ -1,0 +1,28 @@
+{
+  "season": 2026,
+  "generated": "2026-03-17T00:00:00Z",
+  "teams": [
+    {"id": 1290, "name": "8U OBA Rep",           "category": "OBA Rep",       "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1291, "name": "9U OBA Rep",            "category": "OBA Rep",       "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1292, "name": "10U AA OBA Rep",        "category": "OBA Rep",       "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1311, "name": "10U A OBA Rep",         "category": "OBA Rep",       "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1293, "name": "11U OBA Rep",           "category": "OBA Rep",       "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1294, "name": "12U OBA Rep",           "category": "OBA Rep",       "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1295, "name": "13U OBA Rep",           "category": "OBA Rep",       "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1296, "name": "14U OBA Rep",           "category": "OBA Rep",       "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1297, "name": "15U OBA Rep",           "category": "OBA Rep",       "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1299, "name": "9U Select",             "category": "Select",        "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1303, "name": "11U Select",            "category": "Select",        "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1300, "name": "13U Select",            "category": "Select",        "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1301, "name": "15U Select",            "category": "Select",        "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1304, "name": "9U River League",       "category": "River League",  "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1310, "name": "11U Lady Brigade",      "category": "River League",  "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1315, "name": "11U River League",      "category": "River League",  "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1316, "name": "13U River League",      "category": "River League",  "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1302, "name": "13U LDBA House League", "category": "House League",  "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1298, "name": "16U PBLO",              "category": "Senior",        "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1306, "name": "22U AAA",               "category": "Senior",        "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1307, "name": "Senior AAA",            "category": "Senior",        "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []},
+    {"id": 1305, "name": "Instructional",         "category": "Instructional", "gp": 0, "wins": 0, "losses": 0, "ties": 0, "runs_for": 0, "runs_against": 0, "practices": 0, "games": []}
+  ]
+}

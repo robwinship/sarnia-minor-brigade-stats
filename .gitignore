@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Temporary scraper output (used during development)
+sample_*.html
+sample_*.ics
+
+# OS
+.DS_Store
+Thumbs.db
