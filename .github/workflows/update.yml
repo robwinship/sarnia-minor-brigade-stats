@@ -1,9 +1,7 @@
 name: Update Season Stats
 
 on:
-  schedule:
-    - cron: "0 6 * * *"   # 6:00 AM UTC every day throughout the season
-  workflow_dispatch:       # allows manual trigger from the Actions tab
+  workflow_dispatch:
 
 permissions:
   contents: write          # needed to commit docs/data.json back to the repo

@@ -71,6 +71,54 @@
       opacity: 0.55;
     }
 
+    .header-actions {
+      margin-top: 0.9rem;
+      display: flex;
+      gap: 0.7rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .action-button {
+      appearance: none;
+      border: 1px solid rgba(255,255,255,0.22);
+      background: rgba(255,255,255,0.12);
+      color: #fff;
+      padding: 0.58rem 0.9rem;
+      border-radius: 999px;
+      font-size: 0.84rem;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.12s, transform 0.12s;
+    }
+
+    .action-button:hover {
+      background: rgba(255,255,255,0.2);
+      transform: translateY(-1px);
+    }
+
+    .action-button:disabled {
+      opacity: 0.6;
+      cursor: wait;
+      transform: none;
+    }
+
+    .action-button--accent {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: var(--brand);
+    }
+
+    .action-button--accent:hover {
+      background: #ffc13a;
+    }
+
+    .header-help {
+      font-size: 0.76rem;
+      opacity: 0.72;
+    }
+
     /* ---------------------------------------------------------------
        Main content
     ---------------------------------------------------------------- */
@@ -237,6 +285,11 @@
     <h1>Sarnia <span class="accent">Brigade</span></h1>
     <div class="header-sub" id="season-subtitle">Season Summary</div>
     <div id="last-updated"></div>
+    <div class="header-actions">
+      <button id="refresh-button" class="action-button action-button--accent" type="button">Get Update</button>
+      <a class="action-button" href="https://github.com/robwinship/sarnia-minor-brigade-stats/actions/workflows/update.yml" target="_blank" rel="noopener">Run Update</a>
+      <div class="header-help">Get Update reloads the published data. Run Update opens the manual GitHub Actions job.</div>
+    </div>
   </div>
 </header>
 
@@ -383,12 +436,24 @@ function buildCategoryBlock(categoryName, teams) {
 /* ----------------------------------------------------------------
    Main render
 ---------------------------------------------------------------- */
-async function render() {
+async function render(forceRefresh = false) {
   const loading = document.getElementById("loading");
   const grid    = document.getElementById("grid");
+  const button  = document.getElementById("refresh-button");
 
   try {
-    const resp = await fetch("data.json");
+    loading.style.display = "block";
+    loading.textContent = forceRefresh ? "Refreshing published data..." : "Loading season data...";
+    grid.style.display = "none";
+    grid.innerHTML = "";
+
+    if (button) {
+      button.disabled = true;
+      button.textContent = forceRefresh ? "Refreshing..." : "Get Update";
+    }
+
+    const dataUrl = forceRefresh ? `data.json?t=${Date.now()}` : "data.json";
+    const resp = await fetch(dataUrl, { cache: "no-store" });
     if (!resp.ok) throw new Error(`HTTP ${resp.status} — could not load data.json`);
     const data = await resp.json();
 
@@ -429,9 +494,18 @@ async function render() {
     }
 
   } catch (err) {
-    loading.textContent = "⚠ Could not load season data: " + err.message;
+    loading.textContent = "Could not load season data: " + err.message;
+  } finally {
+    if (button) {
+      button.disabled = false;
+      button.textContent = "Get Update";
+    }
   }
 }
+
+document.getElementById("refresh-button").addEventListener("click", () => {
+  render(true);
+});
 
 render();
 </script>

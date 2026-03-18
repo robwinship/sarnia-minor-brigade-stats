@@ -36,8 +36,27 @@ sarniabrigade.ca
 ```
 
 1. **`scraper/scrape.py`** fetches data for all 22 teams and writes `docs/data.json`.
-2. **GitHub Actions** (`.github/workflows/update.yml`) runs the scraper daily at 6 AM UTC and commits any changes.
+2. **GitHub Actions** (`.github/workflows/update.yml`) runs only when you trigger it manually from the Actions tab and commits any changes.
 3. **`docs/index.html`** reads `data.json` and renders the grid — no server needed.
+
+## Update frequency
+
+The page updates only when you choose to run the workflow.
+
+Manual update flow:
+
+1. Open **Actions** in GitHub.
+2. Open **Update Season Stats**.
+3. Click **Run workflow**.
+4. Wait for the job to finish.
+5. Refresh the live page.
+
+The page also includes:
+
+1. A **Get Update** button that reloads the published `data.json`.
+2. A **Run Update** button that opens the GitHub Actions workflow page.
+
+Because the site is hosted on GitHub Pages, the browser cannot run the Python scraper directly.
 
 ## Running the scraper locally
 
