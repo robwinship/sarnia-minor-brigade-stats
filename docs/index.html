@@ -263,6 +263,63 @@
       color: var(--brand);
     }
 
+    .count-details {
+      display: inline-block;
+      text-align: left;
+    }
+
+    .count-details summary {
+      list-style: none;
+    }
+
+    .count-details summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .expand-chip {
+      display: inline-block;
+      min-width: 2.2rem;
+      border-radius: 999px;
+      border: 1px solid #c9d6f4;
+      background: #eef3ff;
+      color: var(--brand);
+      padding: 0.15rem 0.55rem;
+      font-size: 0.78rem;
+      font-weight: 800;
+      text-align: center;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .details-list {
+      margin-top: 0.4rem;
+      border: 1px solid var(--border);
+      border-radius: 0.55rem;
+      background: #fff;
+      min-width: 230px;
+      max-width: 320px;
+      max-height: 190px;
+      overflow: auto;
+      font-size: 0.76rem;
+      padding: 0.35rem;
+    }
+
+    .details-item {
+      padding: 0.24rem 0.26rem;
+      border-bottom: 1px solid #eef2f9;
+      line-height: 1.3;
+    }
+
+    .details-item:last-child {
+      border-bottom: none;
+    }
+
+    .details-date {
+      font-weight: 700;
+      color: #26385f;
+      margin-right: 0.35rem;
+    }
+
     /* ---------------------------------------------------------------
        Main content
     ---------------------------------------------------------------- */
@@ -543,6 +600,37 @@ function diffClass(diff) {
   return "diff-zero";
 }
 
+function sortByDateThenText(items) {
+  return [...items].sort((left, right) => {
+    const ld = left.date || "";
+    const rd = right.date || "";
+    if (ld !== rd) return ld.localeCompare(rd);
+    return (left.summary || "").localeCompare(right.summary || "");
+  });
+}
+
+function buildExpandableCountCell(events, label) {
+  const count = events.length;
+  if (!count) return `<span class="zero">0</span>`;
+
+  const items = sortByDateThenText(events)
+    .map(event => {
+      const datePart = `<span class="details-date">${escHtml(event.date || "n/a")}</span>`;
+      const summaryPart = escHtml(event.summary || label);
+      const locationPart = event.location ? ` @ ${escHtml(event.location)}` : "";
+      return `<div class="details-item">${datePart}${summaryPart}${locationPart}</div>`;
+    })
+    .join("");
+
+  return `
+    <details class="count-details">
+      <summary class="expand-chip" title="Click to view dates">${count}</summary>
+      <div class="details-list" role="region" aria-label="${escHtml(label)} dates">
+        ${items}
+      </div>
+    </details>`;
+}
+
 function inRange(dateText, startDate, endDate) {
   if (!dateText) return false;
   if (startDate && dateText < startDate) return false;
@@ -553,6 +641,28 @@ function inRange(dateText, startDate, endDate) {
 function summarizeTeam(team, startDate, endDate) {
   const games = (team.games ?? []).filter(game => inRange(game.date, startDate, endDate));
   const events = (team.events ?? []).filter(event => inRange(event.date, startDate, endDate));
+  const practiceEvents = events.filter(event => event.type === "practice");
+  const eventGames = events.filter(event => event.type === "game");
+
+  const scheduledGames = games
+    .filter(game => !!game.date)
+    .map(game => ({
+      date: game.date,
+      summary: game.opponent ? `Game vs ${game.opponent}` : "Game",
+      location: "",
+    }));
+
+  // Merge schedule-derived games with ICS game events so date lists are richer.
+  const mergedGames = [];
+  const seenGameKeys = new Set();
+  for (const game of [...eventGames, ...scheduledGames]) {
+    const key = `${game.date || ""}|${(game.summary || "").toLowerCase()}`;
+    if (seenGameKeys.has(key)) continue;
+    seenGameKeys.add(key);
+    mergedGames.push(game);
+  }
+
+  const pitchEvents = events.filter(event => PITCH_LOCATION_RE.test(event.location || ""));
 
   const summary = {
     id: team.id,
@@ -565,6 +675,9 @@ function summarizeTeam(team, startDate, endDate) {
     runs_for: 0,
     runs_against: 0,
     practices: 0,
+    game_events: mergedGames,
+    practice_events: practiceEvents,
+    pitch_events: pitchEvents,
     games,
     events,
   };
@@ -580,7 +693,7 @@ function summarizeTeam(team, startDate, endDate) {
     if (typeof game.opp_score === "number") summary.runs_against += game.opp_score;
   }
 
-  summary.practices = events.filter(event => event.type === "practice").length;
+  summary.practices = practiceEvents.length;
   return summary;
 }
 
@@ -715,7 +828,9 @@ function buildCategoryBlock(categoryName, teams) {
         <th title="Runs Against">RA</th>
         <th title="Run Differential">+/&minus;</th>
         <th title="Win Percentage">Pct</th>
+        <th title="Games and Exhibition Games">Game/Exh</th>
         <th title="Practices held this season">Practice</th>
+        <th title="Total events at Pitch Indoor Sports">Pitch</th>
       </tr>
     </thead>
     <tbody></tbody>`;
@@ -732,6 +847,8 @@ function buildCategoryBlock(categoryName, teams) {
     const diff = rf - ra;
     const p    = pct(w, gp);
     const pr   = t.practices ?? 0;
+    const gameEventCount = (t.game_events ?? []).length;
+    const pitchEventCount = (t.pitch_events ?? []).length;
 
     const tr = document.createElement("tr");
 
@@ -745,7 +862,9 @@ function buildCategoryBlock(categoryName, teams) {
       <td class="${ra === 0 ? "zero" : ""}">${ra}</td>
       <td class="${diffClass(diff)}">${fmtDiff(diff)}</td>
       <td class="${pctClass(p)}">${fmtPct(p)}</td>
-      <td><span class="practice-badge ${pr === 0 ? "zero-badge" : ""}">${pr}</span></td>`;
+      <td>${buildExpandableCountCell(t.game_events ?? [], "Game/Exh")}</td>
+      <td>${buildExpandableCountCell(t.practice_events ?? [], "Practice")}</td>
+      <td>${buildExpandableCountCell(t.pitch_events ?? [], "Pitch")}</td>`;
 
     tbody.appendChild(tr);
   }

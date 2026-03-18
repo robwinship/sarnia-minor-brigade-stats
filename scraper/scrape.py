@@ -102,7 +102,8 @@ def classify_event(summary: str) -> str:
     text = summary.lower()
     if "practice" in text:
         return "practice"
-    if re.search(r"\b(vs\.?|@|game|doubleheader|scrimmage)\b", text):
+    # Keep exhibition games bundled with regular games.
+    if re.search(r"\b(vs\.?|@|game|exhibition|doubleheader|scrimmage)\b", text):
         return "game"
     return "other"
 

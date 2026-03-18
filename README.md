@@ -24,6 +24,7 @@ The page also includes:
 
 1. A selectable **start date** and **end date** so you can view a custom summary range instead of only full-season totals.
 2. A **Pitch Indoor Sports Tracker** that lists all matching team events in the selected range.
+3. Expandable team columns for **Game/Exh**, **Practice**, and **Pitch** that show the event dates when clicked.
 
 ## How it works
 
