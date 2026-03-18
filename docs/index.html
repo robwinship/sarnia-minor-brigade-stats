@@ -50,6 +50,19 @@
       margin: 0 auto;
     }
 
+    .title-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .header-logo {
+      width: 56px;
+      height: 56px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
     header h1 {
       font-size: 1.9rem;
       font-weight: 800;
@@ -506,7 +519,10 @@
 
 <header>
   <div class="header-inner">
-    <h1>Sarnia <span class="accent">Brigade</span></h1>
+    <div class="title-wrap">
+      <img src="assets/brigade-logo.png" alt="Sarnia Brigade logo" class="header-logo" />
+      <h1>Sarnia <span class="accent">Brigade</span></h1>
+    </div>
     <div class="header-sub" id="season-subtitle">Season Summary</div>
     <div id="last-updated"></div>
     <div class="header-actions">
