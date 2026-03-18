@@ -710,6 +710,8 @@ function summarizeTeam(team, startDate, endDate) {
     ties: 0,
     runs_for: 0,
     runs_against: 0,
+    home_games: 0,
+    away_games: 0,
     practices: 0,
     game_events: mergedGames,
     practice_events: practiceEvents,
@@ -727,6 +729,8 @@ function summarizeTeam(team, startDate, endDate) {
     }
     if (typeof game.brigade_score === "number") summary.runs_for += game.brigade_score;
     if (typeof game.opp_score === "number") summary.runs_against += game.opp_score;
+    if (game.home === true)  summary.home_games += 1;
+    if (game.home === false) summary.away_games += 1;
   }
 
   summary.practices = practiceEvents.length;
@@ -864,7 +868,8 @@ function buildCategoryBlock(categoryName, teams) {
         <th title="Runs Against">RA</th>
         <th title="Run Differential">+/&minus;</th>
         <th title="Win Percentage">Pct</th>
-        <th title="Games and Exhibition Games">Game/Exh</th>
+        <th title="Home Games">Home</th>
+        <th title="Away Games">Away</th>
         <th title="Practices held this season">Practice</th>
         <th title="Total events at Pitch Indoor Sports">Pitch</th>
       </tr>
@@ -883,8 +888,9 @@ function buildCategoryBlock(categoryName, teams) {
     const diff = rf - ra;
     const p    = pct(w, gp);
     const pr   = t.practices ?? 0;
-    const gameEventCount = (t.game_events ?? []).length;
     const pitchEventCount = (t.pitch_events ?? []).length;
+    const homeGames = t.home_games ?? 0;
+    const awayGames = t.away_games ?? 0;
 
     const tr = document.createElement("tr");
 
@@ -898,7 +904,8 @@ function buildCategoryBlock(categoryName, teams) {
       <td class="${ra === 0 ? "zero" : ""}">${ra}</td>
       <td class="${diffClass(diff)}">${fmtDiff(diff)}</td>
       <td class="${pctClass(p)}">${fmtPct(p)}</td>
-      <td>${buildExpandableCountCell(t.game_events ?? [], "Game/Exh")}</td>
+      <td class="${homeGames === 0 ? "zero" : ""}">${homeGames}</td>
+      <td class="${awayGames === 0 ? "zero" : ""}">${awayGames}</td>
       <td>${buildExpandableCountCell(t.practice_events ?? [], "Practice")}</td>
       <td>${buildExpandableCountCell(t.pitch_events ?? [], "Pitch")}</td>`;
 
