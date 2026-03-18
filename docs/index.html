@@ -206,6 +206,26 @@
       margin-bottom: 0.75rem;
     }
 
+    .pitch-summary {
+      list-style: none;
+      cursor: pointer;
+    }
+
+    .pitch-summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .pitch-summary .section-title::after {
+      content: " (click to expand)";
+      font-size: 0.74rem;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    .pitch-card[open] .pitch-summary .section-title::after {
+      content: " (click to collapse)";
+    }
+
     .section-title {
       font-size: 1rem;
       font-weight: 800;
@@ -516,16 +536,16 @@
     <div class="controls-note" id="range-summary">Showing full season totals.</div>
   </section>
 
-  <section class="pitch-card" aria-label="Pitch Indoor Sports tracker">
-    <div class="pitch-topline">
-      <div>
+  <details class="pitch-card" aria-label="Pitch Indoor Sports tracker">
+    <summary class="pitch-summary">
+      <div class="pitch-topline">
         <div class="section-title">Pitch Indoor Sports Tracker</div>
-        <div class="section-subtitle">All team events and practices scheduled at Pitch Indoor Sports in the selected date range.</div>
+        <div class="pitch-metric" id="pitch-count">0 matching events</div>
       </div>
-      <div class="pitch-metric" id="pitch-count">0 matching events</div>
-    </div>
+    </summary>
+    <div class="section-subtitle">All team events and practices scheduled at Pitch Indoor Sports in the selected date range.</div>
     <div id="pitch-results"></div>
-  </section>
+  </details>
 
   <div id="loading">Loading season data&hellip;</div>
   <div id="grid" style="display:none"></div>
