@@ -119,6 +119,150 @@
       opacity: 0.72;
     }
 
+    .controls-card,
+    .pitch-card {
+      margin-bottom: 1.25rem;
+      border-radius: 0.7rem;
+      background: var(--card);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 1rem;
+    }
+
+    .controls-row {
+      display: flex;
+      gap: 0.9rem;
+      flex-wrap: wrap;
+      align-items: end;
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      min-width: 160px;
+    }
+
+    .control-group label {
+      font-size: 0.74rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .control-group input {
+      border: 1px solid var(--border);
+      border-radius: 0.55rem;
+      padding: 0.62rem 0.72rem;
+      font: inherit;
+      color: var(--text);
+      background: #fff;
+    }
+
+    .control-actions {
+      display: flex;
+      gap: 0.65rem;
+      flex-wrap: wrap;
+    }
+
+    .page-button {
+      appearance: none;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--brand);
+      padding: 0.62rem 1rem;
+      font-size: 0.86rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .page-button:hover {
+      background: #f8fbff;
+    }
+
+    .page-button--primary {
+      background: var(--brand);
+      border-color: var(--brand);
+      color: #fff;
+    }
+
+    .page-button--primary:hover {
+      background: var(--brand-mid);
+    }
+
+    .controls-note {
+      margin-top: 0.8rem;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .pitch-topline {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: baseline;
+      margin-bottom: 0.75rem;
+    }
+
+    .section-title {
+      font-size: 1rem;
+      font-weight: 800;
+      color: var(--brand);
+    }
+
+    .section-subtitle {
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .pitch-metric {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.45rem 0.75rem;
+      background: #fff7df;
+      color: #6b4e00;
+      border-radius: 999px;
+      font-size: 0.84rem;
+      font-weight: 800;
+    }
+
+    .pitch-list {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.84rem;
+    }
+
+    .pitch-list th,
+    .pitch-list td {
+      padding: 0.6rem 0.55rem;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .pitch-list th {
+      font-size: 0.7rem;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--muted);
+      background: var(--th-bg);
+    }
+
+    .event-type-pill {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 0.12rem 0.5rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      background: #e8eefb;
+      color: var(--brand);
+    }
+
     /* ---------------------------------------------------------------
        Main content
     ---------------------------------------------------------------- */
@@ -275,6 +419,9 @@
       .stats-table thead th,
       .stats-table td { padding: 0.4rem 0.45rem; }
       .col-team { min-width: 110px; }
+      .controls-row,
+      .pitch-topline { flex-direction: column; align-items: stretch; }
+      .control-group { min-width: 100%; }
     }
   </style>
 </head>
@@ -294,6 +441,35 @@
 </header>
 
 <main>
+  <section class="controls-card" aria-label="Date range filter">
+    <div class="controls-row">
+      <div class="control-group">
+        <label for="start-date">Start Date</label>
+        <input id="start-date" type="date" />
+      </div>
+      <div class="control-group">
+        <label for="end-date">End Date</label>
+        <input id="end-date" type="date" />
+      </div>
+      <div class="control-actions">
+        <button id="apply-filter" class="page-button page-button--primary" type="button">Apply Range</button>
+        <button id="reset-filter" class="page-button" type="button">Full Season</button>
+      </div>
+    </div>
+    <div class="controls-note" id="range-summary">Showing full season totals.</div>
+  </section>
+
+  <section class="pitch-card" aria-label="Pitch Indoor Sports tracker">
+    <div class="pitch-topline">
+      <div>
+        <div class="section-title">Pitch Indoor Sports Tracker</div>
+        <div class="section-subtitle">All team events and practices scheduled at Pitch Indoor Sports in the selected date range.</div>
+      </div>
+      <div class="pitch-metric" id="pitch-count">0 matching events</div>
+    </div>
+    <div id="pitch-results"></div>
+  </section>
+
   <div id="loading">Loading season data&hellip;</div>
   <div id="grid" style="display:none"></div>
 </main>
@@ -319,6 +495,9 @@ const CATEGORY_ORDER = [
   "Senior",
   "Instructional",
 ];
+
+const PITCH_LOCATION_RE = /pitch indoor sports/i;
+let loadedData = null;
 
 /* ----------------------------------------------------------------
    Helpers
@@ -362,6 +541,148 @@ function diffClass(diff) {
   if (diff > 0) return "diff-pos";
   if (diff < 0) return "diff-neg";
   return "diff-zero";
+}
+
+function inRange(dateText, startDate, endDate) {
+  if (!dateText) return false;
+  if (startDate && dateText < startDate) return false;
+  if (endDate && dateText > endDate) return false;
+  return true;
+}
+
+function summarizeTeam(team, startDate, endDate) {
+  const games = (team.games ?? []).filter(game => inRange(game.date, startDate, endDate));
+  const events = (team.events ?? []).filter(event => inRange(event.date, startDate, endDate));
+
+  const summary = {
+    id: team.id,
+    name: team.name,
+    category: team.category,
+    gp: 0,
+    wins: 0,
+    losses: 0,
+    ties: 0,
+    runs_for: 0,
+    runs_against: 0,
+    practices: 0,
+    games,
+    events,
+  };
+
+  for (const game of games) {
+    if (game.result) {
+      summary.gp += 1;
+      if (game.result === "W") summary.wins += 1;
+      if (game.result === "L") summary.losses += 1;
+      if (game.result === "T") summary.ties += 1;
+    }
+    if (typeof game.brigade_score === "number") summary.runs_for += game.brigade_score;
+    if (typeof game.opp_score === "number") summary.runs_against += game.opp_score;
+  }
+
+  summary.practices = events.filter(event => event.type === "practice").length;
+  return summary;
+}
+
+function getPitchEvents(teams, startDate, endDate) {
+  const rows = [];
+  for (const team of teams) {
+    for (const event of (team.events ?? [])) {
+      if (!inRange(event.date, startDate, endDate)) continue;
+      if (!PITCH_LOCATION_RE.test(event.location || "")) continue;
+      rows.push({
+        date: event.date,
+        team: team.name,
+        category: team.category,
+        type: event.type,
+        summary: event.summary || "Untitled event",
+        location: event.location || "Pitch Indoor Sports",
+      });
+    }
+  }
+
+  rows.sort((left, right) => {
+    if (left.date !== right.date) return left.date.localeCompare(right.date);
+    return left.team.localeCompare(right.team);
+  });
+  return rows;
+}
+
+function renderPitchTracker(teams, startDate, endDate) {
+  const events = getPitchEvents(teams, startDate, endDate);
+  document.getElementById("pitch-count").textContent = `${events.length} matching event${events.length === 1 ? "" : "s"}`;
+
+  const target = document.getElementById("pitch-results");
+  if (!events.length) {
+    target.innerHTML = `<div class="no-data-msg">No Pitch Indoor Sports events in the selected date range.</div>`;
+    return;
+  }
+
+  target.innerHTML = `
+    <table class="pitch-list" aria-label="Pitch Indoor Sports events">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Team</th>
+          <th>Type</th>
+          <th>Event</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${events.map(event => `
+          <tr>
+            <td>${escHtml(event.date)}</td>
+            <td>${escHtml(event.team)}</td>
+            <td><span class="event-type-pill">${escHtml(event.type)}</span></td>
+            <td>${escHtml(event.summary)}</td>
+            <td>${escHtml(event.location)}</td>
+          </tr>`).join("")}
+      </tbody>
+    </table>`;
+}
+
+function applyFilters() {
+  if (!loadedData) return;
+
+  const grid = document.getElementById("grid");
+  const startDate = document.getElementById("start-date").value || null;
+  const endDate = document.getElementById("end-date").value || null;
+  const rangeSummary = document.getElementById("range-summary");
+
+  if (startDate && endDate && startDate > endDate) {
+    rangeSummary.textContent = "Start date must be on or before the end date.";
+    grid.innerHTML = "";
+    document.getElementById("pitch-results").innerHTML = `<div class="no-data-msg">Adjust the date range to view Pitch Indoor Sports events.</div>`;
+    document.getElementById("pitch-count").textContent = "0 matching events";
+    return;
+  }
+
+  const summarizedTeams = (loadedData.teams ?? []).map(team => summarizeTeam(team, startDate, endDate));
+  const grouped = {};
+  for (const team of summarizedTeams) {
+    const cat = team.category || "Other";
+    (grouped[cat] = grouped[cat] ?? []).push(team);
+  }
+
+  const present = CATEGORY_ORDER.filter(c => grouped[c]);
+  for (const c of Object.keys(grouped)) {
+    if (!present.includes(c)) present.push(c);
+  }
+
+  grid.innerHTML = "";
+  grid.style.display = "block";
+  for (const cat of present) {
+    grid.appendChild(buildCategoryBlock(cat, grouped[cat]));
+  }
+
+  if (startDate || endDate) {
+    rangeSummary.textContent = `Showing stats from ${startDate || "season start"} to ${endDate || "season end"}.`;
+  } else {
+    rangeSummary.textContent = "Showing full season totals.";
+  }
+
+  renderPitchTracker(loadedData.teams ?? [], startDate, endDate);
 }
 
 /* ----------------------------------------------------------------
@@ -456,6 +777,7 @@ async function render(forceRefresh = false) {
     const resp = await fetch(dataUrl, { cache: "no-store" });
     if (!resp.ok) throw new Error(`HTTP ${resp.status} — could not load data.json`);
     const data = await resp.json();
+    loadedData = data;
 
     // Update title / header
     const season = data.season ?? "—";
@@ -468,30 +790,26 @@ async function render(forceRefresh = false) {
         "Updated " + d.toLocaleString("en-CA", { dateStyle: "medium", timeStyle: "short", timeZone: "UTC" }) + " UTC";
     }
 
-    // Group teams by category
-    const grouped = {};
-    for (const t of (data.teams ?? [])) {
-      const cat = t.category || "Other";
-      (grouped[cat] = grouped[cat] ?? []).push(t);
-    }
+    document.getElementById("start-date").value = "";
+    document.getElementById("end-date").value = "";
 
-    // Ordered list of categories present in the data
-    const present = CATEGORY_ORDER.filter(c => grouped[c]);
-    for (const c of Object.keys(grouped)) {
-      if (!present.includes(c)) present.push(c);
-    }
+    const minDate = data.season_start || `${season}-01-01`;
+    const maxDate = data.season_end || `${season}-12-31`;
+    document.getElementById("start-date").min = minDate;
+    document.getElementById("start-date").max = maxDate;
+    document.getElementById("end-date").min = minDate;
+    document.getElementById("end-date").max = maxDate;
 
     loading.style.display = "none";
     grid.style.display    = "block";
 
-    if (present.length === 0) {
+    if (!(data.teams ?? []).length) {
       grid.innerHTML = `<div class="no-data-msg">No season data available yet. Check back once the season begins.</div>`;
+      renderPitchTracker([], null, null);
       return;
     }
 
-    for (const cat of present) {
-      grid.appendChild(buildCategoryBlock(cat, grouped[cat]));
-    }
+    applyFilters();
 
   } catch (err) {
     loading.textContent = "Could not load season data: " + err.message;
@@ -505,6 +823,13 @@ async function render(forceRefresh = false) {
 
 document.getElementById("refresh-button").addEventListener("click", () => {
   render(true);
+});
+
+document.getElementById("apply-filter").addEventListener("click", applyFilters);
+document.getElementById("reset-filter").addEventListener("click", () => {
+  document.getElementById("start-date").value = "";
+  document.getElementById("end-date").value = "";
+  applyFilters();
 });
 
 render();

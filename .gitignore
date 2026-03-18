@@ -12,3 +12,6 @@ sample_*.ics
 # OS
 .DS_Store
 Thumbs.db
+
+# VS Code workspace files
+*.code-workspace

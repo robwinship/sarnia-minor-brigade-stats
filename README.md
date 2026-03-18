@@ -20,19 +20,24 @@ Per-team season summary for the [Sarnia Brigade Minor Baseball Association](http
 
 Teams are grouped by division: OBA Rep · Select · River League · House League · Senior · Instructional.
 
+The page also includes:
+
+1. A selectable **start date** and **end date** so you can view a custom summary range instead of only full-season totals.
+2. A **Pitch Indoor Sports Tracker** that lists all matching team events in the selected range.
+
 ## How it works
 
 ```
 sarniabrigade.ca
        │
-       ├── /webcal.ashx?IDs=<teamId>    ← iCalendar feed  → practice count
-       └── /Teams/<id>/Schedule/        ← HTML schedule   → game results
+       ├── /webcal.ashx?IDs=<teamId>    ← iCalendar feed  → dated team events / practices / locations
+       └── /Teams/<id>/Schedule/        ← HTML schedule   → dated game results
                                                                     │
                                                           scraper/scrape.py
                                                                     │
                                                           docs/data.json  (committed by GitHub Actions)
                                                                     │
-                                                          docs/index.html  (served by GitHub Pages)
+                                                          docs/index.html  (date-range filtering + Pitch tracker)
 ```
 
 1. **`scraper/scrape.py`** fetches data for all 22 teams and writes `docs/data.json`.

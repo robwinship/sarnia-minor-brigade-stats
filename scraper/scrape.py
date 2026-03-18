@@ -98,27 +98,55 @@ def _unfold_ics(text: str) -> str:
     return re.sub(r"\r?\n[ \t]", "", text)
 
 
-def parse_ics_practices(text: str) -> int:
-    """
-    Count VEVENT entries in the given iCalendar text whose SUMMARY contains
-    'practice' and whose DTSTART falls in SEASON_YEAR.
-    """
+def classify_event(summary: str) -> str:
+    text = summary.lower()
+    if "practice" in text:
+        return "practice"
+    if re.search(r"\b(vs\.?|@|game|doubleheader|scrimmage)\b", text):
+        return "game"
+    return "other"
+
+
+def parse_ics_events(text: str) -> list:
+    """Parse dated VEVENT records from a public iCalendar team feed."""
     if not text or "BEGIN:VCALENDAR" not in text:
-        return 0
+        return []
 
     text = _unfold_ics(text)
-    count = 0
+    events = []
     for block in re.split(r"BEGIN:VEVENT\r?\n", text)[1:]:
-        summ_m  = re.search(r"^SUMMARY:(.*?)$",         block, re.MULTILINE)
-        start_m = re.search(r"^DTSTART[^\n]*?(\d{8})",  block, re.MULTILINE)
+        summary_m = re.search(r"^SUMMARY:(.*?)$", block, re.MULTILINE)
+        start_m = re.search(r"^DTSTART[^\n:]*:(\d{8})(?:T\d{6}Z?)?", block, re.MULTILINE)
+        end_m = re.search(r"^DTEND[^\n:]*:(\d{8})(?:T\d{6}Z?)?", block, re.MULTILINE)
+        location_m = re.search(r"^LOCATION:(.*?)$", block, re.MULTILINE)
+        uid_m = re.search(r"^UID:(.*?)$", block, re.MULTILINE)
 
-        summary = summ_m.group(1).strip()     if summ_m  else ""
-        year    = int(start_m.group(1)[:4])   if start_m else 0
+        if not start_m:
+            continue
 
-        if year == SEASON_YEAR and re.search(r"\bpractice\b", summary, re.IGNORECASE):
-            count += 1
+        start_raw = start_m.group(1)
+        year = int(start_raw[:4])
+        if year != SEASON_YEAR:
+            continue
 
-    return count
+        summary = summary_m.group(1).strip() if summary_m else ""
+        location = location_m.group(1).strip() if location_m else ""
+        start_date = f"{start_raw[:4]}-{start_raw[4:6]}-{start_raw[6:8]}"
+        end_date = None
+        if end_m:
+            end_raw = end_m.group(1)
+            end_date = f"{end_raw[:4]}-{end_raw[4:6]}-{end_raw[6:8]}"
+
+        events.append({
+            "uid": uid_m.group(1).strip() if uid_m else None,
+            "date": start_date,
+            "end_date": end_date,
+            "summary": summary,
+            "location": location,
+            "type": classify_event(summary),
+        })
+
+    return events
 
 # ---------------------------------------------------------------------------
 # HTML schedule parsing  (game results)
@@ -147,7 +175,7 @@ def _strip_tags(html: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html)).strip()
 
 
-def parse_schedule(html: str) -> list:
+def parse_schedule(html: str, month: int, year: int) -> list:
     """
     Parse a team Schedule & Results HTML page.
 
@@ -215,9 +243,19 @@ def parse_schedule(html: str) -> list:
             opponent = am.group(1).strip().rstrip(".,;")
             is_home  = False
 
+        # --- Date ---
+        game_date = None
+        date_m = re.search(r"\b(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+(\d{1,2})\b", text)
+        if date_m:
+            try:
+                game_date = date(year, month, int(date_m.group(1))).isoformat()
+            except ValueError:
+                game_date = None
+
         games.append({
             "game_id":      game_id,
             "href":         BASE_URL + game_href,
+            "date":         game_date,
             "opponent":     opponent,
             "home":         is_home,
             "result":       result,
@@ -243,13 +281,15 @@ def collect_team(team: dict) -> dict:
         "runs_for":     0,
         "runs_against": 0,
         "practices":    0,
+        "events":       [],
         "games":        [],
     }
 
     # -- Practices via ICS --------------------------------------------------
     print(f"  ICS    {team['name']} (id={team['id']}) …")
     ics_text = fetch(ICS_FEED.format(team_id=team["id"]))
-    out["practices"] = parse_ics_practices(ics_text)
+    out["events"] = parse_ics_events(ics_text)
+    out["practices"] = sum(1 for event in out["events"] if event["type"] == "practice")
 
     # -- Game results via schedule HTML (month by month) --------------------
     today = date.today()
@@ -260,7 +300,7 @@ def collect_team(team: dict) -> dict:
         url = SCHEDULE_URL.format(team_id=team["id"], month=month, year=SEASON_YEAR)
         print(f"  SCHED  {team['name']}  {SEASON_YEAR}-{month:02d} …")
         html = fetch(url)
-        out["games"].extend(parse_schedule(html))
+        out["games"].extend(parse_schedule(html, month, SEASON_YEAR))
 
     # Deduplicate games by game_id
     seen, unique = set(), []
@@ -304,6 +344,8 @@ def main():
 
     payload = {
         "season":    SEASON_YEAR,
+        "season_start": f"{SEASON_YEAR}-01-01",
+        "season_end": f"{SEASON_YEAR}-12-31",
         "generated": datetime.utcnow().isoformat() + "Z",
         "teams":     results,
     }
