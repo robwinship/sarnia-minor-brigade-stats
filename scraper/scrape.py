@@ -293,11 +293,7 @@ def collect_team(team: dict) -> dict:
     out["practices"] = sum(1 for event in out["events"] if event["type"] == "practice")
 
     # -- Game results via schedule HTML (month by month) --------------------
-    today = date.today()
     for month in SEASON_MONTHS:
-        # No point fetching months that cannot yet have completed games
-        if SEASON_YEAR == today.year and month > today.month:
-            break
         url = SCHEDULE_URL.format(team_id=team["id"], month=month, year=SEASON_YEAR)
         print(f"  SCHED  {team['name']}  {SEASON_YEAR}-{month:02d} …")
         html = fetch(url)
