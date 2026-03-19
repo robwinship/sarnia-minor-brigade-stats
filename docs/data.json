@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-18T01:23:05.042153Z",
+  "generated": "2026-03-19T00:36:42.362378Z",
   "teams": [
     {
       "id": 1290,
@@ -14,8 +14,65 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 0,
-      "events": [],
+      "practices": 7,
+      "events": [
+        {
+          "uid": "MS-19947-sarniabrigade.ca",
+          "date": "2026-03-19",
+          "end_date": "2026-03-19",
+          "summary": "8U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19948-sarniabrigade.ca",
+          "date": "2026-03-26",
+          "end_date": "2026-03-26",
+          "summary": "8U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19949-sarniabrigade.ca",
+          "date": "2026-04-02",
+          "end_date": "2026-04-02",
+          "summary": "8U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19950-sarniabrigade.ca",
+          "date": "2026-04-09",
+          "end_date": "2026-04-09",
+          "summary": "8U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19951-sarniabrigade.ca",
+          "date": "2026-04-16",
+          "end_date": "2026-04-16",
+          "summary": "8U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19952-sarniabrigade.ca",
+          "date": "2026-04-23",
+          "end_date": "2026-04-23",
+          "summary": "8U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19953-sarniabrigade.ca",
+          "date": "2026-04-30",
+          "end_date": "2026-04-30",
+          "summary": "8U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        }
+      ],
       "games": []
     },
     {
@@ -399,7 +456,68 @@
           "type": "other"
         }
       ],
-      "games": []
+      "games": [
+        {
+          "game_id": "19778",
+          "href": "https://sarniabrigade.ca/Teams/1291/Games/19778/",
+          "date": "2026-05-19",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19772",
+          "href": "https://sarniabrigade.ca/Teams/1291/Games/19772/",
+          "date": "2026-05-20",
+          "opponent": "Chatham Major Diamonds Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19777",
+          "href": "https://sarniabrigade.ca/Teams/1291/Games/19777/",
+          "date": "2026-06-27",
+          "opponent": "Lasalle Turtle Club Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19775",
+          "href": "https://sarniabrigade.ca/Teams/1291/Games/19775/",
+          "date": "2026-06-27",
+          "opponent": "Windsor Stars Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19774",
+          "href": "https://sarniabrigade.ca/Teams/1291/Games/19774/",
+          "date": "2026-06-28",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19773",
+          "href": "https://sarniabrigade.ca/Teams/1291/Games/19773/",
+          "date": "2026-06-28",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        }
+      ]
     },
     {
       "id": 1292,
@@ -862,7 +980,68 @@
           "type": "other"
         }
       ],
-      "games": []
+      "games": [
+        {
+          "game_id": "19681",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/19681/",
+          "date": "2026-05-09",
+          "opponent": "Chatham Minor Diamonds DH Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19644",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/19644/",
+          "date": "2026-05-23",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19645",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/19645/",
+          "date": "2026-05-30",
+          "opponent": "TBA DH Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19646",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/19646/",
+          "date": "2026-07-11",
+          "opponent": "London Badgers DH Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19647",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/19647/",
+          "date": "2026-07-18",
+          "opponent": "Lasalle Turtle Club DH Tecumseh Park More Deta",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19648",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/19648/",
+          "date": "2026-08-08",
+          "opponent": "TBA DH Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        }
+      ]
     },
     {
       "id": 1311,
@@ -1210,7 +1389,48 @@
           "type": "other"
         }
       ],
-      "games": []
+      "games": [
+        {
+          "game_id": "19717",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/19717/",
+          "date": "2026-05-02",
+          "opponent": "London Badgers Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19718",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/19718/",
+          "date": "2026-05-02",
+          "opponent": "London Badgers Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19719",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/19719/",
+          "date": "2026-05-03",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19720",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/19720/",
+          "date": "2026-05-03",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        }
+      ]
     },
     {
       "id": 1296,
@@ -1936,7 +2156,108 @@
           "type": "other"
         }
       ],
-      "games": []
+      "games": [
+        {
+          "game_id": "19756",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/19756/",
+          "date": "2026-05-09",
+          "opponent": "Windsor Hawks Blackwell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19755",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/19755/",
+          "date": "2026-05-09",
+          "opponent": "Windsor Hawks Blackwell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19757",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/19757/",
+          "date": "2026-05-16",
+          "opponent": "Chatham Major Diamonds Blackwell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19758",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/19758/",
+          "date": "2026-05-16",
+          "opponent": "Chatham Major Diamonds Blackwell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19759",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/19759/",
+          "date": "2026-05-24",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19760",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/19760/",
+          "date": "2026-05-24",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19813",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/19813/",
+          "date": "2026-08-01",
+          "opponent": "Tecumseh Rangers Blackwell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19814",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/19814/",
+          "date": "2026-08-01",
+          "opponent": "Tecumseh Rangers Blackwell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19815",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/19815/",
+          "date": "2026-08-15",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19816",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/19816/",
+          "date": "2026-08-15",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        }
+      ]
     },
     {
       "id": 1299,
@@ -2461,7 +2782,18 @@
           "type": "other"
         }
       ],
-      "games": []
+      "games": [
+        {
+          "game_id": "19826",
+          "href": "https://sarniabrigade.ca/Teams/1300/Games/19826/",
+          "date": "2026-05-29",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        }
+      ]
     },
     {
       "id": 1301,
@@ -2856,7 +3188,338 @@
           "type": "other"
         }
       ],
-      "games": []
+      "games": [
+        {
+          "game_id": "19738",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19738/",
+          "date": "2026-04-25",
+          "opponent": "Oshawa Legionaires Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19739",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19739/",
+          "date": "2026-04-25",
+          "opponent": "Oshawa Legionaires Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19740",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19740/",
+          "date": "2026-04-26",
+          "opponent": "Oshawa Legionaires Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19741",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19741/",
+          "date": "2026-04-26",
+          "opponent": "Oshawa Legionaires Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19721",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19721/",
+          "date": "2026-05-10",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19722",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19722/",
+          "date": "2026-05-10",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19742",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19742/",
+          "date": "2026-05-16",
+          "opponent": "Tecumseh Thunder Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19743",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19743/",
+          "date": "2026-05-16",
+          "opponent": "Tecumseh Thunder Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19727",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19727/",
+          "date": "2026-05-17",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19728",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19728/",
+          "date": "2026-05-17",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19744",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19744/",
+          "date": "2026-05-23",
+          "opponent": "Ontario Prospects Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19745",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19745/",
+          "date": "2026-05-23",
+          "opponent": "Ontario Prospects Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19746",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19746/",
+          "date": "2026-05-24",
+          "opponent": "Ontario Prospects Blackwell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19747",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19747/",
+          "date": "2026-05-24",
+          "opponent": "Ontario Prospects Blackwell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19731",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19731/",
+          "date": "2026-05-29",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19732",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19732/",
+          "date": "2026-05-30",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19733",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19733/",
+          "date": "2026-05-30",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19734",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19734/",
+          "date": "2026-06-06",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19735",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19735/",
+          "date": "2026-06-06",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19736",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19736/",
+          "date": "2026-06-07",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19737",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19737/",
+          "date": "2026-06-07",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19750",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19750/",
+          "date": "2026-06-13",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19751",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19751/",
+          "date": "2026-06-13",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19752",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19752/",
+          "date": "2026-06-14",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19753",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19753/",
+          "date": "2026-06-14",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19723",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19723/",
+          "date": "2026-06-20",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19725",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19725/",
+          "date": "2026-06-20",
+          "opponent": "Sudbury Voyageurs Stronach",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19726",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19726/",
+          "date": "2026-06-21",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19724",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19724/",
+          "date": "2026-06-21",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19748",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19748/",
+          "date": "2026-06-27",
+          "opponent": "Tecumseh Thunder Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19749",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19749/",
+          "date": "2026-06-27",
+          "opponent": "Tecumseh Thunder Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19729",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19729/",
+          "date": "2026-06-28",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "19730",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/19730/",
+          "date": "2026-06-28",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        }
+      ]
     },
     {
       "id": 1306,
