@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-19T00:51:41.981314Z",
+  "generated": "2026-03-19T01:12:23.509230Z",
   "teams": [
     {
       "id": 1290,
@@ -14,8 +14,65 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 0,
-      "events": [],
+      "practices": 7,
+      "events": [
+        {
+          "uid": "MS-19947-sarniabrigade.ca",
+          "date": "2026-03-19",
+          "end_date": "2026-03-19",
+          "summary": "8U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19948-sarniabrigade.ca",
+          "date": "2026-03-26",
+          "end_date": "2026-03-26",
+          "summary": "8U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19949-sarniabrigade.ca",
+          "date": "2026-04-02",
+          "end_date": "2026-04-02",
+          "summary": "8U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19950-sarniabrigade.ca",
+          "date": "2026-04-09",
+          "end_date": "2026-04-09",
+          "summary": "8U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19951-sarniabrigade.ca",
+          "date": "2026-04-16",
+          "end_date": "2026-04-16",
+          "summary": "8U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19952-sarniabrigade.ca",
+          "date": "2026-04-23",
+          "end_date": "2026-04-23",
+          "summary": "8U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19953-sarniabrigade.ca",
+          "date": "2026-04-30",
+          "end_date": "2026-04-30",
+          "summary": "8U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        }
+      ],
       "games": []
     },
     {
