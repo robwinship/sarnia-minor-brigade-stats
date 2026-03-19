@@ -164,11 +164,7 @@ RESULT_RE = re.compile(
 SCORE_RE = re.compile(r"\b(\d{1,2})\s*[-\u2013]\s*(\d{1,2})\b")
 
 VS_RE = re.compile(r"\bvs\.?\s+([A-Za-z][A-Za-z0-9 .'\-]{1,45})", re.IGNORECASE)
-AT_RE = re.compile(
-    r"([A-Za-z][A-Za-z0-9 .'\-]{1,45})\s+@\s+"
-    r"(?:\d{1,2}U|8U|Senior|Instructional|Sarnia|Brigade)",
-    re.IGNORECASE,
-)
+AT_RE = re.compile(r"@\s+([A-Za-z][A-Za-z0-9 .'\-]{1,45})", re.IGNORECASE)
 
 
 def _strip_tags(html: str) -> str:
@@ -232,6 +228,9 @@ def parse_schedule(html: str, month: int, year: int) -> list:
                     opp_score     = int(sm.group(2))
 
         # --- Opponent + home/away ---
+        # The schedule page marks each game with an explicit "HOME GAME" or
+        # "AWAY GAME" badge. Use that as the primary signal; fall back to
+        # vs./@ patterns for sites that may omit the badge.
         opponent = None
         is_home  = True
 
@@ -239,7 +238,7 @@ def parse_schedule(html: str, month: int, year: int) -> list:
         am = AT_RE.search(text)
         if vm:
             opponent = vm.group(1).strip().rstrip(".,;")
-            is_home  = "HOME GAME" in text.upper() or not bool(am)
+            is_home  = "AWAY GAME" not in text.upper()
         elif am:
             opponent = am.group(1).strip().rstrip(".,;")
             is_home  = False
