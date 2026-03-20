@@ -1,4 +1,9 @@
 # Changelog
+## v1.022 - 2026-03-20
+- Fixed tournament detection in scraper: events with a /Tournaments/ URL in their ICS DESCRIPTION are now classified as type "tournament" regardless of summary text
+- Fixed frontend tournament tab to match on type="tournament" in addition to the "tournament" keyword, so events like "Great Lakes World Series" and "PBLO 16u Championship" appear correctly
+- Regenerated data.json with corrected tournament types
+
 ## v1.021 - 2026-03-20
 - Added Tournaments tab to the season summary page
 - Tournaments are derived from existing event data (events with "Tournament" in the name)

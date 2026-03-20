@@ -121,6 +121,7 @@ def parse_ics_events(text: str) -> list:
         end_m = re.search(r"^DTEND[^\n:]*:(\d{8})(?:T\d{6}Z?)?", block, re.MULTILINE)
         location_m = re.search(r"^LOCATION:(.*?)$", block, re.MULTILINE)
         uid_m = re.search(r"^UID:(.*?)$", block, re.MULTILINE)
+        desc_m = re.search(r"^DESCRIPTION:(.*?)$", block, re.MULTILINE)
 
         if not start_m:
             continue
@@ -138,13 +139,22 @@ def parse_ics_events(text: str) -> list:
             end_raw = end_m.group(1)
             end_date = f"{end_raw[:4]}-{end_raw[4:6]}-{end_raw[6:8]}"
 
+        # Tournament events have a /Tournaments/ URL in their DESCRIPTION.
+        # Use that as the authoritative signal rather than relying on the
+        # summary text (e.g. "Great Lakes World Series" has no keyword).
+        description = desc_m.group(1).strip() if desc_m else ""
+        if "/Tournaments/" in description:
+            event_type = "tournament"
+        else:
+            event_type = classify_event(summary)
+
         events.append({
             "uid": uid_m.group(1).strip() if uid_m else None,
             "date": start_date,
             "end_date": end_date,
             "summary": summary,
             "location": location,
-            "type": classify_event(summary),
+            "type": event_type,
         })
 
     return events

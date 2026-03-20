@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-19T01:12:23.509230Z",
+  "generated": "2026-03-20T23:51:57.581842Z",
   "teams": [
     {
       "id": 1290,
@@ -421,7 +421,7 @@
           "end_date": "2026-05-25",
           "summary": "9U OBA Rep - Corbett Classic",
           "location": "Cambridge",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3288-sarniabrigade.ca",
@@ -429,7 +429,7 @@
           "end_date": "2026-07-20",
           "summary": "9U OBA Rep - London Talons",
           "location": "London",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3289-sarniabrigade.ca",
@@ -437,7 +437,7 @@
           "end_date": "2026-08-03",
           "summary": "9U OBA Rep - Lasalle Titans Classic",
           "location": "Lasalle",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3290-sarniabrigade.ca",
@@ -445,7 +445,7 @@
           "end_date": "2026-08-24",
           "summary": "9U OBA Rep - LDBA Playoffs",
           "location": "London",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3291-sarniabrigade.ca",
@@ -453,7 +453,7 @@
           "end_date": "2026-08-31",
           "summary": "9U OBA Rep - OBAs",
           "location": "Cambridge",
-          "type": "other"
+          "type": "tournament"
         }
       ],
       "games": [
@@ -953,7 +953,7 @@
           "end_date": "2026-06-08",
           "summary": "10U AA OBA Rep - London Badger Tournament",
           "location": "London, Ontario",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3235-sarniabrigade.ca",
@@ -961,15 +961,15 @@
           "end_date": "2026-06-29",
           "summary": "10U AA OBA Rep - LaSalle Tournament",
           "location": "Turtle Club, LaSalle, Ontario",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3236-sarniabrigade.ca",
           "date": "2026-07-24",
           "end_date": "2026-07-27",
-          "summary": "10U AA OBA Rep - Home Tournament",
+          "summary": "10U AA OBA Rep - Mississauga Tournament",
           "location": "Sarnia, Ontario",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3237-sarniabrigade.ca",
@@ -977,7 +977,7 @@
           "end_date": "2026-09-07",
           "summary": "10U AA OBA Rep - OBA",
           "location": "TBD",
-          "type": "other"
+          "type": "tournament"
         }
       ],
       "games": [
@@ -1125,7 +1125,7 @@
           "end_date": "2026-05-25",
           "summary": "10U A OBA Rep - Cardinal Classic Tournament",
           "location": "St. Thomas, Ontario",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3294-sarniabrigade.ca",
@@ -1133,7 +1133,7 @@
           "end_date": "2026-06-22",
           "summary": "10U A OBA Rep - Toyota Tournament",
           "location": "Cambridge, Ontario",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3293-sarniabrigade.ca",
@@ -1141,7 +1141,7 @@
           "end_date": "2026-07-13",
           "summary": "10U A OBA Rep - London Talons Tournament",
           "location": "London Ontario",
-          "type": "other"
+          "type": "tournament"
         }
       ],
       "games": []
@@ -1252,7 +1252,7 @@
           "end_date": "2026-05-25",
           "summary": "11U OBA Rep - Cardinal Classic Tournament",
           "location": "St Thomas, Ont",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3230-sarniabrigade.ca",
@@ -1260,7 +1260,7 @@
           "end_date": "2026-06-22",
           "summary": "11U OBA Rep - Toyota Tournament",
           "location": "Cambridge, Ont",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3232-sarniabrigade.ca",
@@ -1268,7 +1268,7 @@
           "end_date": "2026-07-20",
           "summary": "11U OBA Rep - Talons Tournament",
           "location": "London, Ont",
-          "type": "other"
+          "type": "tournament"
         }
       ],
       "games": []
@@ -1291,7 +1291,7 @@
           "end_date": "2026-06-01",
           "summary": "12U OBA Rep - St Thomas Cardinal Classic",
           "location": "St thomas Ontario",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3226-sarniabrigade.ca",
@@ -1299,7 +1299,7 @@
           "end_date": "2026-06-15",
           "summary": "12U OBA Rep - London Badgers",
           "location": "London Ontario",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3228-sarniabrigade.ca",
@@ -1307,7 +1307,7 @@
           "end_date": "2026-06-29",
           "summary": "12U OBA Rep - Kanata Cubs Classic",
           "location": "Kanata/Ottawa",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3233-sarniabrigade.ca",
@@ -1315,10 +1315,21 @@
           "end_date": "2026-07-20",
           "summary": "12U OBA Rep - RIchmond Hill Phoenix Basbeall",
           "location": "1300 Elgin Mills Rd East, Richmond Hill, ON",
-          "type": "other"
+          "type": "tournament"
         }
       ],
-      "games": []
+      "games": [
+        {
+          "game_id": "19985",
+          "href": "https://sarniabrigade.ca/Teams/1294/Games/19985/",
+          "date": "2026-07-29",
+          "opponent": "Chatham Major Diamonds Kinsmen Park Chatham",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        }
+      ]
     },
     {
       "id": 1295,
@@ -1370,7 +1381,7 @@
           "end_date": "2026-05-18",
           "summary": "13U OBA Rep - Woodstock AAA",
           "location": "Woodstock, ON",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3263-sarniabrigade.ca",
@@ -1378,7 +1389,7 @@
           "end_date": "2026-06-15",
           "summary": "13U OBA Rep - London Badgers AAA",
           "location": "London, ON",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3270-sarniabrigade.ca",
@@ -1386,7 +1397,7 @@
           "end_date": "2026-06-29",
           "summary": "13U OBA Rep - JRM Shores Shootout",
           "location": "St. Clair Shores, MI",
-          "type": "other"
+          "type": "tournament"
         }
       ],
       "games": [
@@ -1450,7 +1461,7 @@
           "end_date": "2026-06-08",
           "summary": "14U OBA Rep - Guelph",
           "location": "Guelph",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3279-sarniabrigade.ca",
@@ -1458,7 +1469,7 @@
           "end_date": "2026-06-22",
           "summary": "14U OBA Rep - Kincardine",
           "location": "Kincardine",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3278-sarniabrigade.ca",
@@ -1466,7 +1477,7 @@
           "end_date": "2026-07-13",
           "summary": "14U OBA Rep - Sarnia",
           "location": "Sarnia",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3280-sarniabrigade.ca",
@@ -1474,7 +1485,7 @@
           "end_date": "2026-08-03",
           "summary": "14U OBA Rep - LaSalle",
           "location": "LaSalle",
-          "type": "other"
+          "type": "tournament"
         }
       ],
       "games": []
@@ -2129,7 +2140,7 @@
           "end_date": "2026-06-01",
           "summary": "15U OBA Rep - Guelph Royals 15U AA",
           "location": "Guelph, ON",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3264-sarniabrigade.ca",
@@ -2137,7 +2148,7 @@
           "end_date": "2026-06-15",
           "summary": "15U OBA Rep - London Badgers A",
           "location": "London, ON",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3276-sarniabrigade.ca",
@@ -2145,7 +2156,7 @@
           "end_date": "2026-06-22",
           "summary": "15U OBA Rep - Brantford Red Sox AA",
           "location": "Brantford, ON",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3277-sarniabrigade.ca",
@@ -2153,7 +2164,7 @@
           "end_date": "2026-09-08",
           "summary": "15U OBA Rep - OBA Championship Weekend",
           "location": "TBD",
-          "type": "other"
+          "type": "tournament"
         }
       ],
       "games": [
@@ -2269,16 +2280,8 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 8,
+      "practices": 7,
       "events": [
-        {
-          "uid": "MS-19625-sarniabrigade.ca",
-          "date": "2026-01-20",
-          "end_date": "2026-01-21",
-          "summary": "9U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice"
-        },
         {
           "uid": "MS-19626-sarniabrigade.ca",
           "date": "2026-02-03",
@@ -2334,6 +2337,14 @@
           "summary": "9U Select - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice"
+        },
+        {
+          "uid": "MD-3299-sarniabrigade.ca",
+          "date": "2026-06-05",
+          "end_date": "2026-06-08",
+          "summary": "9U Select - Saugeen Shores - Battle at the Beach",
+          "location": "Ontario",
+          "type": "tournament"
         }
       ],
       "games": []
@@ -2747,7 +2758,7 @@
           "end_date": "2026-06-15",
           "summary": "13U Select - Strathroy",
           "location": "Strathroy, Ontario",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3282-sarniabrigade.ca",
@@ -2755,7 +2766,7 @@
           "end_date": "2026-06-22",
           "summary": "13U Select - Saugeen Shores",
           "location": "Saugeen Shores, Ontario",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3284-sarniabrigade.ca",
@@ -2763,7 +2774,7 @@
           "end_date": "2026-07-20",
           "summary": "13U Select - SW London",
           "location": "SW London, Ontario",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3285-sarniabrigade.ca",
@@ -2771,7 +2782,7 @@
           "end_date": "2026-08-31",
           "summary": "13U Select - LDBA Playoffs",
           "location": "London",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3286-sarniabrigade.ca",
@@ -2779,7 +2790,7 @@
           "end_date": "2026-09-07",
           "summary": "13U Select - SOBA",
           "location": "Brampton",
-          "type": "other"
+          "type": "tournament"
         }
       ],
       "games": [
@@ -3161,7 +3172,7 @@
           "end_date": "2026-05-04",
           "summary": "16U PBLO - MNBA Early Bird",
           "location": "Mississauga",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3274-sarniabrigade.ca",
@@ -3169,7 +3180,7 @@
           "end_date": "2026-07-13",
           "summary": "16U PBLO - AABA State Tournament",
           "location": "St. Clair Shores, MI",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3273-sarniabrigade.ca",
@@ -3177,7 +3188,7 @@
           "end_date": "2026-07-20",
           "summary": "16U PBLO - Great Lakes World Series",
           "location": "Battle Creek, MI",
-          "type": "other"
+          "type": "tournament"
         },
         {
           "uid": "MD-3272-sarniabrigade.ca",
@@ -3185,7 +3196,7 @@
           "end_date": "2026-07-27",
           "summary": "16U PBLO - PBLO 16u Championship",
           "location": "Sarnia",
-          "type": "other"
+          "type": "tournament"
         }
       ],
       "games": [

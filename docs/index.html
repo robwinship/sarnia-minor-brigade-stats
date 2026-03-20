@@ -975,7 +975,10 @@ function extractTournaments(teams) {
   const rows = [];
   for (const team of teams) {
     for (const event of (team.events ?? [])) {
-      if (!/tournament/i.test(event.summary || "")) continue;
+      // Match on type=tournament (new scraper output) or "tournament" in summary
+      // (older data.json fallback where the summary contains the word).
+      const isTournament = event.type === "tournament" || /tournament/i.test(event.summary || "");
+      if (!isTournament) continue;
       let name = event.summary || "Tournament";
       const dashIdx = name.indexOf(" - ");
       if (dashIdx !== -1) name = name.slice(dashIdx + 3);
