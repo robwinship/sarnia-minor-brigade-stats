@@ -510,7 +510,53 @@
       .controls-row,
       .pitch-topline { flex-direction: column; align-items: stretch; }
       .control-group { min-width: 100%; }
+      .tab-btn { padding: 0.65rem 0.8rem; font-size: 0.82rem; }
     }
+
+    /* ---------------------------------------------------------------
+       Tab navigation
+    ---------------------------------------------------------------- */
+    .tab-bar {
+      display: flex;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 1.4rem;
+    }
+
+    .tab-btn {
+      appearance: none;
+      border: none;
+      border-bottom: 3px solid transparent;
+      margin-bottom: -2px;
+      background: none;
+      padding: 0.75rem 1.4rem;
+      font: inherit;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--muted);
+      cursor: pointer;
+      transition: color 0.12s, border-color 0.12s;
+    }
+
+    .tab-btn:hover { color: var(--text); }
+
+    .tab-btn--active {
+      color: var(--brand);
+      border-bottom-color: var(--brand);
+    }
+
+    /* ---------------------------------------------------------------
+       Tournament filter / table
+    ---------------------------------------------------------------- */
+    .control-group select {
+      border: 1px solid var(--border);
+      border-radius: 0.55rem;
+      padding: 0.62rem 0.72rem;
+      font: inherit;
+      color: var(--text);
+      background: #fff;
+    }
+
+    .tourn-table td { text-align: left; }
   </style>
 </head>
 <body>
@@ -532,6 +578,12 @@
 </header>
 
 <main>
+  <div class="tab-bar" role="tablist">
+    <button class="tab-btn tab-btn--active" id="tab-stats" role="tab" aria-selected="true" aria-controls="view-stats">Season Stats</button>
+    <button class="tab-btn" id="tab-tournaments" role="tab" aria-selected="false" aria-controls="view-tournaments">Tournaments</button>
+  </div>
+
+  <div id="view-stats">
   <section class="controls-card" aria-label="Date range filter">
     <div class="controls-row">
       <div class="control-group">
@@ -563,6 +615,21 @@
 
   <div id="loading">Loading season data&hellip;</div>
   <div id="grid" style="display:none"></div>
+  </div><!-- /view-stats -->
+
+  <div id="view-tournaments" style="display:none">
+    <div class="controls-card" aria-label="Tournament filter">
+      <div class="controls-row">
+        <div class="control-group">
+          <label for="tournament-team-filter">Filter by Team</label>
+          <select id="tournament-team-filter">
+            <option value="">All Teams</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div id="tournament-body"></div>
+  </div><!-- /view-tournaments -->
 </main>
 
 <footer>
@@ -902,6 +969,116 @@ function buildCategoryBlock(categoryName, teams) {
 }
 
 /* ----------------------------------------------------------------
+   Tournaments tab
+---------------------------------------------------------------- */
+function extractTournaments(teams) {
+  const rows = [];
+  for (const team of teams) {
+    for (const event of (team.events ?? [])) {
+      if (!/tournament/i.test(event.summary || "")) continue;
+      let name = event.summary || "Tournament";
+      const dashIdx = name.indexOf(" - ");
+      if (dashIdx !== -1) name = name.slice(dashIdx + 3);
+      rows.push({
+        team_id:   team.id,
+        team_name: team.name,
+        category:  team.category,
+        name,
+        date:      event.date || "",
+        end_date:  event.end_date || event.date || "",
+        location:  event.location || "",
+      });
+    }
+  }
+  rows.sort((a, b) => {
+    if (a.date !== b.date) return a.date.localeCompare(b.date);
+    return a.team_name.localeCompare(b.team_name);
+  });
+  return rows;
+}
+
+function fmtDateRange(dateStr, endDateStr) {
+  if (!dateStr) return "TBD";
+  const opts = { month: "short", day: "numeric", timeZone: "UTC" };
+  const s = new Date(dateStr + "T12:00:00Z");
+  if (!endDateStr || endDateStr === dateStr) {
+    return s.toLocaleDateString("en-CA", opts);
+  }
+  const e = new Date(endDateStr + "T12:00:00Z");
+  if (s.getFullYear() === e.getFullYear() && s.getMonth() === e.getMonth()) {
+    return s.toLocaleDateString("en-CA", opts) + "\u2013" + e.getDate();
+  }
+  return s.toLocaleDateString("en-CA", opts) + " \u2013 " + e.toLocaleDateString("en-CA", opts);
+}
+
+function populateTournamentTeamFilter(teams) {
+  const sel = document.getElementById("tournament-team-filter");
+  const current = sel.value;
+  while (sel.options.length > 1) sel.remove(1);
+  const teamsWithTournaments = teams.filter(t =>
+    (t.events ?? []).some(e => /tournament/i.test(e.summary || ""))
+  );
+  for (const t of teamsWithTournaments) {
+    const opt = document.createElement("option");
+    opt.value = String(t.id);
+    opt.textContent = t.name;
+    sel.appendChild(opt);
+  }
+  if (current) sel.value = current;
+}
+
+function renderTournaments() {
+  if (!loadedData) return;
+  const filterTeamId = document.getElementById("tournament-team-filter").value;
+  let rows = extractTournaments(loadedData.teams ?? []);
+  if (filterTeamId) {
+    rows = rows.filter(r => String(r.team_id) === filterTeamId);
+  }
+  const body = document.getElementById("tournament-body");
+  if (!rows.length) {
+    body.innerHTML = `<div class="no-data-msg">No tournaments${filterTeamId ? " for the selected team" : ""} found in the season data.</div>`;
+    return;
+  }
+  const title = filterTeamId ? escHtml(rows[0].team_name) : "All Teams";
+  const rowsHtml = rows.map(r => `
+    <tr>
+      <td>${escHtml(fmtDateRange(r.date, r.end_date))}</td>
+      <td>${escHtml(r.name)}</td>
+      <td>${escHtml(r.team_name)}</td>
+      <td>${escHtml(r.location || "TBD")}</td>
+    </tr>`).join("");
+  body.innerHTML = `
+    <div class="cat-block">
+      <div class="cat-header">${rows.length} Tournament${rows.length === 1 ? "" : "s"} \u2014 ${title}</div>
+      <table class="stats-table tourn-table" aria-label="Tournament schedule">
+        <thead>
+          <tr>
+            <th class="col-team">Dates</th>
+            <th class="col-team">Tournament</th>
+            <th class="col-team">Team</th>
+            <th class="col-team">Location</th>
+          </tr>
+        </thead>
+        <tbody>${rowsHtml}</tbody>
+      </table>
+    </div>`;
+}
+
+function switchTab(tabName) {
+  const isStats = tabName === "stats";
+  document.getElementById("view-stats").style.display       = isStats ? "" : "none";
+  document.getElementById("view-tournaments").style.display = isStats ? "none" : "";
+  document.getElementById("tab-stats").setAttribute("aria-selected", isStats ? "true" : "false");
+  document.getElementById("tab-tournaments").setAttribute("aria-selected", isStats ? "false" : "true");
+  document.getElementById("tab-stats").classList.toggle("tab-btn--active", isStats);
+  document.getElementById("tab-tournaments").classList.toggle("tab-btn--active", !isStats);
+  if (!isStats && loadedData) {
+    populateTournamentTeamFilter(loadedData.teams ?? []);
+    renderTournaments();
+  }
+}
+
+/* ----------------------------------------------------------------
    Main render
 ---------------------------------------------------------------- */
 async function render(forceRefresh = false) {
@@ -978,6 +1155,10 @@ document.getElementById("reset-filter").addEventListener("click", () => {
   document.getElementById("end-date").value = "";
   applyFilters();
 });
+
+document.getElementById("tab-stats").addEventListener("click", () => switchTab("stats"));
+document.getElementById("tab-tournaments").addEventListener("click", () => switchTab("tournaments"));
+document.getElementById("tournament-team-filter").addEventListener("change", renderTournaments);
 
 render();
 </script>

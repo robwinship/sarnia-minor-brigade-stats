@@ -1,4 +1,13 @@
 # Changelog
+## v1.021 - 2026-03-20
+- Added Tournaments tab to the season summary page
+- Tournaments are derived from existing event data (events with "Tournament" in the name)
+- Team filter dropdown auto-populates with only teams that have tournament entries
+- Table shows dates, tournament name, team, and location, sorted chronologically
+
+## v1.02 - 2026-03-18 21:14:00
+- Backup created
+
 ## v1.01 - 2026-03-18 21:06:09
 - Backup created
 
