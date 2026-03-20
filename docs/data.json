@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-20T23:51:57.581842Z",
+  "generated": "2026-03-20T23:54:06.808969Z",
   "teams": [
     {
       "id": 1290,
@@ -967,7 +967,7 @@
           "uid": "MD-3236-sarniabrigade.ca",
           "date": "2026-07-24",
           "end_date": "2026-07-27",
-          "summary": "10U AA OBA Rep - Mississauga Tournament",
+          "summary": "10U AA OBA Rep - Home Tournament",
           "location": "Sarnia, Ontario",
           "type": "tournament"
         },
@@ -1283,8 +1283,128 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 0,
+      "practices": 14,
       "events": [
+        {
+          "uid": "MS-19988-sarniabrigade.ca",
+          "date": "2026-01-24",
+          "end_date": "2026-01-24",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19989-sarniabrigade.ca",
+          "date": "2026-01-31",
+          "end_date": "2026-01-31",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19990-sarniabrigade.ca",
+          "date": "2026-02-07",
+          "end_date": "2026-02-07",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19991-sarniabrigade.ca",
+          "date": "2026-02-14",
+          "end_date": "2026-02-14",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19992-sarniabrigade.ca",
+          "date": "2026-02-21",
+          "end_date": "2026-02-21",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19993-sarniabrigade.ca",
+          "date": "2026-02-28",
+          "end_date": "2026-02-28",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19994-sarniabrigade.ca",
+          "date": "2026-03-07",
+          "end_date": "2026-03-07",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19995-sarniabrigade.ca",
+          "date": "2026-03-14",
+          "end_date": "2026-03-14",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19996-sarniabrigade.ca",
+          "date": "2026-03-21",
+          "end_date": "2026-03-21",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19997-sarniabrigade.ca",
+          "date": "2026-03-28",
+          "end_date": "2026-03-28",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19998-sarniabrigade.ca",
+          "date": "2026-04-04",
+          "end_date": "2026-04-04",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19999-sarniabrigade.ca",
+          "date": "2026-04-11",
+          "end_date": "2026-04-11",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20000-sarniabrigade.ca",
+          "date": "2026-04-18",
+          "end_date": "2026-04-18",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20001-sarniabrigade.ca",
+          "date": "2026-04-25",
+          "end_date": "2026-04-25",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19985-sarniabrigade.ca",
+          "date": "2026-07-29",
+          "end_date": "2026-07-30",
+          "summary": "12U OBA Rep - Game @ Chatham Major Diamonds",
+          "location": "Kinsmen Park Chatham",
+          "type": "game"
+        },
         {
           "uid": "MD-3225-sarniabrigade.ca",
           "date": "2026-05-29",
@@ -1315,6 +1435,14 @@
           "end_date": "2026-07-20",
           "summary": "12U OBA Rep - RIchmond Hill Phoenix Basbeall",
           "location": "1300 Elgin Mills Rd East, Richmond Hill, ON",
+          "type": "tournament"
+        },
+        {
+          "uid": "MD-3298-sarniabrigade.ca",
+          "date": "2026-09-03",
+          "end_date": "2026-09-08",
+          "summary": "12U OBA Rep - OBA AA",
+          "location": "Hamilton",
           "type": "tournament"
         }
       ],
