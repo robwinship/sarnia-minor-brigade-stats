@@ -1,4 +1,18 @@
 # Changelog
+## v1.05 - 2026-03-21
+- Added Budget Model tab with per-event diamond rental costing (day/evening hourly rates for two diamond tiers)
+- Implemented day/evening rate split for diamond rental: 7 AM–7:30 PM (day) and 8 PM–midnight (evening) with 2-hour booking defaults
+- Configured diamond rate tier A (Errol Russell Park, Blackwell Park): $38.18 day / $55.12 evening per hour
+- Configured diamond rate tier B (Clearwater 1/2/3, Germain 1/2/3/4/5, Tecumseh Park): $34.13 day / $51.07 evening per hour
+- Added umpire costing by age tier: 8U/9U ($46), 10U/11U ($51), 12U/13U ($56), 14U+ ($66) per umpire—2 umpires per home game on home diamonds
+- Added insurance costing at $7.60 per person ($7.52 + 1.13% tax) applied to active team roster counts
+- Integrated roster parsing to capture players and adult role counts (Head Coach, Assistant Coach, Coach, Manager) per team
+- Budget model filters apply costs only to home games and practices on approved Sarnia home diamonds; away games and non-configured locations default to $0
+- Date-range filtering available for budget cost projections within season windows
+
+## v1.04 - 2026-03-20 20:57:52
+- Backup created
+
 ## v1.025 - 2026-03-20
 - Added date-range filter controls to Diamond Summary tab (Start Date, End Date, Apply Range, Full Season)
 - Made home-game and practice-event counts expandable/clickable to show event date lists for invoice reconciliation
