@@ -1,4 +1,9 @@
 # Changelog
+## v1.024 - 2026-03-20
+- Updated Diamond Summary to use the official home venue list provided in the CSV (Name column)
+- Added venue-name normalization for reliable matching across case/spacing variations
+- Home-diamond statistics now exclude home-designated games played at non-listed away centers
+
 ## v1.023 - 2026-03-20
 - Added Diamond Summary tab with Team and Diamond filters for Sarnia Brigade teams
 - Changed home diamond tracking to use explicit schedule home-game flags, then map to event locations by team/date

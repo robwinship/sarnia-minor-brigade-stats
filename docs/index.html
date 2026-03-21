@@ -655,7 +655,7 @@
           </select>
         </div>
       </div>
-      <div class="controls-note">Home usage is derived from Sarnia Brigade schedule home flags, then mapped to game-event locations by team/date.</div>
+      <div class="controls-note">Home usage is derived from Sarnia Brigade schedule home flags and counted only at approved Sarnia home-center diamonds.</div>
     </div>
     <div id="diamond-body"></div>
   </div><!-- /view-diamonds -->
@@ -684,6 +684,42 @@ const CATEGORY_ORDER = [
 ];
 
 const PITCH_LOCATION_RE = /pitch indoor sports/i;
+const LOCAL_HOME_DIAMONDS = new Set([
+  "Aamjiwnaang - Maawn Doosh Gumig Community and Youth Centre",
+  "Aamjiwnaang Chipadome Baseball Field",
+  "Alvinston North Diamond",
+  "Alvinston South Diamond",
+  "Blackwell North",
+  "Blackwell Park",
+  "Cameron Park",
+  "Canton Park",
+  "Chippewa Diamond #1",
+  "Chippewa Diamond #2",
+  "Clearwater Diamond #1",
+  "Clearwater Diamond #2",
+  "Clearwater Diamond #3",
+  "Clearwater Diamond #4",
+  "Coronation Park Diamond",
+  "Errol Road Public School",
+  "Errol Russell Park",
+  "Germain Diamond #1",
+  "Germain Diamond #2",
+  "Germain Diamond #3",
+  "Germain Diamond #4",
+  "Germain Diamond #5",
+  "Great Lakes SS",
+  "Lambton College",
+  "Northern Collegiate High School - Gym A",
+  "Oil Springs Youth Centre",
+  "Pitch Indoor Sports",
+  "Point Edward McCrae Park",
+  "Retlaw Park",
+  "Rosedale Public School",
+  "Royal SCITS Academy",
+  "St. Francois Xavier Secondary School",
+  "Suncor Recreation Centre",
+  "Tecumseh Park",
+].map(normalizeVenueName));
 let loadedData = null;
 
 /* ----------------------------------------------------------------
@@ -694,6 +730,10 @@ function escHtml(s) {
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;");
+}
+
+function normalizeVenueName(name) {
+  return String(name || "").toLowerCase().replace(/\s+/g, " ").trim();
 }
 
 function pct(wins, gp) {
@@ -1167,10 +1207,15 @@ function extractHomeDiamondRows(teams) {
         usedEventIndexes.add(bestIdx);
 
         const matchedEvent = eventsOnDate[bestIdx];
+        const diamondName = (matchedEvent.location || "").trim();
+        // Count only true local home-center usage; ignore home-designated games
+        // hosted at away centers where Sarnia is not paying for field/umpires.
+        if (!LOCAL_HOME_DIAMONDS.has(normalizeVenueName(diamondName))) continue;
+
         rows.push({
           team_id: team.id,
           team_name: team.name,
-          diamond: matchedEvent.location.trim(),
+          diamond: diamondName,
           date,
         });
       }
