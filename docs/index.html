@@ -1473,6 +1473,7 @@ function renderDiamondSummary() {
       if (row.usage_type === "practice") found.practice_events.push(row);
     } else {
       grouped.set(key, {
+        team_id: row.team_id,
         team_name: row.team_name,
         diamond: row.diamond,
         home_games: row.usage_type === "home_game" ? 1 : 0,
@@ -1483,38 +1484,98 @@ function renderDiamondSummary() {
     }
   }
 
-  const summaryRows = [...grouped.values()].sort((a, b) => {
-    if (viewMode === "diamond") {
-      const diamondCmp = a.diamond.localeCompare(b.diamond);
-      if (diamondCmp !== 0) return diamondCmp;
-      return a.team_name.localeCompare(b.team_name);
-    }
-    const teamCmp = a.team_name.localeCompare(b.team_name);
-    if (teamCmp !== 0) return teamCmp;
-    return a.diamond.localeCompare(b.diamond);
-  });
-
-  const tableRows = summaryRows.map(r => `
-    <tr>
-      <td>${escHtml(viewMode === "diamond" ? r.diamond : r.team_name)}</td>
-      <td>${escHtml(viewMode === "diamond" ? r.team_name : r.diamond)}</td>
-      <td>${buildExpandableCountCell(r.home_game_events, "Home games")}</td>
-      <td>${buildExpandableCountCell(r.practice_events, "Practices")}</td>
-    </tr>`).join("");
-
   const uniqueTeams = new Set(allRows.map(r => r.team_name)).size;
   const uniqueDiamonds = new Set(allRows.map(r => r.diamond)).size;
   const totalHomeGames = homeRows.length;
   const totalPractices = practiceRows.length;
 
+  if (viewMode === "team") {
+    const teamMetaById = new Map((loadedData.teams ?? []).map((team, index) => [
+      String(team.id),
+      {
+        category: team.category || "Other",
+        team_index: index,
+      },
+    ]));
+
+    const summaryRows = [...grouped.values()].sort((a, b) => {
+      const aMeta = teamMetaById.get(String(a.team_id));
+      const bMeta = teamMetaById.get(String(b.team_id));
+      const aIndex = aMeta?.team_index ?? Number.MAX_SAFE_INTEGER;
+      const bIndex = bMeta?.team_index ?? Number.MAX_SAFE_INTEGER;
+      if (aIndex !== bIndex) return aIndex - bIndex;
+      return a.diamond.localeCompare(b.diamond);
+    });
+
+    const groupedByCategory = {};
+    for (const row of summaryRows) {
+      const meta = teamMetaById.get(String(row.team_id));
+      const category = meta?.category || "Other";
+      (groupedByCategory[category] = groupedByCategory[category] ?? []).push(row);
+    }
+
+    const present = CATEGORY_ORDER.filter(c => groupedByCategory[c]);
+    for (const c of Object.keys(groupedByCategory)) {
+      if (!present.includes(c)) present.push(c);
+    }
+
+    const blocksHtml = present.map(category => {
+      const rows = groupedByCategory[category] ?? [];
+      const categoryRowsHtml = rows.map(r => `
+        <tr>
+          <td class="col-team">${escHtml(r.team_name)}</td>
+          <td class="col-team">${escHtml(r.diamond)}</td>
+          <td>${buildExpandableCountCell(r.home_game_events, "Home games")}</td>
+          <td>${buildExpandableCountCell(r.practice_events, "Practices")}</td>
+        </tr>`).join("");
+
+      return `
+        <div class="cat-block">
+          <div class="cat-header">${escHtml(category)}</div>
+          <table class="stats-table tourn-table" aria-label="${escHtml(category)} home diamond summary">
+            <thead>
+              <tr>
+                <th class="col-team">Team</th>
+                <th class="col-team">Diamond</th>
+                <th>Home Games</th>
+                <th>Practices</th>
+              </tr>
+            </thead>
+            <tbody>${categoryRowsHtml}</tbody>
+          </table>
+        </div>`;
+    }).join("");
+
+    body.innerHTML = `
+      <div class="cat-block">
+        <div class="cat-header">Home Diamond Summary \u2014 ${totalHomeGames} home game${totalHomeGames === 1 ? "" : "s"}, ${totalPractices} practice${totalPractices === 1 ? "" : "s"}, ${uniqueTeams} team${uniqueTeams === 1 ? "" : "s"}, ${uniqueDiamonds} diamond${uniqueDiamonds === 1 ? "" : "s"}</div>
+      </div>
+      ${blocksHtml}`;
+    return;
+  }
+
+  const summaryRows = [...grouped.values()].sort((a, b) => {
+    const diamondCmp = a.diamond.localeCompare(b.diamond);
+    if (diamondCmp !== 0) return diamondCmp;
+    return a.team_name.localeCompare(b.team_name);
+  });
+
+  const tableRows = summaryRows.map(r => `
+    <tr>
+      <td>${escHtml(r.diamond)}</td>
+      <td>${escHtml(r.team_name)}</td>
+      <td>${buildExpandableCountCell(r.home_game_events, "Home games")}</td>
+      <td>${buildExpandableCountCell(r.practice_events, "Practices")}</td>
+    </tr>`).join("");
+
   body.innerHTML = `
     <div class="cat-block">
-      <div class="cat-header">Home Diamond Summary (${viewMode === "diamond" ? "Grouped by Diamond" : "Grouped by Team"}) \u2014 ${totalHomeGames} home game${totalHomeGames === 1 ? "" : "s"}, ${totalPractices} practice${totalPractices === 1 ? "" : "s"}, ${uniqueTeams} team${uniqueTeams === 1 ? "" : "s"}, ${uniqueDiamonds} diamond${uniqueDiamonds === 1 ? "" : "s"}</div>
+      <div class="cat-header">Home Diamond Summary (Grouped by Diamond) \u2014 ${totalHomeGames} home game${totalHomeGames === 1 ? "" : "s"}, ${totalPractices} practice${totalPractices === 1 ? "" : "s"}, ${uniqueTeams} team${uniqueTeams === 1 ? "" : "s"}, ${uniqueDiamonds} diamond${uniqueDiamonds === 1 ? "" : "s"}</div>
       <table class="stats-table tourn-table" aria-label="Home diamond summary">
         <thead>
           <tr>
-            <th class="col-team">${viewMode === "diamond" ? "Diamond" : "Team"}</th>
-            <th class="col-team">${viewMode === "diamond" ? "Team" : "Diamond"}</th>
+            <th class="col-team">Diamond</th>
+            <th class="col-team">Team</th>
             <th>Home Games</th>
             <th>Practices</th>
           </tr>
