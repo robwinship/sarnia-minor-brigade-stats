@@ -1952,42 +1952,62 @@ function renderBudgetModel() {
     total_cost: 0,
   });
 
-  const rowsHtml = rows.map(r => `
-    <tr>
-      <td class="col-team">${escHtml(r.team_name)}</td>
-      <td>-</td>
-      <td>-</td>
-      <td>${r.players}</td>
-      <td>${r.adults}</td>
-      <td class="money-cell">${escHtml(fmtMoney(r.diamond_cost))}</td>
-      <td class="money-cell">${escHtml(fmtMoney(r.umpire_cost))}</td>
-      <td class="money-cell">${escHtml(fmtMoney(r.insurance_cost))}</td>
-      <td class="money-cell budget-total-cell">${escHtml(fmtMoney(r.total_cost))}</td>
-    </tr>`).join("");
+  const groupedByCategory = {};
+  for (const row of rows) {
+    const category = row.category || "Other";
+    (groupedByCategory[category] = groupedByCategory[category] ?? []).push(row);
+  }
+
+  const present = CATEGORY_ORDER.filter(c => groupedByCategory[c]);
+  for (const c of Object.keys(groupedByCategory)) {
+    if (!present.includes(c)) present.push(c);
+  }
+
+  const categoryBlocksHtml = present.map(category => {
+    const catRows = groupedByCategory[category] ?? [];
+    const catRowsHtml = catRows.map(r => `
+      <tr>
+        <td class="col-team">${escHtml(r.team_name)}</td>
+        <td>-</td>
+        <td>-</td>
+        <td>${r.players}</td>
+        <td>${r.adults}</td>
+        <td class="money-cell">${escHtml(fmtMoney(r.diamond_cost))}</td>
+        <td class="money-cell">${escHtml(fmtMoney(r.umpire_cost))}</td>
+        <td class="money-cell">${escHtml(fmtMoney(r.insurance_cost))}</td>
+        <td class="money-cell budget-total-cell">${escHtml(fmtMoney(r.total_cost))}</td>
+      </tr>`).join("");
+
+    return `
+      <div class="cat-block">
+        <div class="cat-header">${escHtml(category)}</div>
+        <table class="stats-table tourn-table" aria-label="${escHtml(category)} budget model">
+          <thead>
+            <tr>
+              <th class="col-team">Team</th>
+              <th>Future Metric 1</th>
+              <th>Future Metric 2</th>
+              <th>Players</th>
+              <th>Adults</th>
+              <th>Diamond Rental</th>
+              <th>Umpires</th>
+              <th>Insurance</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${catRowsHtml}
+          </tbody>
+        </table>
+      </div>`;
+  }).join("");
 
   body.innerHTML = `
     <div class="cat-block">
       <div class="cat-header">Modeled Total: ${escHtml(fmtMoney(totals.total_cost))} (Players: ${totals.players}, Adults: ${totals.adults})</div>
-      <table class="stats-table tourn-table" aria-label="Budget model by team">
-        <thead>
-          <tr>
-            <th class="col-team">Team</th>
-            <th>Future Metric 1</th>
-            <th>Future Metric 2</th>
-            <th>Players</th>
-            <th>Adults</th>
-            <th>Diamond Rental</th>
-            <th>Umpires</th>
-            <th>Insurance</th>
-            <th>Total</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${rowsHtml}
-        </tbody>
-      </table>
       <div class="controls-note" style="margin-top:0.8rem;">Note: placeholder columns are reserved for future budget metrics.</div>
-    </div>`;
+    </div>
+    ${categoryBlocksHtml}`;
 }
 
 function switchTab(tabName) {
