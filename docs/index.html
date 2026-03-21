@@ -557,6 +557,24 @@
     }
 
     .tourn-table td { text-align: left; }
+
+    .budget-input-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0.8rem;
+      margin-top: 0.7rem;
+    }
+
+    .money-cell {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .budget-total-cell {
+      font-weight: 700;
+      color: var(--brand);
+    }
   </style>
 </head>
 <body>
@@ -583,6 +601,7 @@
     <button class="tab-btn" id="tab-tournaments" role="tab" aria-selected="false" aria-controls="view-tournaments">Tournaments</button>
     <button class="tab-btn" id="tab-diamonds" role="tab" aria-selected="false" aria-controls="view-diamonds">Diamond Summary</button>
     <button class="tab-btn" id="tab-playing-today" role="tab" aria-selected="false" aria-controls="view-playing-today">Playing Today</button>
+    <button class="tab-btn" id="tab-budget" role="tab" aria-selected="false" aria-controls="view-budget">Budget Model</button>
   </div>
 
   <div id="view-stats">
@@ -683,6 +702,70 @@
     </div>
     <div id="playing-today-body"></div>
   </div><!-- /view-playing-today -->
+
+  <div id="view-budget" style="display:none">
+    <div class="controls-card" aria-label="Budget model controls">
+      <div class="section-title">Budget Model</div>
+      <div class="controls-note">Costs are estimates. Insurance is charged per roster member annually (default: $7.52 + 1.13% tax = $7.60/person). Diamond rates are hourly with day/evening splits and a 2-hour booking assumption; if time is missing, a 2-hour day rate is used. Only configured home diamonds are priced; others default to $0.</div>
+
+      <div class="controls-row" style="margin-top:0.8rem;">
+        <div class="control-group">
+          <label for="budget-start-date">Start Date</label>
+          <input id="budget-start-date" type="date" />
+        </div>
+        <div class="control-group">
+          <label for="budget-end-date">End Date</label>
+          <input id="budget-end-date" type="date" />
+        </div>
+        <div class="control-actions">
+          <button id="budget-apply-filter" class="page-button page-button--primary" type="button">Apply Range</button>
+          <button id="budget-reset-filter" class="page-button" type="button">Full Season</button>
+        </div>
+      </div>
+
+      <div class="budget-input-grid">
+        <div class="control-group">
+          <label for="cost-dia-a-day">Diamond Day Rate: Errol/Blackwell (CAD/hr)</label>
+          <input id="cost-dia-a-day" type="number" min="0" step="0.01" value="38.18" />
+        </div>
+        <div class="control-group">
+          <label for="cost-dia-a-evening">Diamond Evening Rate: Errol/Blackwell (CAD/hr)</label>
+          <input id="cost-dia-a-evening" type="number" min="0" step="0.01" value="55.12" />
+        </div>
+        <div class="control-group">
+          <label for="cost-dia-b-day">Diamond Day Rate: Clearwater/Germain/Tecumseh (CAD/hr)</label>
+          <input id="cost-dia-b-day" type="number" min="0" step="0.01" value="34.13" />
+        </div>
+        <div class="control-group">
+          <label for="cost-dia-b-evening">Diamond Evening Rate: Clearwater/Germain/Tecumseh (CAD/hr)</label>
+          <input id="cost-dia-b-evening" type="number" min="0" step="0.01" value="51.07" />
+        </div>
+        <div class="control-group">
+          <label for="cost-umpire-8u9u">Umpire Rate: 8U &amp; 9U (CAD)</label>
+          <input id="cost-umpire-8u9u" type="number" min="0" step="0.01" value="46" />
+        </div>
+        <div class="control-group">
+          <label for="cost-umpire-10u11u">Umpire Rate: 10U &amp; 11U (CAD)</label>
+          <input id="cost-umpire-10u11u" type="number" min="0" step="0.01" value="51" />
+        </div>
+        <div class="control-group">
+          <label for="cost-umpire-12u13u">Umpire Rate: 12U &amp; 13U (CAD)</label>
+          <input id="cost-umpire-12u13u" type="number" min="0" step="0.01" value="56" />
+        </div>
+        <div class="control-group">
+          <label for="cost-umpire-14u">Umpire Rate: 14U+ (CAD)</label>
+          <input id="cost-umpire-14u" type="number" min="0" step="0.01" value="66" />
+        </div>
+        <div class="control-group">
+          <label for="cost-ins-person">Insurance per Person (CAD)</label>
+          <input id="cost-ins-person" type="number" min="0" step="0.01" value="7.60" />
+        </div>
+      </div>
+
+      <div class="controls-note" id="budget-range-summary">Showing full season cost model.</div>
+    </div>
+    <div id="budget-body"></div>
+  </div><!-- /view-budget -->
 </main>
 
 <footer>
@@ -708,6 +791,21 @@ const CATEGORY_ORDER = [
 ];
 
 const PITCH_LOCATION_RE = /pitch indoor sports/i;
+const DIAMOND_RATE_GROUP_A = new Set([
+  "Blackwell Park",
+  "Errol Russell Park",
+].map(normalizeVenueName));
+const DIAMOND_RATE_GROUP_B = new Set([
+  "Clearwater Diamond #1",
+  "Clearwater Diamond #2",
+  "Clearwater Diamond #3",
+  "Germain Diamond #1",
+  "Germain Diamond #2",
+  "Germain Diamond #3",
+  "Germain Diamond #4",
+  "Germain Diamond #5",
+  "Tecumseh Park",
+].map(normalizeVenueName));
 const LOCAL_HOME_DIAMONDS = new Set([
   "Aamjiwnaang - Maawn Doosh Gumig Community and Youth Centre",
   "Aamjiwnaang Chipadome Baseball Field",
@@ -1591,26 +1689,264 @@ function renderPlayingToday() {
     </div>`;
 }
 
+/* ----------------------------------------------------------------
+   Budget tab
+---------------------------------------------------------------- */
+function parseCostInput(id) {
+  const raw = Number(document.getElementById(id).value);
+  if (!Number.isFinite(raw) || raw < 0) return 0;
+  return raw;
+}
+
+function fmtMoney(amount) {
+  const n = Number(amount) || 0;
+  return n.toLocaleString("en-CA", {
+    style: "currency",
+    currency: "CAD",
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  });
+}
+
+function getUmpireRatePerGame(teamName, costs) {
+  const m = /^(\d+)U/i.exec(teamName || "");
+  const age = m ? parseInt(m[1], 10) : 0;
+  let ratePerUmpire;
+  if (age <= 9)        ratePerUmpire = costs.umpire8u9u;
+  else if (age <= 11)  ratePerUmpire = costs.umpire10u11u;
+  else if (age <= 13)  ratePerUmpire = costs.umpire12u13u;
+  else                 ratePerUmpire = costs.umpire14u;
+  return ratePerUmpire * 2; // 2 umpires per home game
+}
+
+function parseTimeToMinutes(timeLabel) {
+  const text = String(timeLabel || "").trim().toUpperCase();
+  const m = text.match(/^(\d{1,2})(?::(\d{2}))?\s*([AP]M)$/i);
+  if (!m) return null;
+
+  let hour = Number(m[1]);
+  const minute = Number(m[2] || 0);
+  const ampm = m[3].toUpperCase();
+
+  if (!Number.isFinite(hour) || !Number.isFinite(minute) || minute < 0 || minute > 59) return null;
+  if (hour < 1 || hour > 12) return null;
+
+  if (hour === 12) hour = 0;
+  if (ampm === "PM") hour += 12;
+  return (hour * 60) + minute;
+}
+
+function getDiamondRateTier(locationName) {
+  const normalized = normalizeVenueName(locationName);
+  if (DIAMOND_RATE_GROUP_A.has(normalized)) return "A";
+  if (DIAMOND_RATE_GROUP_B.has(normalized)) return "B";
+  return null;
+}
+
+function isLocalHomeDiamond(locationName) {
+  return LOCAL_HOME_DIAMONDS.has(normalizeVenueName(locationName));
+}
+
+function isBillableHomeGameEvent(event) {
+  if (!event || event.type !== "game" || !event.location) return false;
+  if (!isLocalHomeDiamond(event.location)) return false;
+  return inferGameSideFromSummary(event.summary) !== "away";
+}
+
+function isBillablePracticeEvent(event) {
+  if (!event || event.type !== "practice" || !event.location) return false;
+  return isLocalHomeDiamond(event.location);
+}
+
+function calcDiamondEventCost(event, costs) {
+  const tier = getDiamondRateTier(event?.location || "");
+  if (!tier) return 0;
+
+  const dayRate = tier === "A" ? costs.diamondADay : costs.diamondBDay;
+  const eveningRate = tier === "A" ? costs.diamondAEvening : costs.diamondBEvening;
+  const bookingMinutes = 120;
+
+  const startMinutes = parseTimeToMinutes(extractEventTimeLabel(event));
+  if (startMinutes === null) return dayRate * 2;
+
+  const dayStart = 7 * 60;
+  const dayEnd = (19 * 60) + 30;
+  const eveningStart = dayEnd;
+  const eveningEnd = 24 * 60;
+
+  const bookingStart = Math.max(0, startMinutes);
+  const bookingEnd = Math.min(eveningEnd, bookingStart + bookingMinutes);
+
+  const dayMinutes = Math.max(0, Math.min(bookingEnd, dayEnd) - Math.max(bookingStart, dayStart));
+  const eveningMinutes = Math.max(0, Math.min(bookingEnd, eveningEnd) - Math.max(bookingStart, eveningStart));
+
+  if ((dayMinutes + eveningMinutes) === 0) {
+    return dayRate * 2;
+  }
+
+  return (dayMinutes / 60) * dayRate + (eveningMinutes / 60) * eveningRate;
+}
+
+function buildBudgetRows(teams, startDate, endDate, costs) {
+  const rows = [];
+  for (const team of (teams ?? [])) {
+    const summary = summarizeTeam(team, startDate, endDate);
+    const players = Number(team?.roster?.players) || 0;
+    const adults = Number(team?.roster?.adults) || 0;
+
+    const billableHomeGameEvents = (summary.events ?? []).filter(isBillableHomeGameEvent);
+    const billablePracticeEvents = (summary.events ?? []).filter(isBillablePracticeEvent);
+    const billableDiamondEvents = [...billableHomeGameEvents, ...billablePracticeEvents];
+
+    const diamondCost = billableDiamondEvents.reduce((acc, event) => {
+      return acc + calcDiamondEventCost(event, costs);
+    }, 0);
+    const umpireCost = billableHomeGameEvents.length * getUmpireRatePerGame(team.name, costs);
+    const insuranceCost = (players + adults) * costs.insurancePerPerson;
+    const totalCost = diamondCost + umpireCost + insuranceCost;
+
+    rows.push({
+      team_name: team.name,
+      category: team.category || "Other",
+      home_games: summary.home_games,
+      practices: summary.practices,
+      players,
+      adults,
+      diamond_cost: diamondCost,
+      umpire_cost: umpireCost,
+      insurance_cost: insuranceCost,
+      total_cost: totalCost,
+    });
+  }
+
+  rows.sort((a, b) => {
+    if (b.total_cost !== a.total_cost) return b.total_cost - a.total_cost;
+    return a.team_name.localeCompare(b.team_name);
+  });
+  return rows;
+}
+
+function renderBudgetModel() {
+  if (!loadedData) return;
+
+  const startDate = document.getElementById("budget-start-date").value || null;
+  const endDate = document.getElementById("budget-end-date").value || null;
+  const summary = document.getElementById("budget-range-summary");
+  const body = document.getElementById("budget-body");
+
+  if (startDate && endDate && startDate > endDate) {
+    summary.textContent = "Start date must be on or before the end date.";
+    body.innerHTML = `<div class="no-data-msg">Adjust the date range to view the budget model.</div>`;
+    return;
+  }
+
+  if (startDate || endDate) {
+    summary.textContent = `Showing modeled costs from ${startDate || "season start"} to ${endDate || "season end"}.`;
+  } else {
+    summary.textContent = "Showing full season cost model.";
+  }
+
+  const costs = {
+    diamondADay: parseCostInput("cost-dia-a-day"),
+    diamondAEvening: parseCostInput("cost-dia-a-evening"),
+    diamondBDay: parseCostInput("cost-dia-b-day"),
+    diamondBEvening: parseCostInput("cost-dia-b-evening"),
+    umpire8u9u:     parseCostInput("cost-umpire-8u9u"),
+    umpire10u11u:   parseCostInput("cost-umpire-10u11u"),
+    umpire12u13u:   parseCostInput("cost-umpire-12u13u"),
+    umpire14u:      parseCostInput("cost-umpire-14u"),
+    insurancePerPerson: parseCostInput("cost-ins-person"),
+  };
+
+  const rows = buildBudgetRows(loadedData.teams ?? [], startDate, endDate, costs);
+  if (!rows.length) {
+    body.innerHTML = `<div class="no-data-msg">No team data available for budget calculations.</div>`;
+    return;
+  }
+
+  const totals = rows.reduce((acc, row) => {
+    acc.home_games += row.home_games;
+    acc.practices += row.practices;
+    acc.players += row.players;
+    acc.adults += row.adults;
+    acc.diamond_cost += row.diamond_cost;
+    acc.umpire_cost += row.umpire_cost;
+    acc.insurance_cost += row.insurance_cost;
+    acc.total_cost += row.total_cost;
+    return acc;
+  }, {
+    home_games: 0,
+    practices: 0,
+    players: 0,
+    adults: 0,
+    diamond_cost: 0,
+    umpire_cost: 0,
+    insurance_cost: 0,
+    total_cost: 0,
+  });
+
+  const rowsHtml = rows.map(r => `
+    <tr>
+      <td class="col-team">${escHtml(r.team_name)}</td>
+      <td>${r.home_games}</td>
+      <td>${r.practices}</td>
+      <td>${r.players}</td>
+      <td>${r.adults}</td>
+      <td class="money-cell">${escHtml(fmtMoney(r.diamond_cost))}</td>
+      <td class="money-cell">${escHtml(fmtMoney(r.umpire_cost))}</td>
+      <td class="money-cell">${escHtml(fmtMoney(r.insurance_cost))}</td>
+      <td class="money-cell budget-total-cell">${escHtml(fmtMoney(r.total_cost))}</td>
+    </tr>`).join("");
+
+  body.innerHTML = `
+    <div class="cat-block">
+      <div class="cat-header">Modeled Total: ${escHtml(fmtMoney(totals.total_cost))} (Home Games: ${totals.home_games}, Practices: ${totals.practices}, Players: ${totals.players}, Adults: ${totals.adults})</div>
+      <table class="stats-table tourn-table" aria-label="Budget model by team">
+        <thead>
+          <tr>
+            <th class="col-team">Team</th>
+            <th>Home Games</th>
+            <th>Practices</th>
+            <th>Players</th>
+            <th>Adults</th>
+            <th>Diamond Rental</th>
+            <th>Umpires</th>
+            <th>Insurance</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rowsHtml}
+        </tbody>
+      </table>
+      <div class="controls-note" style="margin-top:0.8rem;">Note: the Home Games count currently reflects the schedule-based home-game total and may be refined in a future update.</div>
+    </div>`;
+}
+
 function switchTab(tabName) {
   const isStats = tabName === "stats";
   const isTournaments = tabName === "tournaments";
   const isDiamonds = tabName === "diamonds";
   const isPlayingToday = tabName === "playing-today";
+  const isBudget = tabName === "budget";
 
   document.getElementById("view-stats").style.display = isStats ? "" : "none";
   document.getElementById("view-tournaments").style.display = isTournaments ? "" : "none";
   document.getElementById("view-diamonds").style.display = isDiamonds ? "" : "none";
   document.getElementById("view-playing-today").style.display = isPlayingToday ? "" : "none";
+  document.getElementById("view-budget").style.display = isBudget ? "" : "none";
 
   document.getElementById("tab-stats").setAttribute("aria-selected", isStats ? "true" : "false");
   document.getElementById("tab-tournaments").setAttribute("aria-selected", isTournaments ? "true" : "false");
   document.getElementById("tab-diamonds").setAttribute("aria-selected", isDiamonds ? "true" : "false");
   document.getElementById("tab-playing-today").setAttribute("aria-selected", isPlayingToday ? "true" : "false");
+  document.getElementById("tab-budget").setAttribute("aria-selected", isBudget ? "true" : "false");
 
   document.getElementById("tab-stats").classList.toggle("tab-btn--active", isStats);
   document.getElementById("tab-tournaments").classList.toggle("tab-btn--active", isTournaments);
   document.getElementById("tab-diamonds").classList.toggle("tab-btn--active", isDiamonds);
   document.getElementById("tab-playing-today").classList.toggle("tab-btn--active", isPlayingToday);
+  document.getElementById("tab-budget").classList.toggle("tab-btn--active", isBudget);
 
   if (isTournaments && loadedData) {
     populateTournamentTeamFilter(loadedData.teams ?? []);
@@ -1622,6 +1958,9 @@ function switchTab(tabName) {
   }
   if (isPlayingToday) {
     renderPlayingToday();
+  }
+  if (isBudget) {
+    renderBudgetModel();
   }
 }
 
@@ -1676,6 +2015,10 @@ async function render(forceRefresh = false) {
     document.getElementById("diamond-start-date").max = maxDate;
     document.getElementById("diamond-end-date").min = minDate;
     document.getElementById("diamond-end-date").max = maxDate;
+    document.getElementById("budget-start-date").min = minDate;
+    document.getElementById("budget-start-date").max = maxDate;
+    document.getElementById("budget-end-date").min = minDate;
+    document.getElementById("budget-end-date").max = maxDate;
 
     loading.style.display = "none";
     grid.style.display    = "block";
@@ -1692,6 +2035,9 @@ async function render(forceRefresh = false) {
     applyFilters();
     if (document.getElementById("tab-playing-today").classList.contains("tab-btn--active")) {
       renderPlayingToday();
+    }
+    if (document.getElementById("tab-budget").classList.contains("tab-btn--active")) {
+      renderBudgetModel();
     }
 
   } catch (err) {
@@ -1719,6 +2065,7 @@ document.getElementById("tab-stats").addEventListener("click", () => switchTab("
 document.getElementById("tab-tournaments").addEventListener("click", () => switchTab("tournaments"));
 document.getElementById("tab-diamonds").addEventListener("click", () => switchTab("diamonds"));
 document.getElementById("tab-playing-today").addEventListener("click", () => switchTab("playing-today"));
+document.getElementById("tab-budget").addEventListener("click", () => switchTab("budget"));
 document.getElementById("tournament-team-filter").addEventListener("change", renderTournaments);
 document.getElementById("diamond-team-filter").addEventListener("change", renderDiamondSummary);
 document.getElementById("diamond-location-filter").addEventListener("change", renderDiamondSummary);
@@ -1729,6 +2076,24 @@ document.getElementById("diamond-reset-filter").addEventListener("click", () => 
   document.getElementById("diamond-end-date").value = "";
   renderDiamondSummary();
 });
+
+document.getElementById("budget-apply-filter").addEventListener("click", renderBudgetModel);
+document.getElementById("budget-reset-filter").addEventListener("click", () => {
+  document.getElementById("budget-start-date").value = "";
+  document.getElementById("budget-end-date").value = "";
+  renderBudgetModel();
+});
+
+document.getElementById("cost-dia-a-day").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-dia-a-evening").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-dia-b-day").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-dia-b-evening").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-umpire-8u9u").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-umpire-10u11u").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-umpire-12u13u").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-umpire-14u").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-ins-person").addEventListener("input", renderBudgetModel);
+
 
 render();
 </script>

@@ -31,6 +31,7 @@ import urllib.request
 BASE_URL     = "https://sarniabrigade.ca"
 ICS_FEED     = BASE_URL + "/webcal.ashx?IDs={team_id}"
 SCHEDULE_URL = BASE_URL + "/Teams/{team_id}/Schedule/?Month={month}&Year={year}"
+COACHES_URL  = BASE_URL + "/Teams/{team_id}/Coaches/"
 
 SEASON_YEAR   = 2026
 SEASON_MONTHS = list(range(4, 10))   # April – September
@@ -324,6 +325,49 @@ def parse_schedule(html: str, month: int, year: int) -> list:
 
     return games
 
+
+def parse_roster_counts(html: str) -> dict:
+    """Parse player and adult role counts from a team Coaches page."""
+    counts = {
+        "players": 0,
+        "adults": 0,
+        "head_coaches": 0,
+        "assistant_coaches": 0,
+        "coaches": 0,
+        "managers": 0,
+    }
+    if not html:
+        return counts
+
+    # Player profile links appear as /Players/<id>/, often duplicated for image/name.
+    player_ids = set(re.findall(r"/Players/(\d+)/", html))
+    counts["players"] = len(player_ids)
+
+    # Roles are listed in the Coaching/Support section above Player Roster.
+    # Restricting to this section avoids over-counting role words from elsewhere.
+    text = _strip_tags(html)
+    sec_m = re.search(r"Coaching Staff(.*?)Player Roster", text, re.IGNORECASE)
+    if sec_m:
+        section = sec_m.group(1)
+    else:
+        section = text
+
+    counts["head_coaches"] = len(re.findall(r"\bHead Coach\b", section, re.IGNORECASE))
+    counts["assistant_coaches"] = len(re.findall(r"\bAssistant Coach\b", section, re.IGNORECASE))
+    counts["managers"] = len(re.findall(r"\bManager\b", section, re.IGNORECASE))
+
+    coach_tokens = len(re.findall(r"\bCoach\b", section, re.IGNORECASE))
+    plain_coach = coach_tokens - counts["head_coaches"] - counts["assistant_coaches"]
+    counts["coaches"] = max(plain_coach, 0)
+
+    counts["adults"] = (
+        counts["head_coaches"]
+        + counts["assistant_coaches"]
+        + counts["coaches"]
+        + counts["managers"]
+    )
+    return counts
+
 # ---------------------------------------------------------------------------
 # Per-team collection
 # ---------------------------------------------------------------------------
@@ -340,6 +384,14 @@ def collect_team(team: dict) -> dict:
         "runs_for":     0,
         "runs_against": 0,
         "practices":    0,
+        "roster": {
+            "players": 0,
+            "adults": 0,
+            "head_coaches": 0,
+            "assistant_coaches": 0,
+            "coaches": 0,
+            "managers": 0,
+        },
         "events":       [],
         "games":        [],
     }
@@ -349,6 +401,11 @@ def collect_team(team: dict) -> dict:
     ics_text = fetch(ICS_FEED.format(team_id=team["id"]))
     out["events"] = parse_ics_events(ics_text)
     out["practices"] = sum(1 for event in out["events"] if event["type"] == "practice")
+
+    # -- Roster / personnel counts for insurance costing --------------------
+    print(f"  ROSTER {team['name']} (id={team['id']}) …")
+    coaches_html = fetch(COACHES_URL.format(team_id=team["id"]))
+    out["roster"] = parse_roster_counts(coaches_html)
 
     # -- Game results via schedule HTML (month by month) --------------------
     for month in SEASON_MONTHS:

@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-21T19:23:07.779233Z",
+  "generated": "2026-03-21T19:59:37.094464Z",
   "teams": [
     {
       "id": 1290,
@@ -15,6 +15,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 7,
+      "roster": {
+        "players": 12,
+        "adults": 1,
+        "head_coaches": 1,
+        "assistant_coaches": 0,
+        "coaches": 0,
+        "managers": 0
+      },
       "events": [
         {
           "uid": "MS-19947-sarniabrigade.ca",
@@ -93,6 +101,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 35,
+      "roster": {
+        "players": 12,
+        "adults": 5,
+        "head_coaches": 1,
+        "assistant_coaches": 0,
+        "coaches": 3,
+        "managers": 1
+      },
       "events": [
         {
           "uid": "MS-19869-sarniabrigade.ca",
@@ -589,6 +605,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 42,
+      "roster": {
+        "players": 13,
+        "adults": 2,
+        "head_coaches": 1,
+        "assistant_coaches": 0,
+        "coaches": 0,
+        "managers": 1
+      },
       "events": [
         {
           "uid": "MS-19633-sarniabrigade.ca",
@@ -1208,6 +1232,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 8,
+      "roster": {
+        "players": 13,
+        "adults": 6,
+        "head_coaches": 1,
+        "assistant_coaches": 0,
+        "coaches": 4,
+        "managers": 1
+      },
       "events": [
         {
           "uid": "MS-19920-sarniabrigade.ca",
@@ -1322,6 +1354,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 10,
+      "roster": {
+        "players": 12,
+        "adults": 7,
+        "head_coaches": 0,
+        "assistant_coaches": 4,
+        "coaches": 2,
+        "managers": 1
+      },
       "events": [
         {
           "uid": "MS-19614-sarniabrigade.ca",
@@ -1463,6 +1503,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 14,
+      "roster": {
+        "players": 13,
+        "adults": 7,
+        "head_coaches": 1,
+        "assistant_coaches": 0,
+        "coaches": 4,
+        "managers": 2
+      },
       "events": [
         {
           "uid": "MS-19988-sarniabrigade.ca",
@@ -1670,6 +1718,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 0,
+      "roster": {
+        "players": 13,
+        "adults": 4,
+        "head_coaches": 1,
+        "assistant_coaches": 0,
+        "coaches": 3,
+        "managers": 0
+      },
       "events": [
         {
           "uid": "MS-19717-sarniabrigade.ca",
@@ -1793,6 +1849,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 0,
+      "roster": {
+        "players": 14,
+        "adults": 2,
+        "head_coaches": 1,
+        "assistant_coaches": 0,
+        "coaches": 0,
+        "managers": 1
+      },
       "events": [
         {
           "uid": "MD-3281-sarniabrigade.ca",
@@ -1844,6 +1908,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 69,
+      "roster": {
+        "players": 14,
+        "adults": 5,
+        "head_coaches": 1,
+        "assistant_coaches": 0,
+        "coaches": 4,
+        "managers": 0
+      },
       "events": [
         {
           "uid": "MS-19684-sarniabrigade.ca",
@@ -2717,6 +2789,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 7,
+      "roster": {
+        "players": 12,
+        "adults": 4,
+        "head_coaches": 0,
+        "assistant_coaches": 3,
+        "coaches": 1,
+        "managers": 0
+      },
       "events": [
         {
           "uid": "MS-19626-sarniabrigade.ca",
@@ -2804,6 +2884,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 4,
+      "roster": {
+        "players": 12,
+        "adults": 2,
+        "head_coaches": 1,
+        "assistant_coaches": 0,
+        "coaches": 1,
+        "managers": 0
+      },
       "events": [
         {
           "uid": "MS-19822-sarniabrigade.ca",
@@ -2855,6 +2943,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 42,
+      "roster": {
+        "players": 12,
+        "adults": 4,
+        "head_coaches": 1,
+        "assistant_coaches": 0,
+        "coaches": 3,
+        "managers": 0
+      },
       "events": [
         {
           "uid": "MS-19827-sarniabrigade.ca",
@@ -3314,6 +3410,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 0,
+      "roster": {
+        "players": 12,
+        "adults": 7,
+        "head_coaches": 1,
+        "assistant_coaches": 0,
+        "coaches": 5,
+        "managers": 1
+      },
       "events": [],
       "games": []
     },
@@ -3328,6 +3432,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 0,
+      "roster": {
+        "players": 0,
+        "adults": 1,
+        "head_coaches": 0,
+        "assistant_coaches": 0,
+        "coaches": 1,
+        "managers": 0
+      },
       "events": [],
       "games": []
     },
@@ -3342,6 +3454,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 0,
+      "roster": {
+        "players": 0,
+        "adults": 1,
+        "head_coaches": 0,
+        "assistant_coaches": 0,
+        "coaches": 1,
+        "managers": 0
+      },
       "events": [],
       "games": []
     },
@@ -3356,6 +3476,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 0,
+      "roster": {
+        "players": 0,
+        "adults": 2,
+        "head_coaches": 2,
+        "assistant_coaches": 0,
+        "coaches": 0,
+        "managers": 0
+      },
       "events": [],
       "games": []
     },
@@ -3370,6 +3498,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 0,
+      "roster": {
+        "players": 0,
+        "adults": 1,
+        "head_coaches": 0,
+        "assistant_coaches": 0,
+        "coaches": 1,
+        "managers": 0
+      },
       "events": [],
       "games": []
     },
@@ -3384,6 +3520,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 0,
+      "roster": {
+        "players": 14,
+        "adults": 1,
+        "head_coaches": 1,
+        "assistant_coaches": 0,
+        "coaches": 0,
+        "managers": 0
+      },
       "events": [],
       "games": []
     },
@@ -3398,6 +3542,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 0,
+      "roster": {
+        "players": 15,
+        "adults": 6,
+        "head_coaches": 1,
+        "assistant_coaches": 0,
+        "coaches": 5,
+        "managers": 0
+      },
       "events": [
         {
           "uid": "MS-19738-sarniabrigade.ca",
@@ -4110,6 +4262,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 0,
+      "roster": {
+        "players": 0,
+        "adults": 1,
+        "head_coaches": 0,
+        "assistant_coaches": 0,
+        "coaches": 1,
+        "managers": 0
+      },
       "events": [],
       "games": []
     },
@@ -4124,6 +4284,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 0,
+      "roster": {
+        "players": 0,
+        "adults": 1,
+        "head_coaches": 0,
+        "assistant_coaches": 0,
+        "coaches": 1,
+        "managers": 0
+      },
       "events": [],
       "games": []
     },
@@ -4138,6 +4306,14 @@
       "runs_for": 0,
       "runs_against": 0,
       "practices": 0,
+      "roster": {
+        "players": 0,
+        "adults": 1,
+        "head_coaches": 0,
+        "assistant_coaches": 0,
+        "coaches": 1,
+        "managers": 0
+      },
       "events": [],
       "games": []
     }
