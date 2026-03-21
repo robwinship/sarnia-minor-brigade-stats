@@ -20,7 +20,7 @@ NOTE: Score parsing uses regex against the MBSportsWeb HTML structure.
 import json
 import re
 import sys
-from datetime import datetime, date
+from datetime import datetime, date, timezone
 from pathlib import Path
 import urllib.request
 
@@ -109,27 +109,40 @@ def classify_event(summary: str) -> str:
 
 
 def parse_ics_start(raw_dt: str):
-    """Return (YYYY-MM-DD, h:mm AM/PM) from DTSTART-like values."""
+    """Return (YYYY-MM-DD, h:mm AM/PM) from DTSTART-like values.
+
+    DTSTART values ending in 'Z' are UTC; convert to local machine time
+    (the scraper runs in the Eastern timezone alongside the rest of the app).
+    Values without 'Z' are treated as already in local time.
+    """
     raw = (raw_dt or "").strip()
     date_m = re.match(r"^(\d{4})(\d{2})(\d{2})", raw)
     if not date_m:
         return None, None
 
-    y, m, d = date_m.groups()
-    date_text = f"{y}-{m}-{d}"
+    y, mo, d = date_m.groups()
 
-    # All-day events only contain YYYYMMDD.
-    time_m = re.search(r"T(\d{2})(\d{2})(\d{2})", raw)
+    # All-day events only contain YYYYMMDD (no time component).
+    time_m = re.search(r"T(\d{2})(\d{2})(\d{2})(Z?)", raw)
     if not time_m:
-        return date_text, None
+        return f"{y}-{mo}-{d}", None
 
-    hh = int(time_m.group(1))
-    mm = int(time_m.group(2))
-    suffix = "AM" if hh < 12 else "PM"
-    hour12 = hh % 12
-    if hour12 == 0:
-        hour12 = 12
-    return date_text, f"{hour12}:{mm:02d} {suffix}"
+    hh, mm = int(time_m.group(1)), int(time_m.group(2))
+    is_utc = time_m.group(4) == "Z"
+
+    if is_utc:
+        # Convert UTC → local time so displayed times match Eastern clocks.
+        dt_utc = datetime(int(y), int(mo), int(d), hh, mm, tzinfo=timezone.utc)
+        dt_local = dt_utc.astimezone()          # uses the OS timezone (Eastern)
+        date_text = dt_local.date().isoformat()
+        lh, lm = dt_local.hour, dt_local.minute
+    else:
+        date_text = f"{y}-{mo}-{d}"
+        lh, lm = hh, mm
+
+    suffix = "AM" if lh < 12 else "PM"
+    hour12 = lh % 12 or 12
+    return date_text, f"{hour12}:{lm:02d} {suffix}"
 
 
 def parse_ics_events(text: str) -> list:
@@ -201,8 +214,9 @@ RESULT_RE = re.compile(
 # Bare score without explicit result label (fallback)
 SCORE_RE = re.compile(r"\b(\d{1,2})\s*[-\u2013]\s*(\d{1,2})\b")
 
-VS_RE = re.compile(r"\bvs\.?\s+([A-Za-z][A-Za-z0-9 .'\-]{1,45})", re.IGNORECASE)
-AT_RE = re.compile(r"@\s+([A-Za-z][A-Za-z0-9 .'\-]{1,45})", re.IGNORECASE)
+VS_RE   = re.compile(r"\bvs\.?\s+([A-Za-z][A-Za-z0-9 .'\-]{1,45})", re.IGNORECASE)
+AT_RE   = re.compile(r"@\s+([A-Za-z][A-Za-z0-9 .'\-]{1,45})", re.IGNORECASE)
+TIME_RE = re.compile(r"\b(\d{1,2}:\d{2})\s*(AM|PM)\b", re.IGNORECASE)
 
 
 def _strip_tags(html: str) -> str:
@@ -290,10 +304,17 @@ def parse_schedule(html: str, month: int, year: int) -> list:
             except ValueError:
                 game_date = None
 
+        # Schedule pages display times in local Eastern time already.
+        sched_time = None
+        tm = TIME_RE.search(text)
+        if tm:
+            sched_time = f"{tm.group(1)} {tm.group(2).upper()}"
+
         games.append({
             "game_id":      game_id,
             "href":         BASE_URL + game_href,
             "date":         game_date,
+            "start_time":   sched_time,
             "opponent":     opponent,
             "home":         is_home,
             "result":       result,
@@ -380,7 +401,7 @@ def main():
         "season":    SEASON_YEAR,
         "season_start": f"{SEASON_YEAR}-01-01",
         "season_end": f"{SEASON_YEAR}-12-31",
-        "generated": datetime.utcnow().isoformat() + "Z",
+        "generated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "teams":     results,
     }
 
