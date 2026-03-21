@@ -1820,7 +1820,12 @@ function buildBudgetRows(teams, startDate, endDate, costs) {
   }
 
   rows.sort((a, b) => {
-    if (b.total_cost !== a.total_cost) return b.total_cost - a.total_cost;
+    const catIndexA = CATEGORY_ORDER.indexOf(a.category);
+    const catIndexB = CATEGORY_ORDER.indexOf(b.category);
+    const catA = catIndexA !== -1 ? catIndexA : CATEGORY_ORDER.length;
+    const catB = catIndexB !== -1 ? catIndexB : CATEGORY_ORDER.length;
+    
+    if (catA !== catB) return catA - catB;
     return a.team_name.localeCompare(b.team_name);
   });
   return rows;
