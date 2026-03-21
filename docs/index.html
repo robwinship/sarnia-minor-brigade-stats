@@ -636,6 +636,14 @@
     <div class="controls-card" aria-label="Diamond summary filters">
       <div class="controls-row">
         <div class="control-group">
+          <label for="diamond-start-date">Start Date</label>
+          <input id="diamond-start-date" type="date" />
+        </div>
+        <div class="control-group">
+          <label for="diamond-end-date">End Date</label>
+          <input id="diamond-end-date" type="date" />
+        </div>
+        <div class="control-group">
           <label for="diamond-team-filter">Filter by Team</label>
           <select id="diamond-team-filter">
             <option value="">All Teams</option>
@@ -654,8 +662,13 @@
             <option value="diamond">Grouped by Diamond</option>
           </select>
         </div>
+        <div class="control-actions">
+          <button id="diamond-apply-filter" class="page-button page-button--primary" type="button">Apply Range</button>
+          <button id="diamond-reset-filter" class="page-button" type="button">Full Season</button>
+        </div>
       </div>
-      <div class="controls-note">Home usage is derived from Sarnia Brigade schedule home flags and counted only at approved Sarnia home-center diamonds.</div>
+      <div class="controls-note" id="diamond-range-summary">Showing full season totals.</div>
+      <div class="controls-note">Home usage counts Home Games (from schedule home flags) and Practices (from calendar practice events), limited to approved Sarnia home-center diamonds.</div>
     </div>
     <div id="diamond-body"></div>
   </div><!-- /view-diamonds -->
@@ -1217,6 +1230,8 @@ function extractHomeDiamondRows(teams) {
           team_name: team.name,
           diamond: diamondName,
           date,
+          summary: game.opponent ? `Home game vs ${game.opponent}` : "Home game",
+          location: diamondName,
         });
       }
     }
@@ -1225,8 +1240,33 @@ function extractHomeDiamondRows(teams) {
   return rows;
 }
 
+function extractPracticeDiamondRows(teams) {
+  const rows = [];
+  for (const team of (teams ?? [])) {
+    for (const event of (team.events ?? [])) {
+      if (event.type !== "practice") continue;
+      const diamondName = (event.location || "").trim();
+      if (!diamondName) continue;
+      if (!LOCAL_HOME_DIAMONDS.has(normalizeVenueName(diamondName))) continue;
+
+      rows.push({
+        team_id: team.id,
+        team_name: team.name,
+        diamond: diamondName,
+        date: event.date || "",
+        summary: event.summary || "Practice",
+        location: diamondName,
+      });
+    }
+  }
+  return rows;
+}
+
 function populateDiamondFilters(teams) {
-  const allRows = extractHomeDiamondRows(teams);
+  const allRows = [
+    ...extractHomeDiamondRows(teams),
+    ...extractPracticeDiamondRows(teams),
+  ];
   const teamSelect = document.getElementById("diamond-team-filter");
   const diamondSelect = document.getElementById("diamond-location-filter");
   const teamCurrent = teamSelect.value;
@@ -1264,38 +1304,73 @@ function populateDiamondFilters(teams) {
 
 function renderDiamondSummary() {
   if (!loadedData) return;
+  const rangeSummary = document.getElementById("diamond-range-summary");
+  const startDate = document.getElementById("diamond-start-date").value || null;
+  const endDate = document.getElementById("diamond-end-date").value || null;
   const teamFilter = document.getElementById("diamond-team-filter").value;
   const diamondFilter = document.getElementById("diamond-location-filter").value;
   const viewMode = document.getElementById("diamond-view-mode").value;
-  let rows = extractHomeDiamondRows(loadedData.teams ?? []);
 
-  if (teamFilter) rows = rows.filter(r => String(r.team_id) === teamFilter);
-  if (diamondFilter) rows = rows.filter(r => r.diamond === diamondFilter);
+  if (startDate && endDate && startDate > endDate) {
+    rangeSummary.textContent = "Start date must be on or before the end date.";
+    document.getElementById("diamond-body").innerHTML = `<div class="no-data-msg">Adjust the date range to view Diamond Summary usage.</div>`;
+    return;
+  }
+
+  if (startDate || endDate) {
+    rangeSummary.textContent = `Showing usage from ${startDate || "season start"} to ${endDate || "season end"}.`;
+  } else {
+    rangeSummary.textContent = "Showing full season totals.";
+  }
+
+  let homeRows = extractHomeDiamondRows(loadedData.teams ?? []);
+  let practiceRows = extractPracticeDiamondRows(loadedData.teams ?? []);
+
+  if (startDate || endDate) {
+    homeRows = homeRows.filter(r => inRange(r.date, startDate, endDate));
+    practiceRows = practiceRows.filter(r => inRange(r.date, startDate, endDate));
+  }
+
+  if (teamFilter) {
+    homeRows = homeRows.filter(r => String(r.team_id) === teamFilter);
+    practiceRows = practiceRows.filter(r => String(r.team_id) === teamFilter);
+  }
+  if (diamondFilter) {
+    homeRows = homeRows.filter(r => r.diamond === diamondFilter);
+    practiceRows = practiceRows.filter(r => r.diamond === diamondFilter);
+  }
 
   const body = document.getElementById("diamond-body");
-  if (!rows.length) {
+  if (!homeRows.length && !practiceRows.length) {
     body.innerHTML = `<div class="no-data-msg">No home diamond records found for the selected filters.</div>`;
     return;
   }
 
   const grouped = new Map();
-  for (const row of rows) {
+  const allRows = [
+    ...homeRows.map(row => ({ ...row, usage_type: "home_game" })),
+    ...practiceRows.map(row => ({ ...row, usage_type: "practice" })),
+  ];
+
+  for (const row of allRows) {
     const key = viewMode === "diamond"
       ? `${row.diamond}|||${row.team_name}`
       : `${row.team_name}|||${row.diamond}`;
 
     const found = grouped.get(key);
     if (found) {
-      found.count += 1;
-      if (row.date && (!found.first_date || row.date < found.first_date)) found.first_date = row.date;
-      if (row.date && (!found.last_date || row.date > found.last_date)) found.last_date = row.date;
+      if (row.usage_type === "home_game") found.home_games += 1;
+      if (row.usage_type === "practice") found.practices += 1;
+      if (row.usage_type === "home_game") found.home_game_events.push(row);
+      if (row.usage_type === "practice") found.practice_events.push(row);
     } else {
       grouped.set(key, {
         team_name: row.team_name,
         diamond: row.diamond,
-        count: 1,
-        first_date: row.date || "",
-        last_date: row.date || "",
+        home_games: row.usage_type === "home_game" ? 1 : 0,
+        practices: row.usage_type === "practice" ? 1 : 0,
+        home_game_events: row.usage_type === "home_game" ? [row] : [],
+        practice_events: row.usage_type === "practice" ? [row] : [],
       });
     }
   }
@@ -1315,25 +1390,25 @@ function renderDiamondSummary() {
     <tr>
       <td>${escHtml(viewMode === "diamond" ? r.diamond : r.team_name)}</td>
       <td>${escHtml(viewMode === "diamond" ? r.team_name : r.diamond)}</td>
-      <td>${r.count}</td>
-      <td>${escHtml(r.first_date || "n/a")}</td>
-      <td>${escHtml(r.last_date || "n/a")}</td>
+      <td>${buildExpandableCountCell(r.home_game_events, "Home games")}</td>
+      <td>${buildExpandableCountCell(r.practice_events, "Practices")}</td>
     </tr>`).join("");
 
-  const uniqueTeams = new Set(rows.map(r => r.team_name)).size;
-  const uniqueDiamonds = new Set(rows.map(r => r.diamond)).size;
+  const uniqueTeams = new Set(allRows.map(r => r.team_name)).size;
+  const uniqueDiamonds = new Set(allRows.map(r => r.diamond)).size;
+  const totalHomeGames = homeRows.length;
+  const totalPractices = practiceRows.length;
 
   body.innerHTML = `
     <div class="cat-block">
-      <div class="cat-header">Home Diamond Summary (${viewMode === "diamond" ? "Grouped by Diamond" : "Grouped by Team"}) \u2014 ${rows.length} home game event${rows.length === 1 ? "" : "s"}, ${uniqueTeams} team${uniqueTeams === 1 ? "" : "s"}, ${uniqueDiamonds} diamond${uniqueDiamonds === 1 ? "" : "s"}</div>
+      <div class="cat-header">Home Diamond Summary (${viewMode === "diamond" ? "Grouped by Diamond" : "Grouped by Team"}) \u2014 ${totalHomeGames} home game${totalHomeGames === 1 ? "" : "s"}, ${totalPractices} practice${totalPractices === 1 ? "" : "s"}, ${uniqueTeams} team${uniqueTeams === 1 ? "" : "s"}, ${uniqueDiamonds} diamond${uniqueDiamonds === 1 ? "" : "s"}</div>
       <table class="stats-table tourn-table" aria-label="Home diamond summary">
         <thead>
           <tr>
             <th class="col-team">${viewMode === "diamond" ? "Diamond" : "Team"}</th>
             <th class="col-team">${viewMode === "diamond" ? "Team" : "Diamond"}</th>
             <th>Home Games</th>
-            <th>First Date</th>
-            <th>Last Date</th>
+            <th>Practices</th>
           </tr>
         </thead>
         <tbody>${tableRows}</tbody>
@@ -1406,6 +1481,8 @@ async function render(forceRefresh = false) {
 
     document.getElementById("start-date").value = "";
     document.getElementById("end-date").value = "";
+    document.getElementById("diamond-start-date").value = "";
+    document.getElementById("diamond-end-date").value = "";
 
     const minDate = data.season_start || `${season}-01-01`;
     const maxDate = data.season_end || `${season}-12-31`;
@@ -1413,6 +1490,10 @@ async function render(forceRefresh = false) {
     document.getElementById("start-date").max = maxDate;
     document.getElementById("end-date").min = minDate;
     document.getElementById("end-date").max = maxDate;
+    document.getElementById("diamond-start-date").min = minDate;
+    document.getElementById("diamond-start-date").max = maxDate;
+    document.getElementById("diamond-end-date").min = minDate;
+    document.getElementById("diamond-end-date").max = maxDate;
 
     loading.style.display = "none";
     grid.style.display    = "block";
@@ -1453,6 +1534,12 @@ document.getElementById("tournament-team-filter").addEventListener("change", ren
 document.getElementById("diamond-team-filter").addEventListener("change", renderDiamondSummary);
 document.getElementById("diamond-location-filter").addEventListener("change", renderDiamondSummary);
 document.getElementById("diamond-view-mode").addEventListener("change", renderDiamondSummary);
+document.getElementById("diamond-apply-filter").addEventListener("click", renderDiamondSummary);
+document.getElementById("diamond-reset-filter").addEventListener("click", () => {
+  document.getElementById("diamond-start-date").value = "";
+  document.getElementById("diamond-end-date").value = "";
+  renderDiamondSummary();
+});
 
 render();
 </script>

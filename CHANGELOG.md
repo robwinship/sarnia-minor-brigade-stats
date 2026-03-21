@@ -1,4 +1,10 @@
 # Changelog
+## v1.025 - 2026-03-20
+- Added date-range filter controls to Diamond Summary tab (Start Date, End Date, Apply Range, Full Season)
+- Made home-game and practice-event counts expandable/clickable to show event date lists for invoice reconciliation
+- Removed First Date and Last Date columns from Diamond Summary table—date filtering now handled by range controls
+- Diamond Summary now tracks individual event objects to enable drill-down detail views
+
 ## v1.024 - 2026-03-20
 - Updated Diamond Summary to use the official home venue list provided in the CSV (Name column)
 - Added venue-name normalization for reliable matching across case/spacing variations
