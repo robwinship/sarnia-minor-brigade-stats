@@ -1,4 +1,9 @@
 # Changelog
+## v1.023 - 2026-03-20
+- Added Diamond Summary tab with Team and Diamond filters for Sarnia Brigade teams
+- Changed home diamond tracking to use explicit schedule home-game flags, then map to event locations by team/date
+- Added second Diamond Summary view mode grouped by Diamond (in addition to grouped by Team)
+
 ## v1.022 - 2026-03-20
 - Fixed tournament detection in scraper: events with a /Tournaments/ URL in their ICS DESCRIPTION are now classified as type "tournament" regardless of summary text
 - Fixed frontend tournament tab to match on type="tournament" in addition to the "tournament" keyword, so events like "Great Lakes World Series" and "PBLO 16u Championship" appear correctly

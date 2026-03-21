@@ -581,6 +581,7 @@
   <div class="tab-bar" role="tablist">
     <button class="tab-btn tab-btn--active" id="tab-stats" role="tab" aria-selected="true" aria-controls="view-stats">Season Stats</button>
     <button class="tab-btn" id="tab-tournaments" role="tab" aria-selected="false" aria-controls="view-tournaments">Tournaments</button>
+    <button class="tab-btn" id="tab-diamonds" role="tab" aria-selected="false" aria-controls="view-diamonds">Diamond Summary</button>
   </div>
 
   <div id="view-stats">
@@ -630,6 +631,34 @@
     </div>
     <div id="tournament-body"></div>
   </div><!-- /view-tournaments -->
+
+  <div id="view-diamonds" style="display:none">
+    <div class="controls-card" aria-label="Diamond summary filters">
+      <div class="controls-row">
+        <div class="control-group">
+          <label for="diamond-team-filter">Filter by Team</label>
+          <select id="diamond-team-filter">
+            <option value="">All Teams</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="diamond-location-filter">Filter by Diamond</label>
+          <select id="diamond-location-filter">
+            <option value="">All Diamonds</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="diamond-view-mode">View</label>
+          <select id="diamond-view-mode">
+            <option value="team">Grouped by Team</option>
+            <option value="diamond">Grouped by Diamond</option>
+          </select>
+        </div>
+      </div>
+      <div class="controls-note">Home usage is derived from Sarnia Brigade schedule home flags, then mapped to game-event locations by team/date.</div>
+    </div>
+    <div id="diamond-body"></div>
+  </div><!-- /view-diamonds -->
 </main>
 
 <footer>
@@ -1019,7 +1048,7 @@ function populateTournamentTeamFilter(teams) {
   const current = sel.value;
   while (sel.options.length > 1) sel.remove(1);
   const teamsWithTournaments = teams.filter(t =>
-    (t.events ?? []).some(e => /tournament/i.test(e.summary || ""))
+    (t.events ?? []).some(e => e.type === "tournament" || /tournament/i.test(e.summary || ""))
   );
   for (const t of teamsWithTournaments) {
     const opt = document.createElement("option");
@@ -1067,17 +1096,230 @@ function renderTournaments() {
     </div>`;
 }
 
+/* ----------------------------------------------------------------
+   Diamond Summary tab
+---------------------------------------------------------------- */
+function tokenizeMatchText(text) {
+  const stopWords = new Set([
+    "game", "vs", "at", "dh", "doubleheader", "diamond", "park", "field",
+    "baseball", "club", "league", "team", "minor", "major"
+  ]);
+  return String(text || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]+/g, " ")
+    .split(/\s+/)
+    .filter(token => token.length >= 3 && !stopWords.has(token));
+}
+
+function scoreOpponentMatch(gameOpponent, eventSummary) {
+  const gTokens = tokenizeMatchText(gameOpponent);
+  const eTokens = new Set(tokenizeMatchText(eventSummary));
+  let score = 0;
+  for (const token of gTokens) {
+    if (eTokens.has(token)) score += 1;
+  }
+  return score;
+}
+
+function extractHomeDiamondRows(teams) {
+  const rows = [];
+
+  for (const team of (teams ?? [])) {
+    const events = (team.events ?? []).filter(event =>
+      event.type === "game" && !!(event.location || "").trim() && !!event.date
+    );
+
+    const eventsByDate = new Map();
+    for (const event of events) {
+      const arr = eventsByDate.get(event.date) || [];
+      arr.push(event);
+      eventsByDate.set(event.date, arr);
+    }
+
+    const homeGames = (team.games ?? []).filter(game => game.home === true && !!game.date);
+    const homeByDate = new Map();
+    for (const game of homeGames) {
+      const arr = homeByDate.get(game.date) || [];
+      arr.push(game);
+      homeByDate.set(game.date, arr);
+    }
+
+    for (const [date, gamesOnDate] of homeByDate.entries()) {
+      const eventsOnDate = eventsByDate.get(date) || [];
+      if (!eventsOnDate.length) continue;
+
+      const usedEventIndexes = new Set();
+      for (const game of gamesOnDate) {
+        let bestIdx = -1;
+        let bestScore = -1;
+
+        for (let i = 0; i < eventsOnDate.length; i += 1) {
+          if (usedEventIndexes.has(i)) continue;
+          const event = eventsOnDate[i];
+          const score = scoreOpponentMatch(game.opponent || "", event.summary || "");
+          if (score > bestScore) {
+            bestScore = score;
+            bestIdx = i;
+          }
+        }
+
+        if (bestIdx === -1) continue;
+        usedEventIndexes.add(bestIdx);
+
+        const matchedEvent = eventsOnDate[bestIdx];
+        rows.push({
+          team_id: team.id,
+          team_name: team.name,
+          diamond: matchedEvent.location.trim(),
+          date,
+        });
+      }
+    }
+  }
+
+  return rows;
+}
+
+function populateDiamondFilters(teams) {
+  const allRows = extractHomeDiamondRows(teams);
+  const teamSelect = document.getElementById("diamond-team-filter");
+  const diamondSelect = document.getElementById("diamond-location-filter");
+  const teamCurrent = teamSelect.value;
+  const diamondCurrent = diamondSelect.value;
+
+  while (teamSelect.options.length > 1) teamSelect.remove(1);
+  while (diamondSelect.options.length > 1) diamondSelect.remove(1);
+
+  const teamsSeen = new Map();
+  const diamondsSeen = new Set();
+  for (const row of allRows) {
+    teamsSeen.set(String(row.team_id), row.team_name);
+    diamondsSeen.add(row.diamond);
+  }
+
+  const sortedTeams = [...teamsSeen.entries()].sort((a, b) => a[1].localeCompare(b[1]));
+  for (const [id, name] of sortedTeams) {
+    const opt = document.createElement("option");
+    opt.value = id;
+    opt.textContent = name;
+    teamSelect.appendChild(opt);
+  }
+
+  const sortedDiamonds = [...diamondsSeen].sort((a, b) => a.localeCompare(b));
+  for (const diamond of sortedDiamonds) {
+    const opt = document.createElement("option");
+    opt.value = diamond;
+    opt.textContent = diamond;
+    diamondSelect.appendChild(opt);
+  }
+
+  if (teamCurrent && teamsSeen.has(teamCurrent)) teamSelect.value = teamCurrent;
+  if (diamondCurrent && diamondsSeen.has(diamondCurrent)) diamondSelect.value = diamondCurrent;
+}
+
+function renderDiamondSummary() {
+  if (!loadedData) return;
+  const teamFilter = document.getElementById("diamond-team-filter").value;
+  const diamondFilter = document.getElementById("diamond-location-filter").value;
+  const viewMode = document.getElementById("diamond-view-mode").value;
+  let rows = extractHomeDiamondRows(loadedData.teams ?? []);
+
+  if (teamFilter) rows = rows.filter(r => String(r.team_id) === teamFilter);
+  if (diamondFilter) rows = rows.filter(r => r.diamond === diamondFilter);
+
+  const body = document.getElementById("diamond-body");
+  if (!rows.length) {
+    body.innerHTML = `<div class="no-data-msg">No home diamond records found for the selected filters.</div>`;
+    return;
+  }
+
+  const grouped = new Map();
+  for (const row of rows) {
+    const key = viewMode === "diamond"
+      ? `${row.diamond}|||${row.team_name}`
+      : `${row.team_name}|||${row.diamond}`;
+
+    const found = grouped.get(key);
+    if (found) {
+      found.count += 1;
+      if (row.date && (!found.first_date || row.date < found.first_date)) found.first_date = row.date;
+      if (row.date && (!found.last_date || row.date > found.last_date)) found.last_date = row.date;
+    } else {
+      grouped.set(key, {
+        team_name: row.team_name,
+        diamond: row.diamond,
+        count: 1,
+        first_date: row.date || "",
+        last_date: row.date || "",
+      });
+    }
+  }
+
+  const summaryRows = [...grouped.values()].sort((a, b) => {
+    if (viewMode === "diamond") {
+      const diamondCmp = a.diamond.localeCompare(b.diamond);
+      if (diamondCmp !== 0) return diamondCmp;
+      return a.team_name.localeCompare(b.team_name);
+    }
+    const teamCmp = a.team_name.localeCompare(b.team_name);
+    if (teamCmp !== 0) return teamCmp;
+    return a.diamond.localeCompare(b.diamond);
+  });
+
+  const tableRows = summaryRows.map(r => `
+    <tr>
+      <td>${escHtml(viewMode === "diamond" ? r.diamond : r.team_name)}</td>
+      <td>${escHtml(viewMode === "diamond" ? r.team_name : r.diamond)}</td>
+      <td>${r.count}</td>
+      <td>${escHtml(r.first_date || "n/a")}</td>
+      <td>${escHtml(r.last_date || "n/a")}</td>
+    </tr>`).join("");
+
+  const uniqueTeams = new Set(rows.map(r => r.team_name)).size;
+  const uniqueDiamonds = new Set(rows.map(r => r.diamond)).size;
+
+  body.innerHTML = `
+    <div class="cat-block">
+      <div class="cat-header">Home Diamond Summary (${viewMode === "diamond" ? "Grouped by Diamond" : "Grouped by Team"}) \u2014 ${rows.length} home game event${rows.length === 1 ? "" : "s"}, ${uniqueTeams} team${uniqueTeams === 1 ? "" : "s"}, ${uniqueDiamonds} diamond${uniqueDiamonds === 1 ? "" : "s"}</div>
+      <table class="stats-table tourn-table" aria-label="Home diamond summary">
+        <thead>
+          <tr>
+            <th class="col-team">${viewMode === "diamond" ? "Diamond" : "Team"}</th>
+            <th class="col-team">${viewMode === "diamond" ? "Team" : "Diamond"}</th>
+            <th>Home Games</th>
+            <th>First Date</th>
+            <th>Last Date</th>
+          </tr>
+        </thead>
+        <tbody>${tableRows}</tbody>
+      </table>
+    </div>`;
+}
+
 function switchTab(tabName) {
   const isStats = tabName === "stats";
-  document.getElementById("view-stats").style.display       = isStats ? "" : "none";
-  document.getElementById("view-tournaments").style.display = isStats ? "none" : "";
+  const isTournaments = tabName === "tournaments";
+  const isDiamonds = tabName === "diamonds";
+
+  document.getElementById("view-stats").style.display = isStats ? "" : "none";
+  document.getElementById("view-tournaments").style.display = isTournaments ? "" : "none";
+  document.getElementById("view-diamonds").style.display = isDiamonds ? "" : "none";
+
   document.getElementById("tab-stats").setAttribute("aria-selected", isStats ? "true" : "false");
-  document.getElementById("tab-tournaments").setAttribute("aria-selected", isStats ? "false" : "true");
+  document.getElementById("tab-tournaments").setAttribute("aria-selected", isTournaments ? "true" : "false");
+  document.getElementById("tab-diamonds").setAttribute("aria-selected", isDiamonds ? "true" : "false");
+
   document.getElementById("tab-stats").classList.toggle("tab-btn--active", isStats);
-  document.getElementById("tab-tournaments").classList.toggle("tab-btn--active", !isStats);
-  if (!isStats && loadedData) {
+  document.getElementById("tab-tournaments").classList.toggle("tab-btn--active", isTournaments);
+  document.getElementById("tab-diamonds").classList.toggle("tab-btn--active", isDiamonds);
+
+  if (isTournaments && loadedData) {
     populateTournamentTeamFilter(loadedData.teams ?? []);
     renderTournaments();
+  }
+  if (isDiamonds && loadedData) {
+    populateDiamondFilters(loadedData.teams ?? []);
+    renderDiamondSummary();
   }
 }
 
@@ -1161,7 +1403,11 @@ document.getElementById("reset-filter").addEventListener("click", () => {
 
 document.getElementById("tab-stats").addEventListener("click", () => switchTab("stats"));
 document.getElementById("tab-tournaments").addEventListener("click", () => switchTab("tournaments"));
+document.getElementById("tab-diamonds").addEventListener("click", () => switchTab("diamonds"));
 document.getElementById("tournament-team-filter").addEventListener("change", renderTournaments);
+document.getElementById("diamond-team-filter").addEventListener("change", renderDiamondSummary);
+document.getElementById("diamond-location-filter").addEventListener("change", renderDiamondSummary);
+document.getElementById("diamond-view-mode").addEventListener("change", renderDiamondSummary);
 
 render();
 </script>
