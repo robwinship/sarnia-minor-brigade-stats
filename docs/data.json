@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-21T23:06:18.879748Z",
+  "generated": "2026-03-21T23:15:40.146977Z",
   "teams": [
     {
       "id": 1290,
@@ -604,7 +604,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 40,
+      "practices": 42,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -714,111 +714,120 @@
           "type": "practice"
         },
         {
-          "uid": "MS-20002-sarniabrigade.ca",
-          "date": "2026-04-10",
-          "start_time": "9:00 PM",
-          "end_date": "2026-04-10",
+          "uid": "MS-19649-sarniabrigade.ca",
+          "date": "2026-04-08",
+          "start_time": "9:30 PM",
+          "end_date": "2026-04-08",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19671-sarniabrigade.ca",
+          "date": "2026-04-11",
+          "start_time": "8:00 PM",
+          "end_date": "2026-04-11",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19650-sarniabrigade.ca",
           "date": "2026-04-15",
-          "start_time": "10:00 PM",
-          "end_date": "2026-04-16",
+          "start_time": "9:30 PM",
+          "end_date": "2026-04-15",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19672-sarniabrigade.ca",
           "date": "2026-04-18",
-          "start_time": "2:00 PM",
+          "start_time": "8:00 PM",
           "end_date": "2026-04-18",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19651-sarniabrigade.ca",
           "date": "2026-04-22",
-          "start_time": "10:00 PM",
-          "end_date": "2026-04-23",
+          "start_time": "9:30 PM",
+          "end_date": "2026-04-22",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19673-sarniabrigade.ca",
           "date": "2026-04-25",
-          "start_time": "2:00 PM",
+          "start_time": "8:00 PM",
           "end_date": "2026-04-25",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19652-sarniabrigade.ca",
           "date": "2026-04-29",
-          "start_time": "10:00 PM",
-          "end_date": "2026-04-30",
+          "start_time": "9:30 PM",
+          "end_date": "2026-04-29",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19674-sarniabrigade.ca",
           "date": "2026-05-02",
-          "start_time": "2:00 PM",
+          "start_time": "8:00 PM",
           "end_date": "2026-05-02",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19653-sarniabrigade.ca",
           "date": "2026-05-06",
-          "start_time": "10:00 PM",
-          "end_date": "2026-05-07",
+          "start_time": "9:30 PM",
+          "end_date": "2026-05-06",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19681-sarniabrigade.ca",
           "date": "2026-05-09",
-          "start_time": "2:00 PM",
+          "start_time": "8:00 PM",
           "end_date": "2026-05-09",
           "summary": "10U AA OBA Rep - Game vs Chatham Minor Diamonds [DH]",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "game"
         },
         {
           "uid": "MS-19654-sarniabrigade.ca",
           "date": "2026-05-13",
-          "start_time": "10:00 PM",
-          "end_date": "2026-05-14",
+          "start_time": "9:30 PM",
+          "end_date": "2026-05-13",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19676-sarniabrigade.ca",
           "date": "2026-05-16",
-          "start_time": "2:00 PM",
+          "start_time": "8:00 PM",
           "end_date": "2026-05-16",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19655-sarniabrigade.ca",
           "date": "2026-05-20",
-          "start_time": "10:00 PM",
-          "end_date": "2026-05-21",
+          "start_time": "9:30 PM",
+          "end_date": "2026-05-20",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
@@ -831,229 +840,220 @@
           "type": "game"
         },
         {
-          "uid": "MS-20004-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "3:00 PM",
-          "end_date": "2026-05-24",
-          "summary": "10U AA OBA Rep - Game vs TBA  [DH]",
-          "location": "TBD",
-          "type": "game"
-        },
-        {
           "uid": "MS-19656-sarniabrigade.ca",
           "date": "2026-05-27",
-          "start_time": "10:00 PM",
-          "end_date": "2026-05-28",
+          "start_time": "9:30 PM",
+          "end_date": "2026-05-27",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
+        },
+        {
+          "uid": "MS-19645-sarniabrigade.ca",
+          "date": "2026-05-30",
+          "start_time": "8:00 PM",
+          "end_date": "2026-05-31",
+          "summary": "10U AA OBA Rep - Game vs TBA  [DH]",
+          "location": "Tecumseh Park",
+          "type": "game"
         },
         {
           "uid": "MS-19657-sarniabrigade.ca",
           "date": "2026-06-03",
-          "start_time": "10:00 PM",
-          "end_date": "2026-06-04",
+          "start_time": "9:30 PM",
+          "end_date": "2026-06-03",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19658-sarniabrigade.ca",
           "date": "2026-06-10",
-          "start_time": "10:00 PM",
-          "end_date": "2026-06-11",
+          "start_time": "9:30 PM",
+          "end_date": "2026-06-10",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19677-sarniabrigade.ca",
           "date": "2026-06-13",
-          "start_time": "2:00 PM",
+          "start_time": "8:00 PM",
           "end_date": "2026-06-13",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19659-sarniabrigade.ca",
           "date": "2026-06-17",
-          "start_time": "10:00 PM",
-          "end_date": "2026-06-18",
+          "start_time": "9:30 PM",
+          "end_date": "2026-06-17",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19678-sarniabrigade.ca",
           "date": "2026-06-20",
-          "start_time": "2:00 PM",
+          "start_time": "8:00 PM",
           "end_date": "2026-06-20",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19660-sarniabrigade.ca",
           "date": "2026-06-24",
-          "start_time": "10:00 PM",
-          "end_date": "2026-06-25",
+          "start_time": "9:30 PM",
+          "end_date": "2026-06-24",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19661-sarniabrigade.ca",
           "date": "2026-07-01",
-          "start_time": "10:00 PM",
-          "end_date": "2026-07-02",
+          "start_time": "9:30 PM",
+          "end_date": "2026-07-01",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19679-sarniabrigade.ca",
           "date": "2026-07-04",
-          "start_time": "2:00 PM",
+          "start_time": "8:00 PM",
           "end_date": "2026-07-04",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19662-sarniabrigade.ca",
           "date": "2026-07-08",
-          "start_time": "10:00 PM",
-          "end_date": "2026-07-09",
+          "start_time": "9:30 PM",
+          "end_date": "2026-07-08",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19646-sarniabrigade.ca",
           "date": "2026-07-11",
-          "start_time": "2:00 PM",
-          "end_date": "2026-07-11",
+          "start_time": "8:00 PM",
+          "end_date": "2026-07-12",
           "summary": "10U AA OBA Rep - Game vs London Badgers [DH]",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "game"
         },
         {
           "uid": "MS-19663-sarniabrigade.ca",
           "date": "2026-07-15",
-          "start_time": "10:00 PM",
-          "end_date": "2026-07-16",
+          "start_time": "9:30 PM",
+          "end_date": "2026-07-15",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19647-sarniabrigade.ca",
           "date": "2026-07-18",
-          "start_time": "2:00 PM",
-          "end_date": "2026-07-18",
+          "start_time": "8:00 PM",
+          "end_date": "2026-07-19",
           "summary": "10U AA OBA Rep - Game vs Lasalle Turtle Club [DH]",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "game"
         },
         {
           "uid": "MS-19664-sarniabrigade.ca",
           "date": "2026-07-22",
-          "start_time": "10:00 PM",
-          "end_date": "2026-07-23",
+          "start_time": "9:30 PM",
+          "end_date": "2026-07-22",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-19665-sarniabrigade.ca",
+          "date": "2026-07-29",
+          "start_time": "9:30 PM",
+          "end_date": "2026-07-29",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19666-sarniabrigade.ca",
           "date": "2026-08-05",
-          "start_time": "10:00 PM",
-          "end_date": "2026-08-06",
+          "start_time": "9:30 PM",
+          "end_date": "2026-08-05",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19648-sarniabrigade.ca",
           "date": "2026-08-08",
-          "start_time": "2:00 PM",
-          "end_date": "2026-08-08",
+          "start_time": "8:00 PM",
+          "end_date": "2026-08-09",
           "summary": "10U AA OBA Rep - Game vs TBA  [DH]",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "game"
         },
         {
           "uid": "MS-19667-sarniabrigade.ca",
           "date": "2026-08-12",
-          "start_time": "10:00 PM",
-          "end_date": "2026-08-13",
+          "start_time": "9:30 PM",
+          "end_date": "2026-08-12",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
-        },
-        {
-          "uid": "MS-20005-sarniabrigade.ca",
-          "date": "2026-08-15",
-          "start_time": "3:00 PM",
-          "end_date": "2026-08-15",
-          "summary": "10U AA OBA Rep - Game @ Riverside Royals [DH]",
-          "location": "TBD",
-          "type": "game"
-        },
-        {
-          "uid": "MS-20006-sarniabrigade.ca",
-          "date": "2026-08-16",
-          "start_time": "3:00 PM",
-          "end_date": "2026-08-16",
-          "summary": "10U AA OBA Rep - Game @ Windsor Stars [DH]",
-          "location": "Cullen Stadium (Mic Mac Park)",
-          "type": "game"
         },
         {
           "uid": "MS-19668-sarniabrigade.ca",
           "date": "2026-08-19",
-          "start_time": "10:00 PM",
-          "end_date": "2026-08-20",
+          "start_time": "9:30 PM",
+          "end_date": "2026-08-19",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19680-sarniabrigade.ca",
           "date": "2026-08-22",
-          "start_time": "2:00 PM",
+          "start_time": "8:00 PM",
           "end_date": "2026-08-22",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
-        },
-        {
-          "uid": "MS-20007-sarniabrigade.ca",
-          "date": "2026-08-23",
-          "start_time": "8:00 PM",
-          "end_date": "2026-08-23",
-          "summary": "10U AA OBA Rep - Game vs Riverside Royals [DH]",
-          "location": "TBD",
-          "type": "game"
         },
         {
           "uid": "MS-19669-sarniabrigade.ca",
           "date": "2026-08-26",
-          "start_time": "10:00 PM",
-          "end_date": "2026-08-27",
+          "start_time": "9:30 PM",
+          "end_date": "2026-08-26",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
         },
         {
           "uid": "MS-19670-sarniabrigade.ca",
           "date": "2026-09-02",
-          "start_time": "10:00 PM",
-          "end_date": "2026-09-03",
+          "start_time": "9:30 PM",
+          "end_date": "2026-09-02",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Tecumseh Park",
           "type": "practice"
+        },
+        {
+          "uid": "MD-3240-sarniabrigade.ca",
+          "date": "2026-05-24",
+          "start_time": "3:00 PM",
+          "end_date": "2026-05-24",
+          "summary": "10U AA OBA Rep - Leamington DH",
+          "location": "Leamington, Ontario",
+          "type": "other"
         },
         {
           "uid": "MD-3239-sarniabrigade.ca",
@@ -1065,13 +1065,22 @@
           "type": "other"
         },
         {
-          "uid": "MD-3236-sarniabrigade.ca",
-          "date": "2026-05-29",
-          "start_time": null,
-          "end_date": "2026-06-01",
-          "summary": "10U AA OBA Rep - Mississauga Tournament",
-          "location": "Sarnia, Ontario",
-          "type": "tournament"
+          "uid": "MD-3241-sarniabrigade.ca",
+          "date": "2026-08-15",
+          "start_time": "3:00 PM",
+          "end_date": "2026-08-15",
+          "summary": "10U AA OBA Rep - Riverside DH",
+          "location": "Riverside",
+          "type": "other"
+        },
+        {
+          "uid": "MD-3242-sarniabrigade.ca",
+          "date": "2026-08-16",
+          "start_time": "3:00 PM",
+          "end_date": "2026-08-16",
+          "summary": "10U AA OBA Rep - DH at Windsor",
+          "location": "Windsor, ON",
+          "type": "other"
         },
         {
           "uid": "MD-3234-sarniabrigade.ca",
@@ -1089,6 +1098,15 @@
           "end_date": "2026-06-29",
           "summary": "10U AA OBA Rep - LaSalle Tournament",
           "location": "Turtle Club, LaSalle, Ontario",
+          "type": "tournament"
+        },
+        {
+          "uid": "MD-3236-sarniabrigade.ca",
+          "date": "2026-07-24",
+          "start_time": null,
+          "end_date": "2026-07-27",
+          "summary": "10U AA OBA Rep - Mississauga Tournament",
+          "location": "Sarnia, Ontario",
           "type": "tournament"
         },
         {
@@ -1889,7 +1907,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 68,
+      "practices": 69,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -1899,6 +1917,15 @@
         "managers": 0
       },
       "events": [
+        {
+          "uid": "MS-19684-sarniabrigade.ca",
+          "date": "2026-01-21",
+          "start_time": "10:30 PM",
+          "end_date": "2026-01-22",
+          "summary": "15U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
         {
           "uid": "MS-19685-sarniabrigade.ca",
           "date": "2026-01-28",
@@ -3514,7 +3541,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 32,
+      "practices": 0,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -3524,42 +3551,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20008-sarniabrigade.ca",
-          "date": "2026-04-15",
-          "start_time": "10:00 PM",
-          "end_date": "2026-04-16",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20029-sarniabrigade.ca",
-          "date": "2026-04-17",
-          "start_time": "10:00 PM",
-          "end_date": "2026-04-18",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20009-sarniabrigade.ca",
-          "date": "2026-04-22",
-          "start_time": "10:00 PM",
-          "end_date": "2026-04-23",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20030-sarniabrigade.ca",
-          "date": "2026-04-24",
-          "start_time": "10:00 PM",
-          "end_date": "2026-04-25",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice"
-        },
         {
           "uid": "MS-19738-sarniabrigade.ca",
           "date": "2026-04-25",
@@ -3597,33 +3588,6 @@
           "type": "game"
         },
         {
-          "uid": "MS-20010-sarniabrigade.ca",
-          "date": "2026-04-29",
-          "start_time": "10:00 PM",
-          "end_date": "2026-04-30",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20011-sarniabrigade.ca",
-          "date": "2026-05-06",
-          "start_time": "10:00 PM",
-          "end_date": "2026-05-07",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20032-sarniabrigade.ca",
-          "date": "2026-05-08",
-          "start_time": "10:00 PM",
-          "end_date": "2026-05-09",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice"
-        },
-        {
           "uid": "MS-19721-sarniabrigade.ca",
           "date": "2026-05-10",
           "start_time": "1:00 PM",
@@ -3640,24 +3604,6 @@
           "summary": "16U PBLO - Game @ London Badgers",
           "location": "Stoneybrook (Dan Pulham)",
           "type": "game"
-        },
-        {
-          "uid": "MS-20012-sarniabrigade.ca",
-          "date": "2026-05-13",
-          "start_time": "10:00 PM",
-          "end_date": "2026-05-14",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20033-sarniabrigade.ca",
-          "date": "2026-05-15",
-          "start_time": "10:00 PM",
-          "end_date": "2026-05-16",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice"
         },
         {
           "uid": "MS-19742-sarniabrigade.ca",
@@ -3696,24 +3642,6 @@
           "type": "game"
         },
         {
-          "uid": "MS-20013-sarniabrigade.ca",
-          "date": "2026-05-20",
-          "start_time": "10:00 PM",
-          "end_date": "2026-05-21",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20034-sarniabrigade.ca",
-          "date": "2026-05-22",
-          "start_time": "10:00 PM",
-          "end_date": "2026-05-23",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice"
-        },
-        {
           "uid": "MS-19744-sarniabrigade.ca",
           "date": "2026-05-23",
           "start_time": "3:00 PM",
@@ -3750,15 +3678,6 @@
           "type": "game"
         },
         {
-          "uid": "MS-20014-sarniabrigade.ca",
-          "date": "2026-05-27",
-          "start_time": "10:00 PM",
-          "end_date": "2026-05-28",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
           "uid": "MS-19731-sarniabrigade.ca",
           "date": "2026-05-29",
           "start_time": "10:00 PM",
@@ -3784,24 +3703,6 @@
           "summary": "16U PBLO - Game @ Sudbury Voyageurs",
           "location": "Terry Fox Complex (Main)",
           "type": "game"
-        },
-        {
-          "uid": "MS-20015-sarniabrigade.ca",
-          "date": "2026-06-03",
-          "start_time": "10:00 PM",
-          "end_date": "2026-06-04",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20036-sarniabrigade.ca",
-          "date": "2026-06-05",
-          "start_time": "10:00 PM",
-          "end_date": "2026-06-06",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice"
         },
         {
           "uid": "MS-19734-sarniabrigade.ca",
@@ -3840,24 +3741,6 @@
           "type": "game"
         },
         {
-          "uid": "MS-20016-sarniabrigade.ca",
-          "date": "2026-06-10",
-          "start_time": "10:00 PM",
-          "end_date": "2026-06-11",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20037-sarniabrigade.ca",
-          "date": "2026-06-12",
-          "start_time": "10:00 PM",
-          "end_date": "2026-06-13",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice"
-        },
-        {
           "uid": "MS-19750-sarniabrigade.ca",
           "date": "2026-06-13",
           "start_time": "10:00 PM",
@@ -3892,24 +3775,6 @@
           "summary": "16U PBLO - Game @ Ontario Giants",
           "location": "Chris Gibson (Red)",
           "type": "game"
-        },
-        {
-          "uid": "MS-20017-sarniabrigade.ca",
-          "date": "2026-06-17",
-          "start_time": "10:00 PM",
-          "end_date": "2026-06-18",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20038-sarniabrigade.ca",
-          "date": "2026-06-19",
-          "start_time": "10:00 PM",
-          "end_date": "2026-06-20",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice"
         },
         {
           "uid": "MS-19723-sarniabrigade.ca",
@@ -3948,24 +3813,6 @@
           "type": "game"
         },
         {
-          "uid": "MS-20018-sarniabrigade.ca",
-          "date": "2026-06-24",
-          "start_time": "10:00 PM",
-          "end_date": "2026-06-25",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20039-sarniabrigade.ca",
-          "date": "2026-06-26",
-          "start_time": "10:00 PM",
-          "end_date": "2026-06-27",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice"
-        },
-        {
           "uid": "MS-19748-sarniabrigade.ca",
           "date": "2026-06-27",
           "start_time": "3:00 PM",
@@ -4000,114 +3847,6 @@
           "summary": "16U PBLO - Game @ Tecumseh Thunder",
           "location": "Lacasse",
           "type": "game"
-        },
-        {
-          "uid": "MS-20020-sarniabrigade.ca",
-          "date": "2026-07-08",
-          "start_time": "10:00 PM",
-          "end_date": "2026-07-09",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20021-sarniabrigade.ca",
-          "date": "2026-07-15",
-          "start_time": "10:00 PM",
-          "end_date": "2026-07-16",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20022-sarniabrigade.ca",
-          "date": "2026-07-22",
-          "start_time": "10:00 PM",
-          "end_date": "2026-07-23",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20024-sarniabrigade.ca",
-          "date": "2026-08-05",
-          "start_time": "10:00 PM",
-          "end_date": "2026-08-06",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20045-sarniabrigade.ca",
-          "date": "2026-08-07",
-          "start_time": "10:00 PM",
-          "end_date": "2026-08-08",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20025-sarniabrigade.ca",
-          "date": "2026-08-12",
-          "start_time": "10:00 PM",
-          "end_date": "2026-08-13",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20046-sarniabrigade.ca",
-          "date": "2026-08-14",
-          "start_time": "10:00 PM",
-          "end_date": "2026-08-15",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20026-sarniabrigade.ca",
-          "date": "2026-08-19",
-          "start_time": "10:00 PM",
-          "end_date": "2026-08-20",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20047-sarniabrigade.ca",
-          "date": "2026-08-21",
-          "start_time": "10:00 PM",
-          "end_date": "2026-08-22",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20027-sarniabrigade.ca",
-          "date": "2026-08-26",
-          "start_time": "10:00 PM",
-          "end_date": "2026-08-27",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20048-sarniabrigade.ca",
-          "date": "2026-08-28",
-          "start_time": "10:00 PM",
-          "end_date": "2026-08-29",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice"
-        },
-        {
-          "uid": "MS-20028-sarniabrigade.ca",
-          "date": "2026-09-02",
-          "start_time": "10:00 PM",
-          "end_date": "2026-09-03",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice"
         },
         {
           "uid": "MD-3271-sarniabrigade.ca",
