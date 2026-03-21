@@ -1,4 +1,13 @@
 # Changelog
+## v1.06 - 2026-03-21 19:25:46
+- Backup created
+
+## v1.051 - 2026-03-21
+- Updated Budget Model and Diamond Summary tabs to match Season Stats presentation style with category-grouped blocks
+- Aligned Budget Model team ordering to match Season Stats ordering
+- Reworked Diamond Summary team view to group by category in the same order as Season Stats while preserving grouped-by-diamond mode
+- Updated Budget Model table columns by replacing Home Games/Practices with placeholder future-metric columns
+
 ## v1.05 - 2026-03-21
 - Added Budget Model tab with per-event diamond rental costing (day/evening hourly rates for two diamond tiers)
 - Implemented day/evening rate split for diamond rental: 7 AM–7:30 PM (day) and 8 PM–midnight (evening) with 2-hour booking defaults
