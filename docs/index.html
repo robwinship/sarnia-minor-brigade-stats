@@ -1789,7 +1789,7 @@ function calcDiamondEventCost(event, costs) {
 
 function buildBudgetRows(teams, startDate, endDate, costs) {
   const rows = [];
-  for (const team of (teams ?? [])) {
+  for (const [teamIndex, team] of (teams ?? []).entries()) {
     const summary = summarizeTeam(team, startDate, endDate);
     const players = Number(team?.roster?.players) || 0;
     const adults = Number(team?.roster?.adults) || 0;
@@ -1808,6 +1808,7 @@ function buildBudgetRows(teams, startDate, endDate, costs) {
     rows.push({
       team_name: team.name,
       category: team.category || "Other",
+      team_index: teamIndex,
       home_games: summary.home_games,
       practices: summary.practices,
       players,
@@ -1824,9 +1825,9 @@ function buildBudgetRows(teams, startDate, endDate, costs) {
     const catIndexB = CATEGORY_ORDER.indexOf(b.category);
     const catA = catIndexA !== -1 ? catIndexA : CATEGORY_ORDER.length;
     const catB = catIndexB !== -1 ? catIndexB : CATEGORY_ORDER.length;
-    
+
     if (catA !== catB) return catA - catB;
-    return a.team_name.localeCompare(b.team_name);
+    return a.team_index - b.team_index;
   });
   return rows;
 }
