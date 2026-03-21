@@ -582,6 +582,7 @@
     <button class="tab-btn tab-btn--active" id="tab-stats" role="tab" aria-selected="true" aria-controls="view-stats">Season Stats</button>
     <button class="tab-btn" id="tab-tournaments" role="tab" aria-selected="false" aria-controls="view-tournaments">Tournaments</button>
     <button class="tab-btn" id="tab-diamonds" role="tab" aria-selected="false" aria-controls="view-diamonds">Diamond Summary</button>
+    <button class="tab-btn" id="tab-playing-today" role="tab" aria-selected="false" aria-controls="view-playing-today">Playing Today</button>
   </div>
 
   <div id="view-stats">
@@ -672,6 +673,16 @@
     </div>
     <div id="diamond-body"></div>
   </div><!-- /view-diamonds -->
+
+  <div id="view-playing-today" style="display:none">
+    <div class="controls-card" aria-label="Playing today summary">
+      <div class="section-title">Teams Playing Today</div>
+      <div class="controls-note" id="playing-today-date">Loading...</div>
+      <div class="controls-note">Includes practices plus home and away games active on the current day.</div>
+      <div class="controls-note">Event times are shown when available in the source calendars; otherwise marked as TBD.</div>
+    </div>
+    <div id="playing-today-body"></div>
+  </div><!-- /view-playing-today -->
 </main>
 
 <footer>
@@ -1415,22 +1426,191 @@ function renderDiamondSummary() {
     </div>`;
 }
 
+/* ----------------------------------------------------------------
+   Playing Today tab
+---------------------------------------------------------------- */
+function getLocalIsoDate(now = new Date()) {
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const day = String(now.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function fmtReadableDate(dateStr) {
+  if (!dateStr) return "";
+  const d = new Date(`${dateStr}T12:00:00`);
+  return d.toLocaleDateString("en-CA", {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
+function extractEventTimeLabel(event) {
+  if (!event || typeof event !== "object") return "TBD";
+  if (typeof event.time === "string" && event.time.trim()) return event.time.trim();
+  if (typeof event.start_time === "string" && event.start_time.trim()) return event.start_time.trim();
+  if (typeof event.start === "string") {
+    const startText = event.start.trim();
+    const m = startText.match(/(\d{1,2}:\d{2}(?:\s?[AP]M)?|\d{1,2}\s?[AP]M)/i);
+    if (m) return m[1].replace(/\s+/g, " ").toUpperCase();
+  }
+  if (typeof event.summary === "string") {
+    const sm = event.summary.match(/(\d{1,2}:\d{2}(?:\s?[AP]M)?|\d{1,2}\s?[AP]M)/i);
+    if (sm) return sm[1].replace(/\s+/g, " ").toUpperCase();
+  }
+  return "TBD";
+}
+
+function inferGameSideFromSummary(summaryText) {
+  const text = String(summaryText || "").toLowerCase();
+  if (text.includes(" vs ") || /\bvs\.?\b/.test(text)) return "home";
+  if (text.includes(" @") || text.startsWith("@") || /\bat\s+/.test(text)) return "away";
+  return "game";
+}
+
+function buildPlayingTodayRows(teams, targetDate) {
+  const rows = [];
+
+  for (const team of (teams ?? [])) {
+    const events = team.events ?? [];
+    const games = team.games ?? [];
+
+    const practicesToday = events.filter(event => event.type === "practice" && event.date === targetDate);
+    for (const event of practicesToday) {
+      rows.push({
+        team_name: team.name,
+        time: extractEventTimeLabel(event),
+        event_label: event.summary || "Practice",
+        diamond: event.location || "TBD",
+      });
+    }
+
+    const gameEventsToday = events.filter(event => event.type === "game" && event.date === targetDate);
+    const scheduleGamesToday = games.filter(game => game.date === targetDate);
+
+    const usedEventIndexes = new Set();
+    for (const game of scheduleGamesToday) {
+      let bestIdx = -1;
+      let bestScore = -1;
+
+      for (let i = 0; i < gameEventsToday.length; i += 1) {
+        if (usedEventIndexes.has(i)) continue;
+        const event = gameEventsToday[i];
+        const score = scoreOpponentMatch(game.opponent || "", event.summary || "");
+        if (score > bestScore) {
+          bestScore = score;
+          bestIdx = i;
+        }
+      }
+
+      let matchedEvent = null;
+      if (bestIdx !== -1) {
+        usedEventIndexes.add(bestIdx);
+        matchedEvent = gameEventsToday[bestIdx];
+      }
+
+      const sideLabel = game.home === true ? "Home Game" : (game.home === false ? "Away Game" : "Game");
+      const fallbackOpponent = game.opponent ? `${sideLabel} vs ${game.opponent}` : sideLabel;
+      rows.push({
+        team_name: team.name,
+        time: extractEventTimeLabel(matchedEvent),
+        event_label: matchedEvent?.summary || fallbackOpponent,
+        diamond: matchedEvent?.location || "TBD",
+      });
+    }
+
+    for (let i = 0; i < gameEventsToday.length; i += 1) {
+      if (usedEventIndexes.has(i)) continue;
+      const event = gameEventsToday[i];
+      const side = inferGameSideFromSummary(event.summary);
+      const sideLabel = side === "home" ? "Home Game" : (side === "away" ? "Away Game" : "Game");
+      const label = event.summary || sideLabel;
+      rows.push({
+        team_name: team.name,
+        time: extractEventTimeLabel(event),
+        event_label: label,
+        diamond: event.location || "TBD",
+      });
+    }
+  }
+
+  rows.sort((a, b) => {
+    const teamCmp = (a.team_name || "").localeCompare(b.team_name || "");
+    if (teamCmp !== 0) return teamCmp;
+    const eventCmp = (a.event_label || "").localeCompare(b.event_label || "");
+    if (eventCmp !== 0) return eventCmp;
+    return (a.diamond || "").localeCompare(b.diamond || "");
+  });
+
+  return rows;
+}
+
+function renderPlayingToday() {
+  const dateText = document.getElementById("playing-today-date");
+  const body = document.getElementById("playing-today-body");
+
+  const today = getLocalIsoDate();
+  dateText.textContent = `Current day: ${fmtReadableDate(today)} (${today})`;
+
+  if (!loadedData || !(loadedData.teams ?? []).length) {
+    body.innerHTML = `<div class="no-data-msg">No season data available yet.</div>`;
+    return;
+  }
+
+  const rows = buildPlayingTodayRows(loadedData.teams ?? [], today);
+  if (!rows.length) {
+    body.innerHTML = `<div class="no-data-msg">No teams have a practice, home game, or away game scheduled today.</div>`;
+    return;
+  }
+
+  const teamCount = new Set(rows.map(r => r.team_name)).size;
+  const rowsHtml = rows.map(r => `
+    <tr>
+      <td class="col-team">${escHtml(r.team_name)}</td>
+      <td>${escHtml(r.time || "TBD")}</td>
+      <td class="col-team">${escHtml(r.event_label || "Event")}</td>
+      <td class="col-team">${escHtml(r.diamond || "TBD")}</td>
+    </tr>`).join("");
+
+  body.innerHTML = `
+    <div class="cat-block">
+      <div class="cat-header">${rows.length} event${rows.length === 1 ? "" : "s"} today across ${teamCount} team${teamCount === 1 ? "" : "s"}</div>
+      <table class="stats-table tourn-table" aria-label="Teams playing today">
+        <thead>
+          <tr>
+            <th class="col-team">Team</th>
+            <th>Time</th>
+            <th class="col-team">Event Label</th>
+            <th class="col-team">Diamond</th>
+          </tr>
+        </thead>
+        <tbody>${rowsHtml}</tbody>
+      </table>
+    </div>`;
+}
+
 function switchTab(tabName) {
   const isStats = tabName === "stats";
   const isTournaments = tabName === "tournaments";
   const isDiamonds = tabName === "diamonds";
+  const isPlayingToday = tabName === "playing-today";
 
   document.getElementById("view-stats").style.display = isStats ? "" : "none";
   document.getElementById("view-tournaments").style.display = isTournaments ? "" : "none";
   document.getElementById("view-diamonds").style.display = isDiamonds ? "" : "none";
+  document.getElementById("view-playing-today").style.display = isPlayingToday ? "" : "none";
 
   document.getElementById("tab-stats").setAttribute("aria-selected", isStats ? "true" : "false");
   document.getElementById("tab-tournaments").setAttribute("aria-selected", isTournaments ? "true" : "false");
   document.getElementById("tab-diamonds").setAttribute("aria-selected", isDiamonds ? "true" : "false");
+  document.getElementById("tab-playing-today").setAttribute("aria-selected", isPlayingToday ? "true" : "false");
 
   document.getElementById("tab-stats").classList.toggle("tab-btn--active", isStats);
   document.getElementById("tab-tournaments").classList.toggle("tab-btn--active", isTournaments);
   document.getElementById("tab-diamonds").classList.toggle("tab-btn--active", isDiamonds);
+  document.getElementById("tab-playing-today").classList.toggle("tab-btn--active", isPlayingToday);
 
   if (isTournaments && loadedData) {
     populateTournamentTeamFilter(loadedData.teams ?? []);
@@ -1439,6 +1619,9 @@ function switchTab(tabName) {
   if (isDiamonds && loadedData) {
     populateDiamondFilters(loadedData.teams ?? []);
     renderDiamondSummary();
+  }
+  if (isPlayingToday) {
+    renderPlayingToday();
   }
 }
 
@@ -1500,10 +1683,16 @@ async function render(forceRefresh = false) {
     if (!(data.teams ?? []).length) {
       grid.innerHTML = `<div class="no-data-msg">No season data available yet. Check back once the season begins.</div>`;
       renderPitchTracker([], null, null);
+      if (document.getElementById("tab-playing-today").classList.contains("tab-btn--active")) {
+        renderPlayingToday();
+      }
       return;
     }
 
     applyFilters();
+    if (document.getElementById("tab-playing-today").classList.contains("tab-btn--active")) {
+      renderPlayingToday();
+    }
 
   } catch (err) {
     loading.textContent = "Could not load season data: " + err.message;
@@ -1529,6 +1718,7 @@ document.getElementById("reset-filter").addEventListener("click", () => {
 document.getElementById("tab-stats").addEventListener("click", () => switchTab("stats"));
 document.getElementById("tab-tournaments").addEventListener("click", () => switchTab("tournaments"));
 document.getElementById("tab-diamonds").addEventListener("click", () => switchTab("diamonds"));
+document.getElementById("tab-playing-today").addEventListener("click", () => switchTab("playing-today"));
 document.getElementById("tournament-team-filter").addEventListener("change", renderTournaments);
 document.getElementById("diamond-team-filter").addEventListener("change", renderDiamondSummary);
 document.getElementById("diamond-location-filter").addEventListener("change", renderDiamondSummary);

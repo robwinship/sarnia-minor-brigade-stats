@@ -108,6 +108,30 @@ def classify_event(summary: str) -> str:
     return "other"
 
 
+def parse_ics_start(raw_dt: str):
+    """Return (YYYY-MM-DD, h:mm AM/PM) from DTSTART-like values."""
+    raw = (raw_dt or "").strip()
+    date_m = re.match(r"^(\d{4})(\d{2})(\d{2})", raw)
+    if not date_m:
+        return None, None
+
+    y, m, d = date_m.groups()
+    date_text = f"{y}-{m}-{d}"
+
+    # All-day events only contain YYYYMMDD.
+    time_m = re.search(r"T(\d{2})(\d{2})(\d{2})", raw)
+    if not time_m:
+        return date_text, None
+
+    hh = int(time_m.group(1))
+    mm = int(time_m.group(2))
+    suffix = "AM" if hh < 12 else "PM"
+    hour12 = hh % 12
+    if hour12 == 0:
+        hour12 = 12
+    return date_text, f"{hour12}:{mm:02d} {suffix}"
+
+
 def parse_ics_events(text: str) -> list:
     """Parse dated VEVENT records from a public iCalendar team feed."""
     if not text or "BEGIN:VCALENDAR" not in text:
@@ -117,7 +141,7 @@ def parse_ics_events(text: str) -> list:
     events = []
     for block in re.split(r"BEGIN:VEVENT\r?\n", text)[1:]:
         summary_m = re.search(r"^SUMMARY:(.*?)$", block, re.MULTILINE)
-        start_m = re.search(r"^DTSTART[^\n:]*:(\d{8})(?:T\d{6}Z?)?", block, re.MULTILINE)
+        start_m = re.search(r"^DTSTART[^\n:]*:([^\n]+)$", block, re.MULTILINE)
         end_m = re.search(r"^DTEND[^\n:]*:(\d{8})(?:T\d{6}Z?)?", block, re.MULTILINE)
         location_m = re.search(r"^LOCATION:(.*?)$", block, re.MULTILINE)
         uid_m = re.search(r"^UID:(.*?)$", block, re.MULTILINE)
@@ -126,14 +150,17 @@ def parse_ics_events(text: str) -> list:
         if not start_m:
             continue
 
-        start_raw = start_m.group(1)
-        year = int(start_raw[:4])
+        start_raw = start_m.group(1).strip()
+        start_date, start_time = parse_ics_start(start_raw)
+        if not start_date:
+            continue
+
+        year = int(start_date[:4])
         if year != SEASON_YEAR:
             continue
 
         summary = summary_m.group(1).strip() if summary_m else ""
         location = location_m.group(1).strip() if location_m else ""
-        start_date = f"{start_raw[:4]}-{start_raw[4:6]}-{start_raw[6:8]}"
         end_date = None
         if end_m:
             end_raw = end_m.group(1)
@@ -151,6 +178,7 @@ def parse_ics_events(text: str) -> list:
         events.append({
             "uid": uid_m.group(1).strip() if uid_m else None,
             "date": start_date,
+            "start_time": start_time,
             "end_date": end_date,
             "summary": summary,
             "location": location,
