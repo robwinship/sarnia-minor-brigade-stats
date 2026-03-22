@@ -330,7 +330,7 @@
       border-radius: 0.55rem;
       background: #fff;
       min-width: 230px;
-      max-width: 320px;
+      max-width: min(320px, calc(100vw - 2rem));
       max-height: 190px;
       overflow: auto;
       font-size: 0.76rem;
@@ -520,6 +520,8 @@
       display: flex;
       border-bottom: 2px solid var(--border);
       margin-bottom: 1.4rem;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
     }
 
     .tab-btn {
@@ -535,6 +537,8 @@
       color: var(--muted);
       cursor: pointer;
       transition: color 0.12s, border-color 0.12s;
+      white-space: nowrap;
+      flex-shrink: 0;
     }
 
     .tab-btn:hover { color: var(--text); }
@@ -574,6 +578,14 @@
     .budget-total-cell {
       font-weight: 700;
       color: var(--brand);
+    }
+
+    /* ---------------------------------------------------------------
+       Scrollable table wrapper (mobile)
+    ---------------------------------------------------------------- */
+    .table-scroll {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
     }
   </style>
 </head>
@@ -1017,7 +1029,7 @@ function renderPitchTracker(teams, startDate, endDate) {
   }
 
   target.innerHTML = `
-    <table class="pitch-list" aria-label="Pitch Indoor Sports events">
+    <div class="table-scroll"><table class="pitch-list" aria-label="Pitch Indoor Sports events">
       <thead>
         <tr>
           <th>Date</th>
@@ -1037,7 +1049,7 @@ function renderPitchTracker(teams, startDate, endDate) {
             <td>${escHtml(event.location)}</td>
           </tr>`).join("")}
       </tbody>
-    </table>`;
+    </table></div>`;
 }
 
 function applyFilters() {
@@ -1154,7 +1166,10 @@ function buildCategoryBlock(categoryName, teams) {
     tbody.appendChild(tr);
   }
 
-  block.appendChild(table);
+  const scroll = document.createElement("div");
+  scroll.className = "table-scroll";
+  scroll.appendChild(table);
+  block.appendChild(scroll);
   return block;
 }
 
@@ -1243,7 +1258,7 @@ function renderTournaments() {
   body.innerHTML = `
     <div class="cat-block">
       <div class="cat-header">${rows.length} Tournament${rows.length === 1 ? "" : "s"} \u2014 ${title}</div>
-      <table class="stats-table tourn-table" aria-label="Tournament schedule">
+      <div class="table-scroll"><table class="stats-table tourn-table" aria-label="Tournament schedule">
         <thead>
           <tr>
             <th class="col-team">Dates</th>
@@ -1253,7 +1268,7 @@ function renderTournaments() {
           </tr>
         </thead>
         <tbody>${rowsHtml}</tbody>
-      </table>
+      </table></div>
     </div>`;
 }
 
@@ -1532,7 +1547,7 @@ function renderDiamondSummary() {
       return `
         <div class="cat-block">
           <div class="cat-header">${escHtml(category)}</div>
-          <table class="stats-table tourn-table" aria-label="${escHtml(category)} home diamond summary">
+          <div class="table-scroll"><table class="stats-table tourn-table" aria-label="${escHtml(category)} home diamond summary">
             <thead>
               <tr>
                 <th class="col-team">Team</th>
@@ -1542,7 +1557,7 @@ function renderDiamondSummary() {
               </tr>
             </thead>
             <tbody>${categoryRowsHtml}</tbody>
-          </table>
+          </table></div>
         </div>`;
     }).join("");
 
@@ -1571,7 +1586,7 @@ function renderDiamondSummary() {
   body.innerHTML = `
     <div class="cat-block">
       <div class="cat-header">Home Diamond Summary (Grouped by Diamond) \u2014 ${totalHomeGames} home game${totalHomeGames === 1 ? "" : "s"}, ${totalPractices} practice${totalPractices === 1 ? "" : "s"}, ${uniqueTeams} team${uniqueTeams === 1 ? "" : "s"}, ${uniqueDiamonds} diamond${uniqueDiamonds === 1 ? "" : "s"}</div>
-      <table class="stats-table tourn-table" aria-label="Home diamond summary">
+      <div class="table-scroll"><table class="stats-table tourn-table" aria-label="Home diamond summary">
         <thead>
           <tr>
             <th class="col-team">Diamond</th>
@@ -1581,7 +1596,7 @@ function renderDiamondSummary() {
           </tr>
         </thead>
         <tbody>${tableRows}</tbody>
-      </table>
+      </table></div>
     </div>`;
 }
 
@@ -1736,7 +1751,7 @@ function renderPlayingToday() {
   body.innerHTML = `
     <div class="cat-block">
       <div class="cat-header">${rows.length} event${rows.length === 1 ? "" : "s"} today across ${teamCount} team${teamCount === 1 ? "" : "s"}</div>
-      <table class="stats-table tourn-table" aria-label="Teams playing today">
+      <div class="table-scroll"><table class="stats-table tourn-table" aria-label="Teams playing today">
         <thead>
           <tr>
             <th class="col-team">Team</th>
@@ -1746,7 +1761,7 @@ function renderPlayingToday() {
           </tr>
         </thead>
         <tbody>${rowsHtml}</tbody>
-      </table>
+      </table></div>
     </div>`;
 }
 
@@ -1981,7 +1996,7 @@ function renderBudgetModel() {
     return `
       <div class="cat-block">
         <div class="cat-header">${escHtml(category)}</div>
-        <table class="stats-table tourn-table" aria-label="${escHtml(category)} budget model">
+        <div class="table-scroll"><table class="stats-table tourn-table" aria-label="${escHtml(category)} budget model">
           <thead>
             <tr>
               <th class="col-team">Team</th>
@@ -1998,7 +2013,7 @@ function renderBudgetModel() {
           <tbody>
             ${catRowsHtml}
           </tbody>
-        </table>
+        </table></div>
       </div>`;
   }).join("");
 
