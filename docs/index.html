@@ -428,6 +428,27 @@
       min-width: 155px;
     }
 
+    /* Freeze first column while table scrolls horizontally */
+    .table-scroll .stats-table td.col-team,
+    .table-scroll .stats-table th.col-team {
+      position: sticky;
+      left: 0;
+      z-index: 1;
+    }
+
+    .table-scroll .stats-table td.col-team {
+      background: var(--card);
+    }
+
+    .table-scroll .stats-table tr:hover td.col-team {
+      background: #f5f8ff;
+    }
+
+    .table-scroll .stats-table thead th.col-team {
+      background: var(--th-bg);
+      z-index: 2;
+    }
+
     /* ---------------------------------------------------------------
        Cell styles
     ---------------------------------------------------------------- */
