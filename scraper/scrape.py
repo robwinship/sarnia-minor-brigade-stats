@@ -58,7 +58,6 @@ TEAMS = [
     {"id": 1304, "name": "9U River League",       "category": "River League"},
     {"id": 1310, "name": "11U Lady Brigade",      "category": "River League"},
     {"id": 1315, "name": "11U River League",      "category": "River League"},
-    {"id": 1316, "name": "13U River League",      "category": "River League"},
     # House League
     {"id": 1302, "name": "13U LDBA House League", "category": "House League"},
     # Senior / Other
