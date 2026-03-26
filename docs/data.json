@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-25T10:10:52.111996Z",
+  "generated": "2026-03-26T01:02:15.402114Z",
   "teams": [
     {
       "id": 1290,
@@ -750,6 +750,15 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20101-sarniabrigade.ca",
+          "date": "2026-04-28",
+          "start_time": "10:00 PM",
+          "end_date": "2026-04-29",
+          "summary": "10U AA OBA Rep - Game @ 11U OBA Rep",
+          "location": "Tecumseh Park",
+          "type": "game"
+        },
+        {
           "uid": "MS-19652-sarniabrigade.ca",
           "date": "2026-04-29",
           "start_time": "10:00 PM",
@@ -1094,6 +1103,17 @@
       ],
       "games": [
         {
+          "game_id": "20101",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20101/",
+          "date": "2026-04-28",
+          "start_time": "6:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
           "game_id": "19681",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/19681/",
           "date": "2026-05-09",
@@ -1269,6 +1289,24 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20099-sarniabrigade.ca",
+          "date": "2026-04-25",
+          "start_time": "8:00 PM",
+          "end_date": "2026-04-25",
+          "summary": "10U A OBA Rep - Game @ 11U OBA Rep",
+          "location": "Tecumseh Park",
+          "type": "game"
+        },
+        {
+          "uid": "MS-20097-sarniabrigade.ca",
+          "date": "2026-04-25",
+          "start_time": "10:00 PM",
+          "end_date": "2026-04-26",
+          "summary": "10U A OBA Rep - Game @ 11U OBA Rep",
+          "location": "Tecumseh Park",
+          "type": "game"
+        },
+        {
           "uid": "MS-19926-sarniabrigade.ca",
           "date": "2026-04-26",
           "start_time": "8:00 PM",
@@ -1314,7 +1352,30 @@
           "type": "tournament"
         }
       ],
-      "games": []
+      "games": [
+        {
+          "game_id": "20099",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20099/",
+          "date": "2026-04-25",
+          "start_time": "4:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "20097",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20097/",
+          "date": "2026-04-25",
+          "start_time": "6:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        }
+      ]
     },
     {
       "id": 1293,
@@ -1326,7 +1387,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 17,
+      "practices": 31,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -1409,15 +1470,6 @@
           "type": "practice"
         },
         {
-          "uid": "MS-19623-sarniabrigade.ca",
-          "date": "2026-03-26",
-          "start_time": "9:00 PM",
-          "end_date": "2026-03-26",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice"
-        },
-        {
           "uid": "MS-20056-sarniabrigade.ca",
           "date": "2026-04-02",
           "start_time": "9:00 PM",
@@ -1454,13 +1506,40 @@
           "type": "practice"
         },
         {
-          "uid": "MS-20060-sarniabrigade.ca",
-          "date": "2026-04-25",
-          "start_time": "8:00 PM",
-          "end_date": "2026-04-26",
+          "uid": "MS-20078-sarniabrigade.ca",
+          "date": "2026-04-21",
+          "start_time": "10:00 PM",
+          "end_date": "2026-04-22",
           "summary": "11U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice"
+        },
+        {
+          "uid": "MS-20099-sarniabrigade.ca",
+          "date": "2026-04-25",
+          "start_time": "8:00 PM",
+          "end_date": "2026-04-25",
+          "summary": "11U OBA Rep - Game vs 10U A OBA Rep",
+          "location": "Tecumseh Park",
+          "type": "game"
+        },
+        {
+          "uid": "MS-20097-sarniabrigade.ca",
+          "date": "2026-04-25",
+          "start_time": "10:00 PM",
+          "end_date": "2026-04-26",
+          "summary": "11U OBA Rep - Game vs 10U A OBA Rep",
+          "location": "Tecumseh Park",
+          "type": "game"
+        },
+        {
+          "uid": "MS-20101-sarniabrigade.ca",
+          "date": "2026-04-28",
+          "start_time": "10:00 PM",
+          "end_date": "2026-04-29",
+          "summary": "11U OBA Rep - Game vs 10U AA OBA Rep",
+          "location": "Tecumseh Park",
+          "type": "game"
         },
         {
           "uid": "MS-20061-sarniabrigade.ca",
@@ -1472,19 +1551,190 @@
           "type": "practice"
         },
         {
-          "uid": "MS-20062-sarniabrigade.ca",
-          "date": "2026-05-09",
-          "start_time": "8:00 PM",
-          "end_date": "2026-05-10",
+          "uid": "MS-20080-sarniabrigade.ca",
+          "date": "2026-05-05",
+          "start_time": "10:00 PM",
+          "end_date": "2026-05-06",
           "summary": "11U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice"
         },
         {
-          "uid": "MS-20063-sarniabrigade.ca",
-          "date": "2026-05-16",
+          "uid": "MS-20098-sarniabrigade.ca",
+          "date": "2026-05-09",
+          "start_time": "8:00 PM",
+          "end_date": "2026-05-09",
+          "summary": "11U OBA Rep - Game vs London Badgers",
+          "location": "Tecumseh Park",
+          "type": "game"
+        },
+        {
+          "uid": "MS-20100-sarniabrigade.ca",
+          "date": "2026-05-09",
+          "start_time": "10:30 PM",
+          "end_date": "2026-05-10",
+          "summary": "11U OBA Rep - Game vs London Badgers",
+          "location": "Tecumseh Park",
+          "type": "game"
+        },
+        {
+          "uid": "MS-20081-sarniabrigade.ca",
+          "date": "2026-05-12",
+          "start_time": "10:00 PM",
+          "end_date": "2026-05-13",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20102-sarniabrigade.ca",
+          "date": "2026-05-17",
           "start_time": "8:00 PM",
           "end_date": "2026-05-17",
+          "summary": "11U OBA Rep - Game vs Woodstock Wranglers",
+          "location": "Tecumseh Park",
+          "type": "game"
+        },
+        {
+          "uid": "MS-20103-sarniabrigade.ca",
+          "date": "2026-05-17",
+          "start_time": "10:30 PM",
+          "end_date": "2026-05-18",
+          "summary": "11U OBA Rep - Game vs Woodstock Wranglers",
+          "location": "Tecumseh Park",
+          "type": "game"
+        },
+        {
+          "uid": "MS-20082-sarniabrigade.ca",
+          "date": "2026-05-19",
+          "start_time": "10:00 PM",
+          "end_date": "2026-05-20",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20083-sarniabrigade.ca",
+          "date": "2026-05-26",
+          "start_time": "10:00 PM",
+          "end_date": "2026-05-27",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20084-sarniabrigade.ca",
+          "date": "2026-06-02",
+          "start_time": "10:00 PM",
+          "end_date": "2026-06-03",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20085-sarniabrigade.ca",
+          "date": "2026-06-09",
+          "start_time": "10:00 PM",
+          "end_date": "2026-06-10",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20086-sarniabrigade.ca",
+          "date": "2026-06-16",
+          "start_time": "10:00 PM",
+          "end_date": "2026-06-17",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20087-sarniabrigade.ca",
+          "date": "2026-06-23",
+          "start_time": "10:00 PM",
+          "end_date": "2026-06-24",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20088-sarniabrigade.ca",
+          "date": "2026-06-30",
+          "start_time": "10:00 PM",
+          "end_date": "2026-07-01",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20089-sarniabrigade.ca",
+          "date": "2026-07-07",
+          "start_time": "10:00 PM",
+          "end_date": "2026-07-08",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20090-sarniabrigade.ca",
+          "date": "2026-07-14",
+          "start_time": "10:00 PM",
+          "end_date": "2026-07-15",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20091-sarniabrigade.ca",
+          "date": "2026-07-21",
+          "start_time": "10:00 PM",
+          "end_date": "2026-07-22",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20092-sarniabrigade.ca",
+          "date": "2026-07-28",
+          "start_time": "10:00 PM",
+          "end_date": "2026-07-29",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20093-sarniabrigade.ca",
+          "date": "2026-08-04",
+          "start_time": "10:00 PM",
+          "end_date": "2026-08-05",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20094-sarniabrigade.ca",
+          "date": "2026-08-11",
+          "start_time": "10:00 PM",
+          "end_date": "2026-08-12",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20095-sarniabrigade.ca",
+          "date": "2026-08-18",
+          "start_time": "10:00 PM",
+          "end_date": "2026-08-19",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20096-sarniabrigade.ca",
+          "date": "2026-08-25",
+          "start_time": "10:00 PM",
+          "end_date": "2026-08-26",
           "summary": "11U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice"
@@ -1499,13 +1749,13 @@
           "type": "other"
         },
         {
-          "uid": "MD-3231-sarniabrigade.ca",
-          "date": "2026-05-22",
-          "start_time": null,
-          "end_date": "2026-05-25",
-          "summary": "11U OBA Rep - Cardinal Classic Tournament",
-          "location": "St Thomas, Ont",
-          "type": "tournament"
+          "uid": "MD-3305-sarniabrigade.ca",
+          "date": "2026-05-16",
+          "start_time": "9:00 PM",
+          "end_date": "2026-05-16",
+          "summary": "11U OBA Rep - Bus Trip",
+          "location": "Detroit",
+          "type": "other"
         },
         {
           "uid": "MD-3301-sarniabrigade.ca",
@@ -1535,7 +1785,85 @@
           "type": "tournament"
         }
       ],
-      "games": []
+      "games": [
+        {
+          "game_id": "20099",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20099/",
+          "date": "2026-04-25",
+          "start_time": "4:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "20097",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20097/",
+          "date": "2026-04-25",
+          "start_time": "6:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "20101",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20101/",
+          "date": "2026-04-28",
+          "start_time": "6:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "20098",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20098/",
+          "date": "2026-05-09",
+          "start_time": "4:00 PM",
+          "opponent": "London Badgers Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "20100",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20100/",
+          "date": "2026-05-09",
+          "start_time": "6:30 PM",
+          "opponent": "London Badgers Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "20102",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20102/",
+          "date": "2026-05-17",
+          "start_time": "4:00 PM",
+          "opponent": "Woodstock Wranglers Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        },
+        {
+          "game_id": "20103",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20103/",
+          "date": "2026-05-17",
+          "start_time": "6:30 PM",
+          "opponent": "Woodstock Wranglers Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null
+        }
+      ]
     },
     {
       "id": 1294,
@@ -3004,7 +3332,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 4,
+      "practices": 39,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -3042,6 +3370,33 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20105-sarniabrigade.ca",
+          "date": "2026-04-19",
+          "start_time": "2:00 PM",
+          "end_date": "2026-04-19",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20104-sarniabrigade.ca",
+          "date": "2026-04-23",
+          "start_time": "10:00 PM",
+          "end_date": "2026-04-24",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20106-sarniabrigade.ca",
+          "date": "2026-04-26",
+          "start_time": "2:00 PM",
+          "end_date": "2026-04-26",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
           "uid": "MS-19825-sarniabrigade.ca",
           "date": "2026-04-30",
           "start_time": "11:00 PM",
@@ -3049,6 +3404,321 @@
           "summary": "11U Select - Indoor Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice"
+        },
+        {
+          "uid": "MS-20107-sarniabrigade.ca",
+          "date": "2026-05-03",
+          "start_time": "2:00 PM",
+          "end_date": "2026-05-03",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20125-sarniabrigade.ca",
+          "date": "2026-05-07",
+          "start_time": "10:00 PM",
+          "end_date": "2026-05-08",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20108-sarniabrigade.ca",
+          "date": "2026-05-10",
+          "start_time": "2:00 PM",
+          "end_date": "2026-05-10",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20126-sarniabrigade.ca",
+          "date": "2026-05-14",
+          "start_time": "10:00 PM",
+          "end_date": "2026-05-15",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20109-sarniabrigade.ca",
+          "date": "2026-05-17",
+          "start_time": "2:00 PM",
+          "end_date": "2026-05-17",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20127-sarniabrigade.ca",
+          "date": "2026-05-21",
+          "start_time": "10:00 PM",
+          "end_date": "2026-05-22",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20110-sarniabrigade.ca",
+          "date": "2026-05-24",
+          "start_time": "2:00 PM",
+          "end_date": "2026-05-24",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20128-sarniabrigade.ca",
+          "date": "2026-05-28",
+          "start_time": "10:00 PM",
+          "end_date": "2026-05-29",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20111-sarniabrigade.ca",
+          "date": "2026-05-31",
+          "start_time": "2:00 PM",
+          "end_date": "2026-05-31",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20129-sarniabrigade.ca",
+          "date": "2026-06-04",
+          "start_time": "10:00 PM",
+          "end_date": "2026-06-05",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20112-sarniabrigade.ca",
+          "date": "2026-06-07",
+          "start_time": "2:00 PM",
+          "end_date": "2026-06-07",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20130-sarniabrigade.ca",
+          "date": "2026-06-11",
+          "start_time": "10:00 PM",
+          "end_date": "2026-06-12",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20113-sarniabrigade.ca",
+          "date": "2026-06-14",
+          "start_time": "2:00 PM",
+          "end_date": "2026-06-14",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20131-sarniabrigade.ca",
+          "date": "2026-06-18",
+          "start_time": "10:00 PM",
+          "end_date": "2026-06-19",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20132-sarniabrigade.ca",
+          "date": "2026-06-25",
+          "start_time": "10:00 PM",
+          "end_date": "2026-06-26",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20115-sarniabrigade.ca",
+          "date": "2026-06-28",
+          "start_time": "2:00 PM",
+          "end_date": "2026-06-28",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20133-sarniabrigade.ca",
+          "date": "2026-07-02",
+          "start_time": "10:00 PM",
+          "end_date": "2026-07-03",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20134-sarniabrigade.ca",
+          "date": "2026-07-09",
+          "start_time": "10:00 PM",
+          "end_date": "2026-07-10",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20117-sarniabrigade.ca",
+          "date": "2026-07-12",
+          "start_time": "2:00 PM",
+          "end_date": "2026-07-12",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20135-sarniabrigade.ca",
+          "date": "2026-07-16",
+          "start_time": "10:00 PM",
+          "end_date": "2026-07-17",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20118-sarniabrigade.ca",
+          "date": "2026-07-19",
+          "start_time": "2:00 PM",
+          "end_date": "2026-07-19",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20136-sarniabrigade.ca",
+          "date": "2026-07-23",
+          "start_time": "10:00 PM",
+          "end_date": "2026-07-24",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20119-sarniabrigade.ca",
+          "date": "2026-07-26",
+          "start_time": "2:00 PM",
+          "end_date": "2026-07-26",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20137-sarniabrigade.ca",
+          "date": "2026-07-30",
+          "start_time": "10:00 PM",
+          "end_date": "2026-07-31",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20138-sarniabrigade.ca",
+          "date": "2026-08-06",
+          "start_time": "10:00 PM",
+          "end_date": "2026-08-07",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20121-sarniabrigade.ca",
+          "date": "2026-08-09",
+          "start_time": "2:00 PM",
+          "end_date": "2026-08-09",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20139-sarniabrigade.ca",
+          "date": "2026-08-13",
+          "start_time": "10:00 PM",
+          "end_date": "2026-08-14",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20122-sarniabrigade.ca",
+          "date": "2026-08-16",
+          "start_time": "2:00 PM",
+          "end_date": "2026-08-16",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20140-sarniabrigade.ca",
+          "date": "2026-08-20",
+          "start_time": "10:00 PM",
+          "end_date": "2026-08-21",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20123-sarniabrigade.ca",
+          "date": "2026-08-23",
+          "start_time": "2:00 PM",
+          "end_date": "2026-08-23",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20141-sarniabrigade.ca",
+          "date": "2026-08-27",
+          "start_time": "10:00 PM",
+          "end_date": "2026-08-28",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20124-sarniabrigade.ca",
+          "date": "2026-08-30",
+          "start_time": "2:00 PM",
+          "end_date": "2026-08-30",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice"
+        },
+        {
+          "uid": "MD-3306-sarniabrigade.ca",
+          "date": "2026-06-19",
+          "start_time": null,
+          "end_date": "2026-06-22",
+          "summary": "11U Select - Southwest London Select Tournament",
+          "location": "London, ON",
+          "type": "tournament"
+        },
+        {
+          "uid": "MD-3309-sarniabrigade.ca",
+          "date": "2026-07-03",
+          "start_time": null,
+          "end_date": "2026-07-06",
+          "summary": "11U Select - Lambton Shores 11U Select Tournament",
+          "location": "Forest, ON",
+          "type": "tournament"
+        },
+        {
+          "uid": "MD-3310-sarniabrigade.ca",
+          "date": "2026-07-31",
+          "start_time": null,
+          "end_date": "2026-08-03",
+          "summary": "11U Select - Forest Glade 11U Select Tournament",
+          "location": "Windsor, ON",
+          "type": "tournament"
         }
       ],
       "games": []
@@ -3730,190 +4400,199 @@
       "events": [
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
-          "date": "2026-03-24",
-          "start_time": "1:04 AM",
-          "end_date": "2026-03-24",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-03-26",
+          "start_time": "1:07 AM",
+          "end_date": "2026-03-26",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1001-sarniabrigade.ca",
-          "date": "2026-03-25",
-          "start_time": "1:04 AM",
-          "end_date": "2026-03-25",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-03-27",
+          "start_time": "1:07 AM",
+          "end_date": "2026-03-27",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1002-sarniabrigade.ca",
-          "date": "2026-03-26",
-          "start_time": "1:04 AM",
-          "end_date": "2026-03-26",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-03-28",
+          "start_time": "1:07 AM",
+          "end_date": "2026-03-28",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1003-sarniabrigade.ca",
-          "date": "2026-03-27",
-          "start_time": "1:04 AM",
-          "end_date": "2026-03-27",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-03-29",
+          "start_time": "1:07 AM",
+          "end_date": "2026-03-29",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1004-sarniabrigade.ca",
-          "date": "2026-03-28",
-          "start_time": "1:04 AM",
-          "end_date": "2026-03-28",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-03-30",
+          "start_time": "1:07 AM",
+          "end_date": "2026-03-30",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1005-sarniabrigade.ca",
-          "date": "2026-03-29",
-          "start_time": "1:04 AM",
-          "end_date": "2026-03-29",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-03-31",
+          "start_time": "1:07 AM",
+          "end_date": "2026-03-31",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1006-sarniabrigade.ca",
-          "date": "2026-03-30",
-          "start_time": "1:04 AM",
-          "end_date": "2026-03-30",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-04-01",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-01",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1007-sarniabrigade.ca",
-          "date": "2026-03-31",
-          "start_time": "1:04 AM",
-          "end_date": "2026-03-31",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-04-02",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-02",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1008-sarniabrigade.ca",
-          "date": "2026-04-01",
-          "start_time": "1:04 AM",
-          "end_date": "2026-04-01",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-04-03",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1009-sarniabrigade.ca",
-          "date": "2026-04-02",
-          "start_time": "1:04 AM",
-          "end_date": "2026-04-02",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-04-04",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1010-sarniabrigade.ca",
-          "date": "2026-04-03",
-          "start_time": "1:04 AM",
-          "end_date": "2026-04-03",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-04-05",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1011-sarniabrigade.ca",
-          "date": "2026-04-04",
-          "start_time": "1:04 AM",
-          "end_date": "2026-04-04",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-04-06",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1012-sarniabrigade.ca",
-          "date": "2026-04-05",
-          "start_time": "1:04 AM",
-          "end_date": "2026-04-05",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-04-07",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1013-sarniabrigade.ca",
-          "date": "2026-04-06",
-          "start_time": "1:04 AM",
-          "end_date": "2026-04-06",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-04-08",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1014-sarniabrigade.ca",
-          "date": "2026-04-07",
-          "start_time": "1:04 AM",
-          "end_date": "2026-04-07",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-04-09",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1015-sarniabrigade.ca",
-          "date": "2026-04-08",
-          "start_time": "1:04 AM",
-          "end_date": "2026-04-08",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-04-10",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-10",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1016-sarniabrigade.ca",
-          "date": "2026-04-09",
-          "start_time": "1:04 AM",
-          "end_date": "2026-04-09",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-04-11",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-11",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1017-sarniabrigade.ca",
-          "date": "2026-04-10",
-          "start_time": "1:04 AM",
-          "end_date": "2026-04-10",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-04-12",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-12",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1018-sarniabrigade.ca",
-          "date": "2026-04-11",
-          "start_time": "1:04 AM",
-          "end_date": "2026-04-11",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-04-13",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-13",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1019-sarniabrigade.ca",
-          "date": "2026-04-12",
-          "start_time": "1:04 AM",
-          "end_date": "2026-04-12",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-04-14",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-14",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         },
         {
           "uid": "OUTDATED-1020-sarniabrigade.ca",
-          "date": "2026-04-13",
-          "start_time": "1:04 AM",
-          "end_date": "2026-04-13",
-          "summary": "Your assistance, please.  The Sarnia Brigade Minor Baseball Association calendar feed you've requested is no longer current.  More instructions are in this event's details.",
+          "date": "2026-04-15",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-15",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other"
+        },
+        {
+          "uid": "OUTDATED-1021-sarniabrigade.ca",
+          "date": "2026-04-16",
+          "start_time": "1:07 AM",
+          "end_date": "2026-04-16",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other"
         }
@@ -4001,7 +4680,7 @@
         {
           "uid": "MS-19738-sarniabrigade.ca",
           "date": "2026-04-25",
-          "start_time": "3:00 PM",
+          "start_time": "5:00 PM",
           "end_date": "2026-04-25",
           "summary": "16U PBLO - Game vs Oshawa Legionaires",
           "location": "Errol Russell Park",
@@ -4010,7 +4689,7 @@
         {
           "uid": "MS-19739-sarniabrigade.ca",
           "date": "2026-04-25",
-          "start_time": "6:00 PM",
+          "start_time": "8:00 PM",
           "end_date": "2026-04-25",
           "summary": "16U PBLO - Game vs Oshawa Legionaires",
           "location": "Errol Russell Park",
@@ -4589,7 +5268,7 @@
           "game_id": "19738",
           "href": "https://sarniabrigade.ca/Teams/1298/Games/19738/",
           "date": "2026-04-25",
-          "start_time": "11:00 AM",
+          "start_time": "1:00 PM",
           "opponent": "Oshawa Legionaires Errol Russell Park",
           "home": true,
           "result": null,
@@ -4600,7 +5279,7 @@
           "game_id": "19739",
           "href": "https://sarniabrigade.ca/Teams/1298/Games/19739/",
           "date": "2026-04-25",
-          "start_time": "2:00 PM",
+          "start_time": "4:00 PM",
           "opponent": "Oshawa Legionaires Errol Russell Park",
           "home": true,
           "result": null,
