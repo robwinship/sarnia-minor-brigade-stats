@@ -2119,8 +2119,18 @@ async function render(forceRefresh = false) {
 
     if (data.generated) {
       const d = new Date(data.generated);
+      const easternTime = d.toLocaleString("en-CA", {
+        dateStyle: "medium",
+        timeStyle: "short",
+        timeZone: "America/Toronto",
+      });
+      const tzPart = new Intl.DateTimeFormat("en-CA", {
+        timeZone: "America/Toronto",
+        timeZoneName: "short",
+      }).formatToParts(d).find(part => part.type === "timeZoneName");
+      const tzLabel = tzPart ? tzPart.value : "ET";
       document.getElementById("last-updated").textContent =
-        "Updated " + d.toLocaleString("en-CA", { dateStyle: "medium", timeStyle: "short", timeZone: "UTC" }) + " UTC";
+        "Updated " + easternTime + " " + tzLabel;
     }
 
     document.getElementById("start-date").value = "";
