@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-26T01:46:03.548296Z",
+  "generated": "2026-03-27T16:05:02.814904Z",
   "teams": [
     {
       "id": 1290,
@@ -1224,7 +1224,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 8,
+      "practices": 29,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -1280,12 +1280,30 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20152-sarniabrigade.ca",
+          "date": "2026-04-16",
+          "start_time": "5:30 PM",
+          "end_date": "2026-04-16",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
           "uid": "MS-19925-sarniabrigade.ca",
           "date": "2026-04-19",
           "start_time": "4:00 PM",
           "end_date": "2026-04-19",
           "summary": "10U A OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20153-sarniabrigade.ca",
+          "date": "2026-04-23",
+          "start_time": "5:30 PM",
+          "end_date": "2026-04-23",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
           "type": "practice"
         },
         {
@@ -1316,6 +1334,15 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20154-sarniabrigade.ca",
+          "date": "2026-04-30",
+          "start_time": "5:30 PM",
+          "end_date": "2026-04-30",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
           "uid": "MS-19927-sarniabrigade.ca",
           "date": "2026-05-03",
           "start_time": "4:00 PM",
@@ -1323,6 +1350,177 @@
           "summary": "10U A OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice"
+        },
+        {
+          "uid": "MS-20155-sarniabrigade.ca",
+          "date": "2026-05-07",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-07",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20156-sarniabrigade.ca",
+          "date": "2026-05-14",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-14",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20157-sarniabrigade.ca",
+          "date": "2026-05-21",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-21",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20158-sarniabrigade.ca",
+          "date": "2026-05-28",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-28",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20159-sarniabrigade.ca",
+          "date": "2026-06-04",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-04",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20160-sarniabrigade.ca",
+          "date": "2026-06-11",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-11",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20161-sarniabrigade.ca",
+          "date": "2026-06-18",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-18",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20162-sarniabrigade.ca",
+          "date": "2026-06-25",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-25",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20163-sarniabrigade.ca",
+          "date": "2026-07-02",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-02",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20164-sarniabrigade.ca",
+          "date": "2026-07-09",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-09",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20165-sarniabrigade.ca",
+          "date": "2026-07-16",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-16",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20166-sarniabrigade.ca",
+          "date": "2026-07-23",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-23",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20167-sarniabrigade.ca",
+          "date": "2026-07-30",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-30",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20168-sarniabrigade.ca",
+          "date": "2026-08-06",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-06",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20169-sarniabrigade.ca",
+          "date": "2026-08-13",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-13",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20170-sarniabrigade.ca",
+          "date": "2026-08-20",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-20",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20171-sarniabrigade.ca",
+          "date": "2026-08-27",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-27",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20172-sarniabrigade.ca",
+          "date": "2026-09-03",
+          "start_time": "5:30 PM",
+          "end_date": "2026-09-03",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice"
+        },
+        {
+          "uid": "MD-3311-sarniabrigade.ca",
+          "date": "2026-04-25",
+          "start_time": "9:30 AM",
+          "end_date": "2026-04-25",
+          "summary": "10U A OBA Rep - Fundraiser - MacGregor's Meat Order Delivery",
+          "location": "PASA",
+          "type": "other"
         },
         {
           "uid": "MD-3292-sarniabrigade.ca",
@@ -1387,7 +1585,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 17,
+      "practices": 31,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -1470,15 +1668,6 @@
           "type": "practice"
         },
         {
-          "uid": "MS-19623-sarniabrigade.ca",
-          "date": "2026-03-26",
-          "start_time": "5:00 PM",
-          "end_date": "2026-03-26",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice"
-        },
-        {
           "uid": "MS-20056-sarniabrigade.ca",
           "date": "2026-04-02",
           "start_time": "5:00 PM",
@@ -1515,13 +1704,40 @@
           "type": "practice"
         },
         {
-          "uid": "MS-20060-sarniabrigade.ca",
-          "date": "2026-04-25",
-          "start_time": "4:00 PM",
-          "end_date": "2026-04-26",
+          "uid": "MS-20078-sarniabrigade.ca",
+          "date": "2026-04-21",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-22",
           "summary": "11U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice"
+        },
+        {
+          "uid": "MS-20099-sarniabrigade.ca",
+          "date": "2026-04-25",
+          "start_time": "4:00 PM",
+          "end_date": "2026-04-25",
+          "summary": "11U OBA Rep - Game vs 10U A OBA Rep",
+          "location": "Tecumseh Park",
+          "type": "game"
+        },
+        {
+          "uid": "MS-20097-sarniabrigade.ca",
+          "date": "2026-04-25",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-26",
+          "summary": "11U OBA Rep - Game vs 10U A OBA Rep",
+          "location": "Tecumseh Park",
+          "type": "game"
+        },
+        {
+          "uid": "MS-20101-sarniabrigade.ca",
+          "date": "2026-04-28",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-29",
+          "summary": "11U OBA Rep - Game vs 10U AA OBA Rep",
+          "location": "Tecumseh Park",
+          "type": "game"
         },
         {
           "uid": "MS-20061-sarniabrigade.ca",
@@ -1533,19 +1749,190 @@
           "type": "practice"
         },
         {
-          "uid": "MS-20062-sarniabrigade.ca",
-          "date": "2026-05-09",
-          "start_time": "4:00 PM",
-          "end_date": "2026-05-10",
+          "uid": "MS-20080-sarniabrigade.ca",
+          "date": "2026-05-05",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-06",
           "summary": "11U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice"
         },
         {
-          "uid": "MS-20063-sarniabrigade.ca",
-          "date": "2026-05-16",
+          "uid": "MS-20098-sarniabrigade.ca",
+          "date": "2026-05-09",
+          "start_time": "4:00 PM",
+          "end_date": "2026-05-09",
+          "summary": "11U OBA Rep - Game vs London Badgers",
+          "location": "Tecumseh Park",
+          "type": "game"
+        },
+        {
+          "uid": "MS-20100-sarniabrigade.ca",
+          "date": "2026-05-09",
+          "start_time": "6:30 PM",
+          "end_date": "2026-05-10",
+          "summary": "11U OBA Rep - Game vs London Badgers",
+          "location": "Tecumseh Park",
+          "type": "game"
+        },
+        {
+          "uid": "MS-20081-sarniabrigade.ca",
+          "date": "2026-05-12",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-13",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20102-sarniabrigade.ca",
+          "date": "2026-05-17",
           "start_time": "4:00 PM",
           "end_date": "2026-05-17",
+          "summary": "11U OBA Rep - Game vs Woodstock Wranglers",
+          "location": "Tecumseh Park",
+          "type": "game"
+        },
+        {
+          "uid": "MS-20103-sarniabrigade.ca",
+          "date": "2026-05-17",
+          "start_time": "6:30 PM",
+          "end_date": "2026-05-18",
+          "summary": "11U OBA Rep - Game vs Woodstock Wranglers",
+          "location": "Tecumseh Park",
+          "type": "game"
+        },
+        {
+          "uid": "MS-20082-sarniabrigade.ca",
+          "date": "2026-05-19",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-20",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20083-sarniabrigade.ca",
+          "date": "2026-05-26",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-27",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20084-sarniabrigade.ca",
+          "date": "2026-06-02",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-03",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20085-sarniabrigade.ca",
+          "date": "2026-06-09",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-10",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20086-sarniabrigade.ca",
+          "date": "2026-06-16",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-17",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20087-sarniabrigade.ca",
+          "date": "2026-06-23",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-24",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20088-sarniabrigade.ca",
+          "date": "2026-06-30",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-01",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20089-sarniabrigade.ca",
+          "date": "2026-07-07",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-08",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20090-sarniabrigade.ca",
+          "date": "2026-07-14",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-15",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20091-sarniabrigade.ca",
+          "date": "2026-07-21",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-22",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20092-sarniabrigade.ca",
+          "date": "2026-07-28",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-29",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20093-sarniabrigade.ca",
+          "date": "2026-08-04",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-05",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20094-sarniabrigade.ca",
+          "date": "2026-08-11",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-12",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20095-sarniabrigade.ca",
+          "date": "2026-08-18",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-19",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20096-sarniabrigade.ca",
+          "date": "2026-08-25",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-26",
           "summary": "11U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice"
@@ -1560,13 +1947,13 @@
           "type": "other"
         },
         {
-          "uid": "MD-3231-sarniabrigade.ca",
-          "date": "2026-05-22",
-          "start_time": null,
-          "end_date": "2026-05-25",
-          "summary": "11U OBA Rep - Cardinal Classic Tournament",
-          "location": "St Thomas, Ont",
-          "type": "tournament"
+          "uid": "MD-3305-sarniabrigade.ca",
+          "date": "2026-05-16",
+          "start_time": "10:15 AM",
+          "end_date": "2026-05-17",
+          "summary": "11U OBA Rep - Bus Trip",
+          "location": "Detroit",
+          "type": "other"
         },
         {
           "uid": "MD-3301-sarniabrigade.ca",
