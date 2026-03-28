@@ -2,10 +2,10 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-28T21:29:52.822851Z",
+  "generated": "2026-03-28T21:52:34.359135Z",
   "umpire_data_status": {
-    "available": false,
-    "reason": "missing_credentials",
+    "available": true,
+    "reason": "ok",
     "source_url": "https://sarniabrigade.ca/CP/#Module=Officials;SelectedValue=Content/Officials/Schedule.aspx"
   },
   "teams": [
@@ -99,8 +99,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -799,13 +799,74 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 3,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
-        "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "doubleheader_mismatch_upcoming": 1,
+        "data_available": true,
+        "unavailable_reason": "",
+        "games_missed_details": [
+          {
+            "date": "2026-05-20",
+            "time": "6:00 PM",
+            "opponent": "Chatham Major Diamonds",
+            "venue": "Clearwater Diamond #1",
+            "assigned_umpires": [
+              "David Haasen"
+            ],
+            "assigned_count": 1,
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-06-27",
+            "time": "11:00 AM",
+            "opponent": "Lasalle Turtle Club",
+            "venue": "Clearwater Diamond #1",
+            "assigned_umpires": [
+              "Hayden Scheuermann"
+            ],
+            "assigned_count": 1,
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-06-27",
+            "time": "2:00 PM",
+            "opponent": "Windsor Stars",
+            "venue": "Clearwater Diamond #1",
+            "assigned_umpires": [
+              "Hayden Scheuermann"
+            ],
+            "assigned_count": 1,
+            "issue_timing": "upcoming"
+          }
+        ],
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-06-27",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "games": [
+              {
+                "time": "11:00 AM",
+                "opponent": "Lasalle Turtle Club",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Hayden Scheuermann"
+                ],
+                "assigned_count": 1
+              },
+              {
+                "time": "2:00 PM",
+                "opponent": "Windsor Stars",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Hayden Scheuermann"
+                ],
+                "assigned_count": 1
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -1429,12 +1490,62 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 5,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
-        "games_missed_details": [],
+        "data_available": true,
+        "unavailable_reason": "",
+        "games_missed_details": [
+          {
+            "date": "2026-05-24",
+            "time": "11:00 AM",
+            "opponent": "TBA",
+            "venue": "TBD",
+            "assigned_umpires": [
+              "Paolo Padiglia"
+            ],
+            "assigned_count": 1,
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-07-11",
+            "time": "10:00 AM",
+            "opponent": "London Badgers",
+            "venue": "Clearwater Diamond #2",
+            "assigned_umpires": [
+              "Jason Lajeunesse"
+            ],
+            "assigned_count": 1,
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-07-18",
+            "time": "10:00 AM",
+            "opponent": "Lasalle Turtle Club",
+            "venue": "Clearwater Diamond #2",
+            "assigned_umpires": [],
+            "assigned_count": 0,
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-08-08",
+            "time": "10:00 AM",
+            "opponent": "TBA",
+            "venue": "Clearwater Diamond #2",
+            "assigned_umpires": [],
+            "assigned_count": 0,
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-08-23",
+            "time": "4:00 PM",
+            "opponent": "Riverside Royals",
+            "venue": "TBD",
+            "assigned_umpires": [],
+            "assigned_count": 0,
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       }
     },
@@ -1803,8 +1914,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -2298,13 +2409,146 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 7,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
-        "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "doubleheader_mismatch_upcoming": 3,
+        "data_available": true,
+        "unavailable_reason": "",
+        "games_missed_details": [
+          {
+            "date": "2026-04-25",
+            "time": "4:00 PM",
+            "opponent": "10U A OBA Rep",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "assigned_count": 0,
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-04-25",
+            "time": "6:00 PM",
+            "opponent": "10U A OBA Rep",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "assigned_count": 0,
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-04-28",
+            "time": "6:00 PM",
+            "opponent": "10U AA OBA Rep",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Paolo Padiglia"
+            ],
+            "assigned_count": 1,
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-05-09",
+            "time": "4:00 PM",
+            "opponent": "London Badgers",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "assigned_count": 0,
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-05-09",
+            "time": "6:30 PM",
+            "opponent": "London Badgers",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "assigned_count": 0,
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-05-17",
+            "time": "4:00 PM",
+            "opponent": "Woodstock Wranglers",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "assigned_count": 0,
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-05-17",
+            "time": "6:30 PM",
+            "opponent": "Woodstock Wranglers",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "assigned_count": 0,
+            "issue_timing": "upcoming"
+          }
+        ],
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-04-25",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "games": [
+              {
+                "time": "4:00 PM",
+                "opponent": "10U A OBA Rep",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [],
+                "assigned_count": 0
+              },
+              {
+                "time": "6:00 PM",
+                "opponent": "10U A OBA Rep",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [],
+                "assigned_count": 0
+              }
+            ]
+          },
+          {
+            "date": "2026-05-09",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "games": [
+              {
+                "time": "4:00 PM",
+                "opponent": "London Badgers",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [],
+                "assigned_count": 0
+              },
+              {
+                "time": "6:30 PM",
+                "opponent": "London Badgers",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [],
+                "assigned_count": 0
+              }
+            ]
+          },
+          {
+            "date": "2026-05-17",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "games": [
+              {
+                "time": "4:00 PM",
+                "opponent": "Woodstock Wranglers",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [],
+                "assigned_count": 0
+              },
+              {
+                "time": "6:30 PM",
+                "opponent": "Woodstock Wranglers",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [],
+                "assigned_count": 0
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -2554,13 +2798,63 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
-        "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "doubleheader_mismatch_upcoming": 1,
+        "data_available": true,
+        "unavailable_reason": "",
+        "games_missed_details": [
+          {
+            "date": "2026-06-21",
+            "time": "10:00 AM",
+            "opponent": "Lasalle Turtle Club",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Paolo Padiglia"
+            ],
+            "assigned_count": 1,
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-06-21",
+            "time": "12:30 PM",
+            "opponent": "Lasalle Turtle Club",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Paolo Padiglia"
+            ],
+            "assigned_count": 1,
+            "issue_timing": "upcoming"
+          }
+        ],
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-06-21",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "Lasalle Turtle Club",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Paolo Padiglia"
+                ],
+                "assigned_count": 1
+              },
+              {
+                "time": "12:30 PM",
+                "opponent": "Lasalle Turtle Club",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Paolo Padiglia"
+                ],
+                "assigned_count": 1
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -2698,8 +2992,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -2821,8 +3115,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -3766,8 +4060,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -3871,8 +4165,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -4282,8 +4576,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -4768,8 +5062,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -4900,8 +5194,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -4932,8 +5226,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -4964,8 +5258,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -4996,8 +5290,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -5028,8 +5322,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -6046,8 +6340,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -6078,8 +6372,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -6110,8 +6404,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -6269,8 +6563,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
