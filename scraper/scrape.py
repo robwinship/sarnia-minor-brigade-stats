@@ -410,6 +410,16 @@ def compute_umpire_issues(games: list, assignments: list, data_available: bool, 
         if not mismatch_found:
             continue
 
+        # Names that are not consistent across all games for this date.
+        name_frequency = defaultdict(int)
+        for row in rows:
+            for name in set(row["umpires"]):
+                name_frequency[name] += 1
+        mismatched_names = sorted([
+            name for name, count in name_frequency.items()
+            if count < len(rows)
+        ])
+
         issue_timing = "past" if date_text < today_iso else "upcoming"
         if issue_timing == "past":
             past_mismatch_count += 1
@@ -421,6 +431,7 @@ def compute_umpire_issues(games: list, assignments: list, data_available: bool, 
             "issue_timing": issue_timing,
             "incomplete_assignment": incomplete,
             "pair_signatures": [" | ".join(pair) for pair in sorted(unique_pairs)],
+            "mismatched_names": mismatched_names,
             "games": [
                 {
                     "time": row["time"],

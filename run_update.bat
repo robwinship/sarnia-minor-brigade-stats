@@ -3,7 +3,7 @@ setlocal EnableExtensions EnableDelayedExpansion
 
 REM Sarnia Brigade local updater
 REM - Runs scraper\scrape.py using local .venv Python
-REM - Commits docs\data.json only if changed
+REM - Commits all tracked repo changes after scrape
 REM - Pushes to current branch
 
 set "ROOT=%~dp0"
@@ -40,21 +40,23 @@ echo Running local update at %DATE% %TIME%
 echo Repo: %ROOT%
 echo ------------------------------------------------------------
 
+call "%ROOT%\cp_credentials.bat"
+
 "%PYTHON_EXE%" "%ROOT%\scraper\scrape.py"
 if errorlevel 1 (
     echo ERROR: scraper failed.
     exit /b 1
 )
 
-git add docs/data.json
+git add -u
 if errorlevel 1 (
-    echo ERROR: failed to stage docs/data.json
+    echo ERROR: failed to stage tracked changes
     exit /b 1
 )
 
 git diff --cached --quiet
 if not errorlevel 1 (
-    echo No data changes detected. Nothing to commit.
+    echo No tracked changes detected. Nothing to commit.
     exit /b 0
 )
 

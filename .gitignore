@@ -1,3 +1,6 @@
+# CP Credentials (local use only, never commit)
+cp_credentials.bat
+
 # Python
 __pycache__/
 *.pyc

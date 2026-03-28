@@ -6,8 +6,9 @@ REM  Sarnia Brigade -- Backup Utility
 REM
 REM  - Increments version.txt by 0.01
 REM  - Prepends an entry to CHANGELOG.md
-REM  - Zips the project folder to ..\Sarnia_Brigade_Backups\
+REM  - Zips the project folder to .\backups\
 REM    with filename:  SarniaBrigade_v<ver>_<yyyy-MM-dd_HH-mm-ss>.zip
+REM  - Keeps only the 10 most recent backups
 REM ================================================================
 
 REM Resolve the project directory (folder containing this script)
@@ -17,9 +18,8 @@ set "PROJECT_DIR=%PROJECT_DIR:~0,-1%"
 set "VERSION_FILE=%PROJECT_DIR%\version.txt"
 set "CHANGELOG_FILE=%PROJECT_DIR%\CHANGELOG.md"
 
-REM Backup folder sits alongside the project directory
-for %%i in ("%PROJECT_DIR%") do set "PARENT_DIR=%%~dpi"
-set "BACKUP_DIR=%PARENT_DIR%Sarnia_Brigade_Backups"
+REM Backup folder is inside the project directory
+set "BACKUP_DIR=%PROJECT_DIR%\backups"
 
 echo.
 echo  ================================================
@@ -49,9 +49,9 @@ if not exist "%BACKUP_DIR%" (
     echo   Created backup directory.
 )
 
-REM --- Zip the project folder ------------------------------------
+REM --- Zip the project folder (excluding large/unnecessary folders) ---
 echo   Creating archive...
-powershell -NoProfile -Command "Compress-Archive -Path '%PROJECT_DIR%' -DestinationPath '%BACKUP_PATH%' -Force"
+powershell -NoProfile -Command "$exclude = '.venv|.venv-1|.git|.github|.vscode'; Get-ChildItem -Path '%PROJECT_DIR%' -Recurse -Force | Where-Object {$_.FullName -notmatch $exclude} | Select-Object -ExpandProperty FullName | Compress-Archive -DestinationPath '%BACKUP_PATH%' -Force"
 if %errorlevel% neq 0 (
     echo.
     echo   ERROR: Archive creation failed. Backup was not saved.
@@ -59,6 +59,10 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 echo   Archive created successfully.
+
+REM --- Clean up old backups (keep only 10 most recent) -----------
+echo   Cleaning up old backups (keeping 10 most recent)...
+powershell -NoProfile -Command "Get-ChildItem -Path '%BACKUP_DIR%' -Filter '*.zip' -File | Sort-Object -Property LastWriteTime -Descending | Select-Object -Skip 10 | ForEach-Object { Remove-Item $_.FullName -Force; Write-Host '   Deleted: ' $_.Name }"
 
 REM --- Update version.txt ----------------------------------------
 echo %NEW_VERSION%> "%VERSION_FILE%"

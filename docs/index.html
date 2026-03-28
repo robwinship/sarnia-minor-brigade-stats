@@ -890,6 +890,13 @@ const CATEGORY_ORDER = [
   "Senior",
   "Instructional",
 ];
+const HIDDEN_TEAM_NAMES = new Set([
+  "22U AAA",
+  "Senior AAA",
+]);
+const CATEGORY_DISPLAY_NAME_MAP = {
+  Senior: "PBLO",
+};
 
 const PITCH_LOCATION_RE = /pitch indoor sports/i;
 const DIAMOND_RATE_GROUP_A = new Set([
@@ -1018,6 +1025,20 @@ function inRange(dateText, startDate, endDate) {
   if (startDate && dateText < startDate) return false;
   if (endDate && dateText > endDate) return false;
   return true;
+}
+
+function isTeamVisible(team) {
+  const teamName = String(team?.name || "").trim();
+  return !HIDDEN_TEAM_NAMES.has(teamName);
+}
+
+function getVisibleTeams(teams) {
+  return (teams ?? []).filter(isTeamVisible);
+}
+
+function getDisplayCategoryName(categoryName) {
+  const internalName = String(categoryName || "Other");
+  return CATEGORY_DISPLAY_NAME_MAP[internalName] || internalName;
 }
 
 function summarizeTeam(team, startDate, endDate) {
@@ -1157,7 +1178,8 @@ function applyFilters() {
     return;
   }
 
-  const summarizedTeams = (loadedData.teams ?? []).map(team => summarizeTeam(team, startDate, endDate));
+  const visibleTeams = getVisibleTeams(loadedData.teams ?? []);
+  const summarizedTeams = visibleTeams.map(team => summarizeTeam(team, startDate, endDate));
   const grouped = {};
   for (const team of summarizedTeams) {
     const cat = team.category || "Other";
@@ -1181,7 +1203,7 @@ function applyFilters() {
     rangeSummary.textContent = "Showing full season totals.";
   }
 
-  renderPitchTracker(loadedData.teams ?? [], startDate, endDate);
+  renderPitchTracker(visibleTeams, startDate, endDate);
 }
 
 /* ----------------------------------------------------------------
@@ -1190,17 +1212,18 @@ function applyFilters() {
 function buildCategoryBlock(categoryName, teams) {
   const block = document.createElement("div");
   block.className = "cat-block";
+  const displayCategoryName = getDisplayCategoryName(categoryName);
 
   // Header bar
   const hdr = document.createElement("div");
   hdr.className = "cat-header";
-  hdr.textContent = categoryName;
+  hdr.textContent = displayCategoryName;
   block.appendChild(hdr);
 
   // Table
   const table = document.createElement("table");
   table.className = "stats-table";
-  table.setAttribute("aria-label", categoryName + " season stats");
+  table.setAttribute("aria-label", displayCategoryName + " season stats");
 
   table.innerHTML = `
     <thead>
@@ -1327,7 +1350,8 @@ function populateTournamentTeamFilter(teams) {
 function renderTournaments() {
   if (!loadedData) return;
   const filterTeamId = document.getElementById("tournament-team-filter").value;
-  let rows = extractTournaments(loadedData.teams ?? []);
+  const visibleTeams = getVisibleTeams(loadedData.teams ?? []);
+  let rows = extractTournaments(visibleTeams);
   if (filterTeamId) {
     rows = rows.filter(r => String(r.team_id) === filterTeamId);
   }
@@ -1535,8 +1559,9 @@ function renderDiamondSummary() {
     rangeSummary.textContent = "Showing full season totals.";
   }
 
-  let homeRows = extractHomeDiamondRows(loadedData.teams ?? []);
-  let practiceRows = extractPracticeDiamondRows(loadedData.teams ?? []);
+  const visibleTeams = getVisibleTeams(loadedData.teams ?? []);
+  let homeRows = extractHomeDiamondRows(visibleTeams);
+  let practiceRows = extractPracticeDiamondRows(visibleTeams);
 
   if (startDate || endDate) {
     homeRows = homeRows.filter(r => inRange(r.date, startDate, endDate));
@@ -1594,7 +1619,7 @@ function renderDiamondSummary() {
   const totalPractices = practiceRows.length;
 
   if (viewMode === "team") {
-    const teamMetaById = new Map((loadedData.teams ?? []).map((team, index) => [
+    const teamMetaById = new Map(visibleTeams.map((team, index) => [
       String(team.id),
       {
         category: team.category || "Other",
@@ -1635,8 +1660,8 @@ function renderDiamondSummary() {
 
       return `
         <div class="cat-block">
-          <div class="cat-header">${escHtml(category)}</div>
-          <div class="table-scroll"><table class="stats-table tourn-table" aria-label="${escHtml(category)} home diamond summary">
+          <div class="cat-header">${escHtml(getDisplayCategoryName(category))}</div>
+          <div class="table-scroll"><table class="stats-table tourn-table" aria-label="${escHtml(getDisplayCategoryName(category))} home diamond summary">
             <thead>
               <tr>
                 <th class="col-team">Team</th>
@@ -1817,12 +1842,14 @@ function renderPlayingToday() {
   const today = getLocalIsoDate();
   dateText.textContent = `Current day: ${fmtReadableDate(today)} (${today})`;
 
-  if (!loadedData || !(loadedData.teams ?? []).length) {
+  const visibleTeams = getVisibleTeams(loadedData?.teams ?? []);
+
+  if (!loadedData || !visibleTeams.length) {
     body.innerHTML = `<div class="no-data-msg">No season data available yet.</div>`;
     return;
   }
 
-  const rows = buildPlayingTodayRows(loadedData.teams ?? [], today);
+  const rows = buildPlayingTodayRows(visibleTeams, today);
   if (!rows.length) {
     body.innerHTML = `<div class="no-data-msg">No teams have a practice, home game, or away game scheduled today.</div>`;
     return;
@@ -1871,11 +1898,23 @@ function buildUmpireIssueRows(teams) {
 
     const mismatchDetails = Array.isArray(issueData.doubleheader_mismatch_details)
       ? issueData.doubleheader_mismatch_details.map(detail => {
-          const gameParts = (detail.games || []).map(game => `${game.time || "TBD"} vs ${game.opponent || "TBD"}`);
+          const gameParts = (detail.games || []).map(game => {
+            const assigned = Array.isArray(game.assigned_umpires)
+              ? game.assigned_umpires.filter(Boolean)
+              : [];
+            const umpireText = assigned.length ? assigned.join(", ") : "none assigned";
+            return `${game.time || "TBD"} vs ${game.opponent || "TBD"} [${umpireText}]`;
+          });
           const pairText = (detail.pair_signatures || []).join(" | ");
+          const mismatchedNames = Array.isArray(detail.mismatched_names)
+            ? detail.mismatched_names.filter(Boolean)
+            : [];
+          const mismatchNamesText = mismatchedNames.length
+            ? ` Name differences: ${mismatchedNames.join(", ")}`
+            : "";
           return {
             date: detail.date || "",
-            summary: `${gameParts.join("; ")}${pairText ? ` [${pairText}]` : ""}`,
+            summary: `${gameParts.join("; ")}${pairText ? ` [${pairText}]` : ""}${mismatchNamesText}`,
             location: ((detail.games || []).map(game => game.venue || "").filter(Boolean).join(", ")),
             issue_timing: detail.issue_timing || "upcoming",
           };
@@ -1938,13 +1977,15 @@ function renderUmpireIssues() {
   const body = document.getElementById("umpire-issues-body");
   const status = document.getElementById("umpire-issues-status");
 
-  if (!loadedData || !(loadedData.teams ?? []).length) {
+  const visibleTeams = getVisibleTeams(loadedData?.teams ?? []);
+
+  if (!loadedData || !visibleTeams.length) {
     status.textContent = "No team data available yet.";
     body.innerHTML = `<div class="no-data-msg">No season data available for umpire issue tracking yet.</div>`;
     return;
   }
 
-  const rows = buildUmpireIssueRows(loadedData.teams ?? []);
+  const rows = buildUmpireIssueRows(visibleTeams);
   const unavailableTeams = rows.filter(row => !row.data_available).length;
   if (unavailableTeams) {
     status.textContent = `Umpire assignment data is unavailable for ${unavailableTeams} team${unavailableTeams === 1 ? "" : "s"}; metrics default to 0 until assignments can be collected.`;
@@ -2150,7 +2191,8 @@ function renderBudgetModel() {
     insurancePerPerson: parseCostInput("cost-ins-person"),
   };
 
-  const rows = buildBudgetRows(loadedData.teams ?? [], startDate, endDate, costs);
+  const visibleTeams = getVisibleTeams(loadedData.teams ?? []);
+  const rows = buildBudgetRows(visibleTeams, startDate, endDate, costs);
   if (!rows.length) {
     body.innerHTML = `<div class="no-data-msg">No team data available for budget calculations.</div>`;
     return;
@@ -2205,8 +2247,8 @@ function renderBudgetModel() {
 
     return `
       <div class="cat-block">
-        <div class="cat-header">${escHtml(category)}</div>
-        <div class="table-scroll"><table class="stats-table tourn-table" aria-label="${escHtml(category)} budget model">
+        <div class="cat-header">${escHtml(getDisplayCategoryName(category))}</div>
+        <div class="table-scroll"><table class="stats-table tourn-table" aria-label="${escHtml(getDisplayCategoryName(category))} budget model">
           <thead>
             <tr>
               <th class="col-team">Team</th>
@@ -2265,11 +2307,11 @@ function switchTab(tabName) {
   document.getElementById("tab-budget").classList.toggle("tab-btn--active", isBudget);
 
   if (isTournaments && loadedData) {
-    populateTournamentTeamFilter(loadedData.teams ?? []);
+    populateTournamentTeamFilter(getVisibleTeams(loadedData.teams ?? []));
     renderTournaments();
   }
   if (isDiamonds && loadedData) {
-    populateDiamondFilters(loadedData.teams ?? []);
+    populateDiamondFilters(getVisibleTeams(loadedData.teams ?? []));
     renderDiamondSummary();
   }
   if (isPlayingToday) {
