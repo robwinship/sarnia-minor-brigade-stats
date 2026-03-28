@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-28T01:26:46.831146Z",
+  "generated": "2026-03-28T03:03:49.636362Z",
   "teams": [
     {
       "id": 1290,
@@ -4805,7 +4805,7 @@
       "runs_against": 0,
       "practices": 0,
       "roster": {
-        "players": 0,
+        "players": 8,
         "adults": 1,
         "head_coaches": 0,
         "assistant_coaches": 0,
