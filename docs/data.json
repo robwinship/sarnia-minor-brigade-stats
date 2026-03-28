@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-28T00:23:08.664180Z",
+  "generated": "2026-03-28T01:26:46.831146Z",
   "teams": [
     {
       "id": 1290,
@@ -4783,7 +4783,7 @@
       "runs_against": 0,
       "practices": 0,
       "roster": {
-        "players": 0,
+        "players": 17,
         "adults": 1,
         "head_coaches": 0,
         "assistant_coaches": 0,
@@ -4827,7 +4827,7 @@
       "runs_against": 0,
       "practices": 0,
       "roster": {
-        "players": 0,
+        "players": 15,
         "adults": 2,
         "head_coaches": 2,
         "assistant_coaches": 0,
@@ -5923,11 +5923,11 @@
       "runs_against": 0,
       "practices": 14,
       "roster": {
-        "players": 0,
-        "adults": 1,
+        "players": 21,
+        "adults": 2,
         "head_coaches": 0,
         "assistant_coaches": 0,
-        "coaches": 1,
+        "coaches": 2,
         "managers": 0
       },
       "events": [
