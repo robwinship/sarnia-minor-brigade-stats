@@ -2,10 +2,10 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-28T02:53:40.009201Z",
+  "generated": "2026-03-28T21:29:52.822851Z",
   "umpire_data_status": {
-    "available": true,
-    "reason": "ok",
+    "available": false,
+    "reason": "missing_credentials",
     "source_url": "https://sarniabrigade.ca/CP/#Module=Officials;SelectedValue=Content/Officials/Schedule.aspx"
   },
   "teams": [
@@ -99,8 +99,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -115,7 +115,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 35,
+      "practices": 56,
       "roster": {
         "players": 12,
         "adults": 5,
@@ -125,6 +125,15 @@
         "managers": 1
       },
       "events": [
+        {
+          "uid": "MS-20175-sarniabrigade.ca",
+          "date": "2026-04-01",
+          "start_time": "5:30 PM",
+          "end_date": "2026-04-01",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
         {
           "uid": "MS-19869-sarniabrigade.ca",
           "date": "2026-04-01",
@@ -141,6 +150,15 @@
           "end_date": "2026-04-04",
           "summary": "9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20176-sarniabrigade.ca",
+          "date": "2026-04-08",
+          "start_time": "5:30 PM",
+          "end_date": "2026-04-08",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice"
         },
         {
@@ -162,6 +180,15 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20177-sarniabrigade.ca",
+          "date": "2026-04-15",
+          "start_time": "5:30 PM",
+          "end_date": "2026-04-15",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-19871-sarniabrigade.ca",
           "date": "2026-04-15",
           "start_time": "6:00 PM",
@@ -177,6 +204,15 @@
           "end_date": "2026-04-18",
           "summary": "9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20178-sarniabrigade.ca",
+          "date": "2026-04-22",
+          "start_time": "5:30 PM",
+          "end_date": "2026-04-22",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice"
         },
         {
@@ -198,6 +234,15 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20179-sarniabrigade.ca",
+          "date": "2026-04-29",
+          "start_time": "5:30 PM",
+          "end_date": "2026-04-29",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-19873-sarniabrigade.ca",
           "date": "2026-04-29",
           "start_time": "6:00 PM",
@@ -213,6 +258,15 @@
           "end_date": "2026-05-02",
           "summary": "9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20180-sarniabrigade.ca",
+          "date": "2026-05-05",
+          "start_time": "5:00 PM",
+          "end_date": "2026-05-05",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice"
         },
         {
@@ -234,6 +288,15 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20181-sarniabrigade.ca",
+          "date": "2026-05-12",
+          "start_time": "5:00 PM",
+          "end_date": "2026-05-12",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-19875-sarniabrigade.ca",
           "date": "2026-05-13",
           "start_time": "6:00 PM",
@@ -249,6 +312,15 @@
           "end_date": "2026-05-16",
           "summary": "9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20182-sarniabrigade.ca",
+          "date": "2026-05-19",
+          "start_time": "5:00 PM",
+          "end_date": "2026-05-19",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice"
         },
         {
@@ -270,6 +342,15 @@
           "type": "game"
         },
         {
+          "uid": "MS-20183-sarniabrigade.ca",
+          "date": "2026-05-26",
+          "start_time": "5:00 PM",
+          "end_date": "2026-05-26",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-19877-sarniabrigade.ca",
           "date": "2026-05-27",
           "start_time": "6:00 PM",
@@ -285,6 +366,15 @@
           "end_date": "2026-05-30",
           "summary": "9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20184-sarniabrigade.ca",
+          "date": "2026-06-02",
+          "start_time": "5:00 PM",
+          "end_date": "2026-06-02",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice"
         },
         {
@@ -306,6 +396,15 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20185-sarniabrigade.ca",
+          "date": "2026-06-09",
+          "start_time": "5:00 PM",
+          "end_date": "2026-06-09",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-19879-sarniabrigade.ca",
           "date": "2026-06-10",
           "start_time": "6:00 PM",
@@ -324,6 +423,15 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20186-sarniabrigade.ca",
+          "date": "2026-06-16",
+          "start_time": "5:00 PM",
+          "end_date": "2026-06-16",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-19880-sarniabrigade.ca",
           "date": "2026-06-17",
           "start_time": "6:00 PM",
@@ -339,6 +447,15 @@
           "end_date": "2026-06-20",
           "summary": "9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20187-sarniabrigade.ca",
+          "date": "2026-06-23",
+          "start_time": "5:00 PM",
+          "end_date": "2026-06-23",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice"
         },
         {
@@ -387,6 +504,15 @@
           "type": "game"
         },
         {
+          "uid": "MS-20188-sarniabrigade.ca",
+          "date": "2026-06-30",
+          "start_time": "5:00 PM",
+          "end_date": "2026-06-30",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-19882-sarniabrigade.ca",
           "date": "2026-07-01",
           "start_time": "6:00 PM",
@@ -402,6 +528,15 @@
           "end_date": "2026-07-04",
           "summary": "9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20189-sarniabrigade.ca",
+          "date": "2026-07-07",
+          "start_time": "5:00 PM",
+          "end_date": "2026-07-07",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice"
         },
         {
@@ -423,12 +558,30 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20190-sarniabrigade.ca",
+          "date": "2026-07-14",
+          "start_time": "5:00 PM",
+          "end_date": "2026-07-14",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-19884-sarniabrigade.ca",
           "date": "2026-07-15",
           "start_time": "6:00 PM",
           "end_date": "2026-07-16",
           "summary": "9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20191-sarniabrigade.ca",
+          "date": "2026-07-21",
+          "start_time": "5:00 PM",
+          "end_date": "2026-07-21",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice"
         },
         {
@@ -450,12 +603,30 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20192-sarniabrigade.ca",
+          "date": "2026-07-28",
+          "start_time": "5:00 PM",
+          "end_date": "2026-07-28",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-19886-sarniabrigade.ca",
           "date": "2026-07-29",
           "start_time": "6:00 PM",
           "end_date": "2026-07-30",
           "summary": "9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20193-sarniabrigade.ca",
+          "date": "2026-08-04",
+          "start_time": "5:00 PM",
+          "end_date": "2026-08-04",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice"
         },
         {
@@ -477,6 +648,15 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20194-sarniabrigade.ca",
+          "date": "2026-08-11",
+          "start_time": "5:00 PM",
+          "end_date": "2026-08-11",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-19888-sarniabrigade.ca",
           "date": "2026-08-12",
           "start_time": "6:00 PM",
@@ -492,6 +672,15 @@
           "end_date": "2026-08-15",
           "summary": "9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20195-sarniabrigade.ca",
+          "date": "2026-08-18",
+          "start_time": "5:00 PM",
+          "end_date": "2026-08-18",
+          "summary": "9U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice"
         },
         {
@@ -610,74 +799,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 3,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
-        "data_available": true,
-        "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-20",
-            "time": "6:00 PM",
-            "opponent": "Chatham Major Diamonds",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "David Haasen"
-            ],
-            "assigned_count": 1,
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-27",
-            "time": "11:00 AM",
-            "opponent": "Lasalle Turtle Club",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "assigned_count": 1,
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-27",
-            "time": "2:00 PM",
-            "opponent": "Windsor Stars",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "assigned_count": 1,
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-06-27",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "games": [
-              {
-                "time": "11:00 AM",
-                "opponent": "Lasalle Turtle Club",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [
-                  "Hayden Scheuermann"
-                ],
-                "assigned_count": 1
-              },
-              {
-                "time": "2:00 PM",
-                "opponent": "Windsor Stars",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [
-                  "Hayden Scheuermann"
-                ],
-                "assigned_count": 1
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_upcoming": 0,
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       }
     },
     {
@@ -1301,62 +1429,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 5,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-24",
-            "time": "11:00 AM",
-            "opponent": "TBA",
-            "venue": "TBD",
-            "assigned_umpires": [
-              "Paolo Padiglia"
-            ],
-            "assigned_count": 1,
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-11",
-            "time": "10:00 AM",
-            "opponent": "London Badgers",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "assigned_count": 1,
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-18",
-            "time": "10:00 AM",
-            "opponent": "Lasalle Turtle Club",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "assigned_count": 0,
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-08",
-            "time": "10:00 AM",
-            "opponent": "TBA",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "assigned_count": 0,
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-23",
-            "time": "4:00 PM",
-            "opponent": "Riverside Royals",
-            "venue": "TBD",
-            "assigned_umpires": [],
-            "assigned_count": 0,
-            "issue_timing": "upcoming"
-          }
-        ],
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
     },
@@ -1725,8 +1803,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -2220,146 +2298,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 7,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 3,
-        "data_available": true,
-        "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-04-25",
-            "time": "4:00 PM",
-            "opponent": "10U A OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "assigned_count": 0,
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-04-25",
-            "time": "6:00 PM",
-            "opponent": "10U A OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "assigned_count": 0,
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-04-28",
-            "time": "6:00 PM",
-            "opponent": "10U AA OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Paolo Padiglia"
-            ],
-            "assigned_count": 1,
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-09",
-            "time": "4:00 PM",
-            "opponent": "London Badgers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "assigned_count": 0,
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-09",
-            "time": "6:30 PM",
-            "opponent": "London Badgers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "assigned_count": 0,
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-17",
-            "time": "4:00 PM",
-            "opponent": "Woodstock Wranglers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "assigned_count": 0,
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-17",
-            "time": "6:30 PM",
-            "opponent": "Woodstock Wranglers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "assigned_count": 0,
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-04-25",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "10U A OBA Rep",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "assigned_count": 0
-              },
-              {
-                "time": "6:00 PM",
-                "opponent": "10U A OBA Rep",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "assigned_count": 0
-              }
-            ]
-          },
-          {
-            "date": "2026-05-09",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "London Badgers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "assigned_count": 0
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "London Badgers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "assigned_count": 0
-              }
-            ]
-          },
-          {
-            "date": "2026-05-17",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "Woodstock Wranglers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "assigned_count": 0
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "Woodstock Wranglers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "assigned_count": 0
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_upcoming": 0,
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       }
     },
     {
@@ -2609,63 +2554,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
-        "data_available": true,
-        "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-06-21",
-            "time": "10:00 AM",
-            "opponent": "Lasalle Turtle Club",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Paolo Padiglia"
-            ],
-            "assigned_count": 1,
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-21",
-            "time": "12:30 PM",
-            "opponent": "Lasalle Turtle Club",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Paolo Padiglia"
-            ],
-            "assigned_count": 1,
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-06-21",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "Lasalle Turtle Club",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Paolo Padiglia"
-                ],
-                "assigned_count": 1
-              },
-              {
-                "time": "12:30 PM",
-                "opponent": "Lasalle Turtle Club",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Paolo Padiglia"
-                ],
-                "assigned_count": 1
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_upcoming": 0,
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       }
     },
     {
@@ -2803,8 +2698,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -2926,8 +2821,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -3871,8 +3766,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -3976,8 +3871,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -4387,8 +4282,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -4403,7 +4298,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 42,
+      "practices": 43,
       "roster": {
         "players": 12,
         "adults": 4,
@@ -4432,6 +4327,15 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20173-sarniabrigade.ca",
+          "date": "2026-04-06",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-07",
+          "summary": "13U Select - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-19828-sarniabrigade.ca",
           "date": "2026-04-10",
           "start_time": "6:00 PM",
@@ -4456,6 +4360,15 @@
           "end_date": "2026-04-18",
           "summary": "13U Select - Practice",
           "location": "Tecumseh Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20174-sarniabrigade.ca",
+          "date": "2026-04-17",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-18",
+          "summary": "13U Select - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice"
         },
         {
@@ -4565,15 +4478,6 @@
           "summary": "13U Select - Game @ Corunna Major Giants",
           "location": "Cameron Park",
           "type": "game"
-        },
-        {
-          "uid": "MS-19835-sarniabrigade.ca",
-          "date": "2026-05-29",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-30",
-          "summary": "13U Select - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice"
         },
         {
           "uid": "MS-19856-sarniabrigade.ca",
@@ -4864,8 +4768,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -4996,8 +4900,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -5028,8 +4932,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -5060,8 +4964,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -5092,8 +4996,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -5124,8 +5028,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -6142,8 +6046,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -6174,8 +6078,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -6206,8 +6110,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -6222,7 +6126,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 0,
+      "practices": 14,
       "roster": {
         "players": 21,
         "adults": 2,
@@ -6231,15 +6135,142 @@
         "coaches": 2,
         "managers": 0
       },
-      "events": [],
+      "events": [
+        {
+          "uid": "MS-20196-sarniabrigade.ca",
+          "date": "2026-05-04",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-04",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20197-sarniabrigade.ca",
+          "date": "2026-05-11",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-11",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20198-sarniabrigade.ca",
+          "date": "2026-05-18",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-18",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20199-sarniabrigade.ca",
+          "date": "2026-05-25",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-25",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20200-sarniabrigade.ca",
+          "date": "2026-06-01",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-01",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20201-sarniabrigade.ca",
+          "date": "2026-06-08",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-08",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20202-sarniabrigade.ca",
+          "date": "2026-06-15",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-15",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20203-sarniabrigade.ca",
+          "date": "2026-06-22",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-22",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20204-sarniabrigade.ca",
+          "date": "2026-06-29",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-29",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20205-sarniabrigade.ca",
+          "date": "2026-07-06",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-06",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20206-sarniabrigade.ca",
+          "date": "2026-07-13",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-13",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20207-sarniabrigade.ca",
+          "date": "2026-07-20",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-20",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20208-sarniabrigade.ca",
+          "date": "2026-07-27",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-27",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20210-sarniabrigade.ca",
+          "date": "2026-08-10",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-10",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice"
+        }
+      ],
       "games": [],
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
