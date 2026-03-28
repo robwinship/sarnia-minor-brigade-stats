@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-28T21:52:34.359135Z",
+  "generated": "2026-03-28T22:38:19.404921Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -845,6 +845,7 @@
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
             "pair_signatures": [],
+            "mismatched_names": [],
             "games": [
               {
                 "time": "11:00 AM",
@@ -2487,6 +2488,7 @@
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
             "pair_signatures": [],
+            "mismatched_names": [],
             "games": [
               {
                 "time": "4:00 PM",
@@ -2509,6 +2511,7 @@
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
             "pair_signatures": [],
+            "mismatched_names": [],
             "games": [
               {
                 "time": "4:00 PM",
@@ -2531,6 +2534,7 @@
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
             "pair_signatures": [],
+            "mismatched_names": [],
             "games": [
               {
                 "time": "4:00 PM",
@@ -2833,6 +2837,7 @@
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
             "pair_signatures": [],
+            "mismatched_names": [],
             "games": [
               {
                 "time": "10:00 AM",
