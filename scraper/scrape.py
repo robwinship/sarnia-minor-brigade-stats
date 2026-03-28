@@ -84,6 +84,48 @@ CP_OFFICIAL_RE = re.compile(
     r"^(?P<name>.+?)\s+\((?P<role>Home Plate|Bases|Scorekeeper)\),\s*\$(?P<pay>[0-9.]+)$"
 )
 
+ASSIGNMENT_STATE_NO_OFFICIALS = "no_officials_assigned"
+ASSIGNMENT_STATE_NOT_ACCEPTED = "assigned_not_accepted"
+ASSIGNMENT_STATE_DENIED = "assigned_but_denied"
+ASSIGNMENT_STATE_ACCEPTED = "assigned_and_accepted"
+
+
+def infer_official_status(raw_line: str) -> str:
+    """Infer official acceptance status from textual markers when available.
+
+    CP text exports do not always include explicit status labels. We still parse
+    known markers when present and default to accepted to preserve existing
+    behavior until richer status signals are collected.
+    """
+    text = str(raw_line or "").strip().lower()
+    if not text:
+        return "accepted"
+
+    if any(token in text for token in ["denied", "declined", "decline"]):
+        return "denied"
+    if any(token in text for token in ["not accepted", "pending", "unaccepted", "awaiting acceptance"]):
+        return "pending"
+    if "accepted" in text:
+        return "accepted"
+    return "accepted"
+
+
+def classify_game_assignment_state(assigned_count: int, accepted_count: int, pending_count: int, denied_count: int) -> str:
+    """Return one game-level assignment state.
+
+    Rule confirmed with the user: if any accepted official exists, classify the
+    game as accepted even if denied officials are also listed.
+    """
+    if assigned_count <= 0:
+        return ASSIGNMENT_STATE_NO_OFFICIALS
+    if accepted_count > 0:
+        return ASSIGNMENT_STATE_ACCEPTED
+    if denied_count > 0:
+        return ASSIGNMENT_STATE_DENIED
+    if pending_count > 0:
+        return ASSIGNMENT_STATE_NOT_ACCEPTED
+    return ASSIGNMENT_STATE_NOT_ACCEPTED
+
 # ---------------------------------------------------------------------------
 # HTTP helper
 # ---------------------------------------------------------------------------
@@ -271,9 +313,11 @@ def parse_cp_umpire_assignments(schedule_text: str) -> list:
             continue
 
         umpires = []
+        no_officials_flag = False
         for raw_line in lines[1:]:
             if raw_line == "No officials assigned":
                 umpires = []
+                no_officials_flag = True
                 break
             official_match = CP_OFFICIAL_RE.match(raw_line)
             if not official_match:
@@ -281,7 +325,25 @@ def parse_cp_umpire_assignments(schedule_text: str) -> list:
             umpires.append({
                 "name": official_match.group("name").strip(),
                 "role": official_match.group("role").strip(),
+                "pay": float(official_match.group("pay")),
+                "status": infer_official_status(raw_line),
             })
+
+        status_counts = defaultdict(int)
+        for umpire in umpires:
+            status = str(umpire.get("status") or "accepted").strip().lower()
+            status_counts[status] += 1
+
+        assigned_count = len(umpires)
+        accepted_count = status_counts.get("accepted", 0)
+        pending_count = status_counts.get("pending", 0)
+        denied_count = status_counts.get("denied", 0)
+        assignment_state = ASSIGNMENT_STATE_NO_OFFICIALS if no_officials_flag else classify_game_assignment_state(
+            assigned_count=assigned_count,
+            accepted_count=accepted_count,
+            pending_count=pending_count,
+            denied_count=denied_count,
+        )
 
         date_text = header_match.group("date").strip()
         parsed_date = datetime.strptime(f"{date_text} {SEASON_YEAR}", "%a %b %d %Y").date().isoformat()
@@ -295,6 +357,11 @@ def parse_cp_umpire_assignments(schedule_text: str) -> list:
             "game_id": None,
             "umpires": umpires,
             "doubleheader_flag": bool(header_match.group("marker")),
+            "assignment_state": assignment_state,
+            "assigned_count": assigned_count,
+            "accepted_count": accepted_count,
+            "pending_count": pending_count,
+            "denied_count": denied_count,
         })
 
     return parsed
@@ -333,24 +400,50 @@ def compute_umpire_issues(games: list, assignments: list, data_available: bool, 
         except ValueError:
             continue
 
-        names = []
+        assigned_names = []
+        accepted_names = []
+        pending_names = []
+        denied_names = []
         for umpire in row.get("umpires") or []:
             if isinstance(umpire, dict):
                 name = str(umpire.get("name") or "").strip()
+                status = str(umpire.get("status") or "accepted").strip().lower()
             else:
                 name = str(umpire or "").strip()
+                status = "accepted"
             if name:
-                names.append(name)
-        uniq = sorted(set(names))
+                assigned_names.append(name)
+                if status == "accepted":
+                    accepted_names.append(name)
+                elif status == "pending":
+                    pending_names.append(name)
+                elif status == "denied":
+                    denied_names.append(name)
+
+        assigned_uniq = sorted(set(assigned_names))
+        accepted_uniq = sorted(set(accepted_names))
+        pending_uniq = sorted(set(pending_names))
+        denied_uniq = sorted(set(denied_names))
 
         issue_timing = "past" if date_text < today_iso else "upcoming"
+        assignment_state = classify_game_assignment_state(
+            assigned_count=len(assigned_uniq),
+            accepted_count=len(accepted_uniq),
+            pending_count=len(pending_uniq),
+            denied_count=len(denied_uniq),
+        )
+
         normalized.append({
             "date": date_text,
             "time": str(row.get("time") or "").strip(),
             "opponent": str(row.get("opponent") or "").strip(),
             "venue": str(row.get("venue") or "").strip(),
             "game_id": row.get("game_id"),
-            "umpires": uniq,
+            "umpires": assigned_uniq,
+            "accepted_umpires": accepted_uniq,
+            "pending_umpires": pending_uniq,
+            "denied_umpires": denied_uniq,
+            "assignment_state": assignment_state,
             "issue_timing": issue_timing,
         })
 
@@ -358,7 +451,7 @@ def compute_umpire_issues(games: list, assignments: list, data_available: bool, 
     past_games_missed = 0
     upcoming_games_missed = 0
     for row in normalized:
-        if len(row["umpires"]) >= 2:
+        if len(row["accepted_umpires"]) >= 2:
             continue
 
         detail = {
@@ -367,7 +460,14 @@ def compute_umpire_issues(games: list, assignments: list, data_available: bool, 
             "opponent": row["opponent"],
             "venue": row["venue"],
             "assigned_umpires": row["umpires"],
+            "accepted_umpires": row["accepted_umpires"],
+            "pending_umpires": row["pending_umpires"],
+            "denied_umpires": row["denied_umpires"],
             "assigned_count": len(row["umpires"]),
+            "accepted_count": len(row["accepted_umpires"]),
+            "pending_count": len(row["pending_umpires"]),
+            "denied_count": len(row["denied_umpires"]),
+            "assignment_state": row["assignment_state"],
             "issue_timing": row["issue_timing"],
         }
         games_missed_details.append(detail)
@@ -400,10 +500,10 @@ def compute_umpire_issues(games: list, assignments: list, data_available: bool, 
         pairs = []
         incomplete = False
         for row in rows:
-            if len(row["umpires"]) != 2:
+            if len(row["accepted_umpires"]) != 2:
                 incomplete = True
             else:
-                pairs.append(tuple(row["umpires"]))
+                pairs.append(tuple(row["accepted_umpires"]))
 
         unique_pairs = set(pairs)
         mismatch_found = incomplete or len(unique_pairs) > 1
@@ -413,7 +513,7 @@ def compute_umpire_issues(games: list, assignments: list, data_available: bool, 
         # Names that are not consistent across all games for this date.
         name_frequency = defaultdict(int)
         for row in rows:
-            for name in set(row["umpires"]):
+            for name in set(row["accepted_umpires"]):
                 name_frequency[name] += 1
         mismatched_names = sorted([
             name for name, count in name_frequency.items()
@@ -438,7 +538,14 @@ def compute_umpire_issues(games: list, assignments: list, data_available: bool, 
                     "opponent": row["opponent"],
                     "venue": row["venue"],
                     "assigned_umpires": row["umpires"],
+                    "accepted_umpires": row["accepted_umpires"],
+                    "pending_umpires": row["pending_umpires"],
+                    "denied_umpires": row["denied_umpires"],
                     "assigned_count": len(row["umpires"]),
+                    "accepted_count": len(row["accepted_umpires"]),
+                    "pending_count": len(row["pending_umpires"]),
+                    "denied_count": len(row["denied_umpires"]),
+                    "assignment_state": row["assignment_state"],
                 }
                 for row in sorted(rows, key=lambda r: ((r.get("time") or ""), (r.get("opponent") or "")))
             ],

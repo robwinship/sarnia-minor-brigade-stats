@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-28T23:11:24.338812Z",
+  "generated": "2026-03-28T23:50:18.776242Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -813,7 +813,16 @@
             "assigned_umpires": [
               "David Haasen"
             ],
+            "accepted_umpires": [
+              "David Haasen"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -824,7 +833,16 @@
             "assigned_umpires": [
               "Hayden Scheuermann"
             ],
+            "accepted_umpires": [
+              "Hayden Scheuermann"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -835,7 +853,16 @@
             "assigned_umpires": [
               "Hayden Scheuermann"
             ],
+            "accepted_umpires": [
+              "Hayden Scheuermann"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -854,7 +881,16 @@
                 "assigned_umpires": [
                   "Hayden Scheuermann"
                 ],
-                "assigned_count": 1
+                "accepted_umpires": [
+                  "Hayden Scheuermann"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 1,
+                "accepted_count": 1,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
               },
               {
                 "time": "2:00 PM",
@@ -863,7 +899,16 @@
                 "assigned_umpires": [
                   "Hayden Scheuermann"
                 ],
-                "assigned_count": 1
+                "accepted_umpires": [
+                  "Hayden Scheuermann"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 1,
+                "accepted_count": 1,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
               }
             ]
           }
@@ -1505,7 +1550,16 @@
             "assigned_umpires": [
               "Paolo Padiglia"
             ],
+            "accepted_umpires": [
+              "Paolo Padiglia"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -1516,7 +1570,16 @@
             "assigned_umpires": [
               "Jason Lajeunesse"
             ],
+            "accepted_umpires": [
+              "Jason Lajeunesse"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -1525,7 +1588,14 @@
             "opponent": "Lasalle Turtle Club",
             "venue": "Clearwater Diamond #2",
             "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           },
           {
@@ -1534,7 +1604,14 @@
             "opponent": "TBA",
             "venue": "Clearwater Diamond #2",
             "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           },
           {
@@ -1543,7 +1620,14 @@
             "opponent": "Riverside Royals",
             "venue": "TBD",
             "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           }
         ],
@@ -2422,7 +2506,14 @@
             "opponent": "10U A OBA Rep",
             "venue": "Tecumseh Park",
             "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           },
           {
@@ -2431,7 +2522,14 @@
             "opponent": "10U A OBA Rep",
             "venue": "Tecumseh Park",
             "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           },
           {
@@ -2442,7 +2540,16 @@
             "assigned_umpires": [
               "Paolo Padiglia"
             ],
+            "accepted_umpires": [
+              "Paolo Padiglia"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -2451,7 +2558,14 @@
             "opponent": "London Badgers",
             "venue": "Tecumseh Park",
             "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           },
           {
@@ -2460,7 +2574,14 @@
             "opponent": "London Badgers",
             "venue": "Tecumseh Park",
             "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           },
           {
@@ -2469,7 +2590,14 @@
             "opponent": "Woodstock Wranglers",
             "venue": "Tecumseh Park",
             "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           },
           {
@@ -2478,7 +2606,14 @@
             "opponent": "Woodstock Wranglers",
             "venue": "Tecumseh Park",
             "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           }
         ],
@@ -2495,14 +2630,28 @@
                 "opponent": "10U A OBA Rep",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [],
-                "assigned_count": 0
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
               },
               {
                 "time": "6:00 PM",
                 "opponent": "10U A OBA Rep",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [],
-                "assigned_count": 0
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
               }
             ]
           },
@@ -2518,14 +2667,28 @@
                 "opponent": "London Badgers",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [],
-                "assigned_count": 0
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
               },
               {
                 "time": "6:30 PM",
                 "opponent": "London Badgers",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [],
-                "assigned_count": 0
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
               }
             ]
           },
@@ -2541,14 +2704,28 @@
                 "opponent": "Woodstock Wranglers",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [],
-                "assigned_count": 0
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
               },
               {
                 "time": "6:30 PM",
                 "opponent": "Woodstock Wranglers",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [],
-                "assigned_count": 0
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
               }
             ]
           }
@@ -2816,7 +2993,16 @@
             "assigned_umpires": [
               "Paolo Padiglia"
             ],
+            "accepted_umpires": [
+              "Paolo Padiglia"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -2827,7 +3013,16 @@
             "assigned_umpires": [
               "Paolo Padiglia"
             ],
+            "accepted_umpires": [
+              "Paolo Padiglia"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
             "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -2846,7 +3041,16 @@
                 "assigned_umpires": [
                   "Paolo Padiglia"
                 ],
-                "assigned_count": 1
+                "accepted_umpires": [
+                  "Paolo Padiglia"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 1,
+                "accepted_count": 1,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
               },
               {
                 "time": "12:30 PM",
@@ -2855,7 +3059,16 @@
                 "assigned_umpires": [
                   "Paolo Padiglia"
                 ],
-                "assigned_count": 1
+                "accepted_umpires": [
+                  "Paolo Padiglia"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 1,
+                "accepted_count": 1,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
               }
             ]
           }

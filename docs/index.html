@@ -1885,12 +1885,20 @@ function renderPlayingToday() {
    Umpire Issues tab
 ---------------------------------------------------------------- */
 function buildUmpireIssueRows(teams) {
+  const assignmentStateLabel = {
+    no_officials_assigned: "No officials assigned",
+    assigned_not_accepted: "Assigned, not accepted",
+    assigned_but_denied: "Assigned, denied",
+    assigned_and_accepted: "Assigned, accepted",
+  };
+
   return (teams ?? []).map((team, teamIndex) => {
     const issueData = team.umpire_issues || {};
     const gamesMissedDetails = Array.isArray(issueData.games_missed_details)
       ? issueData.games_missed_details.map(detail => ({
+          assignmentState: detail.assignment_state || "assigned_not_accepted",
           date: detail.date || "",
-          summary: `${detail.time || "TBD"} vs ${detail.opponent || "TBD"} (${detail.assigned_count ?? 0} assigned)`,
+          summary: `${detail.time || "TBD"} vs ${detail.opponent || "TBD"} (${detail.accepted_count ?? 0} accepted / ${detail.assigned_count ?? 0} assigned, ${assignmentStateLabel[detail.assignment_state] || "Status unknown"})`,
           location: detail.venue || "",
           issue_timing: detail.issue_timing || "upcoming",
         }))
@@ -1902,8 +1910,12 @@ function buildUmpireIssueRows(teams) {
             const assigned = Array.isArray(game.assigned_umpires)
               ? game.assigned_umpires.filter(Boolean)
               : [];
+            const accepted = Array.isArray(game.accepted_umpires)
+              ? game.accepted_umpires.filter(Boolean)
+              : [];
+            const stateLabel = assignmentStateLabel[game.assignment_state] || "Status unknown";
             const umpireText = assigned.length ? assigned.join(", ") : "none assigned";
-            return `${game.time || "TBD"} vs ${game.opponent || "TBD"} [${umpireText}]`;
+            return `${game.time || "TBD"} vs ${game.opponent || "TBD"} [${umpireText}] (${accepted.length} accepted, ${stateLabel})`;
           });
           const pairText = (detail.pair_signatures || []).join(" | ");
           const mismatchedNames = Array.isArray(detail.mismatched_names)

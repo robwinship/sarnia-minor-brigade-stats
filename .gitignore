@@ -12,6 +12,9 @@ venv/
 sample_*.html
 sample_*.ics
 
+# Local backups
+backups/
+
 # OS
 .DS_Store
 Thumbs.db
