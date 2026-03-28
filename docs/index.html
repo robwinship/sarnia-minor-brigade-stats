@@ -347,6 +347,60 @@
       border-bottom: none;
     }
 
+    .issue-summary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      cursor: pointer;
+    }
+
+    .issue-chip {
+      display: inline-block;
+      min-width: 2.35rem;
+      border-radius: 999px;
+      padding: 0.12rem 0.48rem;
+      font-size: 0.7rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      border: 1px solid transparent;
+      text-align: center;
+    }
+
+    .issue-chip--past {
+      background: #ffe7e7;
+      color: #8c1f1f;
+      border-color: #efc1c1;
+    }
+
+    .issue-chip--upcoming {
+      background: #fff2dc;
+      color: #8c5500;
+      border-color: #f0d2a0;
+    }
+
+    .issue-detail-item {
+      border-left: 3px solid transparent;
+      padding-left: 0.38rem;
+    }
+
+    .issue-detail-item--past {
+      border-left-color: #d94d4d;
+      background: #fff5f5;
+    }
+
+    .issue-detail-item--upcoming {
+      border-left-color: #d28a00;
+      background: #fff9ef;
+    }
+
+    .issue-legend {
+      display: flex;
+      gap: 0.45rem;
+      flex-wrap: wrap;
+      margin-top: 0.55rem;
+    }
+
     .details-date {
       font-weight: 700;
       color: #26385f;
@@ -634,6 +688,7 @@
     <button class="tab-btn" id="tab-tournaments" role="tab" aria-selected="false" aria-controls="view-tournaments">Tournaments</button>
     <button class="tab-btn" id="tab-diamonds" role="tab" aria-selected="false" aria-controls="view-diamonds">Diamond Summary</button>
     <button class="tab-btn" id="tab-playing-today" role="tab" aria-selected="false" aria-controls="view-playing-today">Playing Today</button>
+    <button class="tab-btn" id="tab-umpire-issues" role="tab" aria-selected="false" aria-controls="view-umpire-issues">Umpire Issues</button>
     <button class="tab-btn" id="tab-budget" role="tab" aria-selected="false" aria-controls="view-budget">Budget Model</button>
   </div>
 
@@ -735,6 +790,19 @@
     </div>
     <div id="playing-today-body"></div>
   </div><!-- /view-playing-today -->
+
+  <div id="view-umpire-issues" style="display:none">
+    <div class="controls-card" aria-label="Umpire issue summary">
+      <div class="section-title">Umpire Issues</div>
+      <div class="controls-note">Tracks games with fewer than two assigned umpires and doubleheader dates where umpire pairs were not consistent across games. Top-line metrics count only past dates; upcoming discrepancies are planning indicators.</div>
+      <div class="issue-legend" aria-label="Umpire issue legend">
+        <span class="issue-chip issue-chip--past">Past</span>
+        <span class="issue-chip issue-chip--upcoming">Upcoming</span>
+      </div>
+      <div class="controls-note" id="umpire-issues-status">Loading umpire assignment status...</div>
+    </div>
+    <div id="umpire-issues-body"></div>
+  </div><!-- /view-umpire-issues -->
 
   <div id="view-budget" style="display:none">
     <div class="controls-card" aria-label="Budget model controls">
@@ -1787,6 +1855,127 @@ function renderPlayingToday() {
 }
 
 /* ----------------------------------------------------------------
+   Umpire Issues tab
+---------------------------------------------------------------- */
+function buildUmpireIssueRows(teams) {
+  return (teams ?? []).map((team, teamIndex) => {
+    const issueData = team.umpire_issues || {};
+    const gamesMissedDetails = Array.isArray(issueData.games_missed_details)
+      ? issueData.games_missed_details.map(detail => ({
+          date: detail.date || "",
+          summary: `${detail.time || "TBD"} vs ${detail.opponent || "TBD"} (${detail.assigned_count ?? 0} assigned)`,
+          location: detail.venue || "",
+          issue_timing: detail.issue_timing || "upcoming",
+        }))
+      : [];
+
+    const mismatchDetails = Array.isArray(issueData.doubleheader_mismatch_details)
+      ? issueData.doubleheader_mismatch_details.map(detail => {
+          const gameParts = (detail.games || []).map(game => `${game.time || "TBD"} vs ${game.opponent || "TBD"}`);
+          const pairText = (detail.pair_signatures || []).join(" | ");
+          return {
+            date: detail.date || "",
+            summary: `${gameParts.join("; ")}${pairText ? ` [${pairText}]` : ""}`,
+            location: ((detail.games || []).map(game => game.venue || "").filter(Boolean).join(", ")),
+            issue_timing: detail.issue_timing || "upcoming",
+          };
+        })
+      : [];
+
+    return {
+      team_name: team.name,
+      category: team.category || "Other",
+      team_index: teamIndex,
+      games_missed: Number(issueData.games_missed) || 0,
+      games_missed_upcoming: Number(issueData.games_missed_upcoming) || 0,
+      doubleheader_mismatch: Number(issueData.doubleheader_mismatch) || 0,
+      doubleheader_mismatch_upcoming: Number(issueData.doubleheader_mismatch_upcoming) || 0,
+      games_missed_details: gamesMissedDetails,
+      doubleheader_mismatch_details: mismatchDetails,
+      data_available: Boolean(issueData.data_available),
+    };
+  }).sort((a, b) => {
+    const catIndexA = CATEGORY_ORDER.indexOf(a.category);
+    const catIndexB = CATEGORY_ORDER.indexOf(b.category);
+    const catA = catIndexA !== -1 ? catIndexA : CATEGORY_ORDER.length;
+    const catB = catIndexB !== -1 ? catIndexB : CATEGORY_ORDER.length;
+    if (catA !== catB) return catA - catB;
+    return a.team_index - b.team_index;
+  });
+}
+
+function buildUmpireIssueCell(pastCount, upcomingCount, details, label) {
+  const total = (pastCount || 0) + (upcomingCount || 0);
+  if (!total) return `<span class="zero">0</span>`;
+
+  const sorted = [...(details || [])].sort((left, right) => {
+    if ((left.date || "") !== (right.date || "")) return (left.date || "").localeCompare(right.date || "");
+    return (left.summary || "").localeCompare(right.summary || "");
+  });
+
+  const items = sorted.map(item => {
+    const timingClass = item.issue_timing === "past" ? "issue-detail-item--past" : "issue-detail-item--upcoming";
+    const timingTag = item.issue_timing === "past"
+      ? `<span class="issue-chip issue-chip--past">Past</span>`
+      : `<span class="issue-chip issue-chip--upcoming">Upcoming</span>`;
+    const locationPart = item.location ? ` @ ${escHtml(item.location)}` : "";
+    return `<div class="details-item issue-detail-item ${timingClass}"><span class="details-date">${escHtml(item.date || "n/a")}</span>${timingTag} ${escHtml(item.summary || label)}${locationPart}</div>`;
+  }).join("");
+
+  return `
+    <details class="count-details">
+      <summary class="issue-summary" title="Click to view ${escHtml(label)} details">
+        <span class="issue-chip issue-chip--past">${pastCount} Past</span>
+        <span class="issue-chip issue-chip--upcoming">${upcomingCount} Upcoming</span>
+      </summary>
+      <div class="details-list" role="region" aria-label="${escHtml(label)} details">
+        ${items}
+      </div>
+    </details>`;
+}
+
+function renderUmpireIssues() {
+  const body = document.getElementById("umpire-issues-body");
+  const status = document.getElementById("umpire-issues-status");
+
+  if (!loadedData || !(loadedData.teams ?? []).length) {
+    status.textContent = "No team data available yet.";
+    body.innerHTML = `<div class="no-data-msg">No season data available for umpire issue tracking yet.</div>`;
+    return;
+  }
+
+  const rows = buildUmpireIssueRows(loadedData.teams ?? []);
+  const unavailableTeams = rows.filter(row => !row.data_available).length;
+  if (unavailableTeams) {
+    status.textContent = `Umpire assignment data is unavailable for ${unavailableTeams} team${unavailableTeams === 1 ? "" : "s"}; metrics default to 0 until assignments can be collected.`;
+  } else {
+    status.textContent = "Umpire assignment data is available for all teams in this dataset.";
+  }
+
+  const rowsHtml = rows.map(row => `
+    <tr>
+      <td class="col-team">${escHtml(row.team_name)}</td>
+      <td>${buildUmpireIssueCell(row.games_missed, row.games_missed_upcoming, row.games_missed_details, "Games Missed")}</td>
+      <td>${buildUmpireIssueCell(row.doubleheader_mismatch, row.doubleheader_mismatch_upcoming, row.doubleheader_mismatch_details, "Doubleheader Umpire Mismatch")}</td>
+    </tr>`).join("");
+
+  body.innerHTML = `
+    <div class="cat-block">
+      <div class="cat-header">${rows.length} Team${rows.length === 1 ? "" : "s"}</div>
+      <div class="table-scroll"><table class="stats-table tourn-table" aria-label="Umpire issues by team">
+        <thead>
+          <tr>
+            <th class="col-team">Team</th>
+            <th>Games Missed (Past | Upcoming)</th>
+            <th>Doubleheader Umpire Mismatch (Past | Upcoming)</th>
+          </tr>
+        </thead>
+        <tbody>${rowsHtml}</tbody>
+      </table></div>
+    </div>`;
+}
+
+/* ----------------------------------------------------------------
    Budget tab
 ---------------------------------------------------------------- */
 function parseCostInput(id) {
@@ -2051,24 +2240,28 @@ function switchTab(tabName) {
   const isTournaments = tabName === "tournaments";
   const isDiamonds = tabName === "diamonds";
   const isPlayingToday = tabName === "playing-today";
+  const isUmpireIssues = tabName === "umpire-issues";
   const isBudget = tabName === "budget";
 
   document.getElementById("view-stats").style.display = isStats ? "" : "none";
   document.getElementById("view-tournaments").style.display = isTournaments ? "" : "none";
   document.getElementById("view-diamonds").style.display = isDiamonds ? "" : "none";
   document.getElementById("view-playing-today").style.display = isPlayingToday ? "" : "none";
+  document.getElementById("view-umpire-issues").style.display = isUmpireIssues ? "" : "none";
   document.getElementById("view-budget").style.display = isBudget ? "" : "none";
 
   document.getElementById("tab-stats").setAttribute("aria-selected", isStats ? "true" : "false");
   document.getElementById("tab-tournaments").setAttribute("aria-selected", isTournaments ? "true" : "false");
   document.getElementById("tab-diamonds").setAttribute("aria-selected", isDiamonds ? "true" : "false");
   document.getElementById("tab-playing-today").setAttribute("aria-selected", isPlayingToday ? "true" : "false");
+  document.getElementById("tab-umpire-issues").setAttribute("aria-selected", isUmpireIssues ? "true" : "false");
   document.getElementById("tab-budget").setAttribute("aria-selected", isBudget ? "true" : "false");
 
   document.getElementById("tab-stats").classList.toggle("tab-btn--active", isStats);
   document.getElementById("tab-tournaments").classList.toggle("tab-btn--active", isTournaments);
   document.getElementById("tab-diamonds").classList.toggle("tab-btn--active", isDiamonds);
   document.getElementById("tab-playing-today").classList.toggle("tab-btn--active", isPlayingToday);
+  document.getElementById("tab-umpire-issues").classList.toggle("tab-btn--active", isUmpireIssues);
   document.getElementById("tab-budget").classList.toggle("tab-btn--active", isBudget);
 
   if (isTournaments && loadedData) {
@@ -2081,6 +2274,9 @@ function switchTab(tabName) {
   }
   if (isPlayingToday) {
     renderPlayingToday();
+  }
+  if (isUmpireIssues) {
+    renderUmpireIssues();
   }
   if (isBudget) {
     renderBudgetModel();
@@ -2169,6 +2365,9 @@ async function render(forceRefresh = false) {
     if (document.getElementById("tab-playing-today").classList.contains("tab-btn--active")) {
       renderPlayingToday();
     }
+    if (document.getElementById("tab-umpire-issues").classList.contains("tab-btn--active")) {
+      renderUmpireIssues();
+    }
     if (document.getElementById("tab-budget").classList.contains("tab-btn--active")) {
       renderBudgetModel();
     }
@@ -2198,6 +2397,7 @@ document.getElementById("tab-stats").addEventListener("click", () => switchTab("
 document.getElementById("tab-tournaments").addEventListener("click", () => switchTab("tournaments"));
 document.getElementById("tab-diamonds").addEventListener("click", () => switchTab("diamonds"));
 document.getElementById("tab-playing-today").addEventListener("click", () => switchTab("playing-today"));
+document.getElementById("tab-umpire-issues").addEventListener("click", () => switchTab("umpire-issues"));
 document.getElementById("tab-budget").addEventListener("click", () => switchTab("budget"));
 document.getElementById("tournament-team-filter").addEventListener("change", renderTournaments);
 document.getElementById("diamond-team-filter").addEventListener("change", renderDiamondSummary);

@@ -1,7 +1,19 @@
 # Changelog
+## v1.11 - 2026-03-27 22:03:56
+- Backup created
+
+## v1.10 - 2026-03-27 12:18:12
+- Backup created
+
+## v1.09 - 2026-03-25 21:51:59
+- Backup created
+
 ## v1.08 - 2026-03-25 21:05:05
 - Backup created
 - Removed 13U River League from tracked teams so all tabs and aggregate calculations exclude the retired team
+
+## v1.07 - 2026-03-22 09:24:40
+- Backup created
 
 ## v1.06 - 2026-03-21 19:25:46
 - Backup created

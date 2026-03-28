@@ -25,6 +25,9 @@ The page also includes:
 1. A selectable **start date** and **end date** so you can view a custom summary range instead of only full-season totals.
 2. A **Pitch Indoor Sports Tracker** that lists all matching team events in the selected range.
 3. Expandable team columns for **Game/Exh**, **Practice**, and **Pitch** that show the event dates when clicked.
+4. An **Umpire Issues** tab with:
+       - **Games Missed**: games with fewer than two assigned umpires.
+       - **Doubleheader Umpire Mismatch**: same-team/same-date doubleheaders where assigned umpire pairs are not consistent between games.
 
 ## How it works
 
@@ -69,6 +72,32 @@ Because the site is hosted on GitHub Pages, the browser cannot run the Python sc
 ```bash
 # from the repo root
 python scraper/scrape.py
+```
+
+For Officials/umpire scraping, set credentials first:
+
+```powershell
+$env:CP_USERNAME="your_username"
+$env:CP_PASSWORD="your_password"
+python scraper/scrape.py
+```
+
+If credentials are missing or Officials data cannot be collected, umpire metrics default to `0` and the page will show umpire data as unavailable.
+
+GitHub Actions credentials (for workflow updates):
+
+1. Open **Settings → Secrets and variables → Actions** in the repository.
+2. Create repository secret **CP_USERNAME** with your CP username.
+3. Create repository secret **CP_PASSWORD** with your CP password.
+4. Run the workflow from **Actions → Update Season Stats**.
+
+The workflow passes these secrets as environment variables to the scraper. If secrets are not set, the update still runs and marks umpire data unavailable.
+
+Playwright setup (first time):
+
+```bash
+pip install -r scraper/requirements.txt
+python -m playwright install chromium
 ```
 
 Then preview the page:

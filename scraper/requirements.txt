@@ -1,3 +1,2 @@
-# No third-party packages required.
-# The scraper uses only Python standard library modules:
-#   urllib.request, json, re, datetime, pathlib
+# Browser automation is used for authenticated Officials scraping.
+playwright>=1.52.0

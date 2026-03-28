@@ -22,6 +22,9 @@ import re
 import sys
 from datetime import datetime, date, timezone
 from pathlib import Path
+import os
+import urllib.parse
+from collections import defaultdict
 import urllib.request
 
 # ---------------------------------------------------------------------------
@@ -32,6 +35,10 @@ BASE_URL     = "https://sarniabrigade.ca"
 ICS_FEED     = BASE_URL + "/webcal.ashx?IDs={team_id}"
 SCHEDULE_URL = BASE_URL + "/Teams/{team_id}/Schedule/?Month={month}&Year={year}"
 COACHES_URL  = BASE_URL + "/Teams/{team_id}/Coaches/"
+CP_LOGIN_URL = BASE_URL + "/Account/LogIn/"
+CP_ROOT_URL  = BASE_URL + "/CP/"
+CP_OFFICIALS_DASHBOARD_URL = BASE_URL + "/CP/#Module=Officials;SelectedValue=Content/Officials/Dashboard.aspx"
+CP_OFFICIALS_SCHEDULE_URL = BASE_URL + "/CP/#Module=Officials;SelectedValue=Content/Officials/Schedule.aspx"
 
 SEASON_YEAR   = 2026
 SEASON_MONTHS = list(range(4, 10))   # April – September
@@ -66,6 +73,16 @@ TEAMS = [
     {"id": 1307, "name": "Senior AAA",            "category": "Senior"},
     {"id": 1305, "name": "Instructional",         "category": "Instructional"},
 ]
+TEAM_NAME_TO_ID = {team["name"]: team["id"] for team in TEAMS}
+
+CP_GAME_ROW_RE = re.compile(
+    r"^(?P<marker>DH)?\t?(?P<date>(?:Sun|Mon|Tue|Wed|Thu|Fri|Sat)\s+[A-Z][a-z]{2}\s+\d{2})"
+    r"\t(?P<time>\d{1,2}:\d{2}\s+[AP]M)\t(?P<category>[^\t]*)\t(?P<team>[^\t]+)"
+    r"\t(?P<opponent>[^\t]+)\t(?P<venue>[^\t]+)\t(?P<description>[^\n]+)$"
+)
+CP_OFFICIAL_RE = re.compile(
+    r"^(?P<name>.+?)\s+\((?P<role>Home Plate|Bases|Scorekeeper)\),\s*\$(?P<pay>[0-9.]+)$"
+)
 
 # ---------------------------------------------------------------------------
 # HTTP helper
@@ -88,6 +105,380 @@ def fetch(url: str) -> str:
     except Exception as exc:
         print(f"  WARN  {url}\n        {exc}", file=sys.stderr)
         return ""
+
+
+def fetch_with_opener(opener: urllib.request.OpenerDirector, url: str, data=None) -> str:
+    """GET/POST with an opener; returns decoded text or ''."""
+    try:
+        req = urllib.request.Request(
+            url,
+            data=data,
+            headers={
+                "User-Agent": (
+                    "SarniaBrigadeStatBot/1.0 "
+                    "(+https://github.com/robwinship/sarnia-minor-brigade-stats)"
+                )
+            },
+        )
+        with opener.open(req, timeout=20) as resp:
+            return resp.read().decode("utf-8", errors="replace")
+    except Exception as exc:
+        print(f"  WARN  {url}\n        {exc}", file=sys.stderr)
+        return ""
+
+
+def build_http_opener() -> urllib.request.OpenerDirector:
+    """Create an opener with cookie support for CP login attempts."""
+    import http.cookiejar
+
+    jar = http.cookiejar.CookieJar()
+    cookie_handler = urllib.request.HTTPCookieProcessor(jar)
+    return urllib.request.build_opener(cookie_handler)
+
+
+def login_cp_http(opener: urllib.request.OpenerDirector, username: str, password: str) -> bool:
+    """Attempt CP login via HTTP form post. Returns True on probable success."""
+    login_page = fetch_with_opener(opener, CP_LOGIN_URL)
+    if not login_page:
+        return False
+
+    payload = urllib.parse.urlencode({
+        "Username": username,
+        "Password": password,
+        "RememberMe": "false",
+    }).encode("utf-8")
+    _ = fetch_with_opener(opener, CP_LOGIN_URL, data=payload)
+
+    cp_page = fetch_with_opener(opener, CP_ROOT_URL)
+    if not cp_page:
+        return False
+    # Heuristic: logged-out pages typically expose obvious login markers.
+    return "Account/LogIn" not in cp_page and "name=\"Password\"" not in cp_page
+
+
+def format_cp_toolbar_date(iso_date: str) -> str:
+    """Convert YYYY-MM-DD into the CP toolbar date label format."""
+    dt = datetime.strptime(iso_date, "%Y-%m-%d")
+    return dt.strftime("%a %b %d")
+
+
+def fetch_cp_schedule_text(username: str, password: str, start_date: str, end_date: str) -> tuple[str, str]:
+    """Log in via Playwright and return the Officials schedule table text."""
+    if not username or not password:
+        return "", "missing_credentials"
+
+    try:
+        from playwright.sync_api import sync_playwright
+    except Exception:
+        return "", "playwright_unavailable"
+
+    start_label = format_cp_toolbar_date(start_date)
+    end_label = format_cp_toolbar_date(end_date)
+
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+            page.goto(CP_LOGIN_URL, wait_until="load", timeout=60000)
+            page.locator("#UserName").fill(username)
+            page.locator("#Password").fill(password)
+            page.locator("#LoginButton").click()
+            page.wait_for_timeout(3000)
+
+            if "Account/LogIn" in page.url or "Account/Login" in page.url:
+                browser.close()
+                return "", "login_failed"
+
+            page.goto(CP_OFFICIALS_DASHBOARD_URL, wait_until="domcontentloaded", timeout=60000)
+            page.wait_for_timeout(5000)
+
+            nav = next((frame for frame in page.frames if frame.name == "rpNavMain"), None)
+            main = next((frame for frame in page.frames if frame.name == "rpMain"), None)
+            if nav is None or main is None:
+                browser.close()
+                return "", "officials_frames_not_found"
+
+            nav.locator("span.rtIn", has_text="Standard Games Lists").click()
+            page.wait_for_timeout(1500)
+            nav.locator("span.rtIn", has_text="All Games").click()
+            page.wait_for_timeout(5000)
+
+            start_input = main.locator("#ctl00_ctl00_cMain_cTop_rtbTop_i6_rdpStartDate_dateInput")
+            end_input = main.locator("#ctl00_ctl00_cMain_cTop_rtbTop_i6_rdpEndDate_dateInput")
+            start_input.click()
+            start_input.press("Control+A")
+            start_input.type(start_label)
+            end_input.click()
+            end_input.press("Control+A")
+            end_input.type(end_label)
+            main.locator("span.rtbText", has_text="Update").click()
+            page.wait_for_timeout(8000)
+
+            body_text = main.locator("body").inner_text(timeout=10000)
+            browser.close()
+            if "All Scheduled Games" not in body_text:
+                return "", "schedule_grid_not_found"
+            return body_text, ""
+    except Exception as exc:
+        return "", f"playwright_error:{exc}"
+
+
+def parse_cp_umpire_assignments(schedule_text: str) -> list:
+    """Parse Officials schedule text into structured assignment rows.
+
+    Expected row shape:
+      {
+        "team_id": int,
+        "team_name": str,
+        "date": "YYYY-MM-DD",
+        "time": str,
+        "opponent": str,
+        "venue": str,
+        "game_id": str | None,
+        "umpires": [{"name": str, "role": str}],
+      }
+    """
+    if not schedule_text or "Game #\tDate\tTime\tCategory\tTeam\tOpponent\tVenue\tDescription" not in schedule_text:
+        return []
+
+    body = schedule_text.split("Game #\tDate\tTime\tCategory\tTeam\tOpponent\tVenue\tDescription", 1)[1]
+    block_starts = [match.start() for match in re.finditer(
+        r"(?m)^(?:DH\t|\t)(?:Sun|Mon|Tue|Wed|Thu|Fri|Sat)\s+[A-Z][a-z]{2}\s+\d{2}\t\d{1,2}:\d{2}\s+[AP]M\t",
+        body,
+    )]
+    if not block_starts:
+        return []
+
+    blocks = []
+    for idx, start in enumerate(block_starts):
+        end = block_starts[idx + 1] if idx + 1 < len(block_starts) else len(body)
+        blocks.append(body[start:end].strip())
+
+    parsed = []
+    for block in blocks:
+        lines = [line.rstrip() for line in block.splitlines() if line.strip()]
+        if not lines:
+            continue
+
+        header_line = lines[0].replace("\xa0", "").rstrip()
+        header_match = CP_GAME_ROW_RE.match(header_line)
+        if not header_match:
+            continue
+
+        team_name = header_match.group("team").strip()
+        team_id = TEAM_NAME_TO_ID.get(team_name)
+        if team_id is None:
+            continue
+
+        umpires = []
+        for raw_line in lines[1:]:
+            if raw_line == "No officials assigned":
+                umpires = []
+                break
+            official_match = CP_OFFICIAL_RE.match(raw_line)
+            if not official_match:
+                continue
+            umpires.append({
+                "name": official_match.group("name").strip(),
+                "role": official_match.group("role").strip(),
+            })
+
+        date_text = header_match.group("date").strip()
+        parsed_date = datetime.strptime(f"{date_text} {SEASON_YEAR}", "%a %b %d %Y").date().isoformat()
+        parsed.append({
+            "team_id": team_id,
+            "team_name": team_name,
+            "date": parsed_date,
+            "time": header_match.group("time").strip(),
+            "opponent": header_match.group("opponent").strip(),
+            "venue": header_match.group("venue").strip(),
+            "game_id": None,
+            "umpires": umpires,
+            "doubleheader_flag": bool(header_match.group("marker")),
+        })
+
+    return parsed
+
+
+def compute_umpire_issues(games: list, assignments: list, data_available: bool, unavailable_reason: str) -> dict:
+    """Compute umpire issue metrics for one team."""
+    issues = {
+        "games_missed": 0,
+        "games_missed_upcoming": 0,
+        "doubleheader_mismatch": 0,
+        "doubleheader_mismatch_upcoming": 0,
+        "data_available": False,
+        "unavailable_reason": unavailable_reason or "umpire_data_unavailable",
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": [],
+    }
+    if not data_available:
+        return issues
+
+    issues["data_available"] = True
+    issues["unavailable_reason"] = ""
+    if not assignments:
+        return issues
+
+    today_iso = date.today().isoformat()
+
+    normalized = []
+    for row in assignments:
+        date_text = str(row.get("date") or "").strip()
+        if not date_text:
+            continue
+        # Keep only valid ISO dates from CP parser output.
+        try:
+            datetime.strptime(date_text, "%Y-%m-%d")
+        except ValueError:
+            continue
+
+        names = []
+        for umpire in row.get("umpires") or []:
+            if isinstance(umpire, dict):
+                name = str(umpire.get("name") or "").strip()
+            else:
+                name = str(umpire or "").strip()
+            if name:
+                names.append(name)
+        uniq = sorted(set(names))
+
+        issue_timing = "past" if date_text < today_iso else "upcoming"
+        normalized.append({
+            "date": date_text,
+            "time": str(row.get("time") or "").strip(),
+            "opponent": str(row.get("opponent") or "").strip(),
+            "venue": str(row.get("venue") or "").strip(),
+            "game_id": row.get("game_id"),
+            "umpires": uniq,
+            "issue_timing": issue_timing,
+        })
+
+    games_missed_details = []
+    past_games_missed = 0
+    upcoming_games_missed = 0
+    for row in normalized:
+        if len(row["umpires"]) >= 2:
+            continue
+
+        detail = {
+            "date": row["date"],
+            "time": row["time"],
+            "opponent": row["opponent"],
+            "venue": row["venue"],
+            "assigned_umpires": row["umpires"],
+            "assigned_count": len(row["umpires"]),
+            "issue_timing": row["issue_timing"],
+        }
+        games_missed_details.append(detail)
+
+        if row["issue_timing"] == "past":
+            past_games_missed += 1
+        else:
+            upcoming_games_missed += 1
+
+    games_missed_details.sort(key=lambda item: (
+        item.get("date") or "",
+        item.get("time") or "",
+        item.get("opponent") or "",
+    ))
+    issues["games_missed"] = past_games_missed
+    issues["games_missed_upcoming"] = upcoming_games_missed
+    issues["games_missed_details"] = games_missed_details
+
+    by_date = defaultdict(list)
+    for row in normalized:
+        if row.get("date"):
+            by_date[row["date"]].append(row)
+
+    past_mismatch_count = 0
+    upcoming_mismatch_count = 0
+    mismatch_details = []
+    for date_text, rows in by_date.items():
+        if len(rows) < 2:
+            continue
+        pairs = []
+        incomplete = False
+        for row in rows:
+            if len(row["umpires"]) != 2:
+                incomplete = True
+            else:
+                pairs.append(tuple(row["umpires"]))
+
+        unique_pairs = set(pairs)
+        mismatch_found = incomplete or len(unique_pairs) > 1
+        if not mismatch_found:
+            continue
+
+        issue_timing = "past" if date_text < today_iso else "upcoming"
+        if issue_timing == "past":
+            past_mismatch_count += 1
+        else:
+            upcoming_mismatch_count += 1
+
+        mismatch_details.append({
+            "date": date_text,
+            "issue_timing": issue_timing,
+            "incomplete_assignment": incomplete,
+            "pair_signatures": [" | ".join(pair) for pair in sorted(unique_pairs)],
+            "games": [
+                {
+                    "time": row["time"],
+                    "opponent": row["opponent"],
+                    "venue": row["venue"],
+                    "assigned_umpires": row["umpires"],
+                    "assigned_count": len(row["umpires"]),
+                }
+                for row in sorted(rows, key=lambda r: ((r.get("time") or ""), (r.get("opponent") or "")))
+            ],
+        })
+
+    mismatch_details.sort(key=lambda item: item.get("date") or "")
+    issues["doubleheader_mismatch"] = past_mismatch_count
+    issues["doubleheader_mismatch_upcoming"] = upcoming_mismatch_count
+    issues["doubleheader_mismatch_details"] = mismatch_details
+    return issues
+
+
+def collect_cp_umpire_assignments() -> tuple[dict, dict]:
+    """Collect umpire assignments keyed by team id with status metadata."""
+    username = os.getenv("CP_USERNAME", "").strip()
+    password = os.getenv("CP_PASSWORD", "").strip()
+
+    status = {
+        "available": False,
+        "reason": "not_attempted",
+        "source_url": CP_OFFICIALS_SCHEDULE_URL,
+    }
+    if not username or not password:
+        status["reason"] = "missing_credentials"
+        return {}, status
+
+    schedule_text, reason = fetch_cp_schedule_text(
+        username,
+        password,
+        f"{SEASON_YEAR}-04-01",
+        f"{SEASON_YEAR}-09-30",
+    )
+    if not schedule_text:
+        status["reason"] = reason or "fetch_failed"
+        return {}, status
+
+    parsed_rows = parse_cp_umpire_assignments(schedule_text)
+    if not parsed_rows:
+        status["reason"] = "officials_page_parsed_no_assignments"
+        return {}, status
+
+    by_team_id = defaultdict(list)
+    for row in parsed_rows:
+        team_id = row.get("team_id")
+        if team_id is None:
+            continue
+        by_team_id[int(team_id)].append(row)
+
+    status["available"] = True
+    status["reason"] = "ok"
+    return dict(by_team_id), status
 
 # ---------------------------------------------------------------------------
 # ICS / iCalendar parsing  (practices)
@@ -371,7 +762,7 @@ def parse_roster_counts(html: str) -> dict:
 # Per-team collection
 # ---------------------------------------------------------------------------
 
-def collect_team(team: dict) -> dict:
+def collect_team(team: dict, team_assignments: list, cp_status: dict) -> dict:
     out = {
         "id":           team["id"],
         "name":         team["name"],
@@ -393,6 +784,16 @@ def collect_team(team: dict) -> dict:
         },
         "events":       [],
         "games":        [],
+        "umpire_issues": {
+            "games_missed": 0,
+            "games_missed_upcoming": 0,
+            "doubleheader_mismatch": 0,
+            "doubleheader_mismatch_upcoming": 0,
+            "data_available": False,
+            "unavailable_reason": cp_status.get("reason", "umpire_data_unavailable"),
+            "games_missed_details": [],
+            "doubleheader_mismatch_details": [],
+        },
     }
 
     # -- Practices via ICS --------------------------------------------------
@@ -434,6 +835,13 @@ def collect_team(team: dict) -> dict:
         if g.get("opp_score") is not None:
             out["runs_against"] += g["opp_score"]
 
+    out["umpire_issues"] = compute_umpire_issues(
+        out["games"],
+        team_assignments,
+        cp_status.get("available", False),
+        cp_status.get("reason", "umpire_data_unavailable"),
+    )
+
     return out
 
 # ---------------------------------------------------------------------------
@@ -445,11 +853,24 @@ def main():
     docs_dir.mkdir(parents=True, exist_ok=True)
     out_path = docs_dir / "data.json"
 
+    print("\n[CP Officials]")
+    team_assignments, cp_status = collect_cp_umpire_assignments()
+    if cp_status.get("available"):
+        print("  INFO  Umpire assignment data collected successfully.")
+    else:
+        print(f"  WARN  Umpire assignment data unavailable ({cp_status.get('reason')}).")
+
     results = []
     for team in TEAMS:
         print(f"\n[{team['name']}]")
         try:
-            results.append(collect_team(team))
+            results.append(
+                collect_team(
+                    team,
+                    team_assignments.get(team["id"], []),
+                    cp_status,
+                )
+            )
         except Exception as exc:
             print(f"  ERROR: {exc}", file=sys.stderr)
 
@@ -458,6 +879,7 @@ def main():
         "season_start": f"{SEASON_YEAR}-01-01",
         "season_end": f"{SEASON_YEAR}-12-31",
         "generated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "umpire_data_status": cp_status,
         "teams":     results,
     }
 

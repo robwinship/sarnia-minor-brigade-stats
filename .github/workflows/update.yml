@@ -22,7 +22,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r scraper/requirements.txt
 
+      - name: Install Playwright browser
+        run: python -m playwright install --with-deps chromium
+
       - name: Run scraper
+        env:
+          CP_USERNAME: ${{ secrets.CP_USERNAME }}
+          CP_PASSWORD: ${{ secrets.CP_PASSWORD }}
         run: python scraper/scrape.py
 
       - name: Commit updated data (if changed)
