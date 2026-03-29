@@ -2,10 +2,10 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-29T00:00:50.792218Z",
+  "generated": "2026-03-29T13:51:23.862935Z",
   "umpire_data_status": {
-    "available": true,
-    "reason": "ok",
+    "available": false,
+    "reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
     "source_url": "https://sarniabrigade.ca/CP/#Module=Officials;SelectedValue=Content/Officials/Schedule.aspx"
   },
   "teams": [
@@ -99,8 +99,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -799,122 +799,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 3,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
-        "data_available": true,
-        "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-20",
-            "time": "6:00 PM",
-            "opponent": "Chatham Major Diamonds",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "David Haasen"
-            ],
-            "accepted_umpires": [
-              "David Haasen"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-27",
-            "time": "11:00 AM",
-            "opponent": "Lasalle Turtle Club",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 0,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-27",
-            "time": "2:00 PM",
-            "opponent": "Windsor Stars",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "accepted_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-06-27",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [
-              "Hayden Scheuermann"
-            ],
-            "games": [
-              {
-                "time": "11:00 AM",
-                "opponent": "Lasalle Turtle Club",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [
-                  "Hayden Scheuermann"
-                ],
-                "accepted_umpires": [],
-                "pending_umpires": [
-                  "Hayden Scheuermann"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 1,
-                "accepted_count": 0,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_not_accepted"
-              },
-              {
-                "time": "2:00 PM",
-                "opponent": "Windsor Stars",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [
-                  "Hayden Scheuermann"
-                ],
-                "accepted_umpires": [
-                  "Hayden Scheuermann"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 1,
-                "accepted_count": 1,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_upcoming": 0,
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       }
     },
     {
@@ -1538,101 +1429,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 5,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-24",
-            "time": "11:00 AM",
-            "opponent": "TBA",
-            "venue": "TBD",
-            "assigned_umpires": [
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [
-              "Paolo Padiglia"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-11",
-            "time": "10:00 AM",
-            "opponent": "London Badgers",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "accepted_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-18",
-            "time": "10:00 AM",
-            "opponent": "Lasalle Turtle Club",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-08",
-            "time": "10:00 AM",
-            "opponent": "TBA",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-23",
-            "time": "4:00 PM",
-            "opponent": "Riverside Royals",
-            "venue": "TBD",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
     },
@@ -2001,8 +1803,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -2496,242 +2298,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 7,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 3,
-        "data_available": true,
-        "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-04-25",
-            "time": "4:00 PM",
-            "opponent": "10U A OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-04-25",
-            "time": "6:00 PM",
-            "opponent": "10U A OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-04-28",
-            "time": "6:00 PM",
-            "opponent": "10U AA OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [
-              "Paolo Padiglia"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-09",
-            "time": "4:00 PM",
-            "opponent": "London Badgers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-09",
-            "time": "6:30 PM",
-            "opponent": "London Badgers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-17",
-            "time": "4:00 PM",
-            "opponent": "Woodstock Wranglers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-17",
-            "time": "6:30 PM",
-            "opponent": "Woodstock Wranglers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-04-25",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "10U A OBA Rep",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "6:00 PM",
-                "opponent": "10U A OBA Rep",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-05-09",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "London Badgers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "London Badgers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-05-17",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "Woodstock Wranglers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "Woodstock Wranglers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_upcoming": 0,
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       }
     },
     {
@@ -2981,100 +2554,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
-        "data_available": true,
-        "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-06-21",
-            "time": "10:00 AM",
-            "opponent": "Lasalle Turtle Club",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [
-              "Paolo Padiglia"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-21",
-            "time": "12:30 PM",
-            "opponent": "Lasalle Turtle Club",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [
-              "Paolo Padiglia"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-06-21",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "Lasalle Turtle Club",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Paolo Padiglia"
-                ],
-                "accepted_umpires": [
-                  "Paolo Padiglia"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 1,
-                "accepted_count": 1,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "12:30 PM",
-                "opponent": "Lasalle Turtle Club",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Paolo Padiglia"
-                ],
-                "accepted_umpires": [
-                  "Paolo Padiglia"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 1,
-                "accepted_count": 1,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_upcoming": 0,
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       }
     },
     {
@@ -3209,112 +2695,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
-        "data_available": true,
-        "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-02",
-            "time": "10:00 AM",
-            "opponent": "London Badgers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Dan Scott",
-              "Matthew Schrie"
-            ],
-            "accepted_umpires": [
-              "Dan Scott"
-            ],
-            "pending_umpires": [
-              "Matthew Schrie"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-02",
-            "time": "1:00 PM",
-            "opponent": "London Badgers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Dan Scott",
-              "Matthew Schrie"
-            ],
-            "accepted_umpires": [
-              "Dan Scott"
-            ],
-            "pending_umpires": [
-              "Matthew Schrie"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-05-02",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "London Badgers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Dan Scott",
-                  "Matthew Schrie"
-                ],
-                "accepted_umpires": [
-                  "Dan Scott"
-                ],
-                "pending_umpires": [
-                  "Matthew Schrie"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "London Badgers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Dan Scott",
-                  "Matthew Schrie"
-                ],
-                "accepted_umpires": [
-                  "Dan Scott"
-                ],
-                "pending_umpires": [
-                  "Matthew Schrie"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_upcoming": 0,
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       }
     },
     {
@@ -3434,8 +2821,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -3450,7 +2837,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 75,
+      "practices": 74,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -3460,15 +2847,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19685-sarniabrigade.ca",
-          "date": "2026-01-28",
-          "start_time": "5:30 PM",
-          "end_date": "2026-01-29",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice"
-        },
         {
           "uid": "MS-19686-sarniabrigade.ca",
           "date": "2026-02-04",
@@ -4376,92 +3754,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
-        "data_available": true,
-        "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-09",
-            "time": "11:00 AM",
-            "opponent": "Windsor Hawks",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Dan Scott",
-              "Matthew Schrie"
-            ],
-            "accepted_umpires": [
-              "Dan Scott"
-            ],
-            "pending_umpires": [
-              "Matthew Schrie"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-05-09",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [
-              "Dan Scott | Matthew Schrie"
-            ],
-            "mismatched_names": [
-              "Matthew Schrie"
-            ],
-            "games": [
-              {
-                "time": "11:00 AM",
-                "opponent": "Windsor Hawks",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Dan Scott",
-                  "Matthew Schrie"
-                ],
-                "accepted_umpires": [
-                  "Dan Scott"
-                ],
-                "pending_umpires": [
-                  "Matthew Schrie"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:30 PM",
-                "opponent": "Windsor Hawks",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Dan Scott",
-                  "Matthew Schrie"
-                ],
-                "accepted_umpires": [
-                  "Dan Scott",
-                  "Matthew Schrie"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_upcoming": 0,
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       }
     },
     {
@@ -4563,8 +3862,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -4974,8 +4273,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -5460,8 +4759,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -5592,8 +4891,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -5624,8 +4923,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -5656,8 +4955,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -5688,8 +4987,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -5720,8 +5019,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -5736,7 +5035,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 32,
+      "practices": 50,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -5828,6 +5127,15 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20211-sarniabrigade.ca",
+          "date": "2026-05-04",
+          "start_time": "7:00 PM",
+          "end_date": "2026-05-05",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-20011-sarniabrigade.ca",
           "date": "2026-05-06",
           "start_time": "6:00 PM",
@@ -5862,6 +5170,15 @@
           "summary": "16U PBLO - Game @ London Badgers",
           "location": "Stoneybrook (Dan Pulham)",
           "type": "game"
+        },
+        {
+          "uid": "MS-20212-sarniabrigade.ca",
+          "date": "2026-05-11",
+          "start_time": "7:00 PM",
+          "end_date": "2026-05-12",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
         },
         {
           "uid": "MS-20012-sarniabrigade.ca",
@@ -5918,6 +5235,15 @@
           "type": "game"
         },
         {
+          "uid": "MS-20213-sarniabrigade.ca",
+          "date": "2026-05-18",
+          "start_time": "7:00 PM",
+          "end_date": "2026-05-19",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-20013-sarniabrigade.ca",
           "date": "2026-05-20",
           "start_time": "6:00 PM",
@@ -5972,6 +5298,15 @@
           "type": "game"
         },
         {
+          "uid": "MS-20214-sarniabrigade.ca",
+          "date": "2026-05-25",
+          "start_time": "7:00 PM",
+          "end_date": "2026-05-26",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-20014-sarniabrigade.ca",
           "date": "2026-05-27",
           "start_time": "6:00 PM",
@@ -6006,6 +5341,15 @@
           "summary": "16U PBLO - Game @ Sudbury Voyageurs",
           "location": "Terry Fox Complex (Main)",
           "type": "game"
+        },
+        {
+          "uid": "MS-20215-sarniabrigade.ca",
+          "date": "2026-06-01",
+          "start_time": "7:00 PM",
+          "end_date": "2026-06-02",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
         },
         {
           "uid": "MS-20015-sarniabrigade.ca",
@@ -6062,6 +5406,15 @@
           "type": "game"
         },
         {
+          "uid": "MS-20216-sarniabrigade.ca",
+          "date": "2026-06-08",
+          "start_time": "7:00 PM",
+          "end_date": "2026-06-09",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-20016-sarniabrigade.ca",
           "date": "2026-06-10",
           "start_time": "6:00 PM",
@@ -6114,6 +5467,15 @@
           "summary": "16U PBLO - Game @ Ontario Giants",
           "location": "Chris Gibson (Red)",
           "type": "game"
+        },
+        {
+          "uid": "MS-20217-sarniabrigade.ca",
+          "date": "2026-06-15",
+          "start_time": "7:00 PM",
+          "end_date": "2026-06-16",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
         },
         {
           "uid": "MS-20017-sarniabrigade.ca",
@@ -6170,6 +5532,15 @@
           "type": "game"
         },
         {
+          "uid": "MS-20218-sarniabrigade.ca",
+          "date": "2026-06-22",
+          "start_time": "7:00 PM",
+          "end_date": "2026-06-23",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-20018-sarniabrigade.ca",
           "date": "2026-06-24",
           "start_time": "6:00 PM",
@@ -6224,12 +5595,39 @@
           "type": "game"
         },
         {
+          "uid": "MS-20219-sarniabrigade.ca",
+          "date": "2026-06-29",
+          "start_time": "7:00 PM",
+          "end_date": "2026-06-30",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20220-sarniabrigade.ca",
+          "date": "2026-07-06",
+          "start_time": "7:00 PM",
+          "end_date": "2026-07-07",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-20020-sarniabrigade.ca",
           "date": "2026-07-08",
           "start_time": "6:00 PM",
           "end_date": "2026-07-09",
           "summary": "16U PBLO - Practice",
           "location": "Blackwell Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20221-sarniabrigade.ca",
+          "date": "2026-07-13",
+          "start_time": "7:00 PM",
+          "end_date": "2026-07-14",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice"
         },
         {
@@ -6242,12 +5640,39 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20222-sarniabrigade.ca",
+          "date": "2026-07-20",
+          "start_time": "7:00 PM",
+          "end_date": "2026-07-21",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-20022-sarniabrigade.ca",
           "date": "2026-07-22",
           "start_time": "6:00 PM",
           "end_date": "2026-07-23",
           "summary": "16U PBLO - Practice",
           "location": "Blackwell Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20223-sarniabrigade.ca",
+          "date": "2026-07-27",
+          "start_time": "7:00 PM",
+          "end_date": "2026-07-28",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20224-sarniabrigade.ca",
+          "date": "2026-08-03",
+          "start_time": "7:00 PM",
+          "end_date": "2026-08-04",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice"
         },
         {
@@ -6269,6 +5694,15 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20225-sarniabrigade.ca",
+          "date": "2026-08-10",
+          "start_time": "7:00 PM",
+          "end_date": "2026-08-11",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-20025-sarniabrigade.ca",
           "date": "2026-08-12",
           "start_time": "6:00 PM",
@@ -6284,6 +5718,15 @@
           "end_date": "2026-08-15",
           "summary": "16U PBLO - Practice",
           "location": "Errol Russell Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20226-sarniabrigade.ca",
+          "date": "2026-08-17",
+          "start_time": "7:00 PM",
+          "end_date": "2026-08-18",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice"
         },
         {
@@ -6305,6 +5748,15 @@
           "type": "practice"
         },
         {
+          "uid": "MS-20227-sarniabrigade.ca",
+          "date": "2026-08-24",
+          "start_time": "7:00 PM",
+          "end_date": "2026-08-25",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice"
+        },
+        {
           "uid": "MS-20027-sarniabrigade.ca",
           "date": "2026-08-26",
           "start_time": "6:00 PM",
@@ -6320,6 +5772,15 @@
           "end_date": "2026-08-29",
           "summary": "16U PBLO - Practice",
           "location": "Errol Russell Park",
+          "type": "practice"
+        },
+        {
+          "uid": "MS-20228-sarniabrigade.ca",
+          "date": "2026-08-31",
+          "start_time": "7:00 PM",
+          "end_date": "2026-09-01",
+          "summary": "16U PBLO - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice"
         },
         {
@@ -6735,235 +6196,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 2,
-        "data_available": true,
-        "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-16",
-            "time": "11:00 AM",
-            "opponent": "Tecumseh Thunder",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [
-              "Matthew Schrie",
-              "Tyler Whetham"
-            ],
-            "accepted_umpires": [
-              "Matthew Schrie"
-            ],
-            "pending_umpires": [
-              "Tyler Whetham"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-16",
-            "time": "2:00 PM",
-            "opponent": "Tecumseh Thunder",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [
-              "Matthew Schrie",
-              "Tyler Whetham"
-            ],
-            "accepted_umpires": [
-              "Matthew Schrie"
-            ],
-            "pending_umpires": [
-              "Tyler Whetham"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-04-25",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [
-              "Brian Mundt | Tyler Whetham"
-            ],
-            "mismatched_names": [
-              "Annette Hoggarth",
-              "Dan Scott",
-              "David Haasen",
-              "Greg Baker",
-              "Hayden Scheuermann",
-              "Jarett Simons",
-              "Jason Lajeunesse",
-              "Juan Peralta",
-              "Katrina Cadotte",
-              "Matthew Schrie",
-              "Paolo Padiglia",
-              "Steve McGrail"
-            ],
-            "games": [
-              {
-                "time": "1:00 PM",
-                "opponent": "Oshawa Legionaires",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Annette Hoggarth",
-                  "Brian Mundt",
-                  "Brock Lane",
-                  "Chris Bonneau",
-                  "Dan Scott",
-                  "David Haasen",
-                  "Grant Purdy",
-                  "Greg Baker",
-                  "Hayden Scheuermann",
-                  "Jarett Simons",
-                  "Jason Lajeunesse",
-                  "Juan Peralta",
-                  "Katrina Cadotte",
-                  "Matthew Schrie",
-                  "Paolo Padiglia",
-                  "Steve McGrail",
-                  "Terry Doyle",
-                  "Tyler Hoadley",
-                  "Tyler Whetham"
-                ],
-                "accepted_umpires": [
-                  "Annette Hoggarth",
-                  "Brian Mundt",
-                  "Dan Scott",
-                  "David Haasen",
-                  "Greg Baker",
-                  "Hayden Scheuermann",
-                  "Jarett Simons",
-                  "Jason Lajeunesse",
-                  "Juan Peralta",
-                  "Katrina Cadotte",
-                  "Matthew Schrie",
-                  "Paolo Padiglia",
-                  "Steve McGrail",
-                  "Tyler Whetham"
-                ],
-                "pending_umpires": [
-                  "Brian Mundt",
-                  "Brock Lane",
-                  "Chris Bonneau",
-                  "Grant Purdy",
-                  "Hayden Scheuermann",
-                  "Matthew Schrie",
-                  "Terry Doyle",
-                  "Tyler Hoadley",
-                  "Tyler Whetham"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 19,
-                "accepted_count": 14,
-                "pending_count": 9,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "Oshawa Legionaires",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Brian Mundt",
-                  "Tyler Whetham"
-                ],
-                "accepted_umpires": [
-                  "Brian Mundt",
-                  "Tyler Whetham"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "4:00 PM",
-                "opponent": "Oshawa Legionaires",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Brian Mundt",
-                  "Tyler Whetham"
-                ],
-                "accepted_umpires": [
-                  "Brian Mundt",
-                  "Tyler Whetham"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-05-16",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "11:00 AM",
-                "opponent": "Tecumseh Thunder",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Matthew Schrie",
-                  "Tyler Whetham"
-                ],
-                "accepted_umpires": [
-                  "Matthew Schrie"
-                ],
-                "pending_umpires": [
-                  "Tyler Whetham"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "2:00 PM",
-                "opponent": "Tecumseh Thunder",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Matthew Schrie",
-                  "Tyler Whetham"
-                ],
-                "accepted_umpires": [
-                  "Matthew Schrie"
-                ],
-                "pending_umpires": [
-                  "Tyler Whetham"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_upcoming": 0,
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       }
     },
     {
@@ -6992,8 +6231,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -7024,8 +6263,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
@@ -7183,8 +6422,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "playwright_error:BrowserType.launch: Executable doesn't exist at C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1208\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
