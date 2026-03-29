@@ -687,6 +687,7 @@
     <button class="tab-btn tab-btn--active" id="tab-stats" role="tab" aria-selected="true" aria-controls="view-stats">Season Stats</button>
     <button class="tab-btn" id="tab-tournaments" role="tab" aria-selected="false" aria-controls="view-tournaments">Tournaments</button>
     <button class="tab-btn" id="tab-diamonds" role="tab" aria-selected="false" aria-controls="view-diamonds">Diamond Summary</button>
+      <button class="tab-btn" id="tab-cancellations" role="tab" aria-selected="false" aria-controls="view-cancellations">Cancellations</button>
     <button class="tab-btn" id="tab-playing-today" role="tab" aria-selected="false" aria-controls="view-playing-today">Playing Today</button>
     <button class="tab-btn" id="tab-umpire-issues" role="tab" aria-selected="false" aria-controls="view-umpire-issues">Umpire Issues</button>
     <button class="tab-btn" id="tab-budget" role="tab" aria-selected="false" aria-controls="view-budget">Budget Model</button>
@@ -781,6 +782,14 @@
     </div>
     <div id="diamond-body"></div>
   </div><!-- /view-diamonds -->
+
+    <div id="view-cancellations" style="display:none">
+      <div class="controls-card" aria-label="Cancellations summary">
+        <div class="section-title">Cancellations</div>
+        <div class="controls-note">This tab lists all cancelled practices and games by team. Expand a team to see the cancelled dates.</div>
+        <div id="cancellations-body"></div>
+      </div>
+    </div><!-- /view-cancellations -->
 
   <div id="view-playing-today" style="display:none">
     <div class="controls-card" aria-label="Playing today summary">
@@ -2297,24 +2306,28 @@ function switchTab(tabName) {
   const isPlayingToday = tabName === "playing-today";
   const isUmpireIssues = tabName === "umpire-issues";
   const isBudget = tabName === "budget";
+  const isCancellations = tabName === "cancellations";
 
   document.getElementById("view-stats").style.display = isStats ? "" : "none";
   document.getElementById("view-tournaments").style.display = isTournaments ? "" : "none";
   document.getElementById("view-diamonds").style.display = isDiamonds ? "" : "none";
+  document.getElementById("view-cancellations").style.display = isCancellations ? "" : "none";
   document.getElementById("view-playing-today").style.display = isPlayingToday ? "" : "none";
   document.getElementById("view-umpire-issues").style.display = isUmpireIssues ? "" : "none";
   document.getElementById("view-budget").style.display = isBudget ? "" : "none";
 
   document.getElementById("tab-stats").setAttribute("aria-selected", isStats ? "true" : "false");
   document.getElementById("tab-tournaments").setAttribute("aria-selected", isTournaments ? "true" : "false");
-  document.getElementById("tab-diamonds").setAttribute("aria-selected", isDiamonds ? "true" : "false");
-  document.getElementById("tab-playing-today").setAttribute("aria-selected", isPlayingToday ? "true" : "false");
-  document.getElementById("tab-umpire-issues").setAttribute("aria-selected", isUmpireIssues ? "true" : "false");
-  document.getElementById("tab-budget").setAttribute("aria-selected", isBudget ? "true" : "false");
+  document.getElementById("tab-diamonds").setAttribute("aria-selected", isDiamonds ? "true" : "none");
+  document.getElementById("tab-cancellations").setAttribute("aria-selected", isCancellations ? "true" : "none");
+  document.getElementById("tab-playing-today").setAttribute("aria-selected", isPlayingToday ? "true" : "none");
+  document.getElementById("tab-umpire-issues").setAttribute("aria-selected", isUmpireIssues ? "true" : "none");
+  document.getElementById("tab-budget").setAttribute("aria-selected", isBudget ? "true" : "none");
 
   document.getElementById("tab-stats").classList.toggle("tab-btn--active", isStats);
   document.getElementById("tab-tournaments").classList.toggle("tab-btn--active", isTournaments);
   document.getElementById("tab-diamonds").classList.toggle("tab-btn--active", isDiamonds);
+  document.getElementById("tab-cancellations").classList.toggle("tab-btn--active", isCancellations);
   document.getElementById("tab-playing-today").classList.toggle("tab-btn--active", isPlayingToday);
   document.getElementById("tab-umpire-issues").classList.toggle("tab-btn--active", isUmpireIssues);
   document.getElementById("tab-budget").classList.toggle("tab-btn--active", isBudget);
@@ -2326,6 +2339,9 @@ function switchTab(tabName) {
   if (isDiamonds && loadedData) {
     populateDiamondFilters(getVisibleTeams(loadedData.teams ?? []));
     renderDiamondSummary();
+  }
+  if (isCancellations) {
+    renderCancellations();
   }
   if (isPlayingToday) {
     renderPlayingToday();
@@ -2454,6 +2470,7 @@ document.getElementById("tab-diamonds").addEventListener("click", () => switchTa
 document.getElementById("tab-playing-today").addEventListener("click", () => switchTab("playing-today"));
 document.getElementById("tab-umpire-issues").addEventListener("click", () => switchTab("umpire-issues"));
 document.getElementById("tab-budget").addEventListener("click", () => switchTab("budget"));
+document.getElementById("tab-cancellations").addEventListener("click", () => switchTab("cancellations"));
 document.getElementById("tournament-team-filter").addEventListener("change", renderTournaments);
 document.getElementById("diamond-team-filter").addEventListener("change", renderDiamondSummary);
 document.getElementById("diamond-location-filter").addEventListener("change", renderDiamondSummary);
@@ -2483,6 +2500,7 @@ document.getElementById("cost-umpire-14u").addEventListener("input", renderBudge
 document.getElementById("cost-ins-person").addEventListener("input", renderBudgetModel);
 
 
+document.getElementById("tab-cancellations").addEventListener("click", () => switchTab("cancellations"));
 render();
 </script>
 </body>
