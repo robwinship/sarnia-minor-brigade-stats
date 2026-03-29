@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-28T23:50:18.776242Z",
+  "generated": "2026-03-29T00:00:50.792218Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -833,16 +833,16 @@
             "assigned_umpires": [
               "Hayden Scheuermann"
             ],
-            "accepted_umpires": [
+            "accepted_umpires": [],
+            "pending_umpires": [
               "Hayden Scheuermann"
             ],
-            "pending_umpires": [],
             "denied_umpires": [],
             "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
+            "accepted_count": 0,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
+            "assignment_state": "assigned_not_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -872,7 +872,9 @@
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
             "pair_signatures": [],
-            "mismatched_names": [],
+            "mismatched_names": [
+              "Hayden Scheuermann"
+            ],
             "games": [
               {
                 "time": "11:00 AM",
@@ -881,16 +883,16 @@
                 "assigned_umpires": [
                   "Hayden Scheuermann"
                 ],
-                "accepted_umpires": [
+                "accepted_umpires": [],
+                "pending_umpires": [
                   "Hayden Scheuermann"
                 ],
-                "pending_umpires": [],
                 "denied_umpires": [],
                 "assigned_count": 1,
-                "accepted_count": 1,
-                "pending_count": 0,
+                "accepted_count": 0,
+                "pending_count": 1,
                 "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
+                "assignment_state": "assigned_not_accepted"
               },
               {
                 "time": "2:00 PM",
@@ -3207,13 +3209,112 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "games_missed_details": [
+          {
+            "date": "2026-05-02",
+            "time": "10:00 AM",
+            "opponent": "London Badgers",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Dan Scott",
+              "Matthew Schrie"
+            ],
+            "accepted_umpires": [
+              "Dan Scott"
+            ],
+            "pending_umpires": [
+              "Matthew Schrie"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-05-02",
+            "time": "1:00 PM",
+            "opponent": "London Badgers",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Dan Scott",
+              "Matthew Schrie"
+            ],
+            "accepted_umpires": [
+              "Dan Scott"
+            ],
+            "pending_umpires": [
+              "Matthew Schrie"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-05-02",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "London Badgers",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Dan Scott",
+                  "Matthew Schrie"
+                ],
+                "accepted_umpires": [
+                  "Dan Scott"
+                ],
+                "pending_umpires": [
+                  "Matthew Schrie"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "1:00 PM",
+                "opponent": "London Badgers",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Dan Scott",
+                  "Matthew Schrie"
+                ],
+                "accepted_umpires": [
+                  "Dan Scott"
+                ],
+                "pending_umpires": [
+                  "Matthew Schrie"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -4275,13 +4376,92 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "games_missed_details": [
+          {
+            "date": "2026-05-09",
+            "time": "11:00 AM",
+            "opponent": "Windsor Hawks",
+            "venue": "Blackwell Park",
+            "assigned_umpires": [
+              "Dan Scott",
+              "Matthew Schrie"
+            ],
+            "accepted_umpires": [
+              "Dan Scott"
+            ],
+            "pending_umpires": [
+              "Matthew Schrie"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-05-09",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [
+              "Dan Scott | Matthew Schrie"
+            ],
+            "mismatched_names": [
+              "Matthew Schrie"
+            ],
+            "games": [
+              {
+                "time": "11:00 AM",
+                "opponent": "Windsor Hawks",
+                "venue": "Blackwell Park",
+                "assigned_umpires": [
+                  "Dan Scott",
+                  "Matthew Schrie"
+                ],
+                "accepted_umpires": [
+                  "Dan Scott"
+                ],
+                "pending_umpires": [
+                  "Matthew Schrie"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "1:30 PM",
+                "opponent": "Windsor Hawks",
+                "venue": "Blackwell Park",
+                "assigned_umpires": [
+                  "Dan Scott",
+                  "Matthew Schrie"
+                ],
+                "accepted_umpires": [
+                  "Dan Scott",
+                  "Matthew Schrie"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -6555,13 +6735,235 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "games_missed_details": [
+          {
+            "date": "2026-05-16",
+            "time": "11:00 AM",
+            "opponent": "Tecumseh Thunder",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [
+              "Matthew Schrie",
+              "Tyler Whetham"
+            ],
+            "accepted_umpires": [
+              "Matthew Schrie"
+            ],
+            "pending_umpires": [
+              "Tyler Whetham"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-05-16",
+            "time": "2:00 PM",
+            "opponent": "Tecumseh Thunder",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [
+              "Matthew Schrie",
+              "Tyler Whetham"
+            ],
+            "accepted_umpires": [
+              "Matthew Schrie"
+            ],
+            "pending_umpires": [
+              "Tyler Whetham"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-04-25",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [
+              "Brian Mundt | Tyler Whetham"
+            ],
+            "mismatched_names": [
+              "Annette Hoggarth",
+              "Dan Scott",
+              "David Haasen",
+              "Greg Baker",
+              "Hayden Scheuermann",
+              "Jarett Simons",
+              "Jason Lajeunesse",
+              "Juan Peralta",
+              "Katrina Cadotte",
+              "Matthew Schrie",
+              "Paolo Padiglia",
+              "Steve McGrail"
+            ],
+            "games": [
+              {
+                "time": "1:00 PM",
+                "opponent": "Oshawa Legionaires",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Annette Hoggarth",
+                  "Brian Mundt",
+                  "Brock Lane",
+                  "Chris Bonneau",
+                  "Dan Scott",
+                  "David Haasen",
+                  "Grant Purdy",
+                  "Greg Baker",
+                  "Hayden Scheuermann",
+                  "Jarett Simons",
+                  "Jason Lajeunesse",
+                  "Juan Peralta",
+                  "Katrina Cadotte",
+                  "Matthew Schrie",
+                  "Paolo Padiglia",
+                  "Steve McGrail",
+                  "Terry Doyle",
+                  "Tyler Hoadley",
+                  "Tyler Whetham"
+                ],
+                "accepted_umpires": [
+                  "Annette Hoggarth",
+                  "Brian Mundt",
+                  "Dan Scott",
+                  "David Haasen",
+                  "Greg Baker",
+                  "Hayden Scheuermann",
+                  "Jarett Simons",
+                  "Jason Lajeunesse",
+                  "Juan Peralta",
+                  "Katrina Cadotte",
+                  "Matthew Schrie",
+                  "Paolo Padiglia",
+                  "Steve McGrail",
+                  "Tyler Whetham"
+                ],
+                "pending_umpires": [
+                  "Brian Mundt",
+                  "Brock Lane",
+                  "Chris Bonneau",
+                  "Grant Purdy",
+                  "Hayden Scheuermann",
+                  "Matthew Schrie",
+                  "Terry Doyle",
+                  "Tyler Hoadley",
+                  "Tyler Whetham"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 19,
+                "accepted_count": 14,
+                "pending_count": 9,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "1:00 PM",
+                "opponent": "Oshawa Legionaires",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Brian Mundt",
+                  "Tyler Whetham"
+                ],
+                "accepted_umpires": [
+                  "Brian Mundt",
+                  "Tyler Whetham"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "4:00 PM",
+                "opponent": "Oshawa Legionaires",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Brian Mundt",
+                  "Tyler Whetham"
+                ],
+                "accepted_umpires": [
+                  "Brian Mundt",
+                  "Tyler Whetham"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-05-16",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "11:00 AM",
+                "opponent": "Tecumseh Thunder",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Matthew Schrie",
+                  "Tyler Whetham"
+                ],
+                "accepted_umpires": [
+                  "Matthew Schrie"
+                ],
+                "pending_umpires": [
+                  "Tyler Whetham"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "2:00 PM",
+                "opponent": "Tecumseh Thunder",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Matthew Schrie",
+                  "Tyler Whetham"
+                ],
+                "accepted_umpires": [
+                  "Matthew Schrie"
+                ],
+                "pending_umpires": [
+                  "Tyler Whetham"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          }
+        ]
       }
     },
     {

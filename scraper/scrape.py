@@ -110,6 +110,18 @@ def infer_official_status(raw_line: str) -> str:
     return "accepted"
 
 
+def infer_official_status_from_class_name(class_name: str) -> str:
+    """Infer status from CP CSS class names on official rows."""
+    tokens = set(str(class_name or "").strip().lower().split())
+    if "denied" in tokens:
+        return "denied"
+    if "unconfirmed" in tokens:
+        return "pending"
+    if "confirmed" in tokens:
+        return "accepted"
+    return "unknown"
+
+
 def classify_game_assignment_state(assigned_count: int, accepted_count: int, pending_count: int, denied_count: int) -> str:
     """Return one game-level assignment state.
 
@@ -263,6 +275,201 @@ def fetch_cp_schedule_text(username: str, password: str, start_date: str, end_da
             return body_text, ""
     except Exception as exc:
         return "", f"playwright_error:{exc}"
+
+
+def fetch_cp_schedule_rows(username: str, password: str, start_date: str, end_date: str) -> tuple[list, str]:
+    """Log in via Playwright and return structured Officials schedule rows.
+
+    The CP table includes class names like "gameOfficial confirmed" and
+    "gameOfficial unconfirmed" that are not available in plain-text exports.
+    """
+    if not username or not password:
+        return [], "missing_credentials"
+
+    try:
+        from playwright.sync_api import sync_playwright
+    except Exception:
+        return [], "playwright_unavailable"
+
+    start_label = format_cp_toolbar_date(start_date)
+    end_label = format_cp_toolbar_date(end_date)
+
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+            page.goto(CP_LOGIN_URL, wait_until="load", timeout=60000)
+            page.locator("#UserName").fill(username)
+            page.locator("#Password").fill(password)
+            page.locator("#LoginButton").click()
+            page.wait_for_timeout(3000)
+
+            if "Account/LogIn" in page.url or "Account/Login" in page.url:
+                browser.close()
+                return [], "login_failed"
+
+            page.goto(CP_OFFICIALS_DASHBOARD_URL, wait_until="domcontentloaded", timeout=60000)
+            page.wait_for_timeout(5000)
+
+            nav = next((frame for frame in page.frames if frame.name == "rpNavMain"), None)
+            main = next((frame for frame in page.frames if frame.name == "rpMain"), None)
+            if nav is None or main is None:
+                browser.close()
+                return [], "officials_frames_not_found"
+
+            nav.locator("span.rtIn", has_text="Standard Games Lists").click()
+            page.wait_for_timeout(1500)
+            nav.locator("span.rtIn", has_text="All Games").click()
+            page.wait_for_timeout(5000)
+
+            start_input = main.locator("#ctl00_ctl00_cMain_cTop_rtbTop_i6_rdpStartDate_dateInput")
+            end_input = main.locator("#ctl00_ctl00_cMain_cTop_rtbTop_i6_rdpEndDate_dateInput")
+            start_input.click()
+            start_input.press("Control+A")
+            start_input.type(start_label)
+            end_input.click()
+            end_input.press("Control+A")
+            end_input.type(end_label)
+            main.locator("span.rtbText", has_text="Update").click()
+            page.wait_for_timeout(8000)
+
+            structured_rows = main.evaluate(
+                """
+                () => {
+                  const rows = [...document.querySelectorAll('tr')];
+                  const results = [];
+                  let current = null;
+
+                  const dateRe = /^(Sun|Mon|Tue|Wed|Thu|Fri|Sat)\\s+[A-Z][a-z]{2}\\s+\\d{2}$/;
+                  const timeRe = /^\\d{1,2}:\\d{2}\\s+[AP]M$/;
+
+                  for (const tr of rows) {
+                    const cells = [...tr.querySelectorAll('td')];
+                    const cellTexts = cells.map(td => (td.innerText || '').replace(/\\s+/g, ' ').trim());
+
+                    const dateIndex = cellTexts.findIndex(text => dateRe.test(text));
+                    const timeIndex = cellTexts.findIndex(text => timeRe.test(text));
+                    const isGameRow = dateIndex !== -1 && timeIndex !== -1;
+
+                    if (isGameRow) {
+                      current = {
+                        cell_texts: cellTexts,
+                        raw_row_text: (tr.innerText || '').replace(/\\s+/g, ' ').trim(),
+                        no_officials: false,
+                        officials: [],
+                      };
+                      results.push(current);
+                    }
+
+                    if (!current) {
+                      continue;
+                    }
+
+                    if (/No officials assigned/i.test(tr.innerText || '')) {
+                      current.no_officials = true;
+                    }
+
+                    const officials = [...tr.querySelectorAll('.gameOfficial')];
+                    for (const officialEl of officials) {
+                      current.officials.push({
+                        text: (officialEl.innerText || '').replace(/\\s+/g, ' ').trim(),
+                        class_name: (officialEl.className || '').trim(),
+                      });
+                    }
+                  }
+
+                  return results;
+                }
+                """
+            )
+            browser.close()
+
+            if not structured_rows:
+                return [], "schedule_grid_not_found"
+            return structured_rows, ""
+    except Exception as exc:
+        return [], f"playwright_error:{exc}"
+
+
+def parse_cp_umpire_assignments_from_rows(structured_rows: list) -> list:
+    """Parse structured CP table rows into assignment rows."""
+    if not structured_rows:
+        return []
+
+    parsed = []
+    for row in structured_rows:
+        cell_texts = [str(text or "").strip() for text in (row.get("cell_texts") or [])]
+        if not cell_texts:
+            continue
+
+        date_index = next((i for i, text in enumerate(cell_texts) if re.match(r"^(Sun|Mon|Tue|Wed|Thu|Fri|Sat)\s+[A-Z][a-z]{2}\s+\d{2}$", text)), -1)
+        time_index = next((i for i, text in enumerate(cell_texts) if re.match(r"^\d{1,2}:\d{2}\s+[AP]M$", text)), -1)
+        if date_index == -1 or time_index == -1:
+            continue
+
+        team_name = cell_texts[time_index + 2].strip() if len(cell_texts) > time_index + 2 else ""
+        team_id = TEAM_NAME_TO_ID.get(team_name)
+        if team_id is None:
+            continue
+
+        officials = []
+        for official in row.get("officials") or []:
+            text = str(official.get("text") or "").strip()
+            if not text:
+                continue
+            official_match = CP_OFFICIAL_RE.match(text)
+            if not official_match:
+                continue
+
+            class_name = str(official.get("class_name") or "").strip()
+            class_status = infer_official_status_from_class_name(class_name)
+            text_status = infer_official_status(text)
+            status = class_status if class_status != "unknown" else text_status
+
+            officials.append({
+                "name": official_match.group("name").strip(),
+                "role": official_match.group("role").strip(),
+                "pay": float(official_match.group("pay")),
+                "status": status,
+                "status_source": "class" if class_status != "unknown" else "text",
+            })
+
+        no_officials_flag = bool(row.get("no_officials"))
+        status_counts = defaultdict(int)
+        for official in officials:
+            status_counts[str(official.get("status") or "accepted").strip().lower()] += 1
+
+        assigned_count = len(officials)
+        accepted_count = status_counts.get("accepted", 0)
+        pending_count = status_counts.get("pending", 0)
+        denied_count = status_counts.get("denied", 0)
+        assignment_state = ASSIGNMENT_STATE_NO_OFFICIALS if no_officials_flag else classify_game_assignment_state(
+            assigned_count=assigned_count,
+            accepted_count=accepted_count,
+            pending_count=pending_count,
+            denied_count=denied_count,
+        )
+
+        date_text = cell_texts[date_index]
+        parsed_date = datetime.strptime(f"{date_text} {SEASON_YEAR}", "%a %b %d %Y").date().isoformat()
+        parsed.append({
+            "team_id": team_id,
+            "team_name": team_name,
+            "date": parsed_date,
+            "time": cell_texts[time_index].strip() if len(cell_texts) > time_index else "",
+            "opponent": cell_texts[time_index + 3].strip() if len(cell_texts) > time_index + 3 else "",
+            "venue": cell_texts[time_index + 4].strip() if len(cell_texts) > time_index + 4 else "",
+            "game_id": None,
+            "umpires": officials,
+            "doubleheader_flag": False,
+            "assignment_state": assignment_state,
+            "assigned_count": assigned_count,
+            "accepted_count": accepted_count,
+            "pending_count": pending_count,
+            "denied_count": denied_count,
+        })
+
+    return parsed
 
 
 def parse_cp_umpire_assignments(schedule_text: str) -> list:
@@ -572,17 +779,27 @@ def collect_cp_umpire_assignments() -> tuple[dict, dict]:
         status["reason"] = "missing_credentials"
         return {}, status
 
-    schedule_text, reason = fetch_cp_schedule_text(
+    structured_rows, reason = fetch_cp_schedule_rows(
         username,
         password,
         f"{SEASON_YEAR}-04-01",
         f"{SEASON_YEAR}-09-30",
     )
-    if not schedule_text:
-        status["reason"] = reason or "fetch_failed"
-        return {}, status
+    parsed_rows = parse_cp_umpire_assignments_from_rows(structured_rows)
 
-    parsed_rows = parse_cp_umpire_assignments(schedule_text)
+    # Fallback to existing text parser if DOM structure changes.
+    if not parsed_rows:
+        schedule_text, text_reason = fetch_cp_schedule_text(
+            username,
+            password,
+            f"{SEASON_YEAR}-04-01",
+            f"{SEASON_YEAR}-09-30",
+        )
+        if not schedule_text:
+            status["reason"] = reason or text_reason or "fetch_failed"
+            return {}, status
+        parsed_rows = parse_cp_umpire_assignments(schedule_text)
+
     if not parsed_rows:
         status["reason"] = "officials_page_parsed_no_assignments"
         return {}, status
