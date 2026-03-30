@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-30T16:04:09.944773Z",
+  "generated": "2026-03-30T19:31:57.997148Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 38,
+      "practices": 7,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -70,42 +70,12 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20265-sarniabrigade.ca",
-          "date": "2026-04-15",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-16",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19951-sarniabrigade.ca",
           "date": "2026-04-16",
           "start_time": "5:00 PM",
           "end_date": "2026-04-16",
           "summary": "8U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20285-sarniabrigade.ca",
-          "date": "2026-04-19",
-          "start_time": "10:00 AM",
-          "end_date": "2026-04-19",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20266-sarniabrigade.ca",
-          "date": "2026-04-22",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-23",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
           "type": "practice",
           "cancelled": false
         },
@@ -120,26 +90,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20286-sarniabrigade.ca",
-          "date": "2026-04-26",
-          "start_time": "10:00 AM",
-          "end_date": "2026-04-26",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20267-sarniabrigade.ca",
-          "date": "2026-04-29",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-30",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19953-sarniabrigade.ca",
           "date": "2026-04-30",
           "start_time": "5:00 PM",
@@ -147,336 +97,6 @@
           "summary": "8U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20287-sarniabrigade.ca",
-          "date": "2026-05-03",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-03",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20268-sarniabrigade.ca",
-          "date": "2026-05-06",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-07",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20288-sarniabrigade.ca",
-          "date": "2026-05-10",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-10",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20269-sarniabrigade.ca",
-          "date": "2026-05-13",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-14",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20289-sarniabrigade.ca",
-          "date": "2026-05-17",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-17",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20270-sarniabrigade.ca",
-          "date": "2026-05-20",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-21",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20261-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "1:00 PM",
-          "end_date": "2026-05-24",
-          "summary": "8U OBA Rep - Game @ Leamington Lakers",
-          "location": "Kinsmen Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20262-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "3:00 PM",
-          "end_date": "2026-05-24",
-          "summary": "8U OBA Rep - Game @ Leamington Lakers",
-          "location": "Kinsmen Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20271-sarniabrigade.ca",
-          "date": "2026-05-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-28",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20291-sarniabrigade.ca",
-          "date": "2026-05-31",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-31",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20272-sarniabrigade.ca",
-          "date": "2026-06-03",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-04",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20292-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "10:00 AM",
-          "end_date": "2026-06-07",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20273-sarniabrigade.ca",
-          "date": "2026-06-10",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-11",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20274-sarniabrigade.ca",
-          "date": "2026-06-17",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-18",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20294-sarniabrigade.ca",
-          "date": "2026-06-21",
-          "start_time": "10:00 AM",
-          "end_date": "2026-06-21",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20275-sarniabrigade.ca",
-          "date": "2026-06-24",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-25",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20295-sarniabrigade.ca",
-          "date": "2026-06-28",
-          "start_time": "10:00 AM",
-          "end_date": "2026-06-28",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20276-sarniabrigade.ca",
-          "date": "2026-07-01",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-02",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20277-sarniabrigade.ca",
-          "date": "2026-07-08",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-09",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20297-sarniabrigade.ca",
-          "date": "2026-07-12",
-          "start_time": "10:00 AM",
-          "end_date": "2026-07-12",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20278-sarniabrigade.ca",
-          "date": "2026-07-15",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-16",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20298-sarniabrigade.ca",
-          "date": "2026-07-19",
-          "start_time": "10:00 AM",
-          "end_date": "2026-07-19",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20279-sarniabrigade.ca",
-          "date": "2026-07-22",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-23",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20299-sarniabrigade.ca",
-          "date": "2026-07-26",
-          "start_time": "10:00 AM",
-          "end_date": "2026-07-26",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20280-sarniabrigade.ca",
-          "date": "2026-07-29",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-30",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20281-sarniabrigade.ca",
-          "date": "2026-08-05",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-06",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20263-sarniabrigade.ca",
-          "date": "2026-08-08",
-          "start_time": "12:00 PM",
-          "end_date": "2026-08-08",
-          "summary": "8U OBA Rep - Game @ Riverside Royals",
-          "location": "Realtor West",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20264-sarniabrigade.ca",
-          "date": "2026-08-08",
-          "start_time": "2:00 PM",
-          "end_date": "2026-08-08",
-          "summary": "8U OBA Rep - Game @ Riverside Royals",
-          "location": "Realtor West",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20283-sarniabrigade.ca",
-          "date": "2026-08-19",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-20",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20284-sarniabrigade.ca",
-          "date": "2026-08-26",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-27",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MD-3312-sarniabrigade.ca",
-          "date": "2026-06-12",
-          "start_time": null,
-          "end_date": "2026-06-15",
-          "summary": "8U OBA Rep - Stratford Tournament",
-          "location": "Stratford",
-          "type": "tournament",
-          "cancelled": false
-        },
-        {
-          "uid": "MD-3313-sarniabrigade.ca",
-          "date": "2026-07-03",
-          "start_time": null,
-          "end_date": "2026-07-06",
-          "summary": "8U OBA Rep - Oakridge Tournament",
-          "location": "Oakridge / London",
-          "type": "tournament",
-          "cancelled": false
-        },
-        {
-          "uid": "MD-3314-sarniabrigade.ca",
-          "date": "2026-07-31",
-          "start_time": null,
-          "end_date": "2026-08-03",
-          "summary": "8U OBA Rep - Lasalle Tournament",
-          "location": "Lasalle",
-          "type": "tournament",
           "cancelled": false
         }
       ],
