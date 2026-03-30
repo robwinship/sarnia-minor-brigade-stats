@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-30T00:09:44.789504Z",
+  "generated": "2026-03-30T00:22:02.127476Z",
   "umpire_data_status": {
     "available": false,
     "reason": "playwright_unavailable",
