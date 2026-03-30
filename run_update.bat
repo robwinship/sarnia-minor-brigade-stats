@@ -10,12 +10,7 @@ set "ROOT=%~dp0"
 if "%ROOT:~-1%"=="\" set "ROOT=%ROOT:~0,-1%"
 cd /d "%ROOT%"
 
-set "PYTHON_EXE=%ROOT%\.venv\Scripts\python.exe"
-if not exist "%PYTHON_EXE%" (
-    echo ERROR: Python not found at "%PYTHON_EXE%"
-    echo Ensure your virtual environment exists at .venv\Scripts\python.exe
-    exit /b 1
-)
+
 
 where git >nul 2>&1
 if errorlevel 1 (
@@ -42,7 +37,7 @@ echo ------------------------------------------------------------
 
 call "%ROOT%\cp_credentials.bat"
 
-"%PYTHON_EXE%" "%ROOT%\scraper\scrape.py"
+python "%ROOT%\scraper\scrape.py"
 if errorlevel 1 (
     echo ERROR: scraper failed.
     exit /b 1
