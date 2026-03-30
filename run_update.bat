@@ -37,7 +37,23 @@ echo ------------------------------------------------------------
 
 call "%ROOT%\cp_credentials.bat"
 
-python "%ROOT%\scraper\scrape.py"
+REM Ensure venv Python, pip, requirements, and Playwright browsers are always installed
+set "VENV_PY=%ROOT%\.venv\Scripts\python.exe"
+
+if not exist "%VENV_PY%" (
+    echo ERROR: .venv Python not found at %VENV_PY%.
+    echo Please create the virtual environment first.
+    exit /b 1
+)
+
+"%VENV_PY%" -m pip install --upgrade pip
+if errorlevel 1 exit /b 1
+"%VENV_PY%" -m pip install -r "%ROOT%\scraper\requirements.txt"
+if errorlevel 1 exit /b 1
+"%VENV_PY%" -m playwright install
+if errorlevel 1 exit /b 1
+"%VENV_PY%" "%ROOT%\scraper\scrape.py"
+if errorlevel 1 exit /b 1
 if errorlevel 1 (
     echo ERROR: scraper failed.
     exit /b 1
