@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-30T01:52:24.885612Z",
+  "generated": "2026-03-30T10:02:11.529429Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -6028,7 +6028,7 @@
           "date": "2026-07-17",
           "start_time": "6:00 PM",
           "end_date": "2026-07-18",
-          "summary": "13U Select - Practice",
+          "summary": "CANCELLED 13U Select - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
