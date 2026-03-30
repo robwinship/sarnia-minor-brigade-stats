@@ -19,7 +19,7 @@ set "VERSION_FILE=%PROJECT_DIR%\version.txt"
 set "CHANGELOG_FILE=%PROJECT_DIR%\CHANGELOG.md"
 
 REM Backup folder is inside the project directory
-set "BACKUP_DIR=%PROJECT_DIR%\backups"
+set "BACKUP_DIR=C:\Users\Admin\OneDrive\Documents\Coding\Sarnia_Brigade_Backups"
 
 echo.
 echo  ================================================

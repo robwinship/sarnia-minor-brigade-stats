@@ -885,6 +885,7 @@ def parse_ics_events(text: str) -> list:
         location_m = re.search(r"^LOCATION:(.*?)$", block, re.MULTILINE)
         uid_m = re.search(r"^UID:(.*?)$", block, re.MULTILINE)
         desc_m = re.search(r"^DESCRIPTION:(.*?)$", block, re.MULTILINE)
+        status_m = re.search(r"^STATUS:(.*?)$", block, re.MULTILINE)
 
         if not start_m:
             continue
@@ -914,6 +915,12 @@ def parse_ics_events(text: str) -> list:
         else:
             event_type = classify_event(summary)
 
+        cancelled = False
+        if status_m:
+            status_val = status_m.group(1).strip().upper()
+            if status_val in ("CANCELLED", "CANCELED"):
+                cancelled = True
+
         events.append({
             "uid": uid_m.group(1).strip() if uid_m else None,
             "date": start_date,
@@ -922,6 +929,7 @@ def parse_ics_events(text: str) -> list:
             "summary": summary,
             "location": location,
             "type": event_type,
+            "cancelled": cancelled,
         })
 
     return events
