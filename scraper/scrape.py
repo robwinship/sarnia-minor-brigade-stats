@@ -1203,17 +1203,44 @@ def main():
     else:
         print(f"  WARN  Umpire assignment data unavailable ({cp_status.get('reason')}).")
 
+
     results = []
+    cancellations = []
     for team in TEAMS:
         print(f"\n[{team['name']}]")
         try:
-            results.append(
-                collect_team(
-                    team,
-                    team_assignments.get(team["id"], []),
-                    cp_status,
-                )
+            team_data = collect_team(
+                team,
+                team_assignments.get(team["id"], []),
+                cp_status,
             )
+            results.append(team_data)
+            # Aggregate cancelled events (games and practices)
+            # Practices: look for event['cancelled'] or 'CANCELLED' in summary
+            for event in team_data.get("events", []):
+                if event.get("type") in ("practice", "game"):
+                    if event.get("cancelled") or "CANCELLED" in event.get("summary", "").upper():
+                        cancellations.append({
+                            "team_id": team["id"],
+                            "team_name": team["name"],
+                            "type": event.get("type"),
+                            "date": event.get("date"),
+                            "start_time": event.get("start_time"),
+                            "summary": event.get("summary"),
+                            "location": event.get("location"),
+                        })
+            # Games: if any game has a 'cancelled' property or 'CANCELLED' in summary (if available)
+            for game in team_data.get("games", []):
+                if game.get("cancelled") or "CANCELLED" in str(game.get("summary", "")).upper():
+                    cancellations.append({
+                        "team_id": team["id"],
+                        "team_name": team["name"],
+                        "type": "game",
+                        "date": game.get("date"),
+                        "start_time": game.get("start_time"),
+                        "summary": game.get("summary", ""),
+                        "location": game.get("location", ""),
+                    })
         except Exception as exc:
             print(f"  ERROR: {exc}", file=sys.stderr)
 
@@ -1224,12 +1251,13 @@ def main():
         "generated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "umpire_data_status": cp_status,
         "teams":     results,
+        "cancellations": cancellations,
     }
 
     with open(out_path, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, indent=2)
 
-    print(f"\n✓  Wrote {out_path}  ({len(results)} teams processed)")
+    print(f"\n✓  Wrote {out_path}  ({len(results)} teams processed, {len(cancellations)} cancellations)")
 
 
 if __name__ == "__main__":

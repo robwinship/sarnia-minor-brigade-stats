@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-30T23:02:24.337433Z",
+  "generated": "2026-03-30T23:46:03.553225Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -8245,6 +8245,62 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
+    }
+  ],
+  "cancellations": [
+    {
+      "team_id": 1291,
+      "team_name": "9U OBA Rep",
+      "type": "practice",
+      "date": "2026-04-01",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 9U OBA Rep - Practice",
+      "location": "Clearwater Diamond #1"
+    },
+    {
+      "team_id": 1291,
+      "team_name": "9U OBA Rep",
+      "type": "practice",
+      "date": "2026-04-04",
+      "start_time": "10:00 AM",
+      "summary": "CANCELLED 9U OBA Rep - Practice",
+      "location": "Clearwater Diamond #1"
+    },
+    {
+      "team_id": 1291,
+      "team_name": "9U OBA Rep",
+      "type": "practice",
+      "date": "2026-04-08",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 9U OBA Rep - Practice",
+      "location": "Clearwater Diamond #1"
+    },
+    {
+      "team_id": 1291,
+      "team_name": "9U OBA Rep",
+      "type": "practice",
+      "date": "2026-04-11",
+      "start_time": "10:00 AM",
+      "summary": "CANCELLED 9U OBA Rep - Practice",
+      "location": "Clearwater Diamond #1"
+    },
+    {
+      "team_id": 1291,
+      "team_name": "9U OBA Rep",
+      "type": "practice",
+      "date": "2026-07-01",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 9U OBA Rep - Practice",
+      "location": "Clearwater Diamond #1"
+    },
+    {
+      "team_id": 1300,
+      "team_name": "13U Select",
+      "type": "practice",
+      "date": "2026-07-17",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 13U Select - Practice",
+      "location": "Tecumseh Park"
     }
   ]
 }
