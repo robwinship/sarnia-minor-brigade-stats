@@ -981,6 +981,12 @@ def parse_schedule(html: str, month: int, year: int) -> list:
         game_href = href_m.group(1)
         game_id   = href_m.group(2)
 
+        # Detect if this segment is marked as cancelled (look for class="cancelled" in a parent div)
+        cancelled = False
+        div_cancelled_m = re.search(r'<div[^>]*class="[^"]*cancelled[^"]*"', seg)
+        if div_cancelled_m:
+            cancelled = True
+
         # Grab text up to the next game anchor, venue block, or heading
         content_m = re.search(
             r'</a>(.*?)(?=<a[^>]+href="/Teams/\d+/Games/\d+/"|'
@@ -1054,6 +1060,7 @@ def parse_schedule(html: str, month: int, year: int) -> list:
             "result":       result,
             "brigade_score": brigade_score,
             "opp_score":    opp_score,
+            "cancelled":    cancelled,
         })
 
     return games
