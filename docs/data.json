@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-03-31T19:32:55.350024Z",
+  "generated": "2026-03-31T23:02:23.018437Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -506,6 +506,42 @@
           "cancelled": false
         },
         {
+          "game_id": "20317",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/20317/",
+          "date": "2026-06-07",
+          "start_time": "10:00 AM",
+          "opponent": "North London Nationals Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20318",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/20318/",
+          "date": "2026-06-07",
+          "start_time": "12:30 PM",
+          "opponent": "North London Nationals Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20319",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/20319/",
+          "date": "2026-07-08",
+          "start_time": "6:00 PM",
+          "opponent": "North London Nationals North London Sports Fie",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20263",
           "href": "https://sarniabrigade.ca/Teams/1290/Games/20263/",
           "date": "2026-08-08",
@@ -532,13 +568,100 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "games_missed_details": [
+          {
+            "date": "2026-06-07",
+            "time": "10:00 AM",
+            "opponent": "North London Nationals",
+            "venue": "Clearwater Diamond #1",
+            "assigned_umpires": [
+              "Jason Lajeunesse"
+            ],
+            "accepted_umpires": [],
+            "pending_umpires": [
+              "Jason Lajeunesse"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 1,
+            "accepted_count": 0,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_not_accepted",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-06-07",
+            "time": "12:30 PM",
+            "opponent": "North London Nationals",
+            "venue": "Clearwater Diamond #1",
+            "assigned_umpires": [
+              "Jason Lajeunesse"
+            ],
+            "accepted_umpires": [],
+            "pending_umpires": [
+              "Jason Lajeunesse"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 1,
+            "accepted_count": 0,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_not_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-06-07",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "North London Nationals",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Jason Lajeunesse"
+                ],
+                "accepted_umpires": [],
+                "pending_umpires": [
+                  "Jason Lajeunesse"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 1,
+                "accepted_count": 0,
+                "pending_count": 1,
+                "denied_count": 0,
+                "assignment_state": "assigned_not_accepted"
+              },
+              {
+                "time": "12:30 PM",
+                "opponent": "North London Nationals",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Jason Lajeunesse"
+                ],
+                "accepted_umpires": [],
+                "pending_umpires": [
+                  "Jason Lajeunesse"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 1,
+                "accepted_count": 0,
+                "pending_count": 1,
+                "denied_count": 0,
+                "assignment_state": "assigned_not_accepted"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -2172,15 +2295,19 @@
             "time": "10:00 AM",
             "opponent": "TBA",
             "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
+            "assigned_umpires": [
+              "Ralph Campbell"
+            ],
             "accepted_umpires": [],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Ralph Campbell"
+            ],
             "denied_umpires": [],
-            "assigned_count": 0,
+            "assigned_count": 1,
             "accepted_count": 0,
-            "pending_count": 0,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_not_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -3403,15 +3530,21 @@
             "time": "4:00 PM",
             "opponent": "Woodstock Wranglers",
             "venue": "Tecumseh Park",
-            "assigned_umpires": [],
+            "assigned_umpires": [
+              "Juan Peralta",
+              "Paolo Padiglia"
+            ],
             "accepted_umpires": [],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Juan Peralta",
+              "Paolo Padiglia"
+            ],
             "denied_umpires": [],
-            "assigned_count": 0,
+            "assigned_count": 2,
             "accepted_count": 0,
-            "pending_count": 0,
+            "pending_count": 2,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_not_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -3419,15 +3552,21 @@
             "time": "6:30 PM",
             "opponent": "Woodstock Wranglers",
             "venue": "Tecumseh Park",
-            "assigned_umpires": [],
+            "assigned_umpires": [
+              "Juan Peralta",
+              "Paolo Padiglia"
+            ],
             "accepted_umpires": [],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Juan Peralta",
+              "Paolo Padiglia"
+            ],
             "denied_umpires": [],
-            "assigned_count": 0,
+            "assigned_count": 2,
             "accepted_count": 0,
-            "pending_count": 0,
+            "pending_count": 2,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_not_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -3525,29 +3664,41 @@
                 "time": "4:00 PM",
                 "opponent": "Woodstock Wranglers",
                 "venue": "Tecumseh Park",
-                "assigned_umpires": [],
+                "assigned_umpires": [
+                  "Juan Peralta",
+                  "Paolo Padiglia"
+                ],
                 "accepted_umpires": [],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "Juan Peralta",
+                  "Paolo Padiglia"
+                ],
                 "denied_umpires": [],
-                "assigned_count": 0,
+                "assigned_count": 2,
                 "accepted_count": 0,
-                "pending_count": 0,
+                "pending_count": 2,
                 "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
+                "assignment_state": "assigned_not_accepted"
               },
               {
                 "time": "6:30 PM",
                 "opponent": "Woodstock Wranglers",
                 "venue": "Tecumseh Park",
-                "assigned_umpires": [],
+                "assigned_umpires": [
+                  "Juan Peralta",
+                  "Paolo Padiglia"
+                ],
                 "accepted_umpires": [],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "Juan Peralta",
+                  "Paolo Padiglia"
+                ],
                 "denied_umpires": [],
-                "assigned_count": 0,
+                "assigned_count": 2,
                 "accepted_count": 0,
-                "pending_count": 0,
+                "pending_count": 2,
                 "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
+                "assignment_state": "assigned_not_accepted"
               }
             ]
           }
@@ -8341,7 +8492,11 @@
                   "Grant Purdy",
                   "Hayden Scheuermann",
                   "Jarett Simons",
+                  "Jason Lajeunesse",
+                  "Juan Peralta",
                   "Matthew Schrie",
+                  "Paolo Padiglia",
+                  "Ralph Campbell",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham"
@@ -8349,7 +8504,7 @@
                 "denied_umpires": [],
                 "assigned_count": 21,
                 "accepted_count": 15,
-                "pending_count": 11,
+                "pending_count": 15,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
