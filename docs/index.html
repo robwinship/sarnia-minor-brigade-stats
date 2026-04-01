@@ -988,15 +988,41 @@ function renderCancellations() {
     if (!present.includes(c)) present.push(c);
   }
 
+  const cancellationRows = Array.isArray(loadedData.cancellations) ? loadedData.cancellations : [];
+
   let html = "";
   for (const cat of present) {
     html += `<div class="cat-block"><div class="cat-header">${escHtml(getDisplayCategoryName(cat))}</div>`;
     html += `<div class="table-scroll"><table class="stats-table" aria-label="${escHtml(getDisplayCategoryName(cat))} cancellations"><thead><tr><th class="col-team">Team</th><th>Cancelled Practices</th><th>Cancelled Games</th></tr></thead><tbody>`;
     for (const team of grouped[cat]) {
-      // Cancelled practices: events with type 'practice' and cancelled true
-      const cancelledPractices = (team.events ?? []).filter(e => e.type === "practice" && e.cancelled);
-      // Cancelled games: events with type 'game' and cancelled true
-      const cancelledGames = (team.events ?? []).filter(e => e.type === "game" && e.cancelled);
+      // Prefer scraper-aggregated cancellations when present.
+      let cancelledPractices = cancellationRows.filter(item =>
+        Number(item?.team_id) === Number(team.id)
+        && String(item?.type || "").toLowerCase() === "practice"
+      );
+      let cancelledGames = cancellationRows.filter(item =>
+        Number(item?.team_id) === Number(team.id)
+        && String(item?.type || "").toLowerCase() === "game"
+      );
+
+      // Fallback for older payloads missing the aggregated cancellations array.
+      if (!cancellationRows.length) {
+        cancelledPractices = (team.events ?? []).filter(e =>
+          e.type === "practice" && (e.cancelled || /cancelled/i.test(String(e.summary || ""))));
+        cancelledGames = [
+          ...(team.events ?? []).filter(e =>
+            e.type === "game" && (e.cancelled || /cancelled/i.test(String(e.summary || "")))),
+          ...(team.games ?? []).filter(g =>
+            g.cancelled || /cancelled/i.test(String(g.summary || "")))
+            .map(g => ({
+              date: g.date,
+              start_time: g.start_time,
+              summary: g.summary || (g.opponent ? `Game vs ${g.opponent}` : "Game"),
+              location: g.location || "",
+            })),
+        ];
+      }
+
       html += `<tr><td class="col-team">${escHtml(team.name)}</td><td>${buildExpandableCountCell(cancelledPractices, "Practice")}</td><td>${buildExpandableCountCell(cancelledGames, "Game")}</td></tr>`;
     }
     html += `</tbody></table></div></div>`;

@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-01T10:02:12.346985Z",
+  "generated": "2026-04-01T11:48:36.050659Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2328,6 +2328,78 @@
           "brigade_score": null,
           "opp_score": null,
           "cancelled": false
+        },
+        {
+          "game_id": "19646",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/19646/",
+          "date": "2026-07-11",
+          "start_time": "10:00 AM",
+          "opponent": "London Badgers DH Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "19647",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/19647/",
+          "date": "2026-07-18",
+          "start_time": "10:00 AM",
+          "opponent": "Lasalle Turtle Club DH Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "19648",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/19648/",
+          "date": "2026-08-08",
+          "start_time": "10:00 AM",
+          "opponent": "TBA DH Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20005",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/20005/",
+          "date": "2026-08-15",
+          "start_time": "11:00 AM",
+          "opponent": "Riverside Royals DH TBD",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20006",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/20006/",
+          "date": "2026-08-16",
+          "start_time": "11:00 AM",
+          "opponent": "Windsor Stars DH Cullen Stadium",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20007",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/20007/",
+          "date": "2026-08-23",
+          "start_time": "4:00 PM",
+          "opponent": "Riverside Royals DH TBD",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
         }
       ],
       "umpire_issues": {
@@ -2448,17 +2520,563 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 0,
+      "practices": 46,
       "roster": {
-        "players": 0,
-        "adults": 0,
-        "head_coaches": 0,
+        "players": 13,
+        "adults": 6,
+        "head_coaches": 1,
         "assistant_coaches": 0,
-        "coaches": 0,
-        "managers": 0
+        "coaches": 4,
+        "managers": 1
       },
-      "events": [],
-      "games": [],
+      "events": [
+        {
+          "uid": "MS-19920-sarniabrigade.ca",
+          "date": "2026-03-13",
+          "start_time": "5:00 PM",
+          "end_date": "2026-03-13",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-19921-sarniabrigade.ca",
+          "date": "2026-03-27",
+          "start_time": "5:00 PM",
+          "end_date": "2026-03-27",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-19922-sarniabrigade.ca",
+          "date": "2026-03-29",
+          "start_time": "4:00 PM",
+          "end_date": "2026-03-29",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-19923-sarniabrigade.ca",
+          "date": "2026-04-04",
+          "start_time": "1:00 PM",
+          "end_date": "2026-04-04",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-19924-sarniabrigade.ca",
+          "date": "2026-04-12",
+          "start_time": "4:00 PM",
+          "end_date": "2026-04-12",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20152-sarniabrigade.ca",
+          "date": "2026-04-16",
+          "start_time": "5:30 PM",
+          "end_date": "2026-04-16",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-19925-sarniabrigade.ca",
+          "date": "2026-04-19",
+          "start_time": "4:00 PM",
+          "end_date": "2026-04-19",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20153-sarniabrigade.ca",
+          "date": "2026-04-23",
+          "start_time": "5:30 PM",
+          "end_date": "2026-04-23",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20099-sarniabrigade.ca",
+          "date": "2026-04-25",
+          "start_time": "4:00 PM",
+          "end_date": "2026-04-25",
+          "summary": "10U A OBA Rep - Game @ 11U OBA Rep",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20097-sarniabrigade.ca",
+          "date": "2026-04-25",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-26",
+          "summary": "10U A OBA Rep - Game @ 11U OBA Rep",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-19926-sarniabrigade.ca",
+          "date": "2026-04-26",
+          "start_time": "4:00 PM",
+          "end_date": "2026-04-26",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20154-sarniabrigade.ca",
+          "date": "2026-04-30",
+          "start_time": "5:30 PM",
+          "end_date": "2026-04-30",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20243-sarniabrigade.ca",
+          "date": "2026-05-05",
+          "start_time": "6:30 PM",
+          "end_date": "2026-05-06",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20155-sarniabrigade.ca",
+          "date": "2026-05-07",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-07",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20244-sarniabrigade.ca",
+          "date": "2026-05-12",
+          "start_time": "6:30 PM",
+          "end_date": "2026-05-13",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20156-sarniabrigade.ca",
+          "date": "2026-05-14",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-14",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20245-sarniabrigade.ca",
+          "date": "2026-05-19",
+          "start_time": "6:30 PM",
+          "end_date": "2026-05-20",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20157-sarniabrigade.ca",
+          "date": "2026-05-21",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-21",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20246-sarniabrigade.ca",
+          "date": "2026-05-26",
+          "start_time": "6:30 PM",
+          "end_date": "2026-05-27",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20158-sarniabrigade.ca",
+          "date": "2026-05-28",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-28",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20247-sarniabrigade.ca",
+          "date": "2026-06-02",
+          "start_time": "6:30 PM",
+          "end_date": "2026-06-03",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20159-sarniabrigade.ca",
+          "date": "2026-06-04",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-04",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20248-sarniabrigade.ca",
+          "date": "2026-06-09",
+          "start_time": "6:30 PM",
+          "end_date": "2026-06-10",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20160-sarniabrigade.ca",
+          "date": "2026-06-11",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-11",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20249-sarniabrigade.ca",
+          "date": "2026-06-16",
+          "start_time": "6:30 PM",
+          "end_date": "2026-06-17",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20161-sarniabrigade.ca",
+          "date": "2026-06-18",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-18",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20250-sarniabrigade.ca",
+          "date": "2026-06-23",
+          "start_time": "6:30 PM",
+          "end_date": "2026-06-24",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20162-sarniabrigade.ca",
+          "date": "2026-06-25",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-25",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20251-sarniabrigade.ca",
+          "date": "2026-06-30",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-01",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20163-sarniabrigade.ca",
+          "date": "2026-07-02",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-02",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20252-sarniabrigade.ca",
+          "date": "2026-07-07",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-08",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20164-sarniabrigade.ca",
+          "date": "2026-07-09",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-09",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20253-sarniabrigade.ca",
+          "date": "2026-07-14",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-15",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20165-sarniabrigade.ca",
+          "date": "2026-07-16",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-16",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20254-sarniabrigade.ca",
+          "date": "2026-07-21",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-22",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20166-sarniabrigade.ca",
+          "date": "2026-07-23",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-23",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20255-sarniabrigade.ca",
+          "date": "2026-07-28",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-29",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20167-sarniabrigade.ca",
+          "date": "2026-07-30",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-30",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20256-sarniabrigade.ca",
+          "date": "2026-08-04",
+          "start_time": "6:30 PM",
+          "end_date": "2026-08-05",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20168-sarniabrigade.ca",
+          "date": "2026-08-06",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-06",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20257-sarniabrigade.ca",
+          "date": "2026-08-11",
+          "start_time": "6:30 PM",
+          "end_date": "2026-08-12",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20169-sarniabrigade.ca",
+          "date": "2026-08-13",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-13",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20258-sarniabrigade.ca",
+          "date": "2026-08-18",
+          "start_time": "6:30 PM",
+          "end_date": "2026-08-19",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20170-sarniabrigade.ca",
+          "date": "2026-08-20",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-20",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20259-sarniabrigade.ca",
+          "date": "2026-08-25",
+          "start_time": "6:30 PM",
+          "end_date": "2026-08-26",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20171-sarniabrigade.ca",
+          "date": "2026-08-27",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-27",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20260-sarniabrigade.ca",
+          "date": "2026-09-01",
+          "start_time": "6:30 PM",
+          "end_date": "2026-09-02",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20172-sarniabrigade.ca",
+          "date": "2026-09-03",
+          "start_time": "5:30 PM",
+          "end_date": "2026-09-03",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3311-sarniabrigade.ca",
+          "date": "2026-04-25",
+          "start_time": "9:30 AM",
+          "end_date": "2026-04-25",
+          "summary": "10U A OBA Rep - Fundraiser - MacGregor's Meat Order Delivery",
+          "location": "PASA",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3292-sarniabrigade.ca",
+          "date": "2026-05-22",
+          "start_time": null,
+          "end_date": "2026-05-25",
+          "summary": "10U A OBA Rep - Cardinal Classic Tournament",
+          "location": "St. Thomas, Ontario",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3294-sarniabrigade.ca",
+          "date": "2026-06-19",
+          "start_time": null,
+          "end_date": "2026-06-22",
+          "summary": "10U A OBA Rep - Toyota Tournament",
+          "location": "Cambridge, Ontario",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3293-sarniabrigade.ca",
+          "date": "2026-07-10",
+          "start_time": null,
+          "end_date": "2026-07-13",
+          "summary": "10U A OBA Rep - London Talons Tournament",
+          "location": "London Ontario",
+          "type": "tournament",
+          "cancelled": false
+        }
+      ],
+      "games": [
+        {
+          "game_id": "20099",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20099/",
+          "date": "2026-04-25",
+          "start_time": "4:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20097",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20097/",
+          "date": "2026-04-25",
+          "start_time": "6:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        }
+      ],
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
