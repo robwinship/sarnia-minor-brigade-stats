@@ -20,10 +20,12 @@ NOTE: Score parsing uses regex against the MBSportsWeb HTML structure.
 import json
 import re
 import sys
+import time
 from datetime import datetime, date, timezone
 from pathlib import Path
 import os
 import urllib.parse
+import urllib.error
 from collections import defaultdict
 import urllib.request
 
@@ -88,6 +90,8 @@ ASSIGNMENT_STATE_NO_OFFICIALS = "no_officials_assigned"
 ASSIGNMENT_STATE_NOT_ACCEPTED = "assigned_not_accepted"
 ASSIGNMENT_STATE_DENIED = "assigned_but_denied"
 ASSIGNMENT_STATE_ACCEPTED = "assigned_and_accepted"
+_LAST_HTTP_REQUEST_TS = 0.0
+REQUEST_SPACING_SECONDS = 0.35
 
 
 def infer_official_status(raw_line: str) -> str:
@@ -142,43 +146,78 @@ def classify_game_assignment_state(assigned_count: int, accepted_count: int, pen
 # HTTP helper
 # ---------------------------------------------------------------------------
 
+def _throttle_http_requests() -> None:
+    """Keep requests spaced out to avoid upstream 429/403 bursts."""
+    global _LAST_HTTP_REQUEST_TS
+    now = time.monotonic()
+    elapsed = now - _LAST_HTTP_REQUEST_TS
+    if elapsed < REQUEST_SPACING_SECONDS:
+        time.sleep(REQUEST_SPACING_SECONDS - elapsed)
+    _LAST_HTTP_REQUEST_TS = time.monotonic()
+
 def fetch(url: str) -> str:
-    """GET url and return decoded text; returns '' on any error."""
-    try:
-        req = urllib.request.Request(
-            url,
-            headers={
-                "User-Agent": (
-                    "SarniaBrigadeStatBot/1.0 "
-                    "(+https://github.com/robwinship/sarnia-minor-brigade-stats)"
-                )
-            },
-        )
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            return resp.read().decode("utf-8", errors="replace")
-    except Exception as exc:
-        print(f"  WARN  {url}\n        {exc}", file=sys.stderr)
-        return ""
+    """GET url and return decoded text; retries transient failures."""
+    headers = {
+        "User-Agent": (
+            "SarniaBrigadeStatBot/1.0 "
+            "(+https://github.com/robwinship/sarnia-minor-brigade-stats)"
+        ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    }
+    max_attempts = 4
+    for attempt in range(1, max_attempts + 1):
+        try:
+            _throttle_http_requests()
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                return resp.read().decode("utf-8", errors="replace")
+        except urllib.error.HTTPError as exc:
+            retryable = exc.code in (403, 429, 500, 502, 503, 504)
+            print(f"  WARN  {url}\n        HTTP {exc.code} (attempt {attempt}/{max_attempts})", file=sys.stderr)
+            if not retryable or attempt == max_attempts:
+                return ""
+            retry_after = exc.headers.get("Retry-After") if exc.headers else None
+            if retry_after and retry_after.isdigit():
+                sleep_s = max(1.0, float(retry_after))
+            else:
+                sleep_s = float(attempt)
+            time.sleep(sleep_s)
+        except Exception as exc:
+            print(f"  WARN  {url}\n        {exc} (attempt {attempt}/{max_attempts})", file=sys.stderr)
+            if attempt == max_attempts:
+                return ""
+            time.sleep(float(attempt))
+    return ""
 
 
 def fetch_with_opener(opener: urllib.request.OpenerDirector, url: str, data=None) -> str:
-    """GET/POST with an opener; returns decoded text or ''."""
-    try:
-        req = urllib.request.Request(
-            url,
-            data=data,
-            headers={
-                "User-Agent": (
-                    "SarniaBrigadeStatBot/1.0 "
-                    "(+https://github.com/robwinship/sarnia-minor-brigade-stats)"
-                )
-            },
-        )
-        with opener.open(req, timeout=20) as resp:
-            return resp.read().decode("utf-8", errors="replace")
-    except Exception as exc:
-        print(f"  WARN  {url}\n        {exc}", file=sys.stderr)
-        return ""
+    """GET/POST with an opener; retries transient failures."""
+    headers = {
+        "User-Agent": (
+            "SarniaBrigadeStatBot/1.0 "
+            "(+https://github.com/robwinship/sarnia-minor-brigade-stats)"
+        ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    }
+    max_attempts = 3
+    for attempt in range(1, max_attempts + 1):
+        try:
+            _throttle_http_requests()
+            req = urllib.request.Request(url, data=data, headers=headers)
+            with opener.open(req, timeout=20) as resp:
+                return resp.read().decode("utf-8", errors="replace")
+        except urllib.error.HTTPError as exc:
+            retryable = exc.code in (403, 429, 500, 502, 503, 504)
+            print(f"  WARN  {url}\n        HTTP {exc.code} (attempt {attempt}/{max_attempts})", file=sys.stderr)
+            if not retryable or attempt == max_attempts:
+                return ""
+            time.sleep(float(attempt))
+        except Exception as exc:
+            print(f"  WARN  {url}\n        {exc} (attempt {attempt}/{max_attempts})", file=sys.stderr)
+            if attempt == max_attempts:
+                return ""
+            time.sleep(float(attempt))
+    return ""
 
 
 def build_http_opener() -> urllib.request.OpenerDirector:
