@@ -1,4 +1,7 @@
 # Changelog
+## v1.20 - 2026-04-01 18:52:27
+- Backup created
+
 ## v1.19 - 2026-03-29 21:28:34
 - Backup created
 
