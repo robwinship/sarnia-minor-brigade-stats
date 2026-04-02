@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-02T10:04:07.574151Z",
+  "generated": "2026-04-02T16:03:51.114477Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4276,7 +4276,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 14,
+      "practices": 30,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -4318,9 +4318,9 @@
         },
         {
           "uid": "MS-20232-sarniabrigade.ca",
-          "date": "2026-04-15",
+          "date": "2026-04-16",
           "start_time": "6:00 PM",
-          "end_date": "2026-04-16",
+          "end_date": "2026-04-17",
           "summary": "13U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
@@ -4348,9 +4348,9 @@
         },
         {
           "uid": "MS-20235-sarniabrigade.ca",
-          "date": "2026-04-22",
+          "date": "2026-04-23",
           "start_time": "6:00 PM",
-          "end_date": "2026-04-23",
+          "end_date": "2026-04-24",
           "summary": "13U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
@@ -4378,9 +4378,9 @@
         },
         {
           "uid": "MS-20238-sarniabrigade.ca",
-          "date": "2026-04-29",
+          "date": "2026-04-30",
           "start_time": "6:00 PM",
-          "end_date": "2026-04-30",
+          "end_date": "2026-05-01",
           "summary": "13U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
@@ -4390,16 +4390,6 @@
           "uid": "MS-19717-sarniabrigade.ca",
           "date": "2026-05-02",
           "start_time": "10:00 AM",
-          "end_date": "2026-05-02",
-          "summary": "13U OBA Rep - Game vs London  Badgers",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19718-sarniabrigade.ca",
-          "date": "2026-05-02",
-          "start_time": "1:00 PM",
           "end_date": "2026-05-02",
           "summary": "13U OBA Rep - Game vs London  Badgers",
           "location": "Tecumseh Park",
@@ -4429,8 +4419,8 @@
         {
           "uid": "MS-20239-sarniabrigade.ca",
           "date": "2026-05-04",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-05",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-04",
           "summary": "13U OBA Rep - Indoor Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
@@ -4438,9 +4428,9 @@
         },
         {
           "uid": "MS-20240-sarniabrigade.ca",
-          "date": "2026-05-06",
+          "date": "2026-05-07",
           "start_time": "6:00 PM",
-          "end_date": "2026-05-07",
+          "end_date": "2026-05-08",
           "summary": "13U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
@@ -4449,8 +4439,8 @@
         {
           "uid": "MS-20241-sarniabrigade.ca",
           "date": "2026-05-11",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-12",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-11",
           "summary": "13U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
@@ -4458,11 +4448,171 @@
         },
         {
           "uid": "MS-20242-sarniabrigade.ca",
-          "date": "2026-05-13",
+          "date": "2026-05-14",
           "start_time": "6:00 PM",
-          "end_date": "2026-05-14",
+          "end_date": "2026-05-15",
           "summary": "13U OBA Rep - Practice",
           "location": "Tecumseh Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20322-sarniabrigade.ca",
+          "date": "2026-05-18",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-18",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20323-sarniabrigade.ca",
+          "date": "2026-05-25",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-25",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20324-sarniabrigade.ca",
+          "date": "2026-06-01",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-01",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20325-sarniabrigade.ca",
+          "date": "2026-06-08",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-08",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20326-sarniabrigade.ca",
+          "date": "2026-06-15",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-15",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20327-sarniabrigade.ca",
+          "date": "2026-06-22",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-22",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20328-sarniabrigade.ca",
+          "date": "2026-06-29",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-29",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20329-sarniabrigade.ca",
+          "date": "2026-07-06",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-06",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20330-sarniabrigade.ca",
+          "date": "2026-07-13",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-13",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20331-sarniabrigade.ca",
+          "date": "2026-07-20",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-20",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20332-sarniabrigade.ca",
+          "date": "2026-07-27",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-27",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20333-sarniabrigade.ca",
+          "date": "2026-08-03",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-03",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20334-sarniabrigade.ca",
+          "date": "2026-08-10",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-10",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20335-sarniabrigade.ca",
+          "date": "2026-08-17",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-17",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20336-sarniabrigade.ca",
+          "date": "2026-08-24",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-24",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20337-sarniabrigade.ca",
+          "date": "2026-08-31",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-31",
+          "summary": "13U OBA Rep - Indoor Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -5826,7 +5976,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 7,
+      "practices": 0,
       "roster": {
         "players": 12,
         "adults": 4,
@@ -5835,88 +5985,7 @@
         "coaches": 1,
         "managers": 0
       },
-      "events": [
-        {
-          "uid": "MS-19626-sarniabrigade.ca",
-          "date": "2026-02-03",
-          "start_time": "5:30 PM",
-          "end_date": "2026-02-04",
-          "summary": "9U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19627-sarniabrigade.ca",
-          "date": "2026-02-17",
-          "start_time": "5:30 PM",
-          "end_date": "2026-02-18",
-          "summary": "9U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19628-sarniabrigade.ca",
-          "date": "2026-03-03",
-          "start_time": "5:30 PM",
-          "end_date": "2026-03-04",
-          "summary": "9U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19629-sarniabrigade.ca",
-          "date": "2026-03-17",
-          "start_time": "5:30 PM",
-          "end_date": "2026-03-17",
-          "summary": "9U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19630-sarniabrigade.ca",
-          "date": "2026-03-31",
-          "start_time": "5:30 PM",
-          "end_date": "2026-03-31",
-          "summary": "9U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19820-sarniabrigade.ca",
-          "date": "2026-04-14",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-14",
-          "summary": "9U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19821-sarniabrigade.ca",
-          "date": "2026-04-28",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-28",
-          "summary": "9U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MD-3299-sarniabrigade.ca",
-          "date": "2026-06-05",
-          "start_time": null,
-          "end_date": "2026-06-08",
-          "summary": "9U Select - Saugeen Shores - Battle at the Beach",
-          "location": "Ontario",
-          "type": "tournament",
-          "cancelled": false
-        }
-      ],
+      "events": [],
       "games": [],
       "umpire_issues": {
         "games_missed": 0,
@@ -8545,6 +8614,7 @@
               "Annette Hoggarth",
               "Dan Scott",
               "David Haasen",
+              "Doug Krall",
               "Greg Baker",
               "Hayden Scheuermann",
               "Jarett Simons",
@@ -8589,6 +8659,7 @@
                   "Brian Mundt",
                   "Dan Scott",
                   "David Haasen",
+                  "Doug Krall",
                   "Greg Baker",
                   "Hayden Scheuermann",
                   "Jarett Simons",
@@ -8605,7 +8676,6 @@
                   "Brian Mundt",
                   "Brock Lane",
                   "Chris Bonneau",
-                  "Doug Krall",
                   "Grant Purdy",
                   "Hayden Scheuermann",
                   "Juan Peralta",
@@ -8617,8 +8687,8 @@
                 ],
                 "denied_umpires": [],
                 "assigned_count": 21,
-                "accepted_count": 15,
-                "pending_count": 12,
+                "accepted_count": 16,
+                "pending_count": 11,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
