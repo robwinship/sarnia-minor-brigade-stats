@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-04T10:03:12.876014Z",
+  "generated": "2026-04-04T16:03:38.366287Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1645,16 +1645,16 @@
             "assigned_umpires": [
               "Hayden Scheuermann"
             ],
-            "accepted_umpires": [],
-            "pending_umpires": [
+            "accepted_umpires": [
               "Hayden Scheuermann"
             ],
+            "pending_umpires": [],
             "denied_umpires": [],
             "assigned_count": 1,
-            "accepted_count": 0,
-            "pending_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
             "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -1684,9 +1684,7 @@
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
             "pair_signatures": [],
-            "mismatched_names": [
-              "Hayden Scheuermann"
-            ],
+            "mismatched_names": [],
             "games": [
               {
                 "time": "11:00 AM",
@@ -1695,16 +1693,16 @@
                 "assigned_umpires": [
                   "Hayden Scheuermann"
                 ],
-                "accepted_umpires": [],
-                "pending_umpires": [
+                "accepted_umpires": [
                   "Hayden Scheuermann"
                 ],
+                "pending_umpires": [],
                 "denied_umpires": [],
                 "assigned_count": 1,
-                "accepted_count": 0,
-                "pending_count": 1,
+                "accepted_count": 1,
+                "pending_count": 0,
                 "denied_count": 0,
-                "assignment_state": "assigned_not_accepted"
+                "assignment_state": "assigned_and_accepted"
               },
               {
                 "time": "2:00 PM",
@@ -3607,9 +3605,9 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 6,
+        "games_missed_upcoming": 5,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 3,
+        "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -3704,29 +3702,6 @@
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-17",
-            "time": "4:00 PM",
-            "opponent": "Woodstock Wranglers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Juan Peralta",
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [
-              "Paolo Padiglia"
-            ],
-            "pending_umpires": [
-              "Juan Peralta"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -3806,60 +3781,6 @@
                 "denied_umpires": [],
                 "assigned_count": 1,
                 "accepted_count": 1,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-05-17",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [
-              "Juan Peralta | Paolo Padiglia"
-            ],
-            "mismatched_names": [
-              "Juan Peralta"
-            ],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "Woodstock Wranglers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Juan Peralta",
-                  "Paolo Padiglia"
-                ],
-                "accepted_umpires": [
-                  "Paolo Padiglia"
-                ],
-                "pending_umpires": [
-                  "Juan Peralta"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "Woodstock Wranglers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Juan Peralta",
-                  "Paolo Padiglia"
-                ],
-                "accepted_umpires": [
-                  "Juan Peralta",
-                  "Paolo Padiglia"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
@@ -9149,8 +9070,6 @@
                   "Brock Lane",
                   "Chris Bonneau",
                   "Grant Purdy",
-                  "Hayden Scheuermann",
-                  "Juan Peralta",
                   "Matthew Schrie",
                   "Terry Doyle",
                   "Tyler Hoadley",
@@ -9161,7 +9080,7 @@
                 ],
                 "assigned_count": 21,
                 "accepted_count": 16,
-                "pending_count": 10,
+                "pending_count": 8,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
