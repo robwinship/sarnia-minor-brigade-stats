@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-05T23:03:14.991536Z",
+  "generated": "2026-04-06T10:03:17.600165Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4618,8 +4618,32 @@
           "href": "https://sarniabrigade.ca/Teams/1295/Games/19720/",
           "date": "2026-05-03",
           "start_time": "3:00 PM",
-          "opponent": "London Badgers TBD More Details May 15-May 17",
+          "opponent": "London Badgers TBD",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20377",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20377/",
+          "date": "2026-05-09",
+          "start_time": "10:00 AM",
+          "opponent": "St. Thomas Cardinals Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20378",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20378/",
+          "date": "2026-05-09",
+          "start_time": "1:00 PM",
+          "opponent": "St. Thomas Cardinals Tecumseh Park More Detail",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -4628,9 +4652,9 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 3,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -4656,9 +4680,79 @@
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-05-09",
+            "time": "10:00 AM",
+            "opponent": "St. Thomas Cardinals",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-05-09",
+            "time": "1:00 PM",
+            "opponent": "St. Thomas Cardinals",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
           }
         ],
-        "doubleheader_mismatch_details": []
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-05-09",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "St. Thomas Cardinals",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
+              },
+              {
+                "time": "1:00 PM",
+                "opponent": "St. Thomas Cardinals",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
+              }
+            ]
+          }
+        ]
       }
     },
     {
