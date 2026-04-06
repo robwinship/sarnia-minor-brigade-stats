@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-06T10:03:17.600165Z",
+  "generated": "2026-04-06T16:03:21.739003Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4375,6 +4375,26 @@
           "summary": "13U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20377-sarniabrigade.ca",
+          "date": "2026-05-09",
+          "start_time": "10:00 AM",
+          "end_date": "2026-05-09",
+          "summary": "13U OBA Rep - Game vs St. Thomas  Cardinals",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20378-sarniabrigade.ca",
+          "date": "2026-05-09",
+          "start_time": "1:00 PM",
+          "end_date": "2026-05-09",
+          "summary": "13U OBA Rep - Game vs St. Thomas  Cardinals",
+          "location": "Tecumseh Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -9022,13 +9042,37 @@
           "brigade_score": null,
           "opp_score": null,
           "cancelled": false
+        },
+        {
+          "game_id": "20379",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/20379/",
+          "date": "2026-08-14",
+          "start_time": "6:00 PM",
+          "opponent": "Chatham Major Diamonds Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20380",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/20380/",
+          "date": "2026-08-14",
+          "start_time": "8:30 PM",
+          "opponent": "Chatham Major Diamonds Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
         }
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 4,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 2,
+        "doubleheader_mismatch_upcoming": 3,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -9076,6 +9120,38 @@
             "pending_count": 1,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-08-14",
+            "time": "6:00 PM",
+            "opponent": "Chatham Major Diamonds",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-08-14",
+            "time": "8:30 PM",
+            "opponent": "Chatham Major Diamonds",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           }
         ],
@@ -9258,6 +9334,43 @@
                 "pending_count": 1,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-08-14",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "6:00 PM",
+                "opponent": "Chatham Major Diamonds",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
+              },
+              {
+                "time": "8:30 PM",
+                "opponent": "Chatham Major Diamonds",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
               }
             ]
           }
