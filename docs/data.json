@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-06T19:33:24.228174Z",
+  "generated": "2026-04-06T23:03:32.959777Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2320,7 +2320,7 @@
           "href": "https://sarniabrigade.ca/Teams/1292/Games/20004/",
           "date": "2026-05-24",
           "start_time": "11:00 AM",
-          "opponent": "TBA DH TBD More Details May 29-May 31 Tourname",
+          "opponent": "Leamington DH TBD More Details May 29-May 31 T",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -2331,8 +2331,20 @@
           "game_id": "19646",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/19646/",
           "date": "2026-07-11",
-          "start_time": "10:00 AM",
-          "opponent": "London Badgers DH Clearwater Diamond",
+          "start_time": "11:00 AM",
+          "opponent": "Lasalle Turtle Club DH Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20381",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/20381/",
+          "date": "2026-07-12",
+          "start_time": "4:00 PM",
+          "opponent": "London Badgers DH Tecumseh Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -2352,11 +2364,23 @@
           "cancelled": false
         },
         {
+          "game_id": "20382",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/20382/",
+          "date": "2026-07-19",
+          "start_time": "10:00 AM",
+          "opponent": "Windsor Stars TBD",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "19648",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/19648/",
           "date": "2026-08-08",
           "start_time": "10:00 AM",
-          "opponent": "TBA DH Clearwater Diamond",
+          "opponent": "Leamington DH Clearwater Diamond",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -2402,7 +2426,7 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 5,
+        "games_missed_upcoming": 7,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -2411,7 +2435,7 @@
           {
             "date": "2026-05-24",
             "time": "11:00 AM",
-            "opponent": "TBA",
+            "opponent": "Leamington",
             "venue": "TBD",
             "assigned_umpires": [
               "Paolo Padiglia"
@@ -2430,22 +2454,38 @@
           },
           {
             "date": "2026-07-11",
-            "time": "10:00 AM",
-            "opponent": "London Badgers",
+            "time": "11:00 AM",
+            "opponent": "Lasalle Turtle Club",
             "venue": "Clearwater Diamond #2",
             "assigned_umpires": [
               "Jason Lajeunesse"
             ],
-            "accepted_umpires": [
+            "accepted_umpires": [],
+            "pending_umpires": [
               "Jason Lajeunesse"
             ],
-            "pending_umpires": [],
             "denied_umpires": [],
             "assigned_count": 1,
-            "accepted_count": 1,
+            "accepted_count": 0,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_not_accepted",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-07-12",
+            "time": "4:00 PM",
+            "opponent": "London Badgers",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
             "pending_count": 0,
             "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           },
           {
@@ -2469,9 +2509,25 @@
             "issue_timing": "upcoming"
           },
           {
+            "date": "2026-07-19",
+            "time": "10:00 AM",
+            "opponent": "Windsor Stars",
+            "venue": "TBD",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
+          {
             "date": "2026-08-08",
             "time": "10:00 AM",
-            "opponent": "TBA",
+            "opponent": "Leamington",
             "venue": "Clearwater Diamond #2",
             "assigned_umpires": [
               "Ralph Campbell"
@@ -9232,6 +9288,7 @@
                   "Brock Lane",
                   "Chris Bonneau",
                   "Grant Purdy",
+                  "Jason Lajeunesse",
                   "Matthew Schrie",
                   "Steve McGrail",
                   "Terry Doyle",
@@ -9243,7 +9300,7 @@
                 ],
                 "assigned_count": 21,
                 "accepted_count": 16,
-                "pending_count": 9,
+                "pending_count": 10,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
