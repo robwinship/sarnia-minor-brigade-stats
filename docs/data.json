@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-06T23:03:32.959777Z",
+  "generated": "2026-04-07T10:03:31.291796Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1737,7 +1737,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 38,
+      "practices": 41,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -1747,16 +1747,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19635-sarniabrigade.ca",
-          "date": "2026-02-06",
-          "start_time": "5:00 PM",
-          "end_date": "2026-02-07",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19636-sarniabrigade.ca",
           "date": "2026-02-13",
@@ -1850,10 +1840,20 @@
         {
           "uid": "MS-19650-sarniabrigade.ca",
           "date": "2026-04-15",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-16",
+          "start_time": "5:30 PM",
+          "end_date": "2026-04-15",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20386-sarniabrigade.ca",
+          "date": "2026-04-17",
+          "start_time": "5:00 PM",
+          "end_date": "2026-04-17",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -1870,10 +1870,20 @@
         {
           "uid": "MS-19651-sarniabrigade.ca",
           "date": "2026-04-22",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-23",
+          "start_time": "5:30 PM",
+          "end_date": "2026-04-22",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20385-sarniabrigade.ca",
+          "date": "2026-04-24",
+          "start_time": "5:00 PM",
+          "end_date": "2026-04-24",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -1900,8 +1910,8 @@
         {
           "uid": "MS-19652-sarniabrigade.ca",
           "date": "2026-04-29",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-30",
+          "start_time": "5:30 PM",
+          "end_date": "2026-04-29",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -1920,8 +1930,8 @@
         {
           "uid": "MS-19653-sarniabrigade.ca",
           "date": "2026-05-06",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-07",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-06",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -1940,8 +1950,8 @@
         {
           "uid": "MS-19654-sarniabrigade.ca",
           "date": "2026-05-13",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-14",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-13",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -1960,8 +1970,8 @@
         {
           "uid": "MS-19655-sarniabrigade.ca",
           "date": "2026-05-20",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-21",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-20",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -1972,7 +1982,7 @@
           "date": "2026-05-23",
           "start_time": "11:00 AM",
           "end_date": "2026-05-23",
-          "summary": "10U AA OBA Rep - Game @ Lasalle Turtle Club [DH]",
+          "summary": "10U AA OBA Rep - Game @ LaSalle  Titans [DH]",
           "location": "Turtle Club",
           "type": "game",
           "cancelled": false
@@ -1982,7 +1992,7 @@
           "date": "2026-05-24",
           "start_time": "11:00 AM",
           "end_date": "2026-05-24",
-          "summary": "10U AA OBA Rep - Game vs TBA  [DH]",
+          "summary": "10U AA OBA Rep - Game vs Leamington Lakers [DH]",
           "location": "TBD",
           "type": "game",
           "cancelled": false
@@ -1990,8 +2000,8 @@
         {
           "uid": "MS-19656-sarniabrigade.ca",
           "date": "2026-05-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-28",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-27",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -2000,8 +2010,8 @@
         {
           "uid": "MS-19657-sarniabrigade.ca",
           "date": "2026-06-03",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-04",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-03",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -2010,8 +2020,8 @@
         {
           "uid": "MS-19658-sarniabrigade.ca",
           "date": "2026-06-10",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-11",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-10",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -2030,8 +2040,8 @@
         {
           "uid": "MS-19659-sarniabrigade.ca",
           "date": "2026-06-17",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-18",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-17",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -2050,8 +2060,8 @@
         {
           "uid": "MS-19660-sarniabrigade.ca",
           "date": "2026-06-24",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-25",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-24",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -2060,8 +2070,8 @@
         {
           "uid": "MS-19661-sarniabrigade.ca",
           "date": "2026-07-01",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-02",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-01",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -2080,8 +2090,8 @@
         {
           "uid": "MS-19662-sarniabrigade.ca",
           "date": "2026-07-08",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-09",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-08",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -2090,10 +2100,20 @@
         {
           "uid": "MS-19646-sarniabrigade.ca",
           "date": "2026-07-11",
-          "start_time": "10:00 AM",
+          "start_time": "11:00 AM",
           "end_date": "2026-07-11",
-          "summary": "10U AA OBA Rep - Game vs London Badgers [DH]",
+          "summary": "10U AA OBA Rep - Game vs LaSalle  Titans [DH]",
           "location": "Clearwater Diamond #2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20381-sarniabrigade.ca",
+          "date": "2026-07-12",
+          "start_time": "4:00 PM",
+          "end_date": "2026-07-13",
+          "summary": "10U AA OBA Rep - Game vs London Badgers [DH]",
+          "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
         },
@@ -2108,30 +2128,50 @@
           "cancelled": false
         },
         {
-          "uid": "MS-19647-sarniabrigade.ca",
+          "uid": "MS-20384-sarniabrigade.ca",
           "date": "2026-07-18",
           "start_time": "10:00 AM",
           "end_date": "2026-07-18",
-          "summary": "10U AA OBA Rep - Game vs Lasalle Turtle Club [DH]",
-          "location": "Clearwater Diamond #2",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20382-sarniabrigade.ca",
+          "date": "2026-07-19",
+          "start_time": "10:00 AM",
+          "end_date": "2026-07-19",
+          "summary": "10U AA OBA Rep - Game vs Windsor Stars",
+          "location": "TBD",
           "type": "game",
           "cancelled": false
         },
         {
           "uid": "MS-19664-sarniabrigade.ca",
           "date": "2026-07-22",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-23",
+          "start_time": "5:30 PM",
+          "end_date": "2026-07-22",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
           "cancelled": false
         },
         {
+          "uid": "MS-20383-sarniabrigade.ca",
+          "date": "2026-07-25",
+          "start_time": "10:00 AM",
+          "end_date": "2026-07-25",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19666-sarniabrigade.ca",
           "date": "2026-08-05",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-06",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-05",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -2142,7 +2182,7 @@
           "date": "2026-08-08",
           "start_time": "10:00 AM",
           "end_date": "2026-08-08",
-          "summary": "10U AA OBA Rep - Game vs TBA  [DH]",
+          "summary": "10U AA OBA Rep - Game vs Leamington  [DH]",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -2150,8 +2190,8 @@
         {
           "uid": "MS-19667-sarniabrigade.ca",
           "date": "2026-08-12",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-13",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-12",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -2180,8 +2220,8 @@
         {
           "uid": "MS-19668-sarniabrigade.ca",
           "date": "2026-08-19",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-20",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-19",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -2210,8 +2250,8 @@
         {
           "uid": "MS-19669-sarniabrigade.ca",
           "date": "2026-08-26",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-27",
+          "start_time": "5:30 PM",
+          "end_date": "2026-08-26",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -2220,8 +2260,8 @@
         {
           "uid": "MS-19670-sarniabrigade.ca",
           "date": "2026-09-02",
-          "start_time": "6:00 PM",
-          "end_date": "2026-09-03",
+          "start_time": "5:30 PM",
+          "end_date": "2026-09-02",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
@@ -2308,7 +2348,7 @@
           "href": "https://sarniabrigade.ca/Teams/1292/Games/19644/",
           "date": "2026-05-23",
           "start_time": "11:00 AM",
-          "opponent": "Lasalle Turtle Club DH Turtle Club",
+          "opponent": "LaSalle Titans DH Turtle Club",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -2320,7 +2360,7 @@
           "href": "https://sarniabrigade.ca/Teams/1292/Games/20004/",
           "date": "2026-05-24",
           "start_time": "11:00 AM",
-          "opponent": "Leamington DH TBD More Details May 29-May 31 T",
+          "opponent": "Leamington Lakers DH TBD More Details May 29-M",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -2332,7 +2372,7 @@
           "href": "https://sarniabrigade.ca/Teams/1292/Games/19646/",
           "date": "2026-07-11",
           "start_time": "11:00 AM",
-          "opponent": "Lasalle Turtle Club DH Clearwater Diamond",
+          "opponent": "LaSalle Titans DH Clearwater Diamond",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -2345,18 +2385,6 @@
           "date": "2026-07-12",
           "start_time": "4:00 PM",
           "opponent": "London Badgers DH Tecumseh Park",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "19647",
-          "href": "https://sarniabrigade.ca/Teams/1292/Games/19647/",
-          "date": "2026-07-18",
-          "start_time": "10:00 AM",
-          "opponent": "Lasalle Turtle Club DH Clearwater Diamond",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -2426,7 +2454,7 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 7,
+        "games_missed_upcoming": 6,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -2435,7 +2463,7 @@
           {
             "date": "2026-05-24",
             "time": "11:00 AM",
-            "opponent": "Leamington",
+            "opponent": "Leamington Lakers",
             "venue": "TBD",
             "assigned_umpires": [
               "Paolo Padiglia"
@@ -2455,21 +2483,21 @@
           {
             "date": "2026-07-11",
             "time": "11:00 AM",
-            "opponent": "Lasalle Turtle Club",
+            "opponent": "LaSalle Titans",
             "venue": "Clearwater Diamond #2",
             "assigned_umpires": [
               "Jason Lajeunesse"
             ],
-            "accepted_umpires": [],
-            "pending_umpires": [
+            "accepted_umpires": [
               "Jason Lajeunesse"
             ],
+            "pending_umpires": [],
             "denied_umpires": [],
             "assigned_count": 1,
-            "accepted_count": 0,
-            "pending_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
             "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -2486,26 +2514,6 @@
             "pending_count": 0,
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-18",
-            "time": "10:00 AM",
-            "opponent": "Lasalle Turtle Club",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [
-              "Ralph Campbell"
-            ],
-            "accepted_umpires": [
-              "Ralph Campbell"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -7811,7 +7819,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 50,
+      "practices": 49,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -8562,13 +8570,23 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20046-sarniabrigade.ca",
+          "uid": "MS-20379-sarniabrigade.ca",
           "date": "2026-08-14",
           "start_time": "6:00 PM",
           "end_date": "2026-08-15",
-          "summary": "16U PBLO - Practice",
+          "summary": "16U PBLO - Game vs Chatham Major Diamonds",
           "location": "Errol Russell Park",
-          "type": "practice",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20380-sarniabrigade.ca",
+          "date": "2026-08-14",
+          "start_time": "8:30 PM",
+          "end_date": "2026-08-15",
+          "summary": "16U PBLO - Game vs Chatham Major Diamonds",
+          "location": "Errol Russell Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -9288,7 +9306,6 @@
                   "Brock Lane",
                   "Chris Bonneau",
                   "Grant Purdy",
-                  "Jason Lajeunesse",
                   "Matthew Schrie",
                   "Steve McGrail",
                   "Terry Doyle",
@@ -9300,7 +9317,7 @@
                 ],
                 "assigned_count": 21,
                 "accepted_count": 16,
-                "pending_count": 10,
+                "pending_count": 9,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
