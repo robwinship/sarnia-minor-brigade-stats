@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-07T10:03:31.291796Z",
+  "generated": "2026-04-07T16:03:28.712875Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2320,18 +2320,6 @@
       ],
       "games": [
         {
-          "game_id": "20101",
-          "href": "https://sarniabrigade.ca/Teams/1293/Games/20101/",
-          "date": "2026-04-28",
-          "start_time": "6:00 PM",
-          "opponent": null,
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "19681",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/19681/",
           "date": "2026-05-09",
@@ -3597,18 +3585,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20101",
-          "href": "https://sarniabrigade.ca/Teams/1293/Games/20101/",
-          "date": "2026-04-28",
-          "start_time": "6:00 PM",
-          "opponent": null,
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "20098",
           "href": "https://sarniabrigade.ca/Teams/1293/Games/20098/",
           "date": "2026-05-09",
@@ -3659,7 +3635,7 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 5,
+        "games_missed_upcoming": 4,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
@@ -3695,26 +3671,6 @@
             "pending_count": 0,
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-04-28",
-            "time": "6:00 PM",
-            "opponent": "10U AA OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [
-              "Paolo Padiglia"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
