@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-07T23:05:35.433828Z",
+  "generated": "2026-04-08T10:03:39.088665Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1898,13 +1898,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20101-sarniabrigade.ca",
+          "uid": "MS-20406-sarniabrigade.ca",
           "date": "2026-04-28",
           "start_time": "6:00 PM",
           "end_date": "2026-04-29",
-          "summary": "10U AA OBA Rep - Game @ 11U OBA Rep",
+          "summary": "11U OBA Rep & 10U AA OBA Rep - Shared Practice",
           "location": "Tecumseh Park",
-          "type": "game",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -2154,16 +2154,6 @@
           "end_date": "2026-07-22",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20383-sarniabrigade.ca",
-          "date": "2026-07-25",
-          "start_time": "10:00 AM",
-          "end_date": "2026-07-25",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
           "type": "practice",
           "cancelled": false
         },
@@ -4000,7 +3990,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 12,
+      "practices": 11,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -4010,16 +4000,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-19990-sarniabrigade.ca",
-          "date": "2026-02-07",
-          "start_time": "7:00 AM",
-          "end_date": "2026-02-07",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19991-sarniabrigade.ca",
           "date": "2026-02-14",
