@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-09T10:03:03.506310Z",
+  "generated": "2026-04-09T16:03:26.496251Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4978,15 +4978,19 @@
             "time": "10:00 AM",
             "opponent": "St. Thomas Cardinals",
             "venue": "Tecumseh Park",
-            "assigned_umpires": [],
+            "assigned_umpires": [
+              "Will Greer"
+            ],
             "accepted_umpires": [],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Will Greer"
+            ],
             "denied_umpires": [],
-            "assigned_count": 0,
+            "assigned_count": 1,
             "accepted_count": 0,
-            "pending_count": 0,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_not_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -4994,15 +4998,19 @@
             "time": "1:00 PM",
             "opponent": "St. Thomas Cardinals",
             "venue": "Tecumseh Park",
-            "assigned_umpires": [],
+            "assigned_umpires": [
+              "Will Greer"
+            ],
             "accepted_umpires": [],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Will Greer"
+            ],
             "denied_umpires": [],
-            "assigned_count": 0,
+            "assigned_count": 1,
             "accepted_count": 0,
-            "pending_count": 0,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_not_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -5018,29 +5026,37 @@
                 "time": "10:00 AM",
                 "opponent": "St. Thomas Cardinals",
                 "venue": "Tecumseh Park",
-                "assigned_umpires": [],
+                "assigned_umpires": [
+                  "Will Greer"
+                ],
                 "accepted_umpires": [],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "Will Greer"
+                ],
                 "denied_umpires": [],
-                "assigned_count": 0,
+                "assigned_count": 1,
                 "accepted_count": 0,
-                "pending_count": 0,
+                "pending_count": 1,
                 "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
+                "assignment_state": "assigned_not_accepted"
               },
               {
                 "time": "1:00 PM",
                 "opponent": "St. Thomas Cardinals",
                 "venue": "Tecumseh Park",
-                "assigned_umpires": [],
+                "assigned_umpires": [
+                  "Will Greer"
+                ],
                 "accepted_umpires": [],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "Will Greer"
+                ],
                 "denied_umpires": [],
-                "assigned_count": 0,
+                "assigned_count": 1,
                 "accepted_count": 0,
-                "pending_count": 0,
+                "pending_count": 1,
                 "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
+                "assignment_state": "assigned_not_accepted"
               }
             ]
           }
@@ -5057,7 +5073,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 6,
+      "practices": 28,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -5108,12 +5124,72 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20413-sarniabrigade.ca",
+          "date": "2026-04-16",
+          "start_time": "8:00 PM",
+          "end_date": "2026-04-17",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20053-sarniabrigade.ca",
           "date": "2026-04-19",
           "start_time": "7:00 AM",
           "end_date": "2026-04-19",
           "summary": "14U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20423-sarniabrigade.ca",
+          "date": "2026-04-19",
+          "start_time": "10:00 AM",
+          "end_date": "2026-04-19",
+          "summary": "14U OBA Rep - Game vs MidWest Bearcats",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20424-sarniabrigade.ca",
+          "date": "2026-04-19",
+          "start_time": "12:30 PM",
+          "end_date": "2026-04-19",
+          "summary": "14U OBA Rep - Game vs MidWest Bearcats",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20416-sarniabrigade.ca",
+          "date": "2026-04-20",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-21",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20431-sarniabrigade.ca",
+          "date": "2026-04-20",
+          "start_time": "8:00 PM",
+          "end_date": "2026-04-21",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20414-sarniabrigade.ca",
+          "date": "2026-04-23",
+          "start_time": "8:00 PM",
+          "end_date": "2026-04-24",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -5125,6 +5201,336 @@
           "summary": "14U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20425-sarniabrigade.ca",
+          "date": "2026-04-26",
+          "start_time": "10:00 AM",
+          "end_date": "2026-04-26",
+          "summary": "14U OBA Rep - Game vs TBA",
+          "location": "Blackwell North",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20417-sarniabrigade.ca",
+          "date": "2026-04-27",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-28",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20432-sarniabrigade.ca",
+          "date": "2026-04-27",
+          "start_time": "8:00 PM",
+          "end_date": "2026-04-28",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20415-sarniabrigade.ca",
+          "date": "2026-04-30",
+          "start_time": "8:00 PM",
+          "end_date": "2026-05-01",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20426-sarniabrigade.ca",
+          "date": "2026-05-03",
+          "start_time": "10:00 AM",
+          "end_date": "2026-05-03",
+          "summary": "14U OBA Rep - Game vs TBA",
+          "location": "Blackwell North",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20418-sarniabrigade.ca",
+          "date": "2026-05-04",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-05",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20433-sarniabrigade.ca",
+          "date": "2026-05-04",
+          "start_time": "8:00 PM",
+          "end_date": "2026-05-05",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20438-sarniabrigade.ca",
+          "date": "2026-05-07",
+          "start_time": "8:00 PM",
+          "end_date": "2026-05-08",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20427-sarniabrigade.ca",
+          "date": "2026-05-10",
+          "start_time": "10:00 AM",
+          "end_date": "2026-05-10",
+          "summary": "14U OBA Rep - Game vs TBA",
+          "location": "Blackwell North",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20419-sarniabrigade.ca",
+          "date": "2026-05-11",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-12",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20434-sarniabrigade.ca",
+          "date": "2026-05-11",
+          "start_time": "8:00 PM",
+          "end_date": "2026-05-12",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20439-sarniabrigade.ca",
+          "date": "2026-05-14",
+          "start_time": "8:00 PM",
+          "end_date": "2026-05-15",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20428-sarniabrigade.ca",
+          "date": "2026-05-17",
+          "start_time": "10:00 AM",
+          "end_date": "2026-05-17",
+          "summary": "14U OBA Rep - Game vs TBA",
+          "location": "Blackwell North",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20420-sarniabrigade.ca",
+          "date": "2026-05-18",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-19",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20435-sarniabrigade.ca",
+          "date": "2026-05-18",
+          "start_time": "8:00 PM",
+          "end_date": "2026-05-19",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20440-sarniabrigade.ca",
+          "date": "2026-05-21",
+          "start_time": "8:00 PM",
+          "end_date": "2026-05-22",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20443-sarniabrigade.ca",
+          "date": "2026-05-24",
+          "start_time": "10:00 AM",
+          "end_date": "2026-05-24",
+          "summary": "14U OBA Rep - Game @ Chatham Minor Diamonds",
+          "location": "Fergie Jenkins Field",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20444-sarniabrigade.ca",
+          "date": "2026-05-24",
+          "start_time": "2:00 PM",
+          "end_date": "2026-05-24",
+          "summary": "14U OBA Rep - Game @ Chatham Minor Diamonds",
+          "location": "Fergie Jenkins Field",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20421-sarniabrigade.ca",
+          "date": "2026-05-25",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-26",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20436-sarniabrigade.ca",
+          "date": "2026-05-25",
+          "start_time": "8:00 PM",
+          "end_date": "2026-05-26",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20441-sarniabrigade.ca",
+          "date": "2026-05-28",
+          "start_time": "8:00 PM",
+          "end_date": "2026-05-29",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20445-sarniabrigade.ca",
+          "date": "2026-05-29",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-30",
+          "summary": "14U OBA Rep - Game vs TBA",
+          "location": "Errol Russell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20446-sarniabrigade.ca",
+          "date": "2026-05-30",
+          "start_time": "10:00 AM",
+          "end_date": "2026-05-30",
+          "summary": "14U OBA Rep - Game vs TBA",
+          "location": "Errol Russell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20429-sarniabrigade.ca",
+          "date": "2026-05-31",
+          "start_time": "10:00 AM",
+          "end_date": "2026-05-31",
+          "summary": "14U OBA Rep - Game vs TBA",
+          "location": "Blackwell North",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20430-sarniabrigade.ca",
+          "date": "2026-05-31",
+          "start_time": "10:00 AM",
+          "end_date": "2026-05-31",
+          "summary": "14U OBA Rep - Game vs TBA",
+          "location": "Blackwell North",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20422-sarniabrigade.ca",
+          "date": "2026-06-01",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-02",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20437-sarniabrigade.ca",
+          "date": "2026-06-01",
+          "start_time": "8:00 PM",
+          "end_date": "2026-06-02",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20442-sarniabrigade.ca",
+          "date": "2026-06-04",
+          "start_time": "8:00 PM",
+          "end_date": "2026-06-05",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20447-sarniabrigade.ca",
+          "date": "2026-07-18",
+          "start_time": "10:00 AM",
+          "end_date": "2026-07-18",
+          "summary": "14U OBA Rep - Game @ Riverside Royals",
+          "location": "TBD",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20448-sarniabrigade.ca",
+          "date": "2026-07-26",
+          "start_time": "10:00 AM",
+          "end_date": "2026-07-26",
+          "summary": "14U OBA Rep - Game vs Riverside Royals",
+          "location": "TBD",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20449-sarniabrigade.ca",
+          "date": "2026-07-26",
+          "start_time": "12:30 PM",
+          "end_date": "2026-07-26",
+          "summary": "14U OBA Rep - Game vs Riverside Royals",
+          "location": "TBD",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3317-sarniabrigade.ca",
+          "date": "2026-04-09",
+          "start_time": "6:30 PM",
+          "end_date": "2026-04-10",
+          "summary": "14U OBA Rep - Nutrition Night",
+          "location": "tbd",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3318-sarniabrigade.ca",
+          "date": "2026-05-16",
+          "start_time": "8:00 AM",
+          "end_date": "2026-05-16",
+          "summary": "14U OBA Rep - Jays @ Tigers",
+          "location": "Comerica",
+          "type": "other",
           "cancelled": false
         },
         {
@@ -5627,6 +6033,7 @@
                   "Chris Bonneau",
                   "Grant Purdy",
                   "Hayden Scheuermann",
+                  "Ralph Campbell",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham",
@@ -5637,7 +6044,7 @@
                 ],
                 "assigned_count": 22,
                 "accepted_count": 17,
-                "pending_count": 9,
+                "pending_count": 10,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
