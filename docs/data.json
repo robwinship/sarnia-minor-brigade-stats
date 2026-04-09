@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-09T16:03:26.496251Z",
+  "generated": "2026-04-09T19:32:58.077047Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -6033,7 +6033,6 @@
                   "Chris Bonneau",
                   "Grant Purdy",
                   "Hayden Scheuermann",
-                  "Ralph Campbell",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham",
@@ -6044,7 +6043,7 @@
                 ],
                 "assigned_count": 22,
                 "accepted_count": 17,
-                "pending_count": 10,
+                "pending_count": 9,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
