@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-10T10:03:27.330131Z",
+  "generated": "2026-04-10T16:03:11.817787Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4713,6 +4713,36 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20465-sarniabrigade.ca",
+          "date": "2026-05-15",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-15",
+          "summary": "13U OBA Rep - Game vs Niagara Falls Falcons",
+          "location": "South Side Park East",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20466-sarniabrigade.ca",
+          "date": "2026-05-16",
+          "start_time": "9:30 AM",
+          "end_date": "2026-05-16",
+          "summary": "13U OBA Rep - Game vs Pickering Redsox",
+          "location": "South Side Park West",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20467-sarniabrigade.ca",
+          "date": "2026-05-16",
+          "start_time": "5:00 PM",
+          "end_date": "2026-05-16",
+          "summary": "13U OBA Rep - Game vs Woodstock Wranglers",
+          "location": "South Side Park West",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20322-sarniabrigade.ca",
           "date": "2026-05-18",
           "start_time": "5:30 PM",
@@ -4958,6 +4988,42 @@
           "date": "2026-05-09",
           "start_time": "1:00 PM",
           "opponent": "St. Thomas Cardinals Tecumseh Park More Detail",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20465",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20465/",
+          "date": "2026-05-15",
+          "start_time": "5:30 PM",
+          "opponent": "Niagara Falls Falcons South Side Park East",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20466",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20466/",
+          "date": "2026-05-16",
+          "start_time": "9:30 AM",
+          "opponent": "Pickering Redsox South Side Park West",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20467",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20467/",
+          "date": "2026-05-16",
+          "start_time": "5:00 PM",
+          "opponent": "Woodstock Wranglers South Side Park West",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -8449,7 +8515,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 4,
+      "practices": 19,
       "roster": {
         "players": 16,
         "adults": 1,
@@ -8494,6 +8560,156 @@
           "date": "2026-05-18",
           "start_time": "6:00 PM",
           "end_date": "2026-05-19",
+          "summary": "9U River League - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20450-sarniabrigade.ca",
+          "date": "2026-05-25",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-26",
+          "summary": "9U River League - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20451-sarniabrigade.ca",
+          "date": "2026-06-01",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-02",
+          "summary": "9U River League - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20452-sarniabrigade.ca",
+          "date": "2026-06-08",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-09",
+          "summary": "9U River League - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20453-sarniabrigade.ca",
+          "date": "2026-06-15",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-16",
+          "summary": "9U River League - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20454-sarniabrigade.ca",
+          "date": "2026-06-22",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-23",
+          "summary": "9U River League - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20455-sarniabrigade.ca",
+          "date": "2026-06-29",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-30",
+          "summary": "9U River League - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20456-sarniabrigade.ca",
+          "date": "2026-07-06",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-07",
+          "summary": "9U River League - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20457-sarniabrigade.ca",
+          "date": "2026-07-13",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-14",
+          "summary": "9U River League - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20458-sarniabrigade.ca",
+          "date": "2026-07-20",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-21",
+          "summary": "9U River League - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20459-sarniabrigade.ca",
+          "date": "2026-07-27",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-28",
+          "summary": "9U River League - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20460-sarniabrigade.ca",
+          "date": "2026-08-03",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-04",
+          "summary": "9U River League - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20461-sarniabrigade.ca",
+          "date": "2026-08-10",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-11",
+          "summary": "9U River League - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20462-sarniabrigade.ca",
+          "date": "2026-08-17",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-18",
+          "summary": "9U River League - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20463-sarniabrigade.ca",
+          "date": "2026-08-24",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-25",
+          "summary": "9U River League - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20464-sarniabrigade.ca",
+          "date": "2026-08-31",
+          "start_time": "6:00 PM",
+          "end_date": "2026-09-01",
           "summary": "9U River League - Practice",
           "location": "Blackwell North",
           "type": "practice",
