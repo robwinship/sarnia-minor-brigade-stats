@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-10T23:03:02.094543Z",
+  "generated": "2026-04-11T10:03:24.104917Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -8770,7 +8770,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 0,
+      "practices": 6,
       "roster": {
         "players": 15,
         "adults": 2,
@@ -8779,7 +8779,68 @@
         "coaches": 0,
         "managers": 0
       },
-      "events": [],
+      "events": [
+        {
+          "uid": "MS-20468-sarniabrigade.ca",
+          "date": "2026-04-20",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-21",
+          "summary": "11u River League - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20469-sarniabrigade.ca",
+          "date": "2026-04-27",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-28",
+          "summary": "11u River League - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20470-sarniabrigade.ca",
+          "date": "2026-05-04",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-05",
+          "summary": "11u River League - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20471-sarniabrigade.ca",
+          "date": "2026-05-11",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-12",
+          "summary": "11u River League - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20472-sarniabrigade.ca",
+          "date": "2026-05-18",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-19",
+          "summary": "11u River League - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20473-sarniabrigade.ca",
+          "date": "2026-05-25",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-26",
+          "summary": "11u River League - Practice",
+          "location": "Clearwater Diamond #2",
+          "type": "practice",
+          "cancelled": false
+        }
+      ],
       "games": [],
       "umpire_issues": {
         "games_missed": 0,
