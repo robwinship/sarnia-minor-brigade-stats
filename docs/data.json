@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-11T10:03:24.104917Z",
+  "generated": "2026-04-11T16:03:22.376702Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -9276,7 +9276,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 49,
+      "practices": 48,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -9287,19 +9287,9 @@
       },
       "events": [
         {
-          "uid": "MS-20008-sarniabrigade.ca",
-          "date": "2026-04-15",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-16",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20029-sarniabrigade.ca",
           "date": "2026-04-17",
-          "start_time": "6:00 PM",
+          "start_time": "7:30 PM",
           "end_date": "2026-04-18",
           "summary": "16U PBLO - Practice",
           "location": "Errol Russell Park",
@@ -9309,7 +9299,7 @@
         {
           "uid": "MS-20009-sarniabrigade.ca",
           "date": "2026-04-22",
-          "start_time": "6:00 PM",
+          "start_time": "7:30 PM",
           "end_date": "2026-04-23",
           "summary": "16U PBLO - Practice",
           "location": "Blackwell Park",
@@ -9319,7 +9309,7 @@
         {
           "uid": "MS-20030-sarniabrigade.ca",
           "date": "2026-04-24",
-          "start_time": "6:00 PM",
+          "start_time": "7:30 PM",
           "end_date": "2026-04-25",
           "summary": "16U PBLO - Practice",
           "location": "Errol Russell Park",
@@ -9369,7 +9359,7 @@
         {
           "uid": "MS-20010-sarniabrigade.ca",
           "date": "2026-04-29",
-          "start_time": "6:00 PM",
+          "start_time": "7:30 PM",
           "end_date": "2026-04-30",
           "summary": "16U PBLO - Practice",
           "location": "Blackwell Park",
@@ -9389,7 +9379,7 @@
         {
           "uid": "MS-20011-sarniabrigade.ca",
           "date": "2026-05-06",
-          "start_time": "6:00 PM",
+          "start_time": "7:30 PM",
           "end_date": "2026-05-07",
           "summary": "16U PBLO - Practice",
           "location": "Blackwell Park",
