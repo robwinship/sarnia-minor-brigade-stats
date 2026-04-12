@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-11T23:02:54.153072Z",
+  "generated": "2026-04-12T10:04:13.354687Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1623,16 +1623,19 @@
             "opponent": "Chatham Major Diamonds",
             "venue": "Clearwater Diamond #1",
             "assigned_umpires": [
-              "David Haasen"
+              "David Haasen",
+              "Jakob Rodriguez"
             ],
             "accepted_umpires": [
               "David Haasen"
             ],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Jakob Rodriguez"
+            ],
             "denied_umpires": [],
-            "assigned_count": 1,
+            "assigned_count": 2,
             "accepted_count": 1,
-            "pending_count": 0,
+            "pending_count": 1,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -1737,7 +1740,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 41,
+      "practices": 40,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -1908,13 +1911,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-19652-sarniabrigade.ca",
+          "uid": "MS-20474-sarniabrigade.ca",
           "date": "2026-04-29",
-          "start_time": "5:30 PM",
+          "start_time": "5:00 PM",
           "end_date": "2026-04-29",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
+          "summary": "10U AA OBA Rep - Game vs 11u Sarnia Brigade",
+          "location": "Clearwater Diamond #1",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -2158,6 +2161,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20475-sarniabrigade.ca",
+          "date": "2026-07-25",
+          "start_time": "10:00 AM",
+          "end_date": "2026-07-25",
+          "summary": "10U AA OBA Rep - Game vs 11u Sarnia Brigade  [DH]",
+          "location": "Clearwater Diamond #1",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19666-sarniabrigade.ca",
           "date": "2026-08-05",
           "start_time": "5:30 PM",
@@ -2310,6 +2323,18 @@
       ],
       "games": [
         {
+          "game_id": "20474",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/20474/",
+          "date": "2026-04-29",
+          "start_time": "5:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "19681",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/19681/",
           "date": "2026-05-09",
@@ -2382,6 +2407,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20475",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/20475/",
+          "date": "2026-07-25",
+          "start_time": "10:00 AM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "19648",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/19648/",
           "date": "2026-08-08",
@@ -2432,28 +2469,31 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 6,
+        "games_missed_upcoming": 7,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
           {
-            "date": "2026-05-24",
-            "time": "11:00 AM",
-            "opponent": "Leamington Lakers",
-            "venue": "TBD",
+            "date": "2026-04-29",
+            "time": "5:00 PM",
+            "opponent": "11u Sarnia Brigade",
+            "venue": "Clearwater Diamond #1",
             "assigned_umpires": [
-              "Paolo Padiglia"
+              "Brogan Murphy",
+              "Easton McKinlay"
             ],
             "accepted_umpires": [
-              "Paolo Padiglia"
+              "Easton McKinlay"
             ],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Brogan Murphy"
+            ],
             "denied_umpires": [],
-            "assigned_count": 1,
+            "assigned_count": 2,
             "accepted_count": 1,
-            "pending_count": 0,
+            "pending_count": 1,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -2499,6 +2539,22 @@
             "time": "10:00 AM",
             "opponent": "Windsor Stars",
             "venue": "TBD",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-07-25",
+            "time": "10:00 AM",
+            "opponent": "11u Sarnia Brigade",
+            "venue": "Clearwater Diamond #1",
             "assigned_umpires": [],
             "accepted_umpires": [],
             "pending_umpires": [],
@@ -3174,15 +3230,21 @@
             "time": "4:00 PM",
             "opponent": "Essex Yellowjackets",
             "venue": "Tecumseh Park",
-            "assigned_umpires": [],
+            "assigned_umpires": [
+              "Caleb Willemsvandyk",
+              "Juan Peralta"
+            ],
             "accepted_umpires": [],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Caleb Willemsvandyk",
+              "Juan Peralta"
+            ],
             "denied_umpires": [],
-            "assigned_count": 0,
+            "assigned_count": 2,
             "accepted_count": 0,
-            "pending_count": 0,
+            "pending_count": 2,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_not_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -3190,15 +3252,22 @@
             "time": "6:30 PM",
             "opponent": "Essex Yellowjackets",
             "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
+            "assigned_umpires": [
+              "Caleb Willemsvandyk",
+              "Juan Peralta"
+            ],
+            "accepted_umpires": [
+              "Juan Peralta"
+            ],
+            "pending_umpires": [
+              "Caleb Willemsvandyk"
+            ],
             "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -3208,35 +3277,50 @@
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
             "pair_signatures": [],
-            "mismatched_names": [],
+            "mismatched_names": [
+              "Juan Peralta"
+            ],
             "games": [
               {
                 "time": "4:00 PM",
                 "opponent": "Essex Yellowjackets",
                 "venue": "Tecumseh Park",
-                "assigned_umpires": [],
+                "assigned_umpires": [
+                  "Caleb Willemsvandyk",
+                  "Juan Peralta"
+                ],
                 "accepted_umpires": [],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "Caleb Willemsvandyk",
+                  "Juan Peralta"
+                ],
                 "denied_umpires": [],
-                "assigned_count": 0,
+                "assigned_count": 2,
                 "accepted_count": 0,
-                "pending_count": 0,
+                "pending_count": 2,
                 "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
+                "assignment_state": "assigned_not_accepted"
               },
               {
                 "time": "6:30 PM",
                 "opponent": "Essex Yellowjackets",
                 "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
+                "assigned_umpires": [
+                  "Caleb Willemsvandyk",
+                  "Juan Peralta"
+                ],
+                "accepted_umpires": [
+                  "Juan Peralta"
+                ],
+                "pending_umpires": [
+                  "Caleb Willemsvandyk"
+                ],
                 "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
+                "assigned_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
                 "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
+                "assignment_state": "assigned_and_accepted"
               }
             ]
           }
@@ -3974,16 +4058,19 @@
             "opponent": "London Badgers",
             "venue": "Tecumseh Park",
             "assigned_umpires": [
+              "Cruz Marinaro",
               "Paolo Padiglia"
             ],
             "accepted_umpires": [
               "Paolo Padiglia"
             ],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Cruz Marinaro"
+            ],
             "denied_umpires": [],
-            "assigned_count": 1,
+            "assigned_count": 2,
             "accepted_count": 1,
-            "pending_count": 0,
+            "pending_count": 1,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -3994,16 +4081,19 @@
             "opponent": "London Badgers",
             "venue": "Tecumseh Park",
             "assigned_umpires": [
+              "Cruz Marinaro",
               "Paolo Padiglia"
             ],
             "accepted_umpires": [
               "Paolo Padiglia"
             ],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Cruz Marinaro"
+            ],
             "denied_umpires": [],
-            "assigned_count": 1,
+            "assigned_count": 2,
             "accepted_count": 1,
-            "pending_count": 0,
+            "pending_count": 1,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -4059,16 +4149,19 @@
                 "opponent": "London Badgers",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
+                  "Cruz Marinaro",
                   "Paolo Padiglia"
                 ],
                 "accepted_umpires": [
                   "Paolo Padiglia"
                 ],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "Cruz Marinaro"
+                ],
                 "denied_umpires": [],
-                "assigned_count": 1,
+                "assigned_count": 2,
                 "accepted_count": 1,
-                "pending_count": 0,
+                "pending_count": 1,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4077,16 +4170,19 @@
                 "opponent": "London Badgers",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
+                  "Cruz Marinaro",
                   "Paolo Padiglia"
                 ],
                 "accepted_umpires": [
                   "Paolo Padiglia"
                 ],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "Cruz Marinaro"
+                ],
                 "denied_umpires": [],
-                "assigned_count": 1,
+                "assigned_count": 2,
                 "accepted_count": 1,
-                "pending_count": 0,
+                "pending_count": 1,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               }
@@ -4401,15 +4497,21 @@
             "time": "10:00 AM",
             "opponent": "Windsor Windsor Nationals",
             "venue": "Tecumseh Park",
-            "assigned_umpires": [],
+            "assigned_umpires": [
+              "Carter Wills",
+              "Clark Thornton"
+            ],
             "accepted_umpires": [],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Carter Wills",
+              "Clark Thornton"
+            ],
             "denied_umpires": [],
-            "assigned_count": 0,
+            "assigned_count": 2,
             "accepted_count": 0,
-            "pending_count": 0,
+            "pending_count": 2,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_not_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -5045,16 +5147,18 @@
             "opponent": "St. Thomas Cardinals",
             "venue": "Tecumseh Park",
             "assigned_umpires": [
+              "Clark Thornton",
               "Will Greer"
             ],
             "accepted_umpires": [],
             "pending_umpires": [
+              "Clark Thornton",
               "Will Greer"
             ],
             "denied_umpires": [],
-            "assigned_count": 1,
+            "assigned_count": 2,
             "accepted_count": 0,
-            "pending_count": 1,
+            "pending_count": 2,
             "denied_count": 0,
             "assignment_state": "assigned_not_accepted",
             "issue_timing": "upcoming"
@@ -5065,16 +5169,18 @@
             "opponent": "St. Thomas Cardinals",
             "venue": "Tecumseh Park",
             "assigned_umpires": [
+              "Clark Thornton",
               "Will Greer"
             ],
             "accepted_umpires": [],
             "pending_umpires": [
+              "Clark Thornton",
               "Will Greer"
             ],
             "denied_umpires": [],
-            "assigned_count": 1,
+            "assigned_count": 2,
             "accepted_count": 0,
-            "pending_count": 1,
+            "pending_count": 2,
             "denied_count": 0,
             "assignment_state": "assigned_not_accepted",
             "issue_timing": "upcoming"
@@ -5093,16 +5199,18 @@
                 "opponent": "St. Thomas Cardinals",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
+                  "Clark Thornton",
                   "Will Greer"
                 ],
                 "accepted_umpires": [],
                 "pending_umpires": [
+                  "Clark Thornton",
                   "Will Greer"
                 ],
                 "denied_umpires": [],
-                "assigned_count": 1,
+                "assigned_count": 2,
                 "accepted_count": 0,
-                "pending_count": 1,
+                "pending_count": 2,
                 "denied_count": 0,
                 "assignment_state": "assigned_not_accepted"
               },
@@ -5111,16 +5219,18 @@
                 "opponent": "St. Thomas Cardinals",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
+                  "Clark Thornton",
                   "Will Greer"
                 ],
                 "accepted_umpires": [],
                 "pending_umpires": [
+                  "Clark Thornton",
                   "Will Greer"
                 ],
                 "denied_umpires": [],
-                "assigned_count": 1,
+                "assigned_count": 2,
                 "accepted_count": 0,
-                "pending_count": 1,
+                "pending_count": 2,
                 "denied_count": 0,
                 "assignment_state": "assigned_not_accepted"
               }
@@ -6032,6 +6142,7 @@
               "Dan Scott",
               "David Haasen",
               "Doug Krall",
+              "Easton McKinlay",
               "Greg Baker",
               "Hayden Scheuermann",
               "Jarett Simons",
@@ -6054,13 +6165,20 @@
                   "Annette Hoggarth",
                   "Brian Mundt",
                   "Brock Lane",
+                  "Brogan Murphy",
+                  "Caleb Willemsvandyk",
+                  "Carter Wills",
                   "Chris Bonneau",
+                  "Clark Thornton",
+                  "Cruz Marinaro",
                   "Dan Scott",
                   "David Haasen",
                   "Doug Krall",
+                  "Easton McKinlay",
                   "Grant Purdy",
                   "Greg Baker",
                   "Hayden Scheuermann",
+                  "Jakob Rodriguez",
                   "Jarett Simons",
                   "Jason Lajeunesse",
                   "Juan Peralta",
@@ -6080,6 +6198,7 @@
                   "Dan Scott",
                   "David Haasen",
                   "Doug Krall",
+                  "Easton McKinlay",
                   "Greg Baker",
                   "Hayden Scheuermann",
                   "Jarett Simons",
@@ -6096,9 +6215,16 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Brock Lane",
+                  "Brogan Murphy",
+                  "Caleb Willemsvandyk",
+                  "Carter Wills",
                   "Chris Bonneau",
+                  "Clark Thornton",
+                  "Cruz Marinaro",
                   "Grant Purdy",
                   "Hayden Scheuermann",
+                  "Jakob Rodriguez",
+                  "Juan Peralta",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham",
@@ -6107,9 +6233,9 @@
                 "denied_umpires": [
                   "Ralph Campbell"
                 ],
-                "assigned_count": 22,
-                "accepted_count": 17,
-                "pending_count": 9,
+                "assigned_count": 29,
+                "accepted_count": 18,
+                "pending_count": 16,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
