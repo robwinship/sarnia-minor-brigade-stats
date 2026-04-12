@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-12T16:03:29.213586Z",
+  "generated": "2026-04-12T19:33:01.817676Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1611,35 +1611,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 3,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
-          {
-            "date": "2026-05-20",
-            "time": "6:00 PM",
-            "opponent": "Chatham Major Diamonds",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "David Haasen",
-              "Jakob Rodriguez"
-            ],
-            "accepted_umpires": [
-              "David Haasen"
-            ],
-            "pending_umpires": [
-              "Jakob Rodriguez"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
           {
             "date": "2026-06-27",
             "time": "11:00 AM",
@@ -4406,15 +4383,16 @@
             ],
             "accepted_umpires": [],
             "pending_umpires": [
-              "Carter Wills",
               "Clark Thornton"
             ],
-            "denied_umpires": [],
+            "denied_umpires": [
+              "Carter Wills"
+            ],
             "assigned_count": 2,
             "accepted_count": 0,
-            "pending_count": 2,
-            "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "pending_count": 1,
+            "denied_count": 1,
+            "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
           },
           {
@@ -6061,6 +6039,7 @@
               "Easton McKinlay",
               "Greg Baker",
               "Hayden Scheuermann",
+              "Jakob Rodriguez",
               "Jarett Simons",
               "Jason Lajeunesse",
               "Juan Peralta",
@@ -6118,6 +6097,7 @@
                   "Easton McKinlay",
                   "Greg Baker",
                   "Hayden Scheuermann",
+                  "Jakob Rodriguez",
                   "Jarett Simons",
                   "Jason Lajeunesse",
                   "Juan Peralta",
@@ -6134,13 +6114,11 @@
                   "Brock Lane",
                   "Brogan Murphy",
                   "Caleb Willemsvandyk",
-                  "Carter Wills",
                   "Chris Bonneau",
                   "Clark Thornton",
                   "Dan Scott",
                   "Grant Purdy",
                   "Hayden Scheuermann",
-                  "Jakob Rodriguez",
                   "Juan Peralta",
                   "Matthew Schrie",
                   "Terry Doyle",
@@ -6149,12 +6127,13 @@
                   "Will Greer"
                 ],
                 "denied_umpires": [
+                  "Carter Wills",
                   "Ralph Campbell"
                 ],
                 "assigned_count": 29,
-                "accepted_count": 19,
-                "pending_count": 17,
-                "denied_count": 1,
+                "accepted_count": 20,
+                "pending_count": 15,
+                "denied_count": 2,
                 "assignment_state": "assigned_and_accepted"
               },
               {
