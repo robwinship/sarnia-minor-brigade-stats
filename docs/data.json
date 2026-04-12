@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-12T10:04:13.354687Z",
+  "generated": "2026-04-12T16:03:29.213586Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4014,9 +4014,9 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 4,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 2,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -4050,52 +4050,6 @@
             "pending_count": 0,
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-09",
-            "time": "4:00 PM",
-            "opponent": "London Badgers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Cruz Marinaro",
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [
-              "Paolo Padiglia"
-            ],
-            "pending_umpires": [
-              "Cruz Marinaro"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-09",
-            "time": "6:30 PM",
-            "opponent": "London Badgers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Cruz Marinaro",
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [
-              "Paolo Padiglia"
-            ],
-            "pending_umpires": [
-              "Cruz Marinaro"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -4134,57 +4088,6 @@
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-05-09",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "London Badgers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Cruz Marinaro",
-                  "Paolo Padiglia"
-                ],
-                "accepted_umpires": [
-                  "Paolo Padiglia"
-                ],
-                "pending_umpires": [
-                  "Cruz Marinaro"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "London Badgers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Cruz Marinaro",
-                  "Paolo Padiglia"
-                ],
-                "accepted_umpires": [
-                  "Paolo Padiglia"
-                ],
-                "pending_umpires": [
-                  "Cruz Marinaro"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
               }
             ]
           }
@@ -5945,15 +5848,21 @@
             "time": "10:00 AM",
             "opponent": "MidWest Bearcats",
             "venue": "Blackwell Park",
-            "assigned_umpires": [],
+            "assigned_umpires": [
+              "Dan Scott",
+              "Matthew Schrie"
+            ],
             "accepted_umpires": [],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Dan Scott",
+              "Matthew Schrie"
+            ],
             "denied_umpires": [],
-            "assigned_count": 0,
+            "assigned_count": 2,
             "accepted_count": 0,
-            "pending_count": 0,
+            "pending_count": 2,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_not_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -5961,15 +5870,21 @@
             "time": "12:30 PM",
             "opponent": "MidWest Bearcats",
             "venue": "Blackwell Park",
-            "assigned_umpires": [],
+            "assigned_umpires": [
+              "Dan Scott",
+              "Matthew Schrie"
+            ],
             "accepted_umpires": [],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Dan Scott",
+              "Matthew Schrie"
+            ],
             "denied_umpires": [],
-            "assigned_count": 0,
+            "assigned_count": 2,
             "accepted_count": 0,
-            "pending_count": 0,
+            "pending_count": 2,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_not_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -6139,6 +6054,7 @@
             "mismatched_names": [
               "Annette Hoggarth",
               "Brian Mundt",
+              "Cruz Marinaro",
               "Dan Scott",
               "David Haasen",
               "Doug Krall",
@@ -6195,6 +6111,7 @@
                 "accepted_umpires": [
                   "Annette Hoggarth",
                   "Brian Mundt",
+                  "Cruz Marinaro",
                   "Dan Scott",
                   "David Haasen",
                   "Doug Krall",
@@ -6220,11 +6137,12 @@
                   "Carter Wills",
                   "Chris Bonneau",
                   "Clark Thornton",
-                  "Cruz Marinaro",
+                  "Dan Scott",
                   "Grant Purdy",
                   "Hayden Scheuermann",
                   "Jakob Rodriguez",
                   "Juan Peralta",
+                  "Matthew Schrie",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham",
@@ -6234,8 +6152,8 @@
                   "Ralph Campbell"
                 ],
                 "assigned_count": 29,
-                "accepted_count": 18,
-                "pending_count": 16,
+                "accepted_count": 19,
+                "pending_count": 17,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -6243,29 +6161,41 @@
                 "time": "10:00 AM",
                 "opponent": "MidWest Bearcats",
                 "venue": "Blackwell Park",
-                "assigned_umpires": [],
+                "assigned_umpires": [
+                  "Dan Scott",
+                  "Matthew Schrie"
+                ],
                 "accepted_umpires": [],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "Dan Scott",
+                  "Matthew Schrie"
+                ],
                 "denied_umpires": [],
-                "assigned_count": 0,
+                "assigned_count": 2,
                 "accepted_count": 0,
-                "pending_count": 0,
+                "pending_count": 2,
                 "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
+                "assignment_state": "assigned_not_accepted"
               },
               {
                 "time": "12:30 PM",
                 "opponent": "MidWest Bearcats",
                 "venue": "Blackwell Park",
-                "assigned_umpires": [],
+                "assigned_umpires": [
+                  "Dan Scott",
+                  "Matthew Schrie"
+                ],
                 "accepted_umpires": [],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "Dan Scott",
+                  "Matthew Schrie"
+                ],
                 "denied_umpires": [],
-                "assigned_count": 0,
+                "assigned_count": 2,
                 "accepted_count": 0,
-                "pending_count": 0,
+                "pending_count": 2,
                 "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
+                "assignment_state": "assigned_not_accepted"
               }
             ]
           },
