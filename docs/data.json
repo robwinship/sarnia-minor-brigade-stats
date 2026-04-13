@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-12T23:03:07.732855Z",
+  "generated": "2026-04-13T10:03:36.109784Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -5820,17 +5820,18 @@
               "Dan Scott",
               "Matthew Schrie"
             ],
-            "accepted_umpires": [],
+            "accepted_umpires": [
+              "Dan Scott"
+            ],
             "pending_umpires": [
-              "Dan Scott",
               "Matthew Schrie"
             ],
             "denied_umpires": [],
             "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -5842,17 +5843,18 @@
               "Dan Scott",
               "Matthew Schrie"
             ],
-            "accepted_umpires": [],
+            "accepted_umpires": [
+              "Dan Scott"
+            ],
             "pending_umpires": [
-              "Dan Scott",
               "Matthew Schrie"
             ],
             "denied_umpires": [],
             "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -5928,20 +5930,21 @@
             "opponent": "TBA",
             "venue": "Blackwell North",
             "assigned_umpires": [
-              "Tyler Hoadley",
-              "Tyler Whetham"
+              "Dan Scott",
+              "Tyler Hoadley"
             ],
-            "accepted_umpires": [],
+            "accepted_umpires": [
+              "Dan Scott"
+            ],
             "pending_umpires": [
-              "Tyler Hoadley",
-              "Tyler Whetham"
+              "Tyler Hoadley"
             ],
             "denied_umpires": [],
             "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -5950,20 +5953,21 @@
             "opponent": "TBA",
             "venue": "Blackwell North",
             "assigned_umpires": [
-              "Tyler Hoadley",
-              "Tyler Whetham"
+              "Dan Scott",
+              "Tyler Hoadley"
             ],
-            "accepted_umpires": [],
+            "accepted_umpires": [
+              "Dan Scott"
+            ],
             "pending_umpires": [
-              "Tyler Hoadley",
-              "Tyler Whetham"
+              "Tyler Hoadley"
             ],
             "denied_umpires": [],
             "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -6023,7 +6027,6 @@
               "Annette Hoggarth",
               "Brian Mundt",
               "Cruz Marinaro",
-              "Dan Scott",
               "David Haasen",
               "Doug Krall",
               "Easton McKinlay",
@@ -6106,7 +6109,6 @@
                   "Caleb Willemsvandyk",
                   "Chris Bonneau",
                   "Clark Thornton",
-                  "Dan Scott",
                   "Grant Purdy",
                   "Hayden Scheuermann",
                   "Juan Peralta",
@@ -6122,7 +6124,7 @@
                 ],
                 "assigned_count": 29,
                 "accepted_count": 20,
-                "pending_count": 15,
+                "pending_count": 14,
                 "denied_count": 2,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -6134,17 +6136,18 @@
                   "Dan Scott",
                   "Matthew Schrie"
                 ],
-                "accepted_umpires": [],
+                "accepted_umpires": [
+                  "Dan Scott"
+                ],
                 "pending_umpires": [
-                  "Dan Scott",
                   "Matthew Schrie"
                 ],
                 "denied_umpires": [],
                 "assigned_count": 2,
-                "accepted_count": 0,
-                "pending_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
                 "denied_count": 0,
-                "assignment_state": "assigned_not_accepted"
+                "assignment_state": "assigned_and_accepted"
               },
               {
                 "time": "12:30 PM",
@@ -6154,17 +6157,18 @@
                   "Dan Scott",
                   "Matthew Schrie"
                 ],
-                "accepted_umpires": [],
+                "accepted_umpires": [
+                  "Dan Scott"
+                ],
                 "pending_umpires": [
-                  "Dan Scott",
                   "Matthew Schrie"
                 ],
                 "denied_umpires": [],
                 "assigned_count": 2,
-                "accepted_count": 0,
-                "pending_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
                 "denied_count": 0,
-                "assignment_state": "assigned_not_accepted"
+                "assignment_state": "assigned_and_accepted"
               }
             ]
           },
@@ -6180,40 +6184,42 @@
                 "opponent": "TBA",
                 "venue": "Blackwell North",
                 "assigned_umpires": [
-                  "Tyler Hoadley",
-                  "Tyler Whetham"
+                  "Dan Scott",
+                  "Tyler Hoadley"
                 ],
-                "accepted_umpires": [],
+                "accepted_umpires": [
+                  "Dan Scott"
+                ],
                 "pending_umpires": [
-                  "Tyler Hoadley",
-                  "Tyler Whetham"
+                  "Tyler Hoadley"
                 ],
                 "denied_umpires": [],
                 "assigned_count": 2,
-                "accepted_count": 0,
-                "pending_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
                 "denied_count": 0,
-                "assignment_state": "assigned_not_accepted"
+                "assignment_state": "assigned_and_accepted"
               },
               {
                 "time": "10:00 AM",
                 "opponent": "TBA",
                 "venue": "Blackwell North",
                 "assigned_umpires": [
-                  "Tyler Hoadley",
-                  "Tyler Whetham"
+                  "Dan Scott",
+                  "Tyler Hoadley"
                 ],
-                "accepted_umpires": [],
+                "accepted_umpires": [
+                  "Dan Scott"
+                ],
                 "pending_umpires": [
-                  "Tyler Hoadley",
-                  "Tyler Whetham"
+                  "Tyler Hoadley"
                 ],
                 "denied_umpires": [],
                 "assigned_count": 2,
-                "accepted_count": 0,
-                "pending_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
                 "denied_count": 0,
-                "assignment_state": "assigned_not_accepted"
+                "assignment_state": "assigned_and_accepted"
               }
             ]
           },
