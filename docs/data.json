@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-13T19:33:44.600436Z",
+  "generated": "2026-04-13T23:03:37.085847Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1717,7 +1717,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 39,
+      "practices": 38,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -1727,16 +1727,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19636-sarniabrigade.ca",
-          "date": "2026-02-13",
-          "start_time": "5:00 PM",
-          "end_date": "2026-02-14",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19637-sarniabrigade.ca",
           "date": "2026-02-20",
@@ -9242,6 +9232,36 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20495-sarniabrigade.ca",
+          "date": "2026-05-01",
+          "start_time": "8:00 PM",
+          "end_date": "2026-05-02",
+          "summary": "16U PBLO - Game vs Etobicoke [5]",
+          "location": "River Grove Community Centre (Diamond 2)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20496-sarniabrigade.ca",
+          "date": "2026-05-02",
+          "start_time": "11:00 AM",
+          "end_date": "2026-05-02",
+          "summary": "16U PBLO - Game vs East York [12]",
+          "location": "Father Angelo Saad",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20497-sarniabrigade.ca",
+          "date": "2026-05-02",
+          "start_time": "2:00 PM",
+          "end_date": "2026-05-02",
+          "summary": "16U PBLO - Game vs Milton [15]",
+          "location": "Father Angelo Saad",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20211-sarniabrigade.ca",
           "date": "2026-05-04",
           "start_time": "7:00 PM",
@@ -9264,11 +9284,31 @@
         {
           "uid": "MS-20032-sarniabrigade.ca",
           "date": "2026-05-08",
-          "start_time": "6:00 PM",
+          "start_time": "7:30 PM",
           "end_date": "2026-05-09",
           "summary": "16U PBLO - Practice",
           "location": "Errol Russell Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20493-sarniabrigade.ca",
+          "date": "2026-05-09",
+          "start_time": "11:00 AM",
+          "end_date": "2026-05-09",
+          "summary": "16U PBLO - Game vs London Badgers",
+          "location": "Errol Russell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20494-sarniabrigade.ca",
+          "date": "2026-05-09",
+          "start_time": "2:00 PM",
+          "end_date": "2026-05-09",
+          "summary": "16U PBLO - Game vs London Badgers",
+          "location": "Errol Russell Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -10082,6 +10122,66 @@
           "cancelled": false
         },
         {
+          "game_id": "20495",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/20495/",
+          "date": "2026-05-01",
+          "start_time": "8:00 PM",
+          "opponent": "Etobicoke 5 River Grove Community Centre",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20496",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/20496/",
+          "date": "2026-05-02",
+          "start_time": "11:00 AM",
+          "opponent": "East York 12 Father Angelo Saad",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20497",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/20497/",
+          "date": "2026-05-02",
+          "start_time": "2:00 PM",
+          "opponent": "Milton 15 Father Angelo Saad",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20493",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/20493/",
+          "date": "2026-05-09",
+          "start_time": "11:00 AM",
+          "opponent": "London Badgers Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20494",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/20494/",
+          "date": "2026-05-09",
+          "start_time": "2:00 PM",
+          "opponent": "London Badgers Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "19721",
           "href": "https://sarniabrigade.ca/Teams/1298/Games/19721/",
           "date": "2026-05-10",
@@ -10456,12 +10556,44 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 4,
+        "games_missed_upcoming": 6,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 2,
+        "doubleheader_mismatch_upcoming": 3,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
+          {
+            "date": "2026-05-09",
+            "time": "11:00 AM",
+            "opponent": "London Badgers",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-05-09",
+            "time": "2:00 PM",
+            "opponent": "London Badgers",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
           {
             "date": "2026-05-16",
             "time": "11:00 AM",
@@ -10556,6 +10688,43 @@
           }
         ],
         "doubleheader_mismatch_details": [
+          {
+            "date": "2026-05-09",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "11:00 AM",
+                "opponent": "London Badgers",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
+              },
+              {
+                "time": "2:00 PM",
+                "opponent": "London Badgers",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
+              }
+            ]
+          },
           {
             "date": "2026-05-16",
             "issue_timing": "upcoming",
