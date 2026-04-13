@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-13T10:03:36.109784Z",
+  "generated": "2026-04-13T16:03:52.648076Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1717,7 +1717,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 40,
+      "practices": 39,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -1868,23 +1868,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-19673-sarniabrigade.ca",
+          "uid": "MS-20491-sarniabrigade.ca",
           "date": "2026-04-25",
           "start_time": "10:00 AM",
           "end_date": "2026-04-25",
-          "summary": "10U AA OBA Rep - Practice",
+          "summary": "10U AA OBA Rep - Game vs 10UA OBA REP  [DH]",
           "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20406-sarniabrigade.ca",
-          "date": "2026-04-28",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-29",
-          "summary": "11U OBA Rep & 10U AA OBA Rep - Shared Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -1892,9 +1882,19 @@
           "date": "2026-04-29",
           "start_time": "5:00 PM",
           "end_date": "2026-04-29",
-          "summary": "10U AA OBA Rep - Game vs 11u Sarnia Brigade",
+          "summary": "CANCELLED 10U AA OBA Rep - Game vs 11u Sarnia Brigade",
           "location": "Clearwater Diamond #1",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20492-sarniabrigade.ca",
+          "date": "2026-04-29",
+          "start_time": "5:00 PM",
+          "end_date": "2026-04-29",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -2300,6 +2300,18 @@
       ],
       "games": [
         {
+          "game_id": "20491",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/20491/",
+          "date": "2026-04-25",
+          "start_time": "10:00 AM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20474",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/20474/",
           "date": "2026-04-29",
@@ -2309,7 +2321,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "19681",
@@ -2453,26 +2465,19 @@
         "unavailable_reason": "",
         "games_missed_details": [
           {
-            "date": "2026-04-29",
-            "time": "5:00 PM",
-            "opponent": "11u Sarnia Brigade",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "Brogan Murphy",
-              "Easton McKinlay"
-            ],
-            "accepted_umpires": [
-              "Easton McKinlay"
-            ],
-            "pending_umpires": [
-              "Brogan Murphy"
-            ],
+            "date": "2026-04-25",
+            "time": "10:00 AM",
+            "opponent": "10UA OBA REP",
+            "venue": "Clearwater Diamond #2",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
             "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
             "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           },
           {
@@ -2681,26 +2686,6 @@
           "summary": "10U A OBA Rep - Practice",
           "location": "Coronation Park Diamond",
           "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20099-sarniabrigade.ca",
-          "date": "2026-04-25",
-          "start_time": "4:00 PM",
-          "end_date": "2026-04-25",
-          "summary": "10U A OBA Rep - Game @ 11U OBA Rep",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20097-sarniabrigade.ca",
-          "date": "2026-04-25",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-26",
-          "summary": "10U A OBA Rep - Game @ 11U OBA Rep",
-          "location": "Tecumseh Park",
-          "type": "game",
           "cancelled": false
         },
         {
@@ -3146,30 +3131,6 @@
       ],
       "games": [
         {
-          "game_id": "20099",
-          "href": "https://sarniabrigade.ca/Teams/1293/Games/20099/",
-          "date": "2026-04-25",
-          "start_time": "4:00 PM",
-          "opponent": null,
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "20097",
-          "href": "https://sarniabrigade.ca/Teams/1293/Games/20097/",
-          "date": "2026-04-25",
-          "start_time": "6:00 PM",
-          "opponent": null,
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "20407",
           "href": "https://sarniabrigade.ca/Teams/1311/Games/20407/",
           "date": "2026-05-31",
@@ -3314,7 +3275,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 48,
+      "practices": 49,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -3435,31 +3396,21 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20099-sarniabrigade.ca",
+          "uid": "MS-20489-sarniabrigade.ca",
           "date": "2026-04-25",
           "start_time": "4:00 PM",
           "end_date": "2026-04-25",
-          "summary": "11U OBA Rep - Game vs 10U A OBA Rep",
+          "summary": "11U OBA Rep - Practice",
           "location": "Tecumseh Park",
-          "type": "game",
+          "type": "practice",
           "cancelled": false
         },
         {
-          "uid": "MS-20097-sarniabrigade.ca",
-          "date": "2026-04-25",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-26",
-          "summary": "11U OBA Rep - Game vs 10U A OBA Rep",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20406-sarniabrigade.ca",
+          "uid": "MS-20490-sarniabrigade.ca",
           "date": "2026-04-28",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-29",
-          "summary": "11U OBA Rep & 10U AA OBA Rep - Shared Practice",
+          "start_time": "5:00 PM",
+          "end_date": "2026-04-28",
+          "summary": "11U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
@@ -3907,30 +3858,6 @@
       ],
       "games": [
         {
-          "game_id": "20099",
-          "href": "https://sarniabrigade.ca/Teams/1293/Games/20099/",
-          "date": "2026-04-25",
-          "start_time": "4:00 PM",
-          "opponent": null,
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "20097",
-          "href": "https://sarniabrigade.ca/Teams/1293/Games/20097/",
-          "date": "2026-04-25",
-          "start_time": "6:00 PM",
-          "opponent": null,
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "20098",
           "href": "https://sarniabrigade.ca/Teams/1293/Games/20098/",
           "date": "2026-05-09",
@@ -3981,84 +3908,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-04-25",
-            "time": "4:00 PM",
-            "opponent": "10U A OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-04-25",
-            "time": "6:00 PM",
-            "opponent": "10U A OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-04-25",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "10U A OBA Rep",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "6:00 PM",
-                "opponent": "10U A OBA Rep",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          }
-        ]
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       }
     },
     {
@@ -6053,7 +5909,6 @@
                   "Annette Hoggarth",
                   "Brian Mundt",
                   "Brock Lane",
-                  "Brogan Murphy",
                   "Caleb Willemsvandyk",
                   "Carter Wills",
                   "Chris Bonneau",
@@ -6105,7 +5960,6 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Brock Lane",
-                  "Brogan Murphy",
                   "Caleb Willemsvandyk",
                   "Chris Bonneau",
                   "Clark Thornton",
@@ -6122,9 +5976,9 @@
                   "Carter Wills",
                   "Ralph Campbell"
                 ],
-                "assigned_count": 29,
+                "assigned_count": 28,
                 "accepted_count": 20,
-                "pending_count": 14,
+                "pending_count": 13,
                 "denied_count": 2,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -7918,22 +7772,22 @@
           "cancelled": false
         },
         {
-          "uid": "MS-19829-sarniabrigade.ca",
-          "date": "2026-04-17",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-18",
-          "summary": "13U Select - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20174-sarniabrigade.ca",
           "date": "2026-04-17",
           "start_time": "6:00 PM",
           "end_date": "2026-04-18",
           "summary": "13U Select - Practice",
           "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-19829-sarniabrigade.ca",
+          "date": "2026-04-17",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-18",
+          "summary": "13U Select - Practice",
+          "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
         },
@@ -11090,6 +10944,24 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 9U OBA Rep - Practice",
       "location": "Clearwater Diamond #1"
+    },
+    {
+      "team_id": 1292,
+      "team_name": "10U AA OBA Rep",
+      "type": "game",
+      "date": "2026-04-29",
+      "start_time": "5:00 PM",
+      "summary": "CANCELLED 10U AA OBA Rep - Game vs 11u Sarnia Brigade",
+      "location": "Clearwater Diamond #1"
+    },
+    {
+      "team_id": 1292,
+      "team_name": "10U AA OBA Rep",
+      "type": "game",
+      "date": "2026-04-29",
+      "start_time": "5:00 PM",
+      "summary": "",
+      "location": ""
     },
     {
       "team_id": 1300,
