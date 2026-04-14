@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-14T16:03:31.856388Z",
+  "generated": "2026-04-14T19:33:37.271875Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -5605,58 +5605,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 9,
+        "games_missed_upcoming": 7,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 3,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
-          {
-            "date": "2026-04-19",
-            "time": "10:00 AM",
-            "opponent": "MidWest Bearcats",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Dan Scott",
-              "Tyler Whetham"
-            ],
-            "accepted_umpires": [
-              "Dan Scott"
-            ],
-            "pending_umpires": [
-              "Tyler Whetham"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-04-19",
-            "time": "12:30 PM",
-            "opponent": "MidWest Bearcats",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Dan Scott",
-              "Tyler Whetham"
-            ],
-            "accepted_umpires": [
-              "Dan Scott"
-            ],
-            "pending_umpires": [
-              "Tyler Whetham"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
           {
             "date": "2026-04-26",
             "time": "10:00 AM",
@@ -5822,7 +5776,9 @@
             "date": "2026-04-19",
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
-            "pair_signatures": [],
+            "pair_signatures": [
+              "Dan Scott | Tyler Whetham"
+            ],
             "mismatched_names": [
               "Annette Hoggarth",
               "Brian Mundt",
@@ -5842,8 +5798,7 @@
               "Paolo Padiglia",
               "Ralph Campbell",
               "Steve McGrail",
-              "Terry Doyle",
-              "Tyler Whetham"
+              "Terry Doyle"
             ],
             "games": [
               {
@@ -5935,15 +5890,14 @@
                   "Tyler Whetham"
                 ],
                 "accepted_umpires": [
-                  "Dan Scott"
-                ],
-                "pending_umpires": [
+                  "Dan Scott",
                   "Tyler Whetham"
                 ],
+                "pending_umpires": [],
                 "denied_umpires": [],
                 "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
+                "accepted_count": 2,
+                "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -5956,15 +5910,14 @@
                   "Tyler Whetham"
                 ],
                 "accepted_umpires": [
-                  "Dan Scott"
-                ],
-                "pending_umpires": [
+                  "Dan Scott",
                   "Tyler Whetham"
                 ],
+                "pending_umpires": [],
                 "denied_umpires": [],
                 "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
+                "accepted_count": 2,
+                "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               }
