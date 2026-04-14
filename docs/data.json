@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-14T10:03:36.442090Z",
+  "generated": "2026-04-14T16:03:31.856388Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -854,7 +854,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 56,
+      "practices": 52,
       "roster": {
         "players": 12,
         "adults": 5,
@@ -875,52 +875,12 @@
           "cancelled": false
         },
         {
-          "uid": "MS-19869-sarniabrigade.ca",
-          "date": "2026-04-01",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-02",
-          "summary": "CANCELLED 9U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19889-sarniabrigade.ca",
-          "date": "2026-04-04",
-          "start_time": "10:00 AM",
-          "end_date": "2026-04-04",
-          "summary": "CANCELLED 9U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20176-sarniabrigade.ca",
           "date": "2026-04-08",
           "start_time": "5:30 PM",
           "end_date": "2026-04-08",
           "summary": "9U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19870-sarniabrigade.ca",
-          "date": "2026-04-08",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-09",
-          "summary": "CANCELLED 9U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19890-sarniabrigade.ca",
-          "date": "2026-04-11",
-          "start_time": "10:00 AM",
-          "end_date": "2026-04-11",
-          "summary": "CANCELLED 9U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
           "type": "practice",
           "cancelled": false
         },
@@ -3917,7 +3877,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 11,
+      "practices": 10,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -3927,16 +3887,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-19991-sarniabrigade.ca",
-          "date": "2026-02-14",
-          "start_time": "7:00 AM",
-          "end_date": "2026-02-14",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19992-sarniabrigade.ca",
           "date": "2026-02-21",
@@ -4217,18 +4167,18 @@
               "Carter Wills",
               "Clark Thornton"
             ],
-            "accepted_umpires": [],
-            "pending_umpires": [
+            "accepted_umpires": [
               "Clark Thornton"
             ],
+            "pending_umpires": [],
             "denied_umpires": [
               "Carter Wills"
             ],
             "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
             "denied_count": 1,
-            "assignment_state": "assigned_but_denied",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -4869,15 +4819,16 @@
             ],
             "accepted_umpires": [],
             "pending_umpires": [
-              "Clark Thornton",
               "Will Greer"
             ],
-            "denied_umpires": [],
+            "denied_umpires": [
+              "Clark Thornton"
+            ],
             "assigned_count": 2,
             "accepted_count": 0,
-            "pending_count": 2,
-            "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "pending_count": 1,
+            "denied_count": 1,
+            "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
           },
           {
@@ -4891,15 +4842,16 @@
             ],
             "accepted_umpires": [],
             "pending_umpires": [
-              "Clark Thornton",
               "Will Greer"
             ],
-            "denied_umpires": [],
+            "denied_umpires": [
+              "Clark Thornton"
+            ],
             "assigned_count": 2,
             "accepted_count": 0,
-            "pending_count": 2,
-            "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "pending_count": 1,
+            "denied_count": 1,
+            "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
           }
         ],
@@ -4921,15 +4873,16 @@
                 ],
                 "accepted_umpires": [],
                 "pending_umpires": [
-                  "Clark Thornton",
                   "Will Greer"
                 ],
-                "denied_umpires": [],
+                "denied_umpires": [
+                  "Clark Thornton"
+                ],
                 "assigned_count": 2,
                 "accepted_count": 0,
-                "pending_count": 2,
-                "denied_count": 0,
-                "assignment_state": "assigned_not_accepted"
+                "pending_count": 1,
+                "denied_count": 1,
+                "assignment_state": "assigned_but_denied"
               },
               {
                 "time": "1:00 PM",
@@ -4941,15 +4894,16 @@
                 ],
                 "accepted_umpires": [],
                 "pending_umpires": [
-                  "Clark Thornton",
                   "Will Greer"
                 ],
-                "denied_umpires": [],
+                "denied_umpires": [
+                  "Clark Thornton"
+                ],
                 "assigned_count": 2,
                 "accepted_count": 0,
-                "pending_count": 2,
-                "denied_count": 0,
-                "assignment_state": "assigned_not_accepted"
+                "pending_count": 1,
+                "denied_count": 1,
+                "assignment_state": "assigned_but_denied"
               }
             ]
           }
@@ -5664,13 +5618,13 @@
             "venue": "Blackwell Park",
             "assigned_umpires": [
               "Dan Scott",
-              "Matthew Schrie"
+              "Tyler Whetham"
             ],
             "accepted_umpires": [
               "Dan Scott"
             ],
             "pending_umpires": [
-              "Matthew Schrie"
+              "Tyler Whetham"
             ],
             "denied_umpires": [],
             "assigned_count": 2,
@@ -5687,13 +5641,13 @@
             "venue": "Blackwell Park",
             "assigned_umpires": [
               "Dan Scott",
-              "Matthew Schrie"
+              "Tyler Whetham"
             ],
             "accepted_umpires": [
               "Dan Scott"
             ],
             "pending_umpires": [
-              "Matthew Schrie"
+              "Tyler Whetham"
             ],
             "denied_umpires": [],
             "assigned_count": 2,
@@ -5872,6 +5826,7 @@
             "mismatched_names": [
               "Annette Hoggarth",
               "Brian Mundt",
+              "Clark Thornton",
               "Cruz Marinaro",
               "David Haasen",
               "Doug Krall",
@@ -5928,6 +5883,7 @@
                 "accepted_umpires": [
                   "Annette Hoggarth",
                   "Brian Mundt",
+                  "Clark Thornton",
                   "Cruz Marinaro",
                   "Dan Scott",
                   "David Haasen",
@@ -5952,10 +5908,8 @@
                   "Brock Lane",
                   "Caleb Willemsvandyk",
                   "Chris Bonneau",
-                  "Clark Thornton",
                   "Grant Purdy",
                   "Hayden Scheuermann",
-                  "Matthew Schrie",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham",
@@ -5963,12 +5917,13 @@
                 ],
                 "denied_umpires": [
                   "Carter Wills",
+                  "Clark Thornton",
                   "Ralph Campbell"
                 ],
                 "assigned_count": 28,
-                "accepted_count": 20,
-                "pending_count": 12,
-                "denied_count": 2,
+                "accepted_count": 21,
+                "pending_count": 10,
+                "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -5977,13 +5932,13 @@
                 "venue": "Blackwell Park",
                 "assigned_umpires": [
                   "Dan Scott",
-                  "Matthew Schrie"
+                  "Tyler Whetham"
                 ],
                 "accepted_umpires": [
                   "Dan Scott"
                 ],
                 "pending_umpires": [
-                  "Matthew Schrie"
+                  "Tyler Whetham"
                 ],
                 "denied_umpires": [],
                 "assigned_count": 2,
@@ -5998,13 +5953,13 @@
                 "venue": "Blackwell Park",
                 "assigned_umpires": [
                   "Dan Scott",
-                  "Matthew Schrie"
+                  "Tyler Whetham"
                 ],
                 "accepted_umpires": [
                   "Dan Scott"
                 ],
                 "pending_umpires": [
-                  "Matthew Schrie"
+                  "Tyler Whetham"
                 ],
                 "denied_umpires": [],
                 "assigned_count": 2,
@@ -7700,7 +7655,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 43,
+      "practices": 39,
       "roster": {
         "players": 12,
         "adults": 4,
@@ -7711,60 +7666,10 @@
       },
       "events": [
         {
-          "uid": "MS-19827-sarniabrigade.ca",
-          "date": "2026-04-03",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-04",
-          "summary": "CANCELLED 13U Select - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19848-sarniabrigade.ca",
-          "date": "2026-04-06",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-07",
-          "summary": "CANCELLED 13U Select - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20173-sarniabrigade.ca",
           "date": "2026-04-06",
           "start_time": "6:00 PM",
           "end_date": "2026-04-07",
-          "summary": "13U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19828-sarniabrigade.ca",
-          "date": "2026-04-10",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-11",
-          "summary": "CANCELLED 13U Select - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19849-sarniabrigade.ca",
-          "date": "2026-04-13",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-14",
-          "summary": "CANCELLED 13U Select - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20174-sarniabrigade.ca",
-          "date": "2026-04-17",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-18",
           "summary": "13U Select - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
@@ -7777,6 +7682,16 @@
           "end_date": "2026-04-18",
           "summary": "13U Select - Practice",
           "location": "Tecumseh Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20174-sarniabrigade.ca",
+          "date": "2026-04-17",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-18",
+          "summary": "13U Select - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -11072,42 +10987,6 @@
       "team_id": 1291,
       "team_name": "9U OBA Rep",
       "type": "practice",
-      "date": "2026-04-01",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 9U OBA Rep - Practice",
-      "location": "Clearwater Diamond #1"
-    },
-    {
-      "team_id": 1291,
-      "team_name": "9U OBA Rep",
-      "type": "practice",
-      "date": "2026-04-04",
-      "start_time": "10:00 AM",
-      "summary": "CANCELLED 9U OBA Rep - Practice",
-      "location": "Clearwater Diamond #1"
-    },
-    {
-      "team_id": 1291,
-      "team_name": "9U OBA Rep",
-      "type": "practice",
-      "date": "2026-04-08",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 9U OBA Rep - Practice",
-      "location": "Clearwater Diamond #1"
-    },
-    {
-      "team_id": 1291,
-      "team_name": "9U OBA Rep",
-      "type": "practice",
-      "date": "2026-04-11",
-      "start_time": "10:00 AM",
-      "summary": "CANCELLED 9U OBA Rep - Practice",
-      "location": "Clearwater Diamond #1"
-    },
-    {
-      "team_id": 1291,
-      "team_name": "9U OBA Rep",
-      "type": "practice",
       "date": "2026-07-01",
       "start_time": "6:00 PM",
       "summary": "CANCELLED 9U OBA Rep - Practice",
@@ -11130,42 +11009,6 @@
       "start_time": "5:00 PM",
       "summary": "",
       "location": ""
-    },
-    {
-      "team_id": 1300,
-      "team_name": "13U Select",
-      "type": "practice",
-      "date": "2026-04-03",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 13U Select - Practice",
-      "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1300,
-      "team_name": "13U Select",
-      "type": "practice",
-      "date": "2026-04-06",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 13U Select - Practice",
-      "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1300,
-      "team_name": "13U Select",
-      "type": "practice",
-      "date": "2026-04-10",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 13U Select - Practice",
-      "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1300,
-      "team_name": "13U Select",
-      "type": "practice",
-      "date": "2026-04-13",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 13U Select - Practice",
-      "location": "Tecumseh Park"
     },
     {
       "team_id": 1300,
