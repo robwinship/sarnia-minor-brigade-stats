@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-15T16:02:47.764657Z",
+  "generated": "2026-04-15T19:32:50.123993Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4271,7 +4271,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 30,
+      "practices": 29,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -4308,16 +4308,6 @@
           "end_date": "2026-04-14",
           "summary": "13U OBA Rep - Indoor Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20232-sarniabrigade.ca",
-          "date": "2026-04-16",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-17",
-          "summary": "13U OBA Rep - Practice",
-          "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
         },
