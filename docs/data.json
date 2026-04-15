@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-15T10:02:58.207006Z",
+  "generated": "2026-04-15T16:02:47.764657Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 53,
+      "practices": 52,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -66,16 +66,6 @@
           "end_date": "2026-04-09",
           "summary": "8U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20265-sarniabrigade.ca",
-          "date": "2026-04-15",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-16",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
           "type": "practice",
           "cancelled": false
         },
@@ -4920,7 +4910,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 28,
+      "practices": 27,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -4967,16 +4957,6 @@
           "end_date": "2026-04-12",
           "summary": "14U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20413-sarniabrigade.ca",
-          "date": "2026-04-16",
-          "start_time": "8:00 PM",
-          "end_date": "2026-04-17",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
