@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-15T23:03:54.977793Z",
+  "generated": "2026-04-16T16:02:59.869403Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 52,
+      "practices": 51,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -64,16 +64,6 @@
           "date": "2026-04-09",
           "start_time": "5:00 PM",
           "end_date": "2026-04-09",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19951-sarniabrigade.ca",
-          "date": "2026-04-16",
-          "start_time": "5:00 PM",
-          "end_date": "2026-04-16",
           "summary": "8U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
@@ -280,6 +270,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20499-sarniabrigade.ca",
+          "date": "2026-06-01",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-02",
+          "summary": "8U OBA Rep - Game @ Corunna Giants [WC9U-067]",
+          "location": "Athletic Park (3)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20304-sarniabrigade.ca",
           "date": "2026-06-02",
           "start_time": "5:00 PM",
@@ -367,6 +367,16 @@
           "summary": "8U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20502-sarniabrigade.ca",
+          "date": "2026-06-22",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-23",
+          "summary": "8U OBA Rep - Game @ Alvinston Riverhawks [WC9U-085]",
+          "location": "Inwood Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -676,6 +686,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20499",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/20499/",
+          "date": "2026-06-01",
+          "start_time": "6:00 PM",
+          "opponent": "Corunna Giants WC9U-067 Athletic Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20317",
           "href": "https://sarniabrigade.ca/Teams/1290/Games/20317/",
           "date": "2026-06-07",
@@ -694,6 +716,18 @@
           "start_time": "12:30 PM",
           "opponent": "North London Nationals Clearwater Diamond",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20502",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/20502/",
+          "date": "2026-06-22",
+          "start_time": "6:00 PM",
+          "opponent": "Alvinston Riverhawks WC9U-085 Inwood Park",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -1667,7 +1701,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 38,
+      "practices": 37,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -1758,16 +1792,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-19650-sarniabrigade.ca",
-          "date": "2026-04-15",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-15",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20386-sarniabrigade.ca",
           "date": "2026-04-17",
           "start_time": "5:00 PM",
@@ -1812,7 +1836,7 @@
           "date": "2026-04-25",
           "start_time": "10:00 AM",
           "end_date": "2026-04-25",
-          "summary": "10U AA OBA Rep - Game vs 10UA OBA REP  [DH]",
+          "summary": "10U AA OBA Rep - Game vs 10UA Sarnia Brigade  [DH]",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -1885,6 +1909,16 @@
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20498-sarniabrigade.ca",
+          "date": "2026-05-19",
+          "start_time": "6:30 PM",
+          "end_date": "2026-05-20",
+          "summary": "10U AA OBA Rep - Game @ Corunna Giants [WC11U-068]",
+          "location": "Cameron Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -2276,6 +2310,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20498",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/20498/",
+          "date": "2026-05-19",
+          "start_time": "6:30 PM",
+          "opponent": "Corunna Giants WC11U-068 Cameron Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "19644",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/19644/",
           "date": "2026-05-23",
@@ -2407,7 +2453,7 @@
           {
             "date": "2026-04-25",
             "time": "10:00 AM",
-            "opponent": "10UA OBA REP",
+            "opponent": "10UA Sarnia Brigade",
             "venue": "Clearwater Diamond #2",
             "assigned_umpires": [],
             "accepted_umpires": [],
@@ -3656,6 +3702,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20501-sarniabrigade.ca",
+          "date": "2026-07-27",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-28",
+          "summary": "11U OBA Rep - Game @ Dresden Tigers [WC11U-039]",
+          "location": "McVean Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20092-sarniabrigade.ca",
           "date": "2026-07-28",
           "start_time": "6:00 PM",
@@ -3840,6 +3896,18 @@
           "start_time": "6:30 PM",
           "opponent": "Woodstock Wranglers Tecumseh Park",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20501",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20501/",
+          "date": "2026-07-27",
+          "start_time": "6:30 PM",
+          "opponent": "Dresden Tigers WC11U-039 McVean Park",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -4522,6 +4590,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20500-sarniabrigade.ca",
+          "date": "2026-06-01",
+          "start_time": "6:30 PM",
+          "end_date": "2026-06-02",
+          "summary": "13U OBA Rep - Game @ Corunna Giants [WC13U-16]",
+          "location": "Community Park (2)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20325-sarniabrigade.ca",
           "date": "2026-06-08",
           "start_time": "5:30 PM",
@@ -4774,6 +4852,18 @@
           "start_time": "5:00 PM",
           "opponent": "Woodstock Wranglers South Side Park West",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20500",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20500/",
+          "date": "2026-06-01",
+          "start_time": "6:30 PM",
+          "opponent": "Corunna Giants WC13U-16 Community Park",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
