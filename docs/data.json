@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-16T16:02:59.869403Z",
+  "generated": "2026-04-16T19:32:40.340541Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -220,6 +220,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20503-sarniabrigade.ca",
+          "date": "2026-05-20",
+          "start_time": "6:30 PM",
+          "end_date": "2026-05-21",
+          "summary": "8U OBA Rep - Game @ Wyoming Wranglers [WC9U-029]",
+          "location": "Kerr Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20261-sarniabrigade.ca",
           "date": "2026-05-24",
           "start_time": "1:00 PM",
@@ -347,6 +357,16 @@
           "summary": "8U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20506-sarniabrigade.ca",
+          "date": "2026-06-17",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-18",
+          "summary": "8U OBA Rep - Game @ Chatham Diamonds 8U [WC9U-002]",
+          "location": "Jaycee Park (2)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -510,6 +530,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20505-sarniabrigade.ca",
+          "date": "2026-07-23",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-24",
+          "summary": "8U OBA Rep - Game @ Wallaceburg Warriors [WC9U-024]",
+          "location": "Mike Childs Field",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20299-sarniabrigade.ca",
           "date": "2026-07-26",
           "start_time": "10:00 AM",
@@ -662,6 +692,18 @@
       ],
       "games": [
         {
+          "game_id": "20503",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/20503/",
+          "date": "2026-05-20",
+          "start_time": "6:30 PM",
+          "opponent": "Wyoming Wranglers WC9U-029 Kerr Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20261",
           "href": "https://sarniabrigade.ca/Teams/1290/Games/20261/",
           "date": "2026-05-24",
@@ -722,6 +764,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20506",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/20506/",
+          "date": "2026-06-17",
+          "start_time": "6:00 PM",
+          "opponent": "Chatham Diamonds 8U WC9U-002 Jaycee Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20502",
           "href": "https://sarniabrigade.ca/Teams/1290/Games/20502/",
           "date": "2026-06-22",
@@ -739,6 +793,18 @@
           "date": "2026-07-08",
           "start_time": "6:00 PM",
           "opponent": "North London Nationals North London Sports Fie",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20505",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/20505/",
+          "date": "2026-07-23",
+          "start_time": "6:30 PM",
+          "opponent": "Wallaceburg Warriors WC9U-024 Mike Childs Fiel",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -1073,8 +1139,8 @@
           "date": "2026-05-19",
           "start_time": "6:00 PM",
           "end_date": "2026-05-20",
-          "summary": "9U OBA Rep - Game @ Chatham Major Diamonds",
-          "location": "Chatham Jaycee Park",
+          "summary": "9U OBA Rep - Game @ Chatham Diamonds 9U [WC9U-070]",
+          "location": "Jaycee Park (1)",
           "type": "game",
           "cancelled": false
         },
@@ -1525,7 +1591,7 @@
           "href": "https://sarniabrigade.ca/Teams/1291/Games/19778/",
           "date": "2026-05-19",
           "start_time": "6:00 PM",
-          "opponent": "Chatham Major Diamonds Chatham Jaycee Park",
+          "opponent": "Chatham Diamonds 9U WC9U-070 Jaycee Park",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -2715,6 +2781,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20508-sarniabrigade.ca",
+          "date": "2026-05-12",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-13",
+          "summary": "10U A OBA Rep - Game @ Chatham Diamonds 10u [WC11U-066]",
+          "location": "Kinsmen Park (2)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20244-sarniabrigade.ca",
           "date": "2026-05-12",
           "start_time": "6:30 PM",
@@ -2905,6 +2981,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20504-sarniabrigade.ca",
+          "date": "2026-07-08",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-09",
+          "summary": "10U A OBA Rep - Game @ Wyoming Wranglers [WC11U-060]",
+          "location": "Krall",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20164-sarniabrigade.ca",
           "date": "2026-07-09",
           "start_time": "5:30 PM",
@@ -3035,6 +3121,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20509-sarniabrigade.ca",
+          "date": "2026-08-25",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-26",
+          "summary": "10U A OBA Rep - Game @ Chatham Diamonds 10u [WC11U-116]",
+          "location": "Kinsmen Park (2)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20259-sarniabrigade.ca",
           "date": "2026-08-25",
           "start_time": "6:30 PM",
@@ -3117,6 +3213,18 @@
       ],
       "games": [
         {
+          "game_id": "20508",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20508/",
+          "date": "2026-05-12",
+          "start_time": "6:00 PM",
+          "opponent": "Chatham Diamonds 10u WC11U-066 Kinsmen Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20407",
           "href": "https://sarniabrigade.ca/Teams/1311/Games/20407/",
           "date": "2026-05-31",
@@ -3135,6 +3243,30 @@
           "start_time": "6:30 PM",
           "opponent": "Essex Yellowjackets Tecumseh Park",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20504",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20504/",
+          "date": "2026-07-08",
+          "start_time": "6:30 PM",
+          "opponent": "Wyoming Wranglers WC11U-060 Krall More Details",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20509",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20509/",
+          "date": "2026-08-25",
+          "start_time": "6:00 PM",
+          "opponent": "Chatham Diamonds 10u WC11U-116 Kinsmen Park",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -3509,6 +3641,16 @@
           "summary": "11U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20507-sarniabrigade.ca",
+          "date": "2026-05-20",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-21",
+          "summary": "11U OBA Rep - Game @ Chatham Diamonds 11u [WC11U-101]",
+          "location": "Kinsmen Park (2)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -3902,6 +4044,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20507",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20507/",
+          "date": "2026-05-20",
+          "start_time": "6:00 PM",
+          "opponent": "Chatham Diamonds 11u WC11U-101 Kinsmen Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20501",
           "href": "https://sarniabrigade.ca/Teams/1293/Games/20501/",
           "date": "2026-07-27",
@@ -4090,8 +4244,8 @@
           "date": "2026-07-29",
           "start_time": "6:00 PM",
           "end_date": "2026-07-30",
-          "summary": "12U OBA Rep - Game @ Chatham Major Diamonds",
-          "location": "Kinsmen Park Chatham",
+          "summary": "12U OBA Rep - Game @ Chatham Diamonds 12U [WC13U-69]",
+          "location": "Kinsmen Park (1)",
           "type": "game",
           "cancelled": false
         },
@@ -4200,7 +4354,7 @@
           "href": "https://sarniabrigade.ca/Teams/1294/Games/19985/",
           "date": "2026-07-29",
           "start_time": "6:00 PM",
-          "opponent": "Chatham Major Diamonds Kinsmen Park Chatham",
+          "opponent": "Chatham Diamonds 12U WC13U-69 Kinsmen Park",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -5275,7 +5429,7 @@
           "date": "2026-05-24",
           "start_time": "10:00 AM",
           "end_date": "2026-05-24",
-          "summary": "14U OBA Rep - Game @ Chatham Minor Diamonds",
+          "summary": "14U OBA Rep - Game @ Chatham Diamonds 14U [WC15U-029]",
           "location": "Fergie Jenkins Field",
           "type": "game",
           "cancelled": false
@@ -5283,9 +5437,9 @@
         {
           "uid": "MS-20444-sarniabrigade.ca",
           "date": "2026-05-24",
-          "start_time": "2:00 PM",
+          "start_time": "12:00 PM",
           "end_date": "2026-05-24",
-          "summary": "14U OBA Rep - Game @ Chatham Minor Diamonds",
+          "summary": "14U OBA Rep - Game @ Chatham Diamonds 14U [WC15U-084]",
           "location": "Fergie Jenkins Field",
           "type": "game",
           "cancelled": false
@@ -5308,6 +5462,16 @@
           "summary": "14U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20510-sarniabrigade.ca",
+          "date": "2026-05-26",
+          "start_time": "7:00 PM",
+          "end_date": "2026-05-27",
+          "summary": "14U OBA Rep - Game @ Chatham Diamonds 15U [WC15U-028]",
+          "location": "Fergie Jenkins Field",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -5559,7 +5723,7 @@
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20443/",
           "date": "2026-05-24",
           "start_time": "10:00 AM",
-          "opponent": "Chatham Minor Diamonds Fergie Jenkins Field",
+          "opponent": "Chatham Diamonds 14U WC15U-029 Fergie Jenkins",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -5570,8 +5734,20 @@
           "game_id": "20444",
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20444/",
           "date": "2026-05-24",
-          "start_time": "2:00 PM",
-          "opponent": "Chatham Minor Diamonds Fergie Jenkins Field",
+          "start_time": "12:00 PM",
+          "opponent": "Chatham Diamonds 14U WC15U-084 Fergie Jenkins",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20510",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20510/",
+          "date": "2026-05-26",
+          "start_time": "7:00 PM",
+          "opponent": "Chatham Diamonds 15U WC15U-028 Fergie Jenkins",
           "home": false,
           "result": null,
           "brigade_score": null,
