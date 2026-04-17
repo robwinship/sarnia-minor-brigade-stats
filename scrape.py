@@ -924,7 +924,6 @@ def parse_ics_events(text: str) -> list:
         location_m = re.search(r"^LOCATION:(.*?)$", block, re.MULTILINE)
         uid_m = re.search(r"^UID:(.*?)$", block, re.MULTILINE)
         desc_m = re.search(r"^DESCRIPTION:(.*?)$", block, re.MULTILINE)
-        status_m = re.search(r"^STATUS:(.*?)$", block, re.MULTILINE)
 
         if not start_m:
             continue
@@ -954,12 +953,6 @@ def parse_ics_events(text: str) -> list:
         else:
             event_type = classify_event(summary)
 
-        cancelled = False
-        if status_m:
-            status_val = status_m.group(1).strip().upper()
-            if status_val in ("CANCELLED", "CANCELED"):
-                cancelled = True
-
         events.append({
             "uid": uid_m.group(1).strip() if uid_m else None,
             "date": start_date,
@@ -968,7 +961,6 @@ def parse_ics_events(text: str) -> list:
             "summary": summary,
             "location": location,
             "type": event_type,
-            "cancelled": cancelled,
         })
 
     return events
@@ -1019,12 +1011,6 @@ def parse_schedule(html: str, month: int, year: int) -> list:
             continue
         game_href = href_m.group(1)
         game_id   = href_m.group(2)
-
-        # Detect if this segment is marked as cancelled (look for class="cancelled" in a parent div)
-        cancelled = False
-        div_cancelled_m = re.search(r'<div[^>]*class="[^"]*cancelled[^"]*"', seg)
-        if div_cancelled_m:
-            cancelled = True
 
         # Grab text up to the next game anchor, venue block, or heading
         content_m = re.search(
@@ -1099,7 +1085,6 @@ def parse_schedule(html: str, month: int, year: int) -> list:
             "result":       result,
             "brigade_score": brigade_score,
             "opp_score":    opp_score,
-            "cancelled":    cancelled,
         })
 
     return games
@@ -1249,45 +1234,17 @@ def main():
     else:
         print(f"  WARN  Umpire assignment data unavailable ({cp_status.get('reason')}).")
 
-
     results = []
-    cancellations = []
     for team in TEAMS:
         print(f"\n[{team['name']}]")
         try:
-            team_data = collect_team(
-                team,
-                team_assignments.get(team["id"], []),
-                cp_status,
+            results.append(
+                collect_team(
+                    team,
+                    team_assignments.get(team["id"], []),
+                    cp_status,
+                )
             )
-            results.append(team_data)
-            # Aggregate cancelled events (games and practices)
-            # Practices: look for event['cancelled'] or 'CANCELLED' in summary
-            # NOTE: cancelled games are handled by the 'games' loop below (richer detail).
-            for event in team_data.get("events", []):
-                if event.get("type") == "practice":
-                    if event.get("cancelled") or "CANCELLED" in event.get("summary", "").upper():
-                        cancellations.append({
-                            "team_id": team["id"],
-                            "team_name": team["name"],
-                            "type": event.get("type"),
-                            "date": event.get("date"),
-                            "start_time": event.get("start_time"),
-                            "summary": event.get("summary"),
-                            "location": event.get("location"),
-                        })
-            # Games: if any game has a 'cancelled' property or 'CANCELLED' in summary (if available)
-            for game in team_data.get("games", []):
-                if game.get("cancelled") or "CANCELLED" in str(game.get("summary", "")).upper():
-                    cancellations.append({
-                        "team_id": team["id"],
-                        "team_name": team["name"],
-                        "type": "game",
-                        "date": game.get("date"),
-                        "start_time": game.get("start_time"),
-                        "summary": game.get("summary", ""),
-                        "location": game.get("location", ""),
-                    })
         except Exception as exc:
             print(f"  ERROR: {exc}", file=sys.stderr)
 
@@ -1298,13 +1255,12 @@ def main():
         "generated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "umpire_data_status": cp_status,
         "teams":     results,
-        "cancellations": cancellations,
     }
 
     with open(out_path, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, indent=2)
 
-    print(f"\n✓  Wrote {out_path}  ({len(results)} teams processed, {len(cancellations)} cancellations)")
+    print(f"\n✓  Wrote {out_path}  ({len(results)} teams processed)")
 
 
 if __name__ == "__main__":

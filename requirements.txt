@@ -1,0 +1,2 @@
+# Browser automation is used for authenticated Officials scraping.
+playwright>=1.52.0

@@ -1,0 +1,2576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarnia Brigade — Season Summary</title>
+  <style>
+    /* ---------------------------------------------------------------
+       Design tokens
+    ---------------------------------------------------------------- */
+    :root {
+      --brand:     #002d62;   /* deep navy */
+      --brand-mid: #003f8a;
+      --accent:    #f5a800;   /* gold      */
+      --bg:        #f0f3f8;
+      --card:      #ffffff;
+      --border:    #d3dae8;
+      --text:      #1a1f2e;
+      --muted:     #6b7585;
+      --th-bg:     #eef1f8;
+
+      --w-bg: #d1fae5; --w-fg: #065f46;
+      --l-bg: #fee2e2; --l-fg: #991b1b;
+      --t-bg: #fef9c3; --t-fg: #78350f;
+    }
+
+    /* ---------------------------------------------------------------
+       Reset / base
+    ---------------------------------------------------------------- */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ---------------------------------------------------------------
+       Page header
+    ---------------------------------------------------------------- */
+    header {
+      background: linear-gradient(135deg, var(--brand) 0%, var(--brand-mid) 100%);
+      color: #fff;
+      padding: 1.4rem 2rem 1.2rem;
+    }
+
+    .header-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+
+    .title-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .header-logo {
+      width: 56px;
+      height: 56px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
+    header h1 {
+      font-size: 1.9rem;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      line-height: 1.1;
+    }
+
+    header h1 .accent { color: var(--accent); }
+
+    .header-sub {
+      margin-top: 0.3rem;
+      font-size: 1rem;
+      opacity: 0.82;
+    }
+
+    #last-updated {
+      margin-top: 0.2rem;
+      font-size: 0.72rem;
+      opacity: 0.55;
+    }
+
+    .header-actions {
+      margin-top: 0.9rem;
+      display: flex;
+      gap: 0.7rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .action-button {
+      appearance: none;
+      border: 1px solid rgba(255,255,255,0.22);
+      background: rgba(255,255,255,0.12);
+      color: #fff;
+      padding: 0.58rem 0.9rem;
+      border-radius: 999px;
+      font-size: 0.84rem;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.12s, transform 0.12s;
+    }
+
+    .action-button:hover {
+      background: rgba(255,255,255,0.2);
+      transform: translateY(-1px);
+    }
+
+    .action-button:disabled {
+      opacity: 0.6;
+      cursor: wait;
+      transform: none;
+    }
+
+    .action-button--accent {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: var(--brand);
+    }
+
+    .action-button--accent:hover {
+      background: #ffc13a;
+    }
+
+    .header-help {
+      font-size: 0.76rem;
+      opacity: 0.72;
+    }
+
+    .controls-card,
+    .pitch-card {
+      margin-bottom: 1.25rem;
+      border-radius: 0.7rem;
+      background: var(--card);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 1rem;
+    }
+
+    .controls-row {
+      display: flex;
+      gap: 0.9rem;
+      flex-wrap: wrap;
+      align-items: end;
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      min-width: 160px;
+    }
+
+    .control-group label {
+      font-size: 0.74rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .control-group input {
+      border: 1px solid var(--border);
+      border-radius: 0.55rem;
+      padding: 0.62rem 0.72rem;
+      font: inherit;
+      color: var(--text);
+      background: #fff;
+    }
+
+    .control-actions {
+      display: flex;
+      gap: 0.65rem;
+      flex-wrap: wrap;
+    }
+
+    .page-button {
+      appearance: none;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--brand);
+      padding: 0.62rem 1rem;
+      font-size: 0.86rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .page-button:hover {
+      background: #f8fbff;
+    }
+
+    .page-button--primary {
+      background: var(--brand);
+      border-color: var(--brand);
+      color: #fff;
+    }
+
+    .page-button--primary:hover {
+      background: var(--brand-mid);
+    }
+
+    .controls-note {
+      margin-top: 0.8rem;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .pitch-topline {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: baseline;
+      margin-bottom: 0.75rem;
+    }
+
+    .pitch-summary {
+      list-style: none;
+      cursor: pointer;
+    }
+
+    .pitch-summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .pitch-summary .section-title::after {
+      content: " (click to expand)";
+      font-size: 0.74rem;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    .pitch-card[open] .pitch-summary .section-title::after {
+      content: " (click to collapse)";
+    }
+
+    .section-title {
+      font-size: 1rem;
+      font-weight: 800;
+      color: var(--brand);
+    }
+
+    .section-subtitle {
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .pitch-metric {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.45rem 0.75rem;
+      background: #fff7df;
+      color: #6b4e00;
+      border-radius: 999px;
+      font-size: 0.84rem;
+      font-weight: 800;
+    }
+
+    .pitch-list {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.84rem;
+    }
+
+    .pitch-list th,
+    .pitch-list td {
+      padding: 0.6rem 0.55rem;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .pitch-list th {
+      font-size: 0.7rem;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--muted);
+      background: var(--th-bg);
+    }
+
+    .event-type-pill {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 0.12rem 0.5rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      background: #e8eefb;
+      color: var(--brand);
+    }
+
+    .count-details {
+      display: inline-block;
+      text-align: left;
+    }
+
+    .count-details summary {
+      list-style: none;
+    }
+
+    .count-details summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .expand-chip {
+      display: inline-block;
+      min-width: 2.2rem;
+      border-radius: 999px;
+      border: 1px solid #c9d6f4;
+      background: #eef3ff;
+      color: var(--brand);
+      padding: 0.15rem 0.55rem;
+      font-size: 0.78rem;
+      font-weight: 800;
+      text-align: center;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .details-list {
+      margin-top: 0.4rem;
+      border: 1px solid var(--border);
+      border-radius: 0.55rem;
+      background: #fff;
+      min-width: 230px;
+      max-width: min(320px, calc(100vw - 2rem));
+      max-height: 190px;
+      overflow: auto;
+      font-size: 0.76rem;
+      padding: 0.35rem;
+    }
+
+    .details-item {
+      padding: 0.24rem 0.26rem;
+      border-bottom: 1px solid #eef2f9;
+      line-height: 1.3;
+    }
+
+    .details-item:last-child {
+      border-bottom: none;
+    }
+
+    .issue-summary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      cursor: pointer;
+    }
+
+    .issue-chip {
+      display: inline-block;
+      min-width: 2.35rem;
+      border-radius: 999px;
+      padding: 0.12rem 0.48rem;
+      font-size: 0.7rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      border: 1px solid transparent;
+      text-align: center;
+    }
+
+    .issue-chip--past {
+      background: #ffe7e7;
+      color: #8c1f1f;
+      border-color: #efc1c1;
+    }
+
+    .issue-chip--upcoming {
+      background: #fff2dc;
+      color: #8c5500;
+      border-color: #f0d2a0;
+    }
+
+    .issue-detail-item {
+      border-left: 3px solid transparent;
+      padding-left: 0.38rem;
+    }
+
+    .issue-detail-item--past {
+      border-left-color: #d94d4d;
+      background: #fff5f5;
+    }
+
+    .issue-detail-item--upcoming {
+      border-left-color: #d28a00;
+      background: #fff9ef;
+    }
+
+    .issue-legend {
+      display: flex;
+      gap: 0.45rem;
+      flex-wrap: wrap;
+      margin-top: 0.55rem;
+    }
+
+    .details-date {
+      font-weight: 700;
+      color: #26385f;
+      margin-right: 0.35rem;
+    }
+
+    /* ---------------------------------------------------------------
+       Main content
+    ---------------------------------------------------------------- */
+    main {
+      max-width: 1120px;
+      margin: 1.8rem auto 3rem;
+      padding: 0 1rem;
+    }
+
+    /* ---------------------------------------------------------------
+       Category blocks
+    ---------------------------------------------------------------- */
+    .cat-block {
+      margin-bottom: 1.8rem;
+      border-radius: 0.6rem;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      background: var(--card);
+    }
+
+    .cat-header {
+      background: var(--brand);
+      color: #fff;
+      padding: 0.55rem 1rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border-left: 4px solid var(--accent);
+    }
+
+    /* ---------------------------------------------------------------
+       Stats table
+    ---------------------------------------------------------------- */
+    .stats-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+
+    .stats-table thead th {
+      background: var(--th-bg);
+      padding: 0.45rem 0.8rem;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-bottom: 2px solid var(--border);
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .stats-table thead th.col-team { text-align: left; }
+
+    .stats-table tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.1s;
+    }
+
+    .stats-table tbody tr:last-child { border-bottom: none; }
+    .stats-table tbody tr:hover { background: #f5f8ff; }
+
+    .stats-table td {
+      padding: 0.55rem 0.8rem;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .col-team {
+      text-align: left !important;
+      font-weight: 600;
+      min-width: 155px;
+    }
+
+    /* Freeze first column while table scrolls horizontally */
+    .table-scroll .stats-table td.col-team,
+    .table-scroll .stats-table th.col-team {
+      position: sticky;
+      left: 0;
+      z-index: 1;
+    }
+
+    .table-scroll .stats-table td.col-team {
+      background: var(--card);
+    }
+
+    .table-scroll .stats-table tr:hover td.col-team {
+      background: #f5f8ff;
+    }
+
+    .table-scroll .stats-table thead th.col-team {
+      background: var(--th-bg);
+      z-index: 2;
+    }
+
+    /* ---------------------------------------------------------------
+       Cell styles
+    ---------------------------------------------------------------- */
+    .wins   { color: var(--w-fg); font-weight: 700; }
+    .losses { color: var(--l-fg); font-weight: 700; }
+    .ties   { color: var(--t-fg); font-weight: 700; }
+    .zero   { color: #bbc4d4; }
+
+    /* Win percentage */
+    .pct-good { color: var(--w-fg); font-weight: 700; }
+    .pct-bad  { color: var(--l-fg); }
+    .pct-none { color: #bbc4d4; }
+
+
+
+    /* Practice badge */
+    .practice-badge {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--brand);
+      border-radius: 999px;
+      padding: 0.15rem 0.65rem;
+      font-size: 0.78rem;
+      font-weight: 800;
+      min-width: 2.2rem;
+      text-align: center;
+    }
+
+    .practice-badge.zero-badge {
+      background: #e5e9f2;
+      color: #9aa5be;
+    }
+
+    /* Record string */
+    .record { letter-spacing: 0.03em; }
+
+    /* ---------------------------------------------------------------
+       Empty / loading states
+    ---------------------------------------------------------------- */
+    #loading {
+      text-align: center;
+      padding: 4rem 1rem;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .no-data-msg {
+      text-align: center;
+      padding: 1.4rem 1rem;
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-style: italic;
+    }
+
+    /* ---------------------------------------------------------------
+       Footer
+    ---------------------------------------------------------------- */
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem 2rem;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    footer a { color: var(--brand); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    footer .dot { margin: 0 0.4rem; }
+
+    /* ---------------------------------------------------------------
+       Responsive
+    ---------------------------------------------------------------- */
+    @media (max-width: 680px) {
+      header { padding: 1rem; }
+      header h1 { font-size: 1.45rem; }
+      .stats-table { font-size: 0.75rem; }
+      .stats-table thead th,
+      .stats-table td { padding: 0.35rem 0.3rem; }
+      .col-team { min-width: 90px; }
+      .expand-chip { padding: 0.1rem 0.4rem; font-size: 0.72rem; min-width: 1.8rem; }
+      .controls-row,
+      .pitch-topline { flex-direction: column; align-items: stretch; }
+      .control-group { min-width: 100%; }
+      .tab-btn { padding: 0.65rem 0.8rem; font-size: 0.82rem; }
+    }
+
+    /* ---------------------------------------------------------------
+       Tab navigation
+    ---------------------------------------------------------------- */
+    .tab-bar {
+      display: flex;
+      flex-wrap: wrap;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 1.4rem;
+      overflow-x: visible;
+    }
+
+    .tab-btn {
+      appearance: none;
+      border: none;
+      border-bottom: 3px solid transparent;
+      margin-bottom: -2px;
+      background: none;
+      padding: 0.55rem 0.7rem;
+      font: inherit;
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--muted);
+      cursor: pointer;
+      transition: color 0.12s, border-color 0.12s;
+      white-space: nowrap;
+      flex-shrink: 0;
+      min-width: 110px;
+      max-width: 180px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      flex-grow: 1;
+    }
+
+    .tab-btn:hover { color: var(--text); }
+
+    .tab-btn--active {
+      color: var(--brand);
+      border-bottom-color: var(--brand);
+    }
+
+    /* ---------------------------------------------------------------
+       Tournament filter / table
+    ---------------------------------------------------------------- */
+    .control-group select {
+      border: 1px solid var(--border);
+      border-radius: 0.55rem;
+      padding: 0.62rem 0.72rem;
+      font: inherit;
+      color: var(--text);
+      background: #fff;
+    }
+
+    .tourn-table td { text-align: left; }
+
+    .budget-input-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0.8rem;
+      margin-top: 0.7rem;
+    }
+
+    .money-cell {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .budget-total-cell {
+      font-weight: 700;
+      color: var(--brand);
+    }
+
+    /* ---------------------------------------------------------------
+       Scrollable table wrapper (mobile)
+    ---------------------------------------------------------------- */
+    .table-scroll {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="title-wrap">
+      <img src="assets/brigade-logo.png" alt="Sarnia Brigade logo" class="header-logo" />
+      <h1>Sarnia <span class="accent">Brigade</span></h1>
+    </div>
+    <div class="header-sub" id="season-subtitle">Season Summary</div>
+    <div id="last-updated"></div>
+    <div class="header-actions">
+      <button id="refresh-button" class="action-button action-button--accent" type="button">Get Update</button>
+      <a class="action-button" href="https://github.com/robwinship/sarnia-minor-brigade-stats/actions/workflows/update.yml" target="_blank" rel="noopener">Run Update</a>
+      <div class="header-help">Get Update reloads the published data. Run Update opens the manual GitHub Actions job.</div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="tab-bar" role="tablist">
+    <button class="tab-btn tab-btn--active" id="tab-stats" role="tab" aria-selected="true" aria-controls="view-stats">Season Stats</button>
+    <button class="tab-btn" id="tab-tournaments" role="tab" aria-selected="false" aria-controls="view-tournaments">Tournaments</button>
+    <button class="tab-btn" id="tab-diamonds" role="tab" aria-selected="false" aria-controls="view-diamonds">Diamond Summary</button>
+      <button class="tab-btn" id="tab-cancellations" role="tab" aria-selected="false" aria-controls="view-cancellations">Cancellations</button>
+    <button class="tab-btn" id="tab-playing-today" role="tab" aria-selected="false" aria-controls="view-playing-today">Playing Today</button>
+    <button class="tab-btn" id="tab-umpire-issues" role="tab" aria-selected="false" aria-controls="view-umpire-issues">Umpire Issues</button>
+    <button class="tab-btn" id="tab-budget" role="tab" aria-selected="false" aria-controls="view-budget">Budget Model</button>
+      <button class="tab-btn" id="btn-coach-status" type="button" onclick="window.open('https://robwinship.github.io/coach-certification/index.html', '_blank')">Coach Status</button>
+  </div>
+
+  <div id="view-stats">
+  <section class="controls-card" aria-label="Date range filter">
+    <div class="controls-row">
+      <div class="control-group">
+        <label for="start-date">Start Date</label>
+        <input id="start-date" type="date" />
+      </div>
+      <div class="control-group">
+        <label for="end-date">End Date</label>
+        <input id="end-date" type="date" />
+      </div>
+      <div class="control-actions">
+        <button id="apply-filter" class="page-button page-button--primary" type="button">Apply Range</button>
+        <button id="reset-filter" class="page-button" type="button">Full Season</button>
+      </div>
+    </div>
+    <div class="controls-note" id="range-summary">Showing full season totals.</div>
+  </section>
+
+  <details class="pitch-card" aria-label="Pitch Indoor Sports tracker">
+    <summary class="pitch-summary">
+      <div class="pitch-topline">
+        <div class="section-title">Pitch Indoor Sports Tracker</div>
+        <div class="pitch-metric" id="pitch-count">0 matching events</div>
+      </div>
+    </summary>
+    <div class="section-subtitle">All team events and practices scheduled at Pitch Indoor Sports in the selected date range.</div>
+    <div id="pitch-results"></div>
+  </details>
+
+  <div id="loading">Loading season data&hellip;</div>
+  <div id="grid" style="display:none"></div>
+  </div><!-- /view-stats -->
+
+  <div id="view-tournaments" style="display:none">
+    <div class="controls-card" aria-label="Tournament filter">
+      <div class="controls-row">
+        <div class="control-group">
+          <label for="tournament-team-filter">Filter by Team</label>
+          <select id="tournament-team-filter">
+            <option value="">All Teams</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div id="tournament-body"></div>
+  </div><!-- /view-tournaments -->
+
+  <div id="view-diamonds" style="display:none">
+    <div class="controls-card" aria-label="Diamond summary filters">
+      <div class="controls-row">
+        <div class="control-group">
+          <label for="diamond-start-date">Start Date</label>
+          <input id="diamond-start-date" type="date" />
+        </div>
+        <div class="control-group">
+          <label for="diamond-end-date">End Date</label>
+          <input id="diamond-end-date" type="date" />
+        </div>
+        <div class="control-group">
+          <label for="diamond-team-filter">Filter by Team</label>
+          <select id="diamond-team-filter">
+            <option value="">All Teams</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="diamond-location-filter">Filter by Diamond</label>
+          <select id="diamond-location-filter">
+            <option value="">All Diamonds</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="diamond-view-mode">View</label>
+          <select id="diamond-view-mode">
+            <option value="team">Grouped by Team</option>
+            <option value="diamond">Grouped by Diamond</option>
+          </select>
+        </div>
+        <div class="control-actions">
+          <button id="diamond-apply-filter" class="page-button page-button--primary" type="button">Apply Range</button>
+          <button id="diamond-reset-filter" class="page-button" type="button">Full Season</button>
+        </div>
+      </div>
+      <div class="controls-note" id="diamond-range-summary">Showing full season totals.</div>
+      <div class="controls-note">Home usage counts Home Games (from schedule home flags) and Practices (from calendar practice events), limited to approved Sarnia home-center diamonds.</div>
+    </div>
+    <div id="diamond-body"></div>
+  </div><!-- /view-diamonds -->
+
+    <div id="view-cancellations" style="display:none">
+      <div class="controls-card" aria-label="Cancellations summary">
+        <div class="section-title">Cancellations</div>
+        <div class="controls-note">This tab lists all cancelled practices and games by team. Expand a team to see the cancelled dates.</div>
+        <div id="cancellations-body"></div>
+      </div>
+    </div><!-- /view-cancellations -->
+
+  <div id="view-playing-today" style="display:none">
+    <div class="controls-card" aria-label="Playing today summary">
+      <div class="section-title">Teams Playing Today</div>
+      <div class="controls-note" id="playing-today-date">Loading...</div>
+      <div class="controls-note">Includes practices plus home and away games active on the current day.</div>
+      <div class="controls-note">Event times are shown when available in the source calendars; otherwise marked as TBD.</div>
+    </div>
+    <div id="playing-today-body"></div>
+  </div><!-- /view-playing-today -->
+
+  <div id="view-umpire-issues" style="display:none">
+    <div class="controls-card" aria-label="Umpire issue summary">
+      <div class="section-title">Umpire Issues</div>
+      <div class="controls-note">Tracks games with fewer than two assigned umpires and doubleheader dates where umpire pairs were not consistent across games. Top-line metrics count only past dates; upcoming discrepancies are planning indicators.</div>
+      <div class="issue-legend" aria-label="Umpire issue legend">
+        <span class="issue-chip issue-chip--past">Past</span>
+        <span class="issue-chip issue-chip--upcoming">Upcoming</span>
+      </div>
+      <div class="controls-note" id="umpire-issues-status">Loading umpire assignment status...</div>
+    </div>
+    <div id="umpire-issues-body"></div>
+  </div><!-- /view-umpire-issues -->
+
+  <div id="view-budget" style="display:none">
+    <div class="controls-card" aria-label="Budget model controls">
+      <div class="section-title">Budget Model</div>
+      <div class="controls-note">Costs are estimates. Insurance is charged per roster member annually (default: $7.52 + 1.13% tax = $7.60/person). Diamond rates are hourly with day/evening splits and a 2-hour booking assumption; if time is missing, a 2-hour day rate is used. Only configured home diamonds are priced; others default to $0.</div>
+
+      <div class="controls-row" style="margin-top:0.8rem;">
+        <div class="control-group">
+          <label for="budget-start-date">Start Date</label>
+          <input id="budget-start-date" type="date" />
+        </div>
+        <div class="control-group">
+          <label for="budget-end-date">End Date</label>
+          <input id="budget-end-date" type="date" />
+        </div>
+        <div class="control-actions">
+          <button id="budget-apply-filter" class="page-button page-button--primary" type="button">Apply Range</button>
+          <button id="budget-reset-filter" class="page-button" type="button">Full Season</button>
+        </div>
+      </div>
+
+      <div class="budget-input-grid">
+        <div class="control-group">
+          <label for="cost-dia-a-day">Diamond Day Rate: Errol/Blackwell (CAD/hr)</label>
+          <input id="cost-dia-a-day" type="number" min="0" step="0.01" value="38.18" />
+        </div>
+        <div class="control-group">
+          <label for="cost-dia-a-evening">Diamond Evening Rate: Errol/Blackwell (CAD/hr)</label>
+          <input id="cost-dia-a-evening" type="number" min="0" step="0.01" value="55.12" />
+        </div>
+        <div class="control-group">
+          <label for="cost-dia-b-day">Diamond Day Rate: Clearwater/Germain/Tecumseh (CAD/hr)</label>
+          <input id="cost-dia-b-day" type="number" min="0" step="0.01" value="34.13" />
+        </div>
+        <div class="control-group">
+          <label for="cost-dia-b-evening">Diamond Evening Rate: Clearwater/Germain/Tecumseh (CAD/hr)</label>
+          <input id="cost-dia-b-evening" type="number" min="0" step="0.01" value="51.07" />
+        </div>
+        <div class="control-group">
+          <label for="cost-umpire-8u9u">Umpire Rate: 8U &amp; 9U (CAD)</label>
+          <input id="cost-umpire-8u9u" type="number" min="0" step="0.01" value="46" />
+        </div>
+        <div class="control-group">
+          <label for="cost-umpire-10u11u">Umpire Rate: 10U &amp; 11U (CAD)</label>
+          <input id="cost-umpire-10u11u" type="number" min="0" step="0.01" value="51" />
+        </div>
+        <div class="control-group">
+          <label for="cost-umpire-12u13u">Umpire Rate: 12U &amp; 13U (CAD)</label>
+          <input id="cost-umpire-12u13u" type="number" min="0" step="0.01" value="56" />
+        </div>
+        <div class="control-group">
+          <label for="cost-umpire-14u">Umpire Rate: 14U+ (CAD)</label>
+          <input id="cost-umpire-14u" type="number" min="0" step="0.01" value="66" />
+        </div>
+        <div class="control-group">
+          <label for="cost-ins-person">Insurance per Person (CAD)</label>
+          <input id="cost-ins-person" type="number" min="0" step="0.01" value="7.60" />
+        </div>
+      </div>
+
+      <div class="controls-note" id="budget-range-summary">Showing full season cost model.</div>
+    </div>
+    <div id="budget-body"></div>
+  </div><!-- /view-budget -->
+</main>
+
+<footer>
+  Data sourced from
+  <a href="https://www.sarniabrigade.ca" target="_blank" rel="noopener">sarniabrigade.ca</a>
+  <span class="dot">&bull;</span>
+  <a href="https://github.com/robwinship/sarnia-minor-brigade-stats" target="_blank" rel="noopener">View on GitHub</a>
+</footer>
+
+<script>
+"use strict";
+
+/* ----------------------------------------------------------------
+   Category render order
+---------------------------------------------------------------- */
+const CATEGORY_ORDER = [
+  "OBA Rep",
+  "Select",
+  "River League",
+  "House League",
+  "Senior",
+  "Instructional",
+];
+const HIDDEN_TEAM_NAMES = new Set([
+  "22U AAA",
+  "Senior AAA",
+]);
+const CATEGORY_DISPLAY_NAME_MAP = {
+  Senior: "PBLO",
+};
+
+const PITCH_LOCATION_RE = /pitch indoor sports/i;
+const DIAMOND_RATE_GROUP_A = new Set([
+  "Blackwell Park",
+  "Errol Russell Park",
+].map(normalizeVenueName));
+const DIAMOND_RATE_GROUP_B = new Set([
+  "Clearwater Diamond #1",
+  "Clearwater Diamond #2",
+  "Clearwater Diamond #3",
+  "Germain Diamond #1",
+  "Germain Diamond #2",
+  "Germain Diamond #3",
+  "Germain Diamond #4",
+  "Germain Diamond #5",
+  "Tecumseh Park",
+].map(normalizeVenueName));
+const LOCAL_HOME_DIAMONDS = new Set([
+  "Aamjiwnaang - Maawn Doosh Gumig Community and Youth Centre",
+  "Aamjiwnaang Chipadome Baseball Field",
+  "Alvinston North Diamond",
+  "Alvinston South Diamond",
+  "Blackwell North",
+  "Blackwell Park",
+  "Cameron Park",
+  "Canton Park",
+  "Chippewa Diamond #1",
+  "Chippewa Diamond #2",
+  "Clearwater Diamond #1",
+  "Clearwater Diamond #2",
+  "Clearwater Diamond #3",
+  "Clearwater Diamond #4",
+  "Coronation Park Diamond",
+  "Errol Road Public School",
+  "Errol Russell Park",
+  "Germain Diamond #1",
+  "Germain Diamond #2",
+  "Germain Diamond #3",
+  "Germain Diamond #4",
+  "Germain Diamond #5",
+  "Great Lakes SS",
+  "Lambton College",
+  "Northern Collegiate High School - Gym A",
+  "Oil Springs Youth Centre",
+  "Point Edward McCrae Park",
+  "Retlaw Park",
+  "Rosedale Public School",
+  "Royal SCITS Academy",
+  "St. Francois Xavier Secondary School",
+  "Suncor Recreation Centre",
+  "Tecumseh Park",
+].map(normalizeVenueName));
+let loadedData = null;
+// ----------------------------------------------------------------
+// Cancellations tab
+// ----------------------------------------------------------------
+function renderCancellations() {
+  const body = document.getElementById("cancellations-body");
+  if (!body) return;
+  if (!loadedData || !(loadedData.teams ?? []).length) {
+    body.innerHTML = `<div class="no-data-msg">No season data available yet.</div>`;
+    return;
+  }
+
+  // Extract cancelled practices and games per team
+  const visibleTeams = getVisibleTeams(loadedData.teams ?? []);
+  const grouped = {};
+  for (const team of visibleTeams) {
+    const cat = team.category || "Other";
+    (grouped[cat] = grouped[cat] ?? []).push(team);
+  }
+  const present = CATEGORY_ORDER.filter(c => grouped[c]);
+  for (const c of Object.keys(grouped)) {
+    if (!present.includes(c)) present.push(c);
+  }
+
+  const cancellationRows = Array.isArray(loadedData.cancellations) ? loadedData.cancellations : [];
+
+  let html = "";
+  for (const cat of present) {
+    html += `<div class="cat-block"><div class="cat-header">${escHtml(getDisplayCategoryName(cat))}</div>`;
+    html += `<div class="table-scroll"><table class="stats-table" aria-label="${escHtml(getDisplayCategoryName(cat))} cancellations"><thead><tr><th class="col-team">Team</th><th>Cancelled Practices</th><th>Cancelled Games</th></tr></thead><tbody>`;
+    for (const team of grouped[cat]) {
+      // Prefer scraper-aggregated cancellations when present.
+      let cancelledPractices = cancellationRows.filter(item =>
+        Number(item?.team_id) === Number(team.id)
+        && String(item?.type || "").toLowerCase() === "practice"
+      );
+      let cancelledGames = cancellationRows.filter(item =>
+        Number(item?.team_id) === Number(team.id)
+        && String(item?.type || "").toLowerCase() === "game"
+      );
+
+      // Fallback for older payloads missing the aggregated cancellations array.
+      if (!cancellationRows.length) {
+        cancelledPractices = (team.events ?? []).filter(e =>
+          e.type === "practice" && (e.cancelled || /cancelled/i.test(String(e.summary || ""))));
+        cancelledGames = [
+          ...(team.events ?? []).filter(e =>
+            e.type === "game" && (e.cancelled || /cancelled/i.test(String(e.summary || "")))),
+          ...(team.games ?? []).filter(g =>
+            g.cancelled || /cancelled/i.test(String(g.summary || "")))
+            .map(g => ({
+              date: g.date,
+              start_time: g.start_time,
+              summary: g.summary || (g.opponent ? `Game vs ${g.opponent}` : "Game"),
+              location: g.location || "",
+            })),
+        ];
+      }
+
+      html += `<tr><td class="col-team">${escHtml(team.name)}</td><td>${buildExpandableCountCell(cancelledPractices, "Practice")}</td><td>${buildExpandableCountCell(cancelledGames, "Game")}</td></tr>`;
+    }
+    html += `</tbody></table></div></div>`;
+  }
+  body.innerHTML = html;
+}
+
+/* ----------------------------------------------------------------
+   Helpers
+---------------------------------------------------------------- */
+function escHtml(s) {
+  return String(s ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+function normalizeVenueName(name) {
+  return String(name || "").toLowerCase().replace(/\s+/g, " ").trim();
+}
+
+function pct(wins, gp) {
+  if (!gp) return null;
+  return wins / gp;
+}
+
+function fmtPct(p) {
+  if (p === null) return "—";
+  // Baseball style:  .500  .333  1.000
+  const s = p.toFixed(3);
+  return s.startsWith("1") ? "1.000" : s.replace(/^0/, "");
+}
+
+function pctClass(p) {
+  if (p === null) return "pct-none";
+  return p >= 0.500 ? "pct-good" : "pct-bad";
+}
+
+function numClass(n, posClass, negClass) {
+  if (n > 0) return posClass;
+  if (n < 0) return negClass;
+  return "";
+}
+
+
+function sortByDateThenText(items) {
+  return [...items].sort((left, right) => {
+    const ld = left.date || "";
+    const rd = right.date || "";
+    if (ld !== rd) return ld.localeCompare(rd);
+    return (left.summary || "").localeCompare(right.summary || "");
+  });
+}
+
+function buildExpandableCountCell(events, label) {
+  const count = events.length;
+  if (!count) return `<span class="zero">0</span>`;
+
+  const items = sortByDateThenText(events)
+    .map(event => {
+      const datePart = `<span class="details-date">${escHtml(event.date || "n/a")}</span>`;
+      const summaryPart = escHtml(event.summary || label);
+      const locationPart = event.location ? ` @ ${escHtml(event.location)}` : "";
+      return `<div class="details-item">${datePart}${summaryPart}${locationPart}</div>`;
+    })
+    .join("");
+
+  return `
+    <details class="count-details">
+      <summary class="expand-chip" title="Click to view dates">${count}</summary>
+      <div class="details-list" role="region" aria-label="${escHtml(label)} dates">
+        ${items}
+      </div>
+    </details>`;
+}
+
+function inRange(dateText, startDate, endDate) {
+  if (!dateText) return false;
+  if (startDate && dateText < startDate) return false;
+  if (endDate && dateText > endDate) return false;
+  return true;
+}
+
+function isTeamVisible(team) {
+  const teamName = String(team?.name || "").trim();
+  return !HIDDEN_TEAM_NAMES.has(teamName);
+}
+
+function getVisibleTeams(teams) {
+  return (teams ?? []).filter(isTeamVisible);
+}
+
+function getDisplayCategoryName(categoryName) {
+  const internalName = String(categoryName || "Other");
+  return CATEGORY_DISPLAY_NAME_MAP[internalName] || internalName;
+}
+
+function summarizeTeam(team, startDate, endDate) {
+  const games = (team.games ?? []).filter(game => inRange(game.date, startDate, endDate));
+  const events = (team.events ?? []).filter(event => inRange(event.date, startDate, endDate));
+  const practiceEvents = events.filter(event => event.type === "practice");
+  const eventGames = events.filter(event => event.type === "game");
+
+  const scheduledGames = games
+    .filter(game => !!game.date)
+    .map(game => ({
+      date: game.date,
+      summary: game.opponent ? `Game vs ${game.opponent}` : "Game",
+      location: "",
+    }));
+
+  // Merge schedule-derived games with ICS game events so date lists are richer.
+  const mergedGames = [];
+  const seenGameKeys = new Set();
+  for (const game of [...eventGames, ...scheduledGames]) {
+    const key = `${game.date || ""}|${(game.summary || "").toLowerCase()}`;
+    if (seenGameKeys.has(key)) continue;
+    seenGameKeys.add(key);
+    mergedGames.push(game);
+  }
+
+  const pitchEvents = events.filter(event => PITCH_LOCATION_RE.test(event.location || ""));
+
+  const summary = {
+    id: team.id,
+    name: team.name,
+    category: team.category,
+    gp: 0,
+    wins: 0,
+    losses: 0,
+    ties: 0,
+    runs_for: 0,
+    runs_against: 0,
+    home_games: 0,
+    away_games: 0,
+    practices: 0,
+    game_events: mergedGames,
+    practice_events: practiceEvents,
+    pitch_events: pitchEvents,
+    games,
+    events,
+  };
+
+  for (const game of games) {
+    if (game.result) {
+      summary.gp += 1;
+      if (game.result === "W") summary.wins += 1;
+      if (game.result === "L") summary.losses += 1;
+      if (game.result === "T") summary.ties += 1;
+    }
+    if (typeof game.brigade_score === "number") summary.runs_for += game.brigade_score;
+    if (typeof game.opp_score === "number") summary.runs_against += game.opp_score;
+    if (game.home === true)  summary.home_games += 1;
+    if (game.home === false) summary.away_games += 1;
+  }
+
+  summary.practices = practiceEvents.length;
+  return summary;
+}
+
+function getPitchEvents(teams, startDate, endDate) {
+  const rows = [];
+  for (const team of teams) {
+    for (const event of (team.events ?? [])) {
+      if (!inRange(event.date, startDate, endDate)) continue;
+      if (!PITCH_LOCATION_RE.test(event.location || "")) continue;
+      rows.push({
+        date: event.date,
+        team: team.name,
+        category: team.category,
+        type: event.type,
+        summary: event.summary || "Untitled event",
+        location: event.location || "Pitch Indoor Sports",
+      });
+    }
+  }
+
+  rows.sort((left, right) => {
+    if (left.date !== right.date) return left.date.localeCompare(right.date);
+    return left.team.localeCompare(right.team);
+  });
+  return rows;
+}
+
+function renderPitchTracker(teams, startDate, endDate) {
+  const events = getPitchEvents(teams, startDate, endDate);
+  document.getElementById("pitch-count").textContent = `${events.length} matching event${events.length === 1 ? "" : "s"}`;
+
+  const target = document.getElementById("pitch-results");
+  if (!events.length) {
+    target.innerHTML = `<div class="no-data-msg">No Pitch Indoor Sports events in the selected date range.</div>`;
+    return;
+  }
+
+  target.innerHTML = `
+    <div class="table-scroll"><table class="pitch-list" aria-label="Pitch Indoor Sports events">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Team</th>
+          <th>Type</th>
+          <th>Event</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${events.map(event => `
+          <tr>
+            <td>${escHtml(event.date)}</td>
+            <td>${escHtml(event.team)}</td>
+            <td><span class="event-type-pill">${escHtml(event.type)}</span></td>
+            <td>${escHtml(event.summary)}</td>
+            <td>${escHtml(event.location)}</td>
+          </tr>`).join("")}
+      </tbody>
+    </table></div>`;
+}
+
+function applyFilters() {
+  if (!loadedData) return;
+
+  const grid = document.getElementById("grid");
+  const startDate = document.getElementById("start-date").value || null;
+  const endDate = document.getElementById("end-date").value || null;
+  const rangeSummary = document.getElementById("range-summary");
+
+  if (startDate && endDate && startDate > endDate) {
+    rangeSummary.textContent = "Start date must be on or before the end date.";
+    grid.innerHTML = "";
+    document.getElementById("pitch-results").innerHTML = `<div class="no-data-msg">Adjust the date range to view Pitch Indoor Sports events.</div>`;
+    document.getElementById("pitch-count").textContent = "0 matching events";
+    return;
+  }
+
+  const visibleTeams = getVisibleTeams(loadedData.teams ?? []);
+  const summarizedTeams = visibleTeams.map(team => summarizeTeam(team, startDate, endDate));
+  const grouped = {};
+  for (const team of summarizedTeams) {
+    const cat = team.category || "Other";
+    (grouped[cat] = grouped[cat] ?? []).push(team);
+  }
+
+  const present = CATEGORY_ORDER.filter(c => grouped[c]);
+  for (const c of Object.keys(grouped)) {
+    if (!present.includes(c)) present.push(c);
+  }
+
+  grid.innerHTML = "";
+  grid.style.display = "block";
+  for (const cat of present) {
+    grid.appendChild(buildCategoryBlock(cat, grouped[cat]));
+  }
+
+  if (startDate || endDate) {
+    rangeSummary.textContent = `Showing stats from ${startDate || "season start"} to ${endDate || "season end"}.`;
+  } else {
+    rangeSummary.textContent = "Showing full season totals.";
+  }
+
+  renderPitchTracker(visibleTeams, startDate, endDate);
+}
+
+/* ----------------------------------------------------------------
+   Build one category card with its stats table
+---------------------------------------------------------------- */
+function buildCategoryBlock(categoryName, teams) {
+  const block = document.createElement("div");
+  block.className = "cat-block";
+  const displayCategoryName = getDisplayCategoryName(categoryName);
+
+  // Header bar
+  const hdr = document.createElement("div");
+  hdr.className = "cat-header";
+  hdr.textContent = displayCategoryName;
+  block.appendChild(hdr);
+
+  // Table
+  const table = document.createElement("table");
+  table.className = "stats-table";
+  table.setAttribute("aria-label", displayCategoryName + " season stats");
+
+  table.innerHTML = `
+    <thead>
+      <tr>
+        <th class="col-team">Team</th>
+        <th title="Games Played">GP</th>
+        <th title="Wins">W</th>
+        <th title="Losses">L</th>
+        <th title="Ties">T</th>
+        <th title="Runs For">RF</th>
+        <th title="Runs Against">RA</th>
+        <th title="Win Percentage">Pct</th>
+        <th title="Home Games">Home</th>
+        <th title="Away Games">Away</th>
+        <th title="Practices held this season">Practice</th>
+        <th title="Total events at Pitch Indoor Sports">Pitch</th>
+      </tr>
+    </thead>
+    <tbody></tbody>`;
+
+  const tbody = table.querySelector("tbody");
+
+  for (const t of teams) {
+    const w    = t.wins    ?? 0;
+    const l    = t.losses  ?? 0;
+    const ti   = t.ties    ?? 0;
+    const gp   = t.gp      ?? 0;
+    const rf   = t.runs_for     ?? 0;
+    const ra   = t.runs_against ?? 0;
+    const p    = pct(w, gp);
+    const pr   = t.practices ?? 0;
+    const pitchEventCount = (t.pitch_events ?? []).length;
+    const homeGames = t.home_games ?? 0;
+    const awayGames = t.away_games ?? 0;
+
+    const tr = document.createElement("tr");
+
+    tr.innerHTML = `
+      <td class="col-team">${escHtml(t.name)}</td>
+      <td class="${gp === 0 ? "zero" : ""}">${gp}</td>
+      <td class="${w  > 0 ? "wins"   : "zero"}">${w}</td>
+      <td class="${l  > 0 ? "losses" : "zero"}">${l}</td>
+      <td class="${ti > 0 ? "ties"   : "zero"}">${ti}</td>
+      <td class="${rf === 0 ? "zero" : ""}">${rf}</td>
+      <td class="${ra === 0 ? "zero" : ""}">${ra}</td>
+      <td class="${pctClass(p)}">${fmtPct(p)}</td>
+      <td class="${homeGames === 0 ? "zero" : ""}">${homeGames}</td>
+      <td class="${awayGames === 0 ? "zero" : ""}">${awayGames}</td>
+      <td>${buildExpandableCountCell(t.practice_events ?? [], "Practice")}</td>
+      <td>${buildExpandableCountCell(t.pitch_events ?? [], "Pitch")}</td>`;
+
+    tbody.appendChild(tr);
+  }
+
+  const scroll = document.createElement("div");
+  scroll.className = "table-scroll";
+  scroll.appendChild(table);
+  block.appendChild(scroll);
+  return block;
+}
+
+/* ----------------------------------------------------------------
+   Tournaments tab
+---------------------------------------------------------------- */
+function extractTournaments(teams) {
+  const rows = [];
+  for (const team of teams) {
+    for (const event of (team.events ?? [])) {
+      // Match on type=tournament (new scraper output) or "tournament" in summary
+      // (older data.json fallback where the summary contains the word).
+      const isTournament = event.type === "tournament" || /tournament/i.test(event.summary || "");
+      if (!isTournament) continue;
+      let name = event.summary || "Tournament";
+      const dashIdx = name.indexOf(" - ");
+      if (dashIdx !== -1) name = name.slice(dashIdx + 3);
+      rows.push({
+        team_id:   team.id,
+        team_name: team.name,
+        category:  team.category,
+        name,
+        date:      event.date || "",
+        end_date:  event.end_date || event.date || "",
+        location:  event.location || "",
+      });
+    }
+  }
+  rows.sort((a, b) => {
+    if (a.date !== b.date) return a.date.localeCompare(b.date);
+    return a.team_name.localeCompare(b.team_name);
+  });
+  return rows;
+}
+
+function fmtDateRange(dateStr, endDateStr) {
+  if (!dateStr) return "TBD";
+  const opts = { month: "short", day: "numeric", timeZone: "UTC" };
+  const s = new Date(dateStr + "T12:00:00Z");
+  if (!endDateStr || endDateStr === dateStr) {
+    return s.toLocaleDateString("en-CA", opts);
+  }
+  const e = new Date(endDateStr + "T12:00:00Z");
+  if (s.getFullYear() === e.getFullYear() && s.getMonth() === e.getMonth()) {
+    return s.toLocaleDateString("en-CA", opts) + "\u2013" + e.getDate();
+  }
+  return s.toLocaleDateString("en-CA", opts) + " \u2013 " + e.toLocaleDateString("en-CA", opts);
+}
+
+function populateTournamentTeamFilter(teams) {
+  const sel = document.getElementById("tournament-team-filter");
+  const current = sel.value;
+  while (sel.options.length > 1) sel.remove(1);
+  const teamsWithTournaments = teams.filter(t =>
+    (t.events ?? []).some(e => e.type === "tournament" || /tournament/i.test(e.summary || ""))
+  );
+  for (const t of teamsWithTournaments) {
+    const opt = document.createElement("option");
+    opt.value = String(t.id);
+    opt.textContent = t.name;
+    sel.appendChild(opt);
+  }
+  if (current) sel.value = current;
+}
+
+function renderTournaments() {
+  if (!loadedData) return;
+  const filterTeamId = document.getElementById("tournament-team-filter").value;
+  const visibleTeams = getVisibleTeams(loadedData.teams ?? []);
+  let rows = extractTournaments(visibleTeams);
+  if (filterTeamId) {
+    rows = rows.filter(r => String(r.team_id) === filterTeamId);
+  }
+  const body = document.getElementById("tournament-body");
+  if (!rows.length) {
+    body.innerHTML = `<div class="no-data-msg">No tournaments${filterTeamId ? " for the selected team" : ""} found in the season data.</div>`;
+    return;
+  }
+  const title = filterTeamId ? escHtml(rows[0].team_name) : "All Teams";
+  const rowsHtml = rows.map(r => `
+    <tr>
+      <td>${escHtml(fmtDateRange(r.date, r.end_date))}</td>
+      <td>${escHtml(r.name)}</td>
+      <td>${escHtml(r.team_name)}</td>
+      <td>${escHtml(r.location || "TBD")}</td>
+    </tr>`).join("");
+  body.innerHTML = `
+    <div class="cat-block">
+      <div class="cat-header">${rows.length} Tournament${rows.length === 1 ? "" : "s"} \u2014 ${title}</div>
+      <div class="table-scroll"><table class="stats-table tourn-table" aria-label="Tournament schedule">
+        <thead>
+          <tr>
+            <th class="col-team">Dates</th>
+            <th class="col-team">Tournament</th>
+            <th class="col-team">Team</th>
+            <th class="col-team">Location</th>
+          </tr>
+        </thead>
+        <tbody>${rowsHtml}</tbody>
+      </table></div>
+    </div>`;
+}
+
+/* ----------------------------------------------------------------
+   Diamond Summary tab
+---------------------------------------------------------------- */
+function tokenizeMatchText(text) {
+  const stopWords = new Set([
+    "game", "vs", "at", "dh", "doubleheader", "diamond", "park", "field",
+    "baseball", "club", "league", "team", "minor", "major"
+  ]);
+  return String(text || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]+/g, " ")
+    .split(/\s+/)
+    .filter(token => token.length >= 3 && !stopWords.has(token));
+}
+
+function scoreOpponentMatch(gameOpponent, eventSummary) {
+  const gTokens = tokenizeMatchText(gameOpponent);
+  const eTokens = new Set(tokenizeMatchText(eventSummary));
+  let score = 0;
+  for (const token of gTokens) {
+    if (eTokens.has(token)) score += 1;
+  }
+  return score;
+}
+
+function extractHomeDiamondRows(teams) {
+  const rows = [];
+
+  for (const team of (teams ?? [])) {
+    const events = (team.events ?? []).filter(event =>
+      event.type === "game" && !!(event.location || "").trim() && !!event.date
+    );
+
+    const eventsByDate = new Map();
+    for (const event of events) {
+      const arr = eventsByDate.get(event.date) || [];
+      arr.push(event);
+      eventsByDate.set(event.date, arr);
+    }
+
+    const homeGames = (team.games ?? []).filter(game => game.home === true && !!game.date);
+    const homeByDate = new Map();
+    for (const game of homeGames) {
+      const arr = homeByDate.get(game.date) || [];
+      arr.push(game);
+      homeByDate.set(game.date, arr);
+    }
+
+    for (const [date, gamesOnDate] of homeByDate.entries()) {
+      const eventsOnDate = eventsByDate.get(date) || [];
+      if (!eventsOnDate.length) continue;
+
+      const usedEventIndexes = new Set();
+      for (const game of gamesOnDate) {
+        let bestIdx = -1;
+        let bestScore = -1;
+
+        for (let i = 0; i < eventsOnDate.length; i += 1) {
+          if (usedEventIndexes.has(i)) continue;
+          const event = eventsOnDate[i];
+          const score = scoreOpponentMatch(game.opponent || "", event.summary || "");
+          if (score > bestScore) {
+            bestScore = score;
+            bestIdx = i;
+          }
+        }
+
+        if (bestIdx === -1) continue;
+        usedEventIndexes.add(bestIdx);
+
+        const matchedEvent = eventsOnDate[bestIdx];
+        const diamondName = (matchedEvent.location || "").trim();
+        // Count only true local home-center usage; ignore home-designated games
+        // hosted at away centers where Sarnia is not paying for field/umpires.
+        if (!LOCAL_HOME_DIAMONDS.has(normalizeVenueName(diamondName))) continue;
+
+        rows.push({
+          team_id: team.id,
+          team_name: team.name,
+          diamond: diamondName,
+          date,
+          summary: game.opponent ? `Home game vs ${game.opponent}` : "Home game",
+          location: diamondName,
+        });
+      }
+    }
+  }
+
+  return rows;
+}
+
+function extractPracticeDiamondRows(teams) {
+  const rows = [];
+  for (const team of (teams ?? [])) {
+    for (const event of (team.events ?? [])) {
+      if (event.type !== "practice") continue;
+      const diamondName = (event.location || "").trim();
+      if (!diamondName) continue;
+      if (!LOCAL_HOME_DIAMONDS.has(normalizeVenueName(diamondName))) continue;
+
+      rows.push({
+        team_id: team.id,
+        team_name: team.name,
+        diamond: diamondName,
+        date: event.date || "",
+        summary: event.summary || "Practice",
+        location: diamondName,
+      });
+    }
+  }
+  return rows;
+}
+
+function populateDiamondFilters(teams) {
+  const allRows = [
+    ...extractHomeDiamondRows(teams),
+    ...extractPracticeDiamondRows(teams),
+  ];
+  const teamSelect = document.getElementById("diamond-team-filter");
+  const diamondSelect = document.getElementById("diamond-location-filter");
+  const teamCurrent = teamSelect.value;
+  const diamondCurrent = diamondSelect.value;
+
+  while (teamSelect.options.length > 1) teamSelect.remove(1);
+  while (diamondSelect.options.length > 1) diamondSelect.remove(1);
+
+  const teamsSeen = new Map();
+  const diamondsSeen = new Set();
+  for (const row of allRows) {
+    teamsSeen.set(String(row.team_id), row.team_name);
+    diamondsSeen.add(row.diamond);
+  }
+
+  const sortedTeams = [...teamsSeen.entries()].sort((a, b) => a[1].localeCompare(b[1]));
+  for (const [id, name] of sortedTeams) {
+    const opt = document.createElement("option");
+    opt.value = id;
+    opt.textContent = name;
+    teamSelect.appendChild(opt);
+  }
+
+  const sortedDiamonds = [...diamondsSeen].sort((a, b) => a.localeCompare(b));
+  for (const diamond of sortedDiamonds) {
+    const opt = document.createElement("option");
+    opt.value = diamond;
+    opt.textContent = diamond;
+    diamondSelect.appendChild(opt);
+  }
+
+  if (teamCurrent && teamsSeen.has(teamCurrent)) teamSelect.value = teamCurrent;
+  if (diamondCurrent && diamondsSeen.has(diamondCurrent)) diamondSelect.value = diamondCurrent;
+}
+
+function renderDiamondSummary() {
+  if (!loadedData) return;
+  const rangeSummary = document.getElementById("diamond-range-summary");
+  const startDate = document.getElementById("diamond-start-date").value || null;
+  const endDate = document.getElementById("diamond-end-date").value || null;
+  const teamFilter = document.getElementById("diamond-team-filter").value;
+  const diamondFilter = document.getElementById("diamond-location-filter").value;
+  const viewMode = document.getElementById("diamond-view-mode").value;
+
+  if (startDate && endDate && startDate > endDate) {
+    rangeSummary.textContent = "Start date must be on or before the end date.";
+    document.getElementById("diamond-body").innerHTML = `<div class="no-data-msg">Adjust the date range to view Diamond Summary usage.</div>`;
+    return;
+  }
+
+  if (startDate || endDate) {
+    rangeSummary.textContent = `Showing usage from ${startDate || "season start"} to ${endDate || "season end"}.`;
+  } else {
+    rangeSummary.textContent = "Showing full season totals.";
+  }
+
+  const visibleTeams = getVisibleTeams(loadedData.teams ?? []);
+  let homeRows = extractHomeDiamondRows(visibleTeams);
+  let practiceRows = extractPracticeDiamondRows(visibleTeams);
+
+  if (startDate || endDate) {
+    homeRows = homeRows.filter(r => inRange(r.date, startDate, endDate));
+    practiceRows = practiceRows.filter(r => inRange(r.date, startDate, endDate));
+  }
+
+  if (teamFilter) {
+    homeRows = homeRows.filter(r => String(r.team_id) === teamFilter);
+    practiceRows = practiceRows.filter(r => String(r.team_id) === teamFilter);
+  }
+  if (diamondFilter) {
+    homeRows = homeRows.filter(r => r.diamond === diamondFilter);
+    practiceRows = practiceRows.filter(r => r.diamond === diamondFilter);
+  }
+
+  const body = document.getElementById("diamond-body");
+  if (!homeRows.length && !practiceRows.length) {
+    body.innerHTML = `<div class="no-data-msg">No home diamond records found for the selected filters.</div>`;
+    return;
+  }
+
+  const grouped = new Map();
+  const allRows = [
+    ...homeRows.map(row => ({ ...row, usage_type: "home_game" })),
+    ...practiceRows.map(row => ({ ...row, usage_type: "practice" })),
+  ];
+
+  for (const row of allRows) {
+    const key = viewMode === "diamond"
+      ? `${row.diamond}|||${row.team_name}`
+      : `${row.team_name}|||${row.diamond}`;
+
+    const found = grouped.get(key);
+    if (found) {
+      if (row.usage_type === "home_game") found.home_games += 1;
+      if (row.usage_type === "practice") found.practices += 1;
+      if (row.usage_type === "home_game") found.home_game_events.push(row);
+      if (row.usage_type === "practice") found.practice_events.push(row);
+    } else {
+      grouped.set(key, {
+        team_id: row.team_id,
+        team_name: row.team_name,
+        diamond: row.diamond,
+        home_games: row.usage_type === "home_game" ? 1 : 0,
+        practices: row.usage_type === "practice" ? 1 : 0,
+        home_game_events: row.usage_type === "home_game" ? [row] : [],
+        practice_events: row.usage_type === "practice" ? [row] : [],
+      });
+    }
+  }
+
+  const uniqueTeams = new Set(allRows.map(r => r.team_name)).size;
+  const uniqueDiamonds = new Set(allRows.map(r => r.diamond)).size;
+  const totalHomeGames = homeRows.length;
+  const totalPractices = practiceRows.length;
+
+  if (viewMode === "team") {
+    const teamMetaById = new Map(visibleTeams.map((team, index) => [
+      String(team.id),
+      {
+        category: team.category || "Other",
+        team_index: index,
+      },
+    ]));
+
+    const summaryRows = [...grouped.values()].sort((a, b) => {
+      const aMeta = teamMetaById.get(String(a.team_id));
+      const bMeta = teamMetaById.get(String(b.team_id));
+      const aIndex = aMeta?.team_index ?? Number.MAX_SAFE_INTEGER;
+      const bIndex = bMeta?.team_index ?? Number.MAX_SAFE_INTEGER;
+      if (aIndex !== bIndex) return aIndex - bIndex;
+      return a.diamond.localeCompare(b.diamond);
+    });
+
+    const groupedByCategory = {};
+    for (const row of summaryRows) {
+      const meta = teamMetaById.get(String(row.team_id));
+      const category = meta?.category || "Other";
+      (groupedByCategory[category] = groupedByCategory[category] ?? []).push(row);
+    }
+
+    const present = CATEGORY_ORDER.filter(c => groupedByCategory[c]);
+    for (const c of Object.keys(groupedByCategory)) {
+      if (!present.includes(c)) present.push(c);
+    }
+
+    const blocksHtml = present.map(category => {
+      const rows = groupedByCategory[category] ?? [];
+      const categoryRowsHtml = rows.map(r => `
+        <tr>
+          <td class="col-team">${escHtml(r.team_name)}</td>
+          <td class="col-team">${escHtml(r.diamond)}</td>
+          <td>${buildExpandableCountCell(r.home_game_events, "Home games")}</td>
+          <td>${buildExpandableCountCell(r.practice_events, "Practices")}</td>
+        </tr>`).join("");
+
+      return `
+        <div class="cat-block">
+          <div class="cat-header">${escHtml(getDisplayCategoryName(category))}</div>
+          <div class="table-scroll"><table class="stats-table tourn-table" aria-label="${escHtml(getDisplayCategoryName(category))} home diamond summary">
+            <thead>
+              <tr>
+                <th class="col-team">Team</th>
+                <th class="col-team">Diamond</th>
+                <th>Home Games</th>
+                <th>Practices</th>
+              </tr>
+            </thead>
+            <tbody>${categoryRowsHtml}</tbody>
+          </table></div>
+        </div>`;
+    }).join("");
+
+    body.innerHTML = `
+      <div class="cat-block">
+        <div class="cat-header">Home Diamond Summary \u2014 ${totalHomeGames} home game${totalHomeGames === 1 ? "" : "s"}, ${totalPractices} practice${totalPractices === 1 ? "" : "s"}, ${uniqueTeams} team${uniqueTeams === 1 ? "" : "s"}, ${uniqueDiamonds} diamond${uniqueDiamonds === 1 ? "" : "s"}</div>
+      </div>
+      ${blocksHtml}`;
+    return;
+  }
+
+  const summaryRows = [...grouped.values()].sort((a, b) => {
+    const diamondCmp = a.diamond.localeCompare(b.diamond);
+    if (diamondCmp !== 0) return diamondCmp;
+    return a.team_name.localeCompare(b.team_name);
+  });
+
+  const tableRows = summaryRows.map(r => `
+    <tr>
+      <td>${escHtml(r.diamond)}</td>
+      <td>${escHtml(r.team_name)}</td>
+      <td>${buildExpandableCountCell(r.home_game_events, "Home games")}</td>
+      <td>${buildExpandableCountCell(r.practice_events, "Practices")}</td>
+    </tr>`).join("");
+
+  body.innerHTML = `
+    <div class="cat-block">
+      <div class="cat-header">Home Diamond Summary (Grouped by Diamond) \u2014 ${totalHomeGames} home game${totalHomeGames === 1 ? "" : "s"}, ${totalPractices} practice${totalPractices === 1 ? "" : "s"}, ${uniqueTeams} team${uniqueTeams === 1 ? "" : "s"}, ${uniqueDiamonds} diamond${uniqueDiamonds === 1 ? "" : "s"}</div>
+      <div class="table-scroll"><table class="stats-table tourn-table" aria-label="Home diamond summary">
+        <thead>
+          <tr>
+            <th class="col-team">Diamond</th>
+            <th class="col-team">Team</th>
+            <th>Home Games</th>
+            <th>Practices</th>
+          </tr>
+        </thead>
+        <tbody>${tableRows}</tbody>
+      </table></div>
+    </div>`;
+}
+
+/* ----------------------------------------------------------------
+   Playing Today tab
+---------------------------------------------------------------- */
+function getLocalIsoDate(now = new Date()) {
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const day = String(now.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function fmtReadableDate(dateStr) {
+  if (!dateStr) return "";
+  const d = new Date(`${dateStr}T12:00:00`);
+  return d.toLocaleDateString("en-CA", {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
+function extractEventTimeLabel(event) {
+  if (!event || typeof event !== "object") return "TBD";
+  if (typeof event.time === "string" && event.time.trim()) return event.time.trim();
+  if (typeof event.start_time === "string" && event.start_time.trim()) return event.start_time.trim();
+  if (typeof event.start === "string") {
+    const startText = event.start.trim();
+    const m = startText.match(/(\d{1,2}:\d{2}(?:\s?[AP]M)?|\d{1,2}\s?[AP]M)/i);
+    if (m) return m[1].replace(/\s+/g, " ").toUpperCase();
+  }
+  if (typeof event.summary === "string") {
+    const sm = event.summary.match(/(\d{1,2}:\d{2}(?:\s?[AP]M)?|\d{1,2}\s?[AP]M)/i);
+    if (sm) return sm[1].replace(/\s+/g, " ").toUpperCase();
+  }
+  return "TBD";
+}
+
+function inferGameSideFromSummary(summaryText) {
+  const text = String(summaryText || "").toLowerCase();
+  if (text.includes(" vs ") || /\bvs\.?\b/.test(text)) return "home";
+  if (text.includes(" @") || text.startsWith("@") || /\bat\s+/.test(text)) return "away";
+  return "game";
+}
+
+function buildPlayingTodayRows(teams, targetDate) {
+  const rows = [];
+
+  for (const team of (teams ?? [])) {
+    const events = team.events ?? [];
+    const games = team.games ?? [];
+
+    const practicesToday = events.filter(event => event.type === "practice" && event.date === targetDate);
+    for (const event of practicesToday) {
+      rows.push({
+        team_name: team.name,
+        time: extractEventTimeLabel(event),
+        event_label: event.summary || "Practice",
+        diamond: event.location || "TBD",
+      });
+    }
+
+    const gameEventsToday = events.filter(event => event.type === "game" && event.date === targetDate);
+    const scheduleGamesToday = games.filter(game => game.date === targetDate);
+
+    const usedEventIndexes = new Set();
+    for (const game of scheduleGamesToday) {
+      let bestIdx = -1;
+      let bestScore = -1;
+
+      for (let i = 0; i < gameEventsToday.length; i += 1) {
+        if (usedEventIndexes.has(i)) continue;
+        const event = gameEventsToday[i];
+        const score = scoreOpponentMatch(game.opponent || "", event.summary || "");
+        if (score > bestScore) {
+          bestScore = score;
+          bestIdx = i;
+        }
+      }
+
+      let matchedEvent = null;
+      if (bestIdx !== -1) {
+        usedEventIndexes.add(bestIdx);
+        matchedEvent = gameEventsToday[bestIdx];
+      }
+
+      const sideLabel = game.home === true ? "Home Game" : (game.home === false ? "Away Game" : "Game");
+      const fallbackOpponent = game.opponent ? `${sideLabel} vs ${game.opponent}` : sideLabel;
+      rows.push({
+        team_name: team.name,
+        time: extractEventTimeLabel(matchedEvent),
+        event_label: matchedEvent?.summary || fallbackOpponent,
+        diamond: matchedEvent?.location || "TBD",
+      });
+    }
+
+    for (let i = 0; i < gameEventsToday.length; i += 1) {
+      if (usedEventIndexes.has(i)) continue;
+      const event = gameEventsToday[i];
+      const side = inferGameSideFromSummary(event.summary);
+      const sideLabel = side === "home" ? "Home Game" : (side === "away" ? "Away Game" : "Game");
+      const label = event.summary || sideLabel;
+      rows.push({
+        team_name: team.name,
+        time: extractEventTimeLabel(event),
+        event_label: label,
+        diamond: event.location || "TBD",
+      });
+    }
+  }
+
+  rows.sort((a, b) => {
+    const teamCmp = (a.team_name || "").localeCompare(b.team_name || "");
+    if (teamCmp !== 0) return teamCmp;
+    const eventCmp = (a.event_label || "").localeCompare(b.event_label || "");
+    if (eventCmp !== 0) return eventCmp;
+    return (a.diamond || "").localeCompare(b.diamond || "");
+  });
+
+  return rows;
+}
+
+function renderPlayingToday() {
+  const dateText = document.getElementById("playing-today-date");
+  const body = document.getElementById("playing-today-body");
+
+  const today = getLocalIsoDate();
+  dateText.textContent = `Current day: ${fmtReadableDate(today)} (${today})`;
+
+  const visibleTeams = getVisibleTeams(loadedData?.teams ?? []);
+
+  if (!loadedData || !visibleTeams.length) {
+    body.innerHTML = `<div class="no-data-msg">No season data available yet.</div>`;
+    return;
+  }
+
+  const rows = buildPlayingTodayRows(visibleTeams, today);
+  if (!rows.length) {
+    body.innerHTML = `<div class="no-data-msg">No teams have a practice, home game, or away game scheduled today.</div>`;
+    return;
+  }
+
+  const teamCount = new Set(rows.map(r => r.team_name)).size;
+  const rowsHtml = rows.map(r => `
+    <tr>
+      <td class="col-team">${escHtml(r.team_name)}</td>
+      <td>${escHtml(r.time || "TBD")}</td>
+      <td class="col-team">${escHtml(r.event_label || "Event")}</td>
+      <td class="col-team">${escHtml(r.diamond || "TBD")}</td>
+    </tr>`).join("");
+
+  body.innerHTML = `
+    <div class="cat-block">
+      <div class="cat-header">${rows.length} event${rows.length === 1 ? "" : "s"} today across ${teamCount} team${teamCount === 1 ? "" : "s"}</div>
+      <div class="table-scroll"><table class="stats-table tourn-table" aria-label="Teams playing today">
+        <thead>
+          <tr>
+            <th class="col-team">Team</th>
+            <th>Time</th>
+            <th class="col-team">Event Label</th>
+            <th class="col-team">Diamond</th>
+          </tr>
+        </thead>
+        <tbody>${rowsHtml}</tbody>
+      </table></div>
+    </div>`;
+}
+
+/* ----------------------------------------------------------------
+   Umpire Issues tab
+---------------------------------------------------------------- */
+function buildUmpireIssueRows(teams) {
+  const assignmentStateLabel = {
+    no_officials_assigned: "No officials assigned",
+    assigned_not_accepted: "Assigned, not accepted",
+    assigned_but_denied: "Assigned, denied",
+    assigned_and_accepted: "Assigned, accepted",
+  };
+
+  return (teams ?? []).map((team, teamIndex) => {
+    const issueData = team.umpire_issues || {};
+    const gamesMissedDetails = Array.isArray(issueData.games_missed_details)
+      ? issueData.games_missed_details.map(detail => ({
+          assignmentState: detail.assignment_state || "assigned_not_accepted",
+          date: detail.date || "",
+          summary: `${detail.time || "TBD"} vs ${detail.opponent || "TBD"} (${detail.accepted_count ?? 0} accepted / ${detail.assigned_count ?? 0} assigned, ${assignmentStateLabel[detail.assignment_state] || "Status unknown"})`,
+          location: detail.venue || "",
+          issue_timing: detail.issue_timing || "upcoming",
+        }))
+      : [];
+
+    const mismatchDetails = Array.isArray(issueData.doubleheader_mismatch_details)
+      ? issueData.doubleheader_mismatch_details.map(detail => {
+          const gameParts = (detail.games || []).map(game => {
+            const assigned = Array.isArray(game.assigned_umpires)
+              ? game.assigned_umpires.filter(Boolean)
+              : [];
+            const accepted = Array.isArray(game.accepted_umpires)
+              ? game.accepted_umpires.filter(Boolean)
+              : [];
+            const stateLabel = assignmentStateLabel[game.assignment_state] || "Status unknown";
+            const umpireText = assigned.length ? assigned.join(", ") : "none assigned";
+            return `${game.time || "TBD"} vs ${game.opponent || "TBD"} [${umpireText}] (${accepted.length} accepted, ${stateLabel})`;
+          });
+          const pairText = (detail.pair_signatures || []).join(" | ");
+          const mismatchedNames = Array.isArray(detail.mismatched_names)
+            ? detail.mismatched_names.filter(Boolean)
+            : [];
+          const mismatchNamesText = mismatchedNames.length
+            ? ` Name differences: ${mismatchedNames.join(", ")}`
+            : "";
+          return {
+            date: detail.date || "",
+            summary: `${gameParts.join("; ")}${pairText ? ` [${pairText}]` : ""}${mismatchNamesText}`,
+            location: ((detail.games || []).map(game => game.venue || "").filter(Boolean).join(", ")),
+            issue_timing: detail.issue_timing || "upcoming",
+          };
+        })
+      : [];
+
+    return {
+      team_name: team.name,
+      category: team.category || "Other",
+      team_index: teamIndex,
+      games_missed: Number(issueData.games_missed) || 0,
+      games_missed_upcoming: Number(issueData.games_missed_upcoming) || 0,
+      doubleheader_mismatch: Number(issueData.doubleheader_mismatch) || 0,
+      doubleheader_mismatch_upcoming: Number(issueData.doubleheader_mismatch_upcoming) || 0,
+      games_missed_details: gamesMissedDetails,
+      doubleheader_mismatch_details: mismatchDetails,
+      data_available: Boolean(issueData.data_available),
+    };
+  }).sort((a, b) => {
+    const catIndexA = CATEGORY_ORDER.indexOf(a.category);
+    const catIndexB = CATEGORY_ORDER.indexOf(b.category);
+    const catA = catIndexA !== -1 ? catIndexA : CATEGORY_ORDER.length;
+    const catB = catIndexB !== -1 ? catIndexB : CATEGORY_ORDER.length;
+    if (catA !== catB) return catA - catB;
+    return a.team_index - b.team_index;
+  });
+}
+
+function buildUmpireIssueCell(pastCount, upcomingCount, details, label) {
+  const total = (pastCount || 0) + (upcomingCount || 0);
+  if (!total) return `<span class="zero">0</span>`;
+
+  const sorted = [...(details || [])].sort((left, right) => {
+    if ((left.date || "") !== (right.date || "")) return (left.date || "").localeCompare(right.date || "");
+    return (left.summary || "").localeCompare(right.summary || "");
+  });
+
+  const items = sorted.map(item => {
+    const timingClass = item.issue_timing === "past" ? "issue-detail-item--past" : "issue-detail-item--upcoming";
+    const timingTag = item.issue_timing === "past"
+      ? `<span class="issue-chip issue-chip--past">Past</span>`
+      : `<span class="issue-chip issue-chip--upcoming">Upcoming</span>`;
+    const locationPart = item.location ? ` @ ${escHtml(item.location)}` : "";
+    return `<div class="details-item issue-detail-item ${timingClass}"><span class="details-date">${escHtml(item.date || "n/a")}</span>${timingTag} ${escHtml(item.summary || label)}${locationPart}</div>`;
+  }).join("");
+
+  return `
+    <details class="count-details">
+      <summary class="issue-summary" title="Click to view ${escHtml(label)} details">
+        <span class="issue-chip issue-chip--past">${pastCount} Past</span>
+        <span class="issue-chip issue-chip--upcoming">${upcomingCount} Upcoming</span>
+      </summary>
+      <div class="details-list" role="region" aria-label="${escHtml(label)} details">
+        ${items}
+      </div>
+    </details>`;
+}
+
+function renderUmpireIssues() {
+  const body = document.getElementById("umpire-issues-body");
+  const status = document.getElementById("umpire-issues-status");
+
+  const visibleTeams = getVisibleTeams(loadedData?.teams ?? []);
+
+  if (!loadedData || !visibleTeams.length) {
+    status.textContent = "No team data available yet.";
+    body.innerHTML = `<div class="no-data-msg">No season data available for umpire issue tracking yet.</div>`;
+    return;
+  }
+
+  const rows = buildUmpireIssueRows(visibleTeams);
+  const unavailableTeams = rows.filter(row => !row.data_available).length;
+  if (unavailableTeams) {
+    status.textContent = `Umpire assignment data is unavailable for ${unavailableTeams} team${unavailableTeams === 1 ? "" : "s"}; metrics default to 0 until assignments can be collected.`;
+  } else {
+    status.textContent = "Umpire assignment data is available for all teams in this dataset.";
+  }
+
+  const rowsHtml = rows.map(row => `
+    <tr>
+      <td class="col-team">${escHtml(row.team_name)}</td>
+      <td>${buildUmpireIssueCell(row.games_missed, row.games_missed_upcoming, row.games_missed_details, "Games Missed")}</td>
+      <td>${buildUmpireIssueCell(row.doubleheader_mismatch, row.doubleheader_mismatch_upcoming, row.doubleheader_mismatch_details, "Doubleheader Umpire Mismatch")}</td>
+    </tr>`).join("");
+
+  body.innerHTML = `
+    <div class="cat-block">
+      <div class="cat-header">${rows.length} Team${rows.length === 1 ? "" : "s"}</div>
+      <div class="table-scroll"><table class="stats-table tourn-table" aria-label="Umpire issues by team">
+        <thead>
+          <tr>
+            <th class="col-team">Team</th>
+            <th>Games Missed (Past | Upcoming)</th>
+            <th>Doubleheader Umpire Mismatch (Past | Upcoming)</th>
+          </tr>
+        </thead>
+        <tbody>${rowsHtml}</tbody>
+      </table></div>
+    </div>`;
+}
+
+/* ----------------------------------------------------------------
+   Budget tab
+---------------------------------------------------------------- */
+function parseCostInput(id) {
+  const raw = Number(document.getElementById(id).value);
+  if (!Number.isFinite(raw) || raw < 0) return 0;
+  return raw;
+}
+
+function fmtMoney(amount) {
+  const n = Number(amount) || 0;
+  return n.toLocaleString("en-CA", {
+    style: "currency",
+    currency: "CAD",
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  });
+}
+
+function getUmpireRatePerGame(teamName, costs) {
+  const m = /^(\d+)U/i.exec(teamName || "");
+  const age = m ? parseInt(m[1], 10) : 0;
+  let ratePerUmpire;
+  if (age <= 9)        ratePerUmpire = costs.umpire8u9u;
+  else if (age <= 11)  ratePerUmpire = costs.umpire10u11u;
+  else if (age <= 13)  ratePerUmpire = costs.umpire12u13u;
+  else                 ratePerUmpire = costs.umpire14u;
+  return ratePerUmpire * 2; // 2 umpires per home game
+}
+
+function parseTimeToMinutes(timeLabel) {
+  const text = String(timeLabel || "").trim().toUpperCase();
+  const m = text.match(/^(\d{1,2})(?::(\d{2}))?\s*([AP]M)$/i);
+  if (!m) return null;
+
+  let hour = Number(m[1]);
+  const minute = Number(m[2] || 0);
+  const ampm = m[3].toUpperCase();
+
+  if (!Number.isFinite(hour) || !Number.isFinite(minute) || minute < 0 || minute > 59) return null;
+  if (hour < 1 || hour > 12) return null;
+
+  if (hour === 12) hour = 0;
+  if (ampm === "PM") hour += 12;
+  return (hour * 60) + minute;
+}
+
+function getDiamondRateTier(locationName) {
+  const normalized = normalizeVenueName(locationName);
+  if (DIAMOND_RATE_GROUP_A.has(normalized)) return "A";
+  if (DIAMOND_RATE_GROUP_B.has(normalized)) return "B";
+  return null;
+}
+
+function isLocalHomeDiamond(locationName) {
+  return LOCAL_HOME_DIAMONDS.has(normalizeVenueName(locationName));
+}
+
+function isBillableHomeGameEvent(event) {
+  if (!event || event.type !== "game" || !event.location) return false;
+  if (!isLocalHomeDiamond(event.location)) return false;
+  return inferGameSideFromSummary(event.summary) !== "away";
+}
+
+function isBillablePracticeEvent(event) {
+  if (!event || event.type !== "practice" || !event.location) return false;
+  return isLocalHomeDiamond(event.location);
+}
+
+function calcDiamondEventCost(event, costs) {
+  const tier = getDiamondRateTier(event?.location || "");
+  if (!tier) return 0;
+
+  const dayRate = tier === "A" ? costs.diamondADay : costs.diamondBDay;
+  const eveningRate = tier === "A" ? costs.diamondAEvening : costs.diamondBEvening;
+  const bookingMinutes = 120;
+
+  const startMinutes = parseTimeToMinutes(extractEventTimeLabel(event));
+  if (startMinutes === null) return dayRate * 2;
+
+  const dayStart = 7 * 60;
+  const dayEnd = (19 * 60) + 30;
+  const eveningStart = dayEnd;
+  const eveningEnd = 24 * 60;
+
+  const bookingStart = Math.max(0, startMinutes);
+  const bookingEnd = Math.min(eveningEnd, bookingStart + bookingMinutes);
+
+  const dayMinutes = Math.max(0, Math.min(bookingEnd, dayEnd) - Math.max(bookingStart, dayStart));
+  const eveningMinutes = Math.max(0, Math.min(bookingEnd, eveningEnd) - Math.max(bookingStart, eveningStart));
+
+  if ((dayMinutes + eveningMinutes) === 0) {
+    return dayRate * 2;
+  }
+
+  return (dayMinutes / 60) * dayRate + (eveningMinutes / 60) * eveningRate;
+}
+
+function buildBudgetRows(teams, startDate, endDate, costs) {
+  const rows = [];
+  for (const [teamIndex, team] of (teams ?? []).entries()) {
+    const summary = summarizeTeam(team, startDate, endDate);
+    const players = Number(team?.roster?.players) || 0;
+    const adults = Number(team?.roster?.adults) || 0;
+
+    const billableHomeGameEvents = (summary.events ?? []).filter(isBillableHomeGameEvent);
+    const billablePracticeEvents = (summary.events ?? []).filter(isBillablePracticeEvent);
+    const billableDiamondEvents = [...billableHomeGameEvents, ...billablePracticeEvents];
+
+    const diamondCost = billableDiamondEvents.reduce((acc, event) => {
+      return acc + calcDiamondEventCost(event, costs);
+    }, 0);
+    const umpireCost = billableHomeGameEvents.length * getUmpireRatePerGame(team.name, costs);
+    const insuranceCost = (players + adults) * costs.insurancePerPerson;
+    const totalCost = diamondCost + umpireCost + insuranceCost;
+
+    rows.push({
+      team_name: team.name,
+      category: team.category || "Other",
+      team_index: teamIndex,
+      home_games: summary.home_games,
+      practices: summary.practices,
+      players,
+      adults,
+      diamond_cost: diamondCost,
+      umpire_cost: umpireCost,
+      insurance_cost: insuranceCost,
+      total_cost: totalCost,
+    });
+  }
+
+  rows.sort((a, b) => {
+    const catIndexA = CATEGORY_ORDER.indexOf(a.category);
+    const catIndexB = CATEGORY_ORDER.indexOf(b.category);
+    const catA = catIndexA !== -1 ? catIndexA : CATEGORY_ORDER.length;
+    const catB = catIndexB !== -1 ? catIndexB : CATEGORY_ORDER.length;
+
+    if (catA !== catB) return catA - catB;
+    return a.team_index - b.team_index;
+  });
+  return rows;
+}
+
+function renderBudgetModel() {
+  if (!loadedData) return;
+
+  const startDate = document.getElementById("budget-start-date").value || null;
+  const endDate = document.getElementById("budget-end-date").value || null;
+  const summary = document.getElementById("budget-range-summary");
+  const body = document.getElementById("budget-body");
+
+  if (startDate && endDate && startDate > endDate) {
+    summary.textContent = "Start date must be on or before the end date.";
+    body.innerHTML = `<div class="no-data-msg">Adjust the date range to view the budget model.</div>`;
+    return;
+  }
+
+  if (startDate || endDate) {
+    summary.textContent = `Showing modeled costs from ${startDate || "season start"} to ${endDate || "season end"}.`;
+  } else {
+    summary.textContent = "Showing full season cost model.";
+  }
+
+  const costs = {
+    diamondADay: parseCostInput("cost-dia-a-day"),
+    diamondAEvening: parseCostInput("cost-dia-a-evening"),
+    diamondBDay: parseCostInput("cost-dia-b-day"),
+    diamondBEvening: parseCostInput("cost-dia-b-evening"),
+    umpire8u9u:     parseCostInput("cost-umpire-8u9u"),
+    umpire10u11u:   parseCostInput("cost-umpire-10u11u"),
+    umpire12u13u:   parseCostInput("cost-umpire-12u13u"),
+    umpire14u:      parseCostInput("cost-umpire-14u"),
+    insurancePerPerson: parseCostInput("cost-ins-person"),
+  };
+
+  const visibleTeams = getVisibleTeams(loadedData.teams ?? []);
+  const rows = buildBudgetRows(visibleTeams, startDate, endDate, costs);
+  if (!rows.length) {
+    body.innerHTML = `<div class="no-data-msg">No team data available for budget calculations.</div>`;
+    return;
+  }
+
+  const totals = rows.reduce((acc, row) => {
+    acc.home_games += row.home_games;
+    acc.practices += row.practices;
+    acc.players += row.players;
+    acc.adults += row.adults;
+    acc.diamond_cost += row.diamond_cost;
+    acc.umpire_cost += row.umpire_cost;
+    acc.insurance_cost += row.insurance_cost;
+    acc.total_cost += row.total_cost;
+    return acc;
+  }, {
+    home_games: 0,
+    practices: 0,
+    players: 0,
+    adults: 0,
+    diamond_cost: 0,
+    umpire_cost: 0,
+    insurance_cost: 0,
+    total_cost: 0,
+  });
+
+  const groupedByCategory = {};
+  for (const row of rows) {
+    const category = row.category || "Other";
+    (groupedByCategory[category] = groupedByCategory[category] ?? []).push(row);
+  }
+
+  const present = CATEGORY_ORDER.filter(c => groupedByCategory[c]);
+  for (const c of Object.keys(groupedByCategory)) {
+    if (!present.includes(c)) present.push(c);
+  }
+
+  const categoryBlocksHtml = present.map(category => {
+    const catRows = groupedByCategory[category] ?? [];
+    const catRowsHtml = catRows.map(r => `
+      <tr>
+        <td class="col-team">${escHtml(r.team_name)}</td>
+        <td>-</td>
+        <td>-</td>
+        <td>${r.players}</td>
+        <td>${r.adults}</td>
+        <td class="money-cell">${escHtml(fmtMoney(r.diamond_cost))}</td>
+        <td class="money-cell">${escHtml(fmtMoney(r.umpire_cost))}</td>
+        <td class="money-cell">${escHtml(fmtMoney(r.insurance_cost))}</td>
+        <td class="money-cell budget-total-cell">${escHtml(fmtMoney(r.total_cost))}</td>
+      </tr>`).join("");
+
+    return `
+      <div class="cat-block">
+        <div class="cat-header">${escHtml(getDisplayCategoryName(category))}</div>
+        <div class="table-scroll"><table class="stats-table tourn-table" aria-label="${escHtml(getDisplayCategoryName(category))} budget model">
+          <thead>
+            <tr>
+              <th class="col-team">Team</th>
+              <th>Future Metric 1</th>
+              <th>Future Metric 2</th>
+              <th>Players</th>
+              <th>Adults</th>
+              <th>Diamond Rental</th>
+              <th>Umpires</th>
+              <th>Insurance</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${catRowsHtml}
+          </tbody>
+        </table></div>
+      </div>`;
+  }).join("");
+
+  body.innerHTML = `
+    <div class="cat-block">
+      <div class="cat-header">Modeled Total: ${escHtml(fmtMoney(totals.total_cost))} (Players: ${totals.players}, Adults: ${totals.adults})</div>
+      <div class="controls-note" style="margin-top:0.8rem;">Note: placeholder columns are reserved for future budget metrics.</div>
+    </div>
+    ${categoryBlocksHtml}`;
+}
+
+function switchTab(tabName) {
+  const isStats = tabName === "stats";
+  const isTournaments = tabName === "tournaments";
+  const isDiamonds = tabName === "diamonds";
+  const isPlayingToday = tabName === "playing-today";
+  const isUmpireIssues = tabName === "umpire-issues";
+  const isBudget = tabName === "budget";
+  const isCancellations = tabName === "cancellations";
+
+  document.getElementById("view-stats").style.display = isStats ? "" : "none";
+  document.getElementById("view-tournaments").style.display = isTournaments ? "" : "none";
+  document.getElementById("view-diamonds").style.display = isDiamonds ? "" : "none";
+  document.getElementById("view-cancellations").style.display = isCancellations ? "" : "none";
+  document.getElementById("view-playing-today").style.display = isPlayingToday ? "" : "none";
+  document.getElementById("view-umpire-issues").style.display = isUmpireIssues ? "" : "none";
+  document.getElementById("view-budget").style.display = isBudget ? "" : "none";
+
+  document.getElementById("tab-stats").setAttribute("aria-selected", isStats ? "true" : "false");
+  document.getElementById("tab-tournaments").setAttribute("aria-selected", isTournaments ? "true" : "false");
+  document.getElementById("tab-diamonds").setAttribute("aria-selected", isDiamonds ? "true" : "none");
+  document.getElementById("tab-cancellations").setAttribute("aria-selected", isCancellations ? "true" : "none");
+  document.getElementById("tab-playing-today").setAttribute("aria-selected", isPlayingToday ? "true" : "none");
+  document.getElementById("tab-umpire-issues").setAttribute("aria-selected", isUmpireIssues ? "true" : "none");
+  document.getElementById("tab-budget").setAttribute("aria-selected", isBudget ? "true" : "none");
+
+  document.getElementById("tab-stats").classList.toggle("tab-btn--active", isStats);
+  document.getElementById("tab-tournaments").classList.toggle("tab-btn--active", isTournaments);
+  document.getElementById("tab-diamonds").classList.toggle("tab-btn--active", isDiamonds);
+  document.getElementById("tab-cancellations").classList.toggle("tab-btn--active", isCancellations);
+  document.getElementById("tab-playing-today").classList.toggle("tab-btn--active", isPlayingToday);
+  document.getElementById("tab-umpire-issues").classList.toggle("tab-btn--active", isUmpireIssues);
+  document.getElementById("tab-budget").classList.toggle("tab-btn--active", isBudget);
+
+  if (isTournaments && loadedData) {
+    populateTournamentTeamFilter(getVisibleTeams(loadedData.teams ?? []));
+    renderTournaments();
+  }
+  if (isDiamonds && loadedData) {
+    populateDiamondFilters(getVisibleTeams(loadedData.teams ?? []));
+    renderDiamondSummary();
+  }
+  if (isCancellations) {
+    renderCancellations();
+  }
+  if (isPlayingToday) {
+    renderPlayingToday();
+  }
+  if (isUmpireIssues) {
+    renderUmpireIssues();
+  }
+  if (isBudget) {
+    renderBudgetModel();
+  }
+}
+
+/* ----------------------------------------------------------------
+   Main render
+---------------------------------------------------------------- */
+async function render(forceRefresh = false) {
+  const loading = document.getElementById("loading");
+  const grid    = document.getElementById("grid");
+  const button  = document.getElementById("refresh-button");
+
+  try {
+    loading.style.display = "block";
+    loading.textContent = forceRefresh ? "Refreshing published data..." : "Loading season data...";
+    grid.style.display = "none";
+    grid.innerHTML = "";
+
+    if (button) {
+      button.disabled = true;
+      button.textContent = forceRefresh ? "Refreshing..." : "Get Update";
+    }
+
+    const dataUrl = forceRefresh ? `data.json?t=${Date.now()}` : "data.json";
+    const resp = await fetch(dataUrl, { cache: "no-store" });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status} — could not load data.json`);
+    const data = await resp.json();
+    loadedData = data;
+
+    // Update title / header
+    const season = data.season ?? "—";
+    document.title = `Sarnia Brigade — ${season} Season Summary`;
+    document.getElementById("season-subtitle").textContent = `${season} Season Summary`;
+
+    if (data.generated) {
+      const d = new Date(data.generated);
+      const easternTime = d.toLocaleString("en-CA", {
+        dateStyle: "medium",
+        timeStyle: "short",
+        timeZone: "America/Toronto",
+      });
+      const tzPart = new Intl.DateTimeFormat("en-CA", {
+        timeZone: "America/Toronto",
+        timeZoneName: "short",
+      }).formatToParts(d).find(part => part.type === "timeZoneName");
+      const tzLabel = tzPart ? tzPart.value : "ET";
+      document.getElementById("last-updated").textContent =
+        "Updated " + easternTime + " " + tzLabel;
+    }
+
+    document.getElementById("start-date").value = "";
+    document.getElementById("end-date").value = "";
+    document.getElementById("diamond-start-date").value = "";
+    document.getElementById("diamond-end-date").value = "";
+
+    const minDate = data.season_start || `${season}-01-01`;
+    const maxDate = data.season_end || `${season}-12-31`;
+    document.getElementById("start-date").min = minDate;
+    document.getElementById("start-date").max = maxDate;
+    document.getElementById("end-date").min = minDate;
+    document.getElementById("end-date").max = maxDate;
+    document.getElementById("diamond-start-date").min = minDate;
+    document.getElementById("diamond-start-date").max = maxDate;
+    document.getElementById("diamond-end-date").min = minDate;
+    document.getElementById("diamond-end-date").max = maxDate;
+    document.getElementById("budget-start-date").min = minDate;
+    document.getElementById("budget-start-date").max = maxDate;
+    document.getElementById("budget-end-date").min = minDate;
+    document.getElementById("budget-end-date").max = maxDate;
+
+    loading.style.display = "none";
+    grid.style.display    = "block";
+
+    if (!(data.teams ?? []).length) {
+      grid.innerHTML = `<div class="no-data-msg">No season data available yet. Check back once the season begins.</div>`;
+      renderPitchTracker([], null, null);
+      if (document.getElementById("tab-playing-today").classList.contains("tab-btn--active")) {
+        renderPlayingToday();
+      }
+      return;
+    }
+
+    applyFilters();
+    if (document.getElementById("tab-playing-today").classList.contains("tab-btn--active")) {
+      renderPlayingToday();
+    }
+    if (document.getElementById("tab-umpire-issues").classList.contains("tab-btn--active")) {
+      renderUmpireIssues();
+    }
+    if (document.getElementById("tab-budget").classList.contains("tab-btn--active")) {
+      renderBudgetModel();
+    }
+
+  } catch (err) {
+    loading.textContent = "Could not load season data: " + err.message;
+  } finally {
+    if (button) {
+      button.disabled = false;
+      button.textContent = "Get Update";
+    }
+  }
+}
+
+document.getElementById("refresh-button").addEventListener("click", () => {
+  render(true);
+});
+
+document.getElementById("apply-filter").addEventListener("click", applyFilters);
+document.getElementById("reset-filter").addEventListener("click", () => {
+  document.getElementById("start-date").value = "";
+  document.getElementById("end-date").value = "";
+  applyFilters();
+});
+
+document.getElementById("tab-stats").addEventListener("click", () => switchTab("stats"));
+document.getElementById("tab-tournaments").addEventListener("click", () => switchTab("tournaments"));
+document.getElementById("tab-diamonds").addEventListener("click", () => switchTab("diamonds"));
+document.getElementById("tab-playing-today").addEventListener("click", () => switchTab("playing-today"));
+document.getElementById("tab-umpire-issues").addEventListener("click", () => switchTab("umpire-issues"));
+document.getElementById("tab-budget").addEventListener("click", () => switchTab("budget"));
+document.getElementById("tab-cancellations").addEventListener("click", () => switchTab("cancellations"));
+document.getElementById("tournament-team-filter").addEventListener("change", renderTournaments);
+document.getElementById("diamond-team-filter").addEventListener("change", renderDiamondSummary);
+document.getElementById("diamond-location-filter").addEventListener("change", renderDiamondSummary);
+document.getElementById("diamond-view-mode").addEventListener("change", renderDiamondSummary);
+document.getElementById("diamond-apply-filter").addEventListener("click", renderDiamondSummary);
+document.getElementById("diamond-reset-filter").addEventListener("click", () => {
+  document.getElementById("diamond-start-date").value = "";
+  document.getElementById("diamond-end-date").value = "";
+  renderDiamondSummary();
+});
+
+document.getElementById("budget-apply-filter").addEventListener("click", renderBudgetModel);
+document.getElementById("budget-reset-filter").addEventListener("click", () => {
+  document.getElementById("budget-start-date").value = "";
+  document.getElementById("budget-end-date").value = "";
+  renderBudgetModel();
+});
+
+document.getElementById("cost-dia-a-day").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-dia-a-evening").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-dia-b-day").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-dia-b-evening").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-umpire-8u9u").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-umpire-10u11u").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-umpire-12u13u").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-umpire-14u").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-ins-person").addEventListener("input", renderBudgetModel);
+
+
+document.getElementById("tab-cancellations").addEventListener("click", () => switchTab("cancellations"));
+render();
+</script>
+</body>
+</html>
