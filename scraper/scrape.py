@@ -1261,11 +1261,13 @@ def main():
                 cp_status,
             )
             results.append(team_data)
-            # Aggregate cancelled events (games and practices)
-            # Practices: look for event['cancelled'] or 'CANCELLED' in summary
-            # NOTE: cancelled games are handled by the 'games' loop below (richer detail).
+            # Aggregate cancelled events (games and practices).
+            # ICS events (practices & games) carry rich summaries/locations.
+            # HTML schedule games carry the authoritative cancelled flag.
+            # Collect from both, then deduplicate by (team_id, date, type),
+            # keeping the entry with the longer/richer summary.
             for event in team_data.get("events", []):
-                if event.get("type") == "practice":
+                if event.get("type") in ("practice", "game"):
                     if event.get("cancelled") or "CANCELLED" in event.get("summary", "").upper():
                         cancellations.append({
                             "team_id": team["id"],
@@ -1276,20 +1278,33 @@ def main():
                             "summary": event.get("summary"),
                             "location": event.get("location"),
                         })
-            # Games: if any game has a 'cancelled' property or 'CANCELLED' in summary (if available)
+            # Games from HTML schedule — may have cancelled=True with no summary.
             for game in team_data.get("games", []):
                 if game.get("cancelled") or "CANCELLED" in str(game.get("summary", "")).upper():
+                    opponent = game.get("opponent", "")
+                    home_away = "vs" if game.get("home") else "@"
+                    built_summary = f"CANCELLED {team['name']} - Game {home_away} {opponent}" if opponent else f"CANCELLED {team['name']} - Game"
                     cancellations.append({
                         "team_id": team["id"],
                         "team_name": team["name"],
                         "type": "game",
                         "date": game.get("date"),
                         "start_time": game.get("start_time"),
-                        "summary": game.get("summary", ""),
+                        "summary": game.get("summary") or built_summary,
                         "location": game.get("location", ""),
                     })
         except Exception as exc:
             print(f"  ERROR: {exc}", file=sys.stderr)
+
+    # Deduplicate cancellations by (team_id, date, type).
+    # When two entries share the same key, keep the one with the richer (longer) summary.
+    deduped: dict = {}
+    for entry in cancellations:
+        key = (entry["team_id"], entry.get("date"), entry["type"])
+        existing = deduped.get(key)
+        if existing is None or len(entry.get("summary") or "") > len(existing.get("summary") or ""):
+            deduped[key] = entry
+    cancellations = list(deduped.values())
 
     payload = {
         "season":    SEASON_YEAR,
