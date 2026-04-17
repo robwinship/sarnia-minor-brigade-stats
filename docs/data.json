@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-16T23:02:52.571419Z",
+  "generated": "2026-04-17T10:03:40.699487Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 51,
+      "practices": 50,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -260,13 +260,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20271-sarniabrigade.ca",
+          "uid": "MS-20515-sarniabrigade.ca",
           "date": "2026-05-27",
           "start_time": "6:00 PM",
           "end_date": "2026-05-28",
-          "summary": "8U OBA Rep - Practice",
+          "summary": "8U OBA Rep - Game vs Wallaceburg Warriors [WC9U-021]",
           "location": "Coronation Park Diamond",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -728,6 +728,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20515",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/20515/",
+          "date": "2026-05-27",
+          "start_time": "6:00 PM",
+          "opponent": "Wallaceburg Warriors WC9U-021 Coronation Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20499",
           "href": "https://sarniabrigade.ca/Teams/1290/Games/20499/",
           "date": "2026-06-01",
@@ -838,12 +850,28 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 3,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
+          {
+            "date": "2026-05-27",
+            "time": "6:00 PM",
+            "opponent": "Wallaceburg Warriors",
+            "venue": "Coronation Park Diamond",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
           {
             "date": "2026-06-07",
             "time": "10:00 AM",
@@ -1149,7 +1177,7 @@
           "date": "2026-05-20",
           "start_time": "6:00 PM",
           "end_date": "2026-05-21",
-          "summary": "9U OBA Rep - Game vs Chatham Major Diamonds",
+          "summary": "9U OBA Rep - Game vs Chatham Diamonds 9U [WC9U-084]",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -1603,7 +1631,7 @@
           "href": "https://sarniabrigade.ca/Teams/1291/Games/19772/",
           "date": "2026-05-20",
           "start_time": "6:00 PM",
-          "opponent": "Chatham Major Diamonds Clearwater Diamond",
+          "opponent": "Chatham Diamonds 9U WC9U-084 Clearwater Diamon",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -1935,6 +1963,16 @@
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20514-sarniabrigade.ca",
+          "date": "2026-05-05",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-06",
+          "summary": "10U AA OBA Rep - Game @ 11U OBA Rep [WC11U-018]",
+          "location": "Tecumseh Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -2364,6 +2402,18 @@
           "cancelled": true
         },
         {
+          "game_id": "20514",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20514/",
+          "date": "2026-05-05",
+          "start_time": "6:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "19681",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/19681/",
           "date": "2026-05-09",
@@ -2761,6 +2811,26 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20513-sarniabrigade.ca",
+          "date": "2026-05-03",
+          "start_time": "4:00 PM",
+          "end_date": "2026-05-03",
+          "summary": "10U A OBA Rep - Game @ 11U OBA Rep [WC11U-005]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20517-sarniabrigade.ca",
+          "date": "2026-05-03",
+          "start_time": "6:30 PM",
+          "end_date": "2026-05-04",
+          "summary": "10U A OBA Rep - Game vs 11U OBA Rep [WC11U-064]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20243-sarniabrigade.ca",
           "date": "2026-05-05",
           "start_time": "6:30 PM",
@@ -2948,6 +3018,16 @@
           "summary": "10U A OBA Rep - Practice",
           "location": "Coronation Park Diamond",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20518-sarniabrigade.ca",
+          "date": "2026-06-28",
+          "start_time": "4:00 PM",
+          "end_date": "2026-06-28",
+          "summary": "10U A OBA Rep - Game vs Wyoming Wranglers [WC11U-045]",
+          "location": "Tecumseh Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -3213,6 +3293,30 @@
       ],
       "games": [
         {
+          "game_id": "20513",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20513/",
+          "date": "2026-05-03",
+          "start_time": "4:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20517",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20517/",
+          "date": "2026-05-03",
+          "start_time": "6:30 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20508",
           "href": "https://sarniabrigade.ca/Teams/1311/Games/20508/",
           "date": "2026-05-12",
@@ -3249,6 +3353,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20518",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20518/",
+          "date": "2026-06-28",
+          "start_time": "4:00 PM",
+          "opponent": "Wyoming Wranglers WC11U-045 Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20504",
           "href": "https://sarniabrigade.ca/Teams/1311/Games/20504/",
           "date": "2026-07-08",
@@ -3275,12 +3391,28 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 4,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
+          {
+            "date": "2026-05-03",
+            "time": "6:30 PM",
+            "opponent": "11U OBA Rep",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
           {
             "date": "2026-05-31",
             "time": "4:00 PM",
@@ -3325,6 +3457,22 @@
             "pending_count": 1,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-06-28",
+            "time": "4:00 PM",
+            "opponent": "Wyoming Wranglers",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           }
         ],
@@ -3393,7 +3541,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 49,
+      "practices": 47,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -3554,13 +3702,33 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20080-sarniabrigade.ca",
+          "uid": "MS-20513-sarniabrigade.ca",
+          "date": "2026-05-03",
+          "start_time": "4:00 PM",
+          "end_date": "2026-05-03",
+          "summary": "11U OBA Rep - Game vs 10U A OBA Rep [WC11U-005]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20517-sarniabrigade.ca",
+          "date": "2026-05-03",
+          "start_time": "6:30 PM",
+          "end_date": "2026-05-04",
+          "summary": "11U OBA Rep - Game @ 10U A OBA Rep [WC11U-064]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20514-sarniabrigade.ca",
           "date": "2026-05-05",
           "start_time": "6:00 PM",
           "end_date": "2026-05-06",
-          "summary": "11U OBA Rep - Practice",
+          "summary": "11U OBA Rep - Game vs 10U AA OBA Rep [WC11U-018]",
           "location": "Tecumseh Park",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -3594,13 +3762,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20081-sarniabrigade.ca",
+          "uid": "MS-20512-sarniabrigade.ca",
           "date": "2026-05-12",
           "start_time": "6:00 PM",
           "end_date": "2026-05-13",
-          "summary": "11U OBA Rep - Practice",
+          "summary": "11U OBA Rep - Game vs Chatham Diamonds 11u [WC11U-082]",
           "location": "Tecumseh Park",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -3996,6 +4164,42 @@
       ],
       "games": [
         {
+          "game_id": "20513",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20513/",
+          "date": "2026-05-03",
+          "start_time": "4:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20517",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20517/",
+          "date": "2026-05-03",
+          "start_time": "6:30 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20514",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20514/",
+          "date": "2026-05-05",
+          "start_time": "6:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20098",
           "href": "https://sarniabrigade.ca/Teams/1293/Games/20098/",
           "date": "2026-05-09",
@@ -4013,6 +4217,18 @@
           "date": "2026-05-09",
           "start_time": "6:30 PM",
           "opponent": "London Badgers Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20512",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20512/",
+          "date": "2026-05-12",
+          "start_time": "6:00 PM",
+          "opponent": "Chatham Diamonds 11u WC11U-082 Tecumseh Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -4070,12 +4286,61 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 3,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-05-03",
+            "time": "4:00 PM",
+            "opponent": "10U A OBA Rep",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-05-05",
+            "time": "6:00 PM",
+            "opponent": "10U AA OBA Rep",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-05-12",
+            "time": "6:00 PM",
+            "opponent": "Chatham Diamonds 11u",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       }
     },
@@ -4774,6 +5039,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20516-sarniabrigade.ca",
+          "date": "2026-06-18",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-19",
+          "summary": "13U OBA Rep - Game vs Wyoming Wranglers [WC13U-31]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20327-sarniabrigade.ca",
           "date": "2026-06-22",
           "start_time": "5:30 PM",
@@ -5022,11 +5297,23 @@
           "brigade_score": null,
           "opp_score": null,
           "cancelled": false
+        },
+        {
+          "game_id": "20516",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20516/",
+          "date": "2026-06-18",
+          "start_time": "6:00 PM",
+          "opponent": "Wyoming Wranglers WC13U-31 Tecumseh Park More",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
         }
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 3,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
@@ -5076,6 +5363,22 @@
             "pending_count": 1,
             "denied_count": 1,
             "assignment_state": "assigned_but_denied",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-06-18",
+            "time": "6:00 PM",
+            "opponent": "Wyoming Wranglers",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           }
         ],
