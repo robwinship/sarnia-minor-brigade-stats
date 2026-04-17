@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-17T19:32:59.109238Z",
+  "generated": "2026-04-17T23:03:48.259771Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -8116,7 +8116,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 29,
+      "practices": 28,
       "roster": {
         "players": 12,
         "adults": 4,
@@ -8126,16 +8126,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19627-sarniabrigade.ca",
-          "date": "2026-02-17",
-          "start_time": "5:30 PM",
-          "end_date": "2026-02-18",
-          "summary": "9U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19628-sarniabrigade.ca",
           "date": "2026-03-03",
