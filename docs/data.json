@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-17T10:03:40.699487Z",
+  "generated": "2026-04-17T16:03:27.619090Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 50,
+      "practices": 49,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -66,16 +66,6 @@
           "end_date": "2026-04-09",
           "summary": "8U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20285-sarniabrigade.ca",
-          "date": "2026-04-19",
-          "start_time": "10:00 AM",
-          "end_date": "2026-04-19",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
           "type": "practice",
           "cancelled": false
         },
@@ -1926,11 +1916,11 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20491-sarniabrigade.ca",
+          "uid": "MS-20519-sarniabrigade.ca",
           "date": "2026-04-25",
-          "start_time": "10:00 AM",
+          "start_time": "12:30 PM",
           "end_date": "2026-04-25",
-          "summary": "10U AA OBA Rep - Game vs 10UA Sarnia Brigade  [DH]",
+          "summary": "10U AA OBA Rep - Game @ 10U A OBA Rep [WC11U-070]",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -2378,10 +2368,10 @@
       ],
       "games": [
         {
-          "game_id": "20491",
-          "href": "https://sarniabrigade.ca/Teams/1292/Games/20491/",
+          "game_id": "20519",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20519/",
           "date": "2026-04-25",
-          "start_time": "10:00 AM",
+          "start_time": "12:30 PM",
           "opponent": null,
           "home": true,
           "result": null,
@@ -2560,28 +2550,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 7,
+        "games_missed_upcoming": 6,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
-          {
-            "date": "2026-04-25",
-            "time": "10:00 AM",
-            "opponent": "10UA Sarnia Brigade",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
           {
             "date": "2026-07-11",
             "time": "11:00 AM",
@@ -2788,6 +2762,16 @@
           "summary": "10U A OBA Rep - Practice",
           "location": "Coronation Park Diamond",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20519-sarniabrigade.ca",
+          "date": "2026-04-25",
+          "start_time": "12:30 PM",
+          "end_date": "2026-04-25",
+          "summary": "10U A OBA Rep - Game vs 10U AA OBA Rep [WC11U-070]",
+          "location": "Clearwater Diamond #2",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -3293,6 +3277,18 @@
       ],
       "games": [
         {
+          "game_id": "20519",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20519/",
+          "date": "2026-04-25",
+          "start_time": "12:30 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20513",
           "href": "https://sarniabrigade.ca/Teams/1293/Games/20513/",
           "date": "2026-05-03",
@@ -3391,12 +3387,28 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 4,
+        "games_missed_upcoming": 5,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
+          {
+            "date": "2026-04-25",
+            "time": "12:30 PM",
+            "opponent": "10U AA OBA Rep",
+            "venue": "Clearwater Diamond #2",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
           {
             "date": "2026-05-03",
             "time": "6:30 PM",
@@ -3478,6 +3490,132 @@
         ],
         "doubleheader_mismatch_details": [
           {
+            "date": "2026-04-25",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [
+              "Annette Hoggarth",
+              "Brian Mundt",
+              "Clark Thornton",
+              "Cruz Marinaro",
+              "Dan Scott",
+              "David Haasen",
+              "Doug Krall",
+              "Easton McKinlay",
+              "Greg Baker",
+              "Hayden Scheuermann",
+              "Jakob Rodriguez",
+              "Jarett Simons",
+              "Jason Lajeunesse",
+              "Juan Peralta",
+              "Katrina Cadotte",
+              "Matthew Schrie",
+              "Paolo Padiglia",
+              "Ralph Campbell",
+              "Steve McGrail",
+              "Terry Doyle",
+              "Tyler Whetham"
+            ],
+            "games": [
+              {
+                "time": "12:30 PM",
+                "opponent": "10U AA OBA Rep",
+                "venue": "Clearwater Diamond #2",
+                "assigned_umpires": [
+                  "Annette Hoggarth",
+                  "Brian Mundt",
+                  "Brock Lane",
+                  "Caleb Willemsvandyk",
+                  "Carter Wills",
+                  "Chris Bonneau",
+                  "Clark Thornton",
+                  "Cruz Marinaro",
+                  "Dan Scott",
+                  "David Haasen",
+                  "Doug Krall",
+                  "Easton McKinlay",
+                  "Grant Purdy",
+                  "Greg Baker",
+                  "Hayden Scheuermann",
+                  "Jakob Rodriguez",
+                  "Jarett Simons",
+                  "Jason Lajeunesse",
+                  "Juan Peralta",
+                  "Katrina Cadotte",
+                  "Matthew Schrie",
+                  "Paolo Padiglia",
+                  "Ralph Campbell",
+                  "Steve McGrail",
+                  "Terry Doyle",
+                  "Tyler Hoadley",
+                  "Tyler Whetham",
+                  "Will Greer"
+                ],
+                "accepted_umpires": [
+                  "Annette Hoggarth",
+                  "Brian Mundt",
+                  "Clark Thornton",
+                  "Cruz Marinaro",
+                  "Dan Scott",
+                  "David Haasen",
+                  "Doug Krall",
+                  "Easton McKinlay",
+                  "Greg Baker",
+                  "Hayden Scheuermann",
+                  "Jakob Rodriguez",
+                  "Jarett Simons",
+                  "Jason Lajeunesse",
+                  "Juan Peralta",
+                  "Katrina Cadotte",
+                  "Matthew Schrie",
+                  "Paolo Padiglia",
+                  "Ralph Campbell",
+                  "Steve McGrail",
+                  "Terry Doyle",
+                  "Tyler Whetham"
+                ],
+                "pending_umpires": [
+                  "Brian Mundt",
+                  "Brock Lane",
+                  "Caleb Willemsvandyk",
+                  "Chris Bonneau",
+                  "Grant Purdy",
+                  "Hayden Scheuermann",
+                  "Matthew Schrie",
+                  "Terry Doyle",
+                  "Tyler Hoadley",
+                  "Tyler Whetham",
+                  "Will Greer"
+                ],
+                "denied_umpires": [
+                  "Carter Wills",
+                  "Clark Thornton",
+                  "Ralph Campbell"
+                ],
+                "assigned_count": 28,
+                "accepted_count": 21,
+                "pending_count": 11,
+                "denied_count": 3,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "12:30 PM",
+                "opponent": "10U AA OBA Rep",
+                "venue": "Clearwater Diamond #2",
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
+              }
+            ]
+          },
+          {
             "date": "2026-05-31",
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
@@ -3541,7 +3679,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 47,
+      "practices": 46,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -3628,16 +3766,6 @@
           "end_date": "2026-04-16",
           "summary": "11U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20059-sarniabrigade.ca",
-          "date": "2026-04-18",
-          "start_time": "4:00 PM",
-          "end_date": "2026-04-18",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
         },
@@ -4354,7 +4482,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 10,
+      "practices": 14,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -4455,12 +4583,52 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20001-sarniabrigade.ca",
-          "date": "2026-04-25",
-          "start_time": "7:00 AM",
-          "end_date": "2026-04-25",
+          "uid": "MS-20520-sarniabrigade.ca",
+          "date": "2026-04-19",
+          "start_time": "10:00 AM",
+          "end_date": "2026-04-19",
           "summary": "12U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
+          "location": "Tecumseh Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20521-sarniabrigade.ca",
+          "date": "2026-04-22",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-23",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20522-sarniabrigade.ca",
+          "date": "2026-04-26",
+          "start_time": "10:00 AM",
+          "end_date": "2026-04-26",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20523-sarniabrigade.ca",
+          "date": "2026-04-29",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-30",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20524-sarniabrigade.ca",
+          "date": "2026-05-03",
+          "start_time": "10:00 AM",
+          "end_date": "2026-05-03",
+          "summary": "12U OBA Rep - Practice",
+          "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
         },
@@ -5512,7 +5680,7 @@
           "date": "2026-04-19",
           "start_time": "10:00 AM",
           "end_date": "2026-04-19",
-          "summary": "14U OBA Rep - Game vs MidWest Bearcats",
+          "summary": "CANCELLED 14U OBA Rep - Game vs MidWest Bearcats",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -5522,7 +5690,7 @@
           "date": "2026-04-19",
           "start_time": "12:30 PM",
           "end_date": "2026-04-19",
-          "summary": "14U OBA Rep - Game vs MidWest Bearcats",
+          "summary": "CANCELLED 14U OBA Rep - Game vs MidWest Bearcats",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -5959,7 +6127,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20424",
@@ -5971,7 +6139,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20425",
@@ -6146,7 +6314,7 @@
         "games_missed": 0,
         "games_missed_upcoming": 7,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 3,
+        "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -6311,158 +6479,6 @@
           }
         ],
         "doubleheader_mismatch_details": [
-          {
-            "date": "2026-04-19",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [
-              "Dan Scott | Tyler Whetham"
-            ],
-            "mismatched_names": [
-              "Annette Hoggarth",
-              "Brian Mundt",
-              "Clark Thornton",
-              "Cruz Marinaro",
-              "David Haasen",
-              "Doug Krall",
-              "Easton McKinlay",
-              "Greg Baker",
-              "Hayden Scheuermann",
-              "Jakob Rodriguez",
-              "Jarett Simons",
-              "Jason Lajeunesse",
-              "Juan Peralta",
-              "Katrina Cadotte",
-              "Matthew Schrie",
-              "Paolo Padiglia",
-              "Ralph Campbell",
-              "Steve McGrail",
-              "Terry Doyle"
-            ],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "MidWest Bearcats",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Annette Hoggarth",
-                  "Brian Mundt",
-                  "Brock Lane",
-                  "Caleb Willemsvandyk",
-                  "Carter Wills",
-                  "Chris Bonneau",
-                  "Clark Thornton",
-                  "Cruz Marinaro",
-                  "Dan Scott",
-                  "David Haasen",
-                  "Doug Krall",
-                  "Easton McKinlay",
-                  "Grant Purdy",
-                  "Greg Baker",
-                  "Hayden Scheuermann",
-                  "Jakob Rodriguez",
-                  "Jarett Simons",
-                  "Jason Lajeunesse",
-                  "Juan Peralta",
-                  "Katrina Cadotte",
-                  "Matthew Schrie",
-                  "Paolo Padiglia",
-                  "Ralph Campbell",
-                  "Steve McGrail",
-                  "Terry Doyle",
-                  "Tyler Hoadley",
-                  "Tyler Whetham",
-                  "Will Greer"
-                ],
-                "accepted_umpires": [
-                  "Annette Hoggarth",
-                  "Brian Mundt",
-                  "Clark Thornton",
-                  "Cruz Marinaro",
-                  "Dan Scott",
-                  "David Haasen",
-                  "Doug Krall",
-                  "Easton McKinlay",
-                  "Greg Baker",
-                  "Hayden Scheuermann",
-                  "Jakob Rodriguez",
-                  "Jarett Simons",
-                  "Jason Lajeunesse",
-                  "Juan Peralta",
-                  "Katrina Cadotte",
-                  "Matthew Schrie",
-                  "Paolo Padiglia",
-                  "Ralph Campbell",
-                  "Steve McGrail",
-                  "Terry Doyle",
-                  "Tyler Whetham"
-                ],
-                "pending_umpires": [
-                  "Brian Mundt",
-                  "Brock Lane",
-                  "Caleb Willemsvandyk",
-                  "Chris Bonneau",
-                  "Grant Purdy",
-                  "Hayden Scheuermann",
-                  "Matthew Schrie",
-                  "Terry Doyle",
-                  "Tyler Hoadley",
-                  "Tyler Whetham",
-                  "Will Greer"
-                ],
-                "denied_umpires": [
-                  "Carter Wills",
-                  "Clark Thornton",
-                  "Ralph Campbell"
-                ],
-                "assigned_count": 28,
-                "accepted_count": 21,
-                "pending_count": 11,
-                "denied_count": 3,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "10:00 AM",
-                "opponent": "MidWest Bearcats",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Dan Scott",
-                  "Tyler Whetham"
-                ],
-                "accepted_umpires": [
-                  "Dan Scott",
-                  "Tyler Whetham"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "12:30 PM",
-                "opponent": "MidWest Bearcats",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Dan Scott",
-                  "Tyler Whetham"
-                ],
-                "accepted_umpires": [
-                  "Dan Scott",
-                  "Tyler Whetham"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
           {
             "date": "2026-05-31",
             "issue_timing": "upcoming",
@@ -8173,7 +8189,7 @@
           "date": "2026-04-17",
           "start_time": "6:00 PM",
           "end_date": "2026-04-18",
-          "summary": "13U Select - Practice",
+          "summary": "CANCELLED 13U Select - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
@@ -9160,7 +9176,7 @@
           "date": "2026-04-17",
           "start_time": "6:00 PM",
           "end_date": "2026-04-18",
-          "summary": "13U LDBA House League - Practice",
+          "summary": "CANCELLED 13U LDBA House League - Practice",
           "location": "Clearwater Diamond #4",
           "type": "practice",
           "cancelled": false
@@ -9563,7 +9579,7 @@
           "date": "2026-04-17",
           "start_time": "7:30 PM",
           "end_date": "2026-04-18",
-          "summary": "16U PBLO - Practice",
+          "summary": "CANCELLED 16U PBLO - Practice",
           "location": "Errol Russell Park",
           "type": "practice",
           "cancelled": false
@@ -11532,6 +11548,51 @@
       "location": ""
     },
     {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "game",
+      "date": "2026-04-19",
+      "start_time": "10:00 AM",
+      "summary": "CANCELLED 14U OBA Rep - Game vs MidWest Bearcats",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "game",
+      "date": "2026-04-19",
+      "start_time": "12:30 PM",
+      "summary": "CANCELLED 14U OBA Rep - Game vs MidWest Bearcats",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "game",
+      "date": "2026-04-19",
+      "start_time": "10:00 AM",
+      "summary": "",
+      "location": ""
+    },
+    {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "game",
+      "date": "2026-04-19",
+      "start_time": "12:30 PM",
+      "summary": "",
+      "location": ""
+    },
+    {
+      "team_id": 1300,
+      "team_name": "13U Select",
+      "type": "practice",
+      "date": "2026-04-17",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 13U Select - Practice",
+      "location": "Tecumseh Park"
+    },
+    {
       "team_id": 1300,
       "team_name": "13U Select",
       "type": "practice",
@@ -11566,6 +11627,24 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 13U Select - Practice",
       "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1302,
+      "team_name": "13U LDBA House League",
+      "type": "practice",
+      "date": "2026-04-17",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 13U LDBA House League - Practice",
+      "location": "Clearwater Diamond #4"
+    },
+    {
+      "team_id": 1298,
+      "team_name": "16U PBLO",
+      "type": "practice",
+      "date": "2026-04-17",
+      "start_time": "7:30 PM",
+      "summary": "CANCELLED 16U PBLO - Practice",
+      "location": "Errol Russell Park"
     }
   ]
 }
