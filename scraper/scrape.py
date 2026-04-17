@@ -1298,13 +1298,24 @@ def main():
 
     # Deduplicate cancellations by (team_id, date, start_time, type).
     # Including start_time preserves same-day doubleheaders cancelled at different times.
-    # When two entries share the same key, keep the one with the richer (longer) summary.
+    # Prefer ICS-derived entries (clean summary + location) over HTML-schedule entries
+    # (which have no location and may mangle opponent with venue due to tag-stripping).
+    # Priority: non-empty location > longer summary.
     deduped: dict = {}
     for entry in cancellations:
         key = (entry["team_id"], entry.get("date"), entry.get("start_time"), entry["type"])
         existing = deduped.get(key)
-        if existing is None or len(entry.get("summary") or "") > len(existing.get("summary") or ""):
+        if existing is None:
             deduped[key] = entry
+        else:
+            has_loc      = bool(entry.get("location"))
+            existing_loc = bool(existing.get("location"))
+            if has_loc and not existing_loc:
+                deduped[key] = entry
+            elif not has_loc and existing_loc:
+                pass  # keep existing
+            elif len(entry.get("summary") or "") > len(existing.get("summary") or ""):
+                deduped[key] = entry
     cancellations = list(deduped.values())
 
     payload = {
