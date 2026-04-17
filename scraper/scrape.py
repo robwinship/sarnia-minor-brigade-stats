@@ -1296,11 +1296,12 @@ def main():
         except Exception as exc:
             print(f"  ERROR: {exc}", file=sys.stderr)
 
-    # Deduplicate cancellations by (team_id, date, type).
+    # Deduplicate cancellations by (team_id, date, start_time, type).
+    # Including start_time preserves same-day doubleheaders cancelled at different times.
     # When two entries share the same key, keep the one with the richer (longer) summary.
     deduped: dict = {}
     for entry in cancellations:
-        key = (entry["team_id"], entry.get("date"), entry["type"])
+        key = (entry["team_id"], entry.get("date"), entry.get("start_time"), entry["type"])
         existing = deduped.get(key)
         if existing is None or len(entry.get("summary") or "") > len(existing.get("summary") or ""):
             deduped[key] = entry
