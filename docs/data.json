@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-18T19:33:27.883940Z",
+  "generated": "2026-04-18T23:02:58.600490Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -7102,7 +7102,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 72,
+      "practices": 71,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -7112,16 +7112,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19688-sarniabrigade.ca",
-          "date": "2026-02-18",
-          "start_time": "5:30 PM",
-          "end_date": "2026-02-19",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19689-sarniabrigade.ca",
           "date": "2026-02-25",
