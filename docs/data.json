@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-19T10:03:35.956443Z",
+  "generated": "2026-04-19T16:04:20.140251Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -962,7 +962,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 52,
+      "practices": 50,
       "roster": {
         "players": 12,
         "adults": 5,
@@ -999,26 +999,6 @@
           "end_date": "2026-04-15",
           "summary": "9U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19871-sarniabrigade.ca",
-          "date": "2026-04-15",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-16",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19891-sarniabrigade.ca",
-          "date": "2026-04-18",
-          "start_time": "10:00 AM",
-          "end_date": "2026-04-18",
-          "summary": "CANCELLED 9U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
           "type": "practice",
           "cancelled": false
         },
@@ -1785,7 +1765,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 37,
+      "practices": 36,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -1882,16 +1862,6 @@
           "end_date": "2026-04-17",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19672-sarniabrigade.ca",
-          "date": "2026-04-18",
-          "start_time": "10:00 AM",
-          "end_date": "2026-04-18",
-          "summary": "CANCELLED 10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
           "type": "practice",
           "cancelled": false
         },
@@ -5434,7 +5404,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 29,
+      "practices": 28,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -5471,16 +5441,6 @@
           "end_date": "2026-04-14",
           "summary": "13U OBA Rep - Indoor Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20233-sarniabrigade.ca",
-          "date": "2026-04-18",
-          "start_time": "11:00 AM",
-          "end_date": "2026-04-18",
-          "summary": "CANCELLED 13U OBA Rep - Practice",
-          "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
         },
@@ -6254,6 +6214,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20600-sarniabrigade.ca",
+          "date": "2026-04-26",
+          "start_time": "11:00 AM",
+          "end_date": "2026-04-26",
+          "summary": "14U OBA Rep - Game @ 15U OBA Rep",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20417-sarniabrigade.ca",
           "date": "2026-04-27",
           "start_time": "6:00 PM",
@@ -6655,6 +6625,18 @@
           "date": "2026-04-26",
           "start_time": "10:00 AM",
           "opponent": "TBA Blackwell North",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20600",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/20600/",
+          "date": "2026-04-26",
+          "start_time": "11:00 AM",
+          "opponent": null,
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -7102,7 +7084,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 71,
+      "practices": 69,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -7193,26 +7175,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20145-sarniabrigade.ca",
-          "date": "2026-04-16",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-16",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20150-sarniabrigade.ca",
-          "date": "2026-04-18",
-          "start_time": "11:00 AM",
-          "end_date": "2026-04-18",
-          "summary": "CANCELLED 15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20143-sarniabrigade.ca",
           "date": "2026-04-19",
           "start_time": "11:00 AM",
@@ -7253,11 +7215,21 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20600-sarniabrigade.ca",
+          "date": "2026-04-26",
+          "start_time": "11:00 AM",
+          "end_date": "2026-04-26",
+          "summary": "15U OBA Rep - Game vs 14U OBA Rep",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20144-sarniabrigade.ca",
           "date": "2026-04-26",
           "start_time": "11:00 AM",
           "end_date": "2026-04-26",
-          "summary": "15U OBA Rep - Practice",
+          "summary": "CANCELLED 15U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
@@ -7965,6 +7937,18 @@
       ],
       "games": [
         {
+          "game_id": "20600",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/20600/",
+          "date": "2026-04-26",
+          "start_time": "11:00 AM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "19756",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/19756/",
           "date": "2026-05-09",
@@ -8087,12 +8071,29 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-04-26",
+            "time": "11:00 AM",
+            "opponent": "14U OBA Rep",
+            "venue": "Blackwell Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       }
     },
@@ -8882,7 +8883,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 39,
+      "practices": 38,
       "roster": {
         "players": 12,
         "adults": 4,
@@ -8899,16 +8900,6 @@
           "end_date": "2026-04-07",
           "summary": "13U Select - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19829-sarniabrigade.ca",
-          "date": "2026-04-17",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-18",
-          "summary": "CANCELLED 13U Select - Practice",
-          "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
         },
@@ -9869,7 +9860,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 37,
+      "practices": 36,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -9886,16 +9877,6 @@
           "end_date": "2026-04-07",
           "summary": "13U LDBA House League - Indoor Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20339-sarniabrigade.ca",
-          "date": "2026-04-17",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-18",
-          "summary": "CANCELLED 13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #4",
           "type": "practice",
           "cancelled": false
         },
@@ -10282,7 +10263,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 48,
+      "practices": 47,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -10292,16 +10273,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20029-sarniabrigade.ca",
-          "date": "2026-04-17",
-          "start_time": "7:30 PM",
-          "end_date": "2026-04-18",
-          "summary": "CANCELLED 16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20009-sarniabrigade.ca",
           "date": "2026-04-22",
@@ -12242,28 +12213,10 @@
       "team_id": 1291,
       "team_name": "9U OBA Rep",
       "type": "practice",
-      "date": "2026-04-18",
-      "start_time": "10:00 AM",
-      "summary": "CANCELLED 9U OBA Rep - Practice",
-      "location": "Clearwater Diamond #1"
-    },
-    {
-      "team_id": 1291,
-      "team_name": "9U OBA Rep",
-      "type": "practice",
       "date": "2026-07-01",
       "start_time": "6:00 PM",
       "summary": "CANCELLED 9U OBA Rep - Practice",
       "location": "Clearwater Diamond #1"
-    },
-    {
-      "team_id": 1292,
-      "team_name": "10U AA OBA Rep",
-      "type": "practice",
-      "date": "2026-04-18",
-      "start_time": "10:00 AM",
-      "summary": "CANCELLED 10U AA OBA Rep - Practice",
-      "location": "Clearwater Diamond #2"
     },
     {
       "team_id": 1292,
@@ -12281,15 +12234,6 @@
       "date": "2026-04-19",
       "start_time": "10:00 AM",
       "summary": "CANCELLED 12U OBA Rep - Practice",
-      "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1295,
-      "team_name": "13U OBA Rep",
-      "type": "practice",
-      "date": "2026-04-18",
-      "start_time": "11:00 AM",
-      "summary": "CANCELLED 13U OBA Rep - Practice",
       "location": "Tecumseh Park"
     },
     {
@@ -12314,10 +12258,10 @@
       "team_id": 1297,
       "team_name": "15U OBA Rep",
       "type": "practice",
-      "date": "2026-04-18",
+      "date": "2026-04-26",
       "start_time": "11:00 AM",
       "summary": "CANCELLED 15U OBA Rep - Practice",
-      "location": "Blackwell Park"
+      "location": "Pitch Indoor Sports"
     },
     {
       "team_id": 1303,
@@ -12327,15 +12271,6 @@
       "start_time": "10:00 AM",
       "summary": "CANCELLED 11U Select - Practice",
       "location": "Clearwater Diamond #2"
-    },
-    {
-      "team_id": 1300,
-      "team_name": "13U Select",
-      "type": "practice",
-      "date": "2026-04-17",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 13U Select - Practice",
-      "location": "Tecumseh Park"
     },
     {
       "team_id": 1300,
@@ -12377,28 +12312,10 @@
       "team_id": 1302,
       "team_name": "13U LDBA House League",
       "type": "practice",
-      "date": "2026-04-17",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 13U LDBA House League - Practice",
-      "location": "Clearwater Diamond #4"
-    },
-    {
-      "team_id": 1302,
-      "team_name": "13U LDBA House League",
-      "type": "practice",
       "date": "2026-04-19",
       "start_time": "1:00 PM",
       "summary": "CANCELLED 13U LDBA House League - Practice",
       "location": "Clearwater Diamond #2"
-    },
-    {
-      "team_id": 1298,
-      "team_name": "16U PBLO",
-      "type": "practice",
-      "date": "2026-04-17",
-      "start_time": "7:30 PM",
-      "summary": "CANCELLED 16U PBLO - Practice",
-      "location": "Errol Russell Park"
     }
   ]
 }
