@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-20T16:02:51.442577Z",
+  "generated": "2026-04-20T19:33:17.541909Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3603,7 +3603,6 @@
                   "Hayden Scheuermann",
                   "Juan Peralta",
                   "Liam Colosimo",
-                  "Lucas Barker",
                   "Marko Sazdov",
                   "Matthew Schrie",
                   "Paolo Padiglia",
@@ -3620,15 +3619,17 @@
                   "Doug Krall",
                   "Ethan Antle",
                   "Hayden Scheuermann",
+                  "Lucas Barker",
                   "Paolo Padiglia",
                   "Ralph Campbell",
                   "Steve McGrail",
-                  "Sydney Nisbet"
+                  "Sydney Nisbet",
+                  "Tyler Whetham"
                 ],
                 "assigned_count": 43,
                 "accepted_count": 28,
-                "pending_count": 24,
-                "denied_count": 9,
+                "pending_count": 23,
+                "denied_count": 11,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4527,7 +4528,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 60,
+      "practices": 59,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -4624,16 +4625,6 @@
           "end_date": "2026-04-18",
           "summary": "12U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20520-sarniabrigade.ca",
-          "date": "2026-04-19",
-          "start_time": "10:00 AM",
-          "end_date": "2026-04-19",
-          "summary": "CANCELLED 12U OBA Rep - Practice",
-          "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
         },
@@ -6291,7 +6282,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 27,
+      "practices": 26,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -6348,36 +6339,6 @@
           "end_date": "2026-04-19",
           "summary": "14U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20423-sarniabrigade.ca",
-          "date": "2026-04-19",
-          "start_time": "10:00 AM",
-          "end_date": "2026-04-19",
-          "summary": "CANCELLED 14U OBA Rep - Game vs MidWest Bearcats",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20424-sarniabrigade.ca",
-          "date": "2026-04-19",
-          "start_time": "12:30 PM",
-          "end_date": "2026-04-19",
-          "summary": "CANCELLED 14U OBA Rep - Game vs MidWest Bearcats",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20416-sarniabrigade.ca",
-          "date": "2026-04-20",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-21",
-          "summary": "CANCELLED 14U OBA Rep - Practice",
-          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -6794,30 +6755,6 @@
       ],
       "games": [
         {
-          "game_id": "20423",
-          "href": "https://sarniabrigade.ca/Teams/1296/Games/20423/",
-          "date": "2026-04-19",
-          "start_time": "10:00 AM",
-          "opponent": "MidWest Bearcats Blackwell Park",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
-          "game_id": "20424",
-          "href": "https://sarniabrigade.ca/Teams/1296/Games/20424/",
-          "date": "2026-04-19",
-          "start_time": "12:30 PM",
-          "opponent": "MidWest Bearcats Blackwell Park",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
           "game_id": "20600",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/20600/",
           "date": "2026-04-26",
@@ -6926,8 +6863,8 @@
           "cancelled": false
         },
         {
-          "game_id": "20429",
-          "href": "https://sarniabrigade.ca/Teams/1296/Games/20429/",
+          "game_id": "20430",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20430/",
           "date": "2026-05-31",
           "start_time": "10:00 AM",
           "opponent": "TBA Blackwell North",
@@ -6938,8 +6875,8 @@
           "cancelled": false
         },
         {
-          "game_id": "20430",
-          "href": "https://sarniabrigade.ca/Teams/1296/Games/20430/",
+          "game_id": "20429",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20429/",
           "date": "2026-05-31",
           "start_time": "10:00 AM",
           "opponent": "TBA Blackwell North",
@@ -7005,15 +6942,16 @@
             ],
             "accepted_umpires": [],
             "pending_umpires": [
-              "Tyler Hoadley",
+              "Tyler Hoadley"
+            ],
+            "denied_umpires": [
               "Tyler Whetham"
             ],
-            "denied_umpires": [],
             "assigned_count": 2,
             "accepted_count": 0,
-            "pending_count": 2,
-            "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "pending_count": 1,
+            "denied_count": 1,
+            "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
           },
           {
@@ -8554,7 +8492,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 39,
+      "practices": 38,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -8591,16 +8529,6 @@
           "end_date": "2026-04-17",
           "summary": "11U Select - Indoor Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20105-sarniabrigade.ca",
-          "date": "2026-04-19",
-          "start_time": "10:00 AM",
-          "end_date": "2026-04-19",
-          "summary": "CANCELLED 11U Select - Practice",
-          "location": "Clearwater Diamond #2",
           "type": "practice",
           "cancelled": false
         },
@@ -9974,7 +9902,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 36,
+      "practices": 35,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -9991,16 +9919,6 @@
           "end_date": "2026-04-07",
           "summary": "13U LDBA House League - Indoor Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20358-sarniabrigade.ca",
-          "date": "2026-04-19",
-          "start_time": "1:00 PM",
-          "end_date": "2026-04-19",
-          "summary": "CANCELLED 13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #2",
           "type": "practice",
           "cancelled": false
         },
@@ -11800,14 +11718,14 @@
             "accepted_umpires": [
               "Brian Mundt"
             ],
-            "pending_umpires": [
+            "pending_umpires": [],
+            "denied_umpires": [
               "Tyler Whetham"
             ],
-            "denied_umpires": [],
             "assigned_count": 2,
             "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
+            "pending_count": 0,
+            "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
@@ -11823,14 +11741,14 @@
             "accepted_umpires": [
               "Brian Mundt"
             ],
-            "pending_umpires": [
+            "pending_umpires": [],
+            "denied_umpires": [
               "Tyler Whetham"
             ],
-            "denied_umpires": [],
             "assigned_count": 2,
             "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
+            "pending_count": 0,
+            "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
@@ -11946,14 +11864,14 @@
                 "accepted_umpires": [
                   "Brian Mundt"
                 ],
-                "pending_umpires": [
+                "pending_umpires": [],
+                "denied_umpires": [
                   "Tyler Whetham"
                 ],
-                "denied_umpires": [],
                 "assigned_count": 2,
                 "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
+                "pending_count": 0,
+                "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -11967,14 +11885,14 @@
                 "accepted_umpires": [
                   "Brian Mundt"
                 ],
-                "pending_umpires": [
+                "pending_umpires": [],
+                "denied_umpires": [
                   "Tyler Whetham"
                 ],
-                "denied_umpires": [],
                 "assigned_count": 2,
                 "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
+                "pending_count": 0,
+                "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               }
             ]
@@ -12342,42 +12260,6 @@
       "location": "Clearwater Diamond #1"
     },
     {
-      "team_id": 1294,
-      "team_name": "12U OBA Rep",
-      "type": "practice",
-      "date": "2026-04-19",
-      "start_time": "10:00 AM",
-      "summary": "CANCELLED 12U OBA Rep - Practice",
-      "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1296,
-      "team_name": "14U OBA Rep",
-      "type": "game",
-      "date": "2026-04-19",
-      "start_time": "10:00 AM",
-      "summary": "CANCELLED 14U OBA Rep - Game vs MidWest Bearcats",
-      "location": "Blackwell Park"
-    },
-    {
-      "team_id": 1296,
-      "team_name": "14U OBA Rep",
-      "type": "game",
-      "date": "2026-04-19",
-      "start_time": "12:30 PM",
-      "summary": "CANCELLED 14U OBA Rep - Game vs MidWest Bearcats",
-      "location": "Blackwell Park"
-    },
-    {
-      "team_id": 1296,
-      "team_name": "14U OBA Rep",
-      "type": "practice",
-      "date": "2026-04-20",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 14U OBA Rep - Practice",
-      "location": "Blackwell Park"
-    },
-    {
       "team_id": 1297,
       "team_name": "15U OBA Rep",
       "type": "practice",
@@ -12385,15 +12267,6 @@
       "start_time": "11:00 AM",
       "summary": "CANCELLED 15U OBA Rep - Practice",
       "location": "Pitch Indoor Sports"
-    },
-    {
-      "team_id": 1303,
-      "team_name": "11U Select",
-      "type": "practice",
-      "date": "2026-04-19",
-      "start_time": "10:00 AM",
-      "summary": "CANCELLED 11U Select - Practice",
-      "location": "Clearwater Diamond #2"
     },
     {
       "team_id": 1300,
@@ -12439,15 +12312,6 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 13U Select - Practice",
       "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1302,
-      "team_name": "13U LDBA House League",
-      "type": "practice",
-      "date": "2026-04-19",
-      "start_time": "1:00 PM",
-      "summary": "CANCELLED 13U LDBA House League - Practice",
-      "location": "Clearwater Diamond #2"
     }
   ]
 }
