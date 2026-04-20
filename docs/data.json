@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-19T23:04:20.874893Z",
+  "generated": "2026-04-20T10:03:06.007278Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -852,16 +852,19 @@
             "opponent": "Wallaceburg Warriors",
             "venue": "Coronation Park Diamond",
             "assigned_umpires": [
+              "Drew Baxter",
               "Juan Peralta"
             ],
             "accepted_umpires": [
               "Juan Peralta"
             ],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Drew Baxter"
+            ],
             "denied_umpires": [],
-            "assigned_count": 1,
+            "assigned_count": 2,
             "accepted_count": 1,
-            "pending_count": 0,
+            "pending_count": 1,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -3479,11 +3482,13 @@
               "Brian Mundt",
               "Brogan Murphy",
               "Clark Thornton",
+              "Colby Sheffer",
               "Cruz Marinaro",
               "Dan Scott",
               "David Haasen",
               "Doug Krall",
               "Easton McKinlay",
+              "Ethan Antle",
               "Greg Baker",
               "Hayden Scheuermann",
               "Jakob Rodriguez",
@@ -3508,17 +3513,19 @@
                 "assigned_umpires": [
                   "Annette Hoggarth",
                   "Austin Lozon",
+                  "Bentley Daughtrey",
                   "Brian Mundt",
                   "Brock Lane",
                   "Brogan Murphy",
                   "Caleb Willemsvandyk",
-                  "Carter Wills",
                   "Chris Bonneau",
                   "Clark Thornton",
+                  "Colby Sheffer",
                   "Cruz Marinaro",
                   "Dan Scott",
                   "David Haasen",
                   "Doug Krall",
+                  "Drew Baxter",
                   "Easton McKinlay",
                   "Ethan Antle",
                   "Ethan Glavin",
@@ -3533,12 +3540,15 @@
                   "Katrina Cadotte",
                   "Liam Colosimo",
                   "Liam Scott",
+                  "Lucas Barker",
                   "Marko Sazdov",
                   "Matthew Schrie",
                   "Paolo Padiglia",
                   "Ralph Campbell",
                   "Ronnie Atyeo",
+                  "Ryder Day",
                   "Steve McGrail",
+                  "Sydney Nisbet",
                   "Terry Doyle",
                   "Tristan Heeringa",
                   "Tyler Hoadley",
@@ -3550,11 +3560,13 @@
                   "Brian Mundt",
                   "Brogan Murphy",
                   "Clark Thornton",
+                  "Colby Sheffer",
                   "Cruz Marinaro",
                   "Dan Scott",
                   "David Haasen",
                   "Doug Krall",
                   "Easton McKinlay",
+                  "Ethan Antle",
                   "Greg Baker",
                   "Hayden Scheuermann",
                   "Jakob Rodriguez",
@@ -3573,43 +3585,45 @@
                 ],
                 "pending_umpires": [
                   "Austin Lozon",
+                  "Bentley Daughtrey",
                   "Brian Mundt",
                   "Brock Lane",
                   "Caleb Willemsvandyk",
                   "Chris Bonneau",
-                  "Dan Scott",
-                  "Ethan Antle",
+                  "Drew Baxter",
                   "Ethan Glavin",
                   "Grant Purdy",
                   "Greg Baker",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
-                  "Jason Lajeunesse",
                   "Juan Peralta",
                   "Liam Colosimo",
                   "Liam Scott",
+                  "Lucas Barker",
                   "Marko Sazdov",
                   "Matthew Schrie",
                   "Paolo Padiglia",
                   "Ralph Campbell",
+                  "Ryder Day",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham",
                   "Will Greer"
                 ],
                 "denied_umpires": [
-                  "Carter Wills",
                   "Clark Thornton",
                   "Doug Krall",
+                  "Ethan Antle",
                   "Hayden Scheuermann",
                   "Paolo Padiglia",
                   "Ralph Campbell",
-                  "Steve McGrail"
+                  "Steve McGrail",
+                  "Sydney Nisbet"
                 ],
-                "assigned_count": 38,
-                "accepted_count": 24,
-                "pending_count": 24,
-                "denied_count": 7,
+                "assigned_count": 43,
+                "accepted_count": 26,
+                "pending_count": 25,
+                "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -5314,7 +5328,7 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 4,
+        "games_missed_upcoming": 3,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
@@ -5340,32 +5354,6 @@
             "accepted_count": 1,
             "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-24",
-            "time": "10:00 AM",
-            "opponent": "Windsor Windsor Nationals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Carter Wills",
-              "Clark Thornton",
-              "Jason Lajeunesse"
-            ],
-            "accepted_umpires": [
-              "Clark Thornton"
-            ],
-            "pending_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "denied_umpires": [
-              "Carter Wills"
-            ],
-            "assigned_count": 3,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
@@ -6857,7 +6845,7 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 6,
+        "games_missed_upcoming": 5,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
@@ -6883,29 +6871,6 @@
             "pending_count": 2,
             "denied_count": 0,
             "assignment_state": "assigned_not_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-29",
-            "time": "6:00 PM",
-            "opponent": "TBA",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [
-              "Hayden Scheuermann",
-              "Jason Lajeunesse"
-            ],
-            "accepted_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
