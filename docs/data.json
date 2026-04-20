@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-20T10:03:06.007278Z",
+  "generated": "2026-04-20T16:02:51.442577Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3395,17 +3395,18 @@
               "Hayden Scheuermann",
               "Liam Scott"
             ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Hayden Scheuermann",
+            "accepted_umpires": [
               "Liam Scott"
+            ],
+            "pending_umpires": [
+              "Hayden Scheuermann"
             ],
             "denied_umpires": [],
             "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -3481,6 +3482,7 @@
               "Annette Hoggarth",
               "Brian Mundt",
               "Brogan Murphy",
+              "Chris Bonneau",
               "Clark Thornton",
               "Colby Sheffer",
               "Cruz Marinaro",
@@ -3496,6 +3498,7 @@
               "Jason Lajeunesse",
               "Juan Peralta",
               "Katrina Cadotte",
+              "Liam Scott",
               "Matthew Schrie",
               "Paolo Padiglia",
               "Ralph Campbell",
@@ -3559,6 +3562,7 @@
                   "Annette Hoggarth",
                   "Brian Mundt",
                   "Brogan Murphy",
+                  "Chris Bonneau",
                   "Clark Thornton",
                   "Colby Sheffer",
                   "Cruz Marinaro",
@@ -3574,6 +3578,7 @@
                   "Jason Lajeunesse",
                   "Juan Peralta",
                   "Katrina Cadotte",
+                  "Liam Scott",
                   "Matthew Schrie",
                   "Paolo Padiglia",
                   "Ralph Campbell",
@@ -3598,7 +3603,6 @@
                   "Hayden Scheuermann",
                   "Juan Peralta",
                   "Liam Colosimo",
-                  "Liam Scott",
                   "Lucas Barker",
                   "Marko Sazdov",
                   "Matthew Schrie",
@@ -3611,6 +3615,7 @@
                   "Will Greer"
                 ],
                 "denied_umpires": [
+                  "Chris Bonneau",
                   "Clark Thornton",
                   "Doug Krall",
                   "Ethan Antle",
@@ -3621,9 +3626,9 @@
                   "Sydney Nisbet"
                 ],
                 "assigned_count": 43,
-                "accepted_count": 26,
-                "pending_count": 25,
-                "denied_count": 8,
+                "accepted_count": 28,
+                "pending_count": 24,
+                "denied_count": 9,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4446,17 +4451,18 @@
               "Hayden Scheuermann",
               "Liam Scott"
             ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Hayden Scheuermann",
+            "accepted_umpires": [
               "Liam Scott"
+            ],
+            "pending_umpires": [
+              "Hayden Scheuermann"
             ],
             "denied_umpires": [],
             "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -4521,7 +4527,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 61,
+      "practices": 60,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -4862,6 +4868,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20639-sarniabrigade.ca",
+          "date": "2026-06-16",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-17",
+          "summary": "12U OBA Rep - Game @ 12U Rep St. Thomas Cardinals",
+          "location": "New York Central Ballpark",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20552-sarniabrigade.ca",
           "date": "2026-06-17",
           "start_time": "6:00 PM",
@@ -4942,13 +4958,23 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20557-sarniabrigade.ca",
+          "uid": "MS-20637-sarniabrigade.ca",
           "date": "2026-07-05",
           "start_time": "10:00 AM",
           "end_date": "2026-07-05",
-          "summary": "12U OBA Rep - Practice",
+          "summary": "12U OBA Rep - Game vs 12U Rep St. Thomas Cardinals",
           "location": "Tecumseh Park",
-          "type": "practice",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20638-sarniabrigade.ca",
+          "date": "2026-07-05",
+          "start_time": "1:00 PM",
+          "end_date": "2026-07-05",
+          "summary": "12U OBA Rep - Game vs 12U Rep St. Thomas Cardinals",
+          "location": "Tecumseh Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -5290,6 +5316,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20639",
+          "href": "https://sarniabrigade.ca/Teams/1294/Games/20639/",
+          "date": "2026-06-16",
+          "start_time": "6:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20064",
           "href": "https://sarniabrigade.ca/Teams/1294/Games/20064/",
           "date": "2026-06-21",
@@ -5314,6 +5352,30 @@
           "cancelled": false
         },
         {
+          "game_id": "20637",
+          "href": "https://sarniabrigade.ca/Teams/1294/Games/20637/",
+          "date": "2026-07-05",
+          "start_time": "10:00 AM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20638",
+          "href": "https://sarniabrigade.ca/Teams/1294/Games/20638/",
+          "date": "2026-07-05",
+          "start_time": "1:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "19985",
           "href": "https://sarniabrigade.ca/Teams/1294/Games/19985/",
           "date": "2026-07-29",
@@ -5328,9 +5390,9 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 3,
+        "games_missed_upcoming": 5,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -5363,16 +5425,19 @@
             "opponent": "Lasalle Turtle Club",
             "venue": "Tecumseh Park",
             "assigned_umpires": [
+              "Juan Peralta",
               "Paolo Padiglia"
             ],
             "accepted_umpires": [
               "Paolo Padiglia"
             ],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Juan Peralta"
+            ],
             "denied_umpires": [],
-            "assigned_count": 1,
+            "assigned_count": 2,
             "accepted_count": 1,
-            "pending_count": 0,
+            "pending_count": 1,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -5383,18 +5448,53 @@
             "opponent": "Lasalle Turtle Club",
             "venue": "Tecumseh Park",
             "assigned_umpires": [
+              "Juan Peralta",
               "Paolo Padiglia"
             ],
             "accepted_umpires": [
               "Paolo Padiglia"
             ],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Juan Peralta"
+            ],
             "denied_umpires": [],
-            "assigned_count": 1,
+            "assigned_count": 2,
             "accepted_count": 1,
-            "pending_count": 0,
+            "pending_count": 1,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-07-05",
+            "time": "10:00 AM",
+            "opponent": "12U Rep St. Thomas Cardinals",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-07-05",
+            "time": "1:00 PM",
+            "opponent": "12U Rep St. Thomas Cardinals",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           }
         ],
@@ -5411,16 +5511,19 @@
                 "opponent": "Lasalle Turtle Club",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
+                  "Juan Peralta",
                   "Paolo Padiglia"
                 ],
                 "accepted_umpires": [
                   "Paolo Padiglia"
                 ],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "Juan Peralta"
+                ],
                 "denied_umpires": [],
-                "assigned_count": 1,
+                "assigned_count": 2,
                 "accepted_count": 1,
-                "pending_count": 0,
+                "pending_count": 1,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -5429,18 +5532,58 @@
                 "opponent": "Lasalle Turtle Club",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
+                  "Juan Peralta",
                   "Paolo Padiglia"
                 ],
                 "accepted_umpires": [
                   "Paolo Padiglia"
                 ],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "Juan Peralta"
+                ],
                 "denied_umpires": [],
-                "assigned_count": 1,
+                "assigned_count": 2,
                 "accepted_count": 1,
-                "pending_count": 0,
+                "pending_count": 1,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-07-05",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "12U Rep St. Thomas Cardinals",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
+              },
+              {
+                "time": "1:00 PM",
+                "opponent": "12U Rep St. Thomas Cardinals",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
               }
             ]
           }
@@ -6233,7 +6376,7 @@
           "date": "2026-04-20",
           "start_time": "6:00 PM",
           "end_date": "2026-04-21",
-          "summary": "14U OBA Rep - Practice",
+          "summary": "CANCELLED 14U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
@@ -8069,36 +8212,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-04-26",
-            "time": "11:00 AM",
-            "opponent": "14U OBA Rep",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Chris Bonneau",
-              "Tyler Whetham"
-            ],
-            "accepted_umpires": [
-              "Tyler Whetham"
-            ],
-            "pending_umpires": [
-              "Chris Bonneau"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
     },
@@ -8923,7 +9042,7 @@
           "date": "2026-04-20",
           "start_time": "6:00 PM",
           "end_date": "2026-04-21",
-          "summary": "13U Select - Practice",
+          "summary": "CANCELLED 13U Select - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
@@ -9772,7 +9891,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 6,
+      "practices": 5,
       "roster": {
         "players": 15,
         "adults": 2,
@@ -9782,16 +9901,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20468-sarniabrigade.ca",
-          "date": "2026-04-20",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-21",
-          "summary": "11u River League - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20469-sarniabrigade.ca",
           "date": "2026-04-27",
@@ -12260,6 +12369,15 @@
       "location": "Blackwell Park"
     },
     {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "practice",
+      "date": "2026-04-20",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 14U OBA Rep - Practice",
+      "location": "Blackwell Park"
+    },
+    {
       "team_id": 1297,
       "team_name": "15U OBA Rep",
       "type": "practice",
@@ -12276,6 +12394,15 @@
       "start_time": "10:00 AM",
       "summary": "CANCELLED 11U Select - Practice",
       "location": "Clearwater Diamond #2"
+    },
+    {
+      "team_id": 1300,
+      "team_name": "13U Select",
+      "type": "practice",
+      "date": "2026-04-20",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 13U Select - Practice",
+      "location": "Tecumseh Park"
     },
     {
       "team_id": 1300,
