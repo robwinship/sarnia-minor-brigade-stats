@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-20T19:33:17.541909Z",
+  "generated": "2026-04-20T23:03:05.790226Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1772,7 +1772,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 36,
+      "practices": 35,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -1782,16 +1782,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19637-sarniabrigade.ca",
-          "date": "2026-02-20",
-          "start_time": "5:00 PM",
-          "end_date": "2026-02-21",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19638-sarniabrigade.ca",
           "date": "2026-02-27",
@@ -3601,6 +3591,7 @@
                   "Greg Baker",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
+                  "Jarett Simons",
                   "Juan Peralta",
                   "Liam Colosimo",
                   "Marko Sazdov",
@@ -3618,7 +3609,6 @@
                   "Clark Thornton",
                   "Doug Krall",
                   "Ethan Antle",
-                  "Hayden Scheuermann",
                   "Lucas Barker",
                   "Paolo Padiglia",
                   "Ralph Campbell",
@@ -3628,8 +3618,8 @@
                 ],
                 "assigned_count": 43,
                 "accepted_count": 28,
-                "pending_count": 23,
-                "denied_count": 11,
+                "pending_count": 24,
+                "denied_count": 10,
                 "assignment_state": "assigned_and_accepted"
               },
               {
