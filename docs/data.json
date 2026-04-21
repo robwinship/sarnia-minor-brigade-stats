@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-20T23:03:05.790226Z",
+  "generated": "2026-04-21T10:03:47.184841Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -330,6 +330,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20649-sarniabrigade.ca",
+          "date": "2026-06-10",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-11",
+          "summary": "8U OBA Rep - Game @ London West Tincaps [8u03]",
+          "location": "Oakridge Optimist (Lower)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20273-sarniabrigade.ca",
           "date": "2026-06-10",
           "start_time": "6:00 PM",
@@ -570,6 +580,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20650-sarniabrigade.ca",
+          "date": "2026-08-05",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-06",
+          "summary": "8U OBA Rep - Game @ London West Tincaps [8u33]",
+          "location": "Oakridge Optimist (Lower)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20281-sarniabrigade.ca",
           "date": "2026-08-05",
           "start_time": "6:00 PM",
@@ -766,6 +786,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20649",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/20649/",
+          "date": "2026-06-10",
+          "start_time": "6:00 PM",
+          "opponent": "London West Tincaps 8u03 Oakridge Optimist",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20506",
           "href": "https://sarniabrigade.ca/Teams/1290/Games/20506/",
           "date": "2026-06-17",
@@ -807,6 +839,18 @@
           "date": "2026-07-23",
           "start_time": "6:30 PM",
           "opponent": "Wallaceburg Warriors WC9U-024 Mike Childs Fiel",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20650",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/20650/",
+          "date": "2026-08-05",
+          "start_time": "6:00 PM",
+          "opponent": "London West Tincaps 8u33 Oakridge Optimist",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -1220,6 +1264,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20651-sarniabrigade.ca",
+          "date": "2026-06-08",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-09",
+          "summary": "9U OBA Rep - Game @ London West Tincaps [9u49]",
+          "location": "Oakridge Optimist (Upper)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20185-sarniabrigade.ca",
           "date": "2026-06-09",
           "start_time": "5:00 PM",
@@ -1237,6 +1291,26 @@
           "summary": "9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20669-sarniabrigade.ca",
+          "date": "2026-06-12",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-13",
+          "summary": "9U OBA Rep - Game @ Dorchester Diamondbacks [9u37]",
+          "location": "Dorchester (2)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20670-sarniabrigade.ca",
+          "date": "2026-06-12",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-13",
+          "summary": "9U OBA Rep - Game @ Dorchester Diamondbacks [9u87]",
+          "location": "Dorchester (2)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -1417,6 +1491,16 @@
           "summary": "9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20652-sarniabrigade.ca",
+          "date": "2026-07-20",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-21",
+          "summary": "9U OBA Rep - Game @ London West Tincaps [9u73]",
+          "location": "Oakridge Optimist (Upper)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -1616,6 +1700,42 @@
           "cancelled": false
         },
         {
+          "game_id": "20651",
+          "href": "https://sarniabrigade.ca/Teams/1291/Games/20651/",
+          "date": "2026-06-08",
+          "start_time": "6:00 PM",
+          "opponent": "London West Tincaps 9u49 Oakridge Optimist",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20669",
+          "href": "https://sarniabrigade.ca/Teams/1291/Games/20669/",
+          "date": "2026-06-12",
+          "start_time": "6:00 PM",
+          "opponent": "Dorchester Diamondbacks 9u37 Dorchester",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20670",
+          "href": "https://sarniabrigade.ca/Teams/1291/Games/20670/",
+          "date": "2026-06-12",
+          "start_time": "6:00 PM",
+          "opponent": "Dorchester Diamondbacks 9u87 Dorchester",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "19777",
           "href": "https://sarniabrigade.ca/Teams/1291/Games/19777/",
           "date": "2026-06-27",
@@ -1657,6 +1777,18 @@
           "date": "2026-06-28",
           "start_time": "4:00 PM",
           "opponent": "Lasalle Turtle Club Turtle Club",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20652",
+          "href": "https://sarniabrigade.ca/Teams/1291/Games/20652/",
+          "date": "2026-07-20",
+          "start_time": "6:00 PM",
+          "opponent": "London West Tincaps 9u73 Oakridge Optimist",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -3062,6 +3194,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20654-sarniabrigade.ca",
+          "date": "2026-07-22",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-23",
+          "summary": "10U A OBA Rep - Game @ London West Tincaps [10u15]",
+          "location": "Oakridge Optimist (Upper)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20166-sarniabrigade.ca",
           "date": "2026-07-23",
           "start_time": "5:30 PM",
@@ -3099,6 +3241,16 @@
           "summary": "10U A OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20655-sarniabrigade.ca",
+          "date": "2026-08-05",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-06",
+          "summary": "10U A OBA Rep - Game @ London West Tincaps [10u45]",
+          "location": "Oakridge Optimist (Upper)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -3340,6 +3492,30 @@
           "cancelled": false
         },
         {
+          "game_id": "20654",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20654/",
+          "date": "2026-07-22",
+          "start_time": "6:00 PM",
+          "opponent": "London West Tincaps 10u15 Oakridge Optimist",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20655",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20655/",
+          "date": "2026-08-05",
+          "start_time": "6:00 PM",
+          "opponent": "London West Tincaps 10u45 Oakridge Optimist",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20509",
           "href": "https://sarniabrigade.ca/Teams/1311/Games/20509/",
           "date": "2026-08-25",
@@ -3531,6 +3707,7 @@
                   "Jason Lajeunesse",
                   "Juan Peralta",
                   "Katrina Cadotte",
+                  "Kirk Vines",
                   "Liam Colosimo",
                   "Liam Scott",
                   "Lucas Barker",
@@ -3585,19 +3762,19 @@
                   "Brock Lane",
                   "Caleb Willemsvandyk",
                   "Chris Bonneau",
+                  "Dan Scott",
                   "Drew Baxter",
                   "Ethan Glavin",
                   "Grant Purdy",
                   "Greg Baker",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
-                  "Jarett Simons",
                   "Juan Peralta",
+                  "Kirk Vines",
                   "Liam Colosimo",
                   "Marko Sazdov",
                   "Matthew Schrie",
                   "Paolo Padiglia",
-                  "Ralph Campbell",
                   "Ryder Day",
                   "Terry Doyle",
                   "Tyler Hoadley",
@@ -3616,7 +3793,7 @@
                   "Sydney Nisbet",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 43,
+                "assigned_count": 44,
                 "accepted_count": 28,
                 "pending_count": 24,
                 "denied_count": 10,
@@ -4223,6 +4400,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20668-sarniabrigade.ca",
+          "date": "2026-08-16",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-17",
+          "summary": "11U OBA Rep - Game @ Dorchester Diamondbacks [11u71]",
+          "location": "Dorchester (3)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20095-sarniabrigade.ca",
           "date": "2026-08-18",
           "start_time": "6:00 PM",
@@ -4418,6 +4605,18 @@
           "date": "2026-07-27",
           "start_time": "6:30 PM",
           "opponent": "Dresden Tigers WC11U-039 McVean Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20668",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20668/",
+          "date": "2026-08-16",
+          "start_time": "6:00 PM",
+          "opponent": "Dorchester Diamondbacks 11u71 Dorchester",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -5029,6 +5228,26 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20657-sarniabrigade.ca",
+          "date": "2026-07-24",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-25",
+          "summary": "12U OBA Rep - Game @ London West Tincaps [12u16]",
+          "location": "West Lions",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20658-sarniabrigade.ca",
+          "date": "2026-07-24",
+          "start_time": "8:15 PM",
+          "end_date": "2026-07-25",
+          "summary": "12U OBA Rep - Game @ London West Tincaps [12u37]",
+          "location": "West Lions",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20570-sarniabrigade.ca",
           "date": "2026-07-26",
           "start_time": "10:00 AM",
@@ -5351,6 +5570,30 @@
           "start_time": "1:00 PM",
           "opponent": null,
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20657",
+          "href": "https://sarniabrigade.ca/Teams/1294/Games/20657/",
+          "date": "2026-07-24",
+          "start_time": "6:00 PM",
+          "opponent": "London West Tincaps 12u16 West Lions",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20658",
+          "href": "https://sarniabrigade.ca/Teams/1294/Games/20658/",
+          "date": "2026-07-24",
+          "start_time": "8:15 PM",
+          "opponent": "London West Tincaps 12u37 West Lions",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -5752,6 +5995,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20662-sarniabrigade.ca",
+          "date": "2026-05-13",
+          "start_time": "8:30 PM",
+          "end_date": "2026-05-14",
+          "summary": "13U OBA Rep - Game @ London West Tincaps [13u47]",
+          "location": "Byron Sports Complex (2)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20242-sarniabrigade.ca",
           "date": "2026-05-14",
           "start_time": "6:00 PM",
@@ -5889,6 +6142,16 @@
           "summary": "13U OBA Rep - Indoor Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20667-sarniabrigade.ca",
+          "date": "2026-07-07",
+          "start_time": "7:30 PM",
+          "end_date": "2026-07-08",
+          "summary": "13U OBA Rep - Game @ Mitchell Astros Rep [13u91]",
+          "location": "Kinsmen (Cooper)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -6056,8 +6319,20 @@
           "href": "https://sarniabrigade.ca/Teams/1295/Games/20378/",
           "date": "2026-05-09",
           "start_time": "1:00 PM",
-          "opponent": "St. Thomas Cardinals Tecumseh Park More Detail",
+          "opponent": "St. Thomas Cardinals Tecumseh Park",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20662",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20662/",
+          "date": "2026-05-13",
+          "start_time": "8:30 PM",
+          "opponent": "London West Tincaps 13u47 Byron Sports Complex",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -6118,6 +6393,18 @@
           "start_time": "6:00 PM",
           "opponent": "Wyoming Wranglers WC13U-31 Tecumseh Park More",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20667",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20667/",
+          "date": "2026-07-07",
+          "start_time": "7:30 PM",
+          "opponent": "Mitchell Astros Rep 13u91 Kinsmen",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -6473,6 +6760,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20661-sarniabrigade.ca",
+          "date": "2026-05-12",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-13",
+          "summary": "14U OBA Rep - Game @ London West Tincaps [14u75]",
+          "location": "Stoneybrook (Dan Pulham)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20439-sarniabrigade.ca",
           "date": "2026-05-14",
           "start_time": "8:00 PM",
@@ -6683,6 +6980,26 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20664-sarniabrigade.ca",
+          "date": "2026-08-10",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-11",
+          "summary": "14U OBA Rep - Game @ Dorchester Diamondbacks [14u35]",
+          "location": "Outdoor Complex (Royal)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20660-sarniabrigade.ca",
+          "date": "2026-08-11",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-12",
+          "summary": "14U OBA Rep - Game @ London West Tincaps [14u23]",
+          "location": "Stoneybrook (Dan Pulham)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MD-3317-sarniabrigade.ca",
           "date": "2026-04-09",
           "start_time": "6:30 PM",
@@ -6781,6 +7098,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20661",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20661/",
+          "date": "2026-05-12",
+          "start_time": "6:00 PM",
+          "opponent": "London West Tincaps 14u75 Stoneybrook",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20428",
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20428/",
           "date": "2026-05-17",
@@ -6853,8 +7182,8 @@
           "cancelled": false
         },
         {
-          "game_id": "20430",
-          "href": "https://sarniabrigade.ca/Teams/1296/Games/20430/",
+          "game_id": "20429",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20429/",
           "date": "2026-05-31",
           "start_time": "10:00 AM",
           "opponent": "TBA Blackwell North",
@@ -6865,8 +7194,8 @@
           "cancelled": false
         },
         {
-          "game_id": "20429",
-          "href": "https://sarniabrigade.ca/Teams/1296/Games/20429/",
+          "game_id": "20430",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20430/",
           "date": "2026-05-31",
           "start_time": "10:00 AM",
           "opponent": "TBA Blackwell North",
@@ -6911,6 +7240,30 @@
           "brigade_score": null,
           "opp_score": null,
           "cancelled": false
+        },
+        {
+          "game_id": "20664",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20664/",
+          "date": "2026-08-10",
+          "start_time": "6:00 PM",
+          "opponent": "Dorchester Diamondbacks 14u35 Outdoor Complex",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20660",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20660/",
+          "date": "2026-08-11",
+          "start_time": "6:00 PM",
+          "opponent": "London West Tincaps 14u23 Stoneybrook",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
         }
       ],
       "umpire_issues": {
@@ -6927,19 +7280,21 @@
             "opponent": "TBA",
             "venue": "Blackwell North",
             "assigned_umpires": [
+              "Kirk Vines",
               "Tyler Hoadley",
               "Tyler Whetham"
             ],
             "accepted_umpires": [],
             "pending_umpires": [
+              "Kirk Vines",
               "Tyler Hoadley"
             ],
             "denied_umpires": [
               "Tyler Whetham"
             ],
-            "assigned_count": 2,
+            "assigned_count": 3,
             "accepted_count": 0,
-            "pending_count": 1,
+            "pending_count": 2,
             "denied_count": 1,
             "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
@@ -7524,6 +7879,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20665-sarniabrigade.ca",
+          "date": "2026-06-03",
+          "start_time": "8:30 PM",
+          "end_date": "2026-06-04",
+          "summary": "15U OBA Rep - Game @ London West Tincaps [15u22]",
+          "location": "Stoneybrook (Dan Pulham)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19800-sarniabrigade.ca",
           "date": "2026-06-04",
           "start_time": "5:30 PM",
@@ -8090,6 +8455,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20665",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/20665/",
+          "date": "2026-06-03",
+          "start_time": "8:30 PM",
+          "opponent": "London West Tincaps 15u22 Stoneybrook",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "19813",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/19813/",
           "date": "2026-08-01",
@@ -8400,6 +8777,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20653-sarniabrigade.ca",
+          "date": "2026-08-04",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-05",
+          "summary": "9U Select - Game @ London West Tincaps [9uS43]",
+          "location": "Oakridge Optimist (Lower)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20544-sarniabrigade.ca",
           "date": "2026-08-06",
           "start_time": "6:00 PM",
@@ -8460,7 +8847,20 @@
           "cancelled": false
         }
       ],
-      "games": [],
+      "games": [
+        {
+          "game_id": "20653",
+          "href": "https://sarniabrigade.ca/Teams/1299/Games/20653/",
+          "date": "2026-08-04",
+          "start_time": "6:00 PM",
+          "opponent": "London West Tincaps 9uS43 Oakridge Optimist",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        }
+      ],
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
@@ -8482,7 +8882,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 38,
+      "practices": 36,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -8593,16 +8993,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20109-sarniabrigade.ca",
-          "date": "2026-05-17",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-17",
-          "summary": "11U Select - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20127-sarniabrigade.ca",
           "date": "2026-05-21",
           "start_time": "6:00 PM",
@@ -8623,13 +9013,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20128-sarniabrigade.ca",
+          "uid": "MS-20666-sarniabrigade.ca",
           "date": "2026-05-28",
           "start_time": "6:00 PM",
           "end_date": "2026-05-29",
-          "summary": "11U Select - Practice",
+          "summary": "11U Select - Game vs Dorchester Diamondbacks [11uS93]",
           "location": "Clearwater Diamond #3",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -8640,6 +9030,16 @@
           "summary": "11U Select - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20672-sarniabrigade.ca",
+          "date": "2026-06-04",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-05",
+          "summary": "11U Select - Game @ Dorchester Diamondbacks [11uS18]",
+          "location": "Dorchester (3)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -8813,6 +9213,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20656-sarniabrigade.ca",
+          "date": "2026-08-11",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-12",
+          "summary": "11U Select - Game @ London West Tincaps [11uS81]",
+          "location": "Hazelden",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20139-sarniabrigade.ca",
           "date": "2026-08-13",
           "start_time": "6:00 PM",
@@ -8903,15 +9313,69 @@
           "cancelled": false
         }
       ],
-      "games": [],
+      "games": [
+        {
+          "game_id": "20666",
+          "href": "https://sarniabrigade.ca/Teams/1303/Games/20666/",
+          "date": "2026-05-28",
+          "start_time": "6:00 PM",
+          "opponent": "Dorchester Diamondbacks 11uS93 Clearwater Diam",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20672",
+          "href": "https://sarniabrigade.ca/Teams/1303/Games/20672/",
+          "date": "2026-06-04",
+          "start_time": "6:00 PM",
+          "opponent": "Dorchester Diamondbacks 11uS18 Dorchester",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20656",
+          "href": "https://sarniabrigade.ca/Teams/1303/Games/20656/",
+          "date": "2026-08-11",
+          "start_time": "6:00 PM",
+          "opponent": "London West Tincaps 11uS81 Hazelden",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        }
+      ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-05-28",
+            "time": "6:00 PM",
+            "opponent": "Dorchester Diamondbacks",
+            "venue": "Clearwater Diamond #3",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       }
     },
@@ -9003,6 +9467,16 @@
           "summary": "13U Select - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20648-sarniabrigade.ca",
+          "date": "2026-05-07",
+          "start_time": "6:30 PM",
+          "end_date": "2026-05-08",
+          "summary": "13U Select - Game @ Ingersoll Ironbirds [13uS116]",
+          "location": "Victoria Park (Main)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -9146,6 +9620,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20671-sarniabrigade.ca",
+          "date": "2026-06-24",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-25",
+          "summary": "13U Select - Game @ Dorchester Diamondbacks [13uS62]",
+          "location": "Dorchester (4)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19839-sarniabrigade.ca",
           "date": "2026-06-26",
           "start_time": "6:00 PM",
@@ -9183,6 +9667,16 @@
           "summary": "13U Select - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20659-sarniabrigade.ca",
+          "date": "2026-07-09",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-10",
+          "summary": "13U Select - Game @ London West Tincaps [13uS123]",
+          "location": "West Lions",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -9378,11 +9872,47 @@
       ],
       "games": [
         {
+          "game_id": "20648",
+          "href": "https://sarniabrigade.ca/Teams/1300/Games/20648/",
+          "date": "2026-05-07",
+          "start_time": "6:30 PM",
+          "opponent": "Ingersoll Ironbirds 13uS116 Victoria Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "19826",
           "href": "https://sarniabrigade.ca/Teams/1300/Games/19826/",
           "date": "2026-05-29",
           "start_time": "6:00 PM",
           "opponent": "Corunna Major Giants Cameron Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20671",
+          "href": "https://sarniabrigade.ca/Teams/1300/Games/20671/",
+          "date": "2026-06-24",
+          "start_time": "6:00 PM",
+          "opponent": "Dorchester Diamondbacks 13uS62 Dorchester",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20659",
+          "href": "https://sarniabrigade.ca/Teams/1300/Games/20659/",
+          "date": "2026-07-09",
+          "start_time": "6:00 PM",
+          "opponent": "London West Tincaps 13uS123 West Lions More De",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -9502,6 +10032,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20663-sarniabrigade.ca",
+          "date": "2026-07-22",
+          "start_time": "8:30 PM",
+          "end_date": "2026-07-23",
+          "summary": "15U Select - Game @ London West Tincaps [15uS28]",
+          "location": "Stoneybrook (Dan Pulham)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MD-3302-sarniabrigade.ca",
           "date": "2026-04-19",
           "start_time": "5:45 PM",
@@ -9532,7 +10072,20 @@
           "cancelled": false
         }
       ],
-      "games": [],
+      "games": [
+        {
+          "game_id": "20663",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/20663/",
+          "date": "2026-07-22",
+          "start_time": "8:30 PM",
+          "opponent": "London West Tincaps 15uS28 Stoneybrook",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        }
+      ],
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
@@ -11690,58 +12243,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 6,
+        "games_missed_upcoming": 4,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 3,
+        "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
-          {
-            "date": "2026-05-09",
-            "time": "11:00 AM",
-            "opponent": "London Badgers",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [
-              "Brian Mundt",
-              "Tyler Whetham"
-            ],
-            "accepted_umpires": [
-              "Brian Mundt"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [
-              "Tyler Whetham"
-            ],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-09",
-            "time": "2:00 PM",
-            "opponent": "London Badgers",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [
-              "Brian Mundt",
-              "Tyler Whetham"
-            ],
-            "accepted_umpires": [
-              "Brian Mundt"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [
-              "Tyler Whetham"
-            ],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
           {
             "date": "2026-05-16",
             "time": "11:00 AM",
@@ -11836,57 +12343,6 @@
           }
         ],
         "doubleheader_mismatch_details": [
-          {
-            "date": "2026-05-09",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "11:00 AM",
-                "opponent": "London Badgers",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Brian Mundt",
-                  "Tyler Whetham"
-                ],
-                "accepted_umpires": [
-                  "Brian Mundt"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [
-                  "Tyler Whetham"
-                ],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 0,
-                "denied_count": 1,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "2:00 PM",
-                "opponent": "London Badgers",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Brian Mundt",
-                  "Tyler Whetham"
-                ],
-                "accepted_umpires": [
-                  "Brian Mundt"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [
-                  "Tyler Whetham"
-                ],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 0,
-                "denied_count": 1,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
           {
             "date": "2026-05-16",
             "issue_timing": "upcoming",
