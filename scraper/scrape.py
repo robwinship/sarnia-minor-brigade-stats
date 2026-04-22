@@ -21,7 +21,7 @@ import json
 import re
 import sys
 import time
-from datetime import datetime, date, timezone
+from datetime import datetime, date, timezone, timedelta
 from pathlib import Path
 import os
 import urllib.parse
@@ -633,7 +633,15 @@ def compute_umpire_issues(games: list, assignments: list, data_available: bool, 
     if not assignments:
         return issues
 
-    today_iso = date.today().isoformat()
+    today_date = date.today()
+    upcoming_cutoff_date = today_date + timedelta(days=7)
+
+    def classify_issue_timing(game_date: date) -> str:
+        if game_date < today_date:
+            return "past"
+        if game_date <= upcoming_cutoff_date:
+            return "upcoming"
+        return "far_future"
 
     normalized = []
     for row in assignments:
@@ -642,7 +650,7 @@ def compute_umpire_issues(games: list, assignments: list, data_available: bool, 
             continue
         # Keep only valid ISO dates from CP parser output.
         try:
-            datetime.strptime(date_text, "%Y-%m-%d")
+            game_date = datetime.strptime(date_text, "%Y-%m-%d").date()
         except ValueError:
             continue
 
@@ -671,7 +679,7 @@ def compute_umpire_issues(games: list, assignments: list, data_available: bool, 
         pending_uniq = sorted(set(pending_names))
         denied_uniq = sorted(set(denied_names))
 
-        issue_timing = "past" if date_text < today_iso else "upcoming"
+        issue_timing = classify_issue_timing(game_date)
         assignment_state = classify_game_assignment_state(
             assigned_count=len(assigned_uniq),
             accepted_count=len(accepted_uniq),
@@ -680,7 +688,8 @@ def compute_umpire_issues(games: list, assignments: list, data_available: bool, 
         )
 
         normalized.append({
-            "date": date_text,
+            "date": game_date.isoformat(),
+            "game_date": game_date,
             "time": str(row.get("time") or "").strip(),
             "opponent": str(row.get("opponent") or "").strip(),
             "venue": str(row.get("venue") or "").strip(),
@@ -716,11 +725,14 @@ def compute_umpire_issues(games: list, assignments: list, data_available: bool, 
             "assignment_state": row["assignment_state"],
             "issue_timing": row["issue_timing"],
         }
+        if row["issue_timing"] == "far_future":
+            continue
+
         games_missed_details.append(detail)
 
         if row["issue_timing"] == "past":
             past_games_missed += 1
-        else:
+        elif row["issue_timing"] == "upcoming":
             upcoming_games_missed += 1
 
     games_missed_details.sort(key=lambda item: (
@@ -766,7 +778,10 @@ def compute_umpire_issues(games: list, assignments: list, data_available: bool, 
             if count < len(rows)
         ])
 
-        issue_timing = "past" if date_text < today_iso else "upcoming"
+        issue_timing = classify_issue_timing(rows[0]["game_date"])
+        if issue_timing == "far_future":
+            continue
+
         if issue_timing == "past":
             past_mismatch_count += 1
         else:
