@@ -1,5 +1,5 @@
 @echo off
-setlocal EnableDelayedExpansion
+setlocal EnableExtensions DisableDelayedExpansion
 
 REM ================================================================
 REM  Sarnia Brigade -- Backup Utility
@@ -43,6 +43,11 @@ echo   File     : %BACKUP_NAME%
 echo   Location : %BACKUP_DIR%
 echo.
 
+REM --- Prompt for backup note (optional) ------------------------
+set "BACKUP_NOTE="
+set /p "BACKUP_NOTE=  Enter backup note (optional): "
+if not defined BACKUP_NOTE set "BACKUP_NOTE=Backup created"
+
 REM --- Create backup directory if needed -------------------------
 if not exist "%BACKUP_DIR%" (
     mkdir "%BACKUP_DIR%"
@@ -68,7 +73,7 @@ REM --- Update version.txt ----------------------------------------
 echo %NEW_VERSION%> "%VERSION_FILE%"
 
 REM --- Prepend entry to CHANGELOG.md -----------------------------
-powershell -NoProfile -Command "$f='%CHANGELOG_FILE%'; $v='%NEW_VERSION%'; $d='%TS_LOG%'; $c=Get-Content $f -Raw; $e=[char]10+'## v'+$v+' - '+$d+[char]10+'- Backup created'+[char]10; $h='# Changelog'; Set-Content $f ($h+$e+$c.Substring($h.Length)) -NoNewline"
+powershell -NoProfile -Command "$f='%CHANGELOG_FILE%'; $v='%NEW_VERSION%'; $d='%TS_LOG%'; $n=$env:BACKUP_NOTE; if ([string]::IsNullOrWhiteSpace($n)) { $n='Backup created' }; $c=Get-Content $f -Raw; $e=[char]10+'## v'+$v+' - '+$d+[char]10+'- '+$n+[char]10; $h='# Changelog'; Set-Content $f ($h+$e+$c.Substring($h.Length)) -NoNewline"
 echo   Changelog updated.
 
 echo.

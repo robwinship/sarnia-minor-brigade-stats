@@ -1,4 +1,10 @@
 # Changelog
+## v1.23 - 2026-04-22 17:13:56
+- Modified the umpire upcoming issues to only show 1 week out conflicts
+
+## v1.22 - 2026-04-22 17:08:25
+- Backup created
+
 ## v1.22 - 2026-04-22
 - Changed Umpire Issues: Upcoming conflicts now only include games within the next 7 days (inclusive of today), excluding farther-future conflicts from upcoming counts/details.
 

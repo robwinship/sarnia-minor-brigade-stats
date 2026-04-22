@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-22T21:00:43.771735Z",
+  "generated": "2026-04-22T23:05:03.951918Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -6624,7 +6624,7 @@
           "date": "2026-05-09",
           "start_time": "10:00 AM",
           "end_date": "2026-05-09",
-          "summary": "13U OBA Rep - Game vs St. Thomas  Cardinals",
+          "summary": "13U OBA Rep - Game vs St. Thomas Cardinals [13u01]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6760,6 +6760,26 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20867-sarniabrigade.ca",
+          "date": "2026-05-28",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-29",
+          "summary": "13U OBA Rep - Game vs Chatham Diamonds 13U [13u95]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20875-sarniabrigade.ca",
+          "date": "2026-05-29",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-30",
+          "summary": "13U OBA Rep - Game vs North London Nationals [13u43]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20749-sarniabrigade.ca",
           "date": "2026-05-30",
           "start_time": "10:00 AM",
@@ -6797,6 +6817,16 @@
           "summary": "13U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20869-sarniabrigade.ca",
+          "date": "2026-06-06",
+          "start_time": "10:00 AM",
+          "end_date": "2026-06-06",
+          "summary": "13U OBA Rep - Game vs Dorchester Diamondbacks [13u22]",
+          "location": "Tecumseh Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -6845,6 +6875,16 @@
           "start_time": "6:00 PM",
           "end_date": "2026-06-19",
           "summary": "13U OBA Rep - Game vs Wyoming Wranglers [WC13U-31]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20874-sarniabrigade.ca",
+          "date": "2026-06-20",
+          "start_time": "10:00 AM",
+          "end_date": "2026-06-20",
+          "summary": "13U OBA Rep - Game vs Lucan-Ilderton Athletics [13u53]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6950,6 +6990,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20868-sarniabrigade.ca",
+          "date": "2026-07-18",
+          "start_time": "10:00 AM",
+          "end_date": "2026-07-18",
+          "summary": "13U OBA Rep - Game vs DKMB River Cats [13u35]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20331-sarniabrigade.ca",
           "date": "2026-07-20",
           "start_time": "5:30 PM",
@@ -6957,6 +7007,36 @@
           "summary": "13U OBA Rep - Indoor Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20870-sarniabrigade.ca",
+          "date": "2026-07-23",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-24",
+          "summary": "13U OBA Rep - Game vs Exeter Express Rep [13u75]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20871-sarniabrigade.ca",
+          "date": "2026-07-25",
+          "start_time": "10:00 AM",
+          "end_date": "2026-07-25",
+          "summary": "13U OBA Rep - Game vs London Talons [13u11]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20872-sarniabrigade.ca",
+          "date": "2026-07-25",
+          "start_time": "1:00 PM",
+          "end_date": "2026-07-25",
+          "summary": "13U OBA Rep - Game vs London Talons [13u63]",
+          "location": "Tecumseh Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -7016,6 +7096,16 @@
           "end_date": "2026-08-11",
           "summary": "13U OBA Rep - Game @ St. Thomas Cardinals [13u29]",
           "location": "New York Central",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20873-sarniabrigade.ca",
+          "date": "2026-08-13",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-14",
+          "summary": "13U OBA Rep - Game vs London West Tincaps [13u19]",
+          "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
         },
@@ -7172,7 +7262,7 @@
           "href": "https://sarniabrigade.ca/Teams/1295/Games/20377/",
           "date": "2026-05-09",
           "start_time": "10:00 AM",
-          "opponent": "St. Thomas Cardinals Tecumseh Park",
+          "opponent": "St. Thomas Cardinals 13u01 Tecumseh Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -7264,12 +7354,48 @@
           "cancelled": false
         },
         {
+          "game_id": "20867",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20867/",
+          "date": "2026-05-28",
+          "start_time": "6:00 PM",
+          "opponent": "Chatham Diamonds 13U 13u95 Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20875",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20875/",
+          "date": "2026-05-29",
+          "start_time": "6:00 PM",
+          "opponent": "North London Nationals 13u43 Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20500",
           "href": "https://sarniabrigade.ca/Teams/1295/Games/20500/",
           "date": "2026-06-01",
           "start_time": "6:30 PM",
           "opponent": "Corunna Giants WC13U-16 Community Park",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20869",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20869/",
+          "date": "2026-06-06",
+          "start_time": "10:00 AM",
+          "opponent": "Dorchester Diamondbacks 13u22 Tecumseh Park Mo",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -7293,6 +7419,18 @@
           "date": "2026-06-18",
           "start_time": "6:00 PM",
           "opponent": "Wyoming Wranglers WC13U-31 Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20874",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20874/",
+          "date": "2026-06-20",
+          "start_time": "10:00 AM",
+          "opponent": "Lucan-Ilderton Athletics 13u53 Tecumseh Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -7336,12 +7474,72 @@
           "cancelled": false
         },
         {
+          "game_id": "20868",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20868/",
+          "date": "2026-07-18",
+          "start_time": "10:00 AM",
+          "opponent": "DKMB River Cats 13u35 Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20870",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20870/",
+          "date": "2026-07-23",
+          "start_time": "6:00 PM",
+          "opponent": "Exeter Express Rep 13u75 Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20871",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20871/",
+          "date": "2026-07-25",
+          "start_time": "10:00 AM",
+          "opponent": "London Talons 13u11 Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20872",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20872/",
+          "date": "2026-07-25",
+          "start_time": "1:00 PM",
+          "opponent": "London Talons 13u63 Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20768",
           "href": "https://sarniabrigade.ca/Teams/1295/Games/20768/",
           "date": "2026-08-10",
           "start_time": "8:30 PM",
-          "opponent": "St. Thomas Cardinals 13u29 New York Central Mo",
+          "opponent": "St. Thomas Cardinals 13u29 New York Central",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20873",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20873/",
+          "date": "2026-08-13",
+          "start_time": "6:00 PM",
+          "opponent": "London West Tincaps 13u19 Tecumseh Park More D",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -7505,7 +7703,7 @@
           "start_time": "10:00 AM",
           "end_date": "2026-05-03",
           "summary": "14U OBA Rep - Game vs TBA",
-          "location": "Blackwell North",
+          "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
         },
@@ -7545,7 +7743,7 @@
           "start_time": "10:00 AM",
           "end_date": "2026-05-10",
           "summary": "14U OBA Rep - Game vs TBA",
-          "location": "Blackwell North",
+          "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
         },
@@ -7605,7 +7803,7 @@
           "start_time": "10:00 AM",
           "end_date": "2026-05-17",
           "summary": "14U OBA Rep - Game vs TBA",
-          "location": "Blackwell North",
+          "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
         },
@@ -7735,7 +7933,7 @@
           "start_time": "10:00 AM",
           "end_date": "2026-05-31",
           "summary": "14U OBA Rep - Game vs TBA",
-          "location": "Blackwell North",
+          "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
         },
@@ -7745,7 +7943,7 @@
           "start_time": "10:00 AM",
           "end_date": "2026-05-31",
           "summary": "14U OBA Rep - Game vs TBA",
-          "location": "Blackwell North",
+          "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
         },
@@ -9912,6 +10110,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20866-sarniabrigade.ca",
+          "date": "2026-07-27",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-28",
+          "summary": "9U Select - Game @ North London Nationals [9uS12]",
+          "location": "North London (2)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20775-sarniabrigade.ca",
           "date": "2026-07-27",
           "start_time": "7:00 PM",
@@ -10170,6 +10378,18 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals 9uS48 Clearwater Diamon",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20866",
+          "href": "https://sarniabrigade.ca/Teams/1299/Games/20866/",
+          "date": "2026-07-27",
+          "start_time": "6:00 PM",
+          "opponent": "North London Nationals 9uS12 North London",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -10872,18 +11092,6 @@
         {
           "game_id": "20808",
           "href": "https://sarniabrigade.ca/Teams/1303/Games/20808/",
-          "date": "2026-07-02",
-          "start_time": "10:00 AM",
-          "opponent": "Dutton Royals 11uS43 Clearwater Diamond",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "20816",
-          "href": "https://sarniabrigade.ca/Teams/1303/Games/20816/",
           "date": "2026-07-12",
           "start_time": "10:00 AM",
           "opponent": "Dutton Royals 11uS43 Clearwater Diamond",
@@ -11272,16 +11480,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20845-sarniabrigade.ca",
-          "date": "2026-06-26",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-27",
-          "summary": "13U Select - Game @ North London Nationals [13uS20]",
-          "location": "North London (3)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20718-sarniabrigade.ca",
           "date": "2026-06-28",
           "start_time": "10:00 AM",
@@ -11338,6 +11536,16 @@
           "end_date": "2026-07-11",
           "summary": "13U Select - Game vs North London Nationals [13uS95]",
           "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20845-sarniabrigade.ca",
+          "date": "2026-07-10",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-11",
+          "summary": "13U Select - Game @ North London Nationals [13uS20]",
+          "location": "North London (3)",
           "type": "game",
           "cancelled": false
         },
@@ -11452,7 +11660,7 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20859-sarniabrigade.ca",
+          "uid": "MS-20865-sarniabrigade.ca",
           "date": "2026-08-14",
           "start_time": "6:00 PM",
           "end_date": "2026-08-15",
@@ -11628,18 +11836,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20845",
-          "href": "https://sarniabrigade.ca/Teams/1300/Games/20845/",
-          "date": "2026-06-26",
-          "start_time": "6:00 PM",
-          "opponent": "North London Nationals 13uS20 North London",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "20720",
           "href": "https://sarniabrigade.ca/Teams/1300/Games/20720/",
           "date": "2026-06-26",
@@ -11681,6 +11877,18 @@
           "date": "2026-07-09",
           "start_time": "6:00 PM",
           "opponent": "London West Tincaps 13uS123 West Lions",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20845",
+          "href": "https://sarniabrigade.ca/Teams/1300/Games/20845/",
+          "date": "2026-07-10",
+          "start_time": "6:00 PM",
+          "opponent": "North London Nationals 13uS20 North London",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -11736,8 +11944,8 @@
           "cancelled": false
         },
         {
-          "game_id": "20859",
-          "href": "https://sarniabrigade.ca/Teams/1300/Games/20859/",
+          "game_id": "20865",
+          "href": "https://sarniabrigade.ca/Teams/1300/Games/20865/",
           "date": "2026-08-14",
           "start_time": "6:00 PM",
           "opponent": "Wyoming Wranglers 13uS88 Tecumseh Park",
