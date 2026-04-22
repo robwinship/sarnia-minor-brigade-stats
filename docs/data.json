@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-22T16:03:27.033936Z",
+  "generated": "2026-04-22T19:32:51.232653Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -75,7 +75,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-04-22",
           "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
+          "location": "Clearwater Diamond #3",
           "type": "practice",
           "cancelled": false
         },
@@ -1727,6 +1727,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20861-sarniabrigade.ca",
+          "date": "2026-06-02",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-03",
+          "summary": "9U OBA Rep - Game @ Lucan-Ilderton Athletics [9u31]",
+          "location": "Heritage (1)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20737-sarniabrigade.ca",
           "date": "2026-06-03",
           "start_time": "6:00 PM",
@@ -2251,6 +2261,18 @@
           "start_time": "10:00 AM",
           "opponent": "Dorchester Diamondbacks 9u01 Clearwater Diamon",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20861",
+          "href": "https://sarniabrigade.ca/Teams/1291/Games/20861/",
+          "date": "2026-06-02",
+          "start_time": "6:00 PM",
+          "opponent": "Lucan-Ilderton Athletics 9u31 Heritage",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -4027,6 +4049,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20852-sarniabrigade.ca",
+          "date": "2026-05-26",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-27",
+          "summary": "10U A OBA Rep - Game @ Lucan-Ilderton Athletics [10u49]",
+          "location": "Lucan (2)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20158-sarniabrigade.ca",
           "date": "2026-05-28",
           "start_time": "5:30 PM",
@@ -4154,6 +4186,16 @@
           "summary": "10U A OBA Rep - Practice",
           "location": "Coronation Park Diamond",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20851-sarniabrigade.ca",
+          "date": "2026-06-23",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-24",
+          "summary": "10U A OBA Rep - Game @ Lucan-Ilderton Athletics [10u19]",
+          "location": "Lucan (2)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -4651,6 +4693,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20852",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20852/",
+          "date": "2026-05-26",
+          "start_time": "6:00 PM",
+          "opponent": "Lucan-Ilderton Athletics 10u49 Lucan",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20407",
           "href": "https://sarniabrigade.ca/Teams/1311/Games/20407/",
           "date": "2026-05-31",
@@ -4716,6 +4770,18 @@
           "date": "2026-06-15",
           "start_time": "6:00 PM",
           "opponent": "North London Nationals 10u38 North London",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20851",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20851/",
+          "date": "2026-06-23",
+          "start_time": "6:00 PM",
+          "opponent": "Lucan-Ilderton Athletics 10u19 Lucan",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -5252,6 +5318,7 @@
                   "Caleb Willemsvandyk",
                   "Chris Bonneau",
                   "Clark Thornton",
+                  "Cohen Smith",
                   "Colby Sheffer",
                   "Cruz Marinaro",
                   "Dan Scott",
@@ -5341,11 +5408,11 @@
                   "Brock Lane",
                   "Caleb Willemsvandyk",
                   "Chris Bonneau",
+                  "Cohen Smith",
                   "Ethan Glavin",
                   "Grant Purdy",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
-                  "Jason Lajeunesse",
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Liam Colosimo",
@@ -5354,7 +5421,6 @@
                   "Mason Harper",
                   "Matthew Schrie",
                   "Paolo Padiglia",
-                  "Steve McGrail",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham",
@@ -5375,9 +5441,9 @@
                   "Sydney Nisbet",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 52,
+                "assigned_count": 53,
                 "accepted_count": 35,
-                "pending_count": 27,
+                "pending_count": 26,
                 "denied_count": 13,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -7122,7 +7188,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-04-23",
           "summary": "12U OBA Rep - Practice",
-          "location": "Tecumseh Park",
+          "location": "Clearwater Diamond #4",
           "type": "practice",
           "cancelled": false
         },
@@ -8453,7 +8519,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 37,
+      "practices": 41,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -8724,6 +8790,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20864-sarniabrigade.ca",
+          "date": "2026-05-28",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-29",
+          "summary": "13U OBA Rep - Game @ Lucan-Ilderton Athletics [13u25]",
+          "location": "Heritage (1)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20749-sarniabrigade.ca",
           "date": "2026-05-30",
           "start_time": "10:00 AM",
@@ -8954,6 +9030,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20855-sarniabrigade.ca",
+          "date": "2026-08-06",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-07",
+          "summary": "13U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20334-sarniabrigade.ca",
           "date": "2026-08-10",
           "start_time": "5:30 PM",
@@ -8984,6 +9070,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20856-sarniabrigade.ca",
+          "date": "2026-08-20",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-21",
+          "summary": "13U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20336-sarniabrigade.ca",
           "date": "2026-08-24",
           "start_time": "5:30 PM",
@@ -8994,12 +9090,32 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20857-sarniabrigade.ca",
+          "date": "2026-08-27",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-28",
+          "summary": "13U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20337-sarniabrigade.ca",
           "date": "2026-08-31",
           "start_time": "5:30 PM",
           "end_date": "2026-08-31",
           "summary": "13U OBA Rep - Indoor Practice",
           "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20858-sarniabrigade.ca",
+          "date": "2026-09-03",
+          "start_time": "6:00 PM",
+          "end_date": "2026-09-04",
+          "summary": "13U OBA Rep - Practice",
+          "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
         },
@@ -9030,6 +9146,26 @@
           "end_date": "2026-06-29",
           "summary": "13U OBA Rep - JRM Shores Shootout",
           "location": "St. Clair Shores, MI",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3321-sarniabrigade.ca",
+          "date": "2026-08-28",
+          "start_time": null,
+          "end_date": "2026-08-31",
+          "summary": "13U OBA Rep - LDBA Year End",
+          "location": "TBD",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3322-sarniabrigade.ca",
+          "date": "2026-09-04",
+          "start_time": null,
+          "end_date": "2026-09-07",
+          "summary": "13U OBA Rep - OBA Championships",
+          "location": "TBD",
           "type": "tournament",
           "cancelled": false
         }
@@ -9156,6 +9292,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20864",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20864/",
+          "date": "2026-05-28",
+          "start_time": "6:00 PM",
+          "opponent": "Lucan-Ilderton Athletics 13u25 Heritage",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20500",
           "href": "https://sarniabrigade.ca/Teams/1295/Games/20500/",
           "date": "2026-06-01",
@@ -9232,7 +9380,7 @@
           "href": "https://sarniabrigade.ca/Teams/1295/Games/20768/",
           "date": "2026-08-10",
           "start_time": "8:30 PM",
-          "opponent": "St. Thomas Cardinals 13u29 New York Central",
+          "opponent": "St. Thomas Cardinals 13u29 New York Central Mo",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -9843,6 +9991,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20854-sarniabrigade.ca",
+          "date": "2026-08-05",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-06",
+          "summary": "14U OBA Rep - Game @ Lucan-Ilderton Athletics [14u82]",
+          "location": "Lucan (1)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20807-sarniabrigade.ca",
           "date": "2026-08-06",
           "start_time": "6:00 PM",
@@ -10145,6 +10303,18 @@
           "start_time": "12:30 PM",
           "opponent": "Riverside Royals TBD More Details Jul 31-Aug 0",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20854",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20854/",
+          "date": "2026-08-05",
+          "start_time": "6:00 PM",
+          "opponent": "Lucan-Ilderton Athletics 14u82 Lucan",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -11805,59 +11975,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 11,
+        "games_missed_upcoming": 7,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 4,
+        "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
           {
-            "date": "2026-05-23",
-            "time": "11:00 AM",
-            "opponent": "North London Nationals",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Kirk Vines",
-              "Steve McGrail"
-            ],
-            "accepted_umpires": [
-              "Kirk Vines"
-            ],
-            "pending_umpires": [
-              "Steve McGrail"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-23",
-            "time": "1:30 PM",
-            "opponent": "North London Nationals",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Kirk Vines",
-              "Steve McGrail"
-            ],
-            "accepted_umpires": [
-              "Kirk Vines"
-            ],
-            "pending_umpires": [
-              "Steve McGrail"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
             "date": "2026-06-27",
             "time": "11:00 AM",
             "opponent": "St. Thomas Cardinals",
@@ -11893,64 +12017,19 @@
               "Joey Buchner",
               "Kirk Vines"
             ],
-            "accepted_umpires": [],
+            "accepted_umpires": [
+              "Jason Lajeunesse"
+            ],
             "pending_umpires": [
-              "Jason Lajeunesse",
               "Joey Buchner"
             ],
             "denied_umpires": [
               "Kirk Vines"
             ],
             "assigned_count": 3,
-            "accepted_count": 0,
-            "pending_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
             "denied_count": 1,
-            "assignment_state": "assigned_but_denied",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-04",
-            "time": "11:00 AM",
-            "opponent": "Mitchell Astros Rep",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Jason Lajeunesse",
-              "Kirk Vines"
-            ],
-            "accepted_umpires": [
-              "Kirk Vines"
-            ],
-            "pending_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-04",
-            "time": "1:30 PM",
-            "opponent": "Mitchell Astros Rep",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Jason Lajeunesse",
-              "Kirk Vines"
-            ],
-            "accepted_umpires": [
-              "Kirk Vines"
-            ],
-            "pending_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
@@ -11988,15 +12067,16 @@
             ],
             "accepted_umpires": [],
             "pending_umpires": [
-              "Paolo Padiglia",
+              "Paolo Padiglia"
+            ],
+            "denied_umpires": [
               "Steve McGrail"
             ],
-            "denied_umpires": [],
             "assigned_count": 2,
             "accepted_count": 0,
-            "pending_count": 2,
-            "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "pending_count": 1,
+            "denied_count": 1,
+            "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
           },
           {
@@ -12050,161 +12130,58 @@
         ],
         "doubleheader_mismatch_details": [
           {
-            "date": "2026-05-23",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "11:00 AM",
-                "opponent": "North London Nationals",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Kirk Vines",
-                  "Steve McGrail"
-                ],
-                "accepted_umpires": [
-                  "Kirk Vines"
-                ],
-                "pending_umpires": [
-                  "Steve McGrail"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:30 PM",
-                "opponent": "North London Nationals",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Kirk Vines",
-                  "Steve McGrail"
-                ],
-                "accepted_umpires": [
-                  "Kirk Vines"
-                ],
-                "pending_umpires": [
-                  "Steve McGrail"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
             "date": "2026-06-27",
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
             "pair_signatures": [],
-            "mismatched_names": [
-              "Jason Lajeunesse"
-            ],
-            "games": [
-              {
-                "time": "11:00 AM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Jason Lajeunesse",
-                  "Joey Buchner",
-                  "Kirk Vines"
-                ],
-                "accepted_umpires": [
-                  "Jason Lajeunesse"
-                ],
-                "pending_umpires": [
-                  "Joey Buchner"
-                ],
-                "denied_umpires": [
-                  "Kirk Vines"
-                ],
-                "assigned_count": 3,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 1,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:30 PM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Jason Lajeunesse",
-                  "Joey Buchner",
-                  "Kirk Vines"
-                ],
-                "accepted_umpires": [],
-                "pending_umpires": [
-                  "Jason Lajeunesse",
-                  "Joey Buchner"
-                ],
-                "denied_umpires": [
-                  "Kirk Vines"
-                ],
-                "assigned_count": 3,
-                "accepted_count": 0,
-                "pending_count": 2,
-                "denied_count": 1,
-                "assignment_state": "assigned_but_denied"
-              }
-            ]
-          },
-          {
-            "date": "2026-07-04",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
             "mismatched_names": [],
             "games": [
               {
                 "time": "11:00 AM",
-                "opponent": "Mitchell Astros Rep",
+                "opponent": "St. Thomas Cardinals",
                 "venue": "Blackwell Park",
                 "assigned_umpires": [
                   "Jason Lajeunesse",
+                  "Joey Buchner",
                   "Kirk Vines"
                 ],
                 "accepted_umpires": [
-                  "Kirk Vines"
-                ],
-                "pending_umpires": [
                   "Jason Lajeunesse"
                 ],
-                "denied_umpires": [],
-                "assigned_count": 2,
+                "pending_umpires": [
+                  "Joey Buchner"
+                ],
+                "denied_umpires": [
+                  "Kirk Vines"
+                ],
+                "assigned_count": 3,
                 "accepted_count": 1,
                 "pending_count": 1,
-                "denied_count": 0,
+                "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
               {
                 "time": "1:30 PM",
-                "opponent": "Mitchell Astros Rep",
+                "opponent": "St. Thomas Cardinals",
                 "venue": "Blackwell Park",
                 "assigned_umpires": [
                   "Jason Lajeunesse",
+                  "Joey Buchner",
                   "Kirk Vines"
                 ],
                 "accepted_umpires": [
-                  "Kirk Vines"
-                ],
-                "pending_umpires": [
                   "Jason Lajeunesse"
                 ],
-                "denied_umpires": [],
-                "assigned_count": 2,
+                "pending_umpires": [
+                  "Joey Buchner"
+                ],
+                "denied_umpires": [
+                  "Kirk Vines"
+                ],
+                "assigned_count": 3,
                 "accepted_count": 1,
                 "pending_count": 1,
-                "denied_count": 0,
+                "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               }
             ]
@@ -12909,18 +12886,20 @@
             "venue": "Clearwater Diamond #1",
             "assigned_umpires": [
               "Axl Taylor",
+              "Cohen Smith",
               "Drew Baxter"
             ],
             "accepted_umpires": [],
             "pending_umpires": [
-              "Axl Taylor"
+              "Axl Taylor",
+              "Cohen Smith"
             ],
             "denied_umpires": [
               "Drew Baxter"
             ],
-            "assigned_count": 2,
+            "assigned_count": 3,
             "accepted_count": 0,
-            "pending_count": 1,
+            "pending_count": 2,
             "denied_count": 1,
             "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
@@ -14244,6 +14223,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20860-sarniabrigade.ca",
+          "date": "2026-06-04",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-05",
+          "summary": "13U Select - Game @ Lucan-Ilderton Athletics [13uS34]",
+          "location": "Heritage (1)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19836-sarniabrigade.ca",
           "date": "2026-06-05",
           "start_time": "6:00 PM",
@@ -14504,7 +14493,7 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20727-sarniabrigade.ca",
+          "uid": "MS-20859-sarniabrigade.ca",
           "date": "2026-08-14",
           "start_time": "6:00 PM",
           "end_date": "2026-08-15",
@@ -14656,6 +14645,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20860",
+          "href": "https://sarniabrigade.ca/Teams/1300/Games/20860/",
+          "date": "2026-06-04",
+          "start_time": "6:00 PM",
+          "opponent": "Lucan-Ilderton Athletics 13uS34 Heritage",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20671",
           "href": "https://sarniabrigade.ca/Teams/1300/Games/20671/",
           "date": "2026-06-24",
@@ -14776,8 +14777,8 @@
           "cancelled": false
         },
         {
-          "game_id": "20727",
-          "href": "https://sarniabrigade.ca/Teams/1300/Games/20727/",
+          "game_id": "20859",
+          "href": "https://sarniabrigade.ca/Teams/1300/Games/20859/",
           "date": "2026-08-14",
           "start_time": "6:00 PM",
           "opponent": "Wyoming Wranglers 13uS88 Tecumseh Park",
@@ -14817,17 +14818,18 @@
               "Jason Lajeunesse",
               "Joey Buchner"
             ],
-            "accepted_umpires": [],
+            "accepted_umpires": [
+              "Jason Lajeunesse"
+            ],
             "pending_umpires": [
-              "Jason Lajeunesse",
               "Joey Buchner"
             ],
             "denied_umpires": [],
             "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -14995,7 +14997,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 9,
+      "practices": 8,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -15022,16 +15024,6 @@
           "end_date": "2026-04-17",
           "summary": "15U Select - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20069-sarniabrigade.ca",
-          "date": "2026-04-21",
-          "start_time": "7:45 PM",
-          "end_date": "2026-04-22",
-          "summary": "CANCELLED 15U Select - Practice",
-          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -15096,12 +15088,32 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20862-sarniabrigade.ca",
+          "date": "2026-06-17",
+          "start_time": "8:30 PM",
+          "end_date": "2026-06-18",
+          "summary": "15U Select - Game @ Lucan-Ilderton Athletics [15uS40]",
+          "location": "Lucan (1)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20831-sarniabrigade.ca",
           "date": "2026-06-22",
           "start_time": "6:00 PM",
           "end_date": "2026-06-23",
           "summary": "15U Select - Game @ North London Nationals [15uS48]",
           "location": "Stoneybrook (1)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20863-sarniabrigade.ca",
+          "date": "2026-07-15",
+          "start_time": "8:30 PM",
+          "end_date": "2026-07-16",
+          "summary": "15U Select - Game @ Lucan-Ilderton Athletics [15uS78]",
+          "location": "Lucan (1)",
           "type": "game",
           "cancelled": false
         },
@@ -15200,11 +15212,35 @@
           "cancelled": false
         },
         {
+          "game_id": "20862",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/20862/",
+          "date": "2026-06-17",
+          "start_time": "8:30 PM",
+          "opponent": "Lucan-Ilderton Athletics 15uS40 Lucan",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20831",
           "href": "https://sarniabrigade.ca/Teams/1301/Games/20831/",
           "date": "2026-06-22",
           "start_time": "6:00 PM",
           "opponent": "North London Nationals 15uS48 Stoneybrook",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20863",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/20863/",
+          "date": "2026-07-15",
+          "start_time": "8:30 PM",
+          "opponent": "Lucan-Ilderton Athletics 15uS78 Lucan",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -15516,7 +15552,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 0,
+      "practices": 1,
       "roster": {
         "players": 8,
         "adults": 1,
@@ -15525,7 +15561,18 @@
         "coaches": 1,
         "managers": 0
       },
-      "events": [],
+      "events": [
+        {
+          "uid": "MS-20850-sarniabrigade.ca",
+          "date": "2026-04-22",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-23",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "Germain Diamond #4",
+          "type": "practice",
+          "cancelled": false
+        }
+      ],
       "games": [],
       "umpire_issues": {
         "games_missed": 0,
@@ -18083,15 +18130,6 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 13U Select - Practice",
       "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1301,
-      "team_name": "15U Select",
-      "type": "practice",
-      "date": "2026-04-21",
-      "start_time": "7:45 PM",
-      "summary": "CANCELLED 15U Select - Practice",
-      "location": "Blackwell Park"
     }
   ]
 }
