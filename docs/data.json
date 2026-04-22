@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-21T23:03:18.279051Z",
+  "generated": "2026-04-22T10:03:49.737607Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -464,8 +464,8 @@
           "date": "2026-07-08",
           "start_time": "6:00 PM",
           "end_date": "2026-07-09",
-          "summary": "8U OBA Rep - Game @ North London Nationals",
-          "location": "North London Sports Field #2",
+          "summary": "8U OBA Rep - Game @ North London Nationals [8u24]",
+          "location": "North London (2)",
           "type": "game",
           "cancelled": false
         },
@@ -537,6 +537,16 @@
           "summary": "8U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20829-sarniabrigade.ca",
+          "date": "2026-07-22",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-23",
+          "summary": "8U OBA Rep - Game @ North London Nationals [8u54]",
+          "location": "North London (2)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -926,7 +936,7 @@
           "href": "https://sarniabrigade.ca/Teams/1290/Games/20319/",
           "date": "2026-07-08",
           "start_time": "6:00 PM",
-          "opponent": "North London Nationals North London Sports Fie",
+          "opponent": "North London Nationals 8u24 North London",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -963,6 +973,18 @@
           "date": "2026-07-16",
           "start_time": "6:00 PM",
           "opponent": "St. Thomas Cardinals 8u44 Doug Tarry",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20829",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/20829/",
+          "date": "2026-07-22",
+          "start_time": "6:00 PM",
+          "opponent": "North London Nationals 8u54 North London",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -1068,383 +1090,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 11,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 5,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-27",
-            "time": "6:00 PM",
-            "opponent": "Wallaceburg Warriors",
-            "venue": "Coronation Park Diamond",
-            "assigned_umpires": [
-              "Drew Baxter",
-              "Juan Peralta"
-            ],
-            "accepted_umpires": [
-              "Juan Peralta"
-            ],
-            "pending_umpires": [
-              "Drew Baxter"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-31",
-            "time": "10:00 AM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-31",
-            "time": "1:00 PM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-07",
-            "time": "10:00 AM",
-            "opponent": "North London Nationals",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-07",
-            "time": "1:00 PM",
-            "opponent": "North London Nationals",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-21",
-            "time": "10:00 AM",
-            "opponent": "London Talons",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-21",
-            "time": "1:00 PM",
-            "opponent": "London Talons",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-12",
-            "time": "10:00 AM",
-            "opponent": "London West Tincaps",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-12",
-            "time": "1:00 PM",
-            "opponent": "London West Tincaps",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-26",
-            "time": "10:00 AM",
-            "opponent": "Lucan-Ilderton Athletics",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-26",
-            "time": "1:00 PM",
-            "opponent": "Lucan-Ilderton Athletics",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-05-31",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-06-07",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "North London Nationals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "North London Nationals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-06-21",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "London Talons",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "London Talons",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-07-12",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "London West Tincaps",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "London West Tincaps",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-07-26",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "Lucan-Ilderton Athletics",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "Lucan-Ilderton Athletics",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          }
-        ]
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       }
     },
     {
@@ -2018,6 +1670,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20843-sarniabrigade.ca",
+          "date": "2026-07-28",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-29",
+          "summary": "9U OBA Rep - Game @ Strathroy Royals [9u64]",
+          "location": "York Street (1)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19886-sarniabrigade.ca",
           "date": "2026-07-29",
           "start_time": "6:00 PM",
@@ -2410,6 +2072,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20843",
+          "href": "https://sarniabrigade.ca/Teams/1291/Games/20843/",
+          "date": "2026-07-28",
+          "start_time": "6:00 PM",
+          "opponent": "Strathroy Royals 9u64 York Street",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20826",
           "href": "https://sarniabrigade.ca/Teams/1291/Games/20826/",
           "date": "2026-08-04",
@@ -2460,232 +2134,16 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 14,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 4,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
           {
-            "date": "2026-05-30",
-            "time": "10:00 AM",
-            "opponent": "Dorchester Diamondbacks",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-03",
-            "time": "6:00 PM",
-            "opponent": "Strathroy Royals",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-06",
-            "time": "10:00 AM",
-            "opponent": "North London Nationals",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-06",
-            "time": "1:00 PM",
-            "opponent": "North London Nationals",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-10",
-            "time": "6:00 PM",
-            "opponent": "London Talons",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-27",
-            "time": "11:00 AM",
-            "opponent": "Lasalle Turtle Club",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "accepted_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
             "date": "2026-06-27",
             "time": "2:00 PM",
             "opponent": "Windsor Stars",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "accepted_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-04",
-            "time": "10:00 AM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-04",
-            "time": "1:00 PM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-11",
-            "time": "10:00 AM",
-            "opponent": "London West Tincaps",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-22",
-            "time": "6:00 PM",
-            "opponent": "Lucan-Ilderton Athletics",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-08",
-            "time": "10:00 AM",
-            "opponent": "Wyoming Wranglers",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-15",
-            "time": "10:00 AM",
-            "opponent": "DKMB River Cats",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-15",
-            "time": "1:00 PM",
-            "opponent": "DKMB River Cats",
             "venue": "Clearwater Diamond #1",
             "assigned_umpires": [],
             "accepted_umpires": [],
@@ -2701,63 +2159,34 @@
         ],
         "doubleheader_mismatch_details": [
           {
-            "date": "2026-06-06",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "North London Nationals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "North London Nationals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
             "date": "2026-06-27",
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
             "pair_signatures": [],
-            "mismatched_names": [],
+            "mismatched_names": [
+              "Hayden Scheuermann",
+              "Jason Lajeunesse",
+              "Kirk Vines"
+            ],
             "games": [
               {
                 "time": "11:00 AM",
                 "opponent": "Lasalle Turtle Club",
                 "venue": "Clearwater Diamond #1",
                 "assigned_umpires": [
-                  "Hayden Scheuermann"
+                  "Hayden Scheuermann",
+                  "Jason Lajeunesse",
+                  "Kirk Vines"
                 ],
                 "accepted_umpires": [
-                  "Hayden Scheuermann"
+                  "Hayden Scheuermann",
+                  "Jason Lajeunesse",
+                  "Kirk Vines"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 1,
-                "accepted_count": 1,
+                "assigned_count": 3,
+                "accepted_count": 3,
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
@@ -2765,84 +2194,6 @@
               {
                 "time": "2:00 PM",
                 "opponent": "Windsor Stars",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [
-                  "Hayden Scheuermann"
-                ],
-                "accepted_umpires": [
-                  "Hayden Scheuermann"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 1,
-                "accepted_count": 1,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-07-04",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-08-15",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "DKMB River Cats",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "DKMB River Cats",
                 "venue": "Clearwater Diamond #1",
                 "assigned_umpires": [],
                 "accepted_umpires": [],
@@ -3625,19 +2976,15 @@
             "time": "11:00 AM",
             "opponent": "LaSalle Titans",
             "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "accepted_umpires": [
-              "Jason Lajeunesse"
-            ],
+            "assigned_umpires": [],
+            "accepted_umpires": [],
             "pending_umpires": [],
             "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
+            "assigned_count": 0,
+            "accepted_count": 0,
             "pending_count": 0,
             "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           },
           {
@@ -3693,19 +3040,15 @@
             "time": "10:00 AM",
             "opponent": "Leamington",
             "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [
-              "Ralph Campbell"
-            ],
+            "assigned_umpires": [],
             "accepted_umpires": [],
             "pending_umpires": [],
-            "denied_umpires": [
-              "Ralph Campbell"
-            ],
-            "assigned_count": 1,
+            "denied_umpires": [],
+            "assigned_count": 0,
             "accepted_count": 0,
             "pending_count": 0,
-            "denied_count": 1,
-            "assignment_state": "assigned_but_denied",
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           },
           {
@@ -3738,7 +3081,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 44,
+      "practices": 43,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -3899,6 +3242,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20830-sarniabrigade.ca",
+          "date": "2026-05-10",
+          "start_time": "4:00 PM",
+          "end_date": "2026-05-10",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20508-sarniabrigade.ca",
           "date": "2026-05-12",
           "start_time": "6:00 PM",
@@ -3906,16 +3259,6 @@
           "summary": "10U A OBA Rep - Game @ Chatham Diamonds 10u [WC11U-066]",
           "location": "Kinsmen Park (2)",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20244-sarniabrigade.ca",
-          "date": "2026-05-12",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-13",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -3969,16 +3312,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20246-sarniabrigade.ca",
-          "date": "2026-05-26",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-27",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20158-sarniabrigade.ca",
           "date": "2026-05-28",
           "start_time": "5:30 PM",
@@ -4015,16 +3348,6 @@
           "end_date": "2026-06-03",
           "summary": "10U A OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20159-sarniabrigade.ca",
-          "date": "2026-06-04",
-          "start_time": "5:30 PM",
-          "end_date": "2026-06-04",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
           "type": "practice",
           "cancelled": false
         },
@@ -4079,6 +3402,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20834-sarniabrigade.ca",
+          "date": "2026-06-14",
+          "start_time": "4:00 PM",
+          "end_date": "2026-06-15",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20823-sarniabrigade.ca",
           "date": "2026-06-15",
           "start_time": "6:00 PM",
@@ -4105,16 +3438,6 @@
           "end_date": "2026-06-18",
           "summary": "10U A OBA Rep - Practice",
           "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20250-sarniabrigade.ca",
-          "date": "2026-06-23",
-          "start_time": "6:30 PM",
-          "end_date": "2026-06-24",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -4229,16 +3552,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20165-sarniabrigade.ca",
-          "date": "2026-07-16",
-          "start_time": "5:30 PM",
-          "end_date": "2026-07-16",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20764-sarniabrigade.ca",
           "date": "2026-07-16",
           "start_time": "6:00 PM",
@@ -4339,6 +3652,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20835-sarniabrigade.ca",
+          "date": "2026-08-02",
+          "start_time": "4:00 PM",
+          "end_date": "2026-08-03",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20256-sarniabrigade.ca",
           "date": "2026-08-04",
           "start_time": "6:30 PM",
@@ -4369,6 +3692,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20836-sarniabrigade.ca",
+          "date": "2026-08-09",
+          "start_time": "4:00 PM",
+          "end_date": "2026-08-09",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20754-sarniabrigade.ca",
           "date": "2026-08-09",
           "start_time": "6:30 PM",
@@ -4389,12 +3722,12 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20169-sarniabrigade.ca",
-          "date": "2026-08-13",
-          "start_time": "5:30 PM",
-          "end_date": "2026-08-13",
+          "uid": "MS-20837-sarniabrigade.ca",
+          "date": "2026-08-16",
+          "start_time": "4:00 PM",
+          "end_date": "2026-08-17",
           "summary": "10U A OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
+          "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
         },
@@ -4429,22 +3762,22 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20259-sarniabrigade.ca",
-          "date": "2026-08-25",
-          "start_time": "6:30 PM",
-          "end_date": "2026-08-26",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20171-sarniabrigade.ca",
           "date": "2026-08-27",
           "start_time": "5:30 PM",
           "end_date": "2026-08-27",
           "summary": "10U A OBA Rep - Practice",
           "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20838-sarniabrigade.ca",
+          "date": "2026-08-30",
+          "start_time": "4:00 PM",
+          "end_date": "2026-08-31",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
         },
@@ -4505,6 +3838,26 @@
           "end_date": "2026-07-13",
           "summary": "10U A OBA Rep - London Talons Tournament",
           "location": "London Ontario",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3319-sarniabrigade.ca",
+          "date": "2026-08-21",
+          "start_time": null,
+          "end_date": "2026-08-24",
+          "summary": "10U A OBA Rep - LDBA Playoffs",
+          "location": "London, ON",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3320-sarniabrigade.ca",
+          "date": "2026-09-04",
+          "start_time": null,
+          "end_date": "2026-09-07",
+          "summary": "10U A OBA Rep - OBA's",
+          "location": "Cambridge, Ontario",
           "type": "tournament",
           "cancelled": false
         }
@@ -4827,7 +4180,7 @@
           "href": "https://sarniabrigade.ca/Teams/1311/Games/20754/",
           "date": "2026-08-09",
           "start_time": "6:30 PM",
-          "opponent": "Lucan-Ilderton Athletics 10u62 Tecumseh Park",
+          "opponent": "Lucan-Ilderton Athletics 10u62 Tecumseh Park M",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -4849,708 +4202,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 16,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 7,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-04-25",
-            "time": "12:30 PM",
-            "opponent": "10U AA OBA Rep",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-03",
-            "time": "6:30 PM",
-            "opponent": "11U OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Hayden Scheuermann",
-              "Liam Scott"
-            ],
-            "accepted_umpires": [
-              "Liam Scott"
-            ],
-            "pending_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-16",
-            "time": "4:00 PM",
-            "opponent": "North London Nationals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-16",
-            "time": "6:30 PM",
-            "opponent": "North London Nationals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-31",
-            "time": "4:00 PM",
-            "opponent": "Essex Yellowjackets",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Caleb Willemsvandyk",
-              "Juan Peralta"
-            ],
-            "accepted_umpires": [
-              "Juan Peralta"
-            ],
-            "pending_umpires": [
-              "Caleb Willemsvandyk"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-31",
-            "time": "6:30 PM",
-            "opponent": "Essex Yellowjackets",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Caleb Willemsvandyk",
-              "Juan Peralta"
-            ],
-            "accepted_umpires": [
-              "Juan Peralta"
-            ],
-            "pending_umpires": [
-              "Caleb Willemsvandyk"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-07",
-            "time": "4:00 PM",
-            "opponent": "London West Tincaps",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-07",
-            "time": "6:30 PM",
-            "opponent": "London West Tincaps",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-28",
-            "time": "4:00 PM",
-            "opponent": "Wyoming Wranglers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-05",
-            "time": "4:00 PM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-05",
-            "time": "6:30 PM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-19",
-            "time": "4:00 PM",
-            "opponent": "London Talons",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-19",
-            "time": "6:30 PM",
-            "opponent": "London Talons",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-26",
-            "time": "4:00 PM",
-            "opponent": "Lucan-Ilderton Athletics",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-26",
-            "time": "6:30 PM",
-            "opponent": "Lucan-Ilderton Athletics",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-09",
-            "time": "6:30 PM",
-            "opponent": "Lucan-Ilderton Athletics",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-04-25",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [
-              "Annette Hoggarth",
-              "Brian Mundt",
-              "Brogan Murphy",
-              "Chris Bonneau",
-              "Clark Thornton",
-              "Colby Sheffer",
-              "Cruz Marinaro",
-              "Dan Scott",
-              "David Haasen",
-              "Doug Krall",
-              "Easton McKinlay",
-              "Ethan Antle",
-              "Greg Baker",
-              "Hayden Scheuermann",
-              "Jakob Rodriguez",
-              "Jarett Simons",
-              "Jason Lajeunesse",
-              "Juan Peralta",
-              "Katrina Cadotte",
-              "Kirk Vines",
-              "Liam Scott",
-              "Matthew Schrie",
-              "Paolo Padiglia",
-              "Ralph Campbell",
-              "Ronnie Atyeo",
-              "Ryder Day",
-              "Steve McGrail",
-              "Terry Doyle",
-              "Tristan Heeringa",
-              "Tyler Whetham"
-            ],
-            "games": [
-              {
-                "time": "12:30 PM",
-                "opponent": "10U AA OBA Rep",
-                "venue": "Clearwater Diamond #2",
-                "assigned_umpires": [
-                  "Annette Hoggarth",
-                  "Austin Lozon",
-                  "Bentley Daughtrey",
-                  "Brian Mundt",
-                  "Brock Lane",
-                  "Brogan Murphy",
-                  "Caleb Willemsvandyk",
-                  "Chris Bonneau",
-                  "Clark Thornton",
-                  "Colby Sheffer",
-                  "Cruz Marinaro",
-                  "Dan Scott",
-                  "David Haasen",
-                  "Doug Krall",
-                  "Drew Baxter",
-                  "Easton McKinlay",
-                  "Ethan Antle",
-                  "Ethan Glavin",
-                  "Grant Purdy",
-                  "Greg Baker",
-                  "Harper Vandenheuval",
-                  "Hayden Scheuermann",
-                  "Jakob Rodriguez",
-                  "Jarett Simons",
-                  "Jason Lajeunesse",
-                  "Juan Peralta",
-                  "Katrina Cadotte",
-                  "Kirk Vines",
-                  "Liam Colosimo",
-                  "Liam Scott",
-                  "Lucas Barker",
-                  "Marko Sazdov",
-                  "Matthew Schrie",
-                  "Paolo Padiglia",
-                  "Ralph Campbell",
-                  "Ronnie Atyeo",
-                  "Ryder Day",
-                  "Steve McGrail",
-                  "Sydney Nisbet",
-                  "Terry Doyle",
-                  "Tristan Heeringa",
-                  "Tyler Hoadley",
-                  "Tyler Whetham",
-                  "Will Greer"
-                ],
-                "accepted_umpires": [
-                  "Annette Hoggarth",
-                  "Brian Mundt",
-                  "Brogan Murphy",
-                  "Chris Bonneau",
-                  "Clark Thornton",
-                  "Colby Sheffer",
-                  "Cruz Marinaro",
-                  "Dan Scott",
-                  "David Haasen",
-                  "Doug Krall",
-                  "Easton McKinlay",
-                  "Ethan Antle",
-                  "Greg Baker",
-                  "Hayden Scheuermann",
-                  "Jakob Rodriguez",
-                  "Jarett Simons",
-                  "Jason Lajeunesse",
-                  "Juan Peralta",
-                  "Katrina Cadotte",
-                  "Kirk Vines",
-                  "Liam Scott",
-                  "Matthew Schrie",
-                  "Paolo Padiglia",
-                  "Ralph Campbell",
-                  "Ronnie Atyeo",
-                  "Ryder Day",
-                  "Steve McGrail",
-                  "Terry Doyle",
-                  "Tristan Heeringa",
-                  "Tyler Whetham"
-                ],
-                "pending_umpires": [
-                  "Austin Lozon",
-                  "Bentley Daughtrey",
-                  "Brian Mundt",
-                  "Brock Lane",
-                  "Caleb Willemsvandyk",
-                  "Chris Bonneau",
-                  "Drew Baxter",
-                  "Ethan Glavin",
-                  "Grant Purdy",
-                  "Greg Baker",
-                  "Harper Vandenheuval",
-                  "Hayden Scheuermann",
-                  "Jason Lajeunesse",
-                  "Juan Peralta",
-                  "Liam Colosimo",
-                  "Marko Sazdov",
-                  "Matthew Schrie",
-                  "Paolo Padiglia",
-                  "Steve McGrail",
-                  "Terry Doyle",
-                  "Tyler Hoadley",
-                  "Tyler Whetham",
-                  "Will Greer"
-                ],
-                "denied_umpires": [
-                  "Chris Bonneau",
-                  "Clark Thornton",
-                  "Doug Krall",
-                  "Ethan Antle",
-                  "Kirk Vines",
-                  "Lucas Barker",
-                  "Paolo Padiglia",
-                  "Ralph Campbell",
-                  "Steve McGrail",
-                  "Sydney Nisbet",
-                  "Tyler Whetham"
-                ],
-                "assigned_count": 44,
-                "accepted_count": 30,
-                "pending_count": 23,
-                "denied_count": 11,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "12:30 PM",
-                "opponent": "10U AA OBA Rep",
-                "venue": "Clearwater Diamond #2",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-05-16",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "North London Nationals",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "North London Nationals",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-05-31",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "Essex Yellowjackets",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Caleb Willemsvandyk",
-                  "Juan Peralta"
-                ],
-                "accepted_umpires": [
-                  "Juan Peralta"
-                ],
-                "pending_umpires": [
-                  "Caleb Willemsvandyk"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "Essex Yellowjackets",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Caleb Willemsvandyk",
-                  "Juan Peralta"
-                ],
-                "accepted_umpires": [
-                  "Juan Peralta"
-                ],
-                "pending_umpires": [
-                  "Caleb Willemsvandyk"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-06-07",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "London West Tincaps",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "London West Tincaps",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-07-05",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-07-19",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "London Talons",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "London Talons",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-07-26",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "Lucan-Ilderton Athletics",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "Lucan-Ilderton Athletics",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          }
-        ]
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       }
     },
     {
@@ -5851,6 +4509,16 @@
           "summary": "11U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20827-sarniabrigade.ca",
+          "date": "2026-05-28",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-29",
+          "summary": "11U OBA Rep - Game @ North London Nationals [11u41]",
+          "location": "North London (3)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -6578,354 +5246,68 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 13,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 3,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-03",
-            "time": "4:00 PM",
-            "opponent": "10U A OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Hayden Scheuermann",
-              "Liam Scott"
-            ],
-            "accepted_umpires": [
-              "Liam Scott"
-            ],
-            "pending_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-05",
-            "time": "6:00 PM",
-            "opponent": "10U AA OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Liam Colosimo",
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [
-              "Paolo Padiglia"
-            ],
-            "pending_umpires": [
-              "Liam Colosimo"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-12",
-            "time": "6:00 PM",
-            "opponent": "Chatham Diamonds 11u",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Doug Krall",
-              "Easton McKinlay",
-              "Juan Peralta"
-            ],
-            "accepted_umpires": [
-              "Easton McKinlay"
-            ],
-            "pending_umpires": [
-              "Juan Peralta"
-            ],
-            "denied_umpires": [
-              "Doug Krall"
-            ],
-            "assigned_count": 3,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-09",
-            "time": "6:00 PM",
-            "opponent": "Mitchell Astros Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-13",
-            "time": "4:00 PM",
-            "opponent": "DKMB River Cats",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-04",
-            "time": "4:00 PM",
-            "opponent": "London Badgers 10u",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-07",
-            "time": "6:00 PM",
-            "opponent": "North London Nationals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-11",
-            "time": "4:00 PM",
-            "opponent": "London West Tincaps",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-11",
-            "time": "6:30 PM",
-            "opponent": "London West Tincaps",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-25",
-            "time": "4:00 PM",
-            "opponent": "Dorchester Diamondbacks",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-25",
-            "time": "6:30 PM",
-            "opponent": "Dorchester Diamondbacks",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-08",
-            "time": "4:00 PM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-08",
-            "time": "6:30 PM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
-            "date": "2026-07-11",
+            "date": "2026-05-17",
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
+            "pair_signatures": [
+              "Juan Peralta | Paolo Padiglia"
+            ],
+            "mismatched_names": [
+              "Hayden Scheuermann",
+              "Tristan Heeringa"
+            ],
             "games": [
               {
                 "time": "4:00 PM",
-                "opponent": "London West Tincaps",
+                "opponent": "Woodstock Wranglers",
                 "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
+                "assigned_umpires": [
+                  "Juan Peralta",
+                  "Paolo Padiglia"
+                ],
+                "accepted_umpires": [
+                  "Juan Peralta",
+                  "Paolo Padiglia"
+                ],
                 "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
+                "assigned_count": 2,
+                "accepted_count": 2,
                 "pending_count": 0,
                 "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
+                "assignment_state": "assigned_and_accepted"
               },
               {
                 "time": "6:30 PM",
-                "opponent": "London West Tincaps",
+                "opponent": "Woodstock Wranglers",
                 "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
+                "assigned_umpires": [
+                  "Hayden Scheuermann",
+                  "Juan Peralta",
+                  "Paolo Padiglia",
+                  "Tristan Heeringa"
+                ],
+                "accepted_umpires": [
+                  "Hayden Scheuermann",
+                  "Juan Peralta",
+                  "Paolo Padiglia",
+                  "Tristan Heeringa"
+                ],
                 "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
+                "assigned_count": 4,
+                "accepted_count": 4,
                 "pending_count": 0,
                 "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-07-25",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "Dorchester Diamondbacks",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "Dorchester Diamondbacks",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-08-08",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
+                "assignment_state": "assigned_and_accepted"
               }
             ]
           }
@@ -7989,136 +6371,26 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 13,
+        "games_missed_upcoming": 3,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 5,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
-          {
-            "date": "2026-04-29",
-            "time": "6:00 PM",
-            "opponent": "Sarnia Brigade 13U Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Brogan Murphy",
-              "Ethan Glavin"
-            ],
-            "accepted_umpires": [
-              "Brogan Murphy"
-            ],
-            "pending_umpires": [
-              "Ethan Glavin"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-17",
-            "time": "10:00 AM",
-            "opponent": "DKMB River Cats",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-17",
-            "time": "1:00 PM",
-            "opponent": "DKMB River Cats",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-07",
-            "time": "10:00 AM",
-            "opponent": "North London Nationals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-07",
-            "time": "1:00 PM",
-            "opponent": "North London Nationals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-17",
-            "time": "6:00 PM",
-            "opponent": "London Talons",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
           {
             "date": "2026-06-21",
             "time": "10:00 AM",
             "opponent": "Lasalle Turtle Club",
             "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Juan Peralta",
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [
-              "Paolo Padiglia"
-            ],
-            "pending_umpires": [
-              "Juan Peralta"
-            ],
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
             "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
             "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           },
           {
@@ -8126,22 +6398,15 @@
             "time": "12:30 PM",
             "opponent": "Lasalle Turtle Club",
             "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Juan Peralta",
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [
-              "Paolo Padiglia"
-            ],
-            "pending_umpires": [
-              "Juan Peralta"
-            ],
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
             "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
             "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           },
           {
@@ -8159,147 +6424,9 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-05",
-            "time": "1:00 PM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-05",
-            "time": "6:00 PM",
-            "opponent": "London Talons",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-09",
-            "time": "10:00 AM",
-            "opponent": "London West Tincaps",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-09",
-            "time": "1:00 PM",
-            "opponent": "London West Tincaps",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
-          {
-            "date": "2026-05-17",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "DKMB River Cats",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "DKMB River Cats",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-06-07",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "North London Nationals",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "North London Nationals",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
           {
             "date": "2026-06-21",
             "issue_timing": "upcoming",
@@ -8311,107 +6438,19 @@
                 "time": "10:00 AM",
                 "opponent": "Lasalle Turtle Club",
                 "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Juan Peralta",
-                  "Paolo Padiglia"
-                ],
-                "accepted_umpires": [
-                  "Paolo Padiglia"
-                ],
-                "pending_umpires": [
-                  "Juan Peralta"
-                ],
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
                 "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
+                "assignment_state": "no_officials_assigned"
               },
               {
                 "time": "12:30 PM",
                 "opponent": "Lasalle Turtle Club",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Juan Peralta",
-                  "Paolo Padiglia"
-                ],
-                "accepted_umpires": [
-                  "Paolo Padiglia"
-                ],
-                "pending_umpires": [
-                  "Juan Peralta"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-07-05",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "12U Rep St. Thomas Cardinals",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-08-09",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "London West Tincaps",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "London West Tincaps",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [],
                 "accepted_umpires": [],
@@ -8669,6 +6708,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20832-sarniabrigade.ca",
+          "date": "2026-05-20",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-21",
+          "summary": "13U OBA Rep - Game @ North London Nationals [13u15]",
+          "location": "North London (3)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20745-sarniabrigade.ca",
           "date": "2026-05-21",
           "start_time": "6:00 PM",
@@ -8866,6 +6915,16 @@
           "summary": "13U OBA Rep - Indoor Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20833-sarniabrigade.ca",
+          "date": "2026-07-15",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-16",
+          "summary": "13U OBA Rep - Game @ North London Nationals [13u67]",
+          "location": "North London (3)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -9109,6 +7168,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20832",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20832/",
+          "date": "2026-05-20",
+          "start_time": "6:00 PM",
+          "opponent": "North London Nationals 13u15 North London",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20500",
           "href": "https://sarniabrigade.ca/Teams/1295/Games/20500/",
           "date": "2026-06-01",
@@ -9169,6 +7240,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20833",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20833/",
+          "date": "2026-07-15",
+          "start_time": "6:00 PM",
+          "opponent": "North London Nationals 13u67 North London",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20768",
           "href": "https://sarniabrigade.ca/Teams/1295/Games/20768/",
           "date": "2026-08-10",
@@ -9183,83 +7266,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 3,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-09",
-            "time": "10:00 AM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Clark Thornton",
-              "Marko Sazdov",
-              "Will Greer"
-            ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Marko Sazdov",
-              "Will Greer"
-            ],
-            "denied_umpires": [
-              "Clark Thornton"
-            ],
-            "assigned_count": 3,
-            "accepted_count": 0,
-            "pending_count": 2,
-            "denied_count": 1,
-            "assignment_state": "assigned_but_denied",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-09",
-            "time": "1:00 PM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Clark Thornton",
-              "Marko Sazdov",
-              "Will Greer"
-            ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Marko Sazdov",
-              "Will Greer"
-            ],
-            "denied_umpires": [
-              "Clark Thornton"
-            ],
-            "assigned_count": 3,
-            "accepted_count": 0,
-            "pending_count": 2,
-            "denied_count": 1,
-            "assignment_state": "assigned_but_denied",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-18",
-            "time": "6:00 PM",
-            "opponent": "Wyoming Wranglers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [
-              "Paolo Padiglia"
-            ],
-            "assigned_count": 1,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 1,
-            "assignment_state": "assigned_but_denied",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-05-09",
@@ -9277,19 +7289,18 @@
                   "Marko Sazdov",
                   "Will Greer"
                 ],
-                "accepted_umpires": [],
-                "pending_umpires": [
+                "accepted_umpires": [
+                  "Clark Thornton",
                   "Marko Sazdov",
                   "Will Greer"
                 ],
-                "denied_umpires": [
-                  "Clark Thornton"
-                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
                 "assigned_count": 3,
-                "accepted_count": 0,
-                "pending_count": 2,
-                "denied_count": 1,
-                "assignment_state": "assigned_but_denied"
+                "accepted_count": 3,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
               },
               {
                 "time": "1:00 PM",
@@ -9300,19 +7311,18 @@
                   "Marko Sazdov",
                   "Will Greer"
                 ],
-                "accepted_umpires": [],
-                "pending_umpires": [
+                "accepted_umpires": [
+                  "Clark Thornton",
                   "Marko Sazdov",
                   "Will Greer"
                 ],
-                "denied_umpires": [
-                  "Clark Thornton"
-                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
                 "assigned_count": 3,
-                "accepted_count": 0,
-                "pending_count": 2,
-                "denied_count": 1,
-                "assignment_state": "assigned_but_denied"
+                "accepted_count": 3,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
               }
             ]
           }
@@ -9597,6 +7607,16 @@
           "summary": "14U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20844-sarniabrigade.ca",
+          "date": "2026-05-23",
+          "start_time": "7:00 PM",
+          "end_date": "2026-05-24",
+          "summary": "14U OBA Rep - Game @ Strathroy Royals [14u55]",
+          "location": "York Street (3)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -9934,6 +7954,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20844",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20844/",
+          "date": "2026-05-23",
+          "start_time": "7:00 PM",
+          "opponent": "Strathroy Royals 14u55 York Street",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20443",
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20443/",
           "date": "2026-05-24",
@@ -10104,128 +8136,26 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 5,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
           {
-            "date": "2026-05-10",
-            "time": "10:00 AM",
-            "opponent": "TBA",
-            "venue": "Blackwell North",
-            "assigned_umpires": [
-              "Kirk Vines",
-              "Tyler Hoadley",
-              "Tyler Whetham"
-            ],
-            "accepted_umpires": [
-              "Kirk Vines"
-            ],
-            "pending_umpires": [
-              "Tyler Hoadley"
-            ],
-            "denied_umpires": [
-              "Tyler Whetham"
-            ],
-            "assigned_count": 3,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-31",
-            "time": "10:00 AM",
-            "opponent": "TBA",
-            "venue": "Blackwell North",
-            "assigned_umpires": [
-              "Dan Scott",
-              "Tyler Hoadley"
-            ],
-            "accepted_umpires": [
-              "Dan Scott"
-            ],
-            "pending_umpires": [
-              "Tyler Hoadley"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-31",
-            "time": "10:00 AM",
-            "opponent": "TBA",
-            "venue": "Blackwell North",
-            "assigned_umpires": [
-              "Dan Scott",
-              "Tyler Hoadley"
-            ],
-            "accepted_umpires": [
-              "Dan Scott"
-            ],
-            "pending_umpires": [
-              "Tyler Hoadley"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
             "date": "2026-07-26",
             "time": "10:00 AM",
             "opponent": "Riverside Royals",
             "venue": "TBD",
-            "assigned_umpires": [
-              "Greg Baker",
-              "Will Greer"
-            ],
-            "accepted_umpires": [
-              "Greg Baker"
-            ],
-            "pending_umpires": [
-              "Will Greer"
-            ],
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
             "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
             "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-26",
-            "time": "12:30 PM",
-            "opponent": "Riverside Royals",
-            "venue": "TBD",
-            "assigned_umpires": [
-              "Greg Baker",
-              "Will Greer"
-            ],
-            "accepted_umpires": [
-              "Greg Baker"
-            ],
-            "pending_umpires": [
-              "Will Greer"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           }
         ],
@@ -10234,8 +8164,13 @@
             "date": "2026-05-31",
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
+            "pair_signatures": [
+              "Dan Scott | Tyler Hoadley"
+            ],
+            "mismatched_names": [
+              "Alexander Pfaff",
+              "Will Garton"
+            ],
             "games": [
               {
                 "time": "10:00 AM",
@@ -10246,15 +8181,14 @@
                   "Tyler Hoadley"
                 ],
                 "accepted_umpires": [
-                  "Dan Scott"
-                ],
-                "pending_umpires": [
+                  "Dan Scott",
                   "Tyler Hoadley"
                 ],
+                "pending_umpires": [],
                 "denied_umpires": [],
                 "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
+                "accepted_count": 2,
+                "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -10263,19 +8197,22 @@
                 "opponent": "TBA",
                 "venue": "Blackwell North",
                 "assigned_umpires": [
+                  "Alexander Pfaff",
                   "Dan Scott",
-                  "Tyler Hoadley"
+                  "Tyler Hoadley",
+                  "Will Garton"
                 ],
                 "accepted_umpires": [
-                  "Dan Scott"
+                  "Alexander Pfaff",
+                  "Dan Scott",
+                  "Tyler Hoadley",
+                  "Will Garton"
                 ],
-                "pending_umpires": [
-                  "Tyler Hoadley"
-                ],
+                "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
+                "assigned_count": 4,
+                "accepted_count": 4,
+                "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               }
@@ -10285,29 +8222,27 @@
             "date": "2026-07-26",
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
+            "pair_signatures": [
+              "Greg Baker | Will Greer"
+            ],
+            "mismatched_names": [
+              "Greg Baker",
+              "Will Greer"
+            ],
             "games": [
               {
                 "time": "10:00 AM",
                 "opponent": "Riverside Royals",
                 "venue": "TBD",
-                "assigned_umpires": [
-                  "Greg Baker",
-                  "Will Greer"
-                ],
-                "accepted_umpires": [
-                  "Greg Baker"
-                ],
-                "pending_umpires": [
-                  "Will Greer"
-                ],
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
                 "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
+                "assignment_state": "no_officials_assigned"
               },
               {
                 "time": "12:30 PM",
@@ -10318,15 +8253,14 @@
                   "Will Greer"
                 ],
                 "accepted_umpires": [
-                  "Greg Baker"
-                ],
-                "pending_umpires": [
+                  "Greg Baker",
                   "Will Greer"
                 ],
+                "pending_umpires": [],
                 "denied_umpires": [],
                 "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
+                "accepted_count": 2,
+                "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               }
@@ -11016,6 +8950,26 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20840-sarniabrigade.ca",
+          "date": "2026-07-19",
+          "start_time": "11:30 AM",
+          "end_date": "2026-07-19",
+          "summary": "15U OBA Rep - Game @ Tillsonburg Otters [15u10]",
+          "location": "Tillsonburg Arena (Hardball 1)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20841-sarniabrigade.ca",
+          "date": "2026-07-19",
+          "start_time": "1:30 PM",
+          "end_date": "2026-07-19",
+          "summary": "15U OBA Rep - Game @ Tillsonburg Otters [15u40]",
+          "location": "Tillsonburg Arena (Hardball 1)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19790-sarniabrigade.ca",
           "date": "2026-07-21",
           "start_time": "5:30 PM",
@@ -11578,6 +9532,30 @@
           "cancelled": false
         },
         {
+          "game_id": "20840",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/20840/",
+          "date": "2026-07-19",
+          "start_time": "11:30 AM",
+          "opponent": "Tillsonburg Otters 15u10 Tillsonburg Arena",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20841",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/20841/",
+          "date": "2026-07-19",
+          "start_time": "1:30 PM",
+          "opponent": "Tillsonburg Otters 15u40 Tillsonburg Arena",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "19813",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/19813/",
           "date": "2026-08-01",
@@ -11676,438 +9654,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 11,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 4,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-23",
-            "time": "11:00 AM",
-            "opponent": "North London Nationals",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Kirk Vines",
-              "Steve McGrail"
-            ],
-            "accepted_umpires": [
-              "Kirk Vines"
-            ],
-            "pending_umpires": [
-              "Steve McGrail"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-23",
-            "time": "1:30 PM",
-            "opponent": "North London Nationals",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Kirk Vines",
-              "Steve McGrail"
-            ],
-            "accepted_umpires": [
-              "Kirk Vines"
-            ],
-            "pending_umpires": [
-              "Steve McGrail"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-27",
-            "time": "11:00 AM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Jason Lajeunesse",
-              "Kirk Vines"
-            ],
-            "accepted_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [
-              "Kirk Vines"
-            ],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-27",
-            "time": "1:30 PM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Jason Lajeunesse",
-              "Kirk Vines"
-            ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "denied_umpires": [
-              "Kirk Vines"
-            ],
-            "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 1,
-            "denied_count": 1,
-            "assignment_state": "assigned_but_denied",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-04",
-            "time": "11:00 AM",
-            "opponent": "Mitchell Astros Rep",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Jason Lajeunesse",
-              "Kirk Vines"
-            ],
-            "accepted_umpires": [
-              "Kirk Vines"
-            ],
-            "pending_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-04",
-            "time": "1:30 PM",
-            "opponent": "Mitchell Astros Rep",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Jason Lajeunesse",
-              "Kirk Vines"
-            ],
-            "accepted_umpires": [
-              "Kirk Vines"
-            ],
-            "pending_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-09",
-            "time": "6:00 PM",
-            "opponent": "London Talons",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "David Haasen",
-              "Hayden Scheuermann"
-            ],
-            "accepted_umpires": [
-              "David Haasen"
-            ],
-            "pending_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-18",
-            "time": "1:30 PM",
-            "opponent": "Tillsonburg Otters",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Paolo Padiglia",
-              "Steve McGrail"
-            ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Paolo Padiglia",
-              "Steve McGrail"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 2,
-            "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-08",
-            "time": "11:00 AM",
-            "opponent": "London West Tincaps",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-08",
-            "time": "1:30 PM",
-            "opponent": "London West Tincaps",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-18",
-            "time": "7:00 PM",
-            "opponent": "Alvinston Riverhawks",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-05-23",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "11:00 AM",
-                "opponent": "North London Nationals",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Kirk Vines",
-                  "Steve McGrail"
-                ],
-                "accepted_umpires": [
-                  "Kirk Vines"
-                ],
-                "pending_umpires": [
-                  "Steve McGrail"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:30 PM",
-                "opponent": "North London Nationals",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Kirk Vines",
-                  "Steve McGrail"
-                ],
-                "accepted_umpires": [
-                  "Kirk Vines"
-                ],
-                "pending_umpires": [
-                  "Steve McGrail"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-06-27",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [
-              "Jason Lajeunesse"
-            ],
-            "games": [
-              {
-                "time": "11:00 AM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Jason Lajeunesse",
-                  "Kirk Vines"
-                ],
-                "accepted_umpires": [
-                  "Jason Lajeunesse"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [
-                  "Kirk Vines"
-                ],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 0,
-                "denied_count": 1,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:30 PM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Jason Lajeunesse",
-                  "Kirk Vines"
-                ],
-                "accepted_umpires": [],
-                "pending_umpires": [
-                  "Jason Lajeunesse"
-                ],
-                "denied_umpires": [
-                  "Kirk Vines"
-                ],
-                "assigned_count": 2,
-                "accepted_count": 0,
-                "pending_count": 1,
-                "denied_count": 1,
-                "assignment_state": "assigned_but_denied"
-              }
-            ]
-          },
-          {
-            "date": "2026-07-04",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "11:00 AM",
-                "opponent": "Mitchell Astros Rep",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Jason Lajeunesse",
-                  "Kirk Vines"
-                ],
-                "accepted_umpires": [
-                  "Kirk Vines"
-                ],
-                "pending_umpires": [
-                  "Jason Lajeunesse"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:30 PM",
-                "opponent": "Mitchell Astros Rep",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Jason Lajeunesse",
-                  "Kirk Vines"
-                ],
-                "accepted_umpires": [
-                  "Kirk Vines"
-                ],
-                "pending_umpires": [
-                  "Jason Lajeunesse"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-08-08",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "11:00 AM",
-                "opponent": "London West Tincaps",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "1:30 PM",
-                "opponent": "London West Tincaps",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          }
-        ]
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       }
     },
     {
@@ -12713,196 +10266,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 9,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-10",
-            "time": "6:00 PM",
-            "opponent": "South London Tigers",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-24",
-            "time": "10:00 AM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-24",
-            "time": "1:00 PM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-28",
-            "time": "6:00 PM",
-            "opponent": "Lambton Shores Falcons",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-05",
-            "time": "6:00 PM",
-            "opponent": "Dorchester Diamondbacks",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-19",
-            "time": "6:00 PM",
-            "opponent": "Aylmer Pirates",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-26",
-            "time": "6:00 PM",
-            "opponent": "North London Nationals",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-02",
-            "time": "6:00 PM",
-            "opponent": "London West Tincaps",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-09",
-            "time": "6:00 PM",
-            "opponent": "Lambton Shores Falcons",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-05-24",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              }
-            ]
-          }
-        ]
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       }
     },
     {
@@ -13016,6 +10386,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20839-sarniabrigade.ca",
+          "date": "2026-05-13",
+          "start_time": "6:30 PM",
+          "end_date": "2026-05-14",
+          "summary": "11U Select - Game @ Tillsonburg Otters [11uS131]",
+          "location": "Tillsonburg Arena (Kiwanis)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20126-sarniabrigade.ca",
           "date": "2026-05-14",
           "start_time": "6:00 PM",
@@ -13023,6 +10403,16 @@
           "summary": "11U Select - Practice",
           "location": "Clearwater Diamond #3",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20842-sarniabrigade.ca",
+          "date": "2026-05-15",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-16",
+          "summary": "11U Select - Game @ Strathroy Royals [11uS109]",
+          "location": "York Street (1)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -13388,6 +10778,30 @@
       ],
       "games": [
         {
+          "game_id": "20839",
+          "href": "https://sarniabrigade.ca/Teams/1303/Games/20839/",
+          "date": "2026-05-13",
+          "start_time": "6:30 PM",
+          "opponent": "Tillsonburg Otters 11uS131 Tillsonburg Arena",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20842",
+          "href": "https://sarniabrigade.ca/Teams/1303/Games/20842/",
+          "date": "2026-05-15",
+          "start_time": "6:00 PM",
+          "opponent": "Strathroy Royals 11uS109 York Street",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20806",
           "href": "https://sarniabrigade.ca/Teams/1303/Games/20806/",
           "date": "2026-05-17",
@@ -13606,193 +11020,17 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 12,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
           {
-            "date": "2026-05-17",
-            "time": "10:00 AM",
-            "opponent": "DKMB River Cats",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-28",
-            "time": "6:00 PM",
-            "opponent": "Dorchester Diamondbacks",
-            "venue": "Clearwater Diamond #3",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-07",
-            "time": "10:00 AM",
-            "opponent": "Wyoming Wranglers",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-14",
-            "time": "10:00 AM",
-            "opponent": "Lucan-Ilderton Athletics",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-28",
-            "time": "10:00 AM",
-            "opponent": "Southwest London Scorpions",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-02",
-            "time": "10:00 AM",
-            "opponent": "Dutton Royals",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-12",
-            "time": "10:00 AM",
-            "opponent": "Dutton Royals",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-16",
-            "time": "6:00 PM",
-            "opponent": "London West Tincaps",
-            "venue": "Clearwater Diamond #3",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-26",
-            "time": "10:00 AM",
-            "opponent": "Tillsonburg Otters",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-09",
-            "time": "10:00 AM",
-            "opponent": "North London Nationals",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
             "date": "2026-08-13",
             "time": "6:00 PM",
             "opponent": "Corunna Giants",
             "venue": "Clearwater Diamond #3",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-16",
-            "time": "10:00 AM",
-            "opponent": "Strathroy Royals",
-            "venue": "Clearwater Diamond #2",
             "assigned_umpires": [],
             "accepted_umpires": [],
             "pending_umpires": [],
@@ -14525,173 +11763,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 10,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-08",
-            "time": "6:00 PM",
-            "opponent": "Lucan-Ilderton Athletics",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-18",
-            "time": "6:00 PM",
-            "opponent": "Strathroy Royals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-26",
-            "time": "6:00 PM",
-            "opponent": "London West Tincaps",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-28",
-            "time": "10:00 AM",
-            "opponent": "DKMB River Cats",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-03",
-            "time": "6:00 PM",
-            "opponent": "St. Thomas Cardinals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-10",
-            "time": "6:00 PM",
-            "opponent": "North London Nationals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-24",
-            "time": "6:00 PM",
-            "opponent": "Ingersoll Ironbirds",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-07",
-            "time": "6:00 PM",
-            "opponent": "Alvinston Riverhawks Select",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-14",
-            "time": "6:00 PM",
-            "opponent": "Wyoming Wranglers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-21",
-            "time": "6:00 PM",
-            "opponent": "Aylmer Pirates",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       }
     },
@@ -14806,6 +11883,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20831-sarniabrigade.ca",
+          "date": "2026-06-22",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-23",
+          "summary": "15U Select - Game @ North London Nationals [15uS48]",
+          "location": "Stoneybrook (1)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20663-sarniabrigade.ca",
           "date": "2026-07-22",
           "start_time": "8:30 PM",
@@ -14883,6 +11970,18 @@
           "date": "2026-05-21",
           "start_time": "6:00 PM",
           "opponent": "Southwest London Scorpions 15uS66 Hamlyn",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20831",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/20831/",
+          "date": "2026-06-22",
+          "start_time": "6:00 PM",
+          "opponent": "North London Nationals 15uS48 Stoneybrook",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -17097,7 +14196,7 @@
         "games_missed": 0,
         "games_missed_upcoming": 2,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 5,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -17106,22 +14205,15 @@
             "time": "6:00 PM",
             "opponent": "Chatham Major Diamonds",
             "venue": "Errol Russell Park",
-            "assigned_umpires": [
-              "Brian Mundt",
-              "Steve McGrail"
-            ],
-            "accepted_umpires": [
-              "Steve McGrail"
-            ],
-            "pending_umpires": [
-              "Brian Mundt"
-            ],
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
             "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
             "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           },
           {
@@ -17129,26 +14221,255 @@
             "time": "8:30 PM",
             "opponent": "Chatham Major Diamonds",
             "venue": "Errol Russell Park",
-            "assigned_umpires": [
-              "Brian Mundt",
-              "Steve McGrail"
-            ],
-            "accepted_umpires": [
-              "Steve McGrail"
-            ],
-            "pending_umpires": [
-              "Brian Mundt"
-            ],
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
             "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
             "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
+          {
+            "date": "2026-04-25",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "1:00 PM",
+                "opponent": "Oshawa Legionaires",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Brian Mundt",
+                  "Kirk Vines",
+                  "Matthew Schrie",
+                  "Steve McGrail",
+                  "Tyler Hoadley",
+                  "Tyler Whetham"
+                ],
+                "accepted_umpires": [
+                  "Brian Mundt",
+                  "Kirk Vines",
+                  "Matthew Schrie",
+                  "Steve McGrail",
+                  "Tyler Hoadley",
+                  "Tyler Whetham"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 6,
+                "accepted_count": 6,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "4:00 PM",
+                "opponent": "Oshawa Legionaires",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Brian Mundt",
+                  "Kirk Vines",
+                  "Matthew Schrie",
+                  "Steve McGrail",
+                  "Tyler Hoadley",
+                  "Tyler Whetham"
+                ],
+                "accepted_umpires": [
+                  "Brian Mundt",
+                  "Kirk Vines",
+                  "Matthew Schrie",
+                  "Steve McGrail",
+                  "Tyler Hoadley",
+                  "Tyler Whetham"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 6,
+                "accepted_count": 6,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-04-26",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "Greg Baker | Katrina Cadotte",
+              "Greg Baker | Tyler Whetham"
+            ],
+            "mismatched_names": [
+              "Katrina Cadotte",
+              "Tyler Whetham"
+            ],
+            "games": [
+              {
+                "time": "11:00 AM",
+                "opponent": "Oshawa Legionaires",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Greg Baker",
+                  "Katrina Cadotte"
+                ],
+                "accepted_umpires": [
+                  "Greg Baker",
+                  "Katrina Cadotte"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "2:00 PM",
+                "opponent": "Oshawa Legionaires",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Greg Baker",
+                  "Tyler Whetham"
+                ],
+                "accepted_umpires": [
+                  "Greg Baker",
+                  "Tyler Whetham"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-05-16",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [
+              "Matthew Schrie | Tyler Whetham"
+            ],
+            "mismatched_names": [
+              "Brogan Murphy",
+              "Liam Scott"
+            ],
+            "games": [
+              {
+                "time": "11:00 AM",
+                "opponent": "Tecumseh Thunder",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Matthew Schrie",
+                  "Tyler Whetham"
+                ],
+                "accepted_umpires": [
+                  "Matthew Schrie",
+                  "Tyler Whetham"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "2:00 PM",
+                "opponent": "Tecumseh Thunder",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Brogan Murphy",
+                  "Liam Scott",
+                  "Matthew Schrie",
+                  "Tyler Whetham"
+                ],
+                "accepted_umpires": [
+                  "Brogan Murphy",
+                  "Liam Scott",
+                  "Matthew Schrie",
+                  "Tyler Whetham"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 4,
+                "accepted_count": 4,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-05-23",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [
+              "Brian Mundt | Matthew Schrie"
+            ],
+            "mismatched_names": [
+              "Kirk Vines",
+              "Steve McGrail"
+            ],
+            "games": [
+              {
+                "time": "11:00 AM",
+                "opponent": "Ontario Prospects",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Brian Mundt",
+                  "Kirk Vines",
+                  "Matthew Schrie",
+                  "Steve McGrail"
+                ],
+                "accepted_umpires": [
+                  "Brian Mundt",
+                  "Kirk Vines",
+                  "Matthew Schrie",
+                  "Steve McGrail"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 4,
+                "accepted_count": 4,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "2:00 PM",
+                "opponent": "Ontario Prospects",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Brian Mundt",
+                  "Matthew Schrie"
+                ],
+                "accepted_umpires": [
+                  "Brian Mundt",
+                  "Matthew Schrie"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
           {
             "date": "2026-08-14",
             "issue_timing": "upcoming",
@@ -17160,43 +14481,29 @@
                 "time": "6:00 PM",
                 "opponent": "Chatham Major Diamonds",
                 "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Brian Mundt",
-                  "Steve McGrail"
-                ],
-                "accepted_umpires": [
-                  "Steve McGrail"
-                ],
-                "pending_umpires": [
-                  "Brian Mundt"
-                ],
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
                 "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
+                "assignment_state": "no_officials_assigned"
               },
               {
                 "time": "8:30 PM",
                 "opponent": "Chatham Major Diamonds",
                 "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Brian Mundt",
-                  "Steve McGrail"
-                ],
-                "accepted_umpires": [
-                  "Steve McGrail"
-                ],
-                "pending_umpires": [
-                  "Brian Mundt"
-                ],
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
                 "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
+                "assignment_state": "no_officials_assigned"
               }
             ]
           }
