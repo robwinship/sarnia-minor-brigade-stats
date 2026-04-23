@@ -14,38 +14,43 @@ if errorlevel 1 (
 	exit /b 1
 )
 
+REM Disable automatic maintenance for this repo to avoid interactive
+REM '.git/objects/*' deletion prompts on Windows/OneDrive paths.
+git config --local gc.auto 0 >nul 2>&1
+git config --local maintenance.auto false >nul 2>&1
+
 for /f "usebackq delims=" %%B in (`git rev-parse --abbrev-ref HEAD`) do set "BRANCH=%%B"
 if not defined BRANCH set "BRANCH=main"
 
-git add -A
+git -c gc.auto=0 -c maintenance.auto=false add -A
 if errorlevel 1 (
 	echo ERROR: failed to stage changes.
 	exit /b 1
 )
 
-git diff --cached --quiet
+git -c gc.auto=0 -c maintenance.auto=false diff --cached --quiet
 if not errorlevel 1 (
 	echo No changes to commit.
 	exit /b 0
 )
 
 for /f "usebackq delims=" %%T in (`powershell -NoProfile -Command "Get-Date -Format 'yyyy-MM-dd HH:mm:ss zzz'"`) do set "STAMP=%%T"
-git commit -m "chore: content update %STAMP%"
+git -c gc.auto=0 -c maintenance.auto=false commit -m "chore: content update %STAMP%"
 if errorlevel 1 (
 	echo ERROR: commit failed.
 	exit /b 1
 )
 
 echo Syncing with origin/%BRANCH% before push...
-git pull --rebase --autostash origin "%BRANCH%"
+git -c gc.auto=0 -c maintenance.auto=false pull --rebase --autostash origin "%BRANCH%"
 if errorlevel 1 (
 	echo ERROR: pull --rebase failed. Attempting to abort any in-progress rebase.
-	git rebase --abort >nul 2>&1
+	git -c gc.auto=0 -c maintenance.auto=false rebase --abort >nul 2>&1
 	echo Commit remains local-only. Resolve git conflicts/state, then push manually.
 	exit /b 1
 )
 
-git -c gc.auto=0 push origin "%BRANCH%"
+git -c gc.auto=0 -c maintenance.auto=false push origin "%BRANCH%"
 if errorlevel 1 (
 	echo Push failed. Your commit is local and safe.
 	echo Close OneDrive-heavy file activity and retry this script.
