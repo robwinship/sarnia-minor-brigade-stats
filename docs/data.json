@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-23T16:03:08.296416Z",
+  "generated": "2026-04-23T19:33:11.133291Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3097,7 +3097,7 @@
           "start_time": "5:30 PM",
           "end_date": "2026-04-23",
           "summary": "10U A OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
+          "location": "Clearwater Diamond #1",
           "type": "practice",
           "cancelled": false
         },
@@ -4354,7 +4354,6 @@
                   "Caleb Willemsvandyk",
                   "Chris Bonneau",
                   "Dan Scott",
-                  "David Haasen",
                   "Ethan Glavin",
                   "Graham Dolbear",
                   "Grant Purdy",
@@ -4393,7 +4392,7 @@
                 ],
                 "assigned_count": 53,
                 "accepted_count": 38,
-                "pending_count": 29,
+                "pending_count": 28,
                 "denied_count": 13,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -6678,7 +6677,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-04-24",
           "summary": "13U OBA Rep - Practice",
-          "location": "Tecumseh Park",
+          "location": "Clearwater Diamond #2",
           "type": "practice",
           "cancelled": false
         },
@@ -10139,6 +10138,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20905-sarniabrigade.ca",
+          "date": "2026-05-12",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-13",
+          "summary": "9U Select - Game @ South London Tigers [9uS55]",
+          "location": "Glanworth (2)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20532-sarniabrigade.ca",
           "date": "2026-05-14",
           "start_time": "6:00 PM",
@@ -10517,6 +10526,18 @@
           "start_time": "6:00 PM",
           "opponent": "South London Tigers 9uS19 Clearwater Diamond",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20905",
+          "href": "https://sarniabrigade.ca/Teams/1299/Games/20905/",
+          "date": "2026-05-12",
+          "start_time": "6:00 PM",
+          "opponent": "South London Tigers 9uS55 Glanworth",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -11075,6 +11096,16 @@
           "end_date": "2026-07-26",
           "summary": "11U Select - Game vs Tillsonburg Otters [11uS12]",
           "location": "Clearwater Diamond #2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20904-sarniabrigade.ca",
+          "date": "2026-07-30",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-31",
+          "summary": "11U Select - Game @ Lucan-Ilderton Athletics [11uS23]",
+          "location": "Lucan (2)",
           "type": "game",
           "cancelled": false
         },
