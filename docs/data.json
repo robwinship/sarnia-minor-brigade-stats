@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-23T10:03:13.520442Z",
+  "generated": "2026-04-23T16:03:08.296416Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -520,6 +520,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20901-sarniabrigade.ca",
+          "date": "2026-07-19",
+          "start_time": "10:00 AM",
+          "end_date": "2026-07-19",
+          "summary": "8U OBA Rep - Game @ Lucan-Ilderton Athletics [8u04]",
+          "location": "Heritage (1)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20298-sarniabrigade.ca",
           "date": "2026-07-19",
           "start_time": "10:00 AM",
@@ -527,6 +537,16 @@
           "summary": "8U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20902-sarniabrigade.ca",
+          "date": "2026-07-19",
+          "start_time": "1:00 PM",
+          "end_date": "2026-07-19",
+          "summary": "8U OBA Rep - Game @ Lucan-Ilderton Athletics [8u34]",
+          "location": "Heritage (1)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -677,6 +697,16 @@
           "summary": "8U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20900-sarniabrigade.ca",
+          "date": "2026-08-14",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-15",
+          "summary": "8U OBA Rep - Game @ Lucan-Ilderton Athletics [8u62]",
+          "location": "Lucan (2)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -980,6 +1010,30 @@
           "cancelled": false
         },
         {
+          "game_id": "20901",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/20901/",
+          "date": "2026-07-19",
+          "start_time": "10:00 AM",
+          "opponent": "Lucan-Ilderton Athletics 8u04 Heritage",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20902",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/20902/",
+          "date": "2026-07-19",
+          "start_time": "1:00 PM",
+          "opponent": "Lucan-Ilderton Athletics 8u34 Heritage",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20829",
           "href": "https://sarniabrigade.ca/Teams/1290/Games/20829/",
           "date": "2026-07-22",
@@ -1086,6 +1140,18 @@
           "brigade_score": null,
           "opp_score": null,
           "cancelled": false
+        },
+        {
+          "game_id": "20900",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/20900/",
+          "date": "2026-08-14",
+          "start_time": "6:00 PM",
+          "opponent": "Lucan-Ilderton Athletics 8u62 Lucan",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
         }
       ],
       "umpire_issues": {
@@ -1098,7 +1164,7 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 7559.7,
       "equipment_cost": 0.0
     },
     {
@@ -2166,7 +2232,7 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 7060.24,
       "equipment_cost": 0.0
     },
     {
@@ -2932,7 +2998,7 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 7288.5,
       "equipment_cost": 0.0
     },
     {
@@ -4232,7 +4298,6 @@
                   "Ronnie Atyeo",
                   "Ryder Daye",
                   "Steve McGrail",
-                  "Sydney Nisbet",
                   "Terry Doyle",
                   "Tristan Heeringa",
                   "Tyler Hoadley",
@@ -4298,6 +4363,7 @@
                   "Jason Lajeunesse",
                   "Joey Buchner",
                   "Jonas Winklmeier",
+                  "Juan Peralta",
                   "Liam Colosimo",
                   "Liam Scott",
                   "Mason Harper",
@@ -4305,6 +4371,7 @@
                   "Paolo Padiglia",
                   "Steve McGrail",
                   "Terry Doyle",
+                  "Tristan Heeringa",
                   "Tyler Hoadley",
                   "Tyler Whetham",
                   "Will Greer"
@@ -4322,13 +4389,12 @@
                   "Paolo Padiglia",
                   "Ralph Campbell",
                   "Steve McGrail",
-                  "Sydney Nisbet",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 54,
+                "assigned_count": 53,
                 "accepted_count": 38,
-                "pending_count": 27,
-                "denied_count": 14,
+                "pending_count": 29,
+                "denied_count": 13,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4349,7 +4415,7 @@
           }
         ]
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 7288.5,
       "equipment_cost": 0.0
     },
     {
@@ -4760,6 +4826,16 @@
           "summary": "11U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20903-sarniabrigade.ca",
+          "date": "2026-06-27",
+          "start_time": "12:30 PM",
+          "end_date": "2026-06-27",
+          "summary": "11U OBA Rep - Game @ Lucan-Ilderton Athletics [11u19]",
+          "location": "Lucan (2)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -5253,6 +5329,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20903",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20903/",
+          "date": "2026-06-27",
+          "start_time": "12:30 PM",
+          "opponent": "Lucan-Ilderton Athletics 11u19 Lucan",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20688",
           "href": "https://sarniabrigade.ca/Teams/1293/Games/20688/",
           "date": "2026-07-04",
@@ -5395,7 +5483,7 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 7233.13,
       "equipment_cost": 0.0
     },
     {
@@ -5408,7 +5496,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 52,
+      "practices": 51,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -5559,13 +5647,23 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20526-sarniabrigade.ca",
+          "uid": "MS-20898-sarniabrigade.ca",
           "date": "2026-05-10",
           "start_time": "10:00 AM",
           "end_date": "2026-05-10",
-          "summary": "12U OBA Rep - Practice",
+          "summary": "12U OBA Rep - Game vs Wyoming Minor Wranglers",
           "location": "Tecumseh Park",
-          "type": "practice",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20899-sarniabrigade.ca",
+          "date": "2026-05-10",
+          "start_time": "1:00 PM",
+          "end_date": "2026-05-10",
+          "summary": "12U OBA Rep - Game vs Wyoming Minor Wranglers",
+          "location": "Tecumseh Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -6213,6 +6311,30 @@
           "cancelled": false
         },
         {
+          "game_id": "20898",
+          "href": "https://sarniabrigade.ca/Teams/1294/Games/20898/",
+          "date": "2026-05-10",
+          "start_time": "10:00 AM",
+          "opponent": "Wyoming Minor Wranglers Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20899",
+          "href": "https://sarniabrigade.ca/Teams/1294/Games/20899/",
+          "date": "2026-05-10",
+          "start_time": "1:00 PM",
+          "opponent": "Wyoming Minor Wranglers Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20706",
           "href": "https://sarniabrigade.ca/Teams/1294/Games/20706/",
           "date": "2026-05-17",
@@ -6487,7 +6609,7 @@
         ],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 7648.97,
       "equipment_cost": 0.0
     },
     {
@@ -7599,7 +7721,7 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 7288.5,
       "equipment_cost": 0.0
     },
     {
@@ -8483,7 +8605,7 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 7738.24,
       "equipment_cost": 0.0
     },
     {
@@ -9923,7 +10045,7 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 8098.71,
       "equipment_cost": 0.0
     },
     {
@@ -10616,7 +10738,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 25,
+      "practices": 24,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -10933,16 +11055,6 @@
           "end_date": "2026-07-19",
           "summary": "11U Select - Practice",
           "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20136-sarniabrigade.ca",
-          "date": "2026-07-23",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-24",
-          "summary": "11U Select - Practice",
-          "location": "Clearwater Diamond #3",
           "type": "practice",
           "cancelled": false
         },
@@ -11283,6 +11395,18 @@
           "start_time": "10:00 AM",
           "opponent": "Tillsonburg Otters 11uS12 Clearwater Diamond",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20904",
+          "href": "https://sarniabrigade.ca/Teams/1303/Games/20904/",
+          "date": "2026-07-30",
+          "start_time": "6:00 PM",
+          "opponent": "Lucan-Ilderton Athletics 11uS23 Lucan",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -12175,7 +12299,7 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 900.0,
+      "uniform_cost": 0.0,
       "equipment_cost": 0.0
     },
     {
@@ -13259,7 +13383,7 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 1952.64,
       "equipment_cost": 0.0
     },
     {
@@ -14741,7 +14865,7 @@
           }
         ]
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 8187.98,
       "equipment_cost": 0.0
     },
     {
