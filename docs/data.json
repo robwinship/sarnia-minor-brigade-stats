@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-22T23:05:03.951918Z",
+  "generated": "2026-04-23T01:26:07.467707Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1097,7 +1097,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1291,
@@ -2163,7 +2165,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1292,
@@ -2927,7 +2931,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1311,
@@ -4134,6 +4140,7 @@
             "incomplete_assignment": true,
             "pair_signatures": [],
             "mismatched_names": [
+              "Alexander Pfaff",
               "Annette Hoggarth",
               "Brian Mundt",
               "Brogan Murphy",
@@ -4197,6 +4204,7 @@
                   "Easton McKinlay",
                   "Ethan Antle",
                   "Ethan Glavin",
+                  "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Baker",
                   "Harper Vandenheuval",
@@ -4231,6 +4239,7 @@
                   "Will Greer"
                 ],
                 "accepted_umpires": [
+                  "Alexander Pfaff",
                   "Annette Hoggarth",
                   "Brian Mundt",
                   "Brogan Murphy",
@@ -4268,7 +4277,6 @@
                   "Will Garton"
                 ],
                 "pending_umpires": [
-                  "Alexander Pfaff",
                   "Annette Hoggarth",
                   "Austin Lozon",
                   "Axl Taylor",
@@ -4278,24 +4286,30 @@
                   "Caleb Willemsvandyk",
                   "Chris Bonneau",
                   "Cohen Smith",
+                  "Dan Scott",
+                  "David Haasen",
                   "Ethan Glavin",
+                  "Graham Dolbear",
                   "Grant Purdy",
+                  "Greg Baker",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
+                  "Jason Lajeunesse",
                   "Joey Buchner",
                   "Jonas Winklmeier",
+                  "Kirk Vines",
                   "Liam Colosimo",
                   "Liam Scott",
-                  "Marko Sazdov",
                   "Mason Harper",
+                  "Matthew Schrie",
                   "Paolo Padiglia",
+                  "Steve McGrail",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham",
                   "Will Greer"
                 ],
                 "denied_umpires": [
-                  "Brogan Murphy",
                   "Chris Bonneau",
                   "Clark Thornton",
                   "Drew Baxter",
@@ -4303,17 +4317,17 @@
                   "Jakob Rodriguez",
                   "Kirk Vines",
                   "Lucas Barker",
-                  "Matthew Schrie",
+                  "Marko Sazdov",
                   "Paolo Padiglia",
                   "Ralph Campbell",
                   "Steve McGrail",
                   "Sydney Nisbet",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 53,
-                "accepted_count": 35,
-                "pending_count": 25,
-                "denied_count": 14,
+                "assigned_count": 54,
+                "accepted_count": 36,
+                "pending_count": 31,
+                "denied_count": 13,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4333,7 +4347,9 @@
             ]
           }
         ]
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1293,
@@ -5334,7 +5350,7 @@
         {
           "game_id": "20692",
           "href": "https://sarniabrigade.ca/Teams/1293/Games/20692/",
-          "date": "2026-08-08",
+          "date": "2026-08-15",
           "start_time": "4:00 PM",
           "opponent": "St. Thomas Cardinals 11u45 Tecumseh Park",
           "home": true,
@@ -5346,7 +5362,7 @@
         {
           "game_id": "20693",
           "href": "https://sarniabrigade.ca/Teams/1293/Games/20693/",
-          "date": "2026-08-08",
+          "date": "2026-08-15",
           "start_time": "6:30 PM",
           "opponent": "St. Thomas Cardinals 11u82 Tecumseh Park",
           "home": true,
@@ -5377,7 +5393,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1294,
@@ -6467,7 +6485,9 @@
           }
         ],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1295,
@@ -7394,8 +7414,20 @@
           "href": "https://sarniabrigade.ca/Teams/1295/Games/20869/",
           "date": "2026-06-06",
           "start_time": "10:00 AM",
-          "opponent": "Dorchester Diamondbacks 13u22 Tecumseh Park Mo",
+          "opponent": "Dorchester Diamondbacks 13u22 Tecumseh Park",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20896",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20896/",
+          "date": "2026-06-08",
+          "start_time": "6:30 PM",
+          "opponent": "Wyoming Wranglers 13u93 Canton More Details Ju",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -7555,7 +7587,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1296,
@@ -7988,6 +8022,26 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20879-sarniabrigade.ca",
+          "date": "2026-06-25",
+          "start_time": "8:00 PM",
+          "end_date": "2026-06-26",
+          "summary": "14U OBA Rep - Game vs Corunna Giants [WC15U-012]",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20878-sarniabrigade.ca",
+          "date": "2026-07-07",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-08",
+          "summary": "14U OBA Rep - Game @ Corunna Giants [WC15U-025]",
+          "location": "Community Park (Eric MF)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20447-sarniabrigade.ca",
           "date": "2026-07-18",
           "start_time": "10:00 AM",
@@ -8300,6 +8354,30 @@
           "cancelled": false
         },
         {
+          "game_id": "20879",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20879/",
+          "date": "2026-06-25",
+          "start_time": "8:00 PM",
+          "opponent": "Corunna Giants WC15U-012 Blackwell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20878",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20878/",
+          "date": "2026-07-07",
+          "start_time": "6:30 PM",
+          "opponent": "Corunna Giants WC15U-025 Community Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20447",
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20447/",
           "date": "2026-07-18",
@@ -8393,7 +8471,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1297,
@@ -9036,6 +9116,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20877-sarniabrigade.ca",
+          "date": "2026-07-14",
+          "start_time": "7:00 PM",
+          "end_date": "2026-07-15",
+          "summary": "15U OBA Rep - Game @ Alvinston Riverhawks [15u60]",
+          "location": "Alvinston CC (South)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19709-sarniabrigade.ca",
           "date": "2026-07-15",
           "start_time": "5:30 PM",
@@ -9634,6 +9724,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20877",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/20877/",
+          "date": "2026-07-14",
+          "start_time": "7:00 PM",
+          "opponent": "Alvinston Riverhawks 15u60 Alvinston CC",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20781",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/20781/",
           "date": "2026-07-15",
@@ -9787,7 +9889,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1299,
@@ -10465,7 +10569,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1303,
@@ -10748,16 +10854,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20808-sarniabrigade.ca",
-          "date": "2026-07-02",
-          "start_time": "10:00 AM",
-          "end_date": "2026-07-02",
-          "summary": "11U Select - Game vs Dutton Royals [11uS43]",
-          "location": "Clearwater Diamond #2",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20134-sarniabrigade.ca",
           "date": "2026-07-09",
           "start_time": "6:00 PM",
@@ -10768,7 +10864,7 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20816-sarniabrigade.ca",
+          "uid": "MS-20808-sarniabrigade.ca",
           "date": "2026-07-12",
           "start_time": "10:00 AM",
           "end_date": "2026-07-12",
@@ -11126,6 +11222,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20894",
+          "href": "https://sarniabrigade.ca/Teams/1303/Games/20894/",
+          "date": "2026-07-23",
+          "start_time": "6:30 PM",
+          "opponent": "Wyoming Wranglers 11uS47 Kerr Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20814",
           "href": "https://sarniabrigade.ca/Teams/1303/Games/20814/",
           "date": "2026-07-26",
@@ -11207,7 +11315,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1300,
@@ -11560,6 +11670,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20895-sarniabrigade.ca",
+          "date": "2026-07-14",
+          "start_time": "7:00 PM",
+          "end_date": "2026-07-15",
+          "summary": "13U Select - Game @ Wyoming Wranglers [13uS13]",
+          "location": "Canton",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19842-sarniabrigade.ca",
           "date": "2026-07-17",
           "start_time": "6:00 PM",
@@ -11617,6 +11737,16 @@
           "summary": "13U Select - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20876-sarniabrigade.ca",
+          "date": "2026-07-29",
+          "start_time": "7:30 PM",
+          "end_date": "2026-07-30",
+          "summary": "13U Select - Game @ Alvinston Riverhawks Select [13uS127]",
+          "location": "Alvinston CC (South)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -11900,8 +12030,20 @@
           "href": "https://sarniabrigade.ca/Teams/1300/Games/20724/",
           "date": "2026-07-10",
           "start_time": "6:00 PM",
-          "opponent": "North London Nationals 13uS95 Tecumseh Park Mo",
+          "opponent": "North London Nationals 13uS95 Tecumseh Park",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20895",
+          "href": "https://sarniabrigade.ca/Teams/1300/Games/20895/",
+          "date": "2026-07-14",
+          "start_time": "7:00 PM",
+          "opponent": "Wyoming Wranglers 13uS13 Canton More Details J",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -11926,6 +12068,18 @@
           "start_time": "6:00 PM",
           "opponent": "Ingersoll Ironbirds 13uS40 Tecumseh Park",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20876",
+          "href": "https://sarniabrigade.ca/Teams/1300/Games/20876/",
+          "date": "2026-07-29",
+          "start_time": "7:30 PM",
+          "opponent": "Alvinston Riverhawks Select 13uS127 Alvinston",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -11977,7 +12131,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1301,
@@ -12309,7 +12465,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1304,
@@ -12532,7 +12690,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1310,
@@ -12575,7 +12735,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1315,
@@ -12658,7 +12820,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1302,
@@ -13051,7 +13215,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1298,
@@ -14468,13 +14634,111 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-04-25",
+            "time": "1:00 PM",
+            "opponent": "Oshawa Legionaires",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [
+              "Greg Baker",
+              "Tyler Whetham"
+            ],
+            "accepted_umpires": [
+              "Tyler Whetham"
+            ],
+            "pending_umpires": [
+              "Greg Baker"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-04-25",
+            "time": "4:00 PM",
+            "opponent": "Oshawa Legionaires",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [
+              "Greg Baker",
+              "Tyler Whetham"
+            ],
+            "accepted_umpires": [
+              "Tyler Whetham"
+            ],
+            "pending_umpires": [
+              "Greg Baker"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": [
+          {
+            "date": "2026-04-25",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "1:00 PM",
+                "opponent": "Oshawa Legionaires",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Greg Baker",
+                  "Tyler Whetham"
+                ],
+                "accepted_umpires": [
+                  "Tyler Whetham"
+                ],
+                "pending_umpires": [
+                  "Greg Baker"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "4:00 PM",
+                "opponent": "Oshawa Legionaires",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Greg Baker",
+                  "Tyler Whetham"
+                ],
+                "accepted_umpires": [
+                  "Tyler Whetham"
+                ],
+                "pending_umpires": [
+                  "Greg Baker"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
           {
             "date": "2026-04-26",
             "issue_timing": "upcoming",
@@ -14531,7 +14795,9 @@
             ]
           }
         ]
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     },
     {
       "id": 1306,
@@ -14563,7 +14829,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": null,
+      "equipment_cost": null
     },
     {
       "id": 1307,
@@ -14595,7 +14863,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": null,
+      "equipment_cost": null
     },
     {
       "id": 1305,
@@ -14768,7 +15038,9 @@
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
-      }
+      },
+      "uniform_cost": 0.0,
+      "equipment_cost": 0.0
     }
   ],
   "cancellations": [
