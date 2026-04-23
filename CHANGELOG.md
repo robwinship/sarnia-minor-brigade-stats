@@ -1,4 +1,7 @@
 # Changelog
+## v1.24 - 2026-04-22 21:37:48
+- Added the uniform and equipment columns
+
 ## v1.23 - 2026-04-22 17:13:56
 - Modified the umpire upcoming issues to only show 1 week out conflicts
 
