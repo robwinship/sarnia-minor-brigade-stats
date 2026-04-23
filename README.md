@@ -36,6 +36,9 @@ sarniabrigade.ca
        │
        ├── /webcal.ashx?IDs=<teamId>    ← iCalendar feed  → dated team events / practices / locations
        └── /Teams/<id>/Schedule/        ← HTML schedule   → dated game results
+public Google Sheet CSV
+       │
+       └── Team / Uniform $ / Equipment $
                                                                     │
                                                           scraper/scrape.py
                                                                     │
@@ -44,7 +47,7 @@ sarniabrigade.ca
                                                           docs/index.html  (date-range filtering + Pitch tracker)
 ```
 
-1. **`scraper/scrape.py`** fetches data for all 22 teams and writes `docs/data.json`.
+1. **`scraper/scrape.py`** fetches data for all 22 teams, merges public budget metrics by exact team name, and writes `docs/data.json`.
 2. **GitHub Actions** (`.github/workflows/update.yml`) runs only when you trigger it manually from the Actions tab and commits any changes.
 3. **`docs/index.html`** reads `data.json` and renders the grid — no server needed.
 
@@ -83,6 +86,21 @@ python scraper/scrape.py
 ```
 
 If credentials are missing or Officials data cannot be collected, umpire metrics default to `0` and the page will show umpire data as unavailable.
+
+Budget Model metrics are also imported during scraping from a public Google Sheets CSV export. The default CSV source is the published `gid=0` sheet tab, and rows are matched by exact team name.
+
+Expected CSV headers:
+
+```text
+Team,Uniform $,Equipment $
+```
+
+If you move the data to another published sheet or tab, override the default URL before running the scraper:
+
+```powershell
+$env:PUBLIC_BUDGET_METRICS_CSV_URL="https://docs.google.com/spreadsheets/d/<spreadsheet_id>/export?format=csv&gid=<gid>"
+python scraper/scrape.py
+```
 
 GitHub Actions credentials (for workflow updates):
 

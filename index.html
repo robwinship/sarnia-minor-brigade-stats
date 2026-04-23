@@ -2211,6 +2211,8 @@ function buildBudgetRows(teams, startDate, endDate, costs) {
     const summary = summarizeTeam(team, startDate, endDate);
     const players = Number(team?.roster?.players) || 0;
     const adults = Number(team?.roster?.adults) || 0;
+    const uniformCost = Number(team?.uniform_cost);
+    const equipmentCost = Number(team?.equipment_cost);
 
     const billableHomeGameEvents = (summary.events ?? []).filter(isBillableHomeGameEvent);
     const billablePracticeEvents = (summary.events ?? []).filter(isBillablePracticeEvent);
@@ -2221,7 +2223,9 @@ function buildBudgetRows(teams, startDate, endDate, costs) {
     }, 0);
     const umpireCost = billableHomeGameEvents.length * getUmpireRatePerGame(team.name, costs);
     const insuranceCost = (players + adults) * costs.insurancePerPerson;
-    const totalCost = diamondCost + umpireCost + insuranceCost;
+    const includedUniformCost = Number.isFinite(uniformCost) ? uniformCost : 0;
+    const includedEquipmentCost = Number.isFinite(equipmentCost) ? equipmentCost : 0;
+    const totalCost = diamondCost + umpireCost + insuranceCost + includedUniformCost + includedEquipmentCost;
 
     rows.push({
       team_name: team.name,
@@ -2229,6 +2233,8 @@ function buildBudgetRows(teams, startDate, endDate, costs) {
       team_index: teamIndex,
       home_games: summary.home_games,
       practices: summary.practices,
+      uniform_cost: Number.isFinite(uniformCost) ? uniformCost : null,
+      equipment_cost: Number.isFinite(equipmentCost) ? equipmentCost : null,
       players,
       adults,
       diamond_cost: diamondCost,
@@ -2326,8 +2332,8 @@ function renderBudgetModel() {
     const catRowsHtml = catRows.map(r => `
       <tr>
         <td class="col-team">${escHtml(r.team_name)}</td>
-        <td>-</td>
-        <td>-</td>
+        <td class="money-cell">${escHtml(r.uniform_cost == null ? "-" : fmtMoney(r.uniform_cost))}</td>
+        <td class="money-cell">${escHtml(r.equipment_cost == null ? "-" : fmtMoney(r.equipment_cost))}</td>
         <td>${r.players}</td>
         <td>${r.adults}</td>
         <td class="money-cell">${escHtml(fmtMoney(r.diamond_cost))}</td>
@@ -2343,8 +2349,8 @@ function renderBudgetModel() {
           <thead>
             <tr>
               <th class="col-team">Team</th>
-              <th>Future Metric 1</th>
-              <th>Future Metric 2</th>
+              <th>Uniform $</th>
+              <th>Equipment</th>
               <th>Players</th>
               <th>Adults</th>
               <th>Diamond Rental</th>

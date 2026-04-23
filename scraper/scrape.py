@@ -17,6 +17,7 @@ NOTE: Score parsing uses regex against the MBSportsWeb HTML structure.
       RESULT_RE / SCORE_RE patterns in parse_schedule() below.
 """
 
+import csv
 import json
 import re
 import sys
@@ -41,6 +42,10 @@ CP_LOGIN_URL = BASE_URL + "/Account/LogIn/"
 CP_ROOT_URL  = BASE_URL + "/CP/"
 CP_OFFICIALS_DASHBOARD_URL = BASE_URL + "/CP/#Module=Officials;SelectedValue=Content/Officials/Dashboard.aspx"
 CP_OFFICIALS_SCHEDULE_URL = BASE_URL + "/CP/#Module=Officials;SelectedValue=Content/Officials/Schedule.aspx"
+PUBLIC_BUDGET_METRICS_CSV_URL = os.getenv(
+    "PUBLIC_BUDGET_METRICS_CSV_URL",
+    "https://docs.google.com/spreadsheets/d/1VZb0haXY7G28d1xFN9RVLUTMCrCK2G6dismyKEeAM3g/export?format=csv&gid=0",
+)
 
 SEASON_YEAR   = 2026
 SEASON_MONTHS = list(range(4, 10))   # April – September
@@ -218,6 +223,55 @@ def fetch_with_opener(opener: urllib.request.OpenerDirector, url: str, data=None
                 return ""
             time.sleep(float(attempt))
     return ""
+
+
+def parse_money_value(raw_value: str):
+    """Convert sheet currency strings like '$125.00' into floats."""
+    text = str(raw_value or "").strip()
+    if not text:
+        return None
+
+    cleaned = text.replace("$", "").replace(",", "").strip()
+    if not cleaned:
+        return None
+
+    try:
+        return float(cleaned)
+    except ValueError:
+        return None
+
+
+def fetch_budget_metrics(csv_url: str) -> dict:
+    """Load public budget metrics CSV keyed by exact team name."""
+    if not csv_url:
+        return {}
+
+    csv_text = fetch(csv_url)
+    if not csv_text:
+        print("  WARN  Budget metrics CSV unavailable.", file=sys.stderr)
+        return {}
+
+    metrics_by_team = {}
+    reader = csv.DictReader(csv_text.splitlines())
+    for row in reader:
+        team_name = str((row or {}).get("Team") or "").strip()
+        if not team_name:
+            continue
+
+        uniform_value = row.get("Uniform $")
+        if uniform_value is None:
+            uniform_value = row.get("Uniform")
+
+        equipment_value = row.get("Equipment $")
+        if equipment_value is None:
+            equipment_value = row.get("Equipment")
+
+        metrics_by_team[team_name] = {
+            "uniform_cost": parse_money_value(uniform_value),
+            "equipment_cost": parse_money_value(equipment_value),
+        }
+
+    return metrics_by_team
 
 
 def build_http_opener() -> urllib.request.OpenerDirector:
@@ -1256,6 +1310,7 @@ def main():
     docs_dir = Path(__file__).resolve().parent.parent / "docs"
     docs_dir.mkdir(parents=True, exist_ok=True)
     out_path = docs_dir / "data.json"
+    budget_metrics = fetch_budget_metrics(PUBLIC_BUDGET_METRICS_CSV_URL)
 
     print("\n[CP Officials]")
     team_assignments, cp_status = collect_cp_umpire_assignments()
@@ -1275,6 +1330,9 @@ def main():
                 team_assignments.get(team["id"], []),
                 cp_status,
             )
+            metric_values = budget_metrics.get(team["name"], {})
+            team_data["uniform_cost"] = metric_values.get("uniform_cost")
+            team_data["equipment_cost"] = metric_values.get("equipment_cost")
             results.append(team_data)
             # Aggregate cancelled events (games and practices).
             # ICS events (practices & games) carry rich summaries/locations.
