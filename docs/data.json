@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-23T23:03:17.624920Z",
+  "generated": "2026-04-24T10:03:18.416643Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4211,6 +4211,7 @@
               "Axl Taylor",
               "Brian Mundt",
               "Brogan Murphy",
+              "Carter Wills",
               "Chris Bonneau",
               "Clark Thornton",
               "Cohen Smith",
@@ -4312,6 +4313,7 @@
                   "Axl Taylor",
                   "Brian Mundt",
                   "Brogan Murphy",
+                  "Carter Wills",
                   "Chris Bonneau",
                   "Clark Thornton",
                   "Cohen Smith",
@@ -4355,7 +4357,6 @@
                   "Caleb Willemsvandyk",
                   "Carter Wills",
                   "Chris Bonneau",
-                  "Dan Scott",
                   "Drew Baxter",
                   "Ethan Glavin",
                   "Graham Dolbear",
@@ -4370,7 +4371,6 @@
                   "Mason Harper",
                   "Paolo Padiglia",
                   "Ralph Campbell",
-                  "Steve McGrail",
                   "Terry Doyle",
                   "Tristan Heeringa",
                   "Tyler Hoadley",
@@ -4386,16 +4386,15 @@
                   "Jakob Rodriguez",
                   "Kirk Vines",
                   "Lucas Barker",
-                  "Marko Sazdov",
                   "Paolo Padiglia",
                   "Ralph Campbell",
                   "Steve McGrail",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 54,
-                "accepted_count": 38,
-                "pending_count": 29,
-                "denied_count": 13,
+                "accepted_count": 39,
+                "pending_count": 27,
+                "denied_count": 12,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -6591,18 +6590,20 @@
             "venue": "Tecumseh Park",
             "assigned_umpires": [
               "Brogan Murphy",
-              "Ethan Glavin"
+              "Ethan Glavin",
+              "Graham Dolbear"
             ],
             "accepted_umpires": [
               "Brogan Murphy"
             ],
             "pending_umpires": [
-              "Ethan Glavin"
+              "Ethan Glavin",
+              "Graham Dolbear"
             ],
             "denied_umpires": [],
-            "assigned_count": 2,
+            "assigned_count": 3,
             "accepted_count": 1,
-            "pending_count": 1,
+            "pending_count": 2,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -10300,6 +10301,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20906-sarniabrigade.ca",
+          "date": "2026-06-29",
+          "start_time": "7:00 PM",
+          "end_date": "2026-06-30",
+          "summary": "9U Select - Game @ Lambton Shores Falcons [9uS34]",
+          "location": "Rick Goodhand",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20773-sarniabrigade.ca",
           "date": "2026-06-29",
           "start_time": "7:00 PM",
@@ -10624,6 +10635,18 @@
           "start_time": "6:00 PM",
           "opponent": "Lambton Shores Falcons 9uS70 Clearwater Diamon",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20906",
+          "href": "https://sarniabrigade.ca/Teams/1299/Games/20906/",
+          "date": "2026-06-29",
+          "start_time": "7:00 PM",
+          "opponent": "Lambton Shores Falcons 9uS34 Rick Goodhand",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
