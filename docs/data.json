@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-24T19:32:54.934095Z",
+  "generated": "2026-04-24T23:02:54.830141Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4811,6 +4811,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20917-sarniabrigade.ca",
+          "date": "2026-06-03",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-04",
+          "summary": "11U OBA Rep - Game @ DKMB River Cats [11u79]",
+          "location": "Komoka (Front)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20393-sarniabrigade.ca",
           "date": "2026-06-04",
           "start_time": "6:30 PM",
@@ -5367,6 +5377,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20917",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20917/",
+          "date": "2026-06-03",
+          "start_time": "6:00 PM",
+          "opponent": "DKMB River Cats 11u79 Komoka",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20690",
           "href": "https://sarniabrigade.ca/Teams/1293/Games/20690/",
           "date": "2026-06-09",
@@ -5909,6 +5931,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20911-sarniabrigade.ca",
+          "date": "2026-06-10",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-11",
+          "summary": "12U OBA Rep - Game @ DKMB River Cats [12u52]",
+          "location": "Tri-Township",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20551-sarniabrigade.ca",
           "date": "2026-06-10",
           "start_time": "6:00 PM",
@@ -6016,6 +6048,16 @@
           "summary": "12U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20912-sarniabrigade.ca",
+          "date": "2026-07-02",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-03",
+          "summary": "12U OBA Rep - Game @ DKMB River Cats [12u69]",
+          "location": "Tri-Township",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -7085,6 +7127,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20916-sarniabrigade.ca",
+          "date": "2026-06-03",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-04",
+          "summary": "13U OBA Rep - Game @ DKMB River Cats [13u59]",
+          "location": "Delaware Lions",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20750-sarniabrigade.ca",
           "date": "2026-06-04",
           "start_time": "6:00 PM",
@@ -7292,6 +7344,16 @@
           "summary": "13U OBA Rep - Indoor Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20915-sarniabrigade.ca",
+          "date": "2026-07-22",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-23",
+          "summary": "13U OBA Rep - Game @ DKMB River Cats [13u07]",
+          "location": "Delaware Lions",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -7675,6 +7737,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20916",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20916/",
+          "date": "2026-06-03",
+          "start_time": "6:00 PM",
+          "opponent": "DKMB River Cats 13u59 Delaware Lions",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20869",
           "href": "https://sarniabrigade.ca/Teams/1295/Games/20869/",
           "date": "2026-06-06",
@@ -7777,6 +7851,18 @@
           "start_time": "10:00 AM",
           "opponent": "DKMB River Cats 13u35 Tecumseh Park",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20915",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20915/",
+          "date": "2026-07-22",
+          "start_time": "6:00 PM",
+          "opponent": "DKMB River Cats 13u07 Delaware Lions",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -11165,6 +11251,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20913-sarniabrigade.ca",
+          "date": "2026-06-23",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-24",
+          "summary": "11U Select - Game @ DKMB River Cats [11uS38]",
+          "location": "Tri-Township",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20132-sarniabrigade.ca",
           "date": "2026-06-25",
           "start_time": "6:00 PM",
@@ -11515,6 +11611,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20913",
+          "href": "https://sarniabrigade.ca/Teams/1303/Games/20913/",
+          "date": "2026-06-23",
+          "start_time": "6:00 PM",
+          "opponent": "DKMB River Cats 11uS38 Tri-Township",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20812",
           "href": "https://sarniabrigade.ca/Teams/1303/Games/20812/",
           "date": "2026-06-28",
@@ -11839,6 +11947,16 @@
           "end_date": "2026-05-30",
           "summary": "13U Select - Game @ Corunna Major Giants",
           "location": "Cameron Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20914-sarniabrigade.ca",
+          "date": "2026-06-01",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-02",
+          "summary": "13U Select - Game @ DKMB River Cats [13uS02]",
+          "location": "Komoka (Front)",
           "type": "game",
           "cancelled": false
         },
@@ -12288,6 +12406,18 @@
           "date": "2026-05-29",
           "start_time": "6:00 PM",
           "opponent": "Corunna Major Giants Cameron Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20914",
+          "href": "https://sarniabrigade.ca/Teams/1300/Games/20914/",
+          "date": "2026-06-01",
+          "start_time": "6:00 PM",
+          "opponent": "DKMB River Cats 13uS02 Komoka",
           "home": false,
           "result": null,
           "brigade_score": null,
