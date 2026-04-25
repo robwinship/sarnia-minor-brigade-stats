@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-25T16:03:03.184796Z",
+  "generated": "2026-04-25T19:32:56.749832Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3221,15 +3221,18 @@
                   "Ethan Glavin",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Greg Baker",
                   "Harper Vandenheuval",
+                  "Hayden Scheuermann",
+                  "Jason Lajeunesse",
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Juan Peralta",
+                  "Kirk Vines",
                   "Liam Colosimo",
                   "Liam Scott",
                   "Mason Harper",
                   "Paolo Padiglia",
+                  "Ralph Campbell",
                   "Terry Doyle",
                   "Tristan Heeringa",
                   "Tyler Hoadley",
@@ -3253,7 +3256,7 @@
                 ],
                 "assigned_count": 54,
                 "accepted_count": 39,
-                "pending_count": 25,
+                "pending_count": 28,
                 "denied_count": 13,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -3292,7 +3295,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 43,
+      "practices": 49,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -3463,6 +3466,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20923-sarniabrigade.ca",
+          "date": "2026-05-11",
+          "start_time": "4:00 PM",
+          "end_date": "2026-05-11",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20508-sarniabrigade.ca",
           "date": "2026-05-12",
           "start_time": "6:00 PM",
@@ -3519,6 +3532,16 @@
           "end_date": "2026-05-21",
           "summary": "10U A OBA Rep - Practice",
           "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20924-sarniabrigade.ca",
+          "date": "2026-05-25",
+          "start_time": "4:00 PM",
+          "end_date": "2026-05-25",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -3663,6 +3686,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20925-sarniabrigade.ca",
+          "date": "2026-06-22",
+          "start_time": "4:00 PM",
+          "end_date": "2026-06-22",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20851-sarniabrigade.ca",
           "date": "2026-06-23",
           "start_time": "6:00 PM",
@@ -3690,6 +3723,16 @@
           "summary": "10U A OBA Rep - Game vs Wyoming Wranglers [WC11U-045]",
           "location": "Tecumseh Park",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20926-sarniabrigade.ca",
+          "date": "2026-06-29",
+          "start_time": "4:00 PM",
+          "end_date": "2026-06-29",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -3863,6 +3906,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20927-sarniabrigade.ca",
+          "date": "2026-07-27",
+          "start_time": "4:00 PM",
+          "end_date": "2026-07-27",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20789-sarniabrigade.ca",
           "date": "2026-07-28",
           "start_time": "6:00 PM",
@@ -3979,6 +4032,16 @@
           "end_date": "2026-08-20",
           "summary": "10U A OBA Rep - Practice",
           "location": "Coronation Park Diamond",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20928-sarniabrigade.ca",
+          "date": "2026-08-24",
+          "start_time": "4:00 PM",
+          "end_date": "2026-08-24",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -4161,6 +4224,42 @@
           "start_time": "6:30 PM",
           "opponent": "North London Nationals 10u53 Tecumseh Park Mor",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20929",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20929/",
+          "date": "2026-05-22",
+          "start_time": "3:00 PM",
+          "opponent": "North London Nationals Doug Tarry Complex Diam",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20930",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20930/",
+          "date": "2026-05-23",
+          "start_time": "8:00 AM",
+          "opponent": "Royal York Doug Tarry Complex Diamond 4",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20931",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20931/",
+          "date": "2026-05-23",
+          "start_time": "2:45 PM",
+          "opponent": "St Catharines Doug Tarry Complex Diamond 2",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -7979,7 +8078,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 26,
+      "practices": 25,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -8056,16 +8155,6 @@
           "end_date": "2026-04-24",
           "summary": "14U OBA Rep - Practice",
           "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20054-sarniabrigade.ca",
-          "date": "2026-04-26",
-          "start_time": "7:00 AM",
-          "end_date": "2026-04-26",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -13818,7 +13907,7 @@
           "date": "2026-04-25",
           "start_time": "1:00 PM",
           "end_date": "2026-04-25",
-          "summary": "16U PBLO - Game vs Oshawa Legionaires",
+          "summary": "CANCELLED 16U PBLO - Game vs Oshawa Legionaires",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -13826,8 +13915,8 @@
         {
           "uid": "MS-19739-sarniabrigade.ca",
           "date": "2026-04-25",
-          "start_time": "4:00 PM",
-          "end_date": "2026-04-25",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-26",
           "summary": "16U PBLO - Game vs Oshawa Legionaires",
           "location": "Errol Russell Park",
           "type": "game",
@@ -15188,35 +15277,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-04-25",
-            "time": "6:00 PM",
-            "opponent": "Oshawa Legionaires",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [
-              "Greg Baker",
-              "Tyler Whetham"
-            ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Greg Baker",
-              "Tyler Whetham"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 2,
-            "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-04-26",
@@ -15592,8 +15658,8 @@
       "type": "game",
       "date": "2026-04-25",
       "start_time": "1:00 PM",
-      "summary": "CANCELLED 16U PBLO - Game vs Oshawa Legionaires Errol Russell Park",
-      "location": ""
+      "summary": "CANCELLED 16U PBLO - Game vs Oshawa Legionaires",
+      "location": "Errol Russell Park"
     }
   ]
 }
