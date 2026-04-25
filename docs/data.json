@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-25T19:32:56.749832Z",
+  "generated": "2026-04-25T23:02:49.946921Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3217,13 +3217,14 @@
                   "Caleb Willemsvandyk",
                   "Carter Wills",
                   "Chris Bonneau",
+                  "Dan Scott",
                   "Drew Baxter",
                   "Ethan Glavin",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Greg Baker",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
-                  "Jason Lajeunesse",
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Juan Peralta",
@@ -3256,7 +3257,7 @@
                 ],
                 "assigned_count": 54,
                 "accepted_count": 39,
-                "pending_count": 28,
+                "pending_count": 29,
                 "denied_count": 13,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -3533,6 +3534,36 @@
           "summary": "10U A OBA Rep - Practice",
           "location": "Coronation Park Diamond",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20929-sarniabrigade.ca",
+          "date": "2026-05-22",
+          "start_time": "3:00 PM",
+          "end_date": "2026-05-22",
+          "summary": "10U A OBA Rep - Game vs North London Nationals",
+          "location": "Doug Tarry Complex Diamond 3",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20930-sarniabrigade.ca",
+          "date": "2026-05-23",
+          "start_time": "8:00 AM",
+          "end_date": "2026-05-23",
+          "summary": "10U A OBA Rep - Game @ Royal York",
+          "location": "Doug Tarry Complex Diamond 4",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20931-sarniabrigade.ca",
+          "date": "2026-05-23",
+          "start_time": "2:45 PM",
+          "end_date": "2026-05-23",
+          "summary": "10U A OBA Rep - Game @ St Catharines",
+          "location": "Doug Tarry Complex Diamond 2",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -8952,7 +8983,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 66,
+      "practices": 65,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -8962,16 +8993,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19689-sarniabrigade.ca",
-          "date": "2026-02-25",
-          "start_time": "5:30 PM",
-          "end_date": "2026-02-26",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19690-sarniabrigade.ca",
           "date": "2026-03-04",
