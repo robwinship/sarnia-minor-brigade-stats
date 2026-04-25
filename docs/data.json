@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-25T10:03:09.407973Z",
+  "generated": "2026-04-25T16:03:03.184796Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3045,15 +3045,19 @@
             "time": "10:00 AM",
             "opponent": "10UA OBA REP",
             "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
+            "assigned_umpires": [
+              "Ralph Campbell"
+            ],
+            "accepted_umpires": [
+              "Ralph Campbell"
+            ],
             "pending_umpires": [],
             "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
+            "assigned_count": 1,
+            "accepted_count": 1,
             "pending_count": 0,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -3094,7 +3098,6 @@
               "Marko Sazdov",
               "Matthew Schrie",
               "Paolo Padiglia",
-              "Ralph Campbell",
               "Rio Ruiz",
               "Ronnie Atyeo",
               "Ryder Daye",
@@ -3207,7 +3210,6 @@
                   "Will Garton"
                 ],
                 "pending_umpires": [
-                  "Annette Hoggarth",
                   "Austin Lozon",
                   "Bentley Daughtrey",
                   "Brian Mundt",
@@ -3219,8 +3221,8 @@
                   "Ethan Glavin",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Greg Baker",
                   "Harper Vandenheuval",
-                  "Hayden Scheuermann",
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Juan Peralta",
@@ -3228,7 +3230,6 @@
                   "Liam Scott",
                   "Mason Harper",
                   "Paolo Padiglia",
-                  "Ralph Campbell",
                   "Terry Doyle",
                   "Tristan Heeringa",
                   "Tyler Hoadley",
@@ -3236,11 +3237,11 @@
                   "Will Greer"
                 ],
                 "denied_umpires": [
-                  "Chris Bonneau",
                   "Clark Thornton",
                   "Cohen Smith",
                   "Drew Baxter",
                   "Ethan Antle",
+                  "Hayden Scheuermann",
                   "Jakob Rodriguez",
                   "Joey Buchner",
                   "Kirk Vines",
@@ -3252,7 +3253,7 @@
                 ],
                 "assigned_count": 54,
                 "accepted_count": 39,
-                "pending_count": 27,
+                "pending_count": 25,
                 "denied_count": 13,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -3260,15 +3261,19 @@
                 "time": "10:00 AM",
                 "opponent": "10UA OBA REP",
                 "venue": "Clearwater Diamond #2",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
+                "assigned_umpires": [
+                  "Ralph Campbell"
+                ],
+                "accepted_umpires": [
+                  "Ralph Campbell"
+                ],
                 "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
+                "assigned_count": 1,
+                "accepted_count": 1,
                 "pending_count": 0,
                 "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
+                "assignment_state": "assigned_and_accepted"
               }
             ]
           }
@@ -4861,6 +4866,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20920-sarniabrigade.ca",
+          "date": "2026-06-13",
+          "start_time": "6:30 PM",
+          "end_date": "2026-06-14",
+          "summary": "11U OBA Rep - Game vs DKMB River Cats [11u50]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20086-sarniabrigade.ca",
           "date": "2026-06-16",
           "start_time": "6:00 PM",
@@ -5405,7 +5420,19 @@
           "href": "https://sarniabrigade.ca/Teams/1293/Games/20685/",
           "date": "2026-06-13",
           "start_time": "4:00 PM",
-          "opponent": "DKMB River Cats 11u14 Tecumseh Park More Detai",
+          "opponent": "DKMB River Cats 11u14 Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20920",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20920/",
+          "date": "2026-06-13",
+          "start_time": "6:30 PM",
+          "opponent": "DKMB River Cats 11u50 Tecumseh Park More Detai",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -14688,13 +14715,13 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "19739",
           "href": "https://sarniabrigade.ca/Teams/1298/Games/19739/",
           "date": "2026-04-25",
-          "start_time": "4:00 PM",
+          "start_time": "6:00 PM",
           "opponent": "Oshawa Legionaires Errol Russell Park",
           "home": true,
           "result": null,
@@ -15161,12 +15188,35 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-04-25",
+            "time": "6:00 PM",
+            "opponent": "Oshawa Legionaires",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [
+              "Greg Baker",
+              "Tyler Whetham"
+            ],
+            "accepted_umpires": [],
+            "pending_umpires": [
+              "Greg Baker",
+              "Tyler Whetham"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 0,
+            "pending_count": 2,
+            "denied_count": 0,
+            "assignment_state": "assigned_not_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-04-26",
@@ -15535,6 +15585,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 13U Select - Practice",
       "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1298,
+      "team_name": "16U PBLO",
+      "type": "game",
+      "date": "2026-04-25",
+      "start_time": "1:00 PM",
+      "summary": "CANCELLED 16U PBLO - Game vs Oshawa Legionaires Errol Russell Park",
+      "location": ""
     }
   ]
 }
