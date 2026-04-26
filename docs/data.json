@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-26T16:03:05.146226Z",
+  "generated": "2026-04-26T19:33:02.031872Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3215,7 +3215,6 @@
                   "Brian Mundt",
                   "Brock Lane",
                   "Caleb Willemsvandyk",
-                  "Chris Bonneau",
                   "Drew Baxter",
                   "Ethan Glavin",
                   "Graham Dolbear",
@@ -3237,6 +3236,7 @@
                   "Will Greer"
                 ],
                 "denied_umpires": [
+                  "Chris Bonneau",
                   "Clark Thornton",
                   "Cohen Smith",
                   "Drew Baxter",
@@ -3253,8 +3253,8 @@
                 ],
                 "assigned_count": 54,
                 "accepted_count": 39,
-                "pending_count": 25,
-                "denied_count": 13,
+                "pending_count": 24,
+                "denied_count": 14,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -13934,8 +13934,8 @@
       "wins": 0,
       "losses": 0,
       "ties": 0,
-      "runs_for": 1,
-      "runs_against": 5,
+      "runs_for": 3,
+      "runs_against": 14,
       "practices": 47,
       "roster": {
         "players": 15,
@@ -13991,7 +13991,7 @@
           "date": "2026-04-26",
           "start_time": "11:00 AM",
           "end_date": "2026-04-26",
-          "summary": "16U PBLO - Game vs Oshawa Legionaires",
+          "summary": "16U PBLO - Game vs Oshawa Legionaires(W 2-9)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -14887,11 +14887,11 @@
           "href": "https://sarniabrigade.ca/Teams/1298/Games/19740/",
           "date": "2026-04-26",
           "start_time": "11:00 AM",
-          "opponent": "Oshawa Legionaires Errol Russell Park",
+          "opponent": "Oshawa Legionaires Errol Russell Park 2-9 W",
           "home": true,
           "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "brigade_score": 2,
+          "opp_score": 9,
           "cancelled": false
         },
         {
