@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-26T19:33:02.031872Z",
+  "generated": "2026-04-26T23:03:32.505379Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3134,7 +3134,6 @@
                   "Drew Baxter",
                   "Easton McKinlay",
                   "Ethan Antle",
-                  "Ethan Glavin",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Baker",
@@ -3215,11 +3214,10 @@
                   "Brian Mundt",
                   "Brock Lane",
                   "Caleb Willemsvandyk",
+                  "Dan Scott",
                   "Drew Baxter",
-                  "Ethan Glavin",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Greg Baker",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
                   "Joey Buchner",
@@ -3230,6 +3228,7 @@
                   "Mason Harper",
                   "Paolo Padiglia",
                   "Ralph Campbell",
+                  "Steve McGrail",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham",
@@ -3251,7 +3250,7 @@
                   "Steve McGrail",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 54,
+                "assigned_count": 53,
                 "accepted_count": 39,
                 "pending_count": 24,
                 "denied_count": 14,
@@ -4644,7 +4643,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 42,
+      "practices": 41,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -4654,16 +4653,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19619-sarniabrigade.ca",
-          "date": "2026-02-26",
-          "start_time": "5:00 PM",
-          "end_date": "2026-02-27",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19620-sarniabrigade.ca",
           "date": "2026-03-05",
@@ -6962,20 +6951,18 @@
             "venue": "Tecumseh Park",
             "assigned_umpires": [
               "Brogan Murphy",
-              "Ethan Glavin",
               "Graham Dolbear"
             ],
             "accepted_umpires": [
               "Brogan Murphy"
             ],
             "pending_umpires": [
-              "Ethan Glavin",
               "Graham Dolbear"
             ],
             "denied_umpires": [],
-            "assigned_count": 3,
+            "assigned_count": 2,
             "accepted_count": 1,
-            "pending_count": 2,
+            "pending_count": 1,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -8598,7 +8585,7 @@
           "start_time": "10:00 AM",
           "end_date": "2026-07-26",
           "summary": "14U OBA Rep - Game vs Riverside Royals",
-          "location": "TBD",
+          "location": "Canton Park",
           "type": "game",
           "cancelled": false
         },
@@ -8608,7 +8595,7 @@
           "start_time": "12:30 PM",
           "end_date": "2026-07-26",
           "summary": "14U OBA Rep - Game vs Riverside Royals",
-          "location": "TBD",
+          "location": "Canton Park",
           "type": "game",
           "cancelled": false
         },
@@ -8649,6 +8636,26 @@
           "end_date": "2026-08-12",
           "summary": "14U OBA Rep - Game @ London West Tincaps [14u23]",
           "location": "Stoneybrook (Dan Pulham)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20955-sarniabrigade.ca",
+          "date": "2026-08-30",
+          "start_time": "10:00 AM",
+          "end_date": "2026-08-30",
+          "summary": "14U OBA Rep - Game vs Windsor Stars",
+          "location": "Blackwell North",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20956-sarniabrigade.ca",
+          "date": "2026-08-30",
+          "start_time": "12:30 PM",
+          "end_date": "2026-08-30",
+          "summary": "14U OBA Rep - Game vs Windsor Stars",
+          "location": "Blackwell North",
           "type": "game",
           "cancelled": false
         },
@@ -8859,8 +8866,8 @@
           "cancelled": false
         },
         {
-          "game_id": "20429",
-          "href": "https://sarniabrigade.ca/Teams/1296/Games/20429/",
+          "game_id": "20430",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20430/",
           "date": "2026-05-31",
           "start_time": "10:00 AM",
           "opponent": "TBA Blackwell Park",
@@ -8871,8 +8878,8 @@
           "cancelled": false
         },
         {
-          "game_id": "20430",
-          "href": "https://sarniabrigade.ca/Teams/1296/Games/20430/",
+          "game_id": "20429",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20429/",
           "date": "2026-05-31",
           "start_time": "10:00 AM",
           "opponent": "TBA Blackwell Park",
@@ -8935,7 +8942,7 @@
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20448/",
           "date": "2026-07-26",
           "start_time": "10:00 AM",
-          "opponent": "Riverside Royals TBD",
+          "opponent": "Riverside Royals Canton Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -8947,7 +8954,7 @@
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20449/",
           "date": "2026-07-26",
           "start_time": "12:30 PM",
-          "opponent": "Riverside Royals TBD More Details Jul 31-Aug 0",
+          "opponent": "Riverside Royals Canton Park More Details Jul",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -8997,6 +9004,30 @@
           "start_time": "6:00 PM",
           "opponent": "London West Tincaps 14u23 Stoneybrook",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20955",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20955/",
+          "date": "2026-08-30",
+          "start_time": "10:00 AM",
+          "opponent": "Windsor Stars Blackwell North",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20956",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20956/",
+          "date": "2026-08-30",
+          "start_time": "12:30 PM",
+          "opponent": "Windsor Stars Blackwell North",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -13934,8 +13965,8 @@
       "wins": 0,
       "losses": 0,
       "ties": 0,
-      "runs_for": 3,
-      "runs_against": 14,
+      "runs_for": 9,
+      "runs_against": 21,
       "practices": 47,
       "roster": {
         "players": 15,
@@ -14001,7 +14032,7 @@
           "date": "2026-04-26",
           "start_time": "2:00 PM",
           "end_date": "2026-04-26",
-          "summary": "16U PBLO - Game vs Oshawa Legionaires",
+          "summary": "16U PBLO - Game vs Oshawa Legionaires(W 6-7)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -14899,11 +14930,11 @@
           "href": "https://sarniabrigade.ca/Teams/1298/Games/19741/",
           "date": "2026-04-26",
           "start_time": "2:00 PM",
-          "opponent": "Oshawa Legionaires Errol Russell Park",
+          "opponent": "Oshawa Legionaires Errol Russell Park 6-7 W",
           "home": true,
           "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "brigade_score": 6,
+          "opp_score": 7,
           "cancelled": false
         },
         {
