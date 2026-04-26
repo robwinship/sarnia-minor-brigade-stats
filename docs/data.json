@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-26T10:03:06.086918Z",
+  "generated": "2026-04-26T16:03:05.146226Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3215,12 +3215,12 @@
                   "Brian Mundt",
                   "Brock Lane",
                   "Caleb Willemsvandyk",
-                  "Carter Wills",
                   "Chris Bonneau",
                   "Drew Baxter",
                   "Ethan Glavin",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Greg Baker",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
                   "Joey Buchner",
@@ -3232,7 +3232,6 @@
                   "Paolo Padiglia",
                   "Ralph Campbell",
                   "Terry Doyle",
-                  "Tristan Heeringa",
                   "Tyler Hoadley",
                   "Tyler Whetham",
                   "Will Greer"
@@ -3254,7 +3253,7 @@
                 ],
                 "assigned_count": 54,
                 "accepted_count": 39,
-                "pending_count": 26,
+                "pending_count": 25,
                 "denied_count": 13,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -9152,7 +9151,7 @@
           "date": "2026-04-26",
           "start_time": "11:00 AM",
           "end_date": "2026-04-26",
-          "summary": "CANCELLED 15U OBA Rep - Practice",
+          "summary": "15U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
@@ -15671,15 +15670,6 @@
       "start_time": "5:00 PM",
       "summary": "CANCELLED 10U AA OBA Rep - Game vs 11u Sarnia Brigade",
       "location": "Clearwater Diamond #1"
-    },
-    {
-      "team_id": 1297,
-      "team_name": "15U OBA Rep",
-      "type": "practice",
-      "date": "2026-04-26",
-      "start_time": "11:00 AM",
-      "summary": "CANCELLED 15U OBA Rep - Practice",
-      "location": "Pitch Indoor Sports"
     },
     {
       "team_id": 1300,
