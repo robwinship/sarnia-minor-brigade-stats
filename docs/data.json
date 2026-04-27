@@ -2,10 +2,10 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-27T10:02:52.823832Z",
+  "generated": "2026-04-27T15:31:11.981771Z",
   "umpire_data_status": {
-    "available": true,
-    "reason": "ok",
+    "available": false,
+    "reason": "missing_credentials",
     "source_url": "https://sarniabrigade.ca/CP/#Module=Officials;SelectedValue=Content/Officials/Schedule.aspx"
   },
   "teams": [
@@ -1159,8 +1159,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -2249,8 +2249,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -3033,257 +3033,14 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 1,
+        "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 1,
+        "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-04-25",
-            "time": "10:00 AM",
-            "opponent": "10UA OBA REP",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [
-              "Ralph Campbell"
-            ],
-            "accepted_umpires": [
-              "Ralph Campbell"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "past"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-04-25",
-            "issue_timing": "past",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [
-              "Alexander Pfaff",
-              "Annette Hoggarth",
-              "Axl Taylor",
-              "Brian Mundt",
-              "Brock Lane",
-              "Brogan Murphy",
-              "Carter Wills",
-              "Chris Bonneau",
-              "Clark Thornton",
-              "Cohen Smith",
-              "Colby Sheffer",
-              "Cruz Marinaro",
-              "Dan Scott",
-              "David Haasen",
-              "Doug Krall",
-              "Drew Baxter",
-              "Easton McKinlay",
-              "Ethan Antle",
-              "Grant Purdy",
-              "Greg Baker",
-              "Hayden Scheuermann",
-              "Jakob Rodriguez",
-              "Jarett Simons",
-              "Jason Lajeunesse",
-              "Juan Peralta",
-              "Katrina Cadotte",
-              "Kirk Vines",
-              "Lawrence Dyck",
-              "Liam Scott",
-              "Marko Sazdov",
-              "Matthew Schrie",
-              "Paolo Padiglia",
-              "Rio Ruiz",
-              "Ronnie Atyeo",
-              "Ryder Daye",
-              "Steve McGrail",
-              "Terry Doyle",
-              "Tristan Heeringa",
-              "Tyler Whetham",
-              "Will Garton"
-            ],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "10UA OBA REP",
-                "venue": "Clearwater Diamond #2",
-                "assigned_umpires": [
-                  "Alexander Pfaff",
-                  "Annette Hoggarth",
-                  "Axl Taylor",
-                  "Bentley Daughtrey",
-                  "Brian Mundt",
-                  "Brock Lane",
-                  "Brogan Murphy",
-                  "Caleb Willemsvandyk",
-                  "Carter Wills",
-                  "Chris Bonneau",
-                  "Clark Thornton",
-                  "Cohen Smith",
-                  "Colby Sheffer",
-                  "Cruz Marinaro",
-                  "Dan Scott",
-                  "David Haasen",
-                  "Doug Krall",
-                  "Drew Baxter",
-                  "Easton McKinlay",
-                  "Ethan Antle",
-                  "Graham Dolbear",
-                  "Grant Purdy",
-                  "Greg Baker",
-                  "Harper Vandenheuval",
-                  "Hayden Scheuermann",
-                  "Jakob Rodriguez",
-                  "Jarett Simons",
-                  "Jason Lajeunesse",
-                  "Joey Buchner",
-                  "Jonas Winklmeier",
-                  "Juan Peralta",
-                  "Katrina Cadotte",
-                  "Kirk Vines",
-                  "Lawrence Dyck",
-                  "Liam Colosimo",
-                  "Liam Scott",
-                  "Lucas Barker",
-                  "Marko Sazdov",
-                  "Mason Harper",
-                  "Matthew Schrie",
-                  "Paolo Padiglia",
-                  "Ralph Campbell",
-                  "Rio Ruiz",
-                  "Ronnie Atyeo",
-                  "Ryder Daye",
-                  "Steve McGrail",
-                  "Terry Doyle",
-                  "Tristan Heeringa",
-                  "Tucker Stokes",
-                  "Tyler Hoadley",
-                  "Tyler Whetham",
-                  "Will Garton",
-                  "Will Greer"
-                ],
-                "accepted_umpires": [
-                  "Alexander Pfaff",
-                  "Annette Hoggarth",
-                  "Axl Taylor",
-                  "Brian Mundt",
-                  "Brock Lane",
-                  "Brogan Murphy",
-                  "Carter Wills",
-                  "Chris Bonneau",
-                  "Clark Thornton",
-                  "Cohen Smith",
-                  "Colby Sheffer",
-                  "Cruz Marinaro",
-                  "Dan Scott",
-                  "David Haasen",
-                  "Doug Krall",
-                  "Drew Baxter",
-                  "Easton McKinlay",
-                  "Ethan Antle",
-                  "Grant Purdy",
-                  "Greg Baker",
-                  "Hayden Scheuermann",
-                  "Jakob Rodriguez",
-                  "Jarett Simons",
-                  "Jason Lajeunesse",
-                  "Juan Peralta",
-                  "Katrina Cadotte",
-                  "Kirk Vines",
-                  "Lawrence Dyck",
-                  "Liam Scott",
-                  "Marko Sazdov",
-                  "Matthew Schrie",
-                  "Paolo Padiglia",
-                  "Ralph Campbell",
-                  "Rio Ruiz",
-                  "Ronnie Atyeo",
-                  "Ryder Daye",
-                  "Steve McGrail",
-                  "Terry Doyle",
-                  "Tristan Heeringa",
-                  "Tyler Whetham",
-                  "Will Garton"
-                ],
-                "pending_umpires": [
-                  "Alexander Pfaff",
-                  "Bentley Daughtrey",
-                  "Brian Mundt",
-                  "Caleb Willemsvandyk",
-                  "Carter Wills",
-                  "Dan Scott",
-                  "Drew Baxter",
-                  "Graham Dolbear",
-                  "Grant Purdy",
-                  "Harper Vandenheuval",
-                  "Hayden Scheuermann",
-                  "Joey Buchner",
-                  "Jonas Winklmeier",
-                  "Juan Peralta",
-                  "Liam Colosimo",
-                  "Liam Scott",
-                  "Mason Harper",
-                  "Paolo Padiglia",
-                  "Ralph Campbell",
-                  "Steve McGrail",
-                  "Terry Doyle",
-                  "Tyler Hoadley",
-                  "Tyler Whetham",
-                  "Will Greer"
-                ],
-                "denied_umpires": [
-                  "Brock Lane",
-                  "Chris Bonneau",
-                  "Clark Thornton",
-                  "Cohen Smith",
-                  "Drew Baxter",
-                  "Ethan Antle",
-                  "Grant Purdy",
-                  "Hayden Scheuermann",
-                  "Jakob Rodriguez",
-                  "Joey Buchner",
-                  "Kirk Vines",
-                  "Lucas Barker",
-                  "Paolo Padiglia",
-                  "Ralph Campbell",
-                  "Steve McGrail",
-                  "Tucker Stokes",
-                  "Tyler Whetham"
-                ],
-                "assigned_count": 53,
-                "accepted_count": 41,
-                "pending_count": 24,
-                "denied_count": 17,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "10:00 AM",
-                "opponent": "10UA OBA REP",
-                "venue": "Clearwater Diamond #2",
-                "assigned_umpires": [
-                  "Ralph Campbell"
-                ],
-                "accepted_umpires": [
-                  "Ralph Campbell"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 1,
-                "accepted_count": 1,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7288.5,
       "equipment_cost": 0.0
@@ -4588,56 +4345,13 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 1,
-        "games_missed_upcoming": 1,
+        "games_missed": 0,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-04-25",
-            "time": "12:30 PM",
-            "opponent": "10U AA OBA Rep",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "past"
-          },
-          {
-            "date": "2026-05-03",
-            "time": "6:30 PM",
-            "opponent": "11U OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Alexander Pfaff",
-              "Hayden Scheuermann",
-              "Liam Scott"
-            ],
-            "accepted_umpires": [
-              "Liam Scott"
-            ],
-            "pending_umpires": [
-              "Alexander Pfaff"
-            ],
-            "denied_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "assigned_count": 3,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7288.5,
@@ -5734,39 +5448,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-03",
-            "time": "4:00 PM",
-            "opponent": "10U A OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Alexander Pfaff",
-              "Hayden Scheuermann",
-              "Liam Scott"
-            ],
-            "accepted_umpires": [
-              "Liam Scott"
-            ],
-            "pending_umpires": [
-              "Alexander Pfaff"
-            ],
-            "denied_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "assigned_count": 3,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7233.13,
@@ -6954,8 +6641,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -8110,8 +7797,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -9028,8 +8715,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -10458,8 +10145,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -11182,8 +10869,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -11994,8 +11681,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -12832,8 +12519,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -13188,8 +12875,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -13413,8 +13100,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -13458,8 +13145,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -13543,8 +13230,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -13938,8 +13625,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -13950,12 +13637,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 0,
-      "wins": 0,
+      "gp": 3,
+      "wins": 3,
       "losses": 0,
       "ties": 0,
-      "runs_for": 9,
-      "runs_against": 21,
+      "runs_for": 21,
+      "runs_against": 9,
       "practices": 47,
       "roster": {
         "players": 15,
@@ -14897,9 +14584,9 @@
           "start_time": "6:00 PM",
           "opponent": "Oshawa Legionaires Errol Russell Park 1-5 W",
           "home": true,
-          "result": null,
-          "brigade_score": 1,
-          "opp_score": 5,
+          "result": "W",
+          "brigade_score": 5,
+          "opp_score": 1,
           "cancelled": false
         },
         {
@@ -14909,9 +14596,9 @@
           "start_time": "11:00 AM",
           "opponent": "Oshawa Legionaires Errol Russell Park 2-9 W",
           "home": true,
-          "result": null,
-          "brigade_score": 2,
-          "opp_score": 9,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -14921,9 +14608,9 @@
           "start_time": "2:00 PM",
           "opponent": "Oshawa Legionaires Errol Russell Park 6-7 W",
           "home": true,
-          "result": null,
-          "brigade_score": 6,
-          "opp_score": 7,
+          "result": "W",
+          "brigade_score": 7,
+          "opp_score": 6,
           "cancelled": false
         },
         {
@@ -15362,68 +15049,12 @@
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 1,
+        "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-04-26",
-            "issue_timing": "past",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "Greg Baker | Katrina Cadotte",
-              "Greg Baker | Tyler Whetham"
-            ],
-            "mismatched_names": [
-              "Katrina Cadotte",
-              "Tyler Whetham"
-            ],
-            "games": [
-              {
-                "time": "11:00 AM",
-                "opponent": "Oshawa Legionaires",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Greg Baker",
-                  "Katrina Cadotte"
-                ],
-                "accepted_umpires": [
-                  "Greg Baker",
-                  "Katrina Cadotte"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "2:00 PM",
-                "opponent": "Oshawa Legionaires",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Greg Baker",
-                  "Tyler Whetham"
-                ],
-                "accepted_umpires": [
-                  "Greg Baker",
-                  "Tyler Whetham"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_details": []
       },
       "uniform_cost": 8187.98,
       "equipment_cost": 0.0
@@ -15454,8 +15085,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -15488,8 +15119,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -15663,8 +15294,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": true,
-        "unavailable_reason": "",
+        "data_available": false,
+        "unavailable_reason": "missing_credentials",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },

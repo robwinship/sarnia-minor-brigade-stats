@@ -1055,6 +1055,11 @@ RESULT_RE = re.compile(
 )
 # Bare score without explicit result label (fallback)
 SCORE_RE = re.compile(r"\b(\d{1,2})\s*[-\u2013]\s*(\d{1,2})\b")
+# Score followed by trailing result token: "1-5 W", "6-7 L" (site-native format)
+SCORE_TRAILING_RE = re.compile(
+    r"\b(\d{1,2})\s*[-\u2013]\s*(\d{1,2})\s+(WIN|LOSS|TIE|WON|LOST|W|L|T)\b",
+    re.IGNORECASE,
+)
 
 VS_RE   = re.compile(r"\bvs\.?\s+([A-Za-z][A-Za-z0-9 .'\-]{1,45})", re.IGNORECASE)
 AT_RE   = re.compile(r"@\s+([A-Za-z][A-Za-z0-9 .'\-]{1,45})", re.IGNORECASE)
@@ -1104,30 +1109,7 @@ def parse_schedule(html: str, month: int, year: int) -> list:
         raw_content = content_m.group(1) if content_m else seg[href_m.end():500]
         text = _strip_tags(raw_content)
 
-        # --- Result + score ---
-        result        = None
-        brigade_score = None
-        opp_score     = None
-
-        rm = RESULT_RE.search(text)
-        if rm:
-            rw = rm.group(1).upper()
-            result = (
-                "W" if rw in ("WIN", "WON", "W") else
-                "L" if rw in ("LOSS", "LOST", "L") else
-                "T"
-            )
-            brigade_score = int(rm.group(2))
-            opp_score     = int(rm.group(3))
-        else:
-            # Bare score — only use when the segment contains obvious game markers
-            if re.search(r"\b(HOME GAME|AWAY GAME|vs\.?|@ )", text, re.IGNORECASE):
-                sm = SCORE_RE.search(text)
-                if sm:
-                    brigade_score = int(sm.group(1))
-                    opp_score     = int(sm.group(2))
-
-        # --- Opponent + home/away ---
+        # --- Opponent + home/away (parsed first — needed for score orientation) ---
         # The schedule page marks each game with an explicit "HOME GAME" or
         # "AWAY GAME" badge. Use that as the primary signal; fall back to
         # vs./@ patterns for sites that may omit the badge.
@@ -1142,6 +1124,64 @@ def parse_schedule(html: str, month: int, year: int) -> list:
         elif am:
             opponent = am.group(1).strip().rstrip(".,;")
             is_home  = False
+
+        # Also catch "CANCELLED" / "POSTPONED" expressed as plain text in case
+        # the CSS class was absent.
+        if not cancelled and re.search(r"\b(CANCELLED|POSTPONED)\b", text, re.IGNORECASE):
+            cancelled = True
+
+        # --- Result + score ---
+        # Site format: score is always visitor-home (e.g. "1-5 W" = visitor 1,
+        # home 5, home team won). The result token may lead or trail the score.
+        result        = None
+        brigade_score = None
+        opp_score     = None
+
+        if not cancelled:
+            rm = RESULT_RE.search(text)
+            if rm:
+                # Leading format: "W 5-3" / "WIN 5 - 3"
+                # Score order is Brigade-first (Brigade score, then opponent score).
+                rw = rm.group(1).upper()
+                result = (
+                    "W" if rw in ("WIN", "WON", "W") else
+                    "L" if rw in ("LOSS", "LOST", "L") else
+                    "T"
+                )
+                brigade_score = int(rm.group(2))
+                opp_score     = int(rm.group(3))
+            else:
+                rm = SCORE_TRAILING_RE.search(text)
+                if rm:
+                    # Trailing format: "1-5 W" / "6-7 L" (site-native)
+                    # Scores are visitor-home order; map to brigade/opp via is_home.
+                    visitor_score = int(rm.group(1))
+                    home_score    = int(rm.group(2))
+                    rw = rm.group(3).upper()
+                    result = (
+                        "W" if rw in ("WIN", "WON", "W") else
+                        "L" if rw in ("LOSS", "LOST", "L") else
+                        "T"
+                    )
+                    if is_home:
+                        brigade_score = home_score
+                        opp_score     = visitor_score
+                    else:
+                        brigade_score = visitor_score
+                        opp_score     = home_score
+                else:
+                    # Bare score fallback — only use with obvious game markers
+                    if re.search(r"\b(HOME GAME|AWAY GAME|vs\.?|@ )", text, re.IGNORECASE):
+                        sm = SCORE_RE.search(text)
+                        if sm:
+                            visitor_score = int(sm.group(1))
+                            home_score    = int(sm.group(2))
+                            if is_home:
+                                brigade_score = home_score
+                                opp_score     = visitor_score
+                            else:
+                                brigade_score = visitor_score
+                                opp_score     = home_score
 
         # --- Date ---
         game_date = None
