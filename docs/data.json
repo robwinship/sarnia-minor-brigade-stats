@@ -2,10 +2,10 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-27T15:31:11.981771Z",
+  "generated": "2026-04-27T16:03:11.821986Z",
   "umpire_data_status": {
-    "available": false,
-    "reason": "missing_credentials",
+    "available": true,
+    "reason": "ok",
     "source_url": "https://sarniabrigade.ca/CP/#Module=Officials;SelectedValue=Content/Officials/Schedule.aspx"
   },
   "teams": [
@@ -1159,8 +1159,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -2249,8 +2249,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -2852,18 +2852,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20519",
-          "href": "https://sarniabrigade.ca/Teams/1311/Games/20519/",
-          "date": "2026-04-25",
-          "start_time": "12:30 PM",
-          "opponent": null,
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "20474",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/20474/",
           "date": "2026-04-29",
@@ -2874,6 +2862,18 @@
           "brigade_score": null,
           "opp_score": null,
           "cancelled": true
+        },
+        {
+          "game_id": "20519",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20519/",
+          "date": "2026-05-02",
+          "start_time": "10:00 AM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
         },
         {
           "game_id": "20514",
@@ -3033,14 +3033,255 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 0,
+        "games_missed": 1,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 0,
+        "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
-        "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "data_available": true,
+        "unavailable_reason": "",
+        "games_missed_details": [
+          {
+            "date": "2026-04-25",
+            "time": "10:00 AM",
+            "opponent": "10UA OBA REP",
+            "venue": "Clearwater Diamond #2",
+            "assigned_umpires": [
+              "Ralph Campbell"
+            ],
+            "accepted_umpires": [
+              "Ralph Campbell"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "past"
+          }
+        ],
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-04-25",
+            "issue_timing": "past",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [
+              "Alexander Pfaff",
+              "Annette Hoggarth",
+              "Axl Taylor",
+              "Brian Mundt",
+              "Brock Lane",
+              "Brogan Murphy",
+              "Carter Wills",
+              "Chris Bonneau",
+              "Clark Thornton",
+              "Cohen Smith",
+              "Colby Sheffer",
+              "Cruz Marinaro",
+              "Dan Scott",
+              "David Haasen",
+              "Doug Krall",
+              "Drew Baxter",
+              "Easton McKinlay",
+              "Ethan Antle",
+              "Grant Purdy",
+              "Greg Baker",
+              "Hayden Scheuermann",
+              "Jakob Rodriguez",
+              "Jarett Simons",
+              "Jason Lajeunesse",
+              "Juan Peralta",
+              "Katrina Cadotte",
+              "Kirk Vines",
+              "Lawrence Dyck",
+              "Liam Scott",
+              "Marko Sazdov",
+              "Matthew Schrie",
+              "Paolo Padiglia",
+              "Rio Ruiz",
+              "Ronnie Atyeo",
+              "Ryder Daye",
+              "Steve McGrail",
+              "Terry Doyle",
+              "Tristan Heeringa",
+              "Tyler Whetham",
+              "Will Garton"
+            ],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "10UA OBA REP",
+                "venue": "Clearwater Diamond #2",
+                "assigned_umpires": [
+                  "Alexander Pfaff",
+                  "Annette Hoggarth",
+                  "Axl Taylor",
+                  "Bentley Daughtrey",
+                  "Brian Mundt",
+                  "Brock Lane",
+                  "Brogan Murphy",
+                  "Caleb Willemsvandyk",
+                  "Carter Wills",
+                  "Chris Bonneau",
+                  "Clark Thornton",
+                  "Cohen Smith",
+                  "Colby Sheffer",
+                  "Cruz Marinaro",
+                  "Dan Scott",
+                  "David Haasen",
+                  "Doug Krall",
+                  "Drew Baxter",
+                  "Easton McKinlay",
+                  "Ethan Antle",
+                  "Graham Dolbear",
+                  "Grant Purdy",
+                  "Greg Baker",
+                  "Harper Vandenheuval",
+                  "Hayden Scheuermann",
+                  "Jakob Rodriguez",
+                  "Jarett Simons",
+                  "Jason Lajeunesse",
+                  "Joey Buchner",
+                  "Jonas Winklmeier",
+                  "Juan Peralta",
+                  "Katrina Cadotte",
+                  "Kirk Vines",
+                  "Lawrence Dyck",
+                  "Liam Colosimo",
+                  "Liam Scott",
+                  "Lucas Barker",
+                  "Marko Sazdov",
+                  "Mason Harper",
+                  "Matthew Schrie",
+                  "Paolo Padiglia",
+                  "Ralph Campbell",
+                  "Rio Ruiz",
+                  "Ronnie Atyeo",
+                  "Ryder Daye",
+                  "Steve McGrail",
+                  "Terry Doyle",
+                  "Tristan Heeringa",
+                  "Tucker Stokes",
+                  "Tyler Hoadley",
+                  "Tyler Whetham",
+                  "Will Garton",
+                  "Will Greer"
+                ],
+                "accepted_umpires": [
+                  "Alexander Pfaff",
+                  "Annette Hoggarth",
+                  "Axl Taylor",
+                  "Brian Mundt",
+                  "Brock Lane",
+                  "Brogan Murphy",
+                  "Carter Wills",
+                  "Chris Bonneau",
+                  "Clark Thornton",
+                  "Cohen Smith",
+                  "Colby Sheffer",
+                  "Cruz Marinaro",
+                  "Dan Scott",
+                  "David Haasen",
+                  "Doug Krall",
+                  "Drew Baxter",
+                  "Easton McKinlay",
+                  "Ethan Antle",
+                  "Grant Purdy",
+                  "Greg Baker",
+                  "Hayden Scheuermann",
+                  "Jakob Rodriguez",
+                  "Jarett Simons",
+                  "Jason Lajeunesse",
+                  "Juan Peralta",
+                  "Katrina Cadotte",
+                  "Kirk Vines",
+                  "Lawrence Dyck",
+                  "Liam Scott",
+                  "Marko Sazdov",
+                  "Matthew Schrie",
+                  "Paolo Padiglia",
+                  "Ralph Campbell",
+                  "Rio Ruiz",
+                  "Ronnie Atyeo",
+                  "Ryder Daye",
+                  "Steve McGrail",
+                  "Terry Doyle",
+                  "Tristan Heeringa",
+                  "Tyler Whetham",
+                  "Will Garton"
+                ],
+                "pending_umpires": [
+                  "Alexander Pfaff",
+                  "Bentley Daughtrey",
+                  "Brian Mundt",
+                  "Caleb Willemsvandyk",
+                  "Dan Scott",
+                  "Graham Dolbear",
+                  "Grant Purdy",
+                  "Harper Vandenheuval",
+                  "Hayden Scheuermann",
+                  "Jason Lajeunesse",
+                  "Joey Buchner",
+                  "Jonas Winklmeier",
+                  "Juan Peralta",
+                  "Liam Colosimo",
+                  "Mason Harper",
+                  "Matthew Schrie",
+                  "Paolo Padiglia",
+                  "Terry Doyle",
+                  "Tyler Hoadley",
+                  "Tyler Whetham",
+                  "Will Greer"
+                ],
+                "denied_umpires": [
+                  "Brock Lane",
+                  "Chris Bonneau",
+                  "Clark Thornton",
+                  "Cohen Smith",
+                  "Drew Baxter",
+                  "Ethan Antle",
+                  "Grant Purdy",
+                  "Hayden Scheuermann",
+                  "Jakob Rodriguez",
+                  "Joey Buchner",
+                  "Kirk Vines",
+                  "Liam Scott",
+                  "Lucas Barker",
+                  "Paolo Padiglia",
+                  "Ralph Campbell",
+                  "Steve McGrail",
+                  "Tucker Stokes",
+                  "Tyler Whetham"
+                ],
+                "assigned_count": 53,
+                "accepted_count": 41,
+                "pending_count": 21,
+                "denied_count": 18,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "10:00 AM",
+                "opponent": "10UA OBA REP",
+                "venue": "Clearwater Diamond #2",
+                "assigned_umpires": [
+                  "Ralph Campbell"
+                ],
+                "accepted_umpires": [
+                  "Ralph Campbell"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 1,
+                "accepted_count": 1,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          }
+        ]
       },
       "uniform_cost": 7288.5,
       "equipment_cost": 0.0
@@ -3950,8 +4191,8 @@
         {
           "game_id": "20519",
           "href": "https://sarniabrigade.ca/Teams/1311/Games/20519/",
-          "date": "2026-04-25",
-          "start_time": "12:30 PM",
+          "date": "2026-05-02",
+          "start_time": "10:00 AM",
           "opponent": null,
           "home": true,
           "result": null,
@@ -4346,12 +4587,55 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
-        "games_missed_details": [],
+        "data_available": true,
+        "unavailable_reason": "",
+        "games_missed_details": [
+          {
+            "date": "2026-05-02",
+            "time": "10:00 AM",
+            "opponent": "10U AA OBA Rep",
+            "venue": "Clearwater Diamond #2",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-05-03",
+            "time": "6:30 PM",
+            "opponent": "11U OBA Rep",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Alexander Pfaff",
+              "Hayden Scheuermann",
+              "Liam Scott"
+            ],
+            "accepted_umpires": [
+              "Liam Scott"
+            ],
+            "pending_umpires": [
+              "Alexander Pfaff"
+            ],
+            "denied_umpires": [
+              "Hayden Scheuermann"
+            ],
+            "assigned_count": 3,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 1,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7288.5,
@@ -4572,7 +4856,7 @@
           "date": "2026-05-17",
           "start_time": "4:00 PM",
           "end_date": "2026-05-17",
-          "summary": "11U OBA Rep - Game vs Woodstock Wranglers",
+          "summary": "CANCELLED 11U OBA Rep - Game vs Woodstock Wranglers",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -4582,7 +4866,7 @@
           "date": "2026-05-17",
           "start_time": "6:30 PM",
           "end_date": "2026-05-18",
-          "summary": "11U OBA Rep - Game vs Woodstock Wranglers",
+          "summary": "CANCELLED 11U OBA Rep - Game vs Woodstock Wranglers",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -5191,7 +5475,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20103",
@@ -5203,7 +5487,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20507",
@@ -5448,12 +5732,39 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
-        "games_missed_details": [],
+        "data_available": true,
+        "unavailable_reason": "",
+        "games_missed_details": [
+          {
+            "date": "2026-05-03",
+            "time": "4:00 PM",
+            "opponent": "10U A OBA Rep",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Alexander Pfaff",
+              "Hayden Scheuermann",
+              "Liam Scott"
+            ],
+            "accepted_umpires": [
+              "Liam Scott"
+            ],
+            "pending_umpires": [
+              "Alexander Pfaff"
+            ],
+            "denied_umpires": [
+              "Hayden Scheuermann"
+            ],
+            "assigned_count": 3,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 1,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7233.13,
@@ -6641,8 +6952,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -7794,12 +8105,36 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
-        "games_missed_details": [],
+        "data_available": true,
+        "unavailable_reason": "",
+        "games_missed_details": [
+          {
+            "date": "2026-05-02",
+            "time": "10:00 AM",
+            "opponent": "London Badgers",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Dan Scott",
+              "Jason Lajeunesse"
+            ],
+            "accepted_umpires": [
+              "Dan Scott"
+            ],
+            "pending_umpires": [
+              "Jason Lajeunesse"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7288.5,
@@ -7938,9 +8273,9 @@
         {
           "uid": "MS-20426-sarniabrigade.ca",
           "date": "2026-05-03",
-          "start_time": "10:00 AM",
+          "start_time": "11:00 AM",
           "end_date": "2026-05-03",
-          "summary": "14U OBA Rep - Game vs TBA",
+          "summary": "14U OBA Rep - Game vs 15U OBA Rep [WC15U-008]",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -8413,8 +8748,8 @@
           "game_id": "20426",
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20426/",
           "date": "2026-05-03",
-          "start_time": "10:00 AM",
-          "opponent": "TBA Blackwell Park",
+          "start_time": "11:00 AM",
+          "opponent": null,
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -8461,8 +8796,8 @@
           "game_id": "20428",
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20428/",
           "date": "2026-05-17",
-          "start_time": "10:00 AM",
-          "opponent": "TBA Blackwell Park",
+          "start_time": "12:00 PM",
+          "opponent": "London West Tincaps 14u51 Blackwell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -8546,7 +8881,7 @@
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20430/",
           "date": "2026-05-31",
           "start_time": "10:00 AM",
-          "opponent": "TBA Blackwell Park",
+          "opponent": "London Talons 14u60 Blackwell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -8557,8 +8892,8 @@
           "game_id": "20429",
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20429/",
           "date": "2026-05-31",
-          "start_time": "10:00 AM",
-          "opponent": "TBA Blackwell Park",
+          "start_time": "12:00 PM",
+          "opponent": "London Talons 14u36 Blackwell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -8583,6 +8918,42 @@
           "date": "2026-06-25",
           "start_time": "8:00 PM",
           "opponent": "Corunna Giants WC15U-012 Blackwell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20958",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20958/",
+          "date": "2026-06-28",
+          "start_time": "10:00 AM",
+          "opponent": "Dorchester Diamondbacks 14u07 Blackwell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20959",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20959/",
+          "date": "2026-06-28",
+          "start_time": "12:00 PM",
+          "opponent": "Dorchester Diamondbacks 14u59 Blackwell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20960",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20960/",
+          "date": "2026-07-05",
+          "start_time": "10:00 AM",
+          "opponent": "North London Nationals 14u13 Blackwell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -8712,12 +9083,35 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
-        "games_missed_details": [],
+        "data_available": true,
+        "unavailable_reason": "",
+        "games_missed_details": [
+          {
+            "date": "2026-05-03",
+            "time": "11:00 AM",
+            "opponent": "15U OBA Rep",
+            "venue": "Blackwell Park",
+            "assigned_umpires": [
+              "Jason Lajeunesse",
+              "Paolo Padiglia"
+            ],
+            "accepted_umpires": [],
+            "pending_umpires": [
+              "Jason Lajeunesse",
+              "Paolo Padiglia"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 0,
+            "pending_count": 2,
+            "denied_count": 0,
+            "assignment_state": "assigned_not_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7738.24,
@@ -8881,6 +9275,16 @@
           "summary": "15U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20426-sarniabrigade.ca",
+          "date": "2026-05-03",
+          "start_time": "11:00 AM",
+          "end_date": "2026-05-03",
+          "summary": "15U OBA Rep - Game @ 14U OBA Rep [WC15U-008]",
+          "location": "Blackwell Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -9768,6 +10172,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20426",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20426/",
+          "date": "2026-05-03",
+          "start_time": "11:00 AM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "19756",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/19756/",
           "date": "2026-05-09",
@@ -10145,8 +10561,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -10869,8 +11285,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -11681,8 +12097,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -12519,8 +12935,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -12875,8 +13291,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -13100,8 +13516,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -13118,7 +13534,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 1,
+      "practices": 2,
       "roster": {
         "players": 8,
         "adults": 1,
@@ -13137,6 +13553,16 @@
           "location": "Germain Diamond #4",
           "type": "practice",
           "cancelled": false
+        },
+        {
+          "uid": "MS-20957-sarniabrigade.ca",
+          "date": "2026-04-27",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-28",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
         }
       ],
       "games": [],
@@ -13145,8 +13571,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -13230,8 +13656,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -13625,8 +14051,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -15049,12 +15475,68 @@
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 0,
+        "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-04-26",
+            "issue_timing": "past",
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "Greg Baker | Katrina Cadotte",
+              "Greg Baker | Tyler Whetham"
+            ],
+            "mismatched_names": [
+              "Katrina Cadotte",
+              "Tyler Whetham"
+            ],
+            "games": [
+              {
+                "time": "11:00 AM",
+                "opponent": "Oshawa Legionaires",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Greg Baker",
+                  "Katrina Cadotte"
+                ],
+                "accepted_umpires": [
+                  "Greg Baker",
+                  "Katrina Cadotte"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "2:00 PM",
+                "opponent": "Oshawa Legionaires",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Greg Baker",
+                  "Tyler Whetham"
+                ],
+                "accepted_umpires": [
+                  "Greg Baker",
+                  "Tyler Whetham"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          }
+        ]
       },
       "uniform_cost": 8187.98,
       "equipment_cost": 0.0
@@ -15085,8 +15567,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -15119,8 +15601,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -15294,8 +15776,8 @@
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
-        "data_available": false,
-        "unavailable_reason": "missing_credentials",
+        "data_available": true,
+        "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
@@ -15321,6 +15803,24 @@
       "start_time": "5:00 PM",
       "summary": "CANCELLED 10U AA OBA Rep - Game vs 11u Sarnia Brigade",
       "location": "Clearwater Diamond #1"
+    },
+    {
+      "team_id": 1293,
+      "team_name": "11U OBA Rep",
+      "type": "game",
+      "date": "2026-05-17",
+      "start_time": "4:00 PM",
+      "summary": "CANCELLED 11U OBA Rep - Game vs Woodstock Wranglers",
+      "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1293,
+      "team_name": "11U OBA Rep",
+      "type": "game",
+      "date": "2026-05-17",
+      "start_time": "6:30 PM",
+      "summary": "CANCELLED 11U OBA Rep - Game vs Woodstock Wranglers",
+      "location": "Tecumseh Park"
     },
     {
       "team_id": 1300,
