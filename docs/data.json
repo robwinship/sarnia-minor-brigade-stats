@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-27T19:33:31.190685Z",
+  "generated": "2026-04-27T23:03:12.595243Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2267,7 +2267,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 35,
+      "practices": 34,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -2277,16 +2277,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19638-sarniabrigade.ca",
-          "date": "2026-02-27",
-          "start_time": "5:00 PM",
-          "end_date": "2026-02-28",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19639-sarniabrigade.ca",
           "date": "2026-03-06",
@@ -3107,6 +3097,7 @@
               "Terry Doyle",
               "Tristan Heeringa",
               "Tyler Hoadley",
+              "Tyler Vandenberg",
               "Tyler Whetham",
               "Will Garton"
             ],
@@ -3163,6 +3154,7 @@
                   "Rio Ruiz",
                   "Ronnie Atyeo",
                   "Ryder Daye",
+                  "Shane Moorhouse",
                   "Steve McGrail",
                   "Terry Doyle",
                   "Tristan Heeringa",
@@ -3214,6 +3206,7 @@
                   "Terry Doyle",
                   "Tristan Heeringa",
                   "Tyler Hoadley",
+                  "Tyler Vandenberg",
                   "Tyler Whetham",
                   "Will Garton"
                 ],
@@ -3229,18 +3222,22 @@
                   "Grant Purdy",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
+                  "Jason Lajeunesse",
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Juan Peralta",
+                  "Kirk Vines",
                   "Liam Colosimo",
                   "Lucas Nethery",
                   "Mason Harper",
                   "Matthew Schrie",
                   "Nolan Bogaert",
                   "Paolo Padiglia",
+                  "Ralph Campbell",
+                  "Shane Moorhouse",
                   "Terry Doyle",
+                  "Tristan Heeringa",
                   "Tyler Hoadley",
-                  "Tyler Vandenberg",
                   "Tyler Whetham",
                   "Will Greer"
                 ],
@@ -3264,9 +3261,9 @@
                   "Tucker Stokes",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 56,
-                "accepted_count": 42,
-                "pending_count": 25,
+                "assigned_count": 57,
+                "accepted_count": 43,
+                "pending_count": 29,
                 "denied_count": 18,
                 "assignment_state": "assigned_and_accepted"
               },
