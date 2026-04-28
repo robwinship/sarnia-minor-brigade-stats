@@ -1051,10 +1051,10 @@ def parse_schedule(html: str, month: int, year: int) -> list:
         vm = VS_RE.search(text)
         am = AT_RE.search(text)
         if vm:
-            opponent = vm.group(1).strip().rstrip(".,;")
+            opponent = re.split(r"\s+\d", vm.group(1))[0].strip().rstrip(".,;")
             is_home  = "AWAY GAME" not in text.upper()
         elif am:
-            opponent = am.group(1).strip().rstrip(".,;")
+            opponent = re.split(r"\s+\d", am.group(1))[0].strip().rstrip(".,;")
             is_home  = False
 
         # Also catch "CANCELLED" / "POSTPONED" expressed as plain text in case
