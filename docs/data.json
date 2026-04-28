@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-28T19:33:07.988544Z",
+  "generated": "2026-04-28T23:03:16.017606Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3074,6 +3074,7 @@
               "David Haasen",
               "Doug Krall",
               "Drew Baxter",
+              "Drew Bennett",
               "Easton McKinlay",
               "Ethan Antle",
               "Grant Purdy",
@@ -3082,8 +3083,10 @@
               "Jakob Rodriguez",
               "Jarett Simons",
               "Jason Lajeunesse",
+              "Jonas Winklmeier",
               "Juan Peralta",
               "Katrina Cadotte",
+              "Kayne Golder",
               "Kirk Vines",
               "Kye Golder",
               "Lawrence Dyck",
@@ -3133,6 +3136,7 @@
                   "Drew Bennett",
                   "Easton McKinlay",
                   "Ethan Antle",
+                  "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
@@ -3147,11 +3151,13 @@
                   "Juan Peralta",
                   "Kassie Buchan",
                   "Katrina Cadotte",
+                  "Kayne Golder",
                   "Kirk Vines",
                   "Kye Golder",
                   "Lawrence Dyck",
                   "Liam Colosimo",
                   "Liam Scott",
+                  "Logan Conroy",
                   "Logan Hiscocks",
                   "Lucas Barker",
                   "Lucas Nethery",
@@ -3192,6 +3198,7 @@
                   "David Haasen",
                   "Doug Krall",
                   "Drew Baxter",
+                  "Drew Bennett",
                   "Easton McKinlay",
                   "Ethan Antle",
                   "Grant Purdy",
@@ -3200,8 +3207,10 @@
                   "Jakob Rodriguez",
                   "Jarett Simons",
                   "Jason Lajeunesse",
+                  "Jonas Winklmeier",
                   "Juan Peralta",
                   "Katrina Cadotte",
+                  "Kayne Golder",
                   "Kirk Vines",
                   "Kye Golder",
                   "Lawrence Dyck",
@@ -3224,7 +3233,6 @@
                   "Will Garton"
                 ],
                 "pending_umpires": [
-                  "Alexander Pfaff",
                   "Bentley Daughtrey",
                   "Brian Mundt",
                   "Caleb Willemsvandyk",
@@ -3234,15 +3242,16 @@
                   "David Haasen",
                   "Doug Krall",
                   "Drew Baxter",
-                  "Drew Bennett",
+                  "Ethan Antle",
+                  "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
-                  "Jonas Winklmeier",
                   "Kassie Buchan",
                   "Liam Colosimo",
+                  "Logan Conroy",
                   "Lucas Nethery",
                   "Mason Harper",
                   "Matthew Schrie",
@@ -3255,6 +3264,7 @@
                   "Will Greer"
                 ],
                 "denied_umpires": [
+                  "Brian Mundt",
                   "Brock Lane",
                   "Chris Bonneau",
                   "Clark Thornton",
@@ -3264,6 +3274,7 @@
                   "Grant Purdy",
                   "Hayden Scheuermann",
                   "Jakob Rodriguez",
+                  "Jason Lajeunesse",
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Kirk Vines",
@@ -3276,10 +3287,10 @@
                   "Sydney Nisbet",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 64,
-                "accepted_count": 46,
+                "assigned_count": 67,
+                "accepted_count": 49,
                 "pending_count": 29,
-                "denied_count": 20,
+                "denied_count": 22,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4608,42 +4619,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-02",
-            "time": "10:00 AM",
-            "opponent": "10U AA OBA Rep",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [
-              "Axl Taylor",
-              "Carter Palmer",
-              "Chris Makrigiannis",
-              "Drew Baxter",
-              "Jonas Winklmeier"
-            ],
-            "accepted_umpires": [
-              "Axl Taylor"
-            ],
-            "pending_umpires": [
-              "Carter Palmer",
-              "Chris Makrigiannis",
-              "Drew Baxter",
-              "Jonas Winklmeier"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 5,
-            "accepted_count": 1,
-            "pending_count": 4,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7288.5,
@@ -11038,16 +11019,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20653-sarniabrigade.ca",
-          "date": "2026-08-04",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-05",
-          "summary": "9U Select - Game @ London West Tincaps [9uS43]",
-          "location": "Oakridge Optimist (Lower)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20544-sarniabrigade.ca",
           "date": "2026-08-06",
           "start_time": "6:00 PM",
@@ -11064,6 +11035,16 @@
           "end_date": "2026-08-07",
           "summary": "9U Select - Game @ Aylmer Pirates [9uS76]",
           "location": "Steen Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20653-sarniabrigade.ca",
+          "date": "2026-08-07",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-08",
+          "summary": "9U Select - Game @ London West Tincaps [9uS43]",
+          "location": "Hazelden",
           "type": "game",
           "cancelled": false
         },
@@ -11332,11 +11313,11 @@
           "cancelled": false
         },
         {
-          "game_id": "20653",
-          "href": "https://sarniabrigade.ca/Teams/1299/Games/20653/",
-          "date": "2026-08-04",
-          "start_time": "6:00 PM",
-          "opponent": "London West Tincaps",
+          "game_id": "20847",
+          "href": "https://sarniabrigade.ca/Teams/1299/Games/20847/",
+          "date": "2026-08-06",
+          "start_time": "6:30 PM",
+          "opponent": "Aylmer Pirates",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -11344,11 +11325,11 @@
           "cancelled": false
         },
         {
-          "game_id": "20847",
-          "href": "https://sarniabrigade.ca/Teams/1299/Games/20847/",
-          "date": "2026-08-06",
-          "start_time": "6:30 PM",
-          "opponent": "Aylmer Pirates",
+          "game_id": "20653",
+          "href": "https://sarniabrigade.ca/Teams/1299/Games/20653/",
+          "date": "2026-08-07",
+          "start_time": "6:00 PM",
+          "opponent": "London West Tincaps",
           "home": false,
           "result": null,
           "brigade_score": null,
