@@ -1,4 +1,7 @@
 # Changelog
+## v1.25 - 2026-04-27 20:12:36
+- Corrected the Win Loss to show now show results.
+
 ## v1.24 - 2026-04-22 21:37:48
 - Added the uniform and equipment columns
 
