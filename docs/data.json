@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-28T16:03:14.914880Z",
+  "generated": "2026-04-28T19:33:07.988544Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3085,6 +3085,7 @@
               "Juan Peralta",
               "Katrina Cadotte",
               "Kirk Vines",
+              "Kye Golder",
               "Lawrence Dyck",
               "Liam Scott",
               "Logan Hiscocks",
@@ -3117,6 +3118,7 @@
                   "Brock Lane",
                   "Brogan Murphy",
                   "Caleb Willemsvandyk",
+                  "Carter Palmer",
                   "Carter Wills",
                   "Chris Bonneau",
                   "Chris Makrigiannis",
@@ -3146,6 +3148,7 @@
                   "Kassie Buchan",
                   "Katrina Cadotte",
                   "Kirk Vines",
+                  "Kye Golder",
                   "Lawrence Dyck",
                   "Liam Colosimo",
                   "Liam Scott",
@@ -3200,6 +3203,7 @@
                   "Juan Peralta",
                   "Katrina Cadotte",
                   "Kirk Vines",
+                  "Kye Golder",
                   "Lawrence Dyck",
                   "Liam Scott",
                   "Logan Hiscocks",
@@ -3224,6 +3228,7 @@
                   "Bentley Daughtrey",
                   "Brian Mundt",
                   "Caleb Willemsvandyk",
+                  "Carter Palmer",
                   "Chris Makrigiannis",
                   "Dan Scott",
                   "David Haasen",
@@ -3243,7 +3248,6 @@
                   "Matthew Schrie",
                   "Nolan Bogaert",
                   "Paolo Padiglia",
-                  "Ralph Campbell",
                   "Shane Moorhouse",
                   "Terry Doyle",
                   "Tyler Hoadley",
@@ -3272,8 +3276,8 @@
                   "Sydney Nisbet",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 62,
-                "accepted_count": 45,
+                "assigned_count": 64,
+                "accepted_count": 46,
                 "pending_count": 29,
                 "denied_count": 20,
                 "assignment_state": "assigned_and_accepted"
@@ -4604,7 +4608,7 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -4617,6 +4621,7 @@
             "venue": "Clearwater Diamond #2",
             "assigned_umpires": [
               "Axl Taylor",
+              "Carter Palmer",
               "Chris Makrigiannis",
               "Drew Baxter",
               "Jonas Winklmeier"
@@ -4625,43 +4630,16 @@
               "Axl Taylor"
             ],
             "pending_umpires": [
+              "Carter Palmer",
               "Chris Makrigiannis",
               "Drew Baxter",
               "Jonas Winklmeier"
             ],
             "denied_umpires": [],
-            "assigned_count": 4,
+            "assigned_count": 5,
             "accepted_count": 1,
-            "pending_count": 3,
+            "pending_count": 4,
             "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-03",
-            "time": "6:30 PM",
-            "opponent": "11U OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Alexander Pfaff",
-              "Drew Bennett",
-              "Hayden Scheuermann",
-              "Liam Scott"
-            ],
-            "accepted_umpires": [
-              "Liam Scott"
-            ],
-            "pending_umpires": [
-              "Alexander Pfaff",
-              "Drew Bennett"
-            ],
-            "denied_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "assigned_count": 4,
-            "accepted_count": 1,
-            "pending_count": 2,
-            "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
@@ -5762,40 +5740,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
-          {
-            "date": "2026-05-03",
-            "time": "4:00 PM",
-            "opponent": "10U A OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Alexander Pfaff",
-              "Drew Bennett",
-              "Hayden Scheuermann",
-              "Liam Scott"
-            ],
-            "accepted_umpires": [
-              "Liam Scott"
-            ],
-            "pending_umpires": [
-              "Alexander Pfaff",
-              "Drew Bennett"
-            ],
-            "denied_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "assigned_count": 4,
-            "accepted_count": 1,
-            "pending_count": 2,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
           {
             "date": "2026-05-05",
             "time": "6:00 PM",
