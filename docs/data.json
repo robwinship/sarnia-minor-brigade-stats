@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-28T10:03:28.657677Z",
+  "generated": "2026-04-28T16:03:14.914880Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3166,7 +3166,6 @@
                   "Sydney Nisbet",
                   "Terry Doyle",
                   "Tristan Heeringa",
-                  "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
                   "Tyler Whetham",
@@ -3222,7 +3221,6 @@
                 ],
                 "pending_umpires": [
                   "Alexander Pfaff",
-                  "Axl Taylor",
                   "Bentley Daughtrey",
                   "Brian Mundt",
                   "Caleb Willemsvandyk",
@@ -3237,10 +3235,7 @@
                   "Greg Armstrong",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
-                  "Jarett Simons",
-                  "Joey Buchner",
                   "Jonas Winklmeier",
-                  "Juan Peralta",
                   "Kassie Buchan",
                   "Liam Colosimo",
                   "Lucas Nethery",
@@ -3266,6 +3261,7 @@
                   "Hayden Scheuermann",
                   "Jakob Rodriguez",
                   "Joey Buchner",
+                  "Jonas Winklmeier",
                   "Kirk Vines",
                   "Liam Scott",
                   "Lucas Barker",
@@ -3274,12 +3270,11 @@
                   "Shane Moorhouse",
                   "Steve McGrail",
                   "Sydney Nisbet",
-                  "Tucker Stokes",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 63,
+                "assigned_count": 62,
                 "accepted_count": 45,
-                "pending_count": 33,
+                "pending_count": 29,
                 "denied_count": 20,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -3559,7 +3554,7 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20929-sarniabrigade.ca",
+          "uid": "MS-21080-sarniabrigade.ca",
           "date": "2026-05-22",
           "start_time": "3:00 PM",
           "end_date": "2026-05-22",
@@ -3569,7 +3564,7 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20930-sarniabrigade.ca",
+          "uid": "MS-21081-sarniabrigade.ca",
           "date": "2026-05-23",
           "start_time": "8:00 AM",
           "end_date": "2026-05-23",
@@ -3579,7 +3574,7 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20931-sarniabrigade.ca",
+          "uid": "MS-21082-sarniabrigade.ca",
           "date": "2026-05-23",
           "start_time": "2:45 PM",
           "end_date": "2026-05-23",
@@ -4283,8 +4278,8 @@
           "cancelled": false
         },
         {
-          "game_id": "20929",
-          "href": "https://sarniabrigade.ca/Teams/1311/Games/20929/",
+          "game_id": "21080",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/21080/",
           "date": "2026-05-22",
           "start_time": "3:00 PM",
           "opponent": "North London Nationals Doug Tarry Complex Diam",
@@ -4295,8 +4290,8 @@
           "cancelled": false
         },
         {
-          "game_id": "20930",
-          "href": "https://sarniabrigade.ca/Teams/1311/Games/20930/",
+          "game_id": "21081",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/21081/",
           "date": "2026-05-23",
           "start_time": "8:00 AM",
           "opponent": "Royal York Doug Tarry Complex Diamond",
@@ -4307,8 +4302,8 @@
           "cancelled": false
         },
         {
-          "game_id": "20931",
-          "href": "https://sarniabrigade.ca/Teams/1311/Games/20931/",
+          "game_id": "21082",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/21082/",
           "date": "2026-05-23",
           "start_time": "2:45 PM",
           "opponent": "St Catharines Doug Tarry Complex Diamond",
@@ -4626,19 +4621,20 @@
               "Drew Baxter",
               "Jonas Winklmeier"
             ],
-            "accepted_umpires": [],
+            "accepted_umpires": [
+              "Axl Taylor"
+            ],
             "pending_umpires": [
-              "Axl Taylor",
               "Chris Makrigiannis",
               "Drew Baxter",
               "Jonas Winklmeier"
             ],
             "denied_umpires": [],
             "assigned_count": 4,
-            "accepted_count": 0,
-            "pending_count": 4,
+            "accepted_count": 1,
+            "pending_count": 3,
             "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -5839,7 +5835,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 51,
+      "practices": 50,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -5849,16 +5845,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-19993-sarniabrigade.ca",
-          "date": "2026-02-28",
-          "start_time": "7:00 AM",
-          "end_date": "2026-02-28",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19994-sarniabrigade.ca",
           "date": "2026-03-07",
@@ -9258,36 +9244,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-03",
-            "time": "11:00 AM",
-            "opponent": "15U OBA Rep",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Jason Lajeunesse",
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "pending_umpires": [
-              "Paolo Padiglia"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7738.24,
@@ -13710,7 +13672,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 2,
+      "practices": 29,
       "roster": {
         "players": 8,
         "adults": 1,
@@ -13738,6 +13700,286 @@
           "summary": "11U Lady Brigade - Practice",
           "location": "Clearwater Diamond #1",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21053-sarniabrigade.ca",
+          "date": "2026-04-29",
+          "start_time": "6:00 PM",
+          "end_date": "2026-04-30",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "TBD",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21067-sarniabrigade.ca",
+          "date": "2026-05-04",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-05",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21054-sarniabrigade.ca",
+          "date": "2026-05-06",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-07",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "TBD",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21068-sarniabrigade.ca",
+          "date": "2026-05-11",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-12",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21055-sarniabrigade.ca",
+          "date": "2026-05-13",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-14",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "TBD",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21069-sarniabrigade.ca",
+          "date": "2026-05-18",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-19",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21056-sarniabrigade.ca",
+          "date": "2026-05-20",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-21",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "TBD",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21070-sarniabrigade.ca",
+          "date": "2026-05-25",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-26",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21057-sarniabrigade.ca",
+          "date": "2026-05-27",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-28",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "TBD",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21071-sarniabrigade.ca",
+          "date": "2026-06-01",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-02",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21058-sarniabrigade.ca",
+          "date": "2026-06-03",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-04",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "TBD",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21072-sarniabrigade.ca",
+          "date": "2026-06-08",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-09",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21059-sarniabrigade.ca",
+          "date": "2026-06-10",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-11",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "TBD",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21073-sarniabrigade.ca",
+          "date": "2026-06-15",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-16",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21060-sarniabrigade.ca",
+          "date": "2026-06-17",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-18",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "TBD",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21074-sarniabrigade.ca",
+          "date": "2026-06-22",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-23",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21061-sarniabrigade.ca",
+          "date": "2026-06-24",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-25",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "TBD",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21075-sarniabrigade.ca",
+          "date": "2026-06-29",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-30",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21062-sarniabrigade.ca",
+          "date": "2026-07-01",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-02",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "TBD",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21076-sarniabrigade.ca",
+          "date": "2026-07-06",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-07",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21063-sarniabrigade.ca",
+          "date": "2026-07-08",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-09",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "TBD",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21077-sarniabrigade.ca",
+          "date": "2026-07-13",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-14",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21064-sarniabrigade.ca",
+          "date": "2026-07-15",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-16",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "TBD",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21078-sarniabrigade.ca",
+          "date": "2026-07-20",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-21",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21065-sarniabrigade.ca",
+          "date": "2026-07-22",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-23",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "TBD",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21079-sarniabrigade.ca",
+          "date": "2026-07-27",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-28",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "Clearwater Diamond #1",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21066-sarniabrigade.ca",
+          "date": "2026-07-29",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-30",
+          "summary": "11U Lady Brigade - Practice",
+          "location": "TBD",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3323-sarniabrigade.ca",
+          "date": "2026-05-07",
+          "start_time": "7:00 PM",
+          "end_date": "2026-05-08",
+          "summary": "11U Lady Brigade - WCBA River League Scheduling Meeting",
+          "location": "Sombra Community Hall",
+          "type": "other",
           "cancelled": false
         }
       ],
