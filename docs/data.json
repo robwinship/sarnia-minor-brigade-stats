@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-29T16:03:16.273905Z",
+  "generated": "2026-04-29T19:33:22.070911Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1165,7 +1165,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7559.7,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1291,
@@ -2255,7 +2257,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7060.24,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1292,
@@ -2393,7 +2397,7 @@
           "start_time": "5:30 PM",
           "end_date": "2026-04-29",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
+          "location": "Clearwater Diamond #2",
           "type": "practice",
           "cancelled": false
         },
@@ -3175,7 +3179,6 @@
                   "Juan Peralta",
                   "Kassie Buchan",
                   "Katrina Cadotte",
-                  "Kayleigh Buchan",
                   "Kayne Golder",
                   "Kirk Vines",
                   "Kye Golder",
@@ -3285,7 +3288,6 @@
                   "Axl Taylor",
                   "Bentley Bartosz",
                   "Bentley Daughtrey",
-                  "Blake Adams",
                   "Brian Mundt",
                   "Bryson Large",
                   "Caleb Willemsvandyk",
@@ -3294,10 +3296,7 @@
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Chris Makrigiannis",
-                  "Clark Thornton",
                   "Cohen Smith",
-                  "Cruz Marinaro",
-                  "Dan Scott",
                   "David Haasen",
                   "Dawson O'Brien",
                   "Derek Bayly",
@@ -3307,7 +3306,6 @@
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
-                  "Greg Baker",
                   "Hannah Stewart",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
@@ -3321,6 +3319,7 @@
                   "Kayne Golder",
                   "Kylee Salisbury",
                   "Liam Colosimo",
+                  "Liam Scott",
                   "Logan Conroy",
                   "Lucas Barker",
                   "Lucas Nethery",
@@ -3360,8 +3359,8 @@
                   "Jack Needham",
                   "Jakob Rodriguez",
                   "Jason Lajeunesse",
+                  "Joey Buchner",
                   "Kassie Buchan",
-                  "Kayleigh Buchan",
                   "Kirk Vines",
                   "Liam Scott",
                   "Logan Hiscocks",
@@ -3374,9 +3373,9 @@
                   "Steve McGrail",
                   "Sydney Nisbet"
                 ],
-                "assigned_count": 95,
+                "assigned_count": 94,
                 "accepted_count": 59,
-                "pending_count": 61,
+                "pending_count": 57,
                 "denied_count": 29,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -3403,7 +3402,9 @@
         ]
       },
       "uniform_cost": 7288.5,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1311,
@@ -4715,7 +4716,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7288.5,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1293,
@@ -5867,6 +5870,7 @@
               "Chris Makrigiannis",
               "Drew Baxter",
               "Liam Colosimo",
+              "Liam Scott",
               "Paolo Padiglia"
             ],
             "accepted_umpires": [
@@ -5874,14 +5878,15 @@
             ],
             "pending_umpires": [
               "Drew Baxter",
-              "Liam Colosimo"
+              "Liam Colosimo",
+              "Liam Scott"
             ],
             "denied_umpires": [
               "Chris Makrigiannis"
             ],
-            "assigned_count": 4,
+            "assigned_count": 5,
             "accepted_count": 1,
-            "pending_count": 2,
+            "pending_count": 3,
             "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -5890,7 +5895,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7233.13,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1294,
@@ -6744,7 +6751,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20898",
@@ -7070,7 +7077,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7648.97,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1295,
@@ -8226,7 +8235,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7288.5,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1296,
@@ -9430,7 +9441,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7738.24,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1297,
@@ -10882,7 +10895,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 8098.71,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1299,
@@ -11606,7 +11621,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 0.0,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 1050.0
     },
     {
       "id": 1303,
@@ -12418,7 +12435,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 0.0,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 1050.0
     },
     {
       "id": 1300,
@@ -13256,7 +13275,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 0.0,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 1050.0
     },
     {
       "id": 1301,
@@ -14094,7 +14115,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 0.0,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 1050.0
     },
     {
       "id": 1304,
@@ -14319,7 +14342,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 0.0,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 375.0
     },
     {
       "id": 1310,
@@ -14654,7 +14679,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 0.0,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 375.0
     },
     {
       "id": 1315,
@@ -14739,7 +14766,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 0.0,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 375.0
     },
     {
       "id": 1302,
@@ -15134,7 +15163,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 1952.64,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 375.0
     },
     {
       "id": 1298,
@@ -16616,7 +16647,9 @@
         ]
       },
       "uniform_cost": 8187.98,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 375.0
     },
     {
       "id": 1306,
@@ -16650,7 +16683,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": null,
-      "equipment_cost": null
+      "equipment_cost": null,
+      "tournament_cost": null,
+      "reg_fee_2026": null
     },
     {
       "id": 1307,
@@ -16684,7 +16719,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": null,
-      "equipment_cost": null
+      "equipment_cost": null,
+      "tournament_cost": null,
+      "reg_fee_2026": null
     },
     {
       "id": 1305,
@@ -16859,7 +16896,9 @@
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 0.0,
-      "equipment_cost": 0.0
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
+      "reg_fee_2026": 150.0
     }
   ],
   "cancellations": [
@@ -16898,6 +16937,15 @@
       "start_time": "6:30 PM",
       "summary": "CANCELLED 11U OBA Rep - Game vs Woodstock Wranglers",
       "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1294,
+      "team_name": "12U OBA Rep",
+      "type": "game",
+      "date": "2026-04-29",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 12U OBA Rep - Game vs Sarnia Brigade",
+      "location": ""
     },
     {
       "team_id": 1296,
