@@ -266,9 +266,14 @@ def fetch_budget_metrics(csv_url: str) -> dict:
         if equipment_value is None:
             equipment_value = row.get("Equipment")
 
+        tournament_value = row.get("Tournaments")
+        if tournament_value is None:
+            tournament_value = row.get("Tournament")
+
         metrics_by_team[team_name] = {
             "uniform_cost": parse_money_value(uniform_value),
             "equipment_cost": parse_money_value(equipment_value),
+            "tournament_cost": parse_money_value(tournament_value),
         }
 
     return metrics_by_team
@@ -1373,6 +1378,7 @@ def main():
             metric_values = budget_metrics.get(team["name"], {})
             team_data["uniform_cost"] = metric_values.get("uniform_cost")
             team_data["equipment_cost"] = metric_values.get("equipment_cost")
+            team_data["tournament_cost"] = metric_values.get("tournament_cost")
             results.append(team_data)
             # Aggregate cancelled events (games and practices).
             # ICS events (practices & games) carry rich summaries/locations.
