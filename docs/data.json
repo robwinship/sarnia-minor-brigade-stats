@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-29T10:03:21.032673Z",
+  "generated": "2026-04-29T16:03:16.273905Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3083,6 +3083,7 @@
               "Grant Purdy",
               "Greg Baker",
               "Hayden Scheuermann",
+              "Jacob Dawson",
               "Jakob Rodriguez",
               "Jarett Simons",
               "Jason Lajeunesse",
@@ -3092,6 +3093,7 @@
               "Kayne Golder",
               "Kirk Vines",
               "Kye Golder",
+              "Kylee Salisbury",
               "Lawrence Dyck",
               "Liam Scott",
               "Logan Hiscocks",
@@ -3139,12 +3141,14 @@
                   "Carter Palmer",
                   "Carter Wills",
                   "Chris Bonneau",
+                  "Chris Makrigiannis",
                   "Clark Thornton",
                   "Cohen Smith",
                   "Colby Sheffer",
                   "Cruz Marinaro",
                   "Dan Scott",
                   "David Haasen",
+                  "Dawson O'Brien",
                   "Derek Bayly",
                   "Doug Krall",
                   "Drew Baxter",
@@ -3241,6 +3245,7 @@
                   "Grant Purdy",
                   "Greg Baker",
                   "Hayden Scheuermann",
+                  "Jacob Dawson",
                   "Jakob Rodriguez",
                   "Jarett Simons",
                   "Jason Lajeunesse",
@@ -3250,6 +3255,7 @@
                   "Kayne Golder",
                   "Kirk Vines",
                   "Kye Golder",
+                  "Kylee Salisbury",
                   "Lawrence Dyck",
                   "Liam Scott",
                   "Logan Hiscocks",
@@ -3275,48 +3281,52 @@
                   "William MacKenzie"
                 ],
                 "pending_umpires": [
+                  "Annette Hoggarth",
+                  "Axl Taylor",
                   "Bentley Bartosz",
                   "Bentley Daughtrey",
+                  "Blake Adams",
                   "Brian Mundt",
+                  "Bryson Large",
                   "Caleb Willemsvandyk",
                   "Cali Vanderslagt",
                   "Carson Whittington",
                   "Carsyn Tnydall",
                   "Carter Palmer",
+                  "Chris Makrigiannis",
                   "Clark Thornton",
                   "Cohen Smith",
                   "Cruz Marinaro",
                   "Dan Scott",
                   "David Haasen",
+                  "Dawson O'Brien",
                   "Derek Bayly",
                   "Doug Krall",
                   "Drew Baxter",
-                  "Drew Bennett",
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
+                  "Greg Baker",
                   "Hannah Stewart",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
-                  "Jack Needham",
                   "Jackson Burlingham",
-                  "Jacob Dawson",
+                  "Jarett Simons",
                   "Jason Lajeunesse",
                   "Jaxson Pyne",
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Kassie Buchan",
+                  "Kayne Golder",
                   "Kylee Salisbury",
                   "Liam Colosimo",
                   "Logan Conroy",
                   "Lucas Barker",
                   "Lucas Nethery",
                   "Luke Walls",
-                  "Marko Sazdov",
                   "Mason Harper",
                   "Mason Portiss",
-                  "Matthew Schrie",
                   "Nathan Zavitz",
                   "Nolan Bogaert",
                   "Paolo Padiglia",
@@ -3340,12 +3350,14 @@
                   "Bryson Large",
                   "Cambria Caissie",
                   "Chris Bonneau",
+                  "Chris Makrigiannis",
                   "Clark Thornton",
                   "Cohen Smith",
                   "Drew Baxter",
                   "Ethan Antle",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Jack Needham",
                   "Jakob Rodriguez",
                   "Jason Lajeunesse",
                   "Kassie Buchan",
@@ -3354,6 +3366,7 @@
                   "Liam Scott",
                   "Logan Hiscocks",
                   "Lucas Barker",
+                  "Marko Sazdov",
                   "Paolo Padiglia",
                   "Ralph Campbell",
                   "Shane Moorhouse",
@@ -3361,10 +3374,10 @@
                   "Steve McGrail",
                   "Sydney Nisbet"
                 ],
-                "assigned_count": 93,
-                "accepted_count": 57,
-                "pending_count": 57,
-                "denied_count": 26,
+                "assigned_count": 95,
+                "accepted_count": 59,
+                "pending_count": 61,
+                "denied_count": 29,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4273,10 +4286,10 @@
           "cancelled": false
         },
         {
-          "uid": "MD-3319-sarniabrigade.ca",
-          "date": "2026-08-21",
+          "uid": "MD-3324-sarniabrigade.ca",
+          "date": "2026-08-28",
           "start_time": null,
-          "end_date": "2026-08-24",
+          "end_date": "2026-08-31",
           "summary": "10U A OBA Rep - LDBA Playoffs",
           "location": "London, ON",
           "type": "tournament",
@@ -5165,6 +5178,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21145-sarniabrigade.ca",
+          "date": "2026-07-04",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-05",
+          "summary": "11U OBA Rep - Game vs London Badgers 10u [11u32]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20691-sarniabrigade.ca",
           "date": "2026-07-07",
           "start_time": "6:00 PM",
@@ -5322,6 +5345,16 @@
           "summary": "11U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21146-sarniabrigade.ca",
+          "date": "2026-08-07",
+          "start_time": "7:30 PM",
+          "end_date": "2026-08-08",
+          "summary": "11U OBA Rep - Game @ Wyoming Wranglers [11u87]",
+          "location": "Centennial",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -5673,6 +5706,18 @@
           "cancelled": false
         },
         {
+          "game_id": "21145",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/21145/",
+          "date": "2026-07-04",
+          "start_time": "6:30 PM",
+          "opponent": "London Badgers",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20691",
           "href": "https://sarniabrigade.ca/Teams/1293/Games/20691/",
           "date": "2026-07-07",
@@ -5757,6 +5802,18 @@
           "cancelled": false
         },
         {
+          "game_id": "21146",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/21146/",
+          "date": "2026-08-07",
+          "start_time": "7:30 PM",
+          "opponent": "Wyoming Wranglers",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20692",
           "href": "https://sarniabrigade.ca/Teams/1293/Games/20692/",
           "date": "2026-08-15",
@@ -5807,6 +5864,7 @@
             "opponent": "10U AA OBA Rep",
             "venue": "Tecumseh Park",
             "assigned_umpires": [
+              "Chris Makrigiannis",
               "Drew Baxter",
               "Liam Colosimo",
               "Paolo Padiglia"
@@ -5818,11 +5876,13 @@
               "Drew Baxter",
               "Liam Colosimo"
             ],
-            "denied_umpires": [],
-            "assigned_count": 3,
+            "denied_umpires": [
+              "Chris Makrigiannis"
+            ],
+            "assigned_count": 4,
             "accepted_count": 1,
             "pending_count": 2,
-            "denied_count": 0,
+            "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
@@ -5842,7 +5902,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 51,
+      "practices": 50,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -5852,16 +5912,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-19993-sarniabrigade.ca",
-          "date": "2026-02-28",
-          "start_time": "7:00 AM",
-          "end_date": "2026-02-28",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19994-sarniabrigade.ca",
           "date": "2026-03-07",
@@ -10846,7 +10896,7 @@
       "runs_against": 0,
       "practices": 26,
       "roster": {
-        "players": 12,
+        "players": 13,
         "adults": 4,
         "head_coaches": 0,
         "assistant_coaches": 3,
@@ -13218,7 +13268,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 8,
+      "practices": 32,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -13299,6 +13349,56 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21119-sarniabrigade.ca",
+          "date": "2026-05-10",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-11",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21120-sarniabrigade.ca",
+          "date": "2026-05-12",
+          "start_time": "8:00 PM",
+          "end_date": "2026-05-13",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21122-sarniabrigade.ca",
+          "date": "2026-05-14",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-15",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21123-sarniabrigade.ca",
+          "date": "2026-05-17",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-18",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21109-sarniabrigade.ca",
+          "date": "2026-05-19",
+          "start_time": "8:30 PM",
+          "end_date": "2026-05-20",
+          "summary": "15U Select - Game vs North London Nationals [15uS12]",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20704-sarniabrigade.ca",
           "date": "2026-05-21",
           "start_time": "6:00 PM",
@@ -13306,6 +13406,66 @@
           "summary": "15U Select - Game @ Southwest London Scorpions [15uS66]",
           "location": "Hamlyn",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21110-sarniabrigade.ca",
+          "date": "2026-05-24",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-25",
+          "summary": "15U Select - Game vs Lucan-Ilderton Athletics [15uS04]",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21124-sarniabrigade.ca",
+          "date": "2026-05-26",
+          "start_time": "8:00 PM",
+          "end_date": "2026-05-27",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21125-sarniabrigade.ca",
+          "date": "2026-05-28",
+          "start_time": "6:30 PM",
+          "end_date": "2026-05-29",
+          "summary": "15U Select - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21126-sarniabrigade.ca",
+          "date": "2026-05-31",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-01",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21127-sarniabrigade.ca",
+          "date": "2026-06-02",
+          "start_time": "8:30 PM",
+          "end_date": "2026-06-03",
+          "summary": "15U Select - Game vs Exeter",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21128-sarniabrigade.ca",
+          "date": "2026-06-09",
+          "start_time": "8:00 PM",
+          "end_date": "2026-06-10",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -13319,6 +13479,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21129-sarniabrigade.ca",
+          "date": "2026-06-16",
+          "start_time": "8:00 PM",
+          "end_date": "2026-06-17",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20862-sarniabrigade.ca",
           "date": "2026-06-17",
           "start_time": "8:30 PM",
@@ -13329,6 +13499,36 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21111-sarniabrigade.ca",
+          "date": "2026-06-19",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-20",
+          "summary": "15U Select - Game vs Dorchester Diamondbacks [15uS69]",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21112-sarniabrigade.ca",
+          "date": "2026-06-19",
+          "start_time": "9:00 PM",
+          "end_date": "2026-06-20",
+          "summary": "15U Select - Game vs Dorchester Diamondbacks [15uS74]",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21130-sarniabrigade.ca",
+          "date": "2026-06-21",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-22",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20831-sarniabrigade.ca",
           "date": "2026-06-22",
           "start_time": "6:00 PM",
@@ -13336,6 +13536,76 @@
           "summary": "15U Select - Game @ North London Nationals [15uS48]",
           "location": "Stoneybrook (1)",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21131-sarniabrigade.ca",
+          "date": "2026-06-23",
+          "start_time": "8:00 PM",
+          "end_date": "2026-06-24",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21132-sarniabrigade.ca",
+          "date": "2026-06-25",
+          "start_time": "6:30 PM",
+          "end_date": "2026-06-26",
+          "summary": "15U Select - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21113-sarniabrigade.ca",
+          "date": "2026-06-28",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-29",
+          "summary": "15U Select - Game vs Aylmer Pirates [15uS51]",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21114-sarniabrigade.ca",
+          "date": "2026-06-30",
+          "start_time": "8:30 PM",
+          "end_date": "2026-07-01",
+          "summary": "15U Select - Game vs London West Tincaps [15uS64]",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21133-sarniabrigade.ca",
+          "date": "2026-07-05",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-06",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21134-sarniabrigade.ca",
+          "date": "2026-07-07",
+          "start_time": "8:00 PM",
+          "end_date": "2026-07-08",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21135-sarniabrigade.ca",
+          "date": "2026-07-14",
+          "start_time": "8:00 PM",
+          "end_date": "2026-07-15",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -13359,6 +13629,26 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21115-sarniabrigade.ca",
+          "date": "2026-07-19",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-20",
+          "summary": "15U Select - Game vs St. Thomas Cardinals [15uS21]",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21136-sarniabrigade.ca",
+          "date": "2026-07-21",
+          "start_time": "8:00 PM",
+          "end_date": "2026-07-22",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20663-sarniabrigade.ca",
           "date": "2026-07-22",
           "start_time": "8:30 PM",
@@ -13369,12 +13659,32 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21137-sarniabrigade.ca",
+          "date": "2026-07-23",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-24",
+          "summary": "15U Select - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20705-sarniabrigade.ca",
           "date": "2026-07-28",
           "start_time": "6:00 PM",
           "end_date": "2026-07-29",
           "summary": "15U Select - Game @ Southwest London Scorpions [15uS82]",
           "location": "City Wide (Upper)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21118-sarniabrigade.ca",
+          "date": "2026-08-02",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-03",
+          "summary": "15U Select - Game vs Southwest London Scorpions [15uS30]",
+          "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
         },
@@ -13389,6 +13699,36 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21138-sarniabrigade.ca",
+          "date": "2026-08-04",
+          "start_time": "8:00 PM",
+          "end_date": "2026-08-05",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21139-sarniabrigade.ca",
+          "date": "2026-08-06",
+          "start_time": "6:30 PM",
+          "end_date": "2026-08-07",
+          "summary": "15U Select - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21116-sarniabrigade.ca",
+          "date": "2026-08-09",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-10",
+          "summary": "15U Select - Game vs DKMB River Cats [15uS42]",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20785-sarniabrigade.ca",
           "date": "2026-08-10",
           "start_time": "6:00 PM",
@@ -13396,6 +13736,66 @@
           "summary": "15U Select - Game @ St. Thomas Cardinals [15uS57]",
           "location": "Emslie Field",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21140-sarniabrigade.ca",
+          "date": "2026-08-11",
+          "start_time": "8:00 PM",
+          "end_date": "2026-08-12",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21117-sarniabrigade.ca",
+          "date": "2026-08-16",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-17",
+          "summary": "15U Select - Game vs DKMB River Cats [15uS86]",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21141-sarniabrigade.ca",
+          "date": "2026-08-18",
+          "start_time": "8:00 PM",
+          "end_date": "2026-08-19",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21142-sarniabrigade.ca",
+          "date": "2026-08-20",
+          "start_time": "6:30 PM",
+          "end_date": "2026-08-21",
+          "summary": "15U Select - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21143-sarniabrigade.ca",
+          "date": "2026-08-23",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-24",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21144-sarniabrigade.ca",
+          "date": "2026-08-25",
+          "start_time": "8:00 PM",
+          "end_date": "2026-08-26",
+          "summary": "15U Select - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -13431,12 +13831,48 @@
       ],
       "games": [
         {
+          "game_id": "21109",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/21109/",
+          "date": "2026-05-19",
+          "start_time": "8:30 PM",
+          "opponent": "North London Nationals",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20704",
           "href": "https://sarniabrigade.ca/Teams/1301/Games/20704/",
           "date": "2026-05-21",
           "start_time": "6:00 PM",
           "opponent": "Southwest London Scorpions",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21110",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/21110/",
+          "date": "2026-05-24",
+          "start_time": "6:00 PM",
+          "opponent": "Lucan-Ilderton Athletics",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21127",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/21127/",
+          "date": "2026-06-02",
+          "start_time": "8:30 PM",
+          "opponent": "Exeter Blackwell Park More Details Jun",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -13467,12 +13903,60 @@
           "cancelled": false
         },
         {
+          "game_id": "21111",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/21111/",
+          "date": "2026-06-19",
+          "start_time": "6:00 PM",
+          "opponent": "Dorchester Diamondbacks",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21112",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/21112/",
+          "date": "2026-06-19",
+          "start_time": "9:00 PM",
+          "opponent": "Dorchester Diamondbacks",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20831",
           "href": "https://sarniabrigade.ca/Teams/1301/Games/20831/",
           "date": "2026-06-22",
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21113",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/21113/",
+          "date": "2026-06-28",
+          "start_time": "6:00 PM",
+          "opponent": "Aylmer Pirates",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21114",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/21114/",
+          "date": "2026-06-30",
+          "start_time": "8:30 PM",
+          "opponent": "London West Tincaps",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -13503,6 +13987,18 @@
           "cancelled": false
         },
         {
+          "game_id": "21115",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/21115/",
+          "date": "2026-07-19",
+          "start_time": "6:00 PM",
+          "opponent": "St. Thomas Cardinals",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20663",
           "href": "https://sarniabrigade.ca/Teams/1301/Games/20663/",
           "date": "2026-07-22",
@@ -13527,6 +14023,18 @@
           "cancelled": false
         },
         {
+          "game_id": "21118",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/21118/",
+          "date": "2026-08-02",
+          "start_time": "6:00 PM",
+          "opponent": "Southwest London Scorpions",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20787",
           "href": "https://sarniabrigade.ca/Teams/1301/Games/20787/",
           "date": "2026-08-03",
@@ -13539,12 +14047,36 @@
           "cancelled": false
         },
         {
+          "game_id": "21116",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/21116/",
+          "date": "2026-08-09",
+          "start_time": "6:00 PM",
+          "opponent": "DKMB River Cats",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20785",
           "href": "https://sarniabrigade.ca/Teams/1301/Games/20785/",
           "date": "2026-08-10",
           "start_time": "6:00 PM",
           "opponent": "St. Thomas Cardinals",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21117",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/21117/",
+          "date": "2026-08-16",
+          "start_time": "6:00 PM",
+          "opponent": "DKMB River Cats",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -13835,7 +14367,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-04-30",
           "summary": "11U Lady Brigade - Practice",
-          "location": "TBD",
+          "location": "Clearwater Diamond #1",
           "type": "practice",
           "cancelled": false
         },
