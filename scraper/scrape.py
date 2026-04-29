@@ -270,12 +270,18 @@ def fetch_budget_metrics(csv_url: str) -> dict:
         if tournament_value is None:
             tournament_value = row.get("Tournament")
 
+        police_checks_value = row.get("Police Checks")
+        coach_certs_value = row.get("Coach Certs")
+        pitch_value = row.get("Pitch $")
         reg_fee_2026_value = row.get("2026 Reg Fee")
 
         metrics_by_team[team_name] = {
             "uniform_cost": parse_money_value(uniform_value),
             "equipment_cost": parse_money_value(equipment_value),
             "tournament_cost": parse_money_value(tournament_value),
+            "police_checks_cost": parse_money_value(police_checks_value),
+            "coach_certs_cost": parse_money_value(coach_certs_value),
+            "pitch_cost": parse_money_value(pitch_value),
             "reg_fee_2026": parse_money_value(reg_fee_2026_value),
         }
 
@@ -1382,6 +1388,9 @@ def main():
             team_data["uniform_cost"] = metric_values.get("uniform_cost")
             team_data["equipment_cost"] = metric_values.get("equipment_cost")
             team_data["tournament_cost"] = metric_values.get("tournament_cost")
+            team_data["police_checks_cost"] = metric_values.get("police_checks_cost")
+            team_data["coach_certs_cost"] = metric_values.get("coach_certs_cost")
+            team_data["pitch_cost"] = metric_values.get("pitch_cost")
             team_data["reg_fee_2026"] = metric_values.get("reg_fee_2026")
             results.append(team_data)
             # Aggregate cancelled events (games and practices).

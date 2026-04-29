@@ -2223,6 +2223,9 @@ function buildBudgetRows(teams, startDate, endDate, costs) {
     const uniformCost = Number(team?.uniform_cost);
     const equipmentCost = Number(team?.equipment_cost);
     const tournamentCost = Number(team?.tournament_cost);
+    const policeChecksCost = Number(team?.police_checks_cost);
+    const coachCertsCost = Number(team?.coach_certs_cost);
+    const pitchCost = Number(team?.pitch_cost);
 
     const billableHomeGameEvents = (summary.events ?? []).filter(isBillableHomeGameEvent);
     const billablePracticeEvents = (summary.events ?? []).filter(isBillablePracticeEvent);
@@ -2236,7 +2239,10 @@ function buildBudgetRows(teams, startDate, endDate, costs) {
     const includedUniformCost = Number.isFinite(uniformCost) ? uniformCost : 0;
     const includedEquipmentCost = Number.isFinite(equipmentCost) ? equipmentCost : 0;
     const includedTournamentCost = Number.isFinite(tournamentCost) ? tournamentCost : 0;
-    const totalCost = diamondCost + umpireCost + insuranceCost + includedUniformCost + includedEquipmentCost + includedTournamentCost;
+    const includedPoliceChecksCost = Number.isFinite(policeChecksCost) ? policeChecksCost : 0;
+    const includedCoachCertsCost = Number.isFinite(coachCertsCost) ? coachCertsCost : 0;
+    const includedPitchCost = Number.isFinite(pitchCost) ? pitchCost : 0;
+    const totalCost = diamondCost + umpireCost + insuranceCost + includedUniformCost + includedEquipmentCost + includedTournamentCost + includedPoliceChecksCost + includedCoachCertsCost + includedPitchCost;
 
     rows.push({
       team_name: team.name,
@@ -2247,6 +2253,9 @@ function buildBudgetRows(teams, startDate, endDate, costs) {
       uniform_cost: Number.isFinite(uniformCost) ? uniformCost : null,
       equipment_cost: Number.isFinite(equipmentCost) ? equipmentCost : null,
       tournament_cost: Number.isFinite(tournamentCost) ? tournamentCost : null,
+      police_checks_cost: Number.isFinite(policeChecksCost) ? policeChecksCost : null,
+      coach_certs_cost: Number.isFinite(coachCertsCost) ? coachCertsCost : null,
+      pitch_cost: Number.isFinite(pitchCost) ? pitchCost : null,
       players,
       adults,
       diamond_cost: diamondCost,
@@ -2316,6 +2325,9 @@ function renderBudgetModel() {
     acc.umpire_cost += row.umpire_cost;
     acc.insurance_cost += row.insurance_cost;
     acc.tournament_cost += (row.tournament_cost ?? 0);
+    acc.police_checks_cost += (row.police_checks_cost ?? 0);
+    acc.coach_certs_cost += (row.coach_certs_cost ?? 0);
+    acc.pitch_cost += (row.pitch_cost ?? 0);
     acc.total_cost += row.total_cost;
     return acc;
   }, {
@@ -2327,6 +2339,9 @@ function renderBudgetModel() {
     umpire_cost: 0,
     insurance_cost: 0,
     tournament_cost: 0,
+    police_checks_cost: 0,
+    coach_certs_cost: 0,
+    pitch_cost: 0,
     total_cost: 0,
   });
 
@@ -2349,6 +2364,9 @@ function renderBudgetModel() {
         <td class="money-cell">${escHtml(r.uniform_cost == null ? "-" : fmtMoney(r.uniform_cost))}</td>
         <td class="money-cell">${escHtml(r.equipment_cost == null ? "-" : fmtMoney(r.equipment_cost))}</td>
         <td class="money-cell">${escHtml(r.tournament_cost == null ? "-" : fmtMoney(r.tournament_cost))}</td>
+        <td class="money-cell">${escHtml(r.police_checks_cost == null ? "-" : fmtMoney(r.police_checks_cost))}</td>
+        <td class="money-cell">${escHtml(r.coach_certs_cost == null ? "-" : fmtMoney(r.coach_certs_cost))}</td>
+        <td class="money-cell">${escHtml(r.pitch_cost == null ? "-" : fmtMoney(r.pitch_cost))}</td>
         <td>${r.players}</td>
         <td>${r.adults}</td>
         <td class="money-cell">${escHtml(fmtMoney(r.diamond_cost))}</td>
@@ -2367,6 +2385,9 @@ function renderBudgetModel() {
               <th>Uniform $</th>
               <th>Equipment</th>
               <th>Tournaments</th>
+              <th>Police Checks</th>
+              <th>Coach Certs</th>
+              <th>Pitch $</th>
               <th>Players</th>
               <th>Adults</th>
               <th>Diamond Rental</th>
@@ -2385,7 +2406,7 @@ function renderBudgetModel() {
   body.innerHTML = `
     <div class="cat-block">
       <div class="cat-header">Modeled Total: ${escHtml(fmtMoney(totals.total_cost))} (Players: ${totals.players}, Adults: ${totals.adults})</div>
-      <div class="controls-note" style="margin-top:0.8rem;">Note: Police Checks and Coach Certs columns are reserved for future budget metrics.</div>
+      <div class="controls-note" style="margin-top:0.8rem;">Note: sheet-sourced costs (Uniforms, Equipment, Tournaments, Police Checks, Coach Certs, Pitch $) are imported from the budget metrics spreadsheet and added to the modelled totals.</div>
     </div>
     ${categoryBlocksHtml}`;
 }
