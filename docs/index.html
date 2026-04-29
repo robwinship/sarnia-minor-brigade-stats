@@ -696,6 +696,7 @@
     <button class="tab-btn" id="tab-playing-today" role="tab" aria-selected="false" aria-controls="view-playing-today">Playing Today</button>
     <button class="tab-btn" id="tab-umpire-issues" role="tab" aria-selected="false" aria-controls="view-umpire-issues">Umpire Issues</button>
     <button class="tab-btn" id="tab-budget" role="tab" aria-selected="false" aria-controls="view-budget">Budget Model</button>
+    <button class="tab-btn" id="tab-proposed-fees" role="tab" aria-selected="false" aria-controls="view-proposed-fees">Proposed Fees</button>
       <button class="tab-btn" id="btn-coach-status" type="button" onclick="window.open('https://robwinship.github.io/coach-certification/index.html', '_blank')">Coach Status</button>
   </div>
 
@@ -882,6 +883,14 @@
     </div>
     <div id="budget-body"></div>
   </div><!-- /view-budget -->
+
+  <div id="view-proposed-fees" style="display:none">
+    <div class="controls-card" aria-label="Proposed fees note">
+      <div class="section-title">Proposed Fees</div>
+      <div class="controls-note">Compares the 2026 registration fee per player against the full-season modelled cost per player (using rates configured in Budget Model). Proposed 2027 adds 12% to the modelled cost per player.</div>
+    </div>
+    <div id="proposed-fees-body"></div>
+  </div><!-- /view-proposed-fees -->
 </main>
 
 <footer>
@@ -2381,6 +2390,95 @@ function renderBudgetModel() {
     ${categoryBlocksHtml}`;
 }
 
+function buildProposedFeesRows(teams, costs) {
+  const budgetRows = buildBudgetRows(teams, null, null, costs);
+  const teamByName = {};
+  for (const team of (teams ?? [])) {
+    teamByName[team.name] = team;
+  }
+  return budgetRows.map(row => {
+    const regFee = Number((teamByName[row.team_name] ?? {}).reg_fee_2026);
+    const costPerPlayer = row.players > 0 ? row.total_cost / row.players : null;
+    const proposed2027 = costPerPlayer != null ? costPerPlayer * 1.12 : null;
+    return {
+      team_name: row.team_name,
+      category: row.category,
+      team_index: row.team_index,
+      players: row.players,
+      reg_fee_2026: Number.isFinite(regFee) ? regFee : null,
+      cost_per_player: costPerPlayer,
+      proposed_2027: proposed2027,
+    };
+  });
+}
+
+function renderProposedFees() {
+  if (!loadedData) return;
+  const body = document.getElementById("proposed-fees-body");
+
+  const costs = {
+    diamondADay: parseCostInput("cost-dia-a-day"),
+    diamondAEvening: parseCostInput("cost-dia-a-evening"),
+    diamondBDay: parseCostInput("cost-dia-b-day"),
+    diamondBEvening: parseCostInput("cost-dia-b-evening"),
+    umpire8u9u:     parseCostInput("cost-umpire-8u9u"),
+    umpire10u11u:   parseCostInput("cost-umpire-10u11u"),
+    umpire12u13u:   parseCostInput("cost-umpire-12u13u"),
+    umpire14u:      parseCostInput("cost-umpire-14u"),
+    insurancePerPerson: parseCostInput("cost-ins-person"),
+  };
+
+  const visibleTeams = getVisibleTeams(loadedData.teams ?? []);
+  const rows = buildProposedFeesRows(visibleTeams, costs);
+
+  if (!rows.length) {
+    body.innerHTML = `<div class="no-data-msg">No team data available for proposed fees.</div>`;
+    return;
+  }
+
+  const groupedByCategory = {};
+  for (const row of rows) {
+    const category = row.category || "Other";
+    (groupedByCategory[category] = groupedByCategory[category] ?? []).push(row);
+  }
+
+  const present = CATEGORY_ORDER.filter(c => groupedByCategory[c]);
+  for (const c of Object.keys(groupedByCategory)) {
+    if (!present.includes(c)) present.push(c);
+  }
+
+  const categoryBlocksHtml = present.map(category => {
+    const catRows = groupedByCategory[category] ?? [];
+    const catRowsHtml = catRows.map(r => `
+      <tr>
+        <td class="col-team">${escHtml(r.team_name)}</td>
+        <td class="money-cell">${escHtml(r.reg_fee_2026 == null ? "-" : fmtMoney(r.reg_fee_2026))}</td>
+        <td class="money-cell">${escHtml(r.cost_per_player == null ? "-" : fmtMoney(r.cost_per_player))}</td>
+        <td class="money-cell budget-total-cell">${escHtml(r.proposed_2027 == null ? "-" : fmtMoney(r.proposed_2027))}</td>
+      </tr>`).join("");
+
+    return `
+      <div class="cat-block">
+        <div class="cat-header">${escHtml(getDisplayCategoryName(category))}</div>
+        <div class="table-scroll"><table class="stats-table tourn-table" aria-label="${escHtml(getDisplayCategoryName(category))} proposed fees">
+          <thead>
+            <tr>
+              <th class="col-team">Team</th>
+              <th>2026 Reg Fee</th>
+              <th>Actual Cost/Player</th>
+              <th>Proposed 2027</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${catRowsHtml}
+          </tbody>
+        </table></div>
+      </div>`;
+  }).join("");
+
+  body.innerHTML = categoryBlocksHtml;
+}
+
 function switchTab(tabName) {
   const isStats = tabName === "stats";
   const isTournaments = tabName === "tournaments";
@@ -2389,6 +2487,7 @@ function switchTab(tabName) {
   const isUmpireIssues = tabName === "umpire-issues";
   const isBudget = tabName === "budget";
   const isCancellations = tabName === "cancellations";
+  const isProposedFees = tabName === "proposed-fees";
 
   document.getElementById("view-stats").style.display = isStats ? "" : "none";
   document.getElementById("view-tournaments").style.display = isTournaments ? "" : "none";
@@ -2397,6 +2496,7 @@ function switchTab(tabName) {
   document.getElementById("view-playing-today").style.display = isPlayingToday ? "" : "none";
   document.getElementById("view-umpire-issues").style.display = isUmpireIssues ? "" : "none";
   document.getElementById("view-budget").style.display = isBudget ? "" : "none";
+  document.getElementById("view-proposed-fees").style.display = isProposedFees ? "" : "none";
 
   document.getElementById("tab-stats").setAttribute("aria-selected", isStats ? "true" : "false");
   document.getElementById("tab-tournaments").setAttribute("aria-selected", isTournaments ? "true" : "false");
@@ -2405,6 +2505,7 @@ function switchTab(tabName) {
   document.getElementById("tab-playing-today").setAttribute("aria-selected", isPlayingToday ? "true" : "none");
   document.getElementById("tab-umpire-issues").setAttribute("aria-selected", isUmpireIssues ? "true" : "none");
   document.getElementById("tab-budget").setAttribute("aria-selected", isBudget ? "true" : "none");
+  document.getElementById("tab-proposed-fees").setAttribute("aria-selected", isProposedFees ? "true" : "none");
 
   document.getElementById("tab-stats").classList.toggle("tab-btn--active", isStats);
   document.getElementById("tab-tournaments").classList.toggle("tab-btn--active", isTournaments);
@@ -2413,6 +2514,7 @@ function switchTab(tabName) {
   document.getElementById("tab-playing-today").classList.toggle("tab-btn--active", isPlayingToday);
   document.getElementById("tab-umpire-issues").classList.toggle("tab-btn--active", isUmpireIssues);
   document.getElementById("tab-budget").classList.toggle("tab-btn--active", isBudget);
+  document.getElementById("tab-proposed-fees").classList.toggle("tab-btn--active", isProposedFees);
 
   if (isTournaments && loadedData) {
     populateTournamentTeamFilter(getVisibleTeams(loadedData.teams ?? []));
@@ -2433,6 +2535,9 @@ function switchTab(tabName) {
   }
   if (isBudget) {
     renderBudgetModel();
+  }
+  if (isProposedFees) {
+    renderProposedFees();
   }
 }
 
@@ -2524,6 +2629,9 @@ async function render(forceRefresh = false) {
     if (document.getElementById("tab-budget").classList.contains("tab-btn--active")) {
       renderBudgetModel();
     }
+    if (document.getElementById("tab-proposed-fees").classList.contains("tab-btn--active")) {
+      renderProposedFees();
+    }
 
   } catch (err) {
     loading.textContent = "Could not load season data: " + err.message;
@@ -2552,6 +2660,7 @@ document.getElementById("tab-diamonds").addEventListener("click", () => switchTa
 document.getElementById("tab-playing-today").addEventListener("click", () => switchTab("playing-today"));
 document.getElementById("tab-umpire-issues").addEventListener("click", () => switchTab("umpire-issues"));
 document.getElementById("tab-budget").addEventListener("click", () => switchTab("budget"));
+document.getElementById("tab-proposed-fees").addEventListener("click", () => switchTab("proposed-fees"));
 document.getElementById("tab-cancellations").addEventListener("click", () => switchTab("cancellations"));
 document.getElementById("tournament-team-filter").addEventListener("change", renderTournaments);
 document.getElementById("diamond-team-filter").addEventListener("change", renderDiamondSummary);
@@ -2571,15 +2680,15 @@ document.getElementById("budget-reset-filter").addEventListener("click", () => {
   renderBudgetModel();
 });
 
-document.getElementById("cost-dia-a-day").addEventListener("input", renderBudgetModel);
-document.getElementById("cost-dia-a-evening").addEventListener("input", renderBudgetModel);
-document.getElementById("cost-dia-b-day").addEventListener("input", renderBudgetModel);
-document.getElementById("cost-dia-b-evening").addEventListener("input", renderBudgetModel);
-document.getElementById("cost-umpire-8u9u").addEventListener("input", renderBudgetModel);
-document.getElementById("cost-umpire-10u11u").addEventListener("input", renderBudgetModel);
-document.getElementById("cost-umpire-12u13u").addEventListener("input", renderBudgetModel);
-document.getElementById("cost-umpire-14u").addEventListener("input", renderBudgetModel);
-document.getElementById("cost-ins-person").addEventListener("input", renderBudgetModel);
+document.getElementById("cost-dia-a-day").addEventListener("input", () => { renderBudgetModel(); renderProposedFees(); });
+document.getElementById("cost-dia-a-evening").addEventListener("input", () => { renderBudgetModel(); renderProposedFees(); });
+document.getElementById("cost-dia-b-day").addEventListener("input", () => { renderBudgetModel(); renderProposedFees(); });
+document.getElementById("cost-dia-b-evening").addEventListener("input", () => { renderBudgetModel(); renderProposedFees(); });
+document.getElementById("cost-umpire-8u9u").addEventListener("input", () => { renderBudgetModel(); renderProposedFees(); });
+document.getElementById("cost-umpire-10u11u").addEventListener("input", () => { renderBudgetModel(); renderProposedFees(); });
+document.getElementById("cost-umpire-12u13u").addEventListener("input", () => { renderBudgetModel(); renderProposedFees(); });
+document.getElementById("cost-umpire-14u").addEventListener("input", () => { renderBudgetModel(); renderProposedFees(); });
+document.getElementById("cost-ins-person").addEventListener("input", () => { renderBudgetModel(); renderProposedFees(); });
 
 
 document.getElementById("tab-cancellations").addEventListener("click", () => switchTab("cancellations"));
