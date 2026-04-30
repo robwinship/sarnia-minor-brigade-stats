@@ -1,4 +1,7 @@
 # Changelog
+## v1.26 - 2026-04-29 17:08:08
+- added more columns to the budget model and a 2027 estimator
+
 ## v1.25 - 2026-04-27 20:12:36
 - Corrected the Win Loss to show now show results.
 
