@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-30T16:03:10.356866Z",
+  "generated": "2026-04-30T19:32:45.699329Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2432,7 +2432,7 @@
           "date": "2026-05-05",
           "start_time": "6:00 PM",
           "end_date": "2026-05-06",
-          "summary": "10U AA OBA Rep - Game @ 11U OBA Rep [WC11U-018]",
+          "summary": "CANCELLED 10U AA OBA Rep - Game @ 11U OBA Rep [WC11U-018]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -2885,7 +2885,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "19681",
@@ -3072,6 +3072,7 @@
               "Annette Hoggarth",
               "Axl Taylor",
               "Bentley Bartosz",
+              "Bentley Daughtrey",
               "Blake Adams",
               "Brian Mundt",
               "Brock Lane",
@@ -3115,6 +3116,7 @@
               "Marko Sazdov",
               "Matthew Schrie",
               "Mikayla Coubroug",
+              "Myles Hobbs",
               "Paolo Padiglia",
               "Parker Leighton",
               "Penny Core",
@@ -3197,7 +3199,6 @@
                   "Kye Golder",
                   "Kylee Salisbury",
                   "Lawrence Dyck",
-                  "Liam Colosimo",
                   "Liam Scott",
                   "Logan Conroy",
                   "Logan Hiscocks",
@@ -3209,6 +3210,7 @@
                   "Mason Portiss",
                   "Matthew Schrie",
                   "Mikayla Coubroug",
+                  "Myles Hobbs",
                   "Nathan Zavitz",
                   "Nolan Bogaert",
                   "Paolo Padiglia",
@@ -3241,6 +3243,7 @@
                   "Annette Hoggarth",
                   "Axl Taylor",
                   "Bentley Bartosz",
+                  "Bentley Daughtrey",
                   "Blake Adams",
                   "Brian Mundt",
                   "Brock Lane",
@@ -3284,6 +3287,7 @@
                   "Marko Sazdov",
                   "Matthew Schrie",
                   "Mikayla Coubroug",
+                  "Myles Hobbs",
                   "Paolo Padiglia",
                   "Parker Leighton",
                   "Penny Core",
@@ -3312,7 +3316,6 @@
                   "Carson Whittington",
                   "Carsyn Tnydall",
                   "Carter Palmer",
-                  "Chris Bonneau",
                   "Chris Makrigiannis",
                   "Drew Bennett",
                   "Ewan Snedden",
@@ -3323,13 +3326,12 @@
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
                   "Jakob Rodriguez",
+                  "Jason Lajeunesse",
                   "Jaxson Pyne",
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Juan Peralta",
                   "Kassie Buchan",
-                  "Liam Colosimo",
-                  "Liam Scott",
                   "Logan Conroy",
                   "Lucas Barker",
                   "Lucas Nethery",
@@ -3346,6 +3348,7 @@
                   "Steve McGrail",
                   "Terry Doyle",
                   "Trent Hogan",
+                  "Tristan Heeringa",
                   "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Whetham",
@@ -3359,7 +3362,6 @@
                   "Bryson Large",
                   "Cambria Caissie",
                   "Chris Bonneau",
-                  "Chris Makrigiannis",
                   "Clark Thornton",
                   "Cohen Smith",
                   "Doug Krall",
@@ -3385,9 +3387,9 @@
                   "Sydney Nisbet"
                 ],
                 "assigned_count": 96,
-                "accepted_count": 65,
-                "pending_count": 46,
-                "denied_count": 31,
+                "accepted_count": 67,
+                "pending_count": 45,
+                "denied_count": 30,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -3615,7 +3617,7 @@
           "date": "2026-05-12",
           "start_time": "6:00 PM",
           "end_date": "2026-05-13",
-          "summary": "10U A OBA Rep - Game @ Chatham Diamonds 10u [WC11U-066]",
+          "summary": "CANCELLED 10U A OBA Rep - Game @ Chatham Diamonds 10u [WC11U-066]",
           "location": "Kinsmen Park (2)",
           "type": "game",
           "cancelled": false
@@ -4388,7 +4390,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20755",
@@ -4779,7 +4781,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 41,
+      "practices": 42,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -4924,9 +4926,19 @@
           "date": "2026-05-05",
           "start_time": "6:00 PM",
           "end_date": "2026-05-06",
-          "summary": "11U OBA Rep - Game vs 10U AA OBA Rep [WC11U-018]",
+          "summary": "CANCELLED 11U OBA Rep - Game vs 10U AA OBA Rep [WC11U-018]",
           "location": "Tecumseh Park",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21154-sarniabrigade.ca",
+          "date": "2026-05-05",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-06",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -5575,7 +5587,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20098",
@@ -5904,43 +5916,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-05",
-            "time": "6:00 PM",
-            "opponent": "10U AA OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Chris Makrigiannis",
-              "Drew Baxter",
-              "Liam Colosimo",
-              "Liam Scott",
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [
-              "Paolo Padiglia"
-            ],
-            "pending_umpires": [
-              "Liam Colosimo",
-              "Liam Scott"
-            ],
-            "denied_umpires": [
-              "Chris Makrigiannis",
-              "Drew Baxter"
-            ],
-            "assigned_count": 5,
-            "accepted_count": 1,
-            "pending_count": 2,
-            "denied_count": 2,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7233.13,
@@ -12509,7 +12490,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 29,
+      "practices": 30,
       "roster": {
         "players": 12,
         "adults": 4,
@@ -12590,13 +12571,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20722-sarniabrigade.ca",
+          "uid": "MS-21153-sarniabrigade.ca",
           "date": "2026-05-08",
           "start_time": "6:00 PM",
           "end_date": "2026-05-09",
-          "summary": "13U Select - Game vs Lucan-Ilderton Athletics [13uS109]",
+          "summary": "13U Select - Practice",
           "location": "Tecumseh Park",
-          "type": "game",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -12805,6 +12786,16 @@
           "start_time": "6:00 PM",
           "end_date": "2026-07-04",
           "summary": "13U Select - Game vs St. Thomas Cardinals [13uS27]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20722-sarniabrigade.ca",
+          "date": "2026-07-06",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-07",
+          "summary": "13U Select - Game vs Lucan-Ilderton Athletics [13uS109]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -13084,18 +13075,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20722",
-          "href": "https://sarniabrigade.ca/Teams/1300/Games/20722/",
-          "date": "2026-05-08",
-          "start_time": "6:00 PM",
-          "opponent": "Lucan-Ilderton Athletics",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "20726",
           "href": "https://sarniabrigade.ca/Teams/1300/Games/20726/",
           "date": "2026-05-18",
@@ -13197,6 +13176,18 @@
           "date": "2026-07-03",
           "start_time": "6:00 PM",
           "opponent": "St. Thomas Cardinals",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20722",
+          "href": "https://sarniabrigade.ca/Teams/1300/Games/20722/",
+          "date": "2026-07-06",
+          "start_time": "6:00 PM",
+          "opponent": "Lucan-Ilderton Athletics",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -17036,6 +17027,33 @@
       "start_time": "5:30 PM",
       "summary": "CANCELLED 10U AA OBA Rep - Practice",
       "location": "Clearwater Diamond #2"
+    },
+    {
+      "team_id": 1292,
+      "team_name": "10U AA OBA Rep",
+      "type": "game",
+      "date": "2026-05-05",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 10U AA OBA Rep - Game @ 11U OBA Rep [WC11U-018]",
+      "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1311,
+      "team_name": "10U A OBA Rep",
+      "type": "game",
+      "date": "2026-05-12",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 10U A OBA Rep - Game @ Chatham Diamonds 10u [WC11U-066]",
+      "location": "Kinsmen Park (2)"
+    },
+    {
+      "team_id": 1293,
+      "team_name": "11U OBA Rep",
+      "type": "game",
+      "date": "2026-05-05",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 11U OBA Rep - Game vs 10U AA OBA Rep [WC11U-018]",
+      "location": "Tecumseh Park"
     },
     {
       "team_id": 1293,
