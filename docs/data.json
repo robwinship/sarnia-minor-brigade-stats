@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-04-30T10:03:09.264506Z",
+  "generated": "2026-04-30T16:03:10.356866Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3086,6 +3086,7 @@
               "Dan Scott",
               "David Haasen",
               "Dawson O'Brien",
+              "Derek Bayly",
               "Doug Krall",
               "Drew Baxter",
               "Drew Bennett",
@@ -3117,7 +3118,6 @@
               "Paolo Padiglia",
               "Parker Leighton",
               "Penny Core",
-              "Rio Ruiz",
               "Ronnie Atyeo",
               "Ryder Daye",
               "Ryerson Nead",
@@ -3140,6 +3140,7 @@
                 "venue": "Clearwater Diamond #2",
                 "assigned_umpires": [
                   "Alexander Pfaff",
+                  "Ameer Sulaiman",
                   "Annette Hoggarth",
                   "Axl Taylor",
                   "Bentley Bartosz",
@@ -3254,6 +3255,7 @@
                   "Dan Scott",
                   "David Haasen",
                   "Dawson O'Brien",
+                  "Derek Bayly",
                   "Doug Krall",
                   "Drew Baxter",
                   "Drew Bennett",
@@ -3286,7 +3288,6 @@
                   "Parker Leighton",
                   "Penny Core",
                   "Ralph Campbell",
-                  "Rio Ruiz",
                   "Ronnie Atyeo",
                   "Ryder Daye",
                   "Ryerson Nead",
@@ -3303,7 +3304,7 @@
                   "William MacKenzie"
                 ],
                 "pending_umpires": [
-                  "Annette Hoggarth",
+                  "Ameer Sulaiman",
                   "Bentley Daughtrey",
                   "Brian Mundt",
                   "Caleb Willemsvandyk",
@@ -3311,9 +3312,8 @@
                   "Carson Whittington",
                   "Carsyn Tnydall",
                   "Carter Palmer",
+                  "Chris Bonneau",
                   "Chris Makrigiannis",
-                  "Derek Bayly",
-                  "Drew Baxter",
                   "Drew Bennett",
                   "Ewan Snedden",
                   "Graham Dolbear",
@@ -3322,11 +3322,12 @@
                   "Hannah Stewart",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
+                  "Jakob Rodriguez",
                   "Jaxson Pyne",
                   "Joey Buchner",
+                  "Jonas Winklmeier",
                   "Juan Peralta",
                   "Kassie Buchan",
-                  "Kylee Salisbury",
                   "Liam Colosimo",
                   "Liam Scott",
                   "Logan Conroy",
@@ -3342,7 +3343,7 @@
                   "Ryder Daye",
                   "Sadie Daughtrey",
                   "Shane Moorhouse",
-                  "Sydney Nisbet",
+                  "Steve McGrail",
                   "Terry Doyle",
                   "Trent Hogan",
                   "Tucker Stokes",
@@ -3356,7 +3357,6 @@
                   "Brock Lane",
                   "Brogan Murphy",
                   "Bryson Large",
-                  "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Chris Bonneau",
                   "Chris Makrigiannis",
@@ -3384,10 +3384,10 @@
                   "Steve McGrail",
                   "Sydney Nisbet"
                 ],
-                "assigned_count": 95,
+                "assigned_count": 96,
                 "accepted_count": 65,
                 "pending_count": 46,
-                "denied_count": 32,
+                "denied_count": 31,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -3430,7 +3430,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 49,
+      "practices": 50,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -3798,6 +3798,16 @@
           "summary": "10U A OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21152-sarniabrigade.ca",
+          "date": "2026-06-10",
+          "start_time": "6:15 PM",
+          "end_date": "2026-06-11",
+          "summary": "10U A OBA Rep - Game @ Corunna Giants Select [WC11UEx-001]",
+          "location": "Athletic Park (4)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -4201,6 +4211,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21151-sarniabrigade.ca",
+          "date": "2026-08-23",
+          "start_time": "4:00 PM",
+          "end_date": "2026-08-24",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20928-sarniabrigade.ca",
           "date": "2026-08-24",
           "start_time": "4:00 PM",
@@ -4497,6 +4517,18 @@
           "start_time": "6:30 PM",
           "opponent": "London West Tincaps",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21152",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/21152/",
+          "date": "2026-06-10",
+          "start_time": "6:15 PM",
+          "opponent": "Corunna Giants Select WC11UEx-001 Athletic Par",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -5894,17 +5926,17 @@
               "Paolo Padiglia"
             ],
             "pending_umpires": [
-              "Drew Baxter",
               "Liam Colosimo",
               "Liam Scott"
             ],
             "denied_umpires": [
-              "Chris Makrigiannis"
+              "Chris Makrigiannis",
+              "Drew Baxter"
             ],
             "assigned_count": 5,
             "accepted_count": 1,
-            "pending_count": 3,
-            "denied_count": 1,
+            "pending_count": 2,
+            "denied_count": 2,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
@@ -5929,7 +5961,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 51,
+      "practices": 50,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -5939,16 +5971,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-19993-sarniabrigade.ca",
-          "date": "2026-02-28",
-          "start_time": "7:00 AM",
-          "end_date": "2026-02-28",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19994-sarniabrigade.ca",
           "date": "2026-03-07",
@@ -8285,7 +8307,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 36,
+      "practices": 35,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -8380,16 +8402,6 @@
           "date": "2026-04-27",
           "start_time": "6:00 PM",
           "end_date": "2026-04-28",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20415-sarniabrigade.ca",
-          "date": "2026-04-30",
-          "start_time": "8:00 PM",
-          "end_date": "2026-05-01",
           "summary": "14U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
