@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-02T19:33:02.803383Z",
+  "generated": "2026-05-02T23:03:05.616891Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3215,6 +3215,7 @@
                   "Tristan Heeringa",
                   "Tucker Stokes",
                   "Tyler Hoadley",
+                  "Tyler Vandenberg",
                   "Tyler Whetham",
                   "Will Garton",
                   "Will Greer",
@@ -3306,7 +3307,6 @@
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Carter Wills",
-                  "Chris Bonneau",
                   "Chris Makrigiannis",
                   "Drew Baxter",
                   "Ewan Snedden",
@@ -3322,7 +3322,6 @@
                   "Jonas Winklmeier",
                   "Juan Peralta",
                   "Kassie Buchan",
-                  "Katrina Cadotte",
                   "Kayleigh Buchan",
                   "Logan Conroy",
                   "Lucas Barker",
@@ -3334,14 +3333,12 @@
                   "Nathan Zavitz",
                   "Paolo Padiglia",
                   "Rio Ruiz",
-                  "Ryder Daye",
                   "Shane Moorhouse",
-                  "Steve McGrail",
                   "Terry Doyle",
                   "Trent Hogan",
-                  "Tristan Heeringa",
                   "Tucker Stokes",
                   "Tyler Hoadley",
+                  "Tyler Vandenberg",
                   "Tyler Whetham",
                   "Will Greer"
                 ],
@@ -3371,14 +3368,15 @@
                   "Marko Sazdov",
                   "Myles Hobbs",
                   "Ralph Campbell",
+                  "Ryder Daye",
                   "Shane Moorhouse",
                   "Steve McGrail",
                   "Sydney Nisbet"
                 ],
-                "assigned_count": 97,
+                "assigned_count": 98,
                 "accepted_count": 71,
-                "pending_count": 49,
-                "denied_count": 28,
+                "pending_count": 45,
+                "denied_count": 29,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -5963,7 +5961,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 50,
+      "practices": 46,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -6076,7 +6074,7 @@
         {
           "uid": "MS-20524-sarniabrigade.ca",
           "date": "2026-05-03",
-          "start_time": "10:00 AM",
+          "start_time": "1:00 PM",
           "end_date": "2026-05-03",
           "summary": "12U OBA Rep - Practice",
           "location": "Tecumseh Park",
@@ -6108,7 +6106,7 @@
           "date": "2026-05-10",
           "start_time": "10:00 AM",
           "end_date": "2026-05-10",
-          "summary": "12U OBA Rep - Game vs Wyoming Minor Wranglers",
+          "summary": "12U OBA Rep - Game vs Wyoming Wranglers [WC13U-08]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6118,7 +6116,7 @@
           "date": "2026-05-10",
           "start_time": "1:00 PM",
           "end_date": "2026-05-10",
-          "summary": "12U OBA Rep - Game vs Wyoming Minor Wranglers",
+          "summary": "12U OBA Rep - Game vs Wyoming Wranglers [WC13U-67]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6264,16 +6262,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20549-sarniabrigade.ca",
-          "date": "2026-06-03",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-04",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20714-sarniabrigade.ca",
           "date": "2026-06-07",
           "start_time": "10:00 AM",
@@ -6311,16 +6299,6 @@
           "summary": "12U OBA Rep - Game @ DKMB River Cats [12u52]",
           "location": "Tri-Township",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20551-sarniabrigade.ca",
-          "date": "2026-06-10",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-11",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -6414,16 +6392,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20556-sarniabrigade.ca",
-          "date": "2026-07-01",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-02",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20912-sarniabrigade.ca",
           "date": "2026-07-02",
           "start_time": "6:00 PM",
@@ -6501,16 +6469,6 @@
           "summary": "12U OBA Rep - Game @ Lucan-Ilderton Athletics [12u44]",
           "location": "Heritage (1)",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20568-sarniabrigade.ca",
-          "date": "2026-07-15",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-16",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -6812,7 +6770,7 @@
           "href": "https://sarniabrigade.ca/Teams/1294/Games/20898/",
           "date": "2026-05-10",
           "start_time": "10:00 AM",
-          "opponent": "Wyoming Minor Wranglers Tecumseh Park",
+          "opponent": "Wyoming Wranglers WC13U-08 Tecumseh Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -6824,7 +6782,7 @@
           "href": "https://sarniabrigade.ca/Teams/1294/Games/20899/",
           "date": "2026-05-10",
           "start_time": "1:00 PM",
-          "opponent": "Wyoming Minor Wranglers Tecumseh Park",
+          "opponent": "Wyoming Wranglers WC13U-67 Tecumseh Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -15790,12 +15748,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 4,
-      "wins": 4,
+      "gp": 6,
+      "wins": 6,
       "losses": 0,
       "ties": 0,
-      "runs_for": 30,
-      "runs_against": 17,
+      "runs_for": 46,
+      "runs_against": 20,
       "practices": 47,
       "roster": {
         "players": 15,
@@ -15891,7 +15849,7 @@
           "date": "2026-05-02",
           "start_time": "11:00 AM",
           "end_date": "2026-05-02",
-          "summary": "16U PBLO - Game vs East York [12]",
+          "summary": "16U PBLO - Game vs East York [12](W 0-9)",
           "location": "Father Angelo Saad",
           "type": "game",
           "cancelled": false
@@ -15901,7 +15859,7 @@
           "date": "2026-05-02",
           "start_time": "2:00 PM",
           "end_date": "2026-05-02",
-          "summary": "16U PBLO - Game vs Milton [15]",
+          "summary": "16U PBLO - Game vs Milton [15](W 3-7)",
           "location": "Father Angelo Saad",
           "type": "game",
           "cancelled": false
@@ -16785,9 +16743,9 @@
           "start_time": "11:00 AM",
           "opponent": "East York",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 0,
           "cancelled": false
         },
         {
@@ -16797,9 +16755,9 @@
           "start_time": "2:00 PM",
           "opponent": "Milton",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 7,
+          "opp_score": 3,
           "cancelled": false
         },
         {
