@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-03T16:03:07.060122Z",
+  "generated": "2026-05-03T23:03:02.588000Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2233,7 +2233,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 34,
+      "practices": 52,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -2384,6 +2384,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21232-sarniabrigade.ca",
+          "date": "2026-05-06",
+          "start_time": "4:30 PM",
+          "end_date": "2026-05-06",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19653-sarniabrigade.ca",
           "date": "2026-05-06",
           "start_time": "5:30 PM",
@@ -2401,6 +2411,16 @@
           "summary": "10U AA OBA Rep - Game vs Chatham Minor Diamonds [DH]",
           "location": "Clearwater Diamond #2",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21233-sarniabrigade.ca",
+          "date": "2026-05-13",
+          "start_time": "4:30 PM",
+          "end_date": "2026-05-13",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -2454,6 +2474,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21234-sarniabrigade.ca",
+          "date": "2026-05-20",
+          "start_time": "4:30 PM",
+          "end_date": "2026-05-20",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19655-sarniabrigade.ca",
           "date": "2026-05-20",
           "start_time": "5:30 PM",
@@ -2484,6 +2514,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21235-sarniabrigade.ca",
+          "date": "2026-05-27",
+          "start_time": "4:30 PM",
+          "end_date": "2026-05-27",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19656-sarniabrigade.ca",
           "date": "2026-05-27",
           "start_time": "5:30 PM",
@@ -2494,12 +2534,32 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21236-sarniabrigade.ca",
+          "date": "2026-06-03",
+          "start_time": "4:30 PM",
+          "end_date": "2026-06-03",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19657-sarniabrigade.ca",
           "date": "2026-06-03",
           "start_time": "5:30 PM",
           "end_date": "2026-06-03",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21237-sarniabrigade.ca",
+          "date": "2026-06-10",
+          "start_time": "4:30 PM",
+          "end_date": "2026-06-10",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -2524,6 +2584,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21238-sarniabrigade.ca",
+          "date": "2026-06-17",
+          "start_time": "4:30 PM",
+          "end_date": "2026-06-17",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19659-sarniabrigade.ca",
           "date": "2026-06-17",
           "start_time": "5:30 PM",
@@ -2544,12 +2614,32 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21239-sarniabrigade.ca",
+          "date": "2026-06-24",
+          "start_time": "4:30 PM",
+          "end_date": "2026-06-24",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19660-sarniabrigade.ca",
           "date": "2026-06-24",
           "start_time": "5:30 PM",
           "end_date": "2026-06-24",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21240-sarniabrigade.ca",
+          "date": "2026-07-01",
+          "start_time": "4:30 PM",
+          "end_date": "2026-07-01",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -2570,6 +2660,16 @@
           "end_date": "2026-07-04",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21241-sarniabrigade.ca",
+          "date": "2026-07-08",
+          "start_time": "4:30 PM",
+          "end_date": "2026-07-08",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -2604,6 +2704,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21242-sarniabrigade.ca",
+          "date": "2026-07-15",
+          "start_time": "4:30 PM",
+          "end_date": "2026-07-15",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19663-sarniabrigade.ca",
           "date": "2026-07-15",
           "start_time": "6:00 PM",
@@ -2634,6 +2744,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21243-sarniabrigade.ca",
+          "date": "2026-07-22",
+          "start_time": "4:30 PM",
+          "end_date": "2026-07-22",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19664-sarniabrigade.ca",
           "date": "2026-07-22",
           "start_time": "5:30 PM",
@@ -2654,6 +2774,26 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21244-sarniabrigade.ca",
+          "date": "2026-07-29",
+          "start_time": "4:30 PM",
+          "end_date": "2026-07-29",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21245-sarniabrigade.ca",
+          "date": "2026-08-05",
+          "start_time": "4:30 PM",
+          "end_date": "2026-08-05",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19666-sarniabrigade.ca",
           "date": "2026-08-05",
           "start_time": "5:30 PM",
@@ -2671,6 +2811,16 @@
           "summary": "10U AA OBA Rep - Game vs Leamington  [DH]",
           "location": "Clearwater Diamond #2",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21246-sarniabrigade.ca",
+          "date": "2026-08-12",
+          "start_time": "4:30 PM",
+          "end_date": "2026-08-12",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -2704,6 +2854,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21247-sarniabrigade.ca",
+          "date": "2026-08-19",
+          "start_time": "4:30 PM",
+          "end_date": "2026-08-19",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19668-sarniabrigade.ca",
           "date": "2026-08-19",
           "start_time": "5:30 PM",
@@ -2734,12 +2894,32 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21248-sarniabrigade.ca",
+          "date": "2026-08-26",
+          "start_time": "4:30 PM",
+          "end_date": "2026-08-26",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19669-sarniabrigade.ca",
           "date": "2026-08-26",
           "start_time": "5:30 PM",
           "end_date": "2026-08-26",
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21249-sarniabrigade.ca",
+          "date": "2026-09-02",
+          "start_time": "4:30 PM",
+          "end_date": "2026-09-02",
+          "summary": "10U AA OBA Rep - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -3074,6 +3254,7 @@
               "Ethan Antle",
               "Graham Dolbear",
               "Grant Purdy",
+              "Greg Armstrong",
               "Greg Baker",
               "Hayden Scheuermann",
               "Jackson Burlingham",
@@ -3083,6 +3264,7 @@
               "Jason Lajeunesse",
               "Jonas Winklmeier",
               "Juan Peralta",
+              "Kassie Buchan",
               "Katrina Cadotte",
               "Kayne Golder",
               "Kirk Vines",
@@ -3167,6 +3349,7 @@
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
                   "Jack Needham",
+                  "Jackson Bunda",
                   "Jackson Burlingham",
                   "Jacob Dawson",
                   "Jakob Rodriguez",
@@ -3254,6 +3437,7 @@
                   "Ethan Antle",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Greg Armstrong",
                   "Greg Baker",
                   "Hayden Scheuermann",
                   "Jackson Burlingham",
@@ -3263,6 +3447,7 @@
                   "Jason Lajeunesse",
                   "Jonas Winklmeier",
                   "Juan Peralta",
+                  "Kassie Buchan",
                   "Katrina Cadotte",
                   "Kayne Golder",
                   "Kirk Vines",
@@ -3305,7 +3490,7 @@
                   "Annette Hoggarth",
                   "Bentley Daughtrey",
                   "Brian Mundt",
-                  "Brock Lane",
+                  "Brogan Murphy",
                   "Caleb Willemsvandyk",
                   "Cali Vanderslagt",
                   "Carsyn Tnydall",
@@ -3318,38 +3503,33 @@
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Greg Armstrong",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
+                  "Jackson Bunda",
                   "Jackson Burlingham",
                   "Jaxson Pyne",
                   "Joey Buchner",
                   "Jonas Winklmeier",
-                  "Kassie Buchan",
-                  "Kayleigh Buchan",
                   "Kevin Johnson",
                   "Logan Conroy",
-                  "Lucas Barker",
                   "Lucas Nethery",
                   "Luke Walls",
                   "Mason Harper",
                   "Mason Portiss",
+                  "Myles Hobbs",
                   "Nathan Zavitz",
-                  "Paolo Padiglia",
                   "Ralph Campbell",
                   "Rio Ruiz",
+                  "Ryder Daye",
                   "Shane Moorhouse",
-                  "Steve McGrail",
                   "Terry Doyle",
                   "Trent Hogan",
-                  "Tristan Heeringa",
                   "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Whetham",
                   "Will Greer"
                 ],
                 "denied_umpires": [
-                  "Brian Mundt",
                   "Brock Lane",
                   "Brogan Murphy",
                   "Bryson Large",
@@ -3362,11 +3542,13 @@
                   "Ethan Antle",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Greg Armstrong",
                   "Hannah Stewart",
                   "Hayden Scheuermann",
                   "Jack Needham",
-                  "Jason Lajeunesse",
                   "Jonas Winklmeier",
+                  "Kassie Buchan",
+                  "Kayleigh Buchan",
                   "Kirk Vines",
                   "Liam Scott",
                   "Logan Hiscocks",
@@ -3374,16 +3556,17 @@
                   "Lucas Nethery",
                   "Marko Sazdov",
                   "Myles Hobbs",
+                  "Paolo Padiglia",
                   "Ralph Campbell",
                   "Ryder Daye",
                   "Shane Moorhouse",
                   "Steve McGrail",
                   "Sydney Nisbet"
                 ],
-                "assigned_count": 99,
-                "accepted_count": 73,
-                "pending_count": 46,
-                "denied_count": 30,
+                "assigned_count": 100,
+                "accepted_count": 75,
+                "pending_count": 42,
+                "denied_count": 32,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -11062,7 +11245,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 26,
+      "practices": 25,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -11072,16 +11255,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19628-sarniabrigade.ca",
-          "date": "2026-03-03",
-          "start_time": "5:30 PM",
-          "end_date": "2026-03-04",
-          "summary": "9U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19629-sarniabrigade.ca",
           "date": "2026-03-17",
