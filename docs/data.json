@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-03T23:03:02.588000Z",
+  "generated": "2026-05-04T10:03:19.505069Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3257,6 +3257,7 @@
               "Greg Armstrong",
               "Greg Baker",
               "Hayden Scheuermann",
+              "Jackson Bunda",
               "Jackson Burlingham",
               "Jacob Dawson",
               "Jakob Rodriguez",
@@ -3345,6 +3346,7 @@
                   "Grant Purdy",
                   "Greg Armstrong",
                   "Greg Baker",
+                  "Greyson Gibb",
                   "Hannah Stewart",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
@@ -3356,6 +3358,7 @@
                   "Jarett Simons",
                   "Jason Lajeunesse",
                   "Jaxson Pyne",
+                  "Jeffrey Stephenson",
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Juan Peralta",
@@ -3440,6 +3443,7 @@
                   "Greg Armstrong",
                   "Greg Baker",
                   "Hayden Scheuermann",
+                  "Jackson Bunda",
                   "Jackson Burlingham",
                   "Jacob Dawson",
                   "Jakob Rodriguez",
@@ -3490,7 +3494,6 @@
                   "Annette Hoggarth",
                   "Bentley Daughtrey",
                   "Brian Mundt",
-                  "Brogan Murphy",
                   "Caleb Willemsvandyk",
                   "Cali Vanderslagt",
                   "Carsyn Tnydall",
@@ -3499,15 +3502,16 @@
                   "Chris Makrigiannis",
                   "Clark Thornton",
                   "Drew Baxter",
-                  "Drew Bennett",
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Greyson Gibb",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
-                  "Jackson Bunda",
                   "Jackson Burlingham",
+                  "Jason Lajeunesse",
                   "Jaxson Pyne",
+                  "Jeffrey Stephenson",
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Kevin Johnson",
@@ -3539,7 +3543,6 @@
                   "Clark Thornton",
                   "Cohen Smith",
                   "Drew Baxter",
-                  "Ethan Antle",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
@@ -3563,10 +3566,10 @@
                   "Steve McGrail",
                   "Sydney Nisbet"
                 ],
-                "assigned_count": 100,
-                "accepted_count": 75,
+                "assigned_count": 102,
+                "accepted_count": 76,
                 "pending_count": 42,
-                "denied_count": 32,
+                "denied_count": 31,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -3603,12 +3606,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 0,
+      "gp": 2,
       "wins": 0,
-      "losses": 0,
+      "losses": 2,
       "ties": 0,
-      "runs_for": 0,
-      "runs_against": 0,
+      "runs_for": 19,
+      "runs_against": 20,
       "practices": 50,
       "roster": {
         "players": 13,
@@ -3734,7 +3737,7 @@
           "date": "2026-05-03",
           "start_time": "4:00 PM",
           "end_date": "2026-05-03",
-          "summary": "10U A OBA Rep - Game @ 11U OBA Rep [WC11U-005]",
+          "summary": "10U A OBA Rep - Game @ 11U OBA Rep [WC11U-005](L 4-16)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -3744,7 +3747,7 @@
           "date": "2026-05-03",
           "start_time": "6:30 PM",
           "end_date": "2026-05-04",
-          "summary": "10U A OBA Rep - Game vs 11U OBA Rep [WC11U-064]",
+          "summary": "10U A OBA Rep - Game vs 11U OBA Rep [WC11U-064](L 16-3)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -4540,9 +4543,9 @@
           "start_time": "4:00 PM",
           "opponent": null,
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 16,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -4552,9 +4555,9 @@
           "start_time": "6:30 PM",
           "opponent": null,
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 3,
+          "opp_score": 16,
           "cancelled": false
         },
         {
@@ -4952,12 +4955,12 @@
       "id": 1293,
       "name": "11U OBA Rep",
       "category": "OBA Rep",
-      "gp": 0,
-      "wins": 0,
+      "gp": 2,
+      "wins": 2,
       "losses": 0,
       "ties": 0,
-      "runs_for": 0,
-      "runs_against": 0,
+      "runs_for": 19,
+      "runs_against": 20,
       "practices": 42,
       "roster": {
         "players": 12,
@@ -5083,7 +5086,7 @@
           "date": "2026-05-03",
           "start_time": "4:00 PM",
           "end_date": "2026-05-03",
-          "summary": "11U OBA Rep - Game vs 10U A OBA Rep [WC11U-005]",
+          "summary": "11U OBA Rep - Game vs 10U A OBA Rep [WC11U-005](W 4-16)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -5093,7 +5096,7 @@
           "date": "2026-05-03",
           "start_time": "6:30 PM",
           "end_date": "2026-05-04",
-          "summary": "11U OBA Rep - Game @ 10U A OBA Rep [WC11U-064]",
+          "summary": "11U OBA Rep - Game @ 10U A OBA Rep [WC11U-064](W 16-3)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -5757,9 +5760,9 @@
           "start_time": "4:00 PM",
           "opponent": null,
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 16,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -5769,9 +5772,9 @@
           "start_time": "6:30 PM",
           "opponent": null,
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 3,
+          "opp_score": 16,
           "cancelled": false
         },
         {
@@ -11964,7 +11967,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 24,
+      "practices": 23,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -12045,13 +12048,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20125-sarniabrigade.ca",
+          "uid": "MS-21250-sarniabrigade.ca",
           "date": "2026-05-07",
           "start_time": "6:00 PM",
           "end_date": "2026-05-08",
-          "summary": "11U Select - Practice",
+          "summary": "11U Select - Game vs Lambton Shores Eagles",
           "location": "Clearwater Diamond #3",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -12477,6 +12480,18 @@
       ],
       "games": [
         {
+          "game_id": "21250",
+          "href": "https://sarniabrigade.ca/Teams/1303/Games/21250/",
+          "date": "2026-05-07",
+          "start_time": "6:00 PM",
+          "opponent": "Lambton Shores Eagles Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20839",
           "href": "https://sarniabrigade.ca/Teams/1303/Games/20839/",
           "date": "2026-05-13",
@@ -12755,12 +12770,37 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-05-07",
+            "time": "6:00 PM",
+            "opponent": "Lambton Shores Eagles",
+            "venue": "Clearwater Diamond #3",
+            "assigned_umpires": [
+              "Hayden Scheuermann",
+              "Jason Lajeunesse",
+              "Jeffrey Stephenson"
+            ],
+            "accepted_umpires": [],
+            "pending_umpires": [
+              "Hayden Scheuermann",
+              "Jason Lajeunesse",
+              "Jeffrey Stephenson"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 3,
+            "accepted_count": 0,
+            "pending_count": 3,
+            "denied_count": 0,
+            "assignment_state": "assigned_not_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 0.0,
@@ -15928,12 +15968,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 6,
+      "gp": 7,
       "wins": 6,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "runs_for": 46,
-      "runs_against": 20,
+      "runs_for": 47,
+      "runs_against": 33,
       "practices": 47,
       "roster": {
         "players": 15,
@@ -16041,6 +16081,16 @@
           "end_date": "2026-05-02",
           "summary": "16U PBLO - Game vs Milton [15](W 3-7)",
           "location": "Father Angelo Saad",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21251-sarniabrigade.ca",
+          "date": "2026-05-03",
+          "start_time": "11:15 AM",
+          "end_date": "2026-05-03",
+          "summary": "16U PBLO - Game vs Markham Mariners 16u Elite [SF](L 13-1)",
+          "location": "River Grove Community Centre (Diamond 2)",
           "type": "game",
           "cancelled": false
         },
@@ -16938,6 +16988,18 @@
           "result": "W",
           "brigade_score": 7,
           "opp_score": 3,
+          "cancelled": false
+        },
+        {
+          "game_id": "21251",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/21251/",
+          "date": "2026-05-03",
+          "start_time": "11:15 AM",
+          "opponent": "Markham Mariners",
+          "home": true,
+          "result": "L",
+          "brigade_score": 1,
+          "opp_score": 13,
           "cancelled": false
         },
         {
