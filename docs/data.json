@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-04T19:33:24.518392Z",
+  "generated": "2026-05-04T23:04:49.314996Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3384,6 +3384,7 @@
                   "Marko Sazdov",
                   "Mason Harper",
                   "Mason Portiss",
+                  "Matt Kennett",
                   "Matthew Schrie",
                   "Mikayla Coubroug",
                   "Myles Hobbs",
@@ -3496,10 +3497,10 @@
                 ],
                 "pending_umpires": [
                   "Ameer Sulaiman",
-                  "Annette Hoggarth",
                   "Baya Vandenheuvel",
                   "Bentley Daughtrey",
                   "Brian Mundt",
+                  "Brock Lane",
                   "Brogan Murphy",
                   "Bryson Large",
                   "Caleb Willemsvandyk",
@@ -3508,28 +3509,34 @@
                   "Carter Palmer",
                   "Carter Wills",
                   "Charlie Philp",
+                  "Chris Bonneau",
                   "Chris Makrigiannis",
                   "Derek Bayly",
+                  "Drew Baxter",
                   "Ewan Snedden",
                   "Fielder Snake",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greyson Gibb",
                   "Harper Vandenheuval",
-                  "Hayden Scheuermann",
                   "Irelynn Shaw",
                   "Jackson Bunda",
                   "Jackson Burlingham",
+                  "Jason Lajeunesse",
                   "Jaxson Pyne",
                   "Jeffrey Stephenson",
                   "Joey Buchner",
                   "Jonas Winklmeier",
+                  "Juan Peralta",
+                  "Kevin Johnson",
+                  "Lawrence Dyck",
                   "Logan Conroy",
                   "Lucas Nethery",
                   "Luke Walls",
                   "Marko Sazdov",
                   "Mason Harper",
                   "Mason Portiss",
+                  "Matt Kennett",
                   "Myles Hobbs",
                   "Nathan Zavitz",
                   "Rio Ruiz",
@@ -3574,9 +3581,9 @@
                   "Sydney Nisbet",
                   "Tristan Heeringa"
                 ],
-                "assigned_count": 105,
+                "assigned_count": 106,
                 "accepted_count": 77,
-                "pending_count": 47,
+                "pending_count": 53,
                 "denied_count": 29,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -9799,7 +9806,7 @@
       "ties": 0,
       "runs_for": 9,
       "runs_against": 11,
-      "practices": 65,
+      "practices": 64,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -9809,16 +9816,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19690-sarniabrigade.ca",
-          "date": "2026-03-04",
-          "start_time": "5:30 PM",
-          "end_date": "2026-03-05",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19691-sarniabrigade.ca",
           "date": "2026-03-11",
@@ -12790,6 +12787,9 @@
             "opponent": "Lambton Shores Eagles",
             "venue": "Clearwater Diamond #3",
             "assigned_umpires": [
+              "Carter Palmer",
+              "Chris Makrigiannis",
+              "Drew Baxter",
               "Hayden Scheuermann",
               "Jason Lajeunesse",
               "Jeffrey Stephenson",
@@ -12797,17 +12797,20 @@
             ],
             "accepted_umpires": [],
             "pending_umpires": [
-              "Hayden Scheuermann",
+              "Carter Palmer",
+              "Chris Makrigiannis",
+              "Drew Baxter",
               "Jeffrey Stephenson",
               "Marko Sazdov"
             ],
             "denied_umpires": [
+              "Hayden Scheuermann",
               "Jason Lajeunesse"
             ],
-            "assigned_count": 4,
+            "assigned_count": 7,
             "accepted_count": 0,
-            "pending_count": 3,
-            "denied_count": 1,
+            "pending_count": 5,
+            "denied_count": 2,
             "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
           }
@@ -15985,7 +15988,7 @@
       "ties": 0,
       "runs_for": 47,
       "runs_against": 33,
-      "practices": 47,
+      "practices": 44,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -16386,16 +16389,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20036-sarniabrigade.ca",
-          "date": "2026-06-05",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-06",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19734-sarniabrigade.ca",
           "date": "2026-06-06",
           "start_time": "10:00 AM",
@@ -16456,16 +16449,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20037-sarniabrigade.ca",
-          "date": "2026-06-12",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-13",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19750-sarniabrigade.ca",
           "date": "2026-06-13",
           "start_time": "6:00 PM",
@@ -16522,16 +16505,6 @@
           "end_date": "2026-06-18",
           "summary": "16U PBLO - Practice",
           "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20038-sarniabrigade.ca",
-          "date": "2026-06-19",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-20",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
           "type": "practice",
           "cancelled": false
         },
