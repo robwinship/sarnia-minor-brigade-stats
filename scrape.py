@@ -1009,6 +1009,34 @@ def _strip_tags(html: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html)).strip()
 
 
+def _normalize_result_token(raw_result: str) -> str:
+    """Normalize schedule result tokens to W/L/T."""
+    rw = (raw_result or "").upper()
+    if rw in ("WIN", "WON", "W"):
+        return "W"
+    if rw in ("LOSS", "LOST", "L"):
+        return "L"
+    return "T"
+
+
+def _map_visitor_home_to_brigade(visitor_score: int, home_score: int, is_home: bool) -> tuple:
+    """Map visitor/home score order into Brigade/opponent order."""
+    if is_home:
+        return home_score, visitor_score
+    return visitor_score, home_score
+
+
+def _result_matches_scores(result: str, brigade_score: int, opp_score: int) -> bool:
+    """Check if W/L/T token is consistent with Brigade-vs-opponent scores."""
+    if result == "W":
+        return brigade_score > opp_score
+    if result == "L":
+        return brigade_score < opp_score
+    if result == "T":
+        return brigade_score == opp_score
+    return True
+
+
 def parse_schedule(html: str, month: int, year: int) -> list:
     """
     Parse a team Schedule & Results HTML page.
@@ -1031,6 +1059,11 @@ def parse_schedule(html: str, month: int, year: int) -> list:
             continue
         game_href = href_m.group(1)
         game_id   = href_m.group(2)
+
+        cancelled = False
+        div_cancelled_m = re.search(r'<div[^>]*class="[^"]*cancelled[^"]*"', seg)
+        if div_cancelled_m:
+            cancelled = True
 
         # Grab text up to the next game anchor, venue block, or heading
         content_m = re.search(
@@ -1073,47 +1106,56 @@ def parse_schedule(html: str, month: int, year: int) -> list:
             rm = RESULT_RE.search(text)
             if rm:
                 # Leading format: "W 5-3" / "WIN 5 - 3"
-                # Score order is Brigade-first (Brigade score, then opponent score).
-                rw = rm.group(1).upper()
-                result = (
-                    "W" if rw in ("WIN", "WON", "W") else
-                    "L" if rw in ("LOSS", "LOST", "L") else
-                    "T"
+                # Treat scores as visitor-home first, then map via home/away.
+                result = _normalize_result_token(rm.group(1))
+                visitor_score = int(rm.group(2))
+                home_score = int(rm.group(3))
+                brigade_score, opp_score = _map_visitor_home_to_brigade(
+                    visitor_score,
+                    home_score,
+                    is_home,
                 )
-                brigade_score = int(rm.group(2))
-                opp_score     = int(rm.group(3))
             else:
                 rm = SCORE_TRAILING_RE.search(text)
                 if rm:
                     # Trailing format: "1-5 W" / "6-7 L" (site-native)
-                    # Scores are visitor-home order; map to brigade/opp via is_home.
+                    result = _normalize_result_token(rm.group(3))
                     visitor_score = int(rm.group(1))
-                    home_score    = int(rm.group(2))
-                    rw = rm.group(3).upper()
-                    result = (
-                        "W" if rw in ("WIN", "WON", "W") else
-                        "L" if rw in ("LOSS", "LOST", "L") else
-                        "T"
+                    home_score = int(rm.group(2))
+                    brigade_score, opp_score = _map_visitor_home_to_brigade(
+                        visitor_score,
+                        home_score,
+                        is_home,
                     )
-                    if is_home:
-                        brigade_score = home_score
-                        opp_score     = visitor_score
-                    else:
-                        brigade_score = visitor_score
-                        opp_score     = home_score
                 else:
                     # Bare score fallback — only use with obvious game markers
                     if re.search(r"\b(HOME GAME|AWAY GAME|vs\.?|@ )", text, re.IGNORECASE):
                         sm = SCORE_RE.search(text)
                         if sm:
                             visitor_score = int(sm.group(1))
-                            home_score    = int(sm.group(2))
-                            if is_home:
-                                brigade_score = home_score
-                                opp_score     = visitor_score
-                            else:
-                                brigade_score = visitor_score
-                                opp_score     = home_score
+                            home_score = int(sm.group(2))
+                            brigade_score, opp_score = _map_visitor_home_to_brigade(
+                                visitor_score,
+                                home_score,
+                                is_home,
+                            )
+
+            if result and brigade_score is not None and opp_score is not None:
+                if not _result_matches_scores(result, brigade_score, opp_score):
+                    swapped_brigade, swapped_opp = opp_score, brigade_score
+                    if _result_matches_scores(result, swapped_brigade, swapped_opp):
+                        brigade_score, opp_score = swapped_brigade, swapped_opp
+                        print(
+                            "  WARN  Corrected score orientation from result token "
+                            f"game_id={game_id} result={result} mapped={brigade_score}-{opp_score}",
+                            file=sys.stderr,
+                        )
+                    else:
+                        print(
+                            "  WARN  Result/score mismatch "
+                            f"game_id={game_id} result={result} score={brigade_score}-{opp_score}",
+                            file=sys.stderr,
+                        )
 
         # --- Date ---
         game_date = None
@@ -1140,6 +1182,7 @@ def parse_schedule(html: str, month: int, year: int) -> list:
             "result":       result,
             "brigade_score": brigade_score,
             "opp_score":    opp_score,
+            "cancelled":    cancelled,
         })
 
     return games
