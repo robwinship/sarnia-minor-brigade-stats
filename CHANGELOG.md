@@ -1,4 +1,7 @@
 # Changelog
+## v1.27 - 2026-05-05 09:25:41
+- corrected RF and RA numbers
+
 ## v1.26 - 2026-04-29 17:08:08
 - added more columns to the budget model and a 2027 estimator
 
