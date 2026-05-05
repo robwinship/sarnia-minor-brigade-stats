@@ -1123,21 +1123,35 @@ def parse_schedule(html: str, month: int, year: int) -> list:
         raw_content = content_m.group(1) if content_m else seg[href_m.end():500]
         text = _strip_tags(raw_content)
 
-        # --- Opponent + home/away (parsed first — needed for score orientation) ---
-        # The schedule page marks each game with an explicit "HOME GAME" or
-        # "AWAY GAME" badge. Use that as the primary signal; fall back to
-        # vs./@ patterns for sites that may omit the badge.
+        # --- Opponent + home/away ---
+        # Prefer explicit HOME/AWAY badges, then fallback to vs/@ tokens.
+        # Some pages omit markers; avoid silently defaulting to home.
         opponent = None
-        is_home  = True
+        is_home  = None
 
         vm = VS_RE.search(text)
         am = AT_RE.search(text)
         if vm:
             opponent = re.split(r"\s+\d", vm.group(1))[0].strip().rstrip(".,;")
-            is_home  = "AWAY GAME" not in text.upper()
         elif am:
             opponent = re.split(r"\s+\d", am.group(1))[0].strip().rstrip(".,;")
+
+        text_upper = text.upper()
+        if "AWAY GAME" in text_upper:
             is_home  = False
+        elif "HOME GAME" in text_upper:
+            is_home = True
+        elif am:
+            is_home = False
+        elif vm:
+            is_home = True
+
+        if is_home is None:
+            is_home = False
+            print(
+                f"  WARN  Ambiguous home/away for team game {game_id}; defaulting to away",
+                file=sys.stderr,
+            )
 
         # Also catch "CANCELLED" / "POSTPONED" expressed as plain text in case
         # the CSS class was absent.
@@ -1168,34 +1182,22 @@ def parse_schedule(html: str, month: int, year: int) -> list:
                 rm = SCORE_TRAILING_RE.search(text)
                 if rm:
                     # Trailing format: "1-5 W" / "6-7 L" (site-native)
-                    # Scores are visitor-home order; map to brigade/opp via is_home.
-                    visitor_score = int(rm.group(1))
-                    home_score    = int(rm.group(2))
+                    # Scores are team-first order in the schedule row.
+                    brigade_score = int(rm.group(1))
+                    opp_score     = int(rm.group(2))
                     rw = rm.group(3).upper()
                     result = (
                         "W" if rw in ("WIN", "WON", "W") else
                         "L" if rw in ("LOSS", "LOST", "L") else
                         "T"
                     )
-                    if is_home:
-                        brigade_score = home_score
-                        opp_score     = visitor_score
-                    else:
-                        brigade_score = visitor_score
-                        opp_score     = home_score
                 else:
                     # Bare score fallback — only use with obvious game markers
                     if re.search(r"\b(HOME GAME|AWAY GAME|vs\.?|@ )", text, re.IGNORECASE):
                         sm = SCORE_RE.search(text)
                         if sm:
-                            visitor_score = int(sm.group(1))
-                            home_score    = int(sm.group(2))
-                            if is_home:
-                                brigade_score = home_score
-                                opp_score     = visitor_score
-                            else:
-                                brigade_score = visitor_score
-                                opp_score     = home_score
+                            brigade_score = int(sm.group(1))
+                            opp_score     = int(sm.group(2))
 
         # --- Date ---
         game_date = None
@@ -1334,6 +1336,50 @@ def collect_team(team: dict, team_assignments: list, cp_status: dict) -> dict:
             seen.add(key)
             unique.append(g)
     out["games"] = unique
+
+    # Validate parsed home/away against ICS markers where we have a single
+    # unambiguous game event for a date/time key.
+    ics_home_by_key = defaultdict(set)
+    ics_home_by_date = defaultdict(set)
+    for event in out["events"]:
+        if event.get("type") != "game":
+            continue
+        summary = str(event.get("summary") or "")
+        home_marker = None
+        if "@" in summary:
+            home_marker = False
+        elif re.search(r"\bvs\.?\b", summary, re.IGNORECASE):
+            home_marker = True
+        if home_marker is None:
+            continue
+
+        event_date = event.get("date")
+        event_time = (event.get("start_time") or "").upper()
+        if event_date:
+            ics_home_by_date[event_date].add(home_marker)
+            ics_home_by_key[(event_date, event_time)].add(home_marker)
+
+    for g in out["games"]:
+        game_date = g.get("date")
+        game_home = g.get("home")
+        if game_date is None or game_home is None:
+            continue
+        game_time = (g.get("start_time") or "").upper()
+
+        expected = ics_home_by_key.get((game_date, game_time), set())
+        if not expected:
+            expected = ics_home_by_date.get(game_date, set())
+        if len(expected) == 1:
+            expected_home = next(iter(expected))
+            if expected_home != game_home:
+                print(
+                    "  WARN  Home/away mismatch "
+                    f"team={team['name']} game_id={g.get('game_id')} "
+                    f"date={game_date} time={g.get('start_time')} "
+                    f"parsed={'HOME' if game_home else 'AWAY'} "
+                    f"ics={'HOME' if expected_home else 'AWAY'}",
+                    file=sys.stderr,
+                )
 
     # Aggregate season totals
     for g in out["games"]:
