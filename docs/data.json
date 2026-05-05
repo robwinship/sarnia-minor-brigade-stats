@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-05T19:33:08.350528Z",
+  "generated": "2026-05-05T23:02:55.610660Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -382,7 +382,7 @@
         {
           "uid": "MS-20502-sarniabrigade.ca",
           "date": "2026-06-22",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-06-23",
           "summary": "8U OBA Rep - Game @ Alvinston Riverhawks [WC9U-085]",
           "location": "Inwood Park",
@@ -921,7 +921,7 @@
           "game_id": "20502",
           "href": "https://sarniabrigade.ca/Teams/1290/Games/20502/",
           "date": "2026-06-22",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "opponent": "Alvinston Riverhawks WC9U-085 Inwood Park",
           "home": false,
           "result": null,
@@ -3252,6 +3252,7 @@
               "Drew Bennett",
               "Easton McKinlay",
               "Ethan Antle",
+              "Gage Boyd",
               "Graham Dolbear",
               "Grant Purdy",
               "Greg Armstrong",
@@ -3373,7 +3374,6 @@
                   "Juan Peralta",
                   "Kassie Buchan",
                   "Katrina Cadotte",
-                  "Kayleigh Buchan",
                   "Kayne Golder",
                   "Kevin Johnson",
                   "Kirk Vines",
@@ -3448,6 +3448,7 @@
                   "Drew Bennett",
                   "Easton McKinlay",
                   "Ethan Antle",
+                  "Gage Boyd",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
@@ -3513,7 +3514,6 @@
                   "Brock Lane",
                   "Caleb Willemsvandyk",
                   "Cali Vanderslagt",
-                  "Carson Whittington",
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Carter Wills",
@@ -3525,11 +3525,8 @@
                   "Derek Bayly",
                   "Drew Baxter",
                   "Drew Bennett",
-                  "Easton McKinlay",
                   "Ewan Snedden",
                   "Fielder Snake",
-                  "Gage Boyd",
-                  "Grady Boyd",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Hannah Stewart",
@@ -3565,16 +3562,15 @@
                   "Brock Lane",
                   "Brogan Murphy",
                   "Bryson Large",
+                  "Carson Whittington",
                   "Chris Bonneau",
-                  "Chris Makrigiannis",
                   "Cohen Smith",
                   "Drew Baxter",
+                  "Grady Boyd",
                   "Grant Purdy",
                   "Hayden Scheuermann",
                   "Jack Needham",
-                  "Jason Lajeunesse",
                   "Jonas Winklmeier",
-                  "Kayleigh Buchan",
                   "Liam Scott",
                   "Logan Hiscocks",
                   "Lucas Barker",
@@ -3588,10 +3584,10 @@
                   "Tristan Heeringa",
                   "Tucker Stokes"
                 ],
-                "assigned_count": 109,
-                "accepted_count": 79,
-                "pending_count": 57,
-                "denied_count": 25,
+                "assigned_count": 108,
+                "accepted_count": 80,
+                "pending_count": 53,
+                "denied_count": 24,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4983,7 +4979,7 @@
       "ties": 0,
       "runs_for": 32,
       "runs_against": 7,
-      "practices": 42,
+      "practices": 41,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -4993,16 +4989,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19620-sarniabrigade.ca",
-          "date": "2026-03-05",
-          "start_time": "5:00 PM",
-          "end_date": "2026-03-06",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19621-sarniabrigade.ca",
           "date": "2026-03-12",
@@ -12782,59 +12768,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-07",
-            "time": "6:00 PM",
-            "opponent": "Lambton Shores Eagles",
-            "venue": "Clearwater Diamond #3",
-            "assigned_umpires": [
-              "Bryson Large",
-              "Carter Palmer",
-              "Charlie Philp",
-              "Chris Makrigiannis",
-              "Drew Baxter",
-              "Hayden Scheuermann",
-              "Jarett Simons",
-              "Jason Lajeunesse",
-              "Jaxson Pyne",
-              "Jeffrey Stephenson",
-              "Jonas Winklmeier",
-              "Liam Scott",
-              "Marko Sazdov"
-            ],
-            "accepted_umpires": [
-              "Jarett Simons"
-            ],
-            "pending_umpires": [
-              "Carter Palmer",
-              "Charlie Philp",
-              "Jaxson Pyne",
-              "Jeffrey Stephenson",
-              "Jonas Winklmeier",
-              "Liam Scott"
-            ],
-            "denied_umpires": [
-              "Bryson Large",
-              "Chris Makrigiannis",
-              "Drew Baxter",
-              "Hayden Scheuermann",
-              "Jason Lajeunesse",
-              "Marko Sazdov"
-            ],
-            "assigned_count": 13,
-            "accepted_count": 1,
-            "pending_count": 6,
-            "denied_count": 6,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 0.0,
