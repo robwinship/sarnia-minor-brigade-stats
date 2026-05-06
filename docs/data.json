@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-06T19:33:06.902406Z",
+  "generated": "2026-05-06T23:03:15.017815Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2233,7 +2233,7 @@
       "ties": 0,
       "runs_for": 20,
       "runs_against": 10,
-      "practices": 52,
+      "practices": 51,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -2243,16 +2243,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19639-sarniabrigade.ca",
-          "date": "2026-03-06",
-          "start_time": "5:00 PM",
-          "end_date": "2026-03-07",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19640-sarniabrigade.ca",
           "date": "2026-03-13",
@@ -3522,7 +3512,6 @@
                   "Brock Lane",
                   "Caleb Willemsvandyk",
                   "Cali Vanderslagt",
-                  "Carson Whittington",
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Carter Wills",
@@ -3565,7 +3554,6 @@
                   "Trent Hogan",
                   "Tyler Hoadley",
                   "Tyler Whetham",
-                  "Will Garton",
                   "Will Greer"
                 ],
                 "denied_umpires": [
@@ -3595,7 +3583,7 @@
                 ],
                 "assigned_count": 108,
                 "accepted_count": 84,
-                "pending_count": 55,
+                "pending_count": 53,
                 "denied_count": 23,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -15632,7 +15620,7 @@
           "start_time": "6:30 PM",
           "end_date": "2026-08-01",
           "summary": "13U LDBA House League - Game @ Camlachie 1 [13uW78]",
-          "location": "Arnold Minielly (Diamond 1)",
+          "location": "Arnold Minielly (Diamond 3)",
           "type": "game",
           "cancelled": false
         },
