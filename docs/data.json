@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-06T10:03:05.457400Z",
+  "generated": "2026-05-06T16:03:12.979686Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3276,6 +3276,7 @@
               "Kye Golder",
               "Kylee Salisbury",
               "Lawrence Dyck",
+              "Levi Burlingham",
               "Liam Scott",
               "Logan Conroy",
               "Logan Hiscocks",
@@ -3286,6 +3287,7 @@
               "Matthew Schrie",
               "Mikayla Coubroug",
               "Myles Hobbs",
+              "Noah Bechard",
               "Nolan Bogaert",
               "Paolo Padiglia",
               "Parker Leighton",
@@ -3381,10 +3383,10 @@
                   "Kye Golder",
                   "Kylee Salisbury",
                   "Lawrence Dyck",
+                  "Levi Burlingham",
                   "Liam Scott",
                   "Logan Conroy",
                   "Logan Hiscocks",
-                  "Lucas Barker",
                   "Lucas Nethery",
                   "Luke Walls",
                   "Marko Sazdov",
@@ -3474,6 +3476,7 @@
                   "Kye Golder",
                   "Kylee Salisbury",
                   "Lawrence Dyck",
+                  "Levi Burlingham",
                   "Liam Scott",
                   "Logan Conroy",
                   "Logan Hiscocks",
@@ -3484,6 +3487,7 @@
                   "Matthew Schrie",
                   "Mikayla Coubroug",
                   "Myles Hobbs",
+                  "Noah Bechard",
                   "Nolan Bogaert",
                   "Paolo Padiglia",
                   "Parker Leighton",
@@ -3516,7 +3520,6 @@
                   "Bentley Daughtrey",
                   "Brian Mundt",
                   "Brock Lane",
-                  "Brogan Murphy",
                   "Caleb Willemsvandyk",
                   "Cali Vanderslagt",
                   "Carson Whittington",
@@ -3530,7 +3533,7 @@
                   "Cohen Smith",
                   "Derek Bayly",
                   "Drew Baxter",
-                  "Drew Bennett",
+                  "Easton McKinlay",
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
@@ -3544,7 +3547,6 @@
                   "Jaxson Pyne",
                   "Jeffrey Stephenson",
                   "Joey Buchner",
-                  "Jonas Winklmeier",
                   "Kevin Johnson",
                   "Kylee Salisbury",
                   "Lawrence Dyck",
@@ -3555,24 +3557,19 @@
                   "Marko Sazdov",
                   "Mason Harper",
                   "Mason Portiss",
-                  "Myles Hobbs",
                   "Nathan Zavitz",
-                  "Noah Bechard",
                   "Penny Core",
                   "Rio Ruiz",
                   "Rylie Bunda",
-                  "Sadie Daughtrey",
                   "Shane Moorhouse",
                   "Terry Doyle",
                   "Trent Hogan",
                   "Tyler Hoadley",
                   "Tyler Whetham",
                   "Will Garton",
-                  "Will Greer",
-                  "William MacKenzie"
+                  "Will Greer"
                 ],
                 "denied_umpires": [
-                  "Brian Mundt",
                   "Brock Lane",
                   "Brogan Murphy",
                   "Bryson Large",
@@ -3587,9 +3584,8 @@
                   "Jonas Winklmeier",
                   "Liam Scott",
                   "Logan Hiscocks",
-                  "Lucas Barker",
                   "Marko Sazdov",
-                  "Paolo Padiglia",
+                  "Myles Hobbs",
                   "Ralph Campbell",
                   "Ryder Daye",
                   "Shane Moorhouse",
@@ -3599,9 +3595,9 @@
                   "Tucker Stokes"
                 ],
                 "assigned_count": 108,
-                "accepted_count": 82,
-                "pending_count": 62,
-                "denied_count": 25,
+                "accepted_count": 84,
+                "pending_count": 56,
+                "denied_count": 23,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -6176,7 +6172,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 46,
+      "practices": 44,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -6281,7 +6277,7 @@
           "date": "2026-04-29",
           "start_time": "6:00 PM",
           "end_date": "2026-04-30",
-          "summary": "CANCELLED 12U OBA Rep - Game vs Sarnia Brigade 13U Rep",
+          "summary": "12U OBA Rep - Game vs TBA",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6757,16 +6753,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20571-sarniabrigade.ca",
-          "date": "2026-08-02",
-          "start_time": "10:00 AM",
-          "end_date": "2026-08-02",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20594-sarniabrigade.ca",
           "date": "2026-08-03",
           "start_time": "5:30 PM",
@@ -6851,16 +6837,6 @@
           "date": "2026-08-19",
           "start_time": "6:00 PM",
           "end_date": "2026-08-20",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20577-sarniabrigade.ca",
-          "date": "2026-08-23",
-          "start_time": "10:00 AM",
-          "end_date": "2026-08-23",
           "summary": "12U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
@@ -6957,6 +6933,16 @@
           "cancelled": false
         },
         {
+          "uid": "MD-3326-sarniabrigade.ca",
+          "date": "2026-08-21",
+          "start_time": null,
+          "end_date": "2026-08-24",
+          "summary": "12U OBA Rep - LDBA",
+          "location": "London",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
           "uid": "MD-3298-sarniabrigade.ca",
           "date": "2026-09-03",
           "start_time": null,
@@ -6973,12 +6959,12 @@
           "href": "https://sarniabrigade.ca/Teams/1294/Games/20599/",
           "date": "2026-04-29",
           "start_time": "6:00 PM",
-          "opponent": "Sarnia Brigade",
+          "opponent": "TBA Tecumseh Park",
           "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": true
+          "cancelled": false
         },
         {
           "game_id": "20898",
@@ -7294,13 +7280,30 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 0,
+        "games_missed": 1,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-04-29",
+            "time": "6:00 PM",
+            "opponent": "TBA",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "past"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7648.97,
@@ -16444,10 +16447,10 @@
         {
           "uid": "MS-19752-sarniabrigade.ca",
           "date": "2026-06-14",
-          "start_time": "10:00 AM",
+          "start_time": "9:00 AM",
           "end_date": "2026-06-14",
           "summary": "16U PBLO - Game @ Ontario Giants",
-          "location": "Chris Gibson (Red)",
+          "location": "Morris Kerbel",
           "type": "game",
           "cancelled": false
         },
@@ -16456,7 +16459,7 @@
           "date": "2026-06-14",
           "start_time": "1:00 PM",
           "end_date": "2026-06-14",
-          "summary": "16U PBLO - Game @ Ontario Giants",
+          "summary": "CANCELLED 16U PBLO - Game @ Ontario Giants",
           "location": "Chris Gibson (Red)",
           "type": "game",
           "cancelled": false
@@ -17215,8 +17218,8 @@
           "game_id": "19752",
           "href": "https://sarniabrigade.ca/Teams/1298/Games/19752/",
           "date": "2026-06-14",
-          "start_time": "10:00 AM",
-          "opponent": "Ontario Giants Chris Gibson",
+          "start_time": "9:00 AM",
+          "opponent": "Ontario Giants Morris Kerbel",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -17233,7 +17236,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "19723",
@@ -18647,15 +18650,6 @@
       "location": "Tecumseh Park"
     },
     {
-      "team_id": 1294,
-      "team_name": "12U OBA Rep",
-      "type": "game",
-      "date": "2026-04-29",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 12U OBA Rep - Game vs Sarnia Brigade 13U Rep",
-      "location": "Tecumseh Park"
-    },
-    {
       "team_id": 1296,
       "team_name": "14U OBA Rep",
       "type": "game",
@@ -18744,6 +18738,15 @@
       "start_time": "7:30 PM",
       "summary": "CANCELLED 16U PBLO - Practice",
       "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1298,
+      "team_name": "16U PBLO",
+      "type": "game",
+      "date": "2026-06-14",
+      "start_time": "1:00 PM",
+      "summary": "CANCELLED 16U PBLO - Game @ Ontario Giants",
+      "location": "Chris Gibson (Red)"
     }
   ]
 }
