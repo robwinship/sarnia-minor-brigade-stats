@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-06T16:03:12.979686Z",
+  "generated": "2026-05-06T19:33:06.902406Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3533,7 +3533,6 @@
                   "Cohen Smith",
                   "Derek Bayly",
                   "Drew Baxter",
-                  "Easton McKinlay",
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
@@ -3596,7 +3595,7 @@
                 ],
                 "assigned_count": 108,
                 "accepted_count": 84,
-                "pending_count": 56,
+                "pending_count": 55,
                 "denied_count": 23,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -15463,7 +15462,7 @@
           "start_time": "6:30 PM",
           "end_date": "2026-06-27",
           "summary": "13U LDBA House League - Game @ Camlachie 1 [13uW48]",
-          "location": "Arnold Minielly (Diamond 1)",
+          "location": "Arnold Minielly (Diamond 3)",
           "type": "game",
           "cancelled": false
         },
