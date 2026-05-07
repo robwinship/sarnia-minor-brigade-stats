@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-07T10:03:21.188544Z",
+  "generated": "2026-05-07T16:03:04.887122Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3242,7 +3242,6 @@
               "Drew Bennett",
               "Easton McKinlay",
               "Ethan Antle",
-              "Fielder Snake",
               "Gage Boyd",
               "Graham Dolbear",
               "Grant Purdy",
@@ -3292,6 +3291,7 @@
               "Steve McGrail",
               "Sydney Nisbet",
               "Terry Doyle",
+              "Trent Hogan",
               "Tristan Heeringa",
               "Tyler Hoadley",
               "Tyler Vandenberg",
@@ -3442,7 +3442,6 @@
                   "Drew Bennett",
                   "Easton McKinlay",
                   "Ethan Antle",
-                  "Fielder Snake",
                   "Gage Boyd",
                   "Graham Dolbear",
                   "Grant Purdy",
@@ -3493,6 +3492,7 @@
                   "Steve McGrail",
                   "Sydney Nisbet",
                   "Terry Doyle",
+                  "Trent Hogan",
                   "Tristan Heeringa",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
@@ -3523,7 +3523,9 @@
                   "Dan Scott",
                   "Derek Bayly",
                   "Drew Baxter",
+                  "Drew Bennett",
                   "Ewan Snedden",
+                  "Fielder Snake",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Hannah Stewart",
@@ -3551,7 +3553,6 @@
                   "Rylie Bunda",
                   "Shane Moorhouse",
                   "Terry Doyle",
-                  "Trent Hogan",
                   "Tyler Hoadley",
                   "Tyler Whetham",
                   "Will Greer"
@@ -3585,7 +3586,7 @@
                 ],
                 "assigned_count": 108,
                 "accepted_count": 84,
-                "pending_count": 53,
+                "pending_count": 54,
                 "denied_count": 25,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -6161,7 +6162,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 44,
+      "practices": 43,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -6171,16 +6172,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-19994-sarniabrigade.ca",
-          "date": "2026-03-07",
-          "start_time": "7:00 AM",
-          "end_date": "2026-03-07",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19995-sarniabrigade.ca",
           "date": "2026-03-14",
@@ -8619,7 +8610,7 @@
           "date": "2026-05-10",
           "start_time": "10:00 AM",
           "end_date": "2026-05-10",
-          "summary": "14U OBA Rep - Game vs TBA",
+          "summary": "CANCELLED 14U OBA Rep - Game vs TBA",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -9350,7 +9341,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20661",
@@ -12100,7 +12091,7 @@
           "date": "2026-05-07",
           "start_time": "6:00 PM",
           "end_date": "2026-05-08",
-          "summary": "11U Select - Game vs Lambton Shores Eagles",
+          "summary": "CANCELLED 11U Select - Game vs Lambton Shores Eagles",
           "location": "Clearwater Diamond #3",
           "type": "game",
           "cancelled": false
@@ -12537,7 +12528,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20839",
@@ -18812,6 +18803,15 @@
       "location": "Blackwell Park"
     },
     {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "game",
+      "date": "2026-05-10",
+      "start_time": "10:00 AM",
+      "summary": "CANCELLED 14U OBA Rep - Game vs TBA",
+      "location": "Blackwell Park"
+    },
+    {
       "team_id": 1297,
       "team_name": "15U OBA Rep",
       "type": "game",
@@ -18828,6 +18828,15 @@
       "start_time": "5:30 PM",
       "summary": "CANCELLED 15U OBA Rep - Practice",
       "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1303,
+      "team_name": "11U Select",
+      "type": "game",
+      "date": "2026-05-07",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 11U Select - Game vs Lambton Shores Eagles",
+      "location": "Clearwater Diamond #3"
     },
     {
       "team_id": 1300,
