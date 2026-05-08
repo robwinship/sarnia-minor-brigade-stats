@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-07T23:03:14.883044Z",
+  "generated": "2026-05-08T10:03:28.814073Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3517,12 +3517,10 @@
                   "Carter Palmer",
                   "Carter Wills",
                   "Charlie Philp",
-                  "Chris Bonneau",
                   "Chris Makrigiannis",
                   "Clark Thornton",
                   "Cohen Smith",
                   "Dan Scott",
-                  "Derek Bayly",
                   "Drew Baxter",
                   "Ewan Snedden",
                   "Fielder Snake",
@@ -3532,15 +3530,11 @@
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
                   "Irelynn Shaw",
-                  "Jackson Bunda",
                   "Jackson Burlingham",
                   "Jaxson Pyne",
                   "Jeffrey Stephenson",
                   "Joey Buchner",
-                  "Kevin Johnson",
                   "Kylee Salisbury",
-                  "Lawrence Dyck",
-                  "Levi Burlingham",
                   "Liam Scott",
                   "Logan Conroy",
                   "Lucas Nethery",
@@ -3549,11 +3543,8 @@
                   "Mason Harper",
                   "Mason Portiss",
                   "Nathan Zavitz",
-                  "Ralph Campbell",
                   "Rio Ruiz",
-                  "Ryder Daye",
                   "Shane Moorhouse",
-                  "Steve McGrail",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham",
@@ -3573,11 +3564,11 @@
                   "Jack Needham",
                   "Jackson Burlingham",
                   "Jonas Winklmeier",
+                  "Lawrence Dyck",
                   "Liam Scott",
                   "Logan Hiscocks",
                   "Marko Sazdov",
                   "Myles Hobbs",
-                  "Penny Core",
                   "Ralph Campbell",
                   "Ryder Daye",
                   "Shane Moorhouse",
@@ -3587,7 +3578,7 @@
                 ],
                 "assigned_count": 108,
                 "accepted_count": 84,
-                "pending_count": 56,
+                "pending_count": 47,
                 "denied_count": 24,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -15312,7 +15303,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 35,
+      "practices": 23,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -15443,16 +15434,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20363-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "1:00 PM",
-          "end_date": "2026-05-24",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21210-sarniabrigade.ca",
           "date": "2026-05-29",
           "start_time": "6:00 PM",
@@ -15463,16 +15444,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20345-sarniabrigade.ca",
-          "date": "2026-05-29",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-30",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #4",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21211-sarniabrigade.ca",
           "date": "2026-05-31",
           "start_time": "1:00 PM",
@@ -15480,16 +15451,6 @@
           "summary": "13U LDBA House League - Game vs Strathroy Royal Blue [13uW17]",
           "location": "Clearwater Diamond #4",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20364-sarniabrigade.ca",
-          "date": "2026-05-31",
-          "start_time": "1:00 PM",
-          "end_date": "2026-05-31",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -15543,16 +15504,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20366-sarniabrigade.ca",
-          "date": "2026-06-14",
-          "start_time": "1:00 PM",
-          "end_date": "2026-06-14",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21216-sarniabrigade.ca",
           "date": "2026-06-19",
           "start_time": "6:00 PM",
@@ -15563,16 +15514,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20348-sarniabrigade.ca",
-          "date": "2026-06-19",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-20",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #4",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21217-sarniabrigade.ca",
           "date": "2026-06-21",
           "start_time": "1:00 PM",
@@ -15580,26 +15521,6 @@
           "summary": "13U LDBA House League - Game vs DKMB Red [13uW41]",
           "location": "Clearwater Diamond #4",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20367-sarniabrigade.ca",
-          "date": "2026-06-21",
-          "start_time": "1:00 PM",
-          "end_date": "2026-06-21",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20349-sarniabrigade.ca",
-          "date": "2026-06-26",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-27",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #4",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -15620,16 +15541,6 @@
           "summary": "13U LDBA House League - Game vs Lambton Shores 1 [13uW49]",
           "location": "Clearwater Diamond #4",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20368-sarniabrigade.ca",
-          "date": "2026-06-28",
-          "start_time": "1:00 PM",
-          "end_date": "2026-06-28",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -15673,16 +15584,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20351-sarniabrigade.ca",
-          "date": "2026-07-10",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-11",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #4",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21222-sarniabrigade.ca",
           "date": "2026-07-12",
           "start_time": "1:00 PM",
@@ -15690,26 +15591,6 @@
           "summary": "13U LDBA House League - Game vs Camlachie 1 [13uW64]",
           "location": "Clearwater Diamond #4",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20370-sarniabrigade.ca",
-          "date": "2026-07-12",
-          "start_time": "1:00 PM",
-          "end_date": "2026-07-12",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20352-sarniabrigade.ca",
-          "date": "2026-07-17",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-18",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #4",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -15759,16 +15640,6 @@
           "end_date": "2026-07-26",
           "summary": "13U LDBA House League - Practice",
           "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20354-sarniabrigade.ca",
-          "date": "2026-07-31",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-01",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #4",
           "type": "practice",
           "cancelled": false
         },
