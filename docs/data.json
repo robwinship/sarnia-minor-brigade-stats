@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-08T10:03:28.814073Z",
+  "generated": "2026-05-08T16:03:13.210089Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3255,6 +3255,7 @@
               "Jakob Rodriguez",
               "Jarett Simons",
               "Jason Lajeunesse",
+              "Joey Buchner",
               "Jonas Winklmeier",
               "Juan Peralta",
               "Kassie Buchan",
@@ -3455,6 +3456,7 @@
                   "Jakob Rodriguez",
                   "Jarett Simons",
                   "Jason Lajeunesse",
+                  "Joey Buchner",
                   "Jonas Winklmeier",
                   "Juan Peralta",
                   "Kassie Buchan",
@@ -3510,7 +3512,6 @@
                   "Baya Vandenheuvel",
                   "Bentley Daughtrey",
                   "Brian Mundt",
-                  "Brock Lane",
                   "Caleb Willemsvandyk",
                   "Cali Vanderslagt",
                   "Carsyn Tnydall",
@@ -3521,7 +3522,6 @@
                   "Clark Thornton",
                   "Cohen Smith",
                   "Dan Scott",
-                  "Drew Baxter",
                   "Ewan Snedden",
                   "Fielder Snake",
                   "Graham Dolbear",
@@ -3535,7 +3535,7 @@
                   "Jeffrey Stephenson",
                   "Joey Buchner",
                   "Kylee Salisbury",
-                  "Liam Scott",
+                  "Lawrence Dyck",
                   "Logan Conroy",
                   "Lucas Nethery",
                   "Luke Walls",
@@ -3544,7 +3544,7 @@
                   "Mason Portiss",
                   "Nathan Zavitz",
                   "Rio Ruiz",
-                  "Shane Moorhouse",
+                  "Steve McGrail",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham",
@@ -3563,6 +3563,7 @@
                   "Hayden Scheuermann",
                   "Jack Needham",
                   "Jackson Burlingham",
+                  "Joey Buchner",
                   "Jonas Winklmeier",
                   "Lawrence Dyck",
                   "Liam Scott",
@@ -3577,9 +3578,9 @@
                   "Tucker Stokes"
                 ],
                 "assigned_count": 108,
-                "accepted_count": 84,
-                "pending_count": 47,
-                "denied_count": 24,
+                "accepted_count": 85,
+                "pending_count": 45,
+                "denied_count": 25,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -14523,7 +14524,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 19,
+      "practices": 18,
       "roster": {
         "players": 16,
         "adults": 5,
@@ -14584,13 +14585,23 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20451-sarniabrigade.ca",
+          "uid": "MS-21291-sarniabrigade.ca",
           "date": "2026-06-01",
           "start_time": "6:00 PM",
           "end_date": "2026-06-02",
-          "summary": "9U River League - Practice",
-          "location": "Blackwell North",
-          "type": "practice",
+          "summary": "9U River League - Game vs Alvinston Riverhawks Grey [RL9UN-63]",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21292-sarniabrigade.ca",
+          "date": "2026-06-03",
+          "start_time": "6:30 PM",
+          "end_date": "2026-06-04",
+          "summary": "9U River League - Game @ Alvinston Riverhawks Red [RL9UN-22]",
+          "location": "Inwood Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -14611,6 +14622,16 @@
           "summary": "9U River League - Practice",
           "location": "Blackwell North",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21294-sarniabrigade.ca",
+          "date": "2026-06-20",
+          "start_time": "12:00 PM",
+          "end_date": "2026-06-20",
+          "summary": "9U River League - Game @ Alvinston Riverhawks Navy [RL9UN-42]",
+          "location": "Inwood Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -14654,6 +14675,26 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21290-sarniabrigade.ca",
+          "date": "2026-07-14",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-15",
+          "summary": "9U River League - Game @ Port Lambton Pirates [RL9UN-104]",
+          "location": "MacDonald Park (2 - North)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21295-sarniabrigade.ca",
+          "date": "2026-07-16",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-17",
+          "summary": "9U River League - Game @ Corunna Giants Team 1 [RL9UN-33]",
+          "location": "Athletic Park (4)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20458-sarniabrigade.ca",
           "date": "2026-07-20",
           "start_time": "6:00 PM",
@@ -14661,6 +14702,16 @@
           "summary": "9U River League - Practice",
           "location": "Blackwell North",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21293-sarniabrigade.ca",
+          "date": "2026-07-23",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-24",
+          "summary": "9U River League - Game @ Alvinston Riverhawks Grey [RL9UN-49]",
+          "location": "Inwood Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -14724,7 +14775,80 @@
           "cancelled": false
         }
       ],
-      "games": [],
+      "games": [
+        {
+          "game_id": "21291",
+          "href": "https://sarniabrigade.ca/Teams/1304/Games/21291/",
+          "date": "2026-06-01",
+          "start_time": "6:00 PM",
+          "opponent": "Alvinston Riverhawks Grey RL9UN-63 Blackwell P",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21292",
+          "href": "https://sarniabrigade.ca/Teams/1304/Games/21292/",
+          "date": "2026-06-03",
+          "start_time": "6:30 PM",
+          "opponent": "Alvinston Riverhawks Red RL9UN-22 Inwood Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21294",
+          "href": "https://sarniabrigade.ca/Teams/1304/Games/21294/",
+          "date": "2026-06-20",
+          "start_time": "12:00 PM",
+          "opponent": "Alvinston Riverhawks Navy RL9UN-42 Inwood Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21290",
+          "href": "https://sarniabrigade.ca/Teams/1304/Games/21290/",
+          "date": "2026-07-14",
+          "start_time": "6:30 PM",
+          "opponent": "Port Lambton Pirates RL9UN-104 MacDonald Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21295",
+          "href": "https://sarniabrigade.ca/Teams/1304/Games/21295/",
+          "date": "2026-07-16",
+          "start_time": "6:00 PM",
+          "opponent": "Corunna Giants Team",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21293",
+          "href": "https://sarniabrigade.ca/Teams/1304/Games/21293/",
+          "date": "2026-07-23",
+          "start_time": "6:30 PM",
+          "opponent": "Alvinston Riverhawks Grey RL9UN-49 Inwood Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        }
+      ],
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
@@ -14753,7 +14877,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 29,
+      "practices": 27,
       "roster": {
         "players": 8,
         "adults": 1,
@@ -15004,13 +15128,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21064-sarniabrigade.ca",
+          "uid": "MS-21287-sarniabrigade.ca",
           "date": "2026-07-15",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-07-16",
-          "summary": "11U Lady Brigade - Practice",
-          "location": "TBD",
-          "type": "practice",
+          "summary": "11U Lady Brigade - Game vs Corunna Minor Giants",
+          "location": "Tecumseh Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -15034,13 +15158,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21079-sarniabrigade.ca",
+          "uid": "MS-21289-sarniabrigade.ca",
           "date": "2026-07-27",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-07-28",
-          "summary": "11U Lady Brigade - Practice",
+          "summary": "11U Lady Brigade - Game vs Corunna Minor Giants",
           "location": "Clearwater Diamond #1",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -15064,7 +15188,32 @@
           "cancelled": false
         }
       ],
-      "games": [],
+      "games": [
+        {
+          "game_id": "21287",
+          "href": "https://sarniabrigade.ca/Teams/1310/Games/21287/",
+          "date": "2026-07-15",
+          "start_time": "6:30 PM",
+          "opponent": "Corunna Minor Giants Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21289",
+          "href": "https://sarniabrigade.ca/Teams/1310/Games/21289/",
+          "date": "2026-07-27",
+          "start_time": "6:30 PM",
+          "opponent": "Corunna Minor Giants Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        }
+      ],
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
