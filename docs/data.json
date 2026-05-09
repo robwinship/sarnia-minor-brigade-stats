@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-09T10:03:21.518300Z",
+  "generated": "2026-05-09T16:03:13.454905Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3509,16 +3509,19 @@
                   "AJ Mumby",
                   "Alexander Pfaff",
                   "Ameer Sulaiman",
+                  "Annette Hoggarth",
                   "Axl Taylor",
                   "Baya Vandenheuvel",
                   "Bentley Daughtrey",
                   "Brian Mundt",
+                  "Brock Lane",
                   "Caleb Willemsvandyk",
                   "Cali Vanderslagt",
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Carter Wills",
                   "Charlie Philp",
+                  "Chris Bonneau",
                   "Chris Makrigiannis",
                   "Clark Thornton",
                   "Cohen Smith",
@@ -3534,11 +3537,12 @@
                   "Irelynn Shaw",
                   "Jackson Burlingham",
                   "Jarett Simons",
+                  "Jason Lajeunesse",
                   "Jaxson Pyne",
                   "Jeffrey Stephenson",
                   "Joey Buchner",
                   "Katrina Cadotte",
-                  "Kylee Salisbury",
+                  "Lawrence Dyck",
                   "Levi Burlingham",
                   "Logan Conroy",
                   "Lucas Nethery",
@@ -3546,7 +3550,6 @@
                   "Marko Sazdov",
                   "Mason Harper",
                   "Mason Portiss",
-                  "Matthew Schrie",
                   "Nathan Zavitz",
                   "Ralph Campbell",
                   "Rio Ruiz",
@@ -3573,7 +3576,6 @@
                   "Jackson Burlingham",
                   "Joey Buchner",
                   "Jonas Winklmeier",
-                  "Kirk Vines",
                   "Liam Scott",
                   "Logan Hiscocks",
                   "Marko Sazdov",
@@ -3587,8 +3589,8 @@
                 ],
                 "assigned_count": 108,
                 "accepted_count": 86,
-                "pending_count": 50,
-                "denied_count": 26,
+                "pending_count": 53,
+                "denied_count": 25,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4006,7 +4008,7 @@
           "date": "2026-06-10",
           "start_time": "6:15 PM",
           "end_date": "2026-06-11",
-          "summary": "10U A OBA Rep - Game @ Corunna Giants Select [WC11UEx-001]",
+          "summary": "10U A OBA Rep - Game @ Corunna Giants Select [WC11UEX-017]",
           "location": "Athletic Park (4)",
           "type": "game",
           "cancelled": false
@@ -4728,7 +4730,7 @@
           "href": "https://sarniabrigade.ca/Teams/1311/Games/21152/",
           "date": "2026-06-10",
           "start_time": "6:15 PM",
-          "opponent": "Corunna Giants Select WC11UEx-001 Athletic Par",
+          "opponent": "Corunna Giants Select WC11UEX-017 Athletic Par",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -11333,17 +11335,18 @@
               "Dan Scott",
               "Matthew Schrie"
             ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Dan Scott",
+            "accepted_umpires": [
               "Matthew Schrie"
+            ],
+            "pending_umpires": [
+              "Dan Scott"
             ],
             "denied_umpires": [],
             "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
           {
@@ -11355,17 +11358,18 @@
               "Dan Scott",
               "Matthew Schrie"
             ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Dan Scott",
+            "accepted_umpires": [
               "Matthew Schrie"
+            ],
+            "pending_umpires": [
+              "Dan Scott"
             ],
             "denied_umpires": [],
             "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -11385,17 +11389,18 @@
                   "Dan Scott",
                   "Matthew Schrie"
                 ],
-                "accepted_umpires": [],
-                "pending_umpires": [
-                  "Dan Scott",
+                "accepted_umpires": [
                   "Matthew Schrie"
+                ],
+                "pending_umpires": [
+                  "Dan Scott"
                 ],
                 "denied_umpires": [],
                 "assigned_count": 2,
-                "accepted_count": 0,
-                "pending_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
                 "denied_count": 0,
-                "assignment_state": "assigned_not_accepted"
+                "assignment_state": "assigned_and_accepted"
               },
               {
                 "time": "12:30 PM",
@@ -11405,17 +11410,18 @@
                   "Dan Scott",
                   "Matthew Schrie"
                 ],
-                "accepted_umpires": [],
-                "pending_umpires": [
-                  "Dan Scott",
+                "accepted_umpires": [
                   "Matthew Schrie"
+                ],
+                "pending_umpires": [
+                  "Dan Scott"
                 ],
                 "denied_umpires": [],
                 "assigned_count": 2,
-                "accepted_count": 0,
-                "pending_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
                 "denied_count": 0,
-                "assignment_state": "assigned_not_accepted"
+                "assignment_state": "assigned_and_accepted"
               }
             ]
           }
@@ -15389,7 +15395,7 @@
           "date": "2026-07-15",
           "start_time": "6:30 PM",
           "end_date": "2026-07-16",
-          "summary": "11U Lady Brigade - Game vs Corunna Minor Giants",
+          "summary": "11U Lady Brigade - Game vs Corunna Giants Select [WC11UEX-005]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -15569,7 +15575,7 @@
           "href": "https://sarniabrigade.ca/Teams/1310/Games/21287/",
           "date": "2026-07-15",
           "start_time": "6:30 PM",
-          "opponent": "Corunna Minor Giants Tecumseh Park",
+          "opponent": "Corunna Giants Select WC11UEX-005 Tecumseh Par",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -15762,6 +15768,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21385-sarniabrigade.ca",
+          "date": "2026-06-19",
+          "start_time": "8:00 PM",
+          "end_date": "2026-06-20",
+          "summary": "11u River League - Game @ Corunna Giants Select [WC11UEX-016]",
+          "location": "Stewart Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21356-sarniabrigade.ca",
           "date": "2026-06-22",
           "start_time": "6:30 PM",
@@ -15946,6 +15962,18 @@
           "cancelled": false
         },
         {
+          "game_id": "21385",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21385/",
+          "date": "2026-06-19",
+          "start_time": "8:00 PM",
+          "opponent": "Corunna Giants Select WC11UEX-016 Stewart Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "21356",
           "href": "https://sarniabrigade.ca/Teams/1315/Games/21356/",
           "date": "2026-06-22",
@@ -15987,6 +16015,18 @@
           "date": "2026-07-20",
           "start_time": "6:30 PM",
           "opponent": "Alvinston Riverhawks Select RL11UN-51 Clearwat",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21386",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21386/",
+          "date": "2026-07-27",
+          "start_time": "6:30 PM",
+          "opponent": "Corunna Giants Select WC11UEX-004 Clearwater D",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -18121,18 +18161,21 @@
             "venue": "Errol Russell Park",
             "assigned_umpires": [
               "Annette Hoggarth",
+              "Chris Bonneau",
               "Tyler Whetham"
             ],
             "accepted_umpires": [
               "Tyler Whetham"
             ],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Chris Bonneau"
+            ],
             "denied_umpires": [
               "Annette Hoggarth"
             ],
-            "assigned_count": 2,
+            "assigned_count": 3,
             "accepted_count": 1,
-            "pending_count": 0,
+            "pending_count": 1,
             "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -18144,18 +18187,21 @@
             "venue": "Errol Russell Park",
             "assigned_umpires": [
               "Annette Hoggarth",
+              "Chris Bonneau",
               "Tyler Whetham"
             ],
             "accepted_umpires": [
               "Tyler Whetham"
             ],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Chris Bonneau"
+            ],
             "denied_umpires": [
               "Annette Hoggarth"
             ],
-            "assigned_count": 2,
+            "assigned_count": 3,
             "accepted_count": 1,
-            "pending_count": 0,
+            "pending_count": 1,
             "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -18230,18 +18276,21 @@
                 "venue": "Errol Russell Park",
                 "assigned_umpires": [
                   "Annette Hoggarth",
+                  "Chris Bonneau",
                   "Tyler Whetham"
                 ],
                 "accepted_umpires": [
                   "Tyler Whetham"
                 ],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "Chris Bonneau"
+                ],
                 "denied_umpires": [
                   "Annette Hoggarth"
                 ],
-                "assigned_count": 2,
+                "assigned_count": 3,
                 "accepted_count": 1,
-                "pending_count": 0,
+                "pending_count": 1,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -18251,18 +18300,21 @@
                 "venue": "Errol Russell Park",
                 "assigned_umpires": [
                   "Annette Hoggarth",
+                  "Chris Bonneau",
                   "Tyler Whetham"
                 ],
                 "accepted_umpires": [
                   "Tyler Whetham"
                 ],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "Chris Bonneau"
+                ],
                 "denied_umpires": [
                   "Annette Hoggarth"
                 ],
-                "assigned_count": 2,
+                "assigned_count": 3,
                 "accepted_count": 1,
-                "pending_count": 0,
+                "pending_count": 1,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               }
@@ -18288,7 +18340,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 0,
+      "practices": 1,
       "roster": {
         "players": 0,
         "adults": 1,
@@ -18299,31 +18351,21 @@
       },
       "events": [
         {
+          "uid": "MS-21376-sarniabrigade.ca",
+          "date": "2026-05-09",
+          "start_time": "1:00 PM",
+          "end_date": "2026-05-09",
+          "summary": "22U AAA - Practice",
+          "location": "Canton Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21181-sarniabrigade.ca",
           "date": "2026-05-12",
           "start_time": "7:30 PM",
           "end_date": "2026-05-13",
-          "summary": "22U AAA - Game @ TBA",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21182-sarniabrigade.ca",
-          "date": "2026-05-17",
-          "start_time": "1:00 PM",
-          "end_date": "2026-05-17",
-          "summary": "22U AAA - Game @ TBA",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21183-sarniabrigade.ca",
-          "date": "2026-05-17",
-          "start_time": "3:30 PM",
-          "end_date": "2026-05-17",
-          "summary": "22U AAA - Game @ TBA",
+          "summary": "22U AAA - Game vs TBA",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -18333,7 +18375,17 @@
           "date": "2026-05-19",
           "start_time": "7:30 PM",
           "end_date": "2026-05-20",
-          "summary": "22U AAA - Game vs TBA",
+          "summary": "22U AAA - Game vs Port Lambton Pirates",
+          "location": "Errol Russell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21383-sarniabrigade.ca",
+          "date": "2026-05-20",
+          "start_time": "7:30 PM",
+          "end_date": "2026-05-21",
+          "summary": "22U AAA - Game @ TBA",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -18351,29 +18403,29 @@
         {
           "uid": "MS-21204-sarniabrigade.ca",
           "date": "2026-05-30",
-          "start_time": "5:30 PM",
+          "start_time": "12:00 PM",
           "end_date": "2026-05-30",
-          "summary": "22U AAA - Game vs TBA",
-          "location": "Errol Russell Park",
+          "summary": "22U AAA - Game vs Windsor Stars",
+          "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
         },
         {
           "uid": "MS-21205-sarniabrigade.ca",
           "date": "2026-05-30",
-          "start_time": "8:00 PM",
-          "end_date": "2026-05-31",
-          "summary": "22U AAA - Game vs TBA",
-          "location": "Errol Russell Park",
+          "start_time": "2:30 PM",
+          "end_date": "2026-05-30",
+          "summary": "22U AAA - Game vs Windsor Stars",
+          "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
         },
         {
           "uid": "MS-21189-sarniabrigade.ca",
           "date": "2026-05-31",
-          "start_time": "1:00 PM",
+          "start_time": "12:00 PM",
           "end_date": "2026-05-31",
-          "summary": "22U AAA - Game vs TBA",
+          "summary": "22U AAA - Game vs Waterloo",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -18381,18 +18433,18 @@
         {
           "uid": "MS-21188-sarniabrigade.ca",
           "date": "2026-05-31",
-          "start_time": "3:30 PM",
+          "start_time": "2:30 PM",
           "end_date": "2026-05-31",
-          "summary": "22U AAA - Game vs TBA",
+          "summary": "22U AAA - Game vs Waterloo",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
         },
         {
-          "uid": "MS-21190-sarniabrigade.ca",
-          "date": "2026-06-03",
+          "uid": "MS-21384-sarniabrigade.ca",
+          "date": "2026-06-02",
           "start_time": "7:30 PM",
-          "end_date": "2026-06-04",
+          "end_date": "2026-06-03",
           "summary": "22U AAA - Game vs TBA",
           "location": "Errol Russell Park",
           "type": "game",
@@ -18403,28 +18455,38 @@
           "date": "2026-06-04",
           "start_time": "7:30 PM",
           "end_date": "2026-06-05",
-          "summary": "22U AAA - Game vs TBA",
+          "summary": "22U AAA - Game vs Chatham Major Diamonds",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
         },
         {
-          "uid": "MS-21203-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "1:00 PM",
-          "end_date": "2026-06-07",
-          "summary": "22U AAA - Game vs TBA",
-          "location": "Errol Russell Park",
+          "uid": "MS-21377-sarniabrigade.ca",
+          "date": "2026-06-06",
+          "start_time": "10:00 AM",
+          "end_date": "2026-06-06",
+          "summary": "22U AAA - Game @ Tecumseh Thunder",
+          "location": "Mic Mac Park",
           "type": "game",
           "cancelled": false
         },
         {
-          "uid": "MS-21201-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "3:30 PM",
-          "end_date": "2026-06-07",
-          "summary": "22U AAA - Game vs TBA",
-          "location": "Errol Russell Park",
+          "uid": "MS-21378-sarniabrigade.ca",
+          "date": "2026-06-06",
+          "start_time": "12:30 PM",
+          "end_date": "2026-06-06",
+          "summary": "22U AAA - Game @ Windsor Stars",
+          "location": "Mic Mac Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21379-sarniabrigade.ca",
+          "date": "2026-06-10",
+          "start_time": "6:30 PM",
+          "end_date": "2026-06-11",
+          "summary": "22U AAA - Game @ Port Lambton Pirates",
+          "location": "Vandamme Park",
           "type": "game",
           "cancelled": false
         },
@@ -18433,18 +18495,18 @@
           "date": "2026-06-16",
           "start_time": "7:30 PM",
           "end_date": "2026-06-17",
-          "summary": "22U AAA - Game vs TBA",
+          "summary": "22U AAA - Game vs Wyoming Minor Wranglers",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
         },
         {
-          "uid": "MS-21193-sarniabrigade.ca",
-          "date": "2026-06-23",
+          "uid": "MS-21380-sarniabrigade.ca",
+          "date": "2026-06-25",
           "start_time": "7:30 PM",
-          "end_date": "2026-06-24",
-          "summary": "22U AAA - Game vs TBA",
-          "location": "Errol Russell Park",
+          "end_date": "2026-06-26",
+          "summary": "22U AAA - Game @ Ilderton",
+          "location": "Labatt Field",
           "type": "game",
           "cancelled": false
         },
@@ -18453,7 +18515,7 @@
           "date": "2026-06-27",
           "start_time": "1:00 PM",
           "end_date": "2026-06-27",
-          "summary": "22U AAA - Game vs TBA",
+          "summary": "22U AAA - Game vs Hamilton",
           "location": "Courtright Community Park",
           "type": "game",
           "cancelled": false
@@ -18463,28 +18525,8 @@
           "date": "2026-06-27",
           "start_time": "3:30 PM",
           "end_date": "2026-06-27",
-          "summary": "22U AAA - Game vs TBA",
+          "summary": "22U AAA - Game vs Hamilton",
           "location": "Courtright Community Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21194-sarniabrigade.ca",
-          "date": "2026-06-28",
-          "start_time": "1:00 PM",
-          "end_date": "2026-06-28",
-          "summary": "22U AAA - Game vs TBA",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21195-sarniabrigade.ca",
-          "date": "2026-06-28",
-          "start_time": "3:30 PM",
-          "end_date": "2026-06-28",
-          "summary": "22U AAA - Game vs TBA",
-          "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
         },
@@ -18493,8 +18535,28 @@
           "date": "2026-07-08",
           "start_time": "7:30 PM",
           "end_date": "2026-07-09",
-          "summary": "22U AAA - Game vs TBA",
+          "summary": "22U AAA - Game vs london 18 U",
           "location": "Errol Russell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21381-sarniabrigade.ca",
+          "date": "2026-07-11",
+          "start_time": "1:00 PM",
+          "end_date": "2026-07-11",
+          "summary": "22U AAA - Game @ Hamilton",
+          "location": "TBD",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21382-sarniabrigade.ca",
+          "date": "2026-07-11",
+          "start_time": "3:30 PM",
+          "end_date": "2026-07-11",
+          "summary": "22U AAA - Game @ Hamilton",
+          "location": "TBD",
           "type": "game",
           "cancelled": false
         },
@@ -18507,6 +18569,36 @@
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
+        },
+        {
+          "uid": "MD-3329-sarniabrigade.ca",
+          "date": "2026-06-19",
+          "start_time": null,
+          "end_date": "2026-06-22",
+          "summary": "22U AAA - Windsor",
+          "location": "Windsor",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3331-sarniabrigade.ca",
+          "date": "2026-07-03",
+          "start_time": null,
+          "end_date": "2026-07-06",
+          "summary": "22U AAA - London",
+          "location": "London",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3332-sarniabrigade.ca",
+          "date": "2026-07-17",
+          "start_time": null,
+          "end_date": "2026-07-21",
+          "summary": "22U AAA - Ontario AAA Eliminations",
+          "location": "Kitchener",
+          "type": "tournament",
+          "cancelled": false
         }
       ],
       "games": [
@@ -18516,31 +18608,7 @@
           "date": "2026-05-12",
           "start_time": "7:30 PM",
           "opponent": "TBA Errol Russell Park",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "21182",
-          "href": "https://sarniabrigade.ca/Teams/1306/Games/21182/",
-          "date": "2026-05-17",
-          "start_time": "1:00 PM",
-          "opponent": "TBA Errol Russell Park",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "21183",
-          "href": "https://sarniabrigade.ca/Teams/1306/Games/21183/",
-          "date": "2026-05-17",
-          "start_time": "3:30 PM",
-          "opponent": "TBA Errol Russell Park",
-          "home": false,
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -18551,7 +18619,19 @@
           "href": "https://sarniabrigade.ca/Teams/1306/Games/21184/",
           "date": "2026-05-19",
           "start_time": "7:30 PM",
-          "opponent": "TBA Errol Russell Park",
+          "opponent": "Port Lambton Pirates Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21383",
+          "href": "https://sarniabrigade.ca/Teams/1306/Games/21383/",
+          "date": "2026-05-20",
+          "start_time": "7:30 PM",
+          "opponent": "London Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -18564,7 +18644,7 @@
           "date": "2026-05-27",
           "start_time": "7:30 PM",
           "opponent": "TBA Errol Russell Park",
-          "home": true,
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -18574,8 +18654,8 @@
           "game_id": "21204",
           "href": "https://sarniabrigade.ca/Teams/1306/Games/21204/",
           "date": "2026-05-30",
-          "start_time": "5:30 PM",
-          "opponent": "TBA Errol Russell Park",
+          "start_time": "12:00 PM",
+          "opponent": "Windsor Stars Blackwell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -18586,8 +18666,8 @@
           "game_id": "21205",
           "href": "https://sarniabrigade.ca/Teams/1306/Games/21205/",
           "date": "2026-05-30",
-          "start_time": "8:00 PM",
-          "opponent": "TBA Errol Russell Park",
+          "start_time": "2:30 PM",
+          "opponent": "Windsor Stars Blackwell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -18598,8 +18678,8 @@
           "game_id": "21189",
           "href": "https://sarniabrigade.ca/Teams/1306/Games/21189/",
           "date": "2026-05-31",
-          "start_time": "1:00 PM",
-          "opponent": "TBA Errol Russell Park",
+          "start_time": "12:00 PM",
+          "opponent": "Waterloo Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -18610,8 +18690,8 @@
           "game_id": "21188",
           "href": "https://sarniabrigade.ca/Teams/1306/Games/21188/",
           "date": "2026-05-31",
-          "start_time": "3:30 PM",
-          "opponent": "TBA Errol Russell Park",
+          "start_time": "2:30 PM",
+          "opponent": "Waterloo Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -18619,11 +18699,11 @@
           "cancelled": false
         },
         {
-          "game_id": "21190",
-          "href": "https://sarniabrigade.ca/Teams/1306/Games/21190/",
-          "date": "2026-06-03",
+          "game_id": "21384",
+          "href": "https://sarniabrigade.ca/Teams/1306/Games/21384/",
+          "date": "2026-06-02",
           "start_time": "7:30 PM",
-          "opponent": "TBA Errol Russell Park",
+          "opponent": "London Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -18635,7 +18715,7 @@
           "href": "https://sarniabrigade.ca/Teams/1306/Games/21191/",
           "date": "2026-06-04",
           "start_time": "7:30 PM",
-          "opponent": "TBA Errol Russell Park",
+          "opponent": "Chatham Major Diamonds Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -18643,24 +18723,36 @@
           "cancelled": false
         },
         {
-          "game_id": "21203",
-          "href": "https://sarniabrigade.ca/Teams/1306/Games/21203/",
-          "date": "2026-06-07",
-          "start_time": "1:00 PM",
-          "opponent": "TBA Errol Russell Park",
-          "home": true,
+          "game_id": "21377",
+          "href": "https://sarniabrigade.ca/Teams/1306/Games/21377/",
+          "date": "2026-06-06",
+          "start_time": "10:00 AM",
+          "opponent": "Tecumseh Thunder Mic Mac Park",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
           "cancelled": false
         },
         {
-          "game_id": "21201",
-          "href": "https://sarniabrigade.ca/Teams/1306/Games/21201/",
-          "date": "2026-06-07",
-          "start_time": "3:30 PM",
-          "opponent": "TBA Errol Russell Park",
-          "home": true,
+          "game_id": "21378",
+          "href": "https://sarniabrigade.ca/Teams/1306/Games/21378/",
+          "date": "2026-06-06",
+          "start_time": "12:30 PM",
+          "opponent": "Windsor Stars Mic Mac Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21379",
+          "href": "https://sarniabrigade.ca/Teams/1306/Games/21379/",
+          "date": "2026-06-10",
+          "start_time": "6:30 PM",
+          "opponent": "Port Lambton Pirates Vandamme Park",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -18671,7 +18763,7 @@
           "href": "https://sarniabrigade.ca/Teams/1306/Games/21192/",
           "date": "2026-06-16",
           "start_time": "7:30 PM",
-          "opponent": "TBA Errol Russell Park",
+          "opponent": "Wyoming Minor Wranglers Errol Russell Park Mor",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -18679,12 +18771,12 @@
           "cancelled": false
         },
         {
-          "game_id": "21193",
-          "href": "https://sarniabrigade.ca/Teams/1306/Games/21193/",
-          "date": "2026-06-23",
+          "game_id": "21380",
+          "href": "https://sarniabrigade.ca/Teams/1306/Games/21380/",
+          "date": "2026-06-25",
           "start_time": "7:30 PM",
-          "opponent": "TBA Errol Russell Park",
-          "home": true,
+          "opponent": "Ilderton Labatt Field",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -18695,7 +18787,7 @@
           "href": "https://sarniabrigade.ca/Teams/1306/Games/21198/",
           "date": "2026-06-27",
           "start_time": "1:00 PM",
-          "opponent": "TBA Courtright Community Park",
+          "opponent": "Hamilton Courtright Community Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -18707,31 +18799,7 @@
           "href": "https://sarniabrigade.ca/Teams/1306/Games/21199/",
           "date": "2026-06-27",
           "start_time": "3:30 PM",
-          "opponent": "TBA Courtright Community Park",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "21194",
-          "href": "https://sarniabrigade.ca/Teams/1306/Games/21194/",
-          "date": "2026-06-28",
-          "start_time": "1:00 PM",
-          "opponent": "TBA Errol Russell Park",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "21195",
-          "href": "https://sarniabrigade.ca/Teams/1306/Games/21195/",
-          "date": "2026-06-28",
-          "start_time": "3:30 PM",
-          "opponent": "TBA Errol Russell Park",
+          "opponent": "Hamilton Courtright Community Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -18743,8 +18811,44 @@
           "href": "https://sarniabrigade.ca/Teams/1306/Games/21196/",
           "date": "2026-07-08",
           "start_time": "7:30 PM",
-          "opponent": "TBA Errol Russell Park",
+          "opponent": "london",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21381",
+          "href": "https://sarniabrigade.ca/Teams/1306/Games/21381/",
+          "date": "2026-07-11",
+          "start_time": "1:00 PM",
+          "opponent": "Hamilton TBD",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21382",
+          "href": "https://sarniabrigade.ca/Teams/1306/Games/21382/",
+          "date": "2026-07-11",
+          "start_time": "3:30 PM",
+          "opponent": "Hamilton TBD",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21387",
+          "href": "https://sarniabrigade.ca/Teams/1306/Games/21387/",
+          "date": "2026-07-12",
+          "start_time": "12:30 PM",
+          "opponent": "TBA Errol Russell Park More Details Jul",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -18765,12 +18869,29 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-05-12",
+            "time": "7:30 PM",
+            "opponent": "TBA",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": null,
@@ -18814,9 +18935,9 @@
         {
           "uid": "MS-21157-sarniabrigade.ca",
           "date": "2026-05-17",
-          "start_time": "1:00 PM",
+          "start_time": "12:00 PM",
           "end_date": "2026-05-17",
-          "summary": "Senior AAA - Game vs TBA",
+          "summary": "Senior AAA - Game vs Windsor Athletic",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -18824,30 +18945,30 @@
         {
           "uid": "MS-21158-sarniabrigade.ca",
           "date": "2026-05-17",
-          "start_time": "3:30 PM",
+          "start_time": "2:30 PM",
           "end_date": "2026-05-17",
-          "summary": "Senior AAA - Game vs TBA",
+          "summary": "Senior AAA - Game vs Windsor Athletic",
           "location": "Errol Russell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21375-sarniabrigade.ca",
+          "date": "2026-05-23",
+          "start_time": "10:00 AM",
+          "end_date": "2026-05-23",
+          "summary": "Senior AAA - Game @ Windsor Stars",
+          "location": "Mic Mac Park",
           "type": "game",
           "cancelled": false
         },
         {
           "uid": "MS-21165-sarniabrigade.ca",
           "date": "2026-05-23",
-          "start_time": "1:00 PM",
+          "start_time": "12:30 PM",
           "end_date": "2026-05-23",
           "summary": "Senior AAA - Game @ Windsor Stars",
-          "location": "TBD",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21166-sarniabrigade.ca",
-          "date": "2026-05-23",
-          "start_time": "3:30 PM",
-          "end_date": "2026-05-23",
-          "summary": "Senior AAA - Game @ Windsor Stars",
-          "location": "TBD",
+          "location": "Mic Mac Park",
           "type": "game",
           "cancelled": false
         },
@@ -18866,7 +18987,7 @@
           "date": "2026-06-03",
           "start_time": "7:30 PM",
           "end_date": "2026-06-04",
-          "summary": "Senior AAA - Game vs TBA",
+          "summary": "Senior AAA - Game vs Ilderton",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -18874,50 +18995,20 @@
         {
           "uid": "MS-21169-sarniabrigade.ca",
           "date": "2026-06-07",
-          "start_time": "3:30 PM",
+          "start_time": "1:00 PM",
           "end_date": "2026-06-07",
-          "summary": "Senior AAA - Game vs TBA",
-          "location": "Errol Russell Park",
+          "summary": "Senior AAA - Game vs Windsor Stars",
+          "location": "Courtright Community Park",
           "type": "game",
           "cancelled": false
         },
         {
           "uid": "MS-21170-sarniabrigade.ca",
           "date": "2026-06-07",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-08",
-          "summary": "Senior AAA - Game vs TBA",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21171-sarniabrigade.ca",
-          "date": "2026-06-12",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-13",
-          "summary": "Senior AAA - Game vs TBA",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21172-sarniabrigade.ca",
-          "date": "2026-06-13",
-          "start_time": "10:00 AM",
-          "end_date": "2026-06-13",
-          "summary": "Senior AAA - Game vs TBA",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21173-sarniabrigade.ca",
-          "date": "2026-06-14",
-          "start_time": "10:00 AM",
-          "end_date": "2026-06-14",
-          "summary": "Senior AAA - Game vs TBA",
-          "location": "Errol Russell Park",
+          "start_time": "3:30 PM",
+          "end_date": "2026-06-07",
+          "summary": "Senior AAA - Game vs Windsor Stars",
+          "location": "Courtright Community Park",
           "type": "game",
           "cancelled": false
         },
@@ -18926,7 +19017,7 @@
           "date": "2026-06-23",
           "start_time": "7:30 PM",
           "end_date": "2026-06-24",
-          "summary": "Senior AAA - Game vs TBA",
+          "summary": "Senior AAA - Game vs Port Lambton Pirates",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -18934,9 +19025,9 @@
         {
           "uid": "MS-21175-sarniabrigade.ca",
           "date": "2026-06-28",
-          "start_time": "1:00 PM",
+          "start_time": "12:00 PM",
           "end_date": "2026-06-28",
-          "summary": "Senior AAA - Game vs TBA",
+          "summary": "Senior AAA - Game vs Tecumseh Thunder",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -18944,9 +19035,9 @@
         {
           "uid": "MS-21176-sarniabrigade.ca",
           "date": "2026-06-28",
-          "start_time": "3:30 PM",
+          "start_time": "2:30 PM",
           "end_date": "2026-06-28",
-          "summary": "Senior AAA - Game vs TBA",
+          "summary": "Senior AAA - Game vs Tecumseh Thunder",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -18954,7 +19045,7 @@
         {
           "uid": "MS-21177-sarniabrigade.ca",
           "date": "2026-07-12",
-          "start_time": "1:00 PM",
+          "start_time": "12:30 PM",
           "end_date": "2026-07-12",
           "summary": "Senior AAA - Game vs TBA",
           "location": "Errol Russell Park",
@@ -18966,7 +19057,7 @@
           "date": "2026-07-12",
           "start_time": "3:30 PM",
           "end_date": "2026-07-12",
-          "summary": "Senior AAA - Game vs TBA",
+          "summary": "Senior AAA - Game vs London Talons",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -18974,10 +19065,10 @@
         {
           "uid": "MS-21179-sarniabrigade.ca",
           "date": "2026-07-15",
-          "start_time": "7:30 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-07-16",
-          "summary": "Senior AAA - Game vs Port Lambton Pirates",
-          "location": "TBD",
+          "summary": "Senior AAA - Game @ Port Lambton Pirates",
+          "location": "Vandamme Park",
           "type": "game",
           "cancelled": false
         },
@@ -18989,6 +19080,36 @@
           "summary": "Senior AAA - Game vs TBA",
           "location": "Errol Russell Park",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3333-sarniabrigade.ca",
+          "date": "2026-06-12",
+          "start_time": null,
+          "end_date": "2026-06-15",
+          "summary": "Senior AAA - Gold Bat",
+          "location": "Sarnia",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3327-sarniabrigade.ca",
+          "date": "2026-07-03",
+          "start_time": null,
+          "end_date": "2026-07-06",
+          "summary": "Senior AAA - London Tournament",
+          "location": "London,Ontario",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3328-sarniabrigade.ca",
+          "date": "2026-07-31",
+          "start_time": null,
+          "end_date": "2026-08-04",
+          "summary": "Senior AAA - Ontario AAA Eliminations",
+          "location": "Windsor, Ontario",
+          "type": "tournament",
           "cancelled": false
         }
       ],
@@ -19009,8 +19130,8 @@
           "game_id": "21157",
           "href": "https://sarniabrigade.ca/Teams/1307/Games/21157/",
           "date": "2026-05-17",
-          "start_time": "1:00 PM",
-          "opponent": "TBA Errol Russell Park",
+          "start_time": "12:00 PM",
+          "opponent": "Windsor Athletic Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -19021,9 +19142,21 @@
           "game_id": "21158",
           "href": "https://sarniabrigade.ca/Teams/1307/Games/21158/",
           "date": "2026-05-17",
-          "start_time": "3:30 PM",
-          "opponent": "TBA Errol Russell Park",
+          "start_time": "2:30 PM",
+          "opponent": "Windsor Athletic Errol Russell Park",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21375",
+          "href": "https://sarniabrigade.ca/Teams/1307/Games/21375/",
+          "date": "2026-05-23",
+          "start_time": "10:00 AM",
+          "opponent": "Windsor Stars Mic Mac Park",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -19033,20 +19166,8 @@
           "game_id": "21165",
           "href": "https://sarniabrigade.ca/Teams/1307/Games/21165/",
           "date": "2026-05-23",
-          "start_time": "1:00 PM",
-          "opponent": "Windsor Stars TBD",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "21166",
-          "href": "https://sarniabrigade.ca/Teams/1307/Games/21166/",
-          "date": "2026-05-23",
-          "start_time": "3:30 PM",
-          "opponent": "Windsor Stars TBD",
+          "start_time": "12:30 PM",
+          "opponent": "Windsor Stars Mic Mac Park",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -19070,7 +19191,7 @@
           "href": "https://sarniabrigade.ca/Teams/1307/Games/21168/",
           "date": "2026-06-03",
           "start_time": "7:30 PM",
-          "opponent": "TBA Errol Russell Park",
+          "opponent": "Ilderton Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -19081,8 +19202,8 @@
           "game_id": "21169",
           "href": "https://sarniabrigade.ca/Teams/1307/Games/21169/",
           "date": "2026-06-07",
-          "start_time": "3:30 PM",
-          "opponent": "TBA Errol Russell Park",
+          "start_time": "1:00 PM",
+          "opponent": "Windsor Stars Courtright Community Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -19093,44 +19214,8 @@
           "game_id": "21170",
           "href": "https://sarniabrigade.ca/Teams/1307/Games/21170/",
           "date": "2026-06-07",
-          "start_time": "6:00 PM",
-          "opponent": "TBA Errol Russell Park",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "21171",
-          "href": "https://sarniabrigade.ca/Teams/1307/Games/21171/",
-          "date": "2026-06-12",
-          "start_time": "6:00 PM",
-          "opponent": "TBA Errol Russell Park",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "21172",
-          "href": "https://sarniabrigade.ca/Teams/1307/Games/21172/",
-          "date": "2026-06-13",
-          "start_time": "10:00 AM",
-          "opponent": "TBA Errol Russell Park",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "21173",
-          "href": "https://sarniabrigade.ca/Teams/1307/Games/21173/",
-          "date": "2026-06-14",
-          "start_time": "10:00 AM",
-          "opponent": "TBA Errol Russell Park",
+          "start_time": "3:30 PM",
+          "opponent": "Windsor Stars Courtright Community Park More D",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -19142,7 +19227,7 @@
           "href": "https://sarniabrigade.ca/Teams/1307/Games/21174/",
           "date": "2026-06-23",
           "start_time": "7:30 PM",
-          "opponent": "TBA Errol Russell Park",
+          "opponent": "Port Lambton Pirates Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -19153,8 +19238,8 @@
           "game_id": "21175",
           "href": "https://sarniabrigade.ca/Teams/1307/Games/21175/",
           "date": "2026-06-28",
-          "start_time": "1:00 PM",
-          "opponent": "TBA Errol Russell Park",
+          "start_time": "12:00 PM",
+          "opponent": "Tecumseh Thunder Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -19165,8 +19250,8 @@
           "game_id": "21176",
           "href": "https://sarniabrigade.ca/Teams/1307/Games/21176/",
           "date": "2026-06-28",
-          "start_time": "3:30 PM",
-          "opponent": "TBA Errol Russell Park",
+          "start_time": "2:30 PM",
+          "opponent": "Tecumseh Thunder Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -19177,7 +19262,7 @@
           "game_id": "21177",
           "href": "https://sarniabrigade.ca/Teams/1307/Games/21177/",
           "date": "2026-07-12",
-          "start_time": "1:00 PM",
+          "start_time": "12:30 PM",
           "opponent": "TBA Errol Russell Park",
           "home": true,
           "result": null,
@@ -19190,7 +19275,7 @@
           "href": "https://sarniabrigade.ca/Teams/1307/Games/21178/",
           "date": "2026-07-12",
           "start_time": "3:30 PM",
-          "opponent": "TBA Errol Russell Park",
+          "opponent": "London Talons Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -19201,9 +19286,9 @@
           "game_id": "21179",
           "href": "https://sarniabrigade.ca/Teams/1307/Games/21179/",
           "date": "2026-07-15",
-          "start_time": "7:30 PM",
-          "opponent": "Port Lambton Pirates TBD",
-          "home": true,
+          "start_time": "6:30 PM",
+          "opponent": "Port Lambton Pirates Vandamme Park",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -19214,7 +19299,7 @@
           "href": "https://sarniabrigade.ca/Teams/1307/Games/21180/",
           "date": "2026-07-28",
           "start_time": "7:30 PM",
-          "opponent": "TBA Errol Russell Park",
+          "opponent": "TBA Errol Russell Park More Details Jul",
           "home": true,
           "result": null,
           "brigade_score": null,
