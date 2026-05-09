@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-08T23:03:14.185522Z",
+  "generated": "2026-05-09T10:03:21.518300Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3509,7 +3509,6 @@
                   "AJ Mumby",
                   "Alexander Pfaff",
                   "Ameer Sulaiman",
-                  "Annette Hoggarth",
                   "Axl Taylor",
                   "Baya Vandenheuvel",
                   "Bentley Daughtrey",
@@ -3520,7 +3519,6 @@
                   "Carter Palmer",
                   "Carter Wills",
                   "Charlie Philp",
-                  "Chris Bonneau",
                   "Chris Makrigiannis",
                   "Clark Thornton",
                   "Cohen Smith",
@@ -3589,7 +3587,7 @@
                 ],
                 "assigned_count": 108,
                 "accepted_count": 86,
-                "pending_count": 52,
+                "pending_count": 50,
                 "denied_count": 26,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4958,11 +4956,67 @@
         "games_missed": 0,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-05-16",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "Alexander Pfaff | Liam Scott",
+              "Brogan Murphy | Liam Scott"
+            ],
+            "mismatched_names": [
+              "Alexander Pfaff",
+              "Brogan Murphy"
+            ],
+            "games": [
+              {
+                "time": "4:00 PM",
+                "opponent": "North London Nationals",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Brogan Murphy",
+                  "Liam Scott"
+                ],
+                "accepted_umpires": [
+                  "Brogan Murphy",
+                  "Liam Scott"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "6:30 PM",
+                "opponent": "North London Nationals",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Alexander Pfaff",
+                  "Liam Scott"
+                ],
+                "accepted_umpires": [
+                  "Alexander Pfaff",
+                  "Liam Scott"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          }
+        ]
       },
       "uniform_cost": 7288.5,
       "equipment_cost": 0.0,
@@ -10046,7 +10100,7 @@
         {
           "uid": "MS-19756-sarniabrigade.ca",
           "date": "2026-05-09",
-          "start_time": "11:00 AM",
+          "start_time": "10:00 AM",
           "end_date": "2026-05-09",
           "summary": "15U OBA Rep - Game vs Windsor Hawks",
           "location": "Blackwell Park",
@@ -10056,7 +10110,7 @@
         {
           "uid": "MS-19755-sarniabrigade.ca",
           "date": "2026-05-09",
-          "start_time": "1:30 PM",
+          "start_time": "12:30 PM",
           "end_date": "2026-05-09",
           "summary": "15U OBA Rep - Game vs Windsor Hawks",
           "location": "Blackwell Park",
@@ -10893,7 +10947,7 @@
           "game_id": "19756",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/19756/",
           "date": "2026-05-09",
-          "start_time": "11:00 AM",
+          "start_time": "10:00 AM",
           "opponent": "Windsor Hawks Blackwell Park",
           "home": true,
           "result": null,
@@ -10905,7 +10959,7 @@
           "game_id": "19755",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/19755/",
           "date": "2026-05-09",
-          "start_time": "1:30 PM",
+          "start_time": "12:30 PM",
           "opponent": "Windsor Hawks Blackwell Park",
           "home": true,
           "result": null,
@@ -11264,13 +11318,108 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "games_missed_details": [
+          {
+            "date": "2026-05-09",
+            "time": "10:00 AM",
+            "opponent": "Windsor Hawks",
+            "venue": "Blackwell Park",
+            "assigned_umpires": [
+              "Dan Scott",
+              "Matthew Schrie"
+            ],
+            "accepted_umpires": [],
+            "pending_umpires": [
+              "Dan Scott",
+              "Matthew Schrie"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 0,
+            "pending_count": 2,
+            "denied_count": 0,
+            "assignment_state": "assigned_not_accepted",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-05-09",
+            "time": "12:30 PM",
+            "opponent": "Windsor Hawks",
+            "venue": "Blackwell Park",
+            "assigned_umpires": [
+              "Dan Scott",
+              "Matthew Schrie"
+            ],
+            "accepted_umpires": [],
+            "pending_umpires": [
+              "Dan Scott",
+              "Matthew Schrie"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 0,
+            "pending_count": 2,
+            "denied_count": 0,
+            "assignment_state": "assigned_not_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-05-09",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "Windsor Hawks",
+                "venue": "Blackwell Park",
+                "assigned_umpires": [
+                  "Dan Scott",
+                  "Matthew Schrie"
+                ],
+                "accepted_umpires": [],
+                "pending_umpires": [
+                  "Dan Scott",
+                  "Matthew Schrie"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 0,
+                "pending_count": 2,
+                "denied_count": 0,
+                "assignment_state": "assigned_not_accepted"
+              },
+              {
+                "time": "12:30 PM",
+                "opponent": "Windsor Hawks",
+                "venue": "Blackwell Park",
+                "assigned_umpires": [
+                  "Dan Scott",
+                  "Matthew Schrie"
+                ],
+                "accepted_umpires": [],
+                "pending_umpires": [
+                  "Dan Scott",
+                  "Matthew Schrie"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 0,
+                "pending_count": 2,
+                "denied_count": 0,
+                "assignment_state": "assigned_not_accepted"
+              }
+            ]
+          }
+        ]
       },
       "uniform_cost": 8098.71,
       "equipment_cost": 0.0,
@@ -14022,16 +14171,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20863-sarniabrigade.ca",
-          "date": "2026-07-15",
-          "start_time": "8:30 PM",
-          "end_date": "2026-07-16",
-          "summary": "15U Select - Game @ Lucan-Ilderton Athletics [15uS78]",
-          "location": "Lucan (1)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20849-sarniabrigade.ca",
           "date": "2026-07-17",
           "start_time": "7:00 PM",
@@ -14132,11 +14271,11 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21116-sarniabrigade.ca",
+          "uid": "MS-21361-sarniabrigade.ca",
           "date": "2026-08-09",
           "start_time": "6:00 PM",
           "end_date": "2026-08-10",
-          "summary": "15U Select - Game vs DKMB River Cats [15uS42]",
+          "summary": "15U Select - Game vs Ingersoll Ironbirds [15uS42]",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -14376,18 +14515,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20863",
-          "href": "https://sarniabrigade.ca/Teams/1301/Games/20863/",
-          "date": "2026-07-15",
-          "start_time": "8:30 PM",
-          "opponent": "Lucan-Ilderton Athletics",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "20849",
           "href": "https://sarniabrigade.ca/Teams/1301/Games/20849/",
           "date": "2026-07-17",
@@ -14460,11 +14587,11 @@
           "cancelled": false
         },
         {
-          "game_id": "21116",
-          "href": "https://sarniabrigade.ca/Teams/1301/Games/21116/",
+          "game_id": "21361",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/21361/",
           "date": "2026-08-09",
           "start_time": "6:00 PM",
-          "opponent": "DKMB River Cats",
+          "opponent": "Ingersoll Ironbirds",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -14524,7 +14651,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 18,
+      "practices": 17,
       "roster": {
         "players": 16,
         "adults": 5,
@@ -14695,6 +14822,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21349-sarniabrigade.ca",
+          "date": "2026-07-19",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-20",
+          "summary": "9U River League - Game @ Corunna Giants Team 2 [RL9UN-101]",
+          "location": "Athletic Park (1)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20458-sarniabrigade.ca",
           "date": "2026-07-20",
           "start_time": "6:00 PM",
@@ -14725,13 +14862,33 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20460-sarniabrigade.ca",
+          "uid": "MS-21353-sarniabrigade.ca",
+          "date": "2026-07-28",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-29",
+          "summary": "9U River League - Game @ Oil Springs Drillers [RL9UN-35]",
+          "location": "Oil Springs",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21351-sarniabrigade.ca",
           "date": "2026-08-03",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-08-04",
-          "summary": "9U River League - Practice",
-          "location": "Blackwell North",
-          "type": "practice",
+          "summary": "9U River League - Game @ Wyoming Wranglers Red [RL9UN-77]",
+          "location": "Bridgeview Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21350-sarniabrigade.ca",
+          "date": "2026-08-04",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-05",
+          "summary": "9U River League - Game @ Wyoming Wranglers Navy [RL9UN-96]",
+          "location": "Bridgeview Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -14742,6 +14899,16 @@
           "summary": "9U River League - Practice",
           "location": "Blackwell North",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21352-sarniabrigade.ca",
+          "date": "2026-08-16",
+          "start_time": "6:30 PM",
+          "end_date": "2026-08-17",
+          "summary": "9U River League - Game @ Wyoming Wranglers Grey [RL9UN-21]",
+          "location": "Bridgeview Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -14837,11 +15004,71 @@
           "cancelled": false
         },
         {
+          "game_id": "21349",
+          "href": "https://sarniabrigade.ca/Teams/1304/Games/21349/",
+          "date": "2026-07-19",
+          "start_time": "6:00 PM",
+          "opponent": "Corunna Giants Team",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "21293",
           "href": "https://sarniabrigade.ca/Teams/1304/Games/21293/",
           "date": "2026-07-23",
           "start_time": "6:30 PM",
           "opponent": "Alvinston Riverhawks Grey RL9UN-49 Inwood Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21353",
+          "href": "https://sarniabrigade.ca/Teams/1304/Games/21353/",
+          "date": "2026-07-28",
+          "start_time": "6:30 PM",
+          "opponent": "Oil Springs Drillers RL9UN-35 Oil Springs",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21351",
+          "href": "https://sarniabrigade.ca/Teams/1304/Games/21351/",
+          "date": "2026-08-03",
+          "start_time": "6:30 PM",
+          "opponent": "Wyoming Wranglers Red RL9UN-77 Bridgeview Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21350",
+          "href": "https://sarniabrigade.ca/Teams/1304/Games/21350/",
+          "date": "2026-08-04",
+          "start_time": "6:00 PM",
+          "opponent": "Wyoming Wranglers Navy RL9UN-96 Bridgeview Par",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21352",
+          "href": "https://sarniabrigade.ca/Teams/1304/Games/21352/",
+          "date": "2026-08-16",
+          "start_time": "6:30 PM",
+          "opponent": "Wyoming Wranglers Grey RL9UN-21 Bridgeview Par",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -14877,7 +15104,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 27,
+      "practices": 20,
       "roster": {
         "players": 8,
         "adults": 1,
@@ -14968,23 +15195,23 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21056-sarniabrigade.ca",
+          "uid": "MS-21363-sarniabrigade.ca",
           "date": "2026-05-20",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-05-21",
-          "summary": "11U Lady Brigade - Practice",
+          "summary": "11U Lady Brigade - Game vs 11u River League [RL11UN-45]",
           "location": "Coronation Park Diamond",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
-          "uid": "MS-21070-sarniabrigade.ca",
+          "uid": "MS-21371-sarniabrigade.ca",
           "date": "2026-05-25",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-05-26",
-          "summary": "11U Lady Brigade - Practice",
+          "summary": "11U Lady Brigade - Game vs Wyoming Wranglers Navy [RL11UN-29]",
           "location": "Clearwater Diamond #1",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -15038,6 +15265,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21367-sarniabrigade.ca",
+          "date": "2026-06-11",
+          "start_time": "6:30 PM",
+          "end_date": "2026-06-12",
+          "summary": "11U Lady Brigade - Game @ Alvinston Riverhawks Select [RL11UN-54]",
+          "location": "Alvinston CC (South)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21073-sarniabrigade.ca",
           "date": "2026-06-15",
           "start_time": "6:00 PM",
@@ -15045,6 +15282,16 @@
           "summary": "11U Lady Brigade - Practice",
           "location": "Clearwater Diamond #1",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21357-sarniabrigade.ca",
+          "date": "2026-06-15",
+          "start_time": "6:30 PM",
+          "end_date": "2026-06-16",
+          "summary": "11U Lady Brigade - Game @ 11u River League [RL11UN-16]",
+          "location": "Clearwater Diamond #2",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -15058,33 +15305,43 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21074-sarniabrigade.ca",
+          "uid": "MS-21370-sarniabrigade.ca",
+          "date": "2026-06-18",
+          "start_time": "6:30 PM",
+          "end_date": "2026-06-19",
+          "summary": "11U Lady Brigade - Game @ Oil Springs Drillers [RL11UN-56]",
+          "location": "Oil Springs",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21373-sarniabrigade.ca",
           "date": "2026-06-22",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-06-23",
-          "summary": "11U Lady Brigade - Practice",
+          "summary": "11U Lady Brigade - Game vs Wyoming Wranglers Red [RL11UN-22]",
           "location": "Clearwater Diamond #1",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
-          "uid": "MS-21061-sarniabrigade.ca",
+          "uid": "MS-21372-sarniabrigade.ca",
           "date": "2026-06-24",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-06-25",
-          "summary": "11U Lady Brigade - Practice",
-          "location": "TBD",
-          "type": "practice",
+          "summary": "11U Lady Brigade - Game @ Wyoming Wranglers Navy [RL11UN-34]",
+          "location": "Bridgeview Park",
+          "type": "game",
           "cancelled": false
         },
         {
-          "uid": "MS-21075-sarniabrigade.ca",
+          "uid": "MS-21368-sarniabrigade.ca",
           "date": "2026-06-29",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-06-30",
-          "summary": "11U Lady Brigade - Practice",
+          "summary": "11U Lady Brigade - Game vs Corunna Giants [RL11UN-40]",
           "location": "Clearwater Diamond #1",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -15098,13 +15355,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21076-sarniabrigade.ca",
+          "uid": "MS-21366-sarniabrigade.ca",
           "date": "2026-07-06",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-07-07",
-          "summary": "11U Lady Brigade - Practice",
+          "summary": "11U Lady Brigade - Game vs Alvinston Riverhawks Select [RL11UN-37]",
           "location": "Clearwater Diamond #1",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -15138,13 +15395,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21078-sarniabrigade.ca",
+          "uid": "MS-21369-sarniabrigade.ca",
           "date": "2026-07-20",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-07-21",
-          "summary": "11U Lady Brigade - Practice",
+          "summary": "11U Lady Brigade - Game vs Oil Springs Drillers [RL11UN-07]",
           "location": "Clearwater Diamond #1",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -15155,6 +15412,16 @@
           "summary": "11U Lady Brigade - Practice",
           "location": "TBD",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21374-sarniabrigade.ca",
+          "date": "2026-07-23",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-24",
+          "summary": "11U Lady Brigade - Game @ Wyoming Wranglers Red [RL11UN-15]",
+          "location": "Bridgeview Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -15190,12 +15457,144 @@
       ],
       "games": [
         {
+          "game_id": "21363",
+          "href": "https://sarniabrigade.ca/Teams/1310/Games/21363/",
+          "date": "2026-05-20",
+          "start_time": "6:30 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21371",
+          "href": "https://sarniabrigade.ca/Teams/1310/Games/21371/",
+          "date": "2026-05-25",
+          "start_time": "6:30 PM",
+          "opponent": "Wyoming Wranglers Navy RL11UN-29 Clearwater Di",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21367",
+          "href": "https://sarniabrigade.ca/Teams/1310/Games/21367/",
+          "date": "2026-06-11",
+          "start_time": "6:30 PM",
+          "opponent": "Alvinston Riverhawks Select RL11UN-54 Alvinsto",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21357",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21357/",
+          "date": "2026-06-15",
+          "start_time": "6:30 PM",
+          "opponent": null,
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21370",
+          "href": "https://sarniabrigade.ca/Teams/1310/Games/21370/",
+          "date": "2026-06-18",
+          "start_time": "6:30 PM",
+          "opponent": "Oil Springs Drillers RL11UN-56 Oil Springs",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21373",
+          "href": "https://sarniabrigade.ca/Teams/1310/Games/21373/",
+          "date": "2026-06-22",
+          "start_time": "6:30 PM",
+          "opponent": "Wyoming Wranglers Red RL11UN-22 Clearwater Dia",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21372",
+          "href": "https://sarniabrigade.ca/Teams/1310/Games/21372/",
+          "date": "2026-06-24",
+          "start_time": "6:30 PM",
+          "opponent": "Wyoming Wranglers Navy RL11UN-34 Bridgeview Pa",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21368",
+          "href": "https://sarniabrigade.ca/Teams/1310/Games/21368/",
+          "date": "2026-06-29",
+          "start_time": "6:30 PM",
+          "opponent": "Corunna Giants RL11UN-40 Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21366",
+          "href": "https://sarniabrigade.ca/Teams/1310/Games/21366/",
+          "date": "2026-07-06",
+          "start_time": "6:30 PM",
+          "opponent": "Alvinston Riverhawks Select RL11UN-37 Clearwat",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "21287",
           "href": "https://sarniabrigade.ca/Teams/1310/Games/21287/",
           "date": "2026-07-15",
           "start_time": "6:30 PM",
           "opponent": "Corunna Minor Giants Tecumseh Park",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21369",
+          "href": "https://sarniabrigade.ca/Teams/1310/Games/21369/",
+          "date": "2026-07-20",
+          "start_time": "6:30 PM",
+          "opponent": "Oil Springs Drillers RL11UN-07 Clearwater Diam",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21374",
+          "href": "https://sarniabrigade.ca/Teams/1310/Games/21374/",
+          "date": "2026-07-23",
+          "start_time": "6:30 PM",
+          "opponent": "Wyoming Wranglers Red RL11UN-15 Bridgeview Par",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -15242,7 +15641,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 17,
+      "practices": 11,
       "roster": {
         "players": 15,
         "adults": 2,
@@ -15293,6 +15692,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21363-sarniabrigade.ca",
+          "date": "2026-05-20",
+          "start_time": "6:30 PM",
+          "end_date": "2026-05-21",
+          "summary": "11u River League - Game @ 11U Lady Brigade [RL11UN-45]",
+          "location": "Coronation Park Diamond",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20473-sarniabrigade.ca",
           "date": "2026-05-25",
           "start_time": "6:00 PM",
@@ -15303,53 +15712,73 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21273-sarniabrigade.ca",
+          "uid": "MS-21355-sarniabrigade.ca",
           "date": "2026-06-01",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-06-02",
-          "summary": "11u River League - Practice",
+          "summary": "11u River League - Game vs Corunna Giants [RL11UN-23]",
           "location": "Clearwater Diamond #2",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
-          "uid": "MS-21274-sarniabrigade.ca",
+          "uid": "MS-21365-sarniabrigade.ca",
+          "date": "2026-06-04",
+          "start_time": "6:30 PM",
+          "end_date": "2026-06-05",
+          "summary": "11u River League - Game @ Wyoming Wranglers Red [RL11UN-21]",
+          "location": "Bridgeview Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21360-sarniabrigade.ca",
+          "date": "2026-06-07",
+          "start_time": "2:00 PM",
+          "end_date": "2026-06-07",
+          "summary": "11u River League - Game @ Alvinston Riverhawks Select [RL11UN-17]",
+          "location": "Alvinston CC (South)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21359-sarniabrigade.ca",
           "date": "2026-06-08",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-06-09",
-          "summary": "11u River League - Practice",
+          "summary": "11u River League - Game vs Wyoming Wranglers Red [RL11UN-47]",
           "location": "Clearwater Diamond #2",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
-          "uid": "MS-21275-sarniabrigade.ca",
+          "uid": "MS-21357-sarniabrigade.ca",
           "date": "2026-06-15",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-06-16",
-          "summary": "11u River League - Practice",
+          "summary": "11u River League - Game vs 11U Lady Brigade [RL11UN-16]",
           "location": "Clearwater Diamond #2",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
-          "uid": "MS-21276-sarniabrigade.ca",
+          "uid": "MS-21356-sarniabrigade.ca",
           "date": "2026-06-22",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-06-23",
-          "summary": "11u River League - Practice",
+          "summary": "11u River League - Game vs Oil Springs Drillers [RL11UN-10]",
           "location": "Clearwater Diamond #2",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
-          "uid": "MS-21277-sarniabrigade.ca",
+          "uid": "MS-21358-sarniabrigade.ca",
           "date": "2026-06-29",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-06-30",
-          "summary": "11u River League - Practice",
+          "summary": "11u River League - Game vs Wyoming Wranglers Navy [RL11UN-25]",
           "location": "Clearwater Diamond #2",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -15373,13 +15802,23 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21280-sarniabrigade.ca",
+          "uid": "MS-21362-sarniabrigade.ca",
+          "date": "2026-07-16",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-17",
+          "summary": "11u River League - Game @ Oil Springs Drillers [RL11UN-38]",
+          "location": "Oil Springs",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21354-sarniabrigade.ca",
           "date": "2026-07-20",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-07-21",
-          "summary": "11u River League - Practice",
+          "summary": "11u River League - Game vs Alvinston Riverhawks Select [RL11UN-51]",
           "location": "Clearwater Diamond #2",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -15390,6 +15829,16 @@
           "summary": "11u River League - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21364-sarniabrigade.ca",
+          "date": "2026-07-29",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-30",
+          "summary": "11u River League - Game @ Wyoming Wranglers Navy [RL11UN-02]",
+          "location": "Bridgeview Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -15423,7 +15872,140 @@
           "cancelled": false
         }
       ],
-      "games": [],
+      "games": [
+        {
+          "game_id": "21363",
+          "href": "https://sarniabrigade.ca/Teams/1310/Games/21363/",
+          "date": "2026-05-20",
+          "start_time": "6:30 PM",
+          "opponent": null,
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21355",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21355/",
+          "date": "2026-06-01",
+          "start_time": "6:30 PM",
+          "opponent": "Corunna Giants RL11UN-23 Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21365",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21365/",
+          "date": "2026-06-04",
+          "start_time": "6:30 PM",
+          "opponent": "Wyoming Wranglers Red RL11UN-21 Bridgeview Par",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21360",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21360/",
+          "date": "2026-06-07",
+          "start_time": "2:00 PM",
+          "opponent": "Alvinston Riverhawks Select RL11UN-17 Alvinsto",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21359",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21359/",
+          "date": "2026-06-08",
+          "start_time": "6:30 PM",
+          "opponent": "Wyoming Wranglers Red RL11UN-47 Clearwater Dia",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21357",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21357/",
+          "date": "2026-06-15",
+          "start_time": "6:30 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21356",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21356/",
+          "date": "2026-06-22",
+          "start_time": "6:30 PM",
+          "opponent": "Oil Springs Drillers RL11UN-10 Clearwater Diam",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21358",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21358/",
+          "date": "2026-06-29",
+          "start_time": "6:30 PM",
+          "opponent": "Wyoming Wranglers Navy RL11UN-25 Clearwater Di",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21362",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21362/",
+          "date": "2026-07-16",
+          "start_time": "6:30 PM",
+          "opponent": "Oil Springs Drillers RL11UN-38 Oil Springs",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21354",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21354/",
+          "date": "2026-07-20",
+          "start_time": "6:30 PM",
+          "opponent": "Alvinston Riverhawks Select RL11UN-51 Clearwat",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21364",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21364/",
+          "date": "2026-07-29",
+          "start_time": "6:30 PM",
+          "opponent": "Wyoming Wranglers Navy RL11UN-02 Bridgeview Pa",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        }
+      ],
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
@@ -17526,12 +18108,59 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-05-16",
+            "time": "11:00 AM",
+            "opponent": "Tecumseh Thunder",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [
+              "Annette Hoggarth",
+              "Tyler Whetham"
+            ],
+            "accepted_umpires": [
+              "Tyler Whetham"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [
+              "Annette Hoggarth"
+            ],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 1,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-05-16",
+            "time": "2:00 PM",
+            "opponent": "Tecumseh Thunder",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [
+              "Annette Hoggarth",
+              "Tyler Whetham"
+            ],
+            "accepted_umpires": [
+              "Tyler Whetham"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [
+              "Annette Hoggarth"
+            ],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 1,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-04-26",
@@ -17584,6 +18213,57 @@
                 "accepted_count": 2,
                 "pending_count": 0,
                 "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-05-16",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "11:00 AM",
+                "opponent": "Tecumseh Thunder",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Annette Hoggarth",
+                  "Tyler Whetham"
+                ],
+                "accepted_umpires": [
+                  "Tyler Whetham"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [
+                  "Annette Hoggarth"
+                ],
+                "assigned_count": 2,
+                "accepted_count": 1,
+                "pending_count": 0,
+                "denied_count": 1,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "2:00 PM",
+                "opponent": "Tecumseh Thunder",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Annette Hoggarth",
+                  "Tyler Whetham"
+                ],
+                "accepted_umpires": [
+                  "Tyler Whetham"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [
+                  "Annette Hoggarth"
+                ],
+                "assigned_count": 2,
+                "accepted_count": 1,
+                "pending_count": 0,
+                "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               }
             ]
