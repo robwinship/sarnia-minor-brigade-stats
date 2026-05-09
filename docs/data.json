@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-09T19:33:20.904114Z",
+  "generated": "2026-05-09T23:03:08.031365Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2684,11 +2684,31 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21389-sarniabrigade.ca",
+          "date": "2026-07-11",
+          "start_time": "1:30 PM",
+          "end_date": "2026-07-11",
+          "summary": "10U AA OBA Rep - Game vs LaSalle  Titans",
+          "location": "Clearwater Diamond #2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20381-sarniabrigade.ca",
           "date": "2026-07-12",
           "start_time": "4:00 PM",
           "end_date": "2026-07-13",
           "summary": "10U AA OBA Rep - Game vs London Badgers [DH]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21393-sarniabrigade.ca",
+          "date": "2026-07-12",
+          "start_time": "6:45 PM",
+          "end_date": "2026-07-13",
+          "summary": "10U AA OBA Rep - Game vs London Badgers",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -2729,6 +2749,16 @@
           "start_time": "10:00 AM",
           "end_date": "2026-07-19",
           "summary": "10U AA OBA Rep - Game vs Windsor Stars [DH]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21392-sarniabrigade.ca",
+          "date": "2026-07-19",
+          "start_time": "12:45 PM",
+          "end_date": "2026-07-19",
+          "summary": "10U AA OBA Rep - Game vs Windsor Stars",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -2799,6 +2829,16 @@
           "start_time": "10:00 AM",
           "end_date": "2026-08-08",
           "summary": "10U AA OBA Rep - Game vs Leamington  [DH]",
+          "location": "Clearwater Diamond #2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21390-sarniabrigade.ca",
+          "date": "2026-08-08",
+          "start_time": "12:30 PM",
+          "end_date": "2026-08-08",
+          "summary": "10U AA OBA Rep - Game vs Leamington Lakers",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -2879,6 +2919,16 @@
           "start_time": "4:00 PM",
           "end_date": "2026-08-23",
           "summary": "10U AA OBA Rep - Game vs Riverside Royals [DH]",
+          "location": "TBD",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21391-sarniabrigade.ca",
+          "date": "2026-08-23",
+          "start_time": "6:30 PM",
+          "end_date": "2026-08-24",
+          "summary": "10U AA OBA Rep - Game vs Riverside Royals",
           "location": "TBD",
           "type": "game",
           "cancelled": false
@@ -3108,6 +3158,18 @@
           "cancelled": false
         },
         {
+          "game_id": "21389",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/21389/",
+          "date": "2026-07-11",
+          "start_time": "1:30 PM",
+          "opponent": "LaSalle Titans Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20381",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/20381/",
           "date": "2026-07-12",
@@ -3120,11 +3182,35 @@
           "cancelled": false
         },
         {
+          "game_id": "21393",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/21393/",
+          "date": "2026-07-12",
+          "start_time": "6:45 PM",
+          "opponent": "London Badgers Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20382",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/20382/",
           "date": "2026-07-19",
           "start_time": "10:00 AM",
           "opponent": "Windsor Stars DH Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21392",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/21392/",
+          "date": "2026-07-19",
+          "start_time": "12:45 PM",
+          "opponent": "Windsor Stars Tecumseh Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -3149,6 +3235,18 @@
           "date": "2026-08-08",
           "start_time": "10:00 AM",
           "opponent": "Leamington DH Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21390",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/21390/",
+          "date": "2026-08-08",
+          "start_time": "12:30 PM",
+          "opponent": "Leamington Lakers Clearwater Diamond",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -3190,6 +3288,18 @@
           "brigade_score": null,
           "opp_score": null,
           "cancelled": false
+        },
+        {
+          "game_id": "21391",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/21391/",
+          "date": "2026-08-23",
+          "start_time": "6:30 PM",
+          "opponent": "Riverside Royals TBD",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
         }
       ],
       "umpire_issues": {
@@ -3225,15 +3335,19 @@
             "time": "12:30 PM",
             "opponent": "Chatham Minor Diamonds",
             "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
+            "assigned_umpires": [
+              "Paolo Padiglia"
+            ],
+            "accepted_umpires": [
+              "Paolo Padiglia"
+            ],
             "pending_umpires": [],
             "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
+            "assigned_count": 1,
+            "accepted_count": 1,
             "pending_count": 0,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -3560,7 +3674,6 @@
                   "Chris Makrigiannis",
                   "Clark Thornton",
                   "Cohen Smith",
-                  "Dan Scott",
                   "Drew Baxter",
                   "Ewan Snedden",
                   "Fielder Snake",
@@ -3571,18 +3684,16 @@
                   "Hayden Scheuermann",
                   "Irelynn Shaw",
                   "Jackson Burlingham",
-                  "Jakob Rodriguez",
                   "Jarett Simons",
                   "Jason Lajeunesse",
                   "Jaxson Pyne",
                   "Jeffrey Stephenson",
                   "Joey Buchner",
+                  "Juan Peralta",
                   "Katrina Cadotte",
                   "Kirk Vines",
+                  "Lawrence Dyck",
                   "Levi Burlingham",
-                  "Liam Burns",
-                  "Logan Conroy",
-                  "Logan Hiscocks",
                   "Lucas Nethery",
                   "Luke Walls",
                   "Marko Sazdov",
@@ -3603,7 +3714,6 @@
                 ],
                 "denied_umpires": [
                   "Annette Hoggarth",
-                  "Axl Taylor",
                   "Brogan Murphy",
                   "Bryson Large",
                   "Carson Whittington",
@@ -3617,7 +3727,9 @@
                   "Jackson Burlingham",
                   "Joey Buchner",
                   "Jonas Winklmeier",
+                  "Liam Burns",
                   "Liam Scott",
+                  "Logan Conroy",
                   "Logan Hiscocks",
                   "Marko Sazdov",
                   "Myles Hobbs",
@@ -3630,8 +3742,8 @@
                 ],
                 "assigned_count": 111,
                 "accepted_count": 87,
-                "pending_count": 61,
-                "denied_count": 25,
+                "pending_count": 58,
+                "denied_count": 26,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -3662,8 +3774,7 @@
               "Juan Peralta | Paolo Padiglia"
             ],
             "mismatched_names": [
-              "Juan Peralta",
-              "Paolo Padiglia"
+              "Juan Peralta"
             ],
             "games": [
               {
@@ -3690,15 +3801,19 @@
                 "time": "12:30 PM",
                 "opponent": "Chatham Minor Diamonds",
                 "venue": "Clearwater Diamond #2",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
+                "assigned_umpires": [
+                  "Paolo Padiglia"
+                ],
+                "accepted_umpires": [
+                  "Paolo Padiglia"
+                ],
                 "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
+                "assigned_count": 1,
+                "accepted_count": 1,
                 "pending_count": 0,
                 "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
+                "assignment_state": "assigned_and_accepted"
               }
             ]
           }
@@ -5282,7 +5397,7 @@
           "date": "2026-05-09",
           "start_time": "4:00 PM",
           "end_date": "2026-05-09",
-          "summary": "11U OBA Rep - Game vs London Badgers",
+          "summary": "CANCELLED 11U OBA Rep - Game vs London Badgers",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -5292,7 +5407,7 @@
           "date": "2026-05-09",
           "start_time": "6:30 PM",
           "end_date": "2026-05-10",
-          "summary": "11U OBA Rep - Game vs London Badgers",
+          "summary": "CANCELLED 11U OBA Rep - Game vs London Badgers",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -11409,112 +11524,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-09",
-            "time": "10:00 AM",
-            "opponent": "Windsor Hawks",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Dan Scott",
-              "Matthew Schrie"
-            ],
-            "accepted_umpires": [
-              "Matthew Schrie"
-            ],
-            "pending_umpires": [
-              "Dan Scott"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-09",
-            "time": "12:30 PM",
-            "opponent": "Windsor Hawks",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Dan Scott",
-              "Matthew Schrie"
-            ],
-            "accepted_umpires": [
-              "Matthew Schrie"
-            ],
-            "pending_umpires": [
-              "Dan Scott"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-05-09",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "Windsor Hawks",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Dan Scott",
-                  "Matthew Schrie"
-                ],
-                "accepted_umpires": [
-                  "Matthew Schrie"
-                ],
-                "pending_umpires": [
-                  "Dan Scott"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "12:30 PM",
-                "opponent": "Windsor Hawks",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Dan Scott",
-                  "Matthew Schrie"
-                ],
-                "accepted_umpires": [
-                  "Matthew Schrie"
-                ],
-                "pending_umpires": [
-                  "Dan Scott"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       },
       "uniform_cost": 8098.71,
       "equipment_cost": 0.0,
@@ -16844,12 +16860,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 7,
-      "wins": 6,
-      "losses": 1,
+      "gp": 9,
+      "wins": 7,
+      "losses": 2,
       "ties": 0,
-      "runs_for": 47,
-      "runs_against": 33,
+      "runs_for": 65,
+      "runs_against": 51,
       "practices": 44,
       "roster": {
         "players": 15,
@@ -17005,7 +17021,7 @@
           "date": "2026-05-09",
           "start_time": "10:00 AM",
           "end_date": "2026-05-09",
-          "summary": "16U PBLO - Game vs London Badgers",
+          "summary": "16U PBLO - Game vs London Badgers(W 13-15)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -17015,7 +17031,7 @@
           "date": "2026-05-09",
           "start_time": "1:00 PM",
           "end_date": "2026-05-09",
-          "summary": "16U PBLO - Game vs London Badgers",
+          "summary": "16U PBLO - Game vs London Badgers(L 5-3)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -17855,9 +17871,9 @@
           "start_time": "10:00 AM",
           "opponent": "London Badgers Errol Russell Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 15,
+          "opp_score": 13,
           "cancelled": false
         },
         {
@@ -17867,9 +17883,9 @@
           "start_time": "1:00 PM",
           "opponent": "London Badgers Errol Russell Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 3,
+          "opp_score": 5,
           "cancelled": false
         },
         {
@@ -18261,20 +18277,24 @@
             "assigned_umpires": [
               "Annette Hoggarth",
               "Chris Bonneau",
+              "Jason Lajeunesse",
+              "Lawrence Dyck",
               "Tyler Whetham"
             ],
             "accepted_umpires": [
               "Tyler Whetham"
             ],
             "pending_umpires": [
-              "Chris Bonneau"
+              "Chris Bonneau",
+              "Jason Lajeunesse",
+              "Lawrence Dyck"
             ],
             "denied_umpires": [
               "Annette Hoggarth"
             ],
-            "assigned_count": 3,
+            "assigned_count": 5,
             "accepted_count": 1,
-            "pending_count": 1,
+            "pending_count": 3,
             "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -18287,20 +18307,24 @@
             "assigned_umpires": [
               "Annette Hoggarth",
               "Chris Bonneau",
+              "Jason Lajeunesse",
+              "Lawrence Dyck",
               "Tyler Whetham"
             ],
             "accepted_umpires": [
               "Tyler Whetham"
             ],
             "pending_umpires": [
-              "Chris Bonneau"
+              "Chris Bonneau",
+              "Jason Lajeunesse",
+              "Lawrence Dyck"
             ],
             "denied_umpires": [
               "Annette Hoggarth"
             ],
-            "assigned_count": 3,
+            "assigned_count": 5,
             "accepted_count": 1,
-            "pending_count": 1,
+            "pending_count": 3,
             "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -18376,20 +18400,24 @@
                 "assigned_umpires": [
                   "Annette Hoggarth",
                   "Chris Bonneau",
+                  "Jason Lajeunesse",
+                  "Lawrence Dyck",
                   "Tyler Whetham"
                 ],
                 "accepted_umpires": [
                   "Tyler Whetham"
                 ],
                 "pending_umpires": [
-                  "Chris Bonneau"
+                  "Chris Bonneau",
+                  "Jason Lajeunesse",
+                  "Lawrence Dyck"
                 ],
                 "denied_umpires": [
                   "Annette Hoggarth"
                 ],
-                "assigned_count": 3,
+                "assigned_count": 5,
                 "accepted_count": 1,
-                "pending_count": 1,
+                "pending_count": 3,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -18400,20 +18428,24 @@
                 "assigned_umpires": [
                   "Annette Hoggarth",
                   "Chris Bonneau",
+                  "Jason Lajeunesse",
+                  "Lawrence Dyck",
                   "Tyler Whetham"
                 ],
                 "accepted_umpires": [
                   "Tyler Whetham"
                 ],
                 "pending_umpires": [
-                  "Chris Bonneau"
+                  "Chris Bonneau",
+                  "Jason Lajeunesse",
+                  "Lawrence Dyck"
                 ],
                 "denied_umpires": [
                   "Annette Hoggarth"
                 ],
-                "assigned_count": 3,
+                "assigned_count": 5,
                 "accepted_count": 1,
-                "pending_count": 1,
+                "pending_count": 3,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               }
@@ -19674,6 +19706,24 @@
       "team_id": 1293,
       "team_name": "11U OBA Rep",
       "type": "game",
+      "date": "2026-05-09",
+      "start_time": "4:00 PM",
+      "summary": "CANCELLED 11U OBA Rep - Game vs London Badgers",
+      "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1293,
+      "team_name": "11U OBA Rep",
+      "type": "game",
+      "date": "2026-05-09",
+      "start_time": "6:30 PM",
+      "summary": "CANCELLED 11U OBA Rep - Game vs London Badgers",
+      "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1293,
+      "team_name": "11U OBA Rep",
+      "type": "game",
       "date": "2026-05-17",
       "start_time": "4:00 PM",
       "summary": "CANCELLED 11U OBA Rep - Game vs Woodstock Wranglers",
@@ -19687,24 +19737,6 @@
       "start_time": "6:30 PM",
       "summary": "CANCELLED 11U OBA Rep - Game vs Woodstock Wranglers",
       "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1293,
-      "team_name": "11U OBA Rep",
-      "type": "game",
-      "date": "2026-05-09",
-      "start_time": "4:00 PM",
-      "summary": "CANCELLED 11U OBA Rep - Game vs London Badgers Tecumseh Park",
-      "location": ""
-    },
-    {
-      "team_id": 1293,
-      "team_name": "11U OBA Rep",
-      "type": "game",
-      "date": "2026-05-09",
-      "start_time": "6:30 PM",
-      "summary": "CANCELLED 11U OBA Rep - Game vs London Badgers Tecumseh Park",
-      "location": ""
     },
     {
       "team_id": 1296,
