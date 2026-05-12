@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-12T19:33:20.239007Z",
+  "generated": "2026-05-12T23:05:08.054423Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3677,7 +3677,9 @@
                   "Axl Taylor",
                   "Baya Vandenheuvel",
                   "Benjamin Leystra",
+                  "Bentley Bartosz",
                   "Bentley Daughtrey",
+                  "Blake Adams",
                   "Brian Mundt",
                   "Brock Lane",
                   "Brock Prozorowicz",
@@ -3686,12 +3688,11 @@
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Charlie Philp",
-                  "Chris Bonneau",
                   "Clark Thornton",
                   "Cullen Pearson",
                   "Derek Bayly",
+                  "Doug Krall",
                   "Drew Baxter",
-                  "Drew Bennett",
                   "Ethan Antle",
                   "Ewan Snedden",
                   "Gage Boyd",
@@ -3717,6 +3718,7 @@
                   "Mason Harper",
                   "Mason Portiss",
                   "Matthew Schrie",
+                  "Myles Hobbs",
                   "Nathan Zavitz",
                   "Nolan Bogaert",
                   "Paolo Padiglia",
@@ -3726,11 +3728,9 @@
                   "Ryan Carlton",
                   "Ryder Daye",
                   "Terry Doyle",
-                  "Tristan Heeringa",
                   "Tyler Hoadley",
                   "Tyler Whetham",
-                  "Will Greer",
-                  "William MacKenzie"
+                  "Will Greer"
                 ],
                 "denied_umpires": [
                   "Blake Adams",
@@ -3742,6 +3742,7 @@
                   "Cohen Smith",
                   "Dawson O'Brien",
                   "Drew Baxter",
+                  "Drew Bennett",
                   "Fielder Snake",
                   "Gage Boyd",
                   "Grady Boyd",
@@ -3771,13 +3772,14 @@
                   "Steve McGrail",
                   "Sydney Nisbet",
                   "Timothy Johnston",
+                  "Tristan Heeringa",
                   "Tucker Stokes",
                   "Tyler Vandenberg"
                 ],
                 "assigned_count": 120,
                 "accepted_count": 91,
                 "pending_count": 61,
-                "denied_count": 40,
+                "denied_count": 42,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -5276,7 +5278,7 @@
       "ties": 0,
       "runs_for": 32,
       "runs_against": 7,
-      "practices": 41,
+      "practices": 40,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5286,16 +5288,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19621-sarniabrigade.ca",
-          "date": "2026-03-12",
-          "start_time": "5:00 PM",
-          "end_date": "2026-03-12",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19622-sarniabrigade.ca",
           "date": "2026-03-19",
