@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-12T23:05:08.054423Z",
+  "generated": "2026-05-13T10:02:56.593044Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3677,7 +3677,6 @@
                   "Axl Taylor",
                   "Baya Vandenheuvel",
                   "Benjamin Leystra",
-                  "Bentley Bartosz",
                   "Bentley Daughtrey",
                   "Blake Adams",
                   "Brian Mundt",
@@ -3707,9 +3706,9 @@
                   "Jaxen Waller-Glass",
                   "Jaxson Pyne",
                   "Kayne Golder",
-                  "Kevin Johnson",
                   "Kirk Vines",
                   "Kye Golder",
+                  "Lawrence Dyck",
                   "Levi Burlingham",
                   "Logan Conroy",
                   "Lucas Nethery",
@@ -3723,7 +3722,6 @@
                   "Nolan Bogaert",
                   "Paolo Padiglia",
                   "Penny Core",
-                  "Ralph Campbell",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
@@ -3733,6 +3731,7 @@
                   "Will Greer"
                 ],
                 "denied_umpires": [
+                  "Bentley Bartosz",
                   "Blake Adams",
                   "Brogan Murphy",
                   "Bryson Large",
@@ -3778,8 +3777,8 @@
                 ],
                 "assigned_count": 120,
                 "accepted_count": 91,
-                "pending_count": 61,
-                "denied_count": 42,
+                "pending_count": 59,
+                "denied_count": 43,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -8748,12 +8747,12 @@
       "id": 1296,
       "name": "14U OBA Rep",
       "category": "OBA Rep",
-      "gp": 1,
-      "wins": 0,
+      "gp": 2,
+      "wins": 1,
       "losses": 1,
       "ties": 0,
-      "runs_for": 9,
-      "runs_against": 11,
+      "runs_for": 21,
+      "runs_against": 16,
       "practices": 35,
       "roster": {
         "players": 14,
@@ -8919,7 +8918,7 @@
           "date": "2026-05-12",
           "start_time": "6:00 PM",
           "end_date": "2026-05-13",
-          "summary": "14U OBA Rep - Game @ London West Tincaps [14u75]",
+          "summary": "14U OBA Rep - Game @ London West Tincaps [14u75](W 12-5)",
           "location": "Stoneybrook (Dan Pulham)",
           "type": "game",
           "cancelled": false
@@ -9639,9 +9638,9 @@
           "start_time": "6:00 PM",
           "opponent": "London West Tincaps",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 5,
           "cancelled": false
         },
         {
@@ -11560,12 +11559,12 @@
       "id": 1299,
       "name": "9U Select",
       "category": "Select",
-      "gp": 1,
-      "wins": 1,
+      "gp": 2,
+      "wins": 2,
       "losses": 0,
       "ties": 0,
-      "runs_for": 15,
-      "runs_against": 9,
+      "runs_for": 34,
+      "runs_against": 21,
       "practices": 25,
       "roster": {
         "players": 13,
@@ -11641,7 +11640,7 @@
           "date": "2026-05-12",
           "start_time": "6:00 PM",
           "end_date": "2026-05-13",
-          "summary": "9U Select - Game @ South London Tigers [9uS55]",
+          "summary": "9U Select - Game @ South London Tigers [9uS55](W 19-12)",
           "location": "Glanworth (1)",
           "type": "game",
           "cancelled": false
@@ -12047,9 +12046,9 @@
           "start_time": "6:00 PM",
           "opponent": "South London Tigers",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 19,
+          "opp_score": 12,
           "cancelled": false
         },
         {
@@ -15962,12 +15961,36 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-05-20",
+            "time": "6:30 PM",
+            "opponent": "11u River League",
+            "venue": "Coronation Park Diamond",
+            "assigned_umpires": [
+              "Harper Vandenheuval",
+              "Sophia Kennedy"
+            ],
+            "accepted_umpires": [
+              "Sophia Kennedy"
+            ],
+            "pending_umpires": [
+              "Harper Vandenheuval"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 0.0,
@@ -19141,8 +19164,8 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -19162,7 +19185,7 @@
             "pending_count": 0,
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
+            "issue_timing": "past"
           }
         ],
         "doubleheader_mismatch_details": []
@@ -19308,7 +19331,7 @@
         {
           "uid": "MS-21176-sarniabrigade.ca",
           "date": "2026-06-28",
-          "start_time": "2:30 PM",
+          "start_time": "3:00 PM",
           "end_date": "2026-06-28",
           "summary": "Senior AAA - Game vs Tecumseh Thunder",
           "location": "Errol Russell Park",
@@ -19523,7 +19546,7 @@
           "game_id": "21176",
           "href": "https://sarniabrigade.ca/Teams/1307/Games/21176/",
           "date": "2026-06-28",
-          "start_time": "2:30 PM",
+          "start_time": "3:00 PM",
           "opponent": "Tecumseh Thunder Errol Russell Park",
           "home": true,
           "result": null,
