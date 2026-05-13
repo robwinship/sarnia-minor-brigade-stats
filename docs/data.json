@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-13T10:02:56.593044Z",
+  "generated": "2026-05-13T16:02:45.266474Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2227,12 +2227,12 @@
       "id": 1292,
       "name": "10U AA OBA Rep",
       "category": "OBA Rep",
-      "gp": 1,
-      "wins": 1,
+      "gp": 3,
+      "wins": 3,
       "losses": 0,
       "ties": 0,
-      "runs_for": 20,
-      "runs_against": 10,
+      "runs_for": 43,
+      "runs_against": 16,
       "practices": 50,
       "roster": {
         "players": 13,
@@ -2388,7 +2388,7 @@
           "date": "2026-05-09",
           "start_time": "10:00 AM",
           "end_date": "2026-05-09",
-          "summary": "10U AA OBA Rep - Game vs Chatham Minor Diamonds [DH]",
+          "summary": "10U AA OBA Rep - Game vs Chatham Minor Diamonds [DH](W 2-15)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -2398,7 +2398,7 @@
           "date": "2026-05-09",
           "start_time": "12:30 PM",
           "end_date": "2026-05-09",
-          "summary": "10U AA OBA Rep - Game vs Chatham Minor Diamonds",
+          "summary": "10U AA OBA Rep - Game vs Chatham Minor Diamonds(W 4-8)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -2479,7 +2479,7 @@
           "start_time": "5:30 PM",
           "end_date": "2026-05-20",
           "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
+          "location": "Coronation Park Diamond",
           "type": "practice",
           "cancelled": false
         },
@@ -3068,9 +3068,9 @@
           "start_time": "10:00 AM",
           "opponent": "Chatham Minor Diamonds DH Clearwater Diamond",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 15,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -3080,9 +3080,9 @@
           "start_time": "12:30 PM",
           "opponent": "Chatham Minor Diamonds Clearwater Diamond",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 8,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -3516,6 +3516,7 @@
                   "Jason Lajeunesse",
                   "Jax Albert",
                   "Jaxen Waller-Glass",
+                  "Jaxon Jacobs",
                   "Jaxson Pyne",
                   "Jeffrey Stephenson",
                   "Joey Buchner",
@@ -3680,8 +3681,8 @@
                   "Bentley Daughtrey",
                   "Blake Adams",
                   "Brian Mundt",
-                  "Brock Lane",
                   "Brock Prozorowicz",
+                  "Brogan Murphy",
                   "Caleb Willemsvandyk",
                   "Cali Vanderslagt",
                   "Carsyn Tnydall",
@@ -3694,21 +3695,22 @@
                   "Drew Baxter",
                   "Ethan Antle",
                   "Ewan Snedden",
-                  "Gage Boyd",
-                  "Grady Boyd",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Harper Vandenheuval",
                   "Irelynn Shaw",
                   "Jackson Bunda",
                   "Jackson Burlingham",
+                  "Jason Lajeunesse",
                   "Jax Albert",
                   "Jaxen Waller-Glass",
+                  "Jaxon Jacobs",
                   "Jaxson Pyne",
+                  "Jonas Winklmeier",
+                  "Juan Peralta",
                   "Kayne Golder",
                   "Kirk Vines",
                   "Kye Golder",
-                  "Lawrence Dyck",
                   "Levi Burlingham",
                   "Logan Conroy",
                   "Lucas Nethery",
@@ -3725,6 +3727,7 @@
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
+                  "Sydney Nisbet",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham",
@@ -3761,7 +3764,6 @@
                   "Logan Conroy",
                   "Logan Hiscocks",
                   "Marko Sazdov",
-                  "Matthew Schrie",
                   "Myles Hobbs",
                   "Nolan Bogaert",
                   "Penny Core",
@@ -3775,10 +3777,10 @@
                   "Tucker Stokes",
                   "Tyler Vandenberg"
                 ],
-                "assigned_count": 120,
+                "assigned_count": 121,
                 "accepted_count": 91,
-                "pending_count": 59,
-                "denied_count": 43,
+                "pending_count": 61,
+                "denied_count": 42,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -8944,6 +8946,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21519-sarniabrigade.ca",
+          "date": "2026-05-17",
+          "start_time": "10:00 AM",
+          "end_date": "2026-05-17",
+          "summary": "14U OBA Rep - Game vs London West Tincaps",
+          "location": "Blackwell North",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20428-sarniabrigade.ca",
           "date": "2026-05-17",
           "start_time": "12:00 PM",
@@ -9656,6 +9668,18 @@
           "cancelled": false
         },
         {
+          "game_id": "21519",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/21519/",
+          "date": "2026-05-17",
+          "start_time": "10:00 AM",
+          "opponent": "London West Tincaps Blackwell North",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20428",
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20428/",
           "date": "2026-05-17",
@@ -10102,13 +10126,79 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "games_missed_details": [
+          {
+            "date": "2026-05-17",
+            "time": "10:00 AM",
+            "opponent": "London West Tincaps",
+            "venue": "Blackwell North",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          }
+        ],
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-05-17",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [
+              "Matthew Schrie | Ryder Daye"
+            ],
+            "mismatched_names": [
+              "Matthew Schrie",
+              "Ryder Daye"
+            ],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "London West Tincaps",
+                "venue": "Blackwell North",
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
+              },
+              {
+                "time": "12:00 PM",
+                "opponent": "London West Tincaps",
+                "venue": "Blackwell Park",
+                "assigned_umpires": [
+                  "Matthew Schrie",
+                  "Ryder Daye"
+                ],
+                "accepted_umpires": [
+                  "Matthew Schrie",
+                  "Ryder Daye"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          }
+        ]
       },
       "uniform_cost": 7738.24,
       "equipment_cost": 0.0,
@@ -13956,7 +14046,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 32,
+      "practices": 33,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -14057,10 +14147,10 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21515-sarniabrigade.ca",
+          "uid": "MS-21520-sarniabrigade.ca",
           "date": "2026-05-14",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-15",
+          "start_time": "5:00 PM",
+          "end_date": "2026-05-14",
           "summary": "15U Select - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
@@ -14117,10 +14207,10 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21125-sarniabrigade.ca",
+          "uid": "MS-21521-sarniabrigade.ca",
           "date": "2026-05-28",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-29",
+          "start_time": "5:00 PM",
+          "end_date": "2026-05-28",
           "summary": "15U Select - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
@@ -14237,10 +14327,10 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21132-sarniabrigade.ca",
+          "uid": "MS-21523-sarniabrigade.ca",
           "date": "2026-06-25",
-          "start_time": "6:30 PM",
-          "end_date": "2026-06-26",
+          "start_time": "5:00 PM",
+          "end_date": "2026-06-25",
           "summary": "15U Select - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
@@ -14283,6 +14373,16 @@
           "end_date": "2026-07-08",
           "summary": "15U Select - Practice",
           "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21524-sarniabrigade.ca",
+          "date": "2026-07-09",
+          "start_time": "5:00 PM",
+          "end_date": "2026-07-09",
+          "summary": "15U Select - Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -14337,10 +14437,10 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21137-sarniabrigade.ca",
+          "uid": "MS-21525-sarniabrigade.ca",
           "date": "2026-07-23",
-          "start_time": "6:30 PM",
-          "end_date": "2026-07-24",
+          "start_time": "5:00 PM",
+          "end_date": "2026-07-23",
           "summary": "15U Select - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
@@ -14387,10 +14487,10 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21139-sarniabrigade.ca",
+          "uid": "MS-21526-sarniabrigade.ca",
           "date": "2026-08-06",
-          "start_time": "6:30 PM",
-          "end_date": "2026-08-07",
+          "start_time": "5:00 PM",
+          "end_date": "2026-08-06",
           "summary": "15U Select - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
@@ -14447,10 +14547,10 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21142-sarniabrigade.ca",
+          "uid": "MS-21527-sarniabrigade.ca",
           "date": "2026-08-20",
-          "start_time": "6:30 PM",
-          "end_date": "2026-08-21",
+          "start_time": "5:00 PM",
+          "end_date": "2026-08-20",
           "summary": "15U Select - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
@@ -15504,7 +15604,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-05-14",
           "summary": "11U Lady Brigade - Practice",
-          "location": "TBD",
+          "location": "Rosedale Public School",
           "type": "practice",
           "cancelled": false
         },
