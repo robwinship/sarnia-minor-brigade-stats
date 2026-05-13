@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-13T16:02:45.266474Z",
+  "generated": "2026-05-13T19:32:53.846832Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2494,11 +2494,31 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21531-sarniabrigade.ca",
+          "date": "2026-05-23",
+          "start_time": "1:30 PM",
+          "end_date": "2026-05-23",
+          "summary": "10U AA OBA Rep - Game @ LaSalle  Titans",
+          "location": "Turtle Club",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20004-sarniabrigade.ca",
           "date": "2026-05-24",
           "start_time": "11:00 AM",
           "end_date": "2026-05-24",
           "summary": "10U AA OBA Rep - Game vs Leamington Lakers [DH]",
+          "location": "TBD",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21532-sarniabrigade.ca",
+          "date": "2026-05-24",
+          "start_time": "1:30 PM",
+          "end_date": "2026-05-24",
+          "summary": "10U AA OBA Rep - Game vs Leamington Lakers",
           "location": "TBD",
           "type": "game",
           "cancelled": false
@@ -2541,6 +2561,26 @@
           "summary": "10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21529-sarniabrigade.ca",
+          "date": "2026-06-05",
+          "start_time": "4:00 PM",
+          "end_date": "2026-06-05",
+          "summary": "10U AA OBA Rep - Game vs Oshawa Legionaires [1]",
+          "location": "Stronach Complex 2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21530-sarniabrigade.ca",
+          "date": "2026-06-05",
+          "start_time": "6:15 PM",
+          "end_date": "2026-06-06",
+          "summary": "10U AA OBA Rep - Game vs Hamilton Cardinals [2]",
+          "location": "Stronach Complex 2",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -2874,11 +2914,31 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21533-sarniabrigade.ca",
+          "date": "2026-08-15",
+          "start_time": "2:00 PM",
+          "end_date": "2026-08-15",
+          "summary": "10U AA OBA Rep - Game vs Riverside Royals",
+          "location": "TBD",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20006-sarniabrigade.ca",
           "date": "2026-08-16",
           "start_time": "11:00 AM",
           "end_date": "2026-08-16",
           "summary": "10U AA OBA Rep - Game @ Windsor Stars [DH]",
+          "location": "Cullen Stadium (Mic Mac Park)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21534-sarniabrigade.ca",
+          "date": "2026-08-16",
+          "start_time": "2:00 PM",
+          "end_date": "2026-08-16",
+          "summary": "10U AA OBA Rep - Game @ Windsor Stars",
           "location": "Cullen Stadium (Mic Mac Park)",
           "type": "game",
           "cancelled": false
@@ -3134,11 +3194,59 @@
           "cancelled": false
         },
         {
+          "game_id": "21531",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/21531/",
+          "date": "2026-05-23",
+          "start_time": "1:30 PM",
+          "opponent": "LaSalle Titans Turtle Club",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20004",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/20004/",
           "date": "2026-05-24",
           "start_time": "11:00 AM",
-          "opponent": "Leamington Lakers DH TBD More Details May",
+          "opponent": "Leamington Lakers DH TBD",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21532",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/21532/",
+          "date": "2026-05-24",
+          "start_time": "1:30 PM",
+          "opponent": "Leamington Lakers TBD More Details May",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21529",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/21529/",
+          "date": "2026-06-05",
+          "start_time": "4:00 PM",
+          "opponent": "Oshawa Legionaires",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21530",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/21530/",
+          "date": "2026-06-05",
+          "start_time": "6:15 PM",
+          "opponent": "Hamilton Cardinals",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -3266,11 +3374,35 @@
           "cancelled": false
         },
         {
+          "game_id": "21533",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/21533/",
+          "date": "2026-08-15",
+          "start_time": "2:00 PM",
+          "opponent": "Riverside Royals TBD",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20006",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/20006/",
           "date": "2026-08-16",
           "start_time": "11:00 AM",
           "opponent": "Windsor Stars DH Cullen Stadium",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21534",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/21534/",
+          "date": "2026-08-16",
+          "start_time": "2:00 PM",
+          "opponent": "Windsor Stars Cullen Stadium",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -3701,13 +3833,11 @@
                   "Irelynn Shaw",
                   "Jackson Bunda",
                   "Jackson Burlingham",
-                  "Jason Lajeunesse",
                   "Jax Albert",
                   "Jaxen Waller-Glass",
                   "Jaxon Jacobs",
                   "Jaxson Pyne",
                   "Jonas Winklmeier",
-                  "Juan Peralta",
                   "Kayne Golder",
                   "Kirk Vines",
                   "Kye Golder",
@@ -3779,7 +3909,7 @@
                 ],
                 "assigned_count": 121,
                 "accepted_count": 91,
-                "pending_count": 61,
+                "pending_count": 59,
                 "denied_count": 42,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -17452,7 +17582,7 @@
           "date": "2026-05-13",
           "start_time": "6:00 PM",
           "end_date": "2026-05-14",
-          "summary": "16U PBLO - Practice",
+          "summary": "CANCELLED 16U PBLO - Practice",
           "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
@@ -20107,6 +20237,15 @@
       "type": "practice",
       "date": "2026-04-29",
       "start_time": "7:30 PM",
+      "summary": "CANCELLED 16U PBLO - Practice",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1298,
+      "team_name": "16U PBLO",
+      "type": "practice",
+      "date": "2026-05-13",
+      "start_time": "6:00 PM",
       "summary": "CANCELLED 16U PBLO - Practice",
       "location": "Blackwell Park"
     },
