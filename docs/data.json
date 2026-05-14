@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-14T10:03:14.547739Z",
+  "generated": "2026-05-14T16:03:01.025294Z",
   "umpire_data_status": {
     "available": false,
     "reason": "playwright_error:Locator.click: Error: strict mode violation: locator(\"span.rtIn\").filter(has_text=\"All Games\") resolved to 2 elements:\n    1) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").first\n    2) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").nth(1)\n\nCall log:\n  - waiting for locator(\"span.rtIn\").filter(has_text=\"All Games\")\n",
@@ -2534,6 +2534,36 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21554-sarniabrigade.ca",
+          "date": "2026-05-29",
+          "start_time": "8:15 PM",
+          "end_date": "2026-05-30",
+          "summary": "10U AA OBA Rep - Game vs Etobicoke [1]",
+          "location": "Syntex Green",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21555-sarniabrigade.ca",
+          "date": "2026-05-30",
+          "start_time": "11:15 AM",
+          "end_date": "2026-05-30",
+          "summary": "10U AA OBA Rep - Game @ MNBA Tigers [2]",
+          "location": "Mead. Sports #2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21556-sarniabrigade.ca",
+          "date": "2026-05-30",
+          "start_time": "4:15 PM",
+          "end_date": "2026-05-30",
+          "summary": "10U AA OBA Rep - Game vs Niagara Falls [3]",
+          "location": "Syntex Green",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21236-sarniabrigade.ca",
           "date": "2026-06-03",
           "start_time": "4:30 PM",
@@ -3213,6 +3243,42 @@
           "date": "2026-05-24",
           "start_time": "1:30 PM",
           "opponent": "Leamington Lakers TBD More Details May",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21554",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/21554/",
+          "date": "2026-05-29",
+          "start_time": "8:15 PM",
+          "opponent": "Etobicoke",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21555",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/21555/",
+          "date": "2026-05-30",
+          "start_time": "11:15 AM",
+          "opponent": "MNBA Tigers",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21556",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/21556/",
+          "date": "2026-05-30",
+          "start_time": "4:15 PM",
+          "opponent": "Niagara Falls",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -5958,13 +6024,13 @@
       "id": 1294,
       "name": "12U OBA Rep",
       "category": "OBA Rep",
-      "gp": 0,
+      "gp": 2,
       "wins": 0,
-      "losses": 0,
+      "losses": 2,
       "ties": 0,
-      "runs_for": 0,
-      "runs_against": 0,
-      "practices": 43,
+      "runs_for": 7,
+      "runs_against": 16,
+      "practices": 42,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -5974,16 +6040,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-19995-sarniabrigade.ca",
-          "date": "2026-03-14",
-          "start_time": "7:00 AM",
-          "end_date": "2026-03-14",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19996-sarniabrigade.ca",
           "date": "2026-03-21",
@@ -6099,7 +6155,7 @@
           "date": "2026-05-10",
           "start_time": "10:00 AM",
           "end_date": "2026-05-10",
-          "summary": "12U OBA Rep - Game vs Wyoming Wranglers [WC13U-08]",
+          "summary": "12U OBA Rep - Game vs Wyoming Wranglers [WC13U-08](L 8-1)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6109,7 +6165,7 @@
           "date": "2026-05-10",
           "start_time": "1:00 PM",
           "end_date": "2026-05-10",
-          "summary": "12U OBA Rep - Game vs Wyoming Wranglers [WC13U-67]",
+          "summary": "12U OBA Rep - Game vs Wyoming Wranglers [WC13U-67](L 8-6)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6755,9 +6811,9 @@
           "start_time": "10:00 AM",
           "opponent": "Wyoming Wranglers WC13U-08 Tecumseh Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 1,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -6767,9 +6823,9 @@
           "start_time": "1:00 PM",
           "opponent": "Wyoming Wranglers WC13U-67 Tecumseh Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -7083,11 +7139,11 @@
       "id": 1295,
       "name": "13U OBA Rep",
       "category": "OBA Rep",
-      "gp": 5,
-      "wins": 2,
+      "gp": 6,
+      "wins": 3,
       "losses": 3,
       "ties": 0,
-      "runs_for": 45,
+      "runs_for": 54,
       "runs_against": 53,
       "practices": 41,
       "roster": {
@@ -7264,7 +7320,7 @@
           "date": "2026-05-13",
           "start_time": "8:30 PM",
           "end_date": "2026-05-14",
-          "summary": "13U OBA Rep - Game @ London West Tincaps [13u47]",
+          "summary": "13U OBA Rep - Game @ London West Tincaps [13u47](W 9-0)",
           "location": "Byron Sports Complex (2)",
           "type": "game",
           "cancelled": false
@@ -7928,9 +7984,9 @@
           "start_time": "8:30 PM",
           "opponent": "London West Tincaps",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 0,
           "cancelled": false
         },
         {
@@ -11797,12 +11853,12 @@
       "id": 1303,
       "name": "11U Select",
       "category": "Select",
-      "gp": 0,
-      "wins": 0,
+      "gp": 1,
+      "wins": 1,
       "losses": 0,
       "ties": 0,
-      "runs_for": 0,
-      "runs_against": 0,
+      "runs_for": 17,
+      "runs_against": 7,
       "practices": 22,
       "roster": {
         "players": 13,
@@ -11908,7 +11964,7 @@
           "date": "2026-05-13",
           "start_time": "6:30 PM",
           "end_date": "2026-05-14",
-          "summary": "11U Select - Game @ Tillsonburg Otters [11uS131]",
+          "summary": "11U Select - Game @ Tillsonburg Otters [11uS131](W 17-7)",
           "location": "Tillsonburg Arena (Kiwanis)",
           "type": "game",
           "cancelled": false
@@ -12324,9 +12380,9 @@
           "start_time": "6:30 PM",
           "opponent": "Tillsonburg Otters",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 17,
+          "opp_score": 7,
           "cancelled": false
         },
         {
