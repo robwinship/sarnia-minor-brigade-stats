@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-14T19:32:49.575419Z",
+  "generated": "2026-05-14T23:03:21.565185Z",
   "umpire_data_status": {
     "available": false,
     "reason": "playwright_error:Locator.click: Error: strict mode violation: locator(\"span.rtIn\").filter(has_text=\"All Games\") resolved to 2 elements:\n    1) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").first\n    2) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").nth(1)\n\nCall log:\n  - waiting for locator(\"span.rtIn\").filter(has_text=\"All Games\")\n",
