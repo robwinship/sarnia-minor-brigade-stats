@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-15T10:03:22.481209Z",
+  "generated": "2026-05-15T16:03:09.154096Z",
   "umpire_data_status": {
     "available": false,
     "reason": "playwright_error:Locator.click: Error: strict mode violation: locator(\"span.rtIn\").filter(has_text=\"All Games\") resolved to 2 elements:\n    1) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").first\n    2) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").nth(1)\n\nCall log:\n  - waiting for locator(\"span.rtIn\").filter(has_text=\"All Games\")\n",
@@ -10254,26 +10254,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20678-sarniabrigade.ca",
-          "date": "2026-07-04",
-          "start_time": "11:00 AM",
-          "end_date": "2026-07-04",
-          "summary": "15U OBA Rep - Game vs Mitchell Astros Rep [15u53]",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20679-sarniabrigade.ca",
-          "date": "2026-07-04",
-          "start_time": "1:30 PM",
-          "end_date": "2026-07-04",
-          "summary": "15U OBA Rep - Game vs Mitchell Astros Rep [15u59]",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19788-sarniabrigade.ca",
           "date": "2026-07-07",
           "start_time": "5:30 PM",
@@ -10351,6 +10331,16 @@
           "summary": "15U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20678-sarniabrigade.ca",
+          "date": "2026-07-18",
+          "start_time": "11:00 AM",
+          "end_date": "2026-07-18",
+          "summary": "15U OBA Rep - Game vs Mitchell Astros Rep [15u53]",
+          "location": "Blackwell Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -10528,9 +10518,19 @@
           "date": "2026-08-11",
           "start_time": "5:30 PM",
           "end_date": "2026-08-11",
-          "summary": "15U OBA Rep - Practice",
+          "summary": "CANCELLED 15U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20679-sarniabrigade.ca",
+          "date": "2026-08-11",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-12",
+          "summary": "15U OBA Rep - Game vs Mitchell Astros Rep [15u59]",
+          "location": "Blackwell Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -10920,30 +10920,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20678",
-          "href": "https://sarniabrigade.ca/Teams/1297/Games/20678/",
-          "date": "2026-07-04",
-          "start_time": "11:00 AM",
-          "opponent": "Mitchell Astros Rep",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "20679",
-          "href": "https://sarniabrigade.ca/Teams/1297/Games/20679/",
-          "date": "2026-07-04",
-          "start_time": "1:30 PM",
-          "opponent": "Mitchell Astros Rep",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "20675",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/20675/",
           "date": "2026-07-09",
@@ -10974,6 +10950,18 @@
           "start_time": "6:00 PM",
           "opponent": "St. Thomas Cardinals",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20678",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/20678/",
+          "date": "2026-07-18",
+          "start_time": "11:00 AM",
+          "opponent": "Mitchell Astros Rep",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -11069,6 +11057,18 @@
           "date": "2026-08-08",
           "start_time": "1:30 PM",
           "opponent": "London West Tincaps",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20679",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/20679/",
+          "date": "2026-08-11",
+          "start_time": "6:00 PM",
+          "opponent": "Mitchell Astros Rep",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -19413,6 +19413,15 @@
       "team_name": "15U OBA Rep",
       "type": "practice",
       "date": "2026-04-30",
+      "start_time": "5:30 PM",
+      "summary": "CANCELLED 15U OBA Rep - Practice",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1297,
+      "team_name": "15U OBA Rep",
+      "type": "practice",
+      "date": "2026-08-11",
       "start_time": "5:30 PM",
       "summary": "CANCELLED 15U OBA Rep - Practice",
       "location": "Blackwell Park"
