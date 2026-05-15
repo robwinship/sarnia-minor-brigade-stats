@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-15T16:03:09.154096Z",
+  "generated": "2026-05-15T19:32:54.121569Z",
   "umpire_data_status": {
     "available": false,
     "reason": "playwright_error:Locator.click: Error: strict mode violation: locator(\"span.rtIn\").filter(has_text=\"All Games\") resolved to 2 elements:\n    1) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").first\n    2) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").nth(1)\n\nCall log:\n  - waiting for locator(\"span.rtIn\").filter(has_text=\"All Games\")\n",
@@ -5158,6 +5158,26 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21570-sarniabrigade.ca",
+          "date": "2026-05-31",
+          "start_time": "11:00 AM",
+          "end_date": "2026-05-31",
+          "summary": "11U OBA Rep - Game @ Windsor Stars",
+          "location": "Mic Mac Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21571-sarniabrigade.ca",
+          "date": "2026-05-31",
+          "start_time": "1:30 PM",
+          "end_date": "2026-05-31",
+          "summary": "11U OBA Rep - Game @ Windsor Stars",
+          "location": "Mic Mac Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20084-sarniabrigade.ca",
           "date": "2026-06-02",
           "start_time": "6:00 PM",
@@ -5779,6 +5799,30 @@
           "date": "2026-05-28",
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21570",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/21570/",
+          "date": "2026-05-31",
+          "start_time": "11:00 AM",
+          "opponent": "Windsor Stars Mic Mac Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21571",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/21571/",
+          "date": "2026-05-31",
+          "start_time": "1:30 PM",
+          "opponent": "Windsor Stars Mic Mac Park",
           "home": false,
           "result": null,
           "brigade_score": null,
