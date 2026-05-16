@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-15T23:03:04.697186Z",
+  "generated": "2026-05-16T10:03:01.313449Z",
   "umpire_data_status": {
     "available": false,
     "reason": "playwright_error:Locator.click: Error: strict mode violation: locator(\"span.rtIn\").filter(has_text=\"All Games\") resolved to 2 elements:\n    1) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").first\n    2) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").nth(1)\n\nCall log:\n  - waiting for locator(\"span.rtIn\").filter(has_text=\"All Games\")\n",
@@ -8350,7 +8350,7 @@
       "ties": 0,
       "runs_for": 41,
       "runs_against": 23,
-      "practices": 35,
+      "practices": 34,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -8528,16 +8528,6 @@
           "summary": "14U OBA Rep - Game @ St. Thomas Cardinals [14u18](W 20-7)",
           "location": "Emslie Field",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21100-sarniabrigade.ca",
-          "date": "2026-05-14",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-15",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -11897,12 +11887,12 @@
       "id": 1303,
       "name": "11U Select",
       "category": "Select",
-      "gp": 1,
+      "gp": 2,
       "wins": 1,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "runs_for": 17,
-      "runs_against": 7,
+      "runs_for": 26,
+      "runs_against": 21,
       "practices": 22,
       "roster": {
         "players": 13,
@@ -12028,7 +12018,7 @@
           "date": "2026-05-15",
           "start_time": "6:00 PM",
           "end_date": "2026-05-16",
-          "summary": "11U Select - Game @ Strathroy Royals [11uS109]",
+          "summary": "11U Select - Game @ Strathroy Royals [11uS109](L 9-14)",
           "location": "York Street (1)",
           "type": "game",
           "cancelled": false
@@ -12436,9 +12426,9 @@
           "start_time": "6:00 PM",
           "opponent": "Strathroy Royals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 9,
+          "opp_score": 14,
           "cancelled": false
         },
         {
