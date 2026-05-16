@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-16T10:03:01.313449Z",
+  "generated": "2026-05-16T16:03:16.149931Z",
   "umpire_data_status": {
     "available": false,
     "reason": "playwright_error:Locator.click: Error: strict mode violation: locator(\"span.rtIn\").filter(has_text=\"All Games\") resolved to 2 elements:\n    1) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").first\n    2) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").nth(1)\n\nCall log:\n  - waiting for locator(\"span.rtIn\").filter(has_text=\"All Games\")\n",
@@ -3713,7 +3713,7 @@
           "date": "2026-05-16",
           "start_time": "4:00 PM",
           "end_date": "2026-05-16",
-          "summary": "10U A OBA Rep - Game vs North London Nationals [10u23]",
+          "summary": "CANCELLED 10U A OBA Rep - Game vs North London Nationals [10u23]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -3723,7 +3723,7 @@
           "date": "2026-05-16",
           "start_time": "6:30 PM",
           "end_date": "2026-05-17",
-          "summary": "10U A OBA Rep - Game vs North London Nationals [10u53]",
+          "summary": "CANCELLED 10U A OBA Rep - Game vs North London Nationals [10u53]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -4478,7 +4478,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20756",
@@ -4490,7 +4490,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "21080",
@@ -10002,7 +10002,7 @@
           "date": "2026-05-16",
           "start_time": "1:30 PM",
           "end_date": "2026-05-16",
-          "summary": "15U OBA Rep - Game vs Chatham Major Diamonds",
+          "summary": "CANCELLED 15U OBA Rep - Game vs Chatham Major Diamonds",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -10819,7 +10819,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "19758",
@@ -10831,7 +10831,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20897",
@@ -16977,7 +16977,7 @@
           "date": "2026-05-16",
           "start_time": "2:00 PM",
           "end_date": "2026-05-16",
-          "summary": "16U PBLO - Game vs Tecumseh Thunder",
+          "summary": "CANCELLED 16U PBLO - Game vs Tecumseh Thunder",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -17810,7 +17810,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "19727",
@@ -19380,6 +19380,24 @@
       "location": "Kinsmen Park (2)"
     },
     {
+      "team_id": 1311,
+      "team_name": "10U A OBA Rep",
+      "type": "game",
+      "date": "2026-05-16",
+      "start_time": "4:00 PM",
+      "summary": "CANCELLED 10U A OBA Rep - Game vs North London Nationals [10u23]",
+      "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1311,
+      "team_name": "10U A OBA Rep",
+      "type": "game",
+      "date": "2026-05-16",
+      "start_time": "6:30 PM",
+      "summary": "CANCELLED 10U A OBA Rep - Game vs North London Nationals [10u53]",
+      "location": "Tecumseh Park"
+    },
+    {
       "team_id": 1293,
       "team_name": "11U OBA Rep",
       "type": "game",
@@ -19454,11 +19472,29 @@
     {
       "team_id": 1297,
       "team_name": "15U OBA Rep",
+      "type": "game",
+      "date": "2026-05-16",
+      "start_time": "1:30 PM",
+      "summary": "CANCELLED 15U OBA Rep - Game vs Chatham Major Diamonds",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1297,
+      "team_name": "15U OBA Rep",
       "type": "practice",
       "date": "2026-08-11",
       "start_time": "5:30 PM",
       "summary": "CANCELLED 15U OBA Rep - Practice",
       "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1297,
+      "team_name": "15U OBA Rep",
+      "type": "game",
+      "date": "2026-05-16",
+      "start_time": "11:00 AM",
+      "summary": "CANCELLED 15U OBA Rep - Game vs Chatham Major Diamonds Blackwell Park",
+      "location": ""
     },
     {
       "team_id": 1303,
@@ -19549,6 +19585,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 16U PBLO - Practice",
       "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1298,
+      "team_name": "16U PBLO",
+      "type": "game",
+      "date": "2026-05-16",
+      "start_time": "2:00 PM",
+      "summary": "CANCELLED 16U PBLO - Game vs Tecumseh Thunder",
+      "location": "Errol Russell Park"
     },
     {
       "team_id": 1298,
