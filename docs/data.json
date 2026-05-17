@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-17T19:32:54.030178Z",
+  "generated": "2026-05-17T23:03:20.842039Z",
   "umpire_data_status": {
     "available": false,
     "reason": "playwright_error:Locator.click: Error: strict mode violation: locator(\"span.rtIn\").filter(has_text=\"All Games\") resolved to 2 elements:\n    1) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").first\n    2) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").nth(1)\n\nCall log:\n  - waiting for locator(\"span.rtIn\").filter(has_text=\"All Games\")\n",
@@ -9727,7 +9727,7 @@
       "ties": 0,
       "runs_for": 12,
       "runs_against": 18,
-      "practices": 62,
+      "practices": 61,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -9983,16 +9983,6 @@
           "start_time": "11:00 AM",
           "end_date": "2026-05-16",
           "summary": "15U OBA Rep - Game vs TBA  [Umpire$]",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19757-sarniabrigade.ca",
-          "date": "2026-05-16",
-          "start_time": "11:15 AM",
-          "end_date": "2026-05-16",
-          "summary": "CANCELLED 15U OBA Rep - Game vs Chatham Diamonds 15U [WC15U-005]",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -10448,13 +10438,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-19808-sarniabrigade.ca",
+          "uid": "MS-19757-sarniabrigade.ca",
           "date": "2026-07-30",
-          "start_time": "5:30 PM",
-          "end_date": "2026-07-30",
-          "summary": "15U OBA Rep - Practice",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-31",
+          "summary": "15U OBA Rep - Game vs Chatham Diamonds 15U [WC15U-005]",
           "location": "Blackwell Park",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -10812,18 +10802,6 @@
           "cancelled": false
         },
         {
-          "game_id": "19757",
-          "href": "https://sarniabrigade.ca/Teams/1297/Games/19757/",
-          "date": "2026-05-16",
-          "start_time": "11:15 AM",
-          "opponent": "Chatham Diamonds",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
           "game_id": "19758",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/19758/",
           "date": "2026-05-16",
@@ -11040,6 +11018,18 @@
           "cancelled": false
         },
         {
+          "game_id": "19757",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/19757/",
+          "date": "2026-07-30",
+          "start_time": "6:00 PM",
+          "opponent": "Chatham Diamonds",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "19813",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/19813/",
           "date": "2026-08-01",
@@ -11176,7 +11166,7 @@
       "ties": 0,
       "runs_for": 34,
       "runs_against": 21,
-      "practices": 25,
+      "practices": 24,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -11186,16 +11176,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19629-sarniabrigade.ca",
-          "date": "2026-03-17",
-          "start_time": "5:30 PM",
-          "end_date": "2026-03-17",
-          "summary": "9U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19630-sarniabrigade.ca",
           "date": "2026-03-31",
@@ -19447,15 +19427,6 @@
       "date": "2026-04-30",
       "start_time": "5:30 PM",
       "summary": "CANCELLED 15U OBA Rep - Practice",
-      "location": "Blackwell Park"
-    },
-    {
-      "team_id": 1297,
-      "team_name": "15U OBA Rep",
-      "type": "game",
-      "date": "2026-05-16",
-      "start_time": "11:15 AM",
-      "summary": "CANCELLED 15U OBA Rep - Game vs Chatham Diamonds 15U [WC15U-005]",
       "location": "Blackwell Park"
     },
     {
