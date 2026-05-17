@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-17T10:03:12.489993Z",
+  "generated": "2026-05-17T16:03:28.556988Z",
   "umpire_data_status": {
     "available": false,
     "reason": "playwright_error:Locator.click: Error: strict mode violation: locator(\"span.rtIn\").filter(has_text=\"All Games\") resolved to 2 elements:\n    1) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").first\n    2) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").nth(1)\n\nCall log:\n  - waiting for locator(\"span.rtIn\").filter(has_text=\"All Games\")\n",
@@ -8525,7 +8525,7 @@
           "date": "2026-05-17",
           "start_time": "10:00 AM",
           "end_date": "2026-05-17",
-          "summary": "14U OBA Rep - Game vs London West Tincaps",
+          "summary": "CANCELLED 14U OBA Rep - Game vs London West Tincaps",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -9252,7 +9252,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20428",
@@ -19442,6 +19442,15 @@
       "date": "2026-05-10",
       "start_time": "10:00 AM",
       "summary": "CANCELLED 14U OBA Rep - Game vs TBA",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "game",
+      "date": "2026-05-17",
+      "start_time": "10:00 AM",
+      "summary": "CANCELLED 14U OBA Rep - Game vs London West Tincaps",
       "location": "Blackwell Park"
     },
     {
