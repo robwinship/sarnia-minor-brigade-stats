@@ -424,9 +424,9 @@ def fetch_cp_schedule_rows(username: str, password: str, start_date: str, end_da
                 browser.close()
                 return [], "officials_frames_not_found"
 
-            nav.locator("span.rtIn", has_text="Standard Games Lists").click()
+            nav.locator("span.rtIn", has_text="Standard Games Lists").first.click()
             page.wait_for_timeout(1500)
-            nav.locator("span.rtIn", has_text="All Games").click()
+            nav.locator("span.rtIn", has_text="All Games").first.click()
             page.wait_for_timeout(5000)
 
             start_input = main.locator("#ctl00_ctl00_cMain_cTop_rtbTop_i6_rdpStartDate_dateInput")
