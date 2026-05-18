@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-17T23:03:20.842039Z",
+  "generated": "2026-05-18T10:03:35.483028Z",
   "umpire_data_status": {
     "available": false,
     "reason": "playwright_error:Locator.click: Error: strict mode violation: locator(\"span.rtIn\").filter(has_text=\"All Games\") resolved to 2 elements:\n    1) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").first\n    2) <span class=\"rtIn\">All Games</span> aka get_by_text(\"All Games\").nth(1)\n\nCall log:\n  - waiting for locator(\"span.rtIn\").filter(has_text=\"All Games\")\n",
@@ -3699,26 +3699,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20755-sarniabrigade.ca",
-          "date": "2026-05-16",
-          "start_time": "4:00 PM",
-          "end_date": "2026-05-16",
-          "summary": "CANCELLED 10U A OBA Rep - Game vs North London Nationals [10u23]",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20756-sarniabrigade.ca",
-          "date": "2026-05-16",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-17",
-          "summary": "CANCELLED 10U A OBA Rep - Game vs North London Nationals [10u53]",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20245-sarniabrigade.ca",
           "date": "2026-05-19",
           "start_time": "6:30 PM",
@@ -3799,21 +3779,21 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20407-sarniabrigade.ca",
+          "uid": "MS-20755-sarniabrigade.ca",
           "date": "2026-05-31",
           "start_time": "4:00 PM",
           "end_date": "2026-05-31",
-          "summary": "10U A OBA Rep - Game vs Essex Yellowjackets",
+          "summary": "10U A OBA Rep - Game vs North London Nationals [10u23]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
         },
         {
-          "uid": "MS-20408-sarniabrigade.ca",
+          "uid": "MS-20756-sarniabrigade.ca",
           "date": "2026-05-31",
           "start_time": "6:30 PM",
           "end_date": "2026-06-01",
-          "summary": "10U A OBA Rep - Game vs Essex Yellowjackets",
+          "summary": "10U A OBA Rep - Game vs North London Nationals [10u53]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -4447,30 +4427,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20755",
-          "href": "https://sarniabrigade.ca/Teams/1311/Games/20755/",
-          "date": "2026-05-16",
-          "start_time": "4:00 PM",
-          "opponent": "North London Nationals",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
-          "game_id": "20756",
-          "href": "https://sarniabrigade.ca/Teams/1311/Games/20756/",
-          "date": "2026-05-16",
-          "start_time": "6:30 PM",
-          "opponent": "North London Nationals",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
           "game_id": "21080",
           "href": "https://sarniabrigade.ca/Teams/1311/Games/21080/",
           "date": "2026-05-22",
@@ -4519,11 +4475,11 @@
           "cancelled": false
         },
         {
-          "game_id": "20407",
-          "href": "https://sarniabrigade.ca/Teams/1311/Games/20407/",
+          "game_id": "20755",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20755/",
           "date": "2026-05-31",
           "start_time": "4:00 PM",
-          "opponent": "Essex Yellowjackets Tecumseh Park",
+          "opponent": "North London Nationals",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -4531,11 +4487,11 @@
           "cancelled": false
         },
         {
-          "game_id": "20408",
-          "href": "https://sarniabrigade.ca/Teams/1311/Games/20408/",
+          "game_id": "20756",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20756/",
           "date": "2026-05-31",
           "start_time": "6:30 PM",
-          "opponent": "Essex Yellowjackets Tecumseh Park",
+          "opponent": "North London Nationals",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -12815,6 +12771,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21583-sarniabrigade.ca",
+          "date": "2026-05-22",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-23",
+          "summary": "13U Select - Game vs North London Nationals [13uS20]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19834-sarniabrigade.ca",
           "date": "2026-05-22",
           "start_time": "6:00 PM",
@@ -13275,6 +13241,18 @@
           "start_time": "6:30 PM",
           "opponent": "Ingersoll Ironbirds",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21583",
+          "href": "https://sarniabrigade.ca/Teams/1300/Games/21583/",
+          "date": "2026-05-22",
+          "start_time": "6:00 PM",
+          "opponent": "North London Nationals",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -16696,12 +16674,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 11,
-      "wins": 8,
-      "losses": 3,
+      "gp": 13,
+      "wins": 9,
+      "losses": 4,
       "ties": 0,
-      "runs_for": 76,
-      "runs_against": 58,
+      "runs_for": 93,
+      "runs_against": 70,
       "practices": 44,
       "roster": {
         "players": 15,
@@ -16947,7 +16925,7 @@
           "date": "2026-05-17",
           "start_time": "4:00 PM",
           "end_date": "2026-05-17",
-          "summary": "16U PBLO - Game @ Tecumseh Thunder",
+          "summary": "16U PBLO - Game @ Tecumseh Thunder(W 10-2)",
           "location": "Lacasse",
           "type": "game",
           "cancelled": false
@@ -16957,7 +16935,7 @@
           "date": "2026-05-17",
           "start_time": "6:30 PM",
           "end_date": "2026-05-18",
-          "summary": "16U PBLO - Game @ Tecumseh Thunder",
+          "summary": "16U PBLO - Game @ Tecumseh Thunder(L 7-10)",
           "location": "Lacasse",
           "type": "game",
           "cancelled": false
@@ -17779,9 +17757,9 @@
           "start_time": "4:00 PM",
           "opponent": "Tecumseh Thunder Lacasse",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 10,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -17791,9 +17769,9 @@
           "start_time": "6:30 PM",
           "opponent": "Tecumseh Thunder Lacasse",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 7,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -19329,24 +19307,6 @@
       "start_time": "5:30 PM",
       "summary": "CANCELLED 10U AA OBA Rep - Practice",
       "location": "Clearwater Diamond #2"
-    },
-    {
-      "team_id": 1311,
-      "team_name": "10U A OBA Rep",
-      "type": "game",
-      "date": "2026-05-16",
-      "start_time": "4:00 PM",
-      "summary": "CANCELLED 10U A OBA Rep - Game vs North London Nationals [10u23]",
-      "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1311,
-      "team_name": "10U A OBA Rep",
-      "type": "game",
-      "date": "2026-05-16",
-      "start_time": "6:30 PM",
-      "summary": "CANCELLED 10U A OBA Rep - Game vs North London Nationals [10u53]",
-      "location": "Tecumseh Park"
     },
     {
       "team_id": 1293,
