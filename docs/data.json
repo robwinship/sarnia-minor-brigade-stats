@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-18T21:16:39.332431Z",
+  "generated": "2026-05-18T23:03:10.751897Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3546,6 +3546,7 @@
             "assigned_umpires": [
               "Carter Palmer",
               "Charlie Philp",
+              "Colby Sheffer",
               "Dawson O'Brien",
               "Drew Bennett",
               "Easton McKinlay",
@@ -3558,6 +3559,7 @@
             "pending_umpires": [
               "Carter Palmer",
               "Charlie Philp",
+              "Colby Sheffer",
               "Drew Bennett",
               "Rio Ruiz"
             ],
@@ -3565,9 +3567,9 @@
               "Dawson O'Brien",
               "Liam Scott"
             ],
-            "assigned_count": 7,
+            "assigned_count": 8,
             "accepted_count": 1,
-            "pending_count": 4,
+            "pending_count": 5,
             "denied_count": 2,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -3583,6 +3585,7 @@
               "Dawson O'Brien",
               "Drew Bennett",
               "Easton McKinlay",
+              "Noah Bechard",
               "Rio Ruiz"
             ],
             "accepted_umpires": [
@@ -3592,14 +3595,15 @@
               "Carter Palmer",
               "Charlie Philp",
               "Drew Bennett",
+              "Noah Bechard",
               "Rio Ruiz"
             ],
             "denied_umpires": [
               "Dawson O'Brien"
             ],
-            "assigned_count": 6,
+            "assigned_count": 7,
             "accepted_count": 1,
-            "pending_count": 4,
+            "pending_count": 5,
             "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -3774,7 +3778,6 @@
                   "Jakob Rodriguez",
                   "Jarett Simons",
                   "Jason Lajeunesse",
-                  "Jax Albert",
                   "Jaxson Pyne",
                   "Jeffrey Stephenson",
                   "Joey Buchner",
@@ -3949,18 +3952,18 @@
                   "Brian Mundt",
                   "Brock Lane",
                   "Brock Prozorowicz",
-                  "Brogan Murphy",
                   "Caleb Willemsvandyk",
                   "Cali Vanderslagt",
                   "Cambria Caissie",
-                  "Carson Whittington",
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Carter Wills",
                   "Charlie Philp",
                   "Clark Thornton",
                   "Cohen Smith",
+                  "Colby Sheffer",
                   "Cullen Pearson",
+                  "David Haasen",
                   "Derek Bayly",
                   "Doug Krall",
                   "Drew Bennett",
@@ -3981,6 +3984,7 @@
                   "Kirk Vines",
                   "Kye Golder",
                   "Kylee Salisbury",
+                  "Lane Vanden Ouweland",
                   "Levi Burlingham",
                   "Liam Scott",
                   "Logan Conroy",
@@ -3990,9 +3994,10 @@
                   "Mason Portiss",
                   "Nate Edwards",
                   "Nathan Zavitz",
-                  "Penny Core",
+                  "Noah Bechard",
                   "Rio Ruiz",
                   "Ryan Carlton",
+                  "Ryder Daye",
                   "Ryerson Nead",
                   "Sadie Daughtrey",
                   "Terry Doyle",
@@ -4000,8 +4005,8 @@
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
                   "Tyler Whetham",
-                  "Wiishkpimin Macbeth",
-                  "Will Greer"
+                  "Will Greer",
+                  "Zhayn Trowbridge"
                 ],
                 "denied_umpires": [
                   "Austin Lozon",
@@ -4030,7 +4035,6 @@
                   "Jackson Bunda",
                   "Jackson Burlingham",
                   "Jacob Dawson",
-                  "Jax Albert",
                   "Jeffrey Stephenson",
                   "Joey Buchner",
                   "Jonas Winklmeier",
@@ -4040,15 +4044,12 @@
                   "Liam Burns",
                   "Liam Scott",
                   "Logan Hiscocks",
-                  "Lucas Barker",
-                  "Lucas Nethery",
                   "Marko Sazdov",
                   "Myles Hobbs",
                   "Nolan Bogaert",
                   "Parker Leighton",
                   "Penny Core",
                   "Ralph Campbell",
-                  "Ronnie Atyeo",
                   "Shane Moorhouse",
                   "Steve McGrail",
                   "Sydney Nisbet",
@@ -4056,10 +4057,10 @@
                   "Tyler Vandenberg",
                   "Wiishkpimin Macbeth"
                 ],
-                "assigned_count": 125,
+                "assigned_count": 124,
                 "accepted_count": 95,
-                "pending_count": 65,
-                "denied_count": 51,
+                "pending_count": 67,
+                "denied_count": 47,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4147,6 +4148,7 @@
                 "assigned_umpires": [
                   "Carter Palmer",
                   "Charlie Philp",
+                  "Colby Sheffer",
                   "Dawson O'Brien",
                   "Drew Bennett",
                   "Easton McKinlay",
@@ -4159,6 +4161,7 @@
                 "pending_umpires": [
                   "Carter Palmer",
                   "Charlie Philp",
+                  "Colby Sheffer",
                   "Drew Bennett",
                   "Rio Ruiz"
                 ],
@@ -4166,9 +4169,9 @@
                   "Dawson O'Brien",
                   "Liam Scott"
                 ],
-                "assigned_count": 7,
+                "assigned_count": 8,
                 "accepted_count": 1,
-                "pending_count": 4,
+                "pending_count": 5,
                 "denied_count": 2,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4182,6 +4185,7 @@
                   "Dawson O'Brien",
                   "Drew Bennett",
                   "Easton McKinlay",
+                  "Noah Bechard",
                   "Rio Ruiz"
                 ],
                 "accepted_umpires": [
@@ -4191,14 +4195,15 @@
                   "Carter Palmer",
                   "Charlie Philp",
                   "Drew Bennett",
+                  "Noah Bechard",
                   "Rio Ruiz"
                 ],
                 "denied_umpires": [
                   "Dawson O'Brien"
                 ],
-                "assigned_count": 6,
+                "assigned_count": 7,
                 "accepted_count": 1,
-                "pending_count": 4,
+                "pending_count": 5,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               }
@@ -10527,7 +10532,7 @@
       "ties": 0,
       "runs_for": 12,
       "runs_against": 18,
-      "practices": 61,
+      "practices": 60,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10537,16 +10542,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19692-sarniabrigade.ca",
-          "date": "2026-03-18",
-          "start_time": "5:30 PM",
-          "end_date": "2026-03-18",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19693-sarniabrigade.ca",
           "date": "2026-03-25",
@@ -14389,13 +14384,13 @@
             "opponent": "North London Nationals",
             "venue": "Tecumseh Park",
             "assigned_umpires": [
-              "Brogan Murphy",
-              "Carter Wills"
+              "David Haasen",
+              "Tyler Hoadley"
             ],
             "accepted_umpires": [],
             "pending_umpires": [
-              "Brogan Murphy",
-              "Carter Wills"
+              "David Haasen",
+              "Tyler Hoadley"
             ],
             "denied_umpires": [],
             "assigned_count": 2,
