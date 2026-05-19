@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-18T23:03:10.751897Z",
+  "generated": "2026-05-19T10:03:17.161490Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3492,7 +3492,7 @@
       ],
       "umpire_issues": {
         "games_missed": 2,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 2,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
@@ -3537,76 +3537,6 @@
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "past"
-          },
-          {
-            "date": "2026-05-24",
-            "time": "11:00 AM",
-            "opponent": "Leamington Lakers",
-            "venue": "TBD",
-            "assigned_umpires": [
-              "Carter Palmer",
-              "Charlie Philp",
-              "Colby Sheffer",
-              "Dawson O'Brien",
-              "Drew Bennett",
-              "Easton McKinlay",
-              "Liam Scott",
-              "Rio Ruiz"
-            ],
-            "accepted_umpires": [
-              "Easton McKinlay"
-            ],
-            "pending_umpires": [
-              "Carter Palmer",
-              "Charlie Philp",
-              "Colby Sheffer",
-              "Drew Bennett",
-              "Rio Ruiz"
-            ],
-            "denied_umpires": [
-              "Dawson O'Brien",
-              "Liam Scott"
-            ],
-            "assigned_count": 8,
-            "accepted_count": 1,
-            "pending_count": 5,
-            "denied_count": 2,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-24",
-            "time": "1:30 PM",
-            "opponent": "Leamington Lakers",
-            "venue": "TBD",
-            "assigned_umpires": [
-              "Carter Palmer",
-              "Charlie Philp",
-              "Dawson O'Brien",
-              "Drew Bennett",
-              "Easton McKinlay",
-              "Noah Bechard",
-              "Rio Ruiz"
-            ],
-            "accepted_umpires": [
-              "Easton McKinlay"
-            ],
-            "pending_umpires": [
-              "Carter Palmer",
-              "Charlie Philp",
-              "Drew Bennett",
-              "Noah Bechard",
-              "Rio Ruiz"
-            ],
-            "denied_umpires": [
-              "Dawson O'Brien"
-            ],
-            "assigned_count": 7,
-            "accepted_count": 1,
-            "pending_count": 5,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -3812,6 +3742,7 @@
                   "Nathan Zavitz",
                   "Noah Bechard",
                   "Nolan Bogaert",
+                  "Nolan Pool",
                   "Paolo Padiglia",
                   "Parker Leighton",
                   "Penny Core",
@@ -3957,26 +3888,24 @@
                   "Cambria Caissie",
                   "Carsyn Tnydall",
                   "Carter Palmer",
-                  "Carter Wills",
                   "Charlie Philp",
                   "Clark Thornton",
                   "Cohen Smith",
-                  "Colby Sheffer",
                   "Cullen Pearson",
-                  "David Haasen",
                   "Derek Bayly",
-                  "Doug Krall",
-                  "Drew Bennett",
                   "Dylan Heeringa",
+                  "Ethan Antle",
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Greg Armstrong",
                   "Hannah Stewart",
                   "Harper Vandenheuval",
                   "Irelynn Shaw",
+                  "Jack Needham",
                   "Jackson Burlingham",
-                  "Jacob Dawson",
                   "Jakob Rodriguez",
+                  "Jarett Simons",
                   "Jaxson Pyne",
                   "Joey Buchner",
                   "Jonas Winklmeier",
@@ -3984,20 +3913,19 @@
                   "Kirk Vines",
                   "Kye Golder",
                   "Kylee Salisbury",
-                  "Lane Vanden Ouweland",
                   "Levi Burlingham",
                   "Liam Scott",
                   "Logan Conroy",
+                  "Lucas Barker",
                   "Luke Walls",
                   "Marko Sazdov",
                   "Mason Harper",
                   "Mason Portiss",
                   "Nate Edwards",
                   "Nathan Zavitz",
-                  "Noah Bechard",
+                  "Nolan Pool",
                   "Rio Ruiz",
                   "Ryan Carlton",
-                  "Ryder Daye",
                   "Ryerson Nead",
                   "Sadie Daughtrey",
                   "Terry Doyle",
@@ -4005,8 +3933,8 @@
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
                   "Tyler Whetham",
-                  "Will Greer",
-                  "Zhayn Trowbridge"
+                  "Will Garton",
+                  "Will Greer"
                 ],
                 "denied_umpires": [
                   "Austin Lozon",
@@ -4020,7 +3948,6 @@
                   "Chris Makrigiannis",
                   "Cohen Smith",
                   "Cruz Marinaro",
-                  "Dawson O'Brien",
                   "Drew Baxter",
                   "Drew Bennett",
                   "Ethan Antle",
@@ -4037,8 +3964,6 @@
                   "Jacob Dawson",
                   "Jeffrey Stephenson",
                   "Joey Buchner",
-                  "Jonas Winklmeier",
-                  "Kassie Buchan",
                   "Kirk Vines",
                   "Levi Burlingham",
                   "Liam Burns",
@@ -4049,7 +3974,6 @@
                   "Nolan Bogaert",
                   "Parker Leighton",
                   "Penny Core",
-                  "Ralph Campbell",
                   "Shane Moorhouse",
                   "Steve McGrail",
                   "Sydney Nisbet",
@@ -4057,10 +3981,10 @@
                   "Tyler Vandenberg",
                   "Wiishkpimin Macbeth"
                 ],
-                "assigned_count": 124,
+                "assigned_count": 125,
                 "accepted_count": 95,
-                "pending_count": 67,
-                "denied_count": 47,
+                "pending_count": 64,
+                "denied_count": 43,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4137,42 +4061,34 @@
           {
             "date": "2026-05-24",
             "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "Colby Sheffer | Easton McKinlay",
+              "Easton McKinlay | Noah Bechard"
+            ],
+            "mismatched_names": [
+              "Colby Sheffer",
+              "Noah Bechard"
+            ],
             "games": [
               {
                 "time": "11:00 AM",
                 "opponent": "Leamington Lakers",
                 "venue": "TBD",
                 "assigned_umpires": [
-                  "Carter Palmer",
-                  "Charlie Philp",
                   "Colby Sheffer",
-                  "Dawson O'Brien",
-                  "Drew Bennett",
-                  "Easton McKinlay",
-                  "Liam Scott",
-                  "Rio Ruiz"
-                ],
-                "accepted_umpires": [
                   "Easton McKinlay"
                 ],
-                "pending_umpires": [
-                  "Carter Palmer",
-                  "Charlie Philp",
+                "accepted_umpires": [
                   "Colby Sheffer",
-                  "Drew Bennett",
-                  "Rio Ruiz"
+                  "Easton McKinlay"
                 ],
-                "denied_umpires": [
-                  "Dawson O'Brien",
-                  "Liam Scott"
-                ],
-                "assigned_count": 8,
-                "accepted_count": 1,
-                "pending_count": 5,
-                "denied_count": 2,
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4180,31 +4096,19 @@
                 "opponent": "Leamington Lakers",
                 "venue": "TBD",
                 "assigned_umpires": [
-                  "Carter Palmer",
-                  "Charlie Philp",
-                  "Dawson O'Brien",
-                  "Drew Bennett",
                   "Easton McKinlay",
-                  "Noah Bechard",
-                  "Rio Ruiz"
+                  "Noah Bechard"
                 ],
                 "accepted_umpires": [
-                  "Easton McKinlay"
+                  "Easton McKinlay",
+                  "Noah Bechard"
                 ],
-                "pending_umpires": [
-                  "Carter Palmer",
-                  "Charlie Philp",
-                  "Drew Bennett",
-                  "Noah Bechard",
-                  "Rio Ruiz"
-                ],
-                "denied_umpires": [
-                  "Dawson O'Brien"
-                ],
-                "assigned_count": 7,
-                "accepted_count": 1,
-                "pending_count": 5,
-                "denied_count": 1,
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               }
             ]
@@ -6746,12 +6650,12 @@
       "id": 1294,
       "name": "12U OBA Rep",
       "category": "OBA Rep",
-      "gp": 2,
-      "wins": 0,
-      "losses": 2,
+      "gp": 4,
+      "wins": 1,
+      "losses": 3,
       "ties": 0,
-      "runs_for": 7,
-      "runs_against": 16,
+      "runs_for": 16,
+      "runs_against": 35,
       "practices": 42,
       "roster": {
         "players": 13,
@@ -6927,7 +6831,7 @@
           "date": "2026-05-17",
           "start_time": "10:00 AM",
           "end_date": "2026-05-17",
-          "summary": "12U OBA Rep - Game vs DKMB River Cats [12u10]",
+          "summary": "12U OBA Rep - Game vs DKMB River Cats [12u10](W 2-8)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6937,7 +6841,7 @@
           "date": "2026-05-17",
           "start_time": "1:00 PM",
           "end_date": "2026-05-17",
-          "summary": "12U OBA Rep - Game vs DKMB River Cats [12u31]",
+          "summary": "12U OBA Rep - Game vs DKMB River Cats [12u31](L 17-1)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -7557,9 +7461,9 @@
           "start_time": "10:00 AM",
           "opponent": "DKMB River Cats",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 8,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -7569,9 +7473,9 @@
           "start_time": "1:00 PM",
           "opponent": "DKMB River Cats",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 1,
+          "opp_score": 17,
           "cancelled": false
         },
         {
@@ -14387,17 +14291,18 @@
               "David Haasen",
               "Tyler Hoadley"
             ],
-            "accepted_umpires": [],
+            "accepted_umpires": [
+              "David Haasen"
+            ],
             "pending_umpires": [
-              "David Haasen",
               "Tyler Hoadley"
             ],
             "denied_umpires": [],
             "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -16455,6 +16360,7 @@
               "Kylee Salisbury",
               "Liam Scott",
               "Nate Edwards",
+              "Nolan Pool",
               "Rio Ruiz",
               "Sophia Kennedy",
               "Tyler Vandenberg"
@@ -16468,6 +16374,7 @@
               "Kylee Salisbury",
               "Liam Scott",
               "Nate Edwards",
+              "Nolan Pool",
               "Rio Ruiz"
             ],
             "denied_umpires": [
@@ -16475,9 +16382,9 @@
               "Ethan Antle",
               "Tyler Vandenberg"
             ],
-            "assigned_count": 10,
+            "assigned_count": 11,
             "accepted_count": 1,
-            "pending_count": 6,
+            "pending_count": 7,
             "denied_count": 3,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -18130,16 +18037,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-19753-sarniabrigade.ca",
-          "date": "2026-06-14",
-          "start_time": "1:00 PM",
-          "end_date": "2026-06-14",
-          "summary": "CANCELLED 16U PBLO - Game @ Ontario Giants",
-          "location": "Chris Gibson (Red)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20217-sarniabrigade.ca",
           "date": "2026-06-15",
           "start_time": "7:00 PM",
@@ -18900,18 +18797,6 @@
           "brigade_score": null,
           "opp_score": null,
           "cancelled": false
-        },
-        {
-          "game_id": "19753",
-          "href": "https://sarniabrigade.ca/Teams/1298/Games/19753/",
-          "date": "2026-06-14",
-          "start_time": "1:00 PM",
-          "opponent": "Ontario Giants Chris Gibson",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
         },
         {
           "game_id": "19723",
@@ -20528,15 +20413,6 @@
       "start_time": "2:00 PM",
       "summary": "CANCELLED 16U PBLO - Game vs Tecumseh Thunder",
       "location": "Errol Russell Park"
-    },
-    {
-      "team_id": 1298,
-      "team_name": "16U PBLO",
-      "type": "game",
-      "date": "2026-06-14",
-      "start_time": "1:00 PM",
-      "summary": "CANCELLED 16U PBLO - Game @ Ontario Giants",
-      "location": "Chris Gibson (Red)"
     }
   ]
 }
