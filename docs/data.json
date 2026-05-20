@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-20T10:03:07.777385Z",
+  "generated": "2026-05-20T16:03:18.972070Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3565,7 +3565,6 @@
               "Ethan Carlton",
               "Gage Boyd",
               "Grady Boyd",
-              "Graham Dolbear",
               "Grant Purdy",
               "Greg Armstrong",
               "Greg Baker",
@@ -3795,7 +3794,6 @@
                   "Ethan Carlton",
                   "Gage Boyd",
                   "Grady Boyd",
-                  "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
                   "Greg Baker",
@@ -3879,7 +3877,6 @@
                   "Brock Prozorowicz",
                   "Caleb Willemsvandyk",
                   "Cali Vanderslagt",
-                  "Cambria Caissie",
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Charlie Philp",
@@ -3894,13 +3891,12 @@
                   "Harper Vandenheuval",
                   "Irelynn Shaw",
                   "Jackson Burlingham",
-                  "Jarett Simons",
+                  "Jason Lajeunesse",
                   "Jaxson Pyne",
                   "Joey Buchner",
                   "Juan Peralta",
                   "Kirk Vines",
                   "Kye Golder",
-                  "Kylee Salisbury",
                   "Levi Burlingham",
                   "Logan Conroy",
                   "Luke Walls",
@@ -3913,6 +3909,7 @@
                   "Ryan Carlton",
                   "Ryerson Nead",
                   "Sadie Daughtrey",
+                  "Shane Moorhouse",
                   "Terry Doyle",
                   "Timothy Johnston",
                   "Tucker Stokes",
@@ -3947,6 +3944,7 @@
                   "Jacob Dawson",
                   "Jeffrey Stephenson",
                   "Joey Buchner",
+                  "Juan Peralta",
                   "Kirk Vines",
                   "Levi Burlingham",
                   "Liam Burns",
@@ -3965,9 +3963,9 @@
                   "Wiishkpimin Macbeth"
                 ],
                 "assigned_count": 125,
-                "accepted_count": 97,
-                "pending_count": 55,
-                "denied_count": 41,
+                "accepted_count": 96,
+                "pending_count": 54,
+                "denied_count": 42,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -10654,7 +10652,7 @@
           "date": "2026-05-16",
           "start_time": "11:00 AM",
           "end_date": "2026-05-16",
-          "summary": "15U OBA Rep - Game vs TBA  [Umpire$]",
+          "summary": "CANCELLED 15U OBA Rep - Game vs TBA  [Umpire$]",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -11481,7 +11479,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "19758",
@@ -14296,18 +14294,22 @@
             "venue": "Tecumseh Park",
             "assigned_umpires": [
               "David Haasen",
+              "Jason Lajeunesse",
+              "Shane Moorhouse",
               "Tyler Hoadley"
             ],
             "accepted_umpires": [
               "David Haasen"
             ],
             "pending_umpires": [
+              "Jason Lajeunesse",
+              "Shane Moorhouse",
               "Tyler Hoadley"
             ],
             "denied_umpires": [],
-            "assigned_count": 2,
+            "assigned_count": 4,
             "accepted_count": 1,
-            "pending_count": 1,
+            "pending_count": 3,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -14331,8 +14333,8 @@
       "wins": 0,
       "losses": 0,
       "ties": 0,
-      "runs_for": 0,
-      "runs_against": 0,
+      "runs_for": 8,
+      "runs_against": 8,
       "practices": 33,
       "roster": {
         "players": 12,
@@ -14458,7 +14460,7 @@
           "date": "2026-05-19",
           "start_time": "8:30 PM",
           "end_date": "2026-05-20",
-          "summary": "15U Select - Game vs North London Nationals [15uS12]",
+          "summary": "15U Select - Game vs North London Nationals [15uS12](T 8-8)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -14903,8 +14905,8 @@
           "opponent": "North London Nationals",
           "home": true,
           "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "brigade_score": 8,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -17735,7 +17737,7 @@
           "date": "2026-05-16",
           "start_time": "11:00 AM",
           "end_date": "2026-05-16",
-          "summary": "16U PBLO - Game vs Tecumseh Thunder",
+          "summary": "CANCELLED 16U PBLO - Game vs Tecumseh Thunder",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -18556,7 +18558,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "19743",
@@ -19505,7 +19507,7 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 1,
+        "games_missed": 2,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
@@ -19516,6 +19518,22 @@
             "date": "2026-05-12",
             "time": "7:30 PM",
             "opponent": "TBA",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "past"
+          },
+          {
+            "date": "2026-05-19",
+            "time": "7:30 PM",
+            "opponent": "Port Lambton Pirates",
             "venue": "Errol Russell Park",
             "assigned_umpires": [],
             "accepted_umpires": [],
@@ -20319,6 +20337,15 @@
       "team_name": "15U OBA Rep",
       "type": "game",
       "date": "2026-05-16",
+      "start_time": "11:00 AM",
+      "summary": "CANCELLED 15U OBA Rep - Game vs TBA  [Umpire$]",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1297,
+      "team_name": "15U OBA Rep",
+      "type": "game",
+      "date": "2026-05-16",
       "start_time": "1:30 PM",
       "summary": "CANCELLED 15U OBA Rep - Game vs Chatham Diamonds 15U [WC15U-055]",
       "location": "Blackwell Park"
@@ -20421,6 +20448,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 16U PBLO - Practice",
       "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1298,
+      "team_name": "16U PBLO",
+      "type": "game",
+      "date": "2026-05-16",
+      "start_time": "11:00 AM",
+      "summary": "CANCELLED 16U PBLO - Game vs Tecumseh Thunder",
+      "location": "Errol Russell Park"
     },
     {
       "team_id": 1298,
