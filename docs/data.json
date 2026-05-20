@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-20T16:03:18.972070Z",
+  "generated": "2026-05-20T19:34:08.258165Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -286,6 +286,16 @@
           "end_date": "2026-06-05",
           "summary": "8U OBA Rep - Game @ St. Thomas Cardinals [8u14]",
           "location": "Doug Tarry (2)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21631-sarniabrigade.ca",
+          "date": "2026-06-06",
+          "start_time": "10:00 AM",
+          "end_date": "2026-06-06",
+          "summary": "8U OBA Rep - Game vs Chatham Diamonds 8U [WC9U-076a]",
+          "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
         },
@@ -836,6 +846,18 @@
           "cancelled": false
         },
         {
+          "game_id": "21631",
+          "href": "https://sarniabrigade.ca/Teams/1290/Games/21631/",
+          "date": "2026-06-06",
+          "start_time": "10:00 AM",
+          "opponent": "Chatham Diamonds",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20801",
           "href": "https://sarniabrigade.ca/Teams/1290/Games/20801/",
           "date": "2026-06-07",
@@ -865,18 +887,6 @@
           "date": "2026-06-10",
           "start_time": "6:00 PM",
           "opponent": "London West Tincaps",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "20506",
-          "href": "https://sarniabrigade.ca/Teams/1290/Games/20506/",
-          "date": "2026-06-17",
-          "start_time": "6:00 PM",
-          "opponent": "Chatham Diamonds",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -3619,6 +3629,7 @@
               "Shane Moorhouse",
               "Sophia Kennedy",
               "Steve McGrail",
+              "Summer Steinke",
               "Sydney Nisbet",
               "Terry Doyle",
               "Trent Hogan",
@@ -3749,6 +3760,7 @@
                   "Shane Moorhouse",
                   "Sophia Kennedy",
                   "Steve McGrail",
+                  "Summer Steinke",
                   "Sydney Nisbet",
                   "Terry Doyle",
                   "Timothy Johnston",
@@ -3849,6 +3861,7 @@
                   "Shane Moorhouse",
                   "Sophia Kennedy",
                   "Steve McGrail",
+                  "Summer Steinke",
                   "Sydney Nisbet",
                   "Terry Doyle",
                   "Trent Hogan",
@@ -3882,6 +3895,7 @@
                   "Charlie Philp",
                   "Cullen Pearson",
                   "Derek Bayly",
+                  "Drew Bennett",
                   "Dylan Heeringa",
                   "Ewan Snedden",
                   "Graham Dolbear",
@@ -3889,12 +3903,12 @@
                   "Greg Armstrong",
                   "Hannah Stewart",
                   "Harper Vandenheuval",
+                  "Hayden Scheuermann",
                   "Irelynn Shaw",
                   "Jackson Burlingham",
-                  "Jason Lajeunesse",
                   "Jaxson Pyne",
-                  "Joey Buchner",
                   "Juan Peralta",
+                  "Kassie Buchan",
                   "Kirk Vines",
                   "Kye Golder",
                   "Levi Burlingham",
@@ -3905,11 +3919,11 @@
                   "Mason Portiss",
                   "Nate Edwards",
                   "Nathan Zavitz",
+                  "Paolo Padiglia",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryerson Nead",
                   "Sadie Daughtrey",
-                  "Shane Moorhouse",
                   "Terry Doyle",
                   "Timothy Johnston",
                   "Tucker Stokes",
@@ -3962,9 +3976,9 @@
                   "Tyler Vandenberg",
                   "Wiishkpimin Macbeth"
                 ],
-                "assigned_count": 125,
-                "accepted_count": 96,
-                "pending_count": 54,
+                "assigned_count": 126,
+                "accepted_count": 97,
+                "pending_count": 55,
                 "denied_count": 42,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -14281,40 +14295,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-22",
-            "time": "6:00 PM",
-            "opponent": "North London Nationals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "David Haasen",
-              "Jason Lajeunesse",
-              "Shane Moorhouse",
-              "Tyler Hoadley"
-            ],
-            "accepted_umpires": [
-              "David Haasen"
-            ],
-            "pending_umpires": [
-              "Jason Lajeunesse",
-              "Shane Moorhouse",
-              "Tyler Hoadley"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 4,
-            "accepted_count": 1,
-            "pending_count": 3,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 0.0,
