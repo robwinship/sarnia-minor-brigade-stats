@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-20T19:34:08.258165Z",
+  "generated": "2026-05-20T23:03:12.450035Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -347,16 +347,6 @@
           "summary": "8U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20506-sarniabrigade.ca",
-          "date": "2026-06-17",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-18",
-          "summary": "8U OBA Rep - Game @ Chatham Diamonds 8U [WC9U-002]",
-          "location": "Jaycee Park (2)",
-          "type": "game",
           "cancelled": false
         },
         {
@@ -1138,7 +1128,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 41,
+      "practices": 36,
       "roster": {
         "players": 12,
         "adults": 5,
@@ -1299,16 +1289,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20182-sarniabrigade.ca",
-          "date": "2026-05-19",
-          "start_time": "5:00 PM",
-          "end_date": "2026-05-19",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19778-sarniabrigade.ca",
           "date": "2026-05-19",
           "start_time": "6:00 PM",
@@ -1349,16 +1329,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-19877-sarniabrigade.ca",
-          "date": "2026-05-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-28",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20779-sarniabrigade.ca",
           "date": "2026-05-28",
           "start_time": "6:00 PM",
@@ -1376,16 +1346,6 @@
           "summary": "9U OBA Rep - Game vs Dorchester Diamondbacks [9u01]",
           "location": "Clearwater Diamond #1",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20184-sarniabrigade.ca",
-          "date": "2026-06-02",
-          "start_time": "5:00 PM",
-          "end_date": "2026-06-02",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -1709,16 +1669,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20192-sarniabrigade.ca",
-          "date": "2026-07-28",
-          "start_time": "5:00 PM",
-          "end_date": "2026-07-28",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20843-sarniabrigade.ca",
           "date": "2026-07-28",
           "start_time": "6:00 PM",
@@ -1735,16 +1685,6 @@
           "end_date": "2026-07-30",
           "summary": "9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20193-sarniabrigade.ca",
-          "date": "2026-08-04",
-          "start_time": "5:00 PM",
-          "end_date": "2026-08-04",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -2233,7 +2173,7 @@
       "ties": 0,
       "runs_for": 64,
       "runs_against": 46,
-      "practices": 49,
+      "practices": 48,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -2243,16 +2183,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19641-sarniabrigade.ca",
-          "date": "2026-03-20",
-          "start_time": "5:00 PM",
-          "end_date": "2026-03-20",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19642-sarniabrigade.ca",
           "date": "2026-03-27",
@@ -3711,7 +3641,6 @@
                   "Jarett Simons",
                   "Jason Lajeunesse",
                   "Jaxson Pyne",
-                  "Jeffrey Stephenson",
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Juan Peralta",
@@ -3908,7 +3837,6 @@
                   "Jackson Burlingham",
                   "Jaxson Pyne",
                   "Juan Peralta",
-                  "Kassie Buchan",
                   "Kirk Vines",
                   "Kye Golder",
                   "Levi Burlingham",
@@ -3919,11 +3847,11 @@
                   "Mason Portiss",
                   "Nate Edwards",
                   "Nathan Zavitz",
-                  "Paolo Padiglia",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryerson Nead",
                   "Sadie Daughtrey",
+                  "Steve McGrail",
                   "Terry Doyle",
                   "Timothy Johnston",
                   "Tucker Stokes",
@@ -3956,9 +3884,7 @@
                   "Jack Needham",
                   "Jackson Burlingham",
                   "Jacob Dawson",
-                  "Jeffrey Stephenson",
                   "Joey Buchner",
-                  "Juan Peralta",
                   "Kirk Vines",
                   "Levi Burlingham",
                   "Liam Burns",
@@ -3972,14 +3898,13 @@
                   "Shane Moorhouse",
                   "Steve McGrail",
                   "Sydney Nisbet",
-                  "Tucker Stokes",
                   "Tyler Vandenberg",
                   "Wiishkpimin Macbeth"
                 ],
-                "assigned_count": 126,
+                "assigned_count": 125,
                 "accepted_count": 97,
-                "pending_count": 55,
-                "denied_count": 42,
+                "pending_count": 54,
+                "denied_count": 39,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -13446,7 +13371,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 30,
+      "practices": 26,
       "roster": {
         "players": 12,
         "adults": 4,
@@ -13587,16 +13512,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-19834-sarniabrigade.ca",
-          "date": "2026-05-22",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-23",
-          "summary": "13U Select - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19855-sarniabrigade.ca",
           "date": "2026-05-25",
           "start_time": "6:00 PM",
@@ -13637,16 +13552,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-19856-sarniabrigade.ca",
-          "date": "2026-06-01",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-02",
-          "summary": "13U Select - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20860-sarniabrigade.ca",
           "date": "2026-06-04",
           "start_time": "6:00 PM",
@@ -13672,16 +13577,6 @@
           "start_time": "6:00 PM",
           "end_date": "2026-06-09",
           "summary": "13U Select - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19837-sarniabrigade.ca",
-          "date": "2026-06-12",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-13",
-          "summary": "CANCELLED 13U Select - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
@@ -13774,16 +13669,6 @@
           "summary": "13U Select - Game vs Lucan-Ilderton Athletics [13uS109]",
           "location": "Tecumseh Park",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19861-sarniabrigade.ca",
-          "date": "2026-07-06",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-07",
-          "summary": "13U Select - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -20352,15 +20237,6 @@
       "date": "2026-05-18",
       "start_time": "6:00 PM",
       "summary": "CANCELLED 13U Select - Game vs Strathroy Royals [13uS67]",
-      "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1300,
-      "team_name": "13U Select",
-      "type": "practice",
-      "date": "2026-06-12",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 13U Select - Practice",
       "location": "Tecumseh Park"
     },
     {
