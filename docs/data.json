@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-19T23:03:23.080829Z",
+  "generated": "2026-05-20T10:03:07.777385Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3873,6 +3873,7 @@
                   "Benjamin Leystra",
                   "Bentley Bartosz",
                   "Bentley Daughtrey",
+                  "Blake Adams",
                   "Brian Mundt",
                   "Brock Lane",
                   "Brock Prozorowicz",
@@ -3965,7 +3966,7 @@
                 ],
                 "assigned_count": 125,
                 "accepted_count": 97,
-                "pending_count": 54,
+                "pending_count": 55,
                 "denied_count": 41,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -12624,7 +12625,7 @@
       "ties": 0,
       "runs_for": 26,
       "runs_against": 21,
-      "practices": 22,
+      "practices": 21,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -12634,16 +12635,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19822-sarniabrigade.ca",
-          "date": "2026-03-19",
-          "start_time": "7:00 PM",
-          "end_date": "2026-03-20",
-          "summary": "11U Select - Indoor Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19823-sarniabrigade.ca",
           "date": "2026-04-02",
@@ -14291,29 +14282,13 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 1,
+        "games_missed": 0,
         "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
-          {
-            "date": "2026-05-18",
-            "time": "6:00 PM",
-            "opponent": "TBA",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "past"
-          },
           {
             "date": "2026-05-22",
             "time": "6:00 PM",
@@ -19971,12 +19946,29 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-05-27",
+            "time": "7:30 PM",
+            "opponent": "TBA",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": null,
