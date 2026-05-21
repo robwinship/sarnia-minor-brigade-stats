@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-20T23:03:12.450035Z",
+  "generated": "2026-05-21T10:03:19.407088Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -13,12 +13,12 @@
       "id": 1290,
       "name": "8U OBA Rep",
       "category": "OBA Rep",
-      "gp": 0,
+      "gp": 1,
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "runs_for": 0,
-      "runs_against": 0,
+      "runs_for": 8,
+      "runs_against": 15,
       "practices": 40,
       "roster": {
         "players": 12,
@@ -194,7 +194,7 @@
           "date": "2026-05-20",
           "start_time": "6:30 PM",
           "end_date": "2026-05-21",
-          "summary": "8U OBA Rep - Game @ Wyoming Wranglers [WC9U-029]",
+          "summary": "8U OBA Rep - Game @ Wyoming Wranglers [WC9U-029](L 8-15)",
           "location": "Kerr Park",
           "type": "game",
           "cancelled": false
@@ -758,9 +758,9 @@
           "start_time": "6:30 PM",
           "opponent": "Wyoming Wranglers WC9U-029 Kerr Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 8,
+          "opp_score": 15,
           "cancelled": false
         },
         {
@@ -5332,12 +5332,12 @@
       "id": 1293,
       "name": "11U OBA Rep",
       "category": "OBA Rep",
-      "gp": 5,
-      "wins": 3,
+      "gp": 6,
+      "wins": 4,
       "losses": 2,
       "ties": 0,
-      "runs_for": 69,
-      "runs_against": 41,
+      "runs_for": 76,
+      "runs_against": 47,
       "practices": 39,
       "roster": {
         "players": 12,
@@ -5563,7 +5563,7 @@
           "date": "2026-05-20",
           "start_time": "6:00 PM",
           "end_date": "2026-05-21",
-          "summary": "11U OBA Rep - Game @ Chatham Diamonds 11u [WC11U-101]",
+          "summary": "11U OBA Rep - Game @ Chatham Diamonds 11u [WC11U-101](W 7-6)",
           "location": "Kinsmen Park (2)",
           "type": "game",
           "cancelled": false
@@ -6235,9 +6235,9 @@
           "start_time": "6:00 PM",
           "opponent": "Chatham Diamonds",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 7,
+          "opp_score": 6,
           "cancelled": false
         },
         {
@@ -7692,12 +7692,12 @@
       "id": 1295,
       "name": "13U OBA Rep",
       "category": "OBA Rep",
-      "gp": 6,
-      "wins": 3,
-      "losses": 3,
+      "gp": 10,
+      "wins": 4,
+      "losses": 6,
       "ties": 0,
-      "runs_for": 54,
-      "runs_against": 53,
+      "runs_for": 81,
+      "runs_against": 76,
       "practices": 41,
       "roster": {
         "players": 13,
@@ -7893,7 +7893,7 @@
           "date": "2026-05-15",
           "start_time": "5:30 PM",
           "end_date": "2026-05-15",
-          "summary": "13U OBA Rep - Game vs West Toronto Wildcats",
+          "summary": "13U OBA Rep - Game vs West Toronto Wildcats(L 3-0)",
           "location": "South Side Park East",
           "type": "game",
           "cancelled": false
@@ -7903,7 +7903,7 @@
           "date": "2026-05-16",
           "start_time": "9:00 AM",
           "end_date": "2026-05-16",
-          "summary": "13U OBA Rep - Game vs Etobicoke Rangers",
+          "summary": "13U OBA Rep - Game vs Etobicoke Rangers(L 7-4)",
           "location": "South Side Park West",
           "type": "game",
           "cancelled": false
@@ -7913,7 +7913,7 @@
           "date": "2026-05-16",
           "start_time": "12:00 PM",
           "end_date": "2026-05-16",
-          "summary": "13U OBA Rep - Game vs St Tomas Cardinals",
+          "summary": "13U OBA Rep - Game vs St Tomas Cardinals(L 7-4)",
           "location": "South Side Park West",
           "type": "game",
           "cancelled": false
@@ -7933,7 +7933,7 @@
           "date": "2026-05-20",
           "start_time": "6:00 PM",
           "end_date": "2026-05-21",
-          "summary": "13U OBA Rep - Game @ North London Nationals [13u15]",
+          "summary": "13U OBA Rep - Game @ North London Nationals [13u15](W 19-6)",
           "location": "North London (3)",
           "type": "game",
           "cancelled": false
@@ -8549,9 +8549,9 @@
           "start_time": "5:30 PM",
           "opponent": "West Toronto Wildcats South Side Park East",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 0,
+          "opp_score": 3,
           "cancelled": false
         },
         {
@@ -8561,9 +8561,9 @@
           "start_time": "9:00 AM",
           "opponent": "Etobicoke Rangers South Side Park West",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -8573,9 +8573,9 @@
           "start_time": "12:00 PM",
           "opponent": "St Tomas Cardinals South Side Park West",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -8585,9 +8585,9 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 19,
+          "opp_score": 6,
           "cancelled": false
         },
         {
@@ -9072,10 +9072,10 @@
         {
           "uid": "MS-21584-sarniabrigade.ca",
           "date": "2026-05-21",
-          "start_time": "8:00 PM",
+          "start_time": "7:00 PM",
           "end_date": "2026-05-22",
           "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell North",
+          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -9145,7 +9145,7 @@
           "start_time": "8:00 PM",
           "end_date": "2026-05-29",
           "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell North",
+          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -9235,7 +9235,7 @@
           "start_time": "8:00 PM",
           "end_date": "2026-06-05",
           "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell North",
+          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -9295,7 +9295,7 @@
           "start_time": "8:00 PM",
           "end_date": "2026-06-12",
           "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell North",
+          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -9315,7 +9315,7 @@
           "start_time": "8:00 PM",
           "end_date": "2026-06-19",
           "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell North",
+          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -9405,7 +9405,7 @@
           "start_time": "8:00 PM",
           "end_date": "2026-07-03",
           "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell North",
+          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -9455,7 +9455,7 @@
           "start_time": "8:00 PM",
           "end_date": "2026-07-10",
           "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell North",
+          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -9475,7 +9475,7 @@
           "start_time": "8:00 PM",
           "end_date": "2026-07-17",
           "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell North",
+          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -9525,7 +9525,7 @@
           "start_time": "8:00 PM",
           "end_date": "2026-07-24",
           "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell North",
+          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -9565,7 +9565,7 @@
           "start_time": "8:00 PM",
           "end_date": "2026-07-31",
           "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell North",
+          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -15682,12 +15682,12 @@
       "id": 1310,
       "name": "11U Lady Brigade",
       "category": "River League",
-      "gp": 0,
+      "gp": 1,
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "runs_for": 0,
-      "runs_against": 0,
+      "runs_for": 4,
+      "runs_against": 16,
       "practices": 20,
       "roster": {
         "players": 12,
@@ -15783,7 +15783,7 @@
           "date": "2026-05-20",
           "start_time": "6:30 PM",
           "end_date": "2026-05-21",
-          "summary": "11U Lady Brigade - Game vs 11u River League [RL11UN-45]",
+          "summary": "11U Lady Brigade - Game vs 11u River League [RL11UN-45](L 16-4)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -16057,9 +16057,9 @@
           "start_time": "6:30 PM",
           "opponent": null,
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 16,
           "cancelled": false
         },
         {
@@ -16241,12 +16241,12 @@
       "id": 1315,
       "name": "11U River League",
       "category": "River League",
-      "gp": 0,
-      "wins": 0,
+      "gp": 1,
+      "wins": 1,
       "losses": 0,
       "ties": 0,
-      "runs_for": 0,
-      "runs_against": 0,
+      "runs_for": 16,
+      "runs_against": 4,
       "practices": 11,
       "roster": {
         "players": 15,
@@ -16302,7 +16302,7 @@
           "date": "2026-05-20",
           "start_time": "6:30 PM",
           "end_date": "2026-05-21",
-          "summary": "11u River League - Game @ 11U Lady Brigade [RL11UN-45]",
+          "summary": "11u River League - Game @ 11U Lady Brigade [RL11UN-45](W 16-4)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -16516,9 +16516,9 @@
           "start_time": "6:30 PM",
           "opponent": null,
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 16,
+          "opp_score": 4,
           "cancelled": false
         },
         {
