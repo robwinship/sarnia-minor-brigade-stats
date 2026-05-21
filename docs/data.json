@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-21T16:03:02.323996Z",
+  "generated": "2026-05-21T19:32:49.849840Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3823,6 +3823,7 @@
                   "Charlie Philp",
                   "Cullen Pearson",
                   "Derek Bayly",
+                  "Doug Krall",
                   "Drew Bennett",
                   "Dylan Heeringa",
                   "Ewan Snedden",
@@ -3834,6 +3835,7 @@
                   "Hayden Scheuermann",
                   "Irelynn Shaw",
                   "Jackson Burlingham",
+                  "Jarett Simons",
                   "Jaxson Pyne",
                   "Juan Peralta",
                   "Kirk Vines",
@@ -3856,7 +3858,6 @@
                   "Ryerson Nead",
                   "Sadie Daughtrey",
                   "Steve McGrail",
-                  "Summer Steinke",
                   "Terry Doyle",
                   "Timothy Johnston",
                   "Tucker Stokes",
@@ -3891,7 +3892,6 @@
                   "Jacob Dawson",
                   "Joey Buchner",
                   "Kirk Vines",
-                  "Kye Golder",
                   "Levi Burlingham",
                   "Liam Burns",
                   "Liam Scott",
@@ -3910,8 +3910,8 @@
                 ],
                 "assigned_count": 125,
                 "accepted_count": 97,
-                "pending_count": 59,
-                "denied_count": 41,
+                "pending_count": 60,
+                "denied_count": 40,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -11794,7 +11794,7 @@
       "ties": 0,
       "runs_for": 34,
       "runs_against": 21,
-      "practices": 24,
+      "practices": 23,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -11881,16 +11881,6 @@
           "end_date": "2026-05-19",
           "summary": "9U Select - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20533-sarniabrigade.ca",
-          "date": "2026-05-21",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-22",
-          "summary": "9U Select - Practice",
-          "location": "Blackwell North",
           "type": "practice",
           "cancelled": false
         },
