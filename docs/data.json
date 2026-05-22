@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-22T16:03:12.121003Z",
+  "generated": "2026-05-22T19:32:51.577567Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3826,14 +3826,13 @@
                   "Carter Palmer",
                   "Charlie Philp",
                   "Colby Sheffer",
+                  "Cruz Marinaro",
                   "Cullen Pearson",
-                  "Dan Scott",
                   "Derek Bayly",
                   "Doug Krall",
                   "Dylan Heeringa",
                   "Ethan Antle",
                   "Ewan Snedden",
-                  "Grady Boyd",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
@@ -3842,13 +3841,15 @@
                   "Hayden Scheuermann",
                   "Irelynn Shaw",
                   "Jackson Burlingham",
+                  "Jacob Dawson",
+                  "Jarett Simons",
                   "Jaxson Pyne",
                   "Juan Peralta",
                   "Kayleigh Buchan",
                   "Kayne Golder",
                   "Kevin Johnson",
-                  "Kirk Vines",
                   "Kye Golder",
+                  "Kylee Salisbury",
                   "Levi Burlingham",
                   "Logan Conroy",
                   "Logan Hiscocks",
@@ -3862,6 +3863,7 @@
                   "Nathan Zavitz",
                   "Nolan Bogaert",
                   "Paolo Padiglia",
+                  "Penny Core",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
@@ -3871,6 +3873,7 @@
                   "Terry Doyle",
                   "Timothy Johnston",
                   "Tyler Hoadley",
+                  "Tyler Vandenberg",
                   "Tyler Whetham",
                   "Will Greer",
                   "Zhayn Trowbridge"
@@ -3918,7 +3921,7 @@
                 ],
                 "assigned_count": 126,
                 "accepted_count": 99,
-                "pending_count": 64,
+                "pending_count": 67,
                 "denied_count": 39,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -17691,7 +17694,7 @@
           "date": "2026-05-23",
           "start_time": "11:00 AM",
           "end_date": "2026-05-23",
-          "summary": "16U PBLO - Game vs Ontario Prospects",
+          "summary": "CANCELLED 16U PBLO - Game vs Ontario Prospects",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -17701,7 +17704,7 @@
           "date": "2026-05-23",
           "start_time": "2:00 PM",
           "end_date": "2026-05-23",
-          "summary": "16U PBLO - Game vs Ontario Prospects",
+          "summary": "CANCELLED 16U PBLO - Game vs Ontario Prospects",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -18490,7 +18493,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "19745",
@@ -18502,7 +18505,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "19746",
@@ -20331,6 +20334,24 @@
       "date": "2026-05-16",
       "start_time": "2:00 PM",
       "summary": "CANCELLED 16U PBLO - Game vs Tecumseh Thunder",
+      "location": "Errol Russell Park"
+    },
+    {
+      "team_id": 1298,
+      "team_name": "16U PBLO",
+      "type": "game",
+      "date": "2026-05-23",
+      "start_time": "11:00 AM",
+      "summary": "CANCELLED 16U PBLO - Game vs Ontario Prospects",
+      "location": "Errol Russell Park"
+    },
+    {
+      "team_id": 1298,
+      "team_name": "16U PBLO",
+      "type": "game",
+      "date": "2026-05-23",
+      "start_time": "2:00 PM",
+      "summary": "CANCELLED 16U PBLO - Game vs Ontario Prospects",
       "location": "Errol Russell Park"
     }
   ]
