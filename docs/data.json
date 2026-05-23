@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-22T23:03:09.077737Z",
+  "generated": "2026-05-23T10:03:18.805294Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2149,11 +2149,67 @@
         "games_missed": 0,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-05-30",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "Logan Hiscocks | Nolan Bogaert",
+              "Logan Hiscocks | Will Garton"
+            ],
+            "mismatched_names": [
+              "Nolan Bogaert",
+              "Will Garton"
+            ],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "Dorchester Diamondbacks",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Logan Hiscocks",
+                  "Nolan Bogaert"
+                ],
+                "accepted_umpires": [
+                  "Logan Hiscocks",
+                  "Nolan Bogaert"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "1:00 PM",
+                "opponent": "Dorchester Diamondbacks",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Logan Hiscocks",
+                  "Will Garton"
+                ],
+                "accepted_umpires": [
+                  "Logan Hiscocks",
+                  "Will Garton"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          }
+        ]
       },
       "uniform_cost": 7060.24,
       "equipment_cost": 0.0,
@@ -3525,6 +3581,7 @@
               "Juan Peralta",
               "Kassie Buchan",
               "Katrina Cadotte",
+              "Kayleigh Buchan",
               "Kayne Golder",
               "Kevin Johnson",
               "Kirk Vines",
@@ -3758,6 +3815,7 @@
                   "Juan Peralta",
                   "Kassie Buchan",
                   "Katrina Cadotte",
+                  "Kayleigh Buchan",
                   "Kayne Golder",
                   "Kevin Johnson",
                   "Kirk Vines",
@@ -3839,15 +3897,11 @@
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
                   "Irelynn Shaw",
-                  "Jackson Bunda",
                   "Jackson Burlingham",
-                  "Jacob Dawson",
                   "Jarett Simons",
                   "Jaxson Pyne",
                   "Juan Peralta",
-                  "Kayleigh Buchan",
                   "Kayne Golder",
-                  "Kevin Johnson",
                   "Kirk Vines",
                   "Kye Golder",
                   "Kylee Salisbury",
@@ -3879,7 +3933,6 @@
                   "Austin Lozon",
                   "Bentley Bartosz",
                   "Blake Adams",
-                  "Brian Mundt",
                   "Bryson Large",
                   "Cambria Caissie",
                   "Chris Bonneau",
@@ -3896,29 +3949,27 @@
                   "Hannah Stewart",
                   "Hayden Scheuermann",
                   "Jackson Burlingham",
+                  "Jacob Dawson",
                   "Joey Buchner",
                   "Kirk Vines",
-                  "Lawrence Dyck",
                   "Levi Burlingham",
                   "Liam Burns",
                   "Liam Scott",
                   "Logan Hiscocks",
                   "Marko Sazdov",
                   "Myles Hobbs",
-                  "Paolo Padiglia",
                   "Parker Leighton",
                   "Penny Core",
                   "Shane Moorhouse",
                   "Steve McGrail",
-                  "Summer Steinke",
                   "Sydney Nisbet",
                   "Tucker Stokes",
                   "Tyler Vandenberg"
                 ],
                 "assigned_count": 126,
-                "accepted_count": 99,
-                "pending_count": 64,
-                "denied_count": 38,
+                "accepted_count": 100,
+                "pending_count": 60,
+                "denied_count": 35,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -19521,6 +19572,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21701-sarniabrigade.ca",
+          "date": "2026-05-29",
+          "start_time": "7:30 PM",
+          "end_date": "2026-05-30",
+          "summary": "Senior AAA - Game vs Windsor Athletic",
+          "location": "Errol Russell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21168-sarniabrigade.ca",
           "date": "2026-06-03",
           "start_time": "7:30 PM",
@@ -19725,6 +19786,18 @@
           "cancelled": false
         },
         {
+          "game_id": "21701",
+          "href": "https://sarniabrigade.ca/Teams/1307/Games/21701/",
+          "date": "2026-05-29",
+          "start_time": "7:30 PM",
+          "opponent": "Windsor Athletic Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "21168",
           "href": "https://sarniabrigade.ca/Teams/1307/Games/21168/",
           "date": "2026-06-03",
@@ -19847,7 +19920,7 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -19857,6 +19930,22 @@
             "date": "2026-05-27",
             "time": "7:30 PM",
             "opponent": "TBA",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-05-29",
+            "time": "7:30 PM",
+            "opponent": "Windsor Athletic",
             "venue": "Errol Russell Park",
             "assigned_umpires": [],
             "accepted_umpires": [],
