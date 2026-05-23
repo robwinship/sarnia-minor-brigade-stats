@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-23T19:33:08.357262Z",
+  "generated": "2026-05-23T23:03:13.724027Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3882,10 +3882,12 @@
                   "Cambria Caissie",
                   "Carsyn Tnydall",
                   "Carter Palmer",
+                  "Carter Wills",
                   "Charlie Philp",
                   "Cullen Pearson",
                   "Derek Bayly",
                   "Doug Krall",
+                  "Drew Bennett",
                   "Dylan Heeringa",
                   "Ewan Snedden",
                   "Gage Boyd",
@@ -3894,13 +3896,11 @@
                   "Greg Armstrong",
                   "Hannah Stewart",
                   "Harper Vandenheuval",
-                  "Hayden Scheuermann",
                   "Irelynn Shaw",
                   "Jackson Burlingham",
                   "Jarett Simons",
                   "Jaxson Pyne",
                   "Juan Peralta",
-                  "Katrina Cadotte",
                   "Kayne Golder",
                   "Kirk Vines",
                   "Kye Golder",
@@ -3912,7 +3912,6 @@
                   "Mason Harper",
                   "Mason Portiss",
                   "Matthew Schrie",
-                  "Myles Hobbs",
                   "Nate Edwards",
                   "Nathan Zavitz",
                   "Nolan Bogaert",
@@ -3926,6 +3925,7 @@
                   "Terry Doyle",
                   "Timothy Johnston",
                   "Tyler Hoadley",
+                  "Tyler Vandenberg",
                   "Tyler Whetham",
                   "Will Greer",
                   "Zhayn Trowbridge"
@@ -3940,7 +3940,6 @@
                   "Chris Makrigiannis",
                   "Cohen Smith",
                   "Colby Sheffer",
-                  "Cruz Marinaro",
                   "Dawson O'Brien",
                   "Drew Baxter",
                   "Drew Bennett",
@@ -3969,7 +3968,7 @@
                 "assigned_count": 126,
                 "accepted_count": 100,
                 "pending_count": 61,
-                "denied_count": 34,
+                "denied_count": 33,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -7683,20 +7682,27 @@
             "opponent": "Windsor Windsor Nationals",
             "venue": "Tecumseh Park",
             "assigned_umpires": [
+              "Carsyn Tnydall",
+              "Carter Wills",
               "Clark Thornton",
-              "Katrina Cadotte"
+              "Kirk Vines",
+              "Ryder Daye"
             ],
             "accepted_umpires": [
               "Clark Thornton"
             ],
             "pending_umpires": [
-              "Katrina Cadotte"
+              "Carsyn Tnydall",
+              "Carter Wills",
+              "Ryder Daye"
             ],
-            "denied_umpires": [],
-            "assigned_count": 2,
+            "denied_umpires": [
+              "Kirk Vines"
+            ],
+            "assigned_count": 5,
             "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
+            "pending_count": 3,
+            "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
@@ -10660,26 +10666,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20680-sarniabrigade.ca",
-          "date": "2026-05-23",
-          "start_time": "11:00 AM",
-          "end_date": "2026-05-23",
-          "summary": "CANCELLED 15U OBA Rep - Game vs North London Nationals [15u15]",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20681-sarniabrigade.ca",
-          "date": "2026-05-23",
-          "start_time": "1:30 PM",
-          "end_date": "2026-05-23",
-          "summary": "CANCELLED 15U OBA Rep - Game vs North London Nationals [15u45]",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19759-sarniabrigade.ca",
           "date": "2026-05-24",
           "start_time": "11:00 AM",
@@ -10837,6 +10823,16 @@
           "summary": "15U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20680-sarniabrigade.ca",
+          "date": "2026-06-25",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-26",
+          "summary": "15U OBA Rep - Game vs North London Nationals [15u15]",
+          "location": "Blackwell Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -11047,6 +11043,16 @@
           "summary": "15U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20681-sarniabrigade.ca",
+          "date": "2026-07-23",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-24",
+          "summary": "15U OBA Rep - Game vs North London Nationals [15u45]",
+          "location": "Blackwell Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -13368,12 +13374,12 @@
       "id": 1300,
       "name": "13U Select",
       "category": "Select",
-      "gp": 1,
-      "wins": 1,
+      "gp": 2,
+      "wins": 2,
       "losses": 0,
       "ties": 0,
-      "runs_for": 13,
-      "runs_against": 3,
+      "runs_for": 25,
+      "runs_against": 5,
       "practices": 26,
       "roster": {
         "players": 12,
@@ -13509,7 +13515,7 @@
           "date": "2026-05-22",
           "start_time": "6:00 PM",
           "end_date": "2026-05-23",
-          "summary": "13U Select - Game vs North London Nationals [13uS20]",
+          "summary": "13U Select - Game vs North London Nationals [13uS20](W 2-12)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -13959,9 +13965,9 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -17382,14 +17388,15 @@
             ],
             "pending_umpires": [
               "Graham Dolbear",
-              "Hayden Scheuermann",
               "Tyler Hoadley"
             ],
-            "denied_umpires": [],
+            "denied_umpires": [
+              "Hayden Scheuermann"
+            ],
             "assigned_count": 4,
             "accepted_count": 1,
-            "pending_count": 3,
-            "denied_count": 0,
+            "pending_count": 2,
+            "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
@@ -19888,7 +19895,7 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -19898,22 +19905,6 @@
             "date": "2026-05-27",
             "time": "7:30 PM",
             "opponent": "TBA",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-05-29",
-            "time": "7:30 PM",
-            "opponent": "Windsor Athletic",
             "venue": "Errol Russell Park",
             "assigned_umpires": [],
             "accepted_umpires": [],
@@ -20297,24 +20288,6 @@
       "date": "2026-05-16",
       "start_time": "1:30 PM",
       "summary": "CANCELLED 15U OBA Rep - Game vs Chatham Diamonds 15U [WC15U-055]",
-      "location": "Blackwell Park"
-    },
-    {
-      "team_id": 1297,
-      "team_name": "15U OBA Rep",
-      "type": "game",
-      "date": "2026-05-23",
-      "start_time": "11:00 AM",
-      "summary": "CANCELLED 15U OBA Rep - Game vs North London Nationals [15u15]",
-      "location": "Blackwell Park"
-    },
-    {
-      "team_id": 1297,
-      "team_name": "15U OBA Rep",
-      "type": "game",
-      "date": "2026-05-23",
-      "start_time": "1:30 PM",
-      "summary": "CANCELLED 15U OBA Rep - Game vs North London Nationals [15u45]",
       "location": "Blackwell Park"
     },
     {
