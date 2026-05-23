@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-23T10:03:18.805294Z",
+  "generated": "2026-05-23T16:03:11.808571Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2484,8 +2484,8 @@
           "date": "2026-05-24",
           "start_time": "11:00 AM",
           "end_date": "2026-05-24",
-          "summary": "10U AA OBA Rep - Game vs Leamington Lakers [DH]",
-          "location": "TBD",
+          "summary": "10U AA OBA Rep - Game @ Leamington  [DH]",
+          "location": "Kinsmen Park",
           "type": "game",
           "cancelled": false
         },
@@ -2494,8 +2494,8 @@
           "date": "2026-05-24",
           "start_time": "1:30 PM",
           "end_date": "2026-05-24",
-          "summary": "10U AA OBA Rep - Game vs Leamington Lakers",
-          "location": "TBD",
+          "summary": "10U AA OBA Rep - Game @ Leamington",
+          "location": "Kinsmen Park",
           "type": "game",
           "cancelled": false
         },
@@ -2574,7 +2574,7 @@
           "date": "2026-06-05",
           "start_time": "4:00 PM",
           "end_date": "2026-06-05",
-          "summary": "10U AA OBA Rep - Game vs Oshawa Legionaires [1]",
+          "summary": "10U AA OBA Rep - Game @ Oshawa Legionaires [1]",
           "location": "Stronach Complex 2",
           "type": "game",
           "cancelled": false
@@ -2584,7 +2584,7 @@
           "date": "2026-06-05",
           "start_time": "6:15 PM",
           "end_date": "2026-06-06",
-          "summary": "10U AA OBA Rep - Game vs Hamilton Cardinals [2]",
+          "summary": "10U AA OBA Rep - Game @ Hamilton Cardinals [2]",
           "location": "Stronach Complex 2",
           "type": "game",
           "cancelled": false
@@ -2924,7 +2924,7 @@
           "date": "2026-08-15",
           "start_time": "2:00 PM",
           "end_date": "2026-08-15",
-          "summary": "10U AA OBA Rep - Game vs Riverside Royals",
+          "summary": "10U AA OBA Rep - Game @ Riverside Royals",
           "location": "TBD",
           "type": "game",
           "cancelled": false
@@ -3216,8 +3216,8 @@
           "href": "https://sarniabrigade.ca/Teams/1292/Games/20004/",
           "date": "2026-05-24",
           "start_time": "11:00 AM",
-          "opponent": "Leamington Lakers DH TBD",
-          "home": true,
+          "opponent": "Leamington DH Kinsmen Park",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -3228,8 +3228,8 @@
           "href": "https://sarniabrigade.ca/Teams/1292/Games/21532/",
           "date": "2026-05-24",
           "start_time": "1:30 PM",
-          "opponent": "Leamington Lakers TBD More Details May",
-          "home": true,
+          "opponent": "Leamington Kinsmen Park More Details May",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -3277,7 +3277,7 @@
           "date": "2026-06-05",
           "start_time": "4:00 PM",
           "opponent": "Oshawa Legionaires",
-          "home": true,
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -3289,7 +3289,7 @@
           "date": "2026-06-05",
           "start_time": "6:15 PM",
           "opponent": "Hamilton Cardinals",
-          "home": true,
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -3421,7 +3421,7 @@
           "date": "2026-08-15",
           "start_time": "2:00 PM",
           "opponent": "Riverside Royals TBD",
-          "home": true,
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -3480,7 +3480,7 @@
         "games_missed": 2,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 2,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -3883,13 +3883,14 @@
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Charlie Philp",
-                  "Cruz Marinaro",
                   "Cullen Pearson",
+                  "Dawson O'Brien",
                   "Derek Bayly",
                   "Doug Krall",
                   "Dylan Heeringa",
                   "Ethan Antle",
                   "Ewan Snedden",
+                  "Gage Boyd",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
@@ -3901,6 +3902,7 @@
                   "Jarett Simons",
                   "Jaxson Pyne",
                   "Juan Peralta",
+                  "Katrina Cadotte",
                   "Kayne Golder",
                   "Kirk Vines",
                   "Kye Golder",
@@ -3912,6 +3914,7 @@
                   "Mason Harper",
                   "Mason Portiss",
                   "Matthew Schrie",
+                  "Myles Hobbs",
                   "Nate Edwards",
                   "Nathan Zavitz",
                   "Nolan Bogaert",
@@ -3939,6 +3942,7 @@
                   "Chris Makrigiannis",
                   "Cohen Smith",
                   "Colby Sheffer",
+                  "Cruz Marinaro",
                   "Dawson O'Brien",
                   "Drew Baxter",
                   "Drew Bennett",
@@ -3963,12 +3967,11 @@
                   "Shane Moorhouse",
                   "Steve McGrail",
                   "Sydney Nisbet",
-                  "Tucker Stokes",
                   "Tyler Vandenberg"
                 ],
                 "assigned_count": 126,
                 "accepted_count": 100,
-                "pending_count": 60,
+                "pending_count": 63,
                 "denied_count": 35,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4037,61 +4040,6 @@
                 "denied_umpires": [],
                 "assigned_count": 1,
                 "accepted_count": 1,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-05-24",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "Colby Sheffer | Easton McKinlay",
-              "Easton McKinlay | Noah Bechard"
-            ],
-            "mismatched_names": [
-              "Colby Sheffer",
-              "Noah Bechard"
-            ],
-            "games": [
-              {
-                "time": "11:00 AM",
-                "opponent": "Leamington Lakers",
-                "venue": "TBD",
-                "assigned_umpires": [
-                  "Colby Sheffer",
-                  "Easton McKinlay"
-                ],
-                "accepted_umpires": [
-                  "Colby Sheffer",
-                  "Easton McKinlay"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:30 PM",
-                "opponent": "Leamington Lakers",
-                "venue": "TBD",
-                "assigned_umpires": [
-                  "Easton McKinlay",
-                  "Noah Bechard"
-                ],
-                "accepted_umpires": [
-                  "Easton McKinlay",
-                  "Noah Bechard"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
@@ -5648,7 +5596,7 @@
           "date": "2026-05-23",
           "start_time": "4:00 PM",
           "end_date": "2026-05-23",
-          "summary": "11U OBA Rep - Practice",
+          "summary": "CANCELLED 11U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
@@ -7710,7 +7658,7 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -7731,6 +7679,29 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
+          },
+          {
+            "date": "2026-05-24",
+            "time": "10:00 AM",
+            "opponent": "Windsor Windsor Nationals",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Clark Thornton",
+              "Katrina Cadotte"
+            ],
+            "accepted_umpires": [
+              "Clark Thornton"
+            ],
+            "pending_umpires": [
+              "Katrina Cadotte"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": []
@@ -8008,7 +7979,7 @@
           "date": "2026-05-23",
           "start_time": "10:00 AM",
           "end_date": "2026-05-23",
-          "summary": "13U OBA Rep - Practice",
+          "summary": "CANCELLED 13U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
@@ -10696,7 +10667,7 @@
           "date": "2026-05-23",
           "start_time": "11:00 AM",
           "end_date": "2026-05-23",
-          "summary": "15U OBA Rep - Game vs North London Nationals [15u15]",
+          "summary": "CANCELLED 15U OBA Rep - Game vs North London Nationals [15u15]",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -10706,7 +10677,7 @@
           "date": "2026-05-23",
           "start_time": "1:30 PM",
           "end_date": "2026-05-23",
-          "summary": "15U OBA Rep - Game vs North London Nationals [15u45]",
+          "summary": "CANCELLED 15U OBA Rep - Game vs North London Nationals [15u45]",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -11499,7 +11470,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20681",
@@ -11511,7 +11482,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "19759",
@@ -20251,6 +20222,15 @@
       "location": "Tecumseh Park"
     },
     {
+      "team_id": 1293,
+      "team_name": "11U OBA Rep",
+      "type": "practice",
+      "date": "2026-05-23",
+      "start_time": "4:00 PM",
+      "summary": "CANCELLED 11U OBA Rep - Practice",
+      "location": "Tecumseh Park"
+    },
+    {
       "team_id": 1294,
       "team_name": "12U OBA Rep",
       "type": "game",
@@ -20258,6 +20238,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 12U OBA Rep - Game @ North London Nationals [12u28]",
       "location": "North London (3)"
+    },
+    {
+      "team_id": 1295,
+      "team_name": "13U OBA Rep",
+      "type": "practice",
+      "date": "2026-05-23",
+      "start_time": "10:00 AM",
+      "summary": "CANCELLED 13U OBA Rep - Practice",
+      "location": "Tecumseh Park"
     },
     {
       "team_id": 1296,
@@ -20311,6 +20300,24 @@
       "date": "2026-05-16",
       "start_time": "1:30 PM",
       "summary": "CANCELLED 15U OBA Rep - Game vs Chatham Diamonds 15U [WC15U-055]",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1297,
+      "team_name": "15U OBA Rep",
+      "type": "game",
+      "date": "2026-05-23",
+      "start_time": "11:00 AM",
+      "summary": "CANCELLED 15U OBA Rep - Game vs North London Nationals [15u15]",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1297,
+      "team_name": "15U OBA Rep",
+      "type": "game",
+      "date": "2026-05-23",
+      "start_time": "1:30 PM",
+      "summary": "CANCELLED 15U OBA Rep - Game vs North London Nationals [15u45]",
       "location": "Blackwell Park"
     },
     {
