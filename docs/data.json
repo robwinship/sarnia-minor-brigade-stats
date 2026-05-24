@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-24T16:03:07.477816Z",
+  "generated": "2026-05-24T19:33:06.725603Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3927,6 +3927,7 @@
                   "AJ Mumby",
                   "Alexander Pfaff",
                   "Ameer Sulaiman",
+                  "Annette Hoggarth",
                   "Axl Taylor",
                   "Baya Vandenheuvel",
                   "Benjamin Leystra",
@@ -3956,7 +3957,6 @@
                   "Irelynn Shaw",
                   "Jack Needham",
                   "Jackson Burlingham",
-                  "Jacob Dawson",
                   "Jaxson Pyne",
                   "Juan Peralta",
                   "Kayne Golder",
@@ -3968,7 +3968,6 @@
                   "Marko Sazdov",
                   "Mason Harper",
                   "Mason Portiss",
-                  "Matthew Schrie",
                   "Nate Edwards",
                   "Nathan Zavitz",
                   "Paolo Padiglia",
@@ -4027,7 +4026,7 @@
                 ],
                 "assigned_count": 126,
                 "accepted_count": 100,
-                "pending_count": 62,
+                "pending_count": 61,
                 "denied_count": 36,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -14391,7 +14390,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-05-25",
           "summary": "15U Select - Game vs Lucan-Ilderton Athletics [15uS04]",
-          "location": "Blackwell Park",
+          "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
         },
@@ -16870,7 +16869,7 @@
           "date": "2026-05-24",
           "start_time": "1:00 PM",
           "end_date": "2026-05-24",
-          "summary": "13U LDBA House League - Game vs North Middlesex 2 [13uW09]",
+          "summary": "CANCELLED 13U LDBA House League - Game vs North Middlesex 2 [13uW09]",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -17199,7 +17198,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "21210",
@@ -20373,6 +20372,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 11U Lady Brigade - Practice",
       "location": "Clearwater Diamond #1"
+    },
+    {
+      "team_id": 1302,
+      "team_name": "13U LDBA House League",
+      "type": "game",
+      "date": "2026-05-24",
+      "start_time": "1:00 PM",
+      "summary": "CANCELLED 13U LDBA House League - Game vs North Middlesex 2 [13uW09]",
+      "location": "Clearwater Diamond #2"
     },
     {
       "team_id": 1302,
