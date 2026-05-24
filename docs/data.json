@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-23T23:03:13.724027Z",
+  "generated": "2026-05-24T10:03:13.371192Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1104,11 +1104,67 @@
         "games_missed": 0,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-05-31",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "Jonas Winklmeier | Rylie Bunda",
+              "Rylie Bunda | Will Garton"
+            ],
+            "mismatched_names": [
+              "Jonas Winklmeier",
+              "Will Garton"
+            ],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "St. Thomas Cardinals",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Rylie Bunda",
+                  "Will Garton"
+                ],
+                "accepted_umpires": [
+                  "Rylie Bunda",
+                  "Will Garton"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "1:00 PM",
+                "opponent": "St. Thomas Cardinals",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Jonas Winklmeier",
+                  "Rylie Bunda"
+                ],
+                "accepted_umpires": [
+                  "Jonas Winklmeier",
+                  "Rylie Bunda"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          }
+        ]
       },
       "uniform_cost": 7559.7,
       "equipment_cost": 0.0,
@@ -3875,6 +3931,8 @@
                   "Baya Vandenheuvel",
                   "Benjamin Leystra",
                   "Bentley Bartosz",
+                  "Bentley Daughtrey",
+                  "Blake Adams",
                   "Brian Mundt",
                   "Brock Lane",
                   "Brock Prozorowicz",
@@ -3882,7 +3940,6 @@
                   "Cambria Caissie",
                   "Carsyn Tnydall",
                   "Carter Palmer",
-                  "Carter Wills",
                   "Charlie Philp",
                   "Cullen Pearson",
                   "Derek Bayly",
@@ -3897,7 +3954,9 @@
                   "Hannah Stewart",
                   "Harper Vandenheuval",
                   "Irelynn Shaw",
+                  "Jack Needham",
                   "Jackson Burlingham",
+                  "Jacob Dawson",
                   "Jarett Simons",
                   "Jaxson Pyne",
                   "Juan Peralta",
@@ -3916,11 +3975,13 @@
                   "Nathan Zavitz",
                   "Nolan Bogaert",
                   "Paolo Padiglia",
+                  "Parker Leighton",
                   "Penny Core",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
                   "Ryerson Nead",
+                  "Rylie Bunda",
                   "Summer Steinke",
                   "Terry Doyle",
                   "Timothy Johnston",
@@ -3967,7 +4028,7 @@
                 ],
                 "assigned_count": 126,
                 "accepted_count": 100,
-                "pending_count": 61,
+                "pending_count": 66,
                 "denied_count": 33,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -6788,7 +6849,7 @@
         {
           "uid": "MS-20320-sarniabrigade.ca",
           "date": "2026-05-24",
-          "start_time": "10:00 AM",
+          "start_time": "10:45 AM",
           "end_date": "2026-05-24",
           "summary": "12U OBA Rep - Game vs Windsor Windsor Nationals",
           "location": "Tecumseh Park",
@@ -6800,7 +6861,7 @@
           "date": "2026-05-24",
           "start_time": "1:00 PM",
           "end_date": "2026-05-24",
-          "summary": "12U OBA Rep - Game @ Windsor Windsor Nationals",
+          "summary": "12U OBA Rep - Game vs Windsor Windsor Nationals",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -7403,7 +7464,7 @@
           "game_id": "20320",
           "href": "https://sarniabrigade.ca/Teams/1294/Games/20320/",
           "date": "2026-05-24",
-          "start_time": "10:00 AM",
+          "start_time": "10:45 AM",
           "opponent": "Windsor Windsor Nationals Tecumseh Park",
           "home": true,
           "result": null,
@@ -7417,7 +7478,7 @@
           "date": "2026-05-24",
           "start_time": "1:00 PM",
           "opponent": "Windsor Windsor Nationals Tecumseh Park",
-          "home": false,
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -7654,7 +7715,7 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -7675,36 +7736,6 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
-          },
-          {
-            "date": "2026-05-24",
-            "time": "10:00 AM",
-            "opponent": "Windsor Windsor Nationals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Carsyn Tnydall",
-              "Carter Wills",
-              "Clark Thornton",
-              "Kirk Vines",
-              "Ryder Daye"
-            ],
-            "accepted_umpires": [
-              "Clark Thornton"
-            ],
-            "pending_umpires": [
-              "Carsyn Tnydall",
-              "Carter Wills",
-              "Ryder Daye"
-            ],
-            "denied_umpires": [
-              "Kirk Vines"
-            ],
-            "assigned_count": 5,
-            "accepted_count": 1,
-            "pending_count": 3,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": []
