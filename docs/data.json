@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-26T10:03:14.884819Z",
+  "generated": "2026-05-26T16:03:48.878396Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -13,12 +13,12 @@
       "id": 1290,
       "name": "8U OBA Rep",
       "category": "OBA Rep",
-      "gp": 1,
-      "wins": 0,
-      "losses": 1,
+      "gp": 3,
+      "wins": 1,
+      "losses": 2,
       "ties": 0,
-      "runs_for": 8,
-      "runs_against": 15,
+      "runs_for": 39,
+      "runs_against": 50,
       "practices": 41,
       "roster": {
         "players": 12,
@@ -204,7 +204,7 @@
           "date": "2026-05-24",
           "start_time": "1:00 PM",
           "end_date": "2026-05-24",
-          "summary": "8U OBA Rep - Game @ Leamington Lakers",
+          "summary": "8U OBA Rep - Game @ Leamington Lakers(W 16-13)",
           "location": "Kinsmen Park",
           "type": "game",
           "cancelled": false
@@ -214,7 +214,7 @@
           "date": "2026-05-24",
           "start_time": "3:00 PM",
           "end_date": "2026-05-24",
-          "summary": "8U OBA Rep - Game @ Leamington Lakers",
+          "summary": "8U OBA Rep - Game @ Leamington Lakers(L 15-22)",
           "location": "Kinsmen Park",
           "type": "game",
           "cancelled": false
@@ -780,9 +780,9 @@
           "start_time": "1:00 PM",
           "opponent": "Leamington Lakers Kinsmen Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 16,
+          "opp_score": 13,
           "cancelled": false
         },
         {
@@ -792,9 +792,9 @@
           "start_time": "3:00 PM",
           "opponent": "Leamington Lakers Kinsmen Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 15,
+          "opp_score": 22,
           "cancelled": false
         },
         {
@@ -3939,16 +3939,13 @@
                   "AJ Mumby",
                   "Alexander Pfaff",
                   "Ameer Sulaiman",
-                  "Annette Hoggarth",
                   "Axl Taylor",
                   "Baya Vandenheuvel",
                   "Benjamin Leystra",
                   "Bentley Bartosz",
                   "Bentley Daughtrey",
-                  "Blake Adams",
                   "Brian Mundt",
                   "Brock Lane",
-                  "Brogan Murphy",
                   "Caleb Willemsvandyk",
                   "Cambria Caissie",
                   "Carsyn Tnydall",
@@ -3956,6 +3953,7 @@
                   "Charlie Philp",
                   "Chris Bonneau",
                   "Clark Thornton",
+                  "Cruz Marinaro",
                   "Cullen Pearson",
                   "Derek Bayly",
                   "Dylan Heeringa",
@@ -3974,6 +3972,7 @@
                   "Levi Burlingham",
                   "Logan Conroy",
                   "Lucas Barker",
+                  "Lucas Nethery",
                   "Marko Sazdov",
                   "Mason Harper",
                   "Myles Hobbs",
@@ -3981,7 +3980,6 @@
                   "Nathan Zavitz",
                   "Paolo Padiglia",
                   "Parker Leighton",
-                  "Ralph Campbell",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
@@ -4000,6 +3998,7 @@
                   "Austin Lozon",
                   "Bentley Bartosz",
                   "Blake Adams",
+                  "Brogan Murphy",
                   "Bryson Large",
                   "Cambria Caissie",
                   "Chris Bonneau",
@@ -4031,16 +4030,18 @@
                   "Myles Hobbs",
                   "Parker Leighton",
                   "Penny Core",
+                  "Ralph Campbell",
                   "Rylie Bunda",
                   "Shane Moorhouse",
                   "Steve McGrail",
                   "Sydney Nisbet",
+                  "Tyler Hoadley",
                   "Tyler Vandenberg"
                 ],
                 "assigned_count": 126,
                 "accepted_count": 101,
-                "pending_count": 59,
-                "denied_count": 39,
+                "pending_count": 57,
+                "denied_count": 42,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -15779,7 +15780,7 @@
       "ties": 0,
       "runs_for": 4,
       "runs_against": 16,
-      "practices": 20,
+      "practices": 19,
       "roster": {
         "players": 12,
         "adults": 1,
@@ -15887,16 +15888,6 @@
           "summary": "11U Lady Brigade - Game vs Wyoming Wranglers Navy [RL11UN-29]",
           "location": "Clearwater Diamond #1",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21057-sarniabrigade.ca",
-          "date": "2026-05-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-28",
-          "summary": "11U Lady Brigade - Practice",
-          "location": "TBD",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -17471,18 +17462,18 @@
               "Marko Sazdov"
             ],
             "pending_umpires": [
-              "Brogan Murphy",
               "Clark Thornton",
-              "Graham Dolbear",
-              "Tyler Hoadley"
+              "Graham Dolbear"
             ],
             "denied_umpires": [
-              "Hayden Scheuermann"
+              "Brogan Murphy",
+              "Hayden Scheuermann",
+              "Tyler Hoadley"
             ],
             "assigned_count": 6,
             "accepted_count": 1,
-            "pending_count": 4,
-            "denied_count": 1,
+            "pending_count": 2,
+            "denied_count": 3,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
