@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-26T16:03:48.878396Z",
+  "generated": "2026-05-26T19:33:15.659665Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1565,11 +1565,11 @@
           "cancelled": false
         },
         {
-          "uid": "MS-19775-sarniabrigade.ca",
+          "uid": "MS-21713-sarniabrigade.ca",
           "date": "2026-06-27",
           "start_time": "2:00 PM",
           "end_date": "2026-06-27",
-          "summary": "9U OBA Rep - Game vs Windsor Stars",
+          "summary": "9U OBA Rep - Game vs Lasalle Turtle Club",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -2043,11 +2043,11 @@
           "cancelled": false
         },
         {
-          "game_id": "19775",
-          "href": "https://sarniabrigade.ca/Teams/1291/Games/19775/",
+          "game_id": "21713",
+          "href": "https://sarniabrigade.ca/Teams/1291/Games/21713/",
           "date": "2026-06-27",
           "start_time": "2:00 PM",
-          "opponent": "Windsor Stars Clearwater Diamond",
+          "opponent": "Lasalle Turtle Club Clearwater Diamond",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -3943,17 +3943,14 @@
                   "Baya Vandenheuvel",
                   "Benjamin Leystra",
                   "Bentley Bartosz",
-                  "Bentley Daughtrey",
                   "Brian Mundt",
                   "Brock Lane",
                   "Caleb Willemsvandyk",
-                  "Cambria Caissie",
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Charlie Philp",
                   "Chris Bonneau",
                   "Clark Thornton",
-                  "Cruz Marinaro",
                   "Cullen Pearson",
                   "Derek Bayly",
                   "Dylan Heeringa",
@@ -3971,25 +3968,20 @@
                   "Kylee Salisbury",
                   "Levi Burlingham",
                   "Logan Conroy",
-                  "Lucas Barker",
-                  "Lucas Nethery",
                   "Marko Sazdov",
                   "Mason Harper",
                   "Myles Hobbs",
                   "Nate Edwards",
                   "Nathan Zavitz",
                   "Paolo Padiglia",
-                  "Parker Leighton",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
                   "Ryerson Nead",
                   "Sadie Daughtrey",
-                  "Summer Steinke",
                   "Terry Doyle",
                   "Timothy Johnston",
                   "Tyler Hoadley",
-                  "Tyler Vandenberg",
                   "Tyler Whetham",
                   "Will Greer",
                   "Zhayn Trowbridge"
@@ -4031,16 +4023,16 @@
                   "Parker Leighton",
                   "Penny Core",
                   "Ralph Campbell",
-                  "Rylie Bunda",
                   "Shane Moorhouse",
                   "Steve McGrail",
+                  "Summer Steinke",
                   "Sydney Nisbet",
                   "Tyler Hoadley",
                   "Tyler Vandenberg"
                 ],
                 "assigned_count": 126,
                 "accepted_count": 101,
-                "pending_count": 57,
+                "pending_count": 49,
                 "denied_count": 42,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -14298,7 +14290,7 @@
       "ties": 0,
       "runs_for": 31,
       "runs_against": 31,
-      "practices": 33,
+      "practices": 35,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -14459,6 +14451,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21711-sarniabrigade.ca",
+          "date": "2026-05-27",
+          "start_time": "6:00 PM",
+          "end_date": "2026-05-28",
+          "summary": "15U Select - Practice",
+          "location": "Suncor Recreation Centre",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21521-sarniabrigade.ca",
           "date": "2026-05-28",
           "start_time": "5:00 PM",
@@ -14486,6 +14488,16 @@
           "summary": "15U Select - Game vs Exeter",
           "location": "Blackwell Park",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21712-sarniabrigade.ca",
+          "date": "2026-06-03",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-04",
+          "summary": "15U Select - Practice",
+          "location": "Suncor Recreation Centre",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -17455,7 +17467,10 @@
               "Clark Thornton",
               "Graham Dolbear",
               "Hayden Scheuermann",
+              "Jaxson Pyne",
               "Marko Sazdov",
+              "Nate Edwards",
+              "Summer Steinke",
               "Tyler Hoadley"
             ],
             "accepted_umpires": [
@@ -17463,17 +17478,20 @@
             ],
             "pending_umpires": [
               "Clark Thornton",
-              "Graham Dolbear"
+              "Graham Dolbear",
+              "Jaxson Pyne",
+              "Nate Edwards"
             ],
             "denied_umpires": [
               "Brogan Murphy",
               "Hayden Scheuermann",
+              "Summer Steinke",
               "Tyler Hoadley"
             ],
-            "assigned_count": 6,
+            "assigned_count": 9,
             "accepted_count": 1,
-            "pending_count": 2,
-            "denied_count": 3,
+            "pending_count": 4,
+            "denied_count": 4,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
