@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-26T19:33:15.659665Z",
+  "generated": "2026-05-26T23:03:10.044709Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 39,
       "runs_against": 50,
-      "practices": 41,
+      "practices": 40,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19948-sarniabrigade.ca",
-          "date": "2026-03-26",
-          "start_time": "5:00 PM",
-          "end_date": "2026-03-26",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19949-sarniabrigade.ca",
           "date": "2026-04-02",
@@ -3709,7 +3699,6 @@
                   "Alexander Pfaff",
                   "Ameer Sulaiman",
                   "Annette Hoggarth",
-                  "Austin Lozon",
                   "Axl Taylor",
                   "Baya Vandenheuvel",
                   "Benjamin Leystra",
@@ -3945,12 +3934,12 @@
                   "Bentley Bartosz",
                   "Brian Mundt",
                   "Brock Lane",
+                  "Brogan Murphy",
                   "Caleb Willemsvandyk",
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Charlie Philp",
                   "Chris Bonneau",
-                  "Clark Thornton",
                   "Cullen Pearson",
                   "Derek Bayly",
                   "Dylan Heeringa",
@@ -3987,10 +3976,8 @@
                   "Zhayn Trowbridge"
                 ],
                 "denied_umpires": [
-                  "Austin Lozon",
                   "Bentley Bartosz",
                   "Blake Adams",
-                  "Brogan Murphy",
                   "Bryson Large",
                   "Cambria Caissie",
                   "Chris Bonneau",
@@ -4027,13 +4014,12 @@
                   "Steve McGrail",
                   "Summer Steinke",
                   "Sydney Nisbet",
-                  "Tyler Hoadley",
                   "Tyler Vandenberg"
                 ],
-                "assigned_count": 126,
+                "assigned_count": 125,
                 "accepted_count": 101,
                 "pending_count": 49,
-                "denied_count": 42,
+                "denied_count": 39,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -17463,35 +17449,20 @@
             "opponent": "DKMB Blue",
             "venue": "Clearwater Diamond #4",
             "assigned_umpires": [
-              "Brogan Murphy",
-              "Clark Thornton",
-              "Graham Dolbear",
-              "Hayden Scheuermann",
-              "Jaxson Pyne",
-              "Marko Sazdov",
-              "Nate Edwards",
-              "Summer Steinke",
-              "Tyler Hoadley"
+              "Axl Taylor",
+              "Marko Sazdov"
             ],
             "accepted_umpires": [
               "Marko Sazdov"
             ],
             "pending_umpires": [
-              "Clark Thornton",
-              "Graham Dolbear",
-              "Jaxson Pyne",
-              "Nate Edwards"
+              "Axl Taylor"
             ],
-            "denied_umpires": [
-              "Brogan Murphy",
-              "Hayden Scheuermann",
-              "Summer Steinke",
-              "Tyler Hoadley"
-            ],
-            "assigned_count": 9,
+            "denied_umpires": [],
+            "assigned_count": 2,
             "accepted_count": 1,
-            "pending_count": 4,
-            "denied_count": 4,
+            "pending_count": 1,
+            "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
