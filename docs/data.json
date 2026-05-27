@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-27T19:33:00.127281Z",
+  "generated": "2026-05-27T23:03:22.379665Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2285,7 +2285,7 @@
       "ties": 0,
       "runs_for": 64,
       "runs_against": 46,
-      "practices": 48,
+      "practices": 47,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -2295,16 +2295,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19642-sarniabrigade.ca",
-          "date": "2026-03-27",
-          "start_time": "5:00 PM",
-          "end_date": "2026-03-27",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19643-sarniabrigade.ca",
           "date": "2026-04-03",
@@ -3938,8 +3928,6 @@
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Charlie Philp",
-                  "Cohen Smith",
-                  "Cruz Marinaro",
                   "Cullen Pearson",
                   "David Haasen",
                   "Derek Bayly",
@@ -3954,8 +3942,6 @@
                   "Jackson Burlingham",
                   "Jakob Rodriguez",
                   "Jaxson Pyne",
-                  "Katrina Cadotte",
-                  "Kayne Golder",
                   "Kye Golder",
                   "Kylee Salisbury",
                   "Levi Burlingham",
@@ -4006,14 +3992,12 @@
                   "Steve McGrail",
                   "Summer Steinke",
                   "Sydney Nisbet",
-                  "Tristan Heeringa",
-                  "Tyler Vandenberg",
-                  "Zhayn Trowbridge"
+                  "Tyler Vandenberg"
                 ],
                 "assigned_count": 124,
                 "accepted_count": 101,
-                "pending_count": 54,
-                "denied_count": 29,
+                "pending_count": 50,
+                "denied_count": 27,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4107,7 +4091,7 @@
       "ties": 0,
       "runs_for": 42,
       "runs_against": 61,
-      "practices": 48,
+      "practices": 47,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -4117,16 +4101,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19921-sarniabrigade.ca",
-          "date": "2026-03-27",
-          "start_time": "5:00 PM",
-          "end_date": "2026-03-27",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19922-sarniabrigade.ca",
           "date": "2026-03-29",
