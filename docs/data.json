@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-28T16:03:37.430405Z",
+  "generated": "2026-05-28T19:33:23.109530Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3922,12 +3922,13 @@
                   "Bentley Bartosz",
                   "Brian Mundt",
                   "Brock Lane",
+                  "Brogan Murphy",
                   "Caleb Willemsvandyk",
-                  "Cambria Caissie",
                   "Carson Whittington",
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Charlie Philp",
+                  "Clark Thornton",
                   "Cullen Pearson",
                   "David Haasen",
                   "Derek Bayly",
@@ -3997,7 +3998,7 @@
                 ],
                 "assigned_count": 124,
                 "accepted_count": 101,
-                "pending_count": 49,
+                "pending_count": 50,
                 "denied_count": 29,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -8842,12 +8843,47 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-05-29",
+            "time": "6:00 PM",
+            "opponent": "North London Nationals",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Brogan Murphy",
+              "Carson Whittington",
+              "Clark Thornton",
+              "Graham Dolbear",
+              "Hayden Scheuermann",
+              "Joey Buchner",
+              "Paolo Padiglia"
+            ],
+            "accepted_umpires": [
+              "Paolo Padiglia"
+            ],
+            "pending_umpires": [
+              "Brogan Murphy",
+              "Carson Whittington",
+              "Clark Thornton",
+              "Graham Dolbear",
+              "Hayden Scheuermann"
+            ],
+            "denied_umpires": [
+              "Joey Buchner"
+            ],
+            "assigned_count": 7,
+            "accepted_count": 1,
+            "pending_count": 5,
+            "denied_count": 1,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7288.5,
