@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-28T19:33:23.109530Z",
+  "generated": "2026-05-28T23:03:31.051311Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3922,15 +3922,12 @@
                   "Bentley Bartosz",
                   "Brian Mundt",
                   "Brock Lane",
-                  "Brogan Murphy",
                   "Caleb Willemsvandyk",
                   "Carson Whittington",
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Charlie Philp",
-                  "Clark Thornton",
                   "Cullen Pearson",
-                  "David Haasen",
                   "Derek Bayly",
                   "Ewan Snedden",
                   "Graham Dolbear",
@@ -3940,6 +3937,7 @@
                   "Hayden Scheuermann",
                   "Irelynn Shaw",
                   "Jackson Burlingham",
+                  "Jacob Dawson",
                   "Jakob Rodriguez",
                   "Jaxson Pyne",
                   "Kassie Buchan",
@@ -3962,12 +3960,12 @@
                   "Timothy Johnston",
                   "Tyler Hoadley",
                   "Tyler Whetham",
-                  "Will Garton",
                   "Will Greer"
                 ],
                 "denied_umpires": [
                   "Alexander Pfaff",
                   "Brian Mundt",
+                  "Brogan Murphy",
                   "Bryson Large",
                   "Chris Bonneau",
                   "Chris Makrigiannis",
@@ -3994,12 +3992,13 @@
                   "Sydney Nisbet",
                   "Tristan Heeringa",
                   "Tyler Vandenberg",
-                  "Tyler Whetham"
+                  "Tyler Whetham",
+                  "Will Garton"
                 ],
                 "assigned_count": 124,
                 "accepted_count": 101,
-                "pending_count": 50,
-                "denied_count": 29,
+                "pending_count": 47,
+                "denied_count": 31,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -8843,47 +8842,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-29",
-            "time": "6:00 PM",
-            "opponent": "North London Nationals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Brogan Murphy",
-              "Carson Whittington",
-              "Clark Thornton",
-              "Graham Dolbear",
-              "Hayden Scheuermann",
-              "Joey Buchner",
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [
-              "Paolo Padiglia"
-            ],
-            "pending_umpires": [
-              "Brogan Murphy",
-              "Carson Whittington",
-              "Clark Thornton",
-              "Graham Dolbear",
-              "Hayden Scheuermann"
-            ],
-            "denied_umpires": [
-              "Joey Buchner"
-            ],
-            "assigned_count": 7,
-            "accepted_count": 1,
-            "pending_count": 5,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7288.5,
@@ -12611,12 +12575,12 @@
       "id": 1303,
       "name": "11U Select",
       "category": "Select",
-      "gp": 3,
-      "wins": 1,
+      "gp": 4,
+      "wins": 2,
       "losses": 2,
       "ties": 0,
-      "runs_for": 30,
-      "runs_against": 35,
+      "runs_for": 46,
+      "runs_against": 41,
       "practices": 21,
       "roster": {
         "players": 13,
@@ -12772,7 +12736,7 @@
           "date": "2026-05-26",
           "start_time": "6:00 PM",
           "end_date": "2026-05-27",
-          "summary": "11U Select - Game @ North London Nationals [11uS138]",
+          "summary": "11U Select - Game @ North London Nationals [11uS138](W 16-6)",
           "location": "Jack Chambers",
           "type": "game",
           "cancelled": false
@@ -13164,9 +13128,9 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 16,
+          "opp_score": 6,
           "cancelled": false
         },
         {
