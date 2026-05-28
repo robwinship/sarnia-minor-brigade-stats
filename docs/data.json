@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-28T10:03:48.350456Z",
+  "generated": "2026-05-28T16:03:37.430405Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3938,12 +3938,11 @@
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
                   "Irelynn Shaw",
-                  "Jack Needham",
                   "Jackson Burlingham",
-                  "Jacob Dawson",
                   "Jakob Rodriguez",
                   "Jaxson Pyne",
                   "Kassie Buchan",
+                  "Kirk Vines",
                   "Kye Golder",
                   "Kylee Salisbury",
                   "Levi Burlingham",
@@ -3953,7 +3952,6 @@
                   "Max McClintock",
                   "Nate Edwards",
                   "Nathan Zavitz",
-                  "Penny Core",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
@@ -3962,7 +3960,6 @@
                   "Terry Doyle",
                   "Timothy Johnston",
                   "Tyler Hoadley",
-                  "Tyler Vandenberg",
                   "Tyler Whetham",
                   "Will Garton",
                   "Will Greer"
@@ -3974,7 +3971,6 @@
                   "Chris Bonneau",
                   "Chris Makrigiannis",
                   "Cohen Smith",
-                  "Dawson O'Brien",
                   "Doug Krall",
                   "Drew Baxter",
                   "Ethan Carlton",
@@ -3989,7 +3985,7 @@
                   "Liam Burns",
                   "Logan Hiscocks",
                   "Myles Hobbs",
-                  "Parker Leighton",
+                  "Penny Core",
                   "Ryder Daye",
                   "Shane Moorhouse",
                   "Steve McGrail",
@@ -4001,8 +3997,8 @@
                 ],
                 "assigned_count": 124,
                 "accepted_count": 101,
-                "pending_count": 52,
-                "denied_count": 30,
+                "pending_count": 49,
+                "denied_count": 29,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -6599,7 +6595,7 @@
       "ties": 0,
       "runs_for": 46,
       "runs_against": 87,
-      "practices": 41,
+      "practices": 40,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -6609,16 +6605,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-19997-sarniabrigade.ca",
-          "date": "2026-03-28",
-          "start_time": "7:00 AM",
-          "end_date": "2026-03-28",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19998-sarniabrigade.ca",
           "date": "2026-04-04",
