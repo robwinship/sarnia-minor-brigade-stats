@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-29T10:03:34.532906Z",
+  "generated": "2026-05-29T16:03:16.233731Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3759,7 +3759,6 @@
                   "Lawrence Dyck",
                   "Levi Burlingham",
                   "Liam Burns",
-                  "Liam Colosimo",
                   "Liam Scott",
                   "Logan Conroy",
                   "Logan Hiscocks",
@@ -3800,7 +3799,6 @@
                   "Timothy Johnston",
                   "Trent Hogan",
                   "Tristan Heeringa",
-                  "Tristan Nemcek",
                   "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
@@ -3809,7 +3807,6 @@
                   "Will Garton",
                   "Will Greer",
                   "William MacKenzie",
-                  "Zachary Engen",
                   "Zhayn Trowbridge"
                 ],
                 "accepted_umpires": [
@@ -3930,8 +3927,7 @@
                   "Cullen Pearson",
                   "Dawson O'Brien",
                   "Derek Bayly",
-                  "Drew Baxter",
-                  "Easton McKinlay",
+                  "Doug Krall",
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
@@ -3940,19 +3936,15 @@
                   "Hayden Scheuermann",
                   "Irelynn Shaw",
                   "Jackson Burlingham",
-                  "Jacob Dawson",
                   "Jakob Rodriguez",
                   "Jaxson Pyne",
                   "Kassie Buchan",
                   "Kirk Vines",
                   "Kylee Salisbury",
                   "Levi Burlingham",
-                  "Liam Colosimo",
                   "Logan Conroy",
                   "Marko Sazdov",
                   "Mason Harper",
-                  "Matthew Schrie",
-                  "Myles Hobbs",
                   "Nate Edwards",
                   "Nathan Zavitz",
                   "Rio Ruiz",
@@ -3960,13 +3952,12 @@
                   "Ryder Daye",
                   "Ryerson Nead",
                   "Rylie Bunda",
+                  "Summer Steinke",
                   "Terry Doyle",
                   "Timothy Johnston",
-                  "Tristan Nemcek",
                   "Tyler Hoadley",
                   "Tyler Whetham",
-                  "Will Greer",
-                  "Zachary Engen"
+                  "Will Greer"
                 ],
                 "denied_umpires": [
                   "Alexander Pfaff",
@@ -3976,13 +3967,13 @@
                   "Chris Bonneau",
                   "Chris Makrigiannis",
                   "Cohen Smith",
-                  "Doug Krall",
                   "Drew Baxter",
                   "Ethan Carlton",
                   "Grant Purdy",
                   "Hannah Stewart",
                   "Hayden Scheuermann",
                   "Jackson Burlingham",
+                  "Jacob Dawson",
                   "Joey Buchner",
                   "Kirk Vines",
                   "Kye Golder",
@@ -3995,17 +3986,16 @@
                   "Ryder Daye",
                   "Shane Moorhouse",
                   "Steve McGrail",
-                  "Summer Steinke",
                   "Sydney Nisbet",
                   "Tristan Heeringa",
                   "Tyler Vandenberg",
                   "Tyler Whetham",
                   "Will Garton"
                 ],
-                "assigned_count": 126,
+                "assigned_count": 123,
                 "accepted_count": 101,
-                "pending_count": 51,
-                "denied_count": 32,
+                "pending_count": 45,
+                "denied_count": 31,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -6085,6 +6075,26 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21719-sarniabrigade.ca",
+          "date": "2026-08-22",
+          "start_time": "4:00 PM",
+          "end_date": "2026-08-22",
+          "summary": "11U OBA Rep - Game vs London Badgers",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21720-sarniabrigade.ca",
+          "date": "2026-08-22",
+          "start_time": "6:30 PM",
+          "end_date": "2026-08-23",
+          "summary": "11U OBA Rep - Game vs London Badgers",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20096-sarniabrigade.ca",
           "date": "2026-08-25",
           "start_time": "6:00 PM",
@@ -6151,6 +6161,26 @@
           "end_date": "2026-07-20",
           "summary": "11U OBA Rep - Talons Tournament",
           "location": "London, Ont",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3342-sarniabrigade.ca",
+          "date": "2026-08-28",
+          "start_time": null,
+          "end_date": "2026-08-31",
+          "summary": "11U OBA Rep - LDBA",
+          "location": "London, Ontario",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3343-sarniabrigade.ca",
+          "date": "2026-09-03",
+          "start_time": null,
+          "end_date": "2026-09-08",
+          "summary": "11U OBA Rep - OBA Finals",
+          "location": "Greater Niagara",
           "type": "tournament",
           "cancelled": false
         }
@@ -6547,6 +6577,30 @@
           "start_time": "6:00 PM",
           "opponent": "Dorchester Diamondbacks",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21719",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/21719/",
+          "date": "2026-08-22",
+          "start_time": "4:00 PM",
+          "opponent": "London Badgers Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21720",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/21720/",
+          "date": "2026-08-22",
+          "start_time": "6:30 PM",
+          "opponent": "London Badgers Tecumseh Park More Details Aug",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -8849,65 +8903,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-29",
-            "time": "6:00 PM",
-            "opponent": "North London Nationals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Carsyn Tnydall",
-              "Cullen Pearson",
-              "Ewan Snedden",
-              "Jaxson Pyne",
-              "Liam Colosimo",
-              "Matthew Schrie",
-              "Myles Hobbs",
-              "Nate Edwards",
-              "Nathan Zavitz",
-              "Paolo Padiglia",
-              "Rio Ruiz",
-              "Ryan Carlton",
-              "Summer Steinke",
-              "Tristan Nemcek",
-              "Tyler Hoadley",
-              "Zachary Engen"
-            ],
-            "accepted_umpires": [
-              "Paolo Padiglia"
-            ],
-            "pending_umpires": [
-              "Carsyn Tnydall",
-              "Cullen Pearson",
-              "Ewan Snedden",
-              "Jaxson Pyne",
-              "Liam Colosimo",
-              "Matthew Schrie",
-              "Myles Hobbs",
-              "Nate Edwards",
-              "Nathan Zavitz",
-              "Rio Ruiz",
-              "Ryan Carlton",
-              "Tristan Nemcek",
-              "Tyler Hoadley",
-              "Zachary Engen"
-            ],
-            "denied_umpires": [
-              "Summer Steinke"
-            ],
-            "assigned_count": 16,
-            "accepted_count": 1,
-            "pending_count": 14,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7288.5,
@@ -8928,7 +8929,7 @@
       "ties": 0,
       "runs_for": 41,
       "runs_against": 23,
-      "practices": 42,
+      "practices": 41,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -8938,16 +8939,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20050-sarniabrigade.ca",
-          "date": "2026-03-29",
-          "start_time": "7:00 AM",
-          "end_date": "2026-03-29",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20055-sarniabrigade.ca",
           "date": "2026-04-04",
@@ -10731,7 +10722,27 @@
           "start_time": "7:30 PM",
           "end_date": "2026-05-30",
           "summary": "15U OBA Rep - Game @ West London Tincaps",
-          "location": "Guelph - Larry Pearson (2)",
+          "location": "Larry Pearson Diamond - LP2 (Guelph)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21721-sarniabrigade.ca",
+          "date": "2026-05-30",
+          "start_time": "11:30 AM",
+          "end_date": "2026-05-30",
+          "summary": "15U OBA Rep - Game vs East York Bulldogs",
+          "location": "Larry Pearson Diamond - LP2 (Guelph)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21722-sarniabrigade.ca",
+          "date": "2026-05-30",
+          "start_time": "4:30 PM",
+          "end_date": "2026-05-30",
+          "summary": "15U OBA Rep - Game vs Cambridge Cubs",
+          "location": "Larry Pearson Diamond - LP1 (Guelph)",
           "type": "game",
           "cancelled": false
         },
@@ -11512,8 +11523,32 @@
           "href": "https://sarniabrigade.ca/Teams/1297/Games/21628/",
           "date": "2026-05-29",
           "start_time": "7:30 PM",
-          "opponent": "West London Tincaps Guelph - Larry Pearson",
+          "opponent": "West London Tincaps Larry Pearson Diamond - LP",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21721",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/21721/",
+          "date": "2026-05-30",
+          "start_time": "11:30 AM",
+          "opponent": "East York Bulldogs Larry Pearson Diamond - LP2",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21722",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/21722/",
+          "date": "2026-05-30",
+          "start_time": "4:30 PM",
+          "opponent": "Cambridge Cubs Larry Pearson Diamond - LP1",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -11972,7 +12007,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-06-01",
           "summary": "9U Select - Practice",
-          "location": "Blackwell North",
+          "location": "Clearwater Diamond #1",
           "type": "practice",
           "cancelled": false
         },
@@ -12102,7 +12137,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-07-13",
           "summary": "9U Select - Practice",
-          "location": "Blackwell North",
+          "location": "Clearwater Diamond #1",
           "type": "practice",
           "cancelled": false
         },
@@ -12262,7 +12297,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-08-17",
           "summary": "9U Select - Practice",
-          "location": "Blackwell North",
+          "location": "Clearwater Diamond #1",
           "type": "practice",
           "cancelled": false
         },
@@ -12282,7 +12317,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-08-24",
           "summary": "9U Select - Practice",
-          "location": "Blackwell North",
+          "location": "Clearwater Diamond #1",
           "type": "practice",
           "cancelled": false
         },
@@ -15781,12 +15816,12 @@
       "id": 1310,
       "name": "11U Lady Brigade",
       "category": "River League",
-      "gp": 1,
+      "gp": 3,
       "wins": 0,
-      "losses": 1,
+      "losses": 3,
       "ties": 0,
-      "runs_for": 4,
-      "runs_against": 16,
+      "runs_for": 17,
+      "runs_against": 44,
       "practices": 19,
       "roster": {
         "players": 12,
@@ -15892,7 +15927,7 @@
           "date": "2026-05-25",
           "start_time": "6:30 PM",
           "end_date": "2026-05-26",
-          "summary": "11U Lady Brigade - Game vs Wyoming Wranglers Navy [RL11UN-29]",
+          "summary": "11U Lady Brigade - Game vs Wyoming Wranglers Navy [RL11UN-29](L 16-2)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -15902,7 +15937,7 @@
           "date": "2026-05-27",
           "start_time": "6:30 PM",
           "end_date": "2026-05-28",
-          "summary": "11U Lady Brigade - Game @ Corunna Giants [RL11UN-52]",
+          "summary": "11U Lady Brigade - Game @ Corunna Giants [RL11UN-52](L 11-12)",
           "location": "Athletic Park (3)",
           "type": "game",
           "cancelled": false
@@ -16158,9 +16193,9 @@
           "start_time": "6:30 PM",
           "opponent": "Wyoming Wranglers Navy RL11UN-29 Clearwater Di",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 2,
+          "opp_score": 16,
           "cancelled": false
         },
         {
@@ -16170,9 +16205,9 @@
           "start_time": "6:30 PM",
           "opponent": "Corunna Giants RL11UN-52 Athletic Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 11,
+          "opp_score": 12,
           "cancelled": false
         },
         {
