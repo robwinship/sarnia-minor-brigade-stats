@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-29T16:03:16.233731Z",
+  "generated": "2026-05-29T19:33:13.154345Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3924,11 +3924,14 @@
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Charlie Philp",
+                  "Chris Bonneau",
                   "Cullen Pearson",
                   "Dawson O'Brien",
                   "Derek Bayly",
                   "Doug Krall",
+                  "Drew Bennett",
                   "Ewan Snedden",
+                  "Gage Boyd",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Hannah Stewart",
@@ -3937,17 +3940,21 @@
                   "Irelynn Shaw",
                   "Jackson Burlingham",
                   "Jakob Rodriguez",
+                  "Jason Lajeunesse",
                   "Jaxson Pyne",
                   "Kassie Buchan",
                   "Kirk Vines",
                   "Kylee Salisbury",
                   "Levi Burlingham",
                   "Logan Conroy",
+                  "Lucas Barker",
                   "Marko Sazdov",
                   "Mason Harper",
                   "Nate Edwards",
                   "Nathan Zavitz",
+                  "Nolan Bogaert",
                   "Rio Ruiz",
+                  "Ronnie Atyeo",
                   "Ryan Carlton",
                   "Ryder Daye",
                   "Ryerson Nead",
@@ -3956,6 +3963,7 @@
                   "Terry Doyle",
                   "Timothy Johnston",
                   "Tyler Hoadley",
+                  "Tyler Vandenberg",
                   "Tyler Whetham",
                   "Will Greer"
                 ],
@@ -3981,6 +3989,7 @@
                   "Levi Burlingham",
                   "Liam Burns",
                   "Logan Hiscocks",
+                  "Marko Sazdov",
                   "Myles Hobbs",
                   "Penny Core",
                   "Ryder Daye",
@@ -3994,8 +4003,8 @@
                 ],
                 "assigned_count": 123,
                 "accepted_count": 101,
-                "pending_count": 45,
-                "denied_count": 31,
+                "pending_count": 53,
+                "denied_count": 32,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4380,16 +4389,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20746-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "4:00 PM",
-          "end_date": "2026-06-07",
-          "summary": "10U A OBA Rep - Game vs London West Tincaps [10u30]",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20747-sarniabrigade.ca",
           "date": "2026-06-07",
           "start_time": "6:30 PM",
@@ -4760,6 +4759,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20746-sarniabrigade.ca",
+          "date": "2026-08-09",
+          "start_time": "4:00 PM",
+          "end_date": "2026-08-09",
+          "summary": "10U A OBA Rep - Game vs London West Tincaps [10u30]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20836-sarniabrigade.ca",
           "date": "2026-08-09",
           "start_time": "4:00 PM",
@@ -5072,18 +5081,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20746",
-          "href": "https://sarniabrigade.ca/Teams/1311/Games/20746/",
-          "date": "2026-06-07",
-          "start_time": "4:00 PM",
-          "opponent": "London West Tincaps",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "20747",
           "href": "https://sarniabrigade.ca/Teams/1311/Games/20747/",
           "date": "2026-06-07",
@@ -5306,6 +5303,18 @@
           "start_time": "6:00 PM",
           "opponent": "London West Tincaps",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20746",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20746/",
+          "date": "2026-08-09",
+          "start_time": "4:00 PM",
+          "opponent": "London West Tincaps",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -7762,12 +7771,12 @@
       "id": 1295,
       "name": "13U OBA Rep",
       "category": "OBA Rep",
-      "gp": 10,
-      "wins": 4,
+      "gp": 11,
+      "wins": 5,
       "losses": 6,
       "ties": 0,
-      "runs_for": 87,
-      "runs_against": 82,
+      "runs_for": 93,
+      "runs_against": 84,
       "practices": 41,
       "roster": {
         "players": 13,
@@ -8053,7 +8062,7 @@
           "date": "2026-05-28",
           "start_time": "6:00 PM",
           "end_date": "2026-05-29",
-          "summary": "13U OBA Rep - Game vs Chatham Diamonds 13U [13u95]",
+          "summary": "13U OBA Rep - Game vs Chatham Diamonds 13U [13u95](W 2-6)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -8679,9 +8688,9 @@
           "start_time": "6:00 PM",
           "opponent": "Chatham Diamonds",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 6,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -9836,6 +9845,16 @@
           "end_date": "2026-08-03",
           "summary": "14U OBA Rep - LaSalle",
           "location": "LaSalle",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3344-sarniabrigade.ca",
+          "date": "2026-09-04",
+          "start_time": null,
+          "end_date": "2026-09-07",
+          "summary": "14U OBA Rep - OBAs",
+          "location": "Brantford, On",
           "type": "tournament",
           "cancelled": false
         }
@@ -13586,16 +13605,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20726-sarniabrigade.ca",
-          "date": "2026-05-18",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-19",
-          "summary": "CANCELLED 13U Select - Game vs Strathroy Royals [13uS67]",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21629-sarniabrigade.ca",
           "date": "2026-05-18",
           "start_time": "6:00 PM",
@@ -13876,6 +13885,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20726-sarniabrigade.ca",
+          "date": "2026-07-27",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-28",
+          "summary": "13U Select - Game vs Strathroy Royals [13uS67]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19864-sarniabrigade.ca",
           "date": "2026-07-27",
           "start_time": "6:00 PM",
@@ -14027,18 +14046,6 @@
         }
       ],
       "games": [
-        {
-          "game_id": "20726",
-          "href": "https://sarniabrigade.ca/Teams/1300/Games/20726/",
-          "date": "2026-05-18",
-          "start_time": "6:00 PM",
-          "opponent": "Strathroy Royals",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
         {
           "game_id": "21629",
           "href": "https://sarniabrigade.ca/Teams/1300/Games/21629/",
@@ -14237,6 +14244,18 @@
           "date": "2026-07-24",
           "start_time": "6:00 PM",
           "opponent": "Ingersoll Ironbirds",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20726",
+          "href": "https://sarniabrigade.ca/Teams/1300/Games/20726/",
+          "date": "2026-07-27",
+          "start_time": "6:00 PM",
+          "opponent": "Strathroy Royals",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -20375,15 +20394,6 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 11U Select - Game vs Lambton Shores Eagles",
       "location": "Clearwater Diamond #3"
-    },
-    {
-      "team_id": 1300,
-      "team_name": "13U Select",
-      "type": "game",
-      "date": "2026-05-18",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 13U Select - Game vs Strathroy Royals [13uS67]",
-      "location": "Tecumseh Park"
     },
     {
       "team_id": 1300,
