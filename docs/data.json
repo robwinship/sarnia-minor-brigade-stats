@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-30T16:03:34.628824Z",
+  "generated": "2026-05-30T19:33:32.092319Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1169,7 +1169,7 @@
       "uniform_cost": 7559.7,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 1550.0
@@ -1178,12 +1178,12 @@
       "id": 1291,
       "name": "9U OBA Rep",
       "category": "OBA Rep",
-      "gp": 3,
-      "wins": 3,
+      "gp": 5,
+      "wins": 5,
       "losses": 0,
       "ties": 0,
-      "runs_for": 55,
-      "runs_against": 18,
+      "runs_for": 93,
+      "runs_against": 28,
       "practices": 36,
       "roster": {
         "players": 12,
@@ -1399,7 +1399,7 @@
           "date": "2026-05-30",
           "start_time": "10:00 AM",
           "end_date": "2026-05-30",
-          "summary": "9U OBA Rep - Game vs Dorchester Diamondbacks [9u01]",
+          "summary": "9U OBA Rep - Game vs Dorchester Diamondbacks [9u01](W 0-15)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -1409,7 +1409,7 @@
           "date": "2026-05-30",
           "start_time": "1:00 PM",
           "end_date": "2026-05-30",
-          "summary": "9U OBA Rep - Game vs Dorchester Diamondbacks [9u37]",
+          "summary": "9U OBA Rep - Game vs Dorchester Diamondbacks [9u37](W 10-23)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -1931,9 +1931,9 @@
           "start_time": "10:00 AM",
           "opponent": "Dorchester Diamondbacks",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 15,
+          "opp_score": 0,
           "cancelled": false
         },
         {
@@ -1943,9 +1943,9 @@
           "start_time": "1:00 PM",
           "opponent": "Dorchester Diamondbacks",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 23,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -2214,7 +2214,7 @@
       "uniform_cost": 7060.24,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 1550.0
@@ -4019,7 +4019,7 @@
       "uniform_cost": 7288.5,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 1550.0
@@ -5367,7 +5367,7 @@
       "uniform_cost": 7288.5,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 1550.0
@@ -6669,7 +6669,7 @@
       "uniform_cost": 7233.13,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 1550.0
@@ -7781,7 +7781,7 @@
       "uniform_cost": 7648.97,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 1550.0
@@ -8942,7 +8942,7 @@
       "uniform_cost": 7288.5,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 1550.0
@@ -10409,7 +10409,7 @@
       "uniform_cost": 7738.24,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 1550.0
@@ -11894,7 +11894,7 @@
       "uniform_cost": 8098.71,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 1550.0
@@ -12699,7 +12699,7 @@
       "uniform_cost": 0.0,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 1050.0
@@ -13508,7 +13508,7 @@
       "uniform_cost": 0.0,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 1050.0
@@ -14343,7 +14343,7 @@
       "uniform_cost": 0.0,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 1050.0
@@ -15194,7 +15194,7 @@
       "uniform_cost": 0.0,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 1050.0
@@ -15845,7 +15845,7 @@
       "uniform_cost": 0.0,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 375.0
@@ -16394,7 +16394,7 @@
       "uniform_cost": 0.0,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 375.0
@@ -16853,7 +16853,7 @@
       "uniform_cost": 0.0,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 375.0
@@ -17530,7 +17530,7 @@
       "uniform_cost": 1952.64,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 375.0
@@ -18987,7 +18987,7 @@
       "uniform_cost": 8187.98,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 1550.0
@@ -20227,7 +20227,7 @@
       "uniform_cost": 0.0,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
-      "police_checks_cost": 0.0,
+      "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
       "reg_fee_2026": 150.0
