@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-30T10:03:31.143195Z",
+  "generated": "2026-05-30T16:03:34.628824Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2205,67 +2205,11 @@
         "games_missed": 0,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-05-30",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "Logan Hiscocks | Nolan Bogaert",
-              "Logan Hiscocks | Will Garton"
-            ],
-            "mismatched_names": [
-              "Nolan Bogaert",
-              "Will Garton"
-            ],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "Dorchester Diamondbacks",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [
-                  "Logan Hiscocks",
-                  "Nolan Bogaert"
-                ],
-                "accepted_umpires": [
-                  "Logan Hiscocks",
-                  "Nolan Bogaert"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "Dorchester Diamondbacks",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [
-                  "Logan Hiscocks",
-                  "Will Garton"
-                ],
-                "accepted_umpires": [
-                  "Logan Hiscocks",
-                  "Will Garton"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7060.24,
       "equipment_cost": 0.0,
@@ -3929,7 +3873,6 @@
                   "Dawson O'Brien",
                   "Derek Bayly",
                   "Doug Krall",
-                  "Drew Bennett",
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
@@ -3940,7 +3883,6 @@
                   "Jackson Burlingham",
                   "Jakob Rodriguez",
                   "Jaxson Pyne",
-                  "Juan Peralta",
                   "Kassie Buchan",
                   "Kirk Vines",
                   "Kylee Salisbury",
@@ -3952,7 +3894,6 @@
                   "Matthew Schrie",
                   "Nate Edwards",
                   "Nathan Zavitz",
-                  "Penny Core",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
@@ -3974,9 +3915,9 @@
                   "Chris Makrigiannis",
                   "Cohen Smith",
                   "Drew Baxter",
+                  "Drew Bennett",
                   "Ethan Carlton",
                   "Grant Purdy",
-                  "Hannah Stewart",
                   "Hayden Scheuermann",
                   "Jackson Burlingham",
                   "Joey Buchner",
@@ -3998,7 +3939,7 @@
                 ],
                 "assigned_count": 123,
                 "accepted_count": 101,
-                "pending_count": 51,
+                "pending_count": 48,
                 "denied_count": 29,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -5332,35 +5273,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
-          {
-            "date": "2026-05-31",
-            "time": "4:00 PM",
-            "opponent": "North London Nationals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Juan Peralta",
-              "Summer Steinke"
-            ],
-            "accepted_umpires": [
-              "Summer Steinke"
-            ],
-            "pending_umpires": [
-              "Juan Peralta"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
           {
             "date": "2026-05-31",
             "time": "6:30 PM",
@@ -5392,8 +5310,12 @@
             "date": "2026-05-31",
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
+            "pair_signatures": [
+              "Juan Peralta | Summer Steinke"
+            ],
+            "mismatched_names": [
+              "Juan Peralta"
+            ],
             "games": [
               {
                 "time": "4:00 PM",
@@ -5404,15 +5326,14 @@
                   "Summer Steinke"
                 ],
                 "accepted_umpires": [
+                  "Juan Peralta",
                   "Summer Steinke"
                 ],
-                "pending_umpires": [
-                  "Juan Peralta"
-                ],
+                "pending_umpires": [],
                 "denied_umpires": [],
                 "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
+                "accepted_count": 2,
+                "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -16941,12 +16862,12 @@
       "id": 1302,
       "name": "13U LDBA House League",
       "category": "House League",
-      "gp": 1,
-      "wins": 1,
+      "gp": 2,
+      "wins": 2,
       "losses": 0,
       "ties": 0,
-      "runs_for": 22,
-      "runs_against": 3,
+      "runs_for": 44,
+      "runs_against": 5,
       "practices": 23,
       "roster": {
         "players": 14,
@@ -17082,7 +17003,7 @@
           "date": "2026-05-29",
           "start_time": "6:00 PM",
           "end_date": "2026-05-30",
-          "summary": "13U LDBA House League - Game vs DKMB Blue [13uW14]",
+          "summary": "13U LDBA House League - Game vs DKMB Blue [13uW14](W 2-22)",
           "location": "Clearwater Diamond #4",
           "type": "game",
           "cancelled": false
@@ -17410,9 +17331,9 @@
           "start_time": "6:00 PM",
           "opponent": "DKMB Blue",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 22,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -17598,36 +17519,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-31",
-            "time": "1:00 PM",
-            "opponent": "Strathroy Royal Blue",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [
-              "Juan Peralta",
-              "Kirk Vines"
-            ],
-            "accepted_umpires": [
-              "Kirk Vines"
-            ],
-            "pending_umpires": [
-              "Juan Peralta"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 1952.64,
