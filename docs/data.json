@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-30T19:33:32.092319Z",
+  "generated": "2026-05-30T23:03:36.284076Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -7796,7 +7796,7 @@
       "ties": 0,
       "runs_for": 110,
       "runs_against": 84,
-      "practices": 41,
+      "practices": 40,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -7806,16 +7806,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20229-sarniabrigade.ca",
-          "date": "2026-03-30",
-          "start_time": "6:00 PM",
-          "end_date": "2026-03-31",
-          "summary": "13U OBA Rep - Indoor Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20230-sarniabrigade.ca",
           "date": "2026-04-06",
@@ -17539,12 +17529,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 15,
-      "wins": 9,
-      "losses": 6,
+      "gp": 18,
+      "wins": 10,
+      "losses": 8,
       "ties": 0,
-      "runs_for": 104,
-      "runs_against": 88,
+      "runs_for": 115,
+      "runs_against": 114,
       "practices": 44,
       "roster": {
         "players": 15,
@@ -17900,7 +17890,7 @@
           "date": "2026-05-29",
           "start_time": "6:00 PM",
           "end_date": "2026-05-30",
-          "summary": "16U PBLO - Game @ Sudbury Voyageurs",
+          "summary": "16U PBLO - Game @ Sudbury Voyageurs(W 5-1)",
           "location": "Terry Fox Complex (Main)",
           "type": "game",
           "cancelled": false
@@ -17910,7 +17900,7 @@
           "date": "2026-05-30",
           "start_time": "12:00 PM",
           "end_date": "2026-05-30",
-          "summary": "16U PBLO - Game @ Sudbury Voyageurs",
+          "summary": "16U PBLO - Game @ Sudbury Voyageurs(L 5-14)",
           "location": "Terry Fox Complex (Main)",
           "type": "game",
           "cancelled": false
@@ -17920,7 +17910,7 @@
           "date": "2026-05-30",
           "start_time": "3:00 PM",
           "end_date": "2026-05-30",
-          "summary": "16U PBLO - Game @ Sudbury Voyageurs",
+          "summary": "16U PBLO - Game @ Sudbury Voyageurs(L 1-11)",
           "location": "Terry Fox Complex (Main)",
           "type": "game",
           "cancelled": false
@@ -18684,9 +18674,9 @@
           "start_time": "6:00 PM",
           "opponent": "Sudbury Voyageurs Terry Fox Complex",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 5,
+          "opp_score": 1,
           "cancelled": false
         },
         {
@@ -18696,9 +18686,9 @@
           "start_time": "12:00 PM",
           "opponent": "Sudbury Voyageurs Terry Fox Complex",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 5,
+          "opp_score": 14,
           "cancelled": false
         },
         {
@@ -18708,9 +18698,9 @@
           "start_time": "3:00 PM",
           "opponent": "Sudbury Voyageurs Terry Fox Complex",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 1,
+          "opp_score": 11,
           "cancelled": false
         },
         {
