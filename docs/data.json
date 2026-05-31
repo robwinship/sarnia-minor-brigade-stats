@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-30T23:03:36.284076Z",
+  "generated": "2026-05-31T10:03:33.046517Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3887,6 +3887,7 @@
                   "Kirk Vines",
                   "Kylee Salisbury",
                   "Levi Burlingham",
+                  "Liam Scott",
                   "Logan Conroy",
                   "Marko Sazdov",
                   "Mason Harper",
@@ -3939,7 +3940,7 @@
                 ],
                 "assigned_count": 123,
                 "accepted_count": 101,
-                "pending_count": 48,
+                "pending_count": 49,
                 "denied_count": 29,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -5273,47 +5274,23 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-31",
-            "time": "6:30 PM",
-            "opponent": "North London Nationals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Axl Taylor",
-              "Jakob Rodriguez",
-              "Summer Steinke"
-            ],
-            "accepted_umpires": [
-              "Summer Steinke"
-            ],
-            "pending_umpires": [
-              "Axl Taylor",
-              "Jakob Rodriguez"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 3,
-            "accepted_count": 1,
-            "pending_count": 2,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-05-31",
             "issue_timing": "upcoming",
-            "incomplete_assignment": true,
+            "incomplete_assignment": false,
             "pair_signatures": [
+              "Axl Taylor | Summer Steinke",
               "Juan Peralta | Summer Steinke"
             ],
             "mismatched_names": [
+              "Axl Taylor",
               "Juan Peralta"
             ],
             "games": [
@@ -5343,20 +5320,17 @@
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
                   "Axl Taylor",
-                  "Jakob Rodriguez",
                   "Summer Steinke"
                 ],
                 "accepted_umpires": [
+                  "Axl Taylor",
                   "Summer Steinke"
                 ],
-                "pending_umpires": [
-                  "Axl Taylor",
-                  "Jakob Rodriguez"
-                ],
+                "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 3,
-                "accepted_count": 1,
-                "pending_count": 2,
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               }
@@ -7755,7 +7729,7 @@
         "games_missed": 1,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -7776,7 +7750,63 @@
             "issue_timing": "past"
           }
         ],
-        "doubleheader_mismatch_details": []
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-06-07",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "Brogan Murphy | Summer Steinke",
+              "Carter Wills | Summer Steinke"
+            ],
+            "mismatched_names": [
+              "Brogan Murphy",
+              "Carter Wills"
+            ],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "North London Nationals",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Brogan Murphy",
+                  "Summer Steinke"
+                ],
+                "accepted_umpires": [
+                  "Brogan Murphy",
+                  "Summer Steinke"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "1:00 PM",
+                "opponent": "North London Nationals",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Carter Wills",
+                  "Summer Steinke"
+                ],
+                "accepted_umpires": [
+                  "Carter Wills",
+                  "Summer Steinke"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          }
+        ]
       },
       "uniform_cost": 7648.97,
       "equipment_cost": 0.0,
