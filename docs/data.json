@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-31T19:33:12.779338Z",
+  "generated": "2026-05-31T23:02:54.804088Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3881,11 +3881,9 @@
                   "Jackson Burlingham",
                   "Jakob Rodriguez",
                   "Jaxson Pyne",
-                  "Kassie Buchan",
                   "Kirk Vines",
                   "Kylee Salisbury",
                   "Levi Burlingham",
-                  "Liam Scott",
                   "Logan Conroy",
                   "Marko Sazdov",
                   "Mason Harper",
@@ -3926,6 +3924,7 @@
                   "Kylee Salisbury",
                   "Levi Burlingham",
                   "Liam Burns",
+                  "Liam Scott",
                   "Logan Hiscocks",
                   "Marko Sazdov",
                   "Myles Hobbs",
@@ -3940,8 +3939,8 @@
                 ],
                 "assigned_count": 122,
                 "accepted_count": 101,
-                "pending_count": 48,
-                "denied_count": 31,
+                "pending_count": 46,
+                "denied_count": 32,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4029,12 +4028,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 5,
-      "wins": 2,
+      "gp": 6,
+      "wins": 3,
       "losses": 3,
       "ties": 0,
-      "runs_for": 42,
-      "runs_against": 61,
+      "runs_for": 53,
+      "runs_against": 71,
       "practices": 46,
       "roster": {
         "players": 13,
@@ -4280,7 +4279,7 @@
           "date": "2026-05-31",
           "start_time": "4:00 PM",
           "end_date": "2026-05-31",
-          "summary": "10U A OBA Rep - Game vs North London Nationals [10u23]",
+          "summary": "10U A OBA Rep - Game vs North London Nationals [10u23](W 10-11)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -4978,9 +4977,9 @@
           "start_time": "4:00 PM",
           "opponent": "North London Nationals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -8971,12 +8970,12 @@
       "id": 1296,
       "name": "14U OBA Rep",
       "category": "OBA Rep",
-      "gp": 5,
-      "wins": 3,
-      "losses": 2,
+      "gp": 9,
+      "wins": 6,
+      "losses": 3,
       "ties": 0,
-      "runs_for": 58,
-      "runs_against": 44,
+      "runs_for": 95,
+      "runs_against": 63,
       "practices": 41,
       "roster": {
         "players": 14,
@@ -9262,7 +9261,7 @@
           "date": "2026-05-30",
           "start_time": "11:00 AM",
           "end_date": "2026-05-30",
-          "summary": "14U OBA Rep - Game vs Bearcats 14U Jacob",
+          "summary": "14U OBA Rep - Game vs Bearcats 14U Jacob(W 4-9)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -9272,7 +9271,7 @@
           "date": "2026-05-30",
           "start_time": "1:30 PM",
           "end_date": "2026-05-30",
-          "summary": "14U OBA Rep - Game vs Bearcats 14U Jacob",
+          "summary": "14U OBA Rep - Game vs Bearcats 14U Jacob(L 13-4)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -9282,7 +9281,7 @@
           "date": "2026-05-31",
           "start_time": "10:00 AM",
           "end_date": "2026-05-31",
-          "summary": "14U OBA Rep - Game vs London Talons [14u60]",
+          "summary": "14U OBA Rep - Game vs London Talons [14u60](W 1-11)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -9292,7 +9291,7 @@
           "date": "2026-05-31",
           "start_time": "12:00 PM",
           "end_date": "2026-05-31",
-          "summary": "14U OBA Rep - Game vs London Talons [14u36]",
+          "summary": "14U OBA Rep - Game vs London Talons [14u36](W 1-13)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -10062,9 +10061,9 @@
           "start_time": "11:00 AM",
           "opponent": "Bearcats",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -10074,9 +10073,9 @@
           "start_time": "1:30 PM",
           "opponent": "Bearcats",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 13,
           "cancelled": false
         },
         {
@@ -10086,9 +10085,9 @@
           "start_time": "10:00 AM",
           "opponent": "London Talons",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 1,
           "cancelled": false
         },
         {
@@ -10098,9 +10097,9 @@
           "start_time": "12:00 PM",
           "opponent": "London Talons",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 13,
+          "opp_score": 1,
           "cancelled": false
         },
         {
@@ -11929,7 +11928,7 @@
       "ties": 0,
       "runs_for": 72,
       "runs_against": 95,
-      "practices": 28,
+      "practices": 27,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -11939,16 +11938,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19630-sarniabrigade.ca",
-          "date": "2026-03-31",
-          "start_time": "5:30 PM",
-          "end_date": "2026-03-31",
-          "summary": "9U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19820-sarniabrigade.ca",
           "date": "2026-04-14",
@@ -17033,7 +17022,7 @@
           "date": "2026-05-31",
           "start_time": "1:00 PM",
           "end_date": "2026-05-31",
-          "summary": "13U LDBA House League - Game vs Strathroy Royal Blue [13uW17]",
+          "summary": "13U LDBA House League - Game vs Strathroy Royal Blue [13uW17](W 6-21)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
