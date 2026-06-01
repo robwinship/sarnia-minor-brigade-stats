@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-01T16:03:04.719318Z",
+  "generated": "2026-06-01T19:32:57.945820Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 64,
       "runs_against": 90,
-      "practices": 39,
+      "practices": 40,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -336,6 +336,16 @@
           "end_date": "2026-06-16",
           "summary": "8U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21734-sarniabrigade.ca",
+          "date": "2026-06-18",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-18",
+          "summary": "8U OBA Rep - Practice",
+          "location": "Coronation Park Diamond",
           "type": "practice",
           "cancelled": false
         },
@@ -3926,8 +3936,6 @@
                   "Jackson Burlingham",
                   "Jakob Rodriguez",
                   "Jaxson Pyne",
-                  "Kirk Vines",
-                  "Kye Golder",
                   "Kylee Salisbury",
                   "Levi Burlingham",
                   "Logan Conroy",
@@ -3937,19 +3945,19 @@
                   "Myles Hobbs",
                   "Nate Edwards",
                   "Nathan Zavitz",
+                  "Ralph Campbell",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryerson Nead",
                   "Shane Moorhouse",
-                  "Sydney Nisbet",
                   "Terry Doyle",
                   "Timothy Johnston",
                   "Tyler Hoadley",
                   "Tyler Whetham",
+                  "Wiishkpimin Macbeth",
                   "Will Greer"
                 ],
                 "denied_umpires": [
-                  "Brian Mundt",
                   "Bryson Large",
                   "Chris Bonneau",
                   "Chris Makrigiannis",
@@ -3979,8 +3987,8 @@
                 ],
                 "assigned_count": 121,
                 "accepted_count": 101,
-                "pending_count": 46,
-                "denied_count": 27,
+                "pending_count": 45,
+                "denied_count": 26,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4068,13 +4076,13 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 6,
-      "wins": 3,
+      "gp": 7,
+      "wins": 4,
       "losses": 3,
       "ties": 0,
-      "runs_for": 53,
-      "runs_against": 71,
-      "practices": 46,
+      "runs_for": 66,
+      "runs_against": 80,
+      "practices": 45,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -4329,7 +4337,7 @@
           "date": "2026-05-31",
           "start_time": "6:30 PM",
           "end_date": "2026-06-01",
-          "summary": "10U A OBA Rep - Game vs North London Nationals [10u53]",
+          "summary": "10U A OBA Rep - Game vs North London Nationals [10u53](W 9-13)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -4352,6 +4360,16 @@
           "summary": "10U A OBA Rep - Game @ St. Thomas Cardinals [10u27]",
           "location": "New York Central",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21735-sarniabrigade.ca",
+          "date": "2026-06-07",
+          "start_time": "4:00 PM",
+          "end_date": "2026-06-08",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -4452,16 +4470,6 @@
           "summary": "10U A OBA Rep - Game vs London West Tincaps [10u60]",
           "location": "Clearwater Diamond #1",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20162-sarniabrigade.ca",
-          "date": "2026-06-25",
-          "start_time": "5:30 PM",
-          "end_date": "2026-06-25",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -4732,16 +4740,6 @@
           "summary": "10U A OBA Rep - Game vs London West Tincaps [10u30]",
           "location": "Tecumseh Park",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20836-sarniabrigade.ca",
-          "date": "2026-08-09",
-          "start_time": "4:00 PM",
-          "end_date": "2026-08-09",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -5029,9 +5027,9 @@
           "start_time": "6:30 PM",
           "opponent": "North London Nationals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 13,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -5395,7 +5393,7 @@
       "ties": 0,
       "runs_for": 114,
       "runs_against": 66,
-      "practices": 40,
+      "practices": 39,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -6023,16 +6021,6 @@
           "summary": "11U OBA Rep - Game vs Mitchell Astros Rep [11u86]",
           "location": "Tecumseh Park",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20093-sarniabrigade.ca",
-          "date": "2026-08-04",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-05",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
           "cancelled": false
         },
         {
