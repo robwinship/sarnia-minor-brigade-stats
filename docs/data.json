@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-01T19:32:57.945820Z",
+  "generated": "2026-06-01T23:02:51.810720Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1184,7 +1184,7 @@
       "ties": 0,
       "runs_for": 93,
       "runs_against": 28,
-      "practices": 36,
+      "practices": 35,
       "roster": {
         "players": 12,
         "adults": 5,
@@ -1194,16 +1194,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20175-sarniabrigade.ca",
-          "date": "2026-04-01",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-01",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20176-sarniabrigade.ca",
           "date": "2026-04-08",
@@ -3924,9 +3914,11 @@
                   "Carter Palmer",
                   "Charlie Philp",
                   "Chris Bonneau",
+                  "Cruz Marinaro",
                   "Dawson O'Brien",
                   "Derek Bayly",
                   "Doug Krall",
+                  "Drew Bennett",
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
@@ -3945,7 +3937,6 @@
                   "Myles Hobbs",
                   "Nate Edwards",
                   "Nathan Zavitz",
-                  "Ralph Campbell",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryerson Nead",
@@ -3987,7 +3978,7 @@
                 ],
                 "assigned_count": 121,
                 "accepted_count": 101,
-                "pending_count": 45,
+                "pending_count": 46,
                 "denied_count": 26,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -10537,7 +10528,7 @@
       "ties": 0,
       "runs_for": 17,
       "runs_against": 29,
-      "practices": 59,
+      "practices": 58,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10547,16 +10538,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19694-sarniabrigade.ca",
-          "date": "2026-04-01",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-01",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19695-sarniabrigade.ca",
           "date": "2026-04-08",
