@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-05-31T23:02:54.804088Z",
+  "generated": "2026-06-01T10:03:11.327948Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1103,15 +1103,15 @@
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-05-31",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": false,
             "pair_signatures": [
               "Jonas Winklmeier | Rylie Bunda",
@@ -3647,7 +3647,6 @@
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
-                  "Carsyn Tnydall",
                   "Carter Palmer",
                   "Carter Wills",
                   "Charlie Philp",
@@ -3861,11 +3860,10 @@
                   "Axl Taylor",
                   "Baya Vandenheuvel",
                   "Bentley Bartosz",
+                  "Bentley Daughtrey",
                   "Brian Mundt",
                   "Brock Lane",
-                  "Brogan Murphy",
                   "Caleb Willemsvandyk",
-                  "Carsyn Tnydall",
                   "Carter Palmer",
                   "Charlie Philp",
                   "Chris Bonneau",
@@ -3888,19 +3886,19 @@
                   "Marko Sazdov",
                   "Mason Harper",
                   "Matt Kennett",
-                  "Matthew Schrie",
+                  "Myles Hobbs",
                   "Nate Edwards",
                   "Nathan Zavitz",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryerson Nead",
+                  "Shane Moorhouse",
                   "Summer Steinke",
                   "Sydney Nisbet",
                   "Terry Doyle",
                   "Timothy Johnston",
                   "Tyler Hoadley",
                   "Tyler Whetham",
-                  "Will Garton",
                   "Will Greer"
                 ],
                 "denied_umpires": [
@@ -3920,7 +3918,6 @@
                   "Jackson Burlingham",
                   "Joey Buchner",
                   "Kirk Vines",
-                  "Kye Golder",
                   "Kylee Salisbury",
                   "Levi Burlingham",
                   "Liam Burns",
@@ -3937,10 +3934,10 @@
                   "Tyler Whetham",
                   "Will Garton"
                 ],
-                "assigned_count": 122,
+                "assigned_count": 121,
                 "accepted_count": 101,
-                "pending_count": 46,
-                "denied_count": 32,
+                "pending_count": 45,
+                "denied_count": 31,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -5274,15 +5271,15 @@
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-05-31",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": false,
             "pair_signatures": [
               "Axl Taylor | Summer Steinke",
@@ -5349,12 +5346,12 @@
       "id": 1293,
       "name": "11U OBA Rep",
       "category": "OBA Rep",
-      "gp": 7,
-      "wins": 5,
+      "gp": 9,
+      "wins": 7,
       "losses": 2,
       "ties": 0,
-      "runs_for": 89,
-      "runs_against": 55,
+      "runs_for": 114,
+      "runs_against": 66,
       "practices": 40,
       "roster": {
         "players": 12,
@@ -5640,7 +5637,7 @@
           "date": "2026-05-31",
           "start_time": "11:00 AM",
           "end_date": "2026-05-31",
-          "summary": "11U OBA Rep - Game @ Windsor Stars",
+          "summary": "11U OBA Rep - Game @ Windsor Stars(W 11-2)",
           "location": "Mic Mac Park",
           "type": "game",
           "cancelled": false
@@ -5650,7 +5647,7 @@
           "date": "2026-05-31",
           "start_time": "1:30 PM",
           "end_date": "2026-05-31",
-          "summary": "11U OBA Rep - Game @ Windsor Stars",
+          "summary": "11U OBA Rep - Game @ Windsor Stars(W 14-9)",
           "location": "Mic Mac Park",
           "type": "game",
           "cancelled": false
@@ -5676,6 +5673,36 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21726-sarniabrigade.ca",
+          "date": "2026-06-05",
+          "start_time": "8:30 PM",
+          "end_date": "2026-06-06",
+          "summary": "11U OBA Rep - Game @ Richmond Hill Phoenix",
+          "location": "Stronach Baseball Complex 1",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21727-sarniabrigade.ca",
+          "date": "2026-06-06",
+          "start_time": "1:30 PM",
+          "end_date": "2026-06-06",
+          "summary": "11U OBA Rep - Game @ Mississauga SW Twins",
+          "location": "Stronach Baseball Complex 1",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21728-sarniabrigade.ca",
+          "date": "2026-06-06",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-07",
+          "summary": "11U OBA Rep - Game @ London Badgers",
+          "location": "North London Sports Field #2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20690-sarniabrigade.ca",
           "date": "2026-06-09",
           "start_time": "6:00 PM",
@@ -5683,6 +5710,16 @@
           "summary": "11U OBA Rep - Game vs Mitchell Astros Rep [11u86]",
           "location": "Tecumseh Park",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21729-sarniabrigade.ca",
+          "date": "2026-06-09",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-10",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -5773,16 +5810,6 @@
           "summary": "11U OBA Rep - Game @ DKMB River Cats [11u79]",
           "location": "Komoka (Front)",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20088-sarniabrigade.ca",
-          "date": "2026-06-30",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-01",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -6326,9 +6353,9 @@
           "start_time": "11:00 AM",
           "opponent": "Windsor Stars Mic Mac Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -6337,6 +6364,42 @@
           "date": "2026-05-31",
           "start_time": "1:30 PM",
           "opponent": "Windsor Stars Mic Mac Park",
+          "home": false,
+          "result": "W",
+          "brigade_score": 14,
+          "opp_score": 9,
+          "cancelled": false
+        },
+        {
+          "game_id": "21726",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/21726/",
+          "date": "2026-06-05",
+          "start_time": "8:30 PM",
+          "opponent": "Richmond Hill Phoenix Stronach Baseball Comple",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21727",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/21727/",
+          "date": "2026-06-06",
+          "start_time": "1:30 PM",
+          "opponent": "Mississauga SW Twins Stronach Baseball Complex",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21728",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/21728/",
+          "date": "2026-06-06",
+          "start_time": "6:00 PM",
+          "opponent": "London Badgers North London Sports Field",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -9177,16 +9240,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20844-sarniabrigade.ca",
-          "date": "2026-05-23",
-          "start_time": "7:00 PM",
-          "end_date": "2026-05-24",
-          "summary": "14U OBA Rep - Game @ Strathroy Royals [14u55]",
-          "location": "York Street (3)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20443-sarniabrigade.ca",
           "date": "2026-05-24",
           "start_time": "10:00 AM",
@@ -9353,6 +9406,16 @@
           "end_date": "2026-06-07",
           "summary": "14U OBA Rep - Game vs Bloordale [3]",
           "location": "Larry Pearson Park - Diamond 2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20844-sarniabrigade.ca",
+          "date": "2026-06-07",
+          "start_time": "7:00 PM",
+          "end_date": "2026-06-08",
+          "summary": "14U OBA Rep - Game @ Strathroy Royals [14u55]",
+          "location": "York Street (3)",
           "type": "game",
           "cancelled": false
         },
@@ -9983,18 +10046,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20844",
-          "href": "https://sarniabrigade.ca/Teams/1296/Games/20844/",
-          "date": "2026-05-23",
-          "start_time": "7:00 PM",
-          "opponent": "Strathroy Royals",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "20443",
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20443/",
           "date": "2026-05-24",
@@ -10133,6 +10184,18 @@
           "start_time": "7:30 PM",
           "opponent": "Bloordale",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20844",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/20844/",
+          "date": "2026-06-07",
+          "start_time": "7:00 PM",
+          "opponent": "Strathroy Royals",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
