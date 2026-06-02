@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-02T19:33:31.421822Z",
+  "generated": "2026-06-02T23:03:36.760059Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 68,
       "runs_against": 104,
-      "practices": 40,
+      "practices": 39,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19949-sarniabrigade.ca",
-          "date": "2026-04-02",
-          "start_time": "5:00 PM",
-          "end_date": "2026-04-02",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19950-sarniabrigade.ca",
           "date": "2026-04-09",
@@ -3912,7 +3902,6 @@
                   "Carter Palmer",
                   "Charlie Philp",
                   "Chris Bonneau",
-                  "Dawson O'Brien",
                   "Derek Bayly",
                   "Ewan Snedden",
                   "Graham Dolbear",
@@ -3922,6 +3911,7 @@
                   "Irelynn Shaw",
                   "Jakob Rodriguez",
                   "Jaxson Pyne",
+                  "Joey Buchner",
                   "Kye Golder",
                   "Luke Walls",
                   "Marko Sazdov",
@@ -3946,6 +3936,7 @@
                   "Chris Makrigiannis",
                   "Cohen Smith",
                   "Cruz Marinaro",
+                  "Dawson O'Brien",
                   "Drew Baxter",
                   "Drew Bennett",
                   "Ethan Carlton",
@@ -3959,7 +3950,7 @@
                   "Logan Hiscocks",
                   "Marko Sazdov",
                   "Myles Hobbs",
-                  "Ryder Daye",
+                  "Paolo Padiglia",
                   "Shane Moorhouse",
                   "Steve McGrail",
                   "Sydney Nisbet",
@@ -3971,7 +3962,7 @@
                 "assigned_count": 121,
                 "accepted_count": 100,
                 "pending_count": 40,
-                "denied_count": 26,
+                "denied_count": 27,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -5376,7 +5367,7 @@
       "ties": 0,
       "runs_for": 114,
       "runs_against": 66,
-      "practices": 39,
+      "practices": 38,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5386,16 +5377,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20056-sarniabrigade.ca",
-          "date": "2026-04-02",
-          "start_time": "5:00 PM",
-          "end_date": "2026-04-02",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20057-sarniabrigade.ca",
           "date": "2026-04-09",
@@ -17323,7 +17304,7 @@
         {
           "uid": "MS-21224-sarniabrigade.ca",
           "date": "2026-07-20",
-          "start_time": "6:30 PM",
+          "start_time": "6:00 PM",
           "end_date": "2026-07-21",
           "summary": "13U LDBA House League - Game @ North Middlesex 1 [13uW72]",
           "location": "Parkhill (A)",
@@ -17638,7 +17619,7 @@
           "game_id": "21224",
           "href": "https://sarniabrigade.ca/Teams/1302/Games/21224/",
           "date": "2026-07-20",
-          "start_time": "6:30 PM",
+          "start_time": "6:00 PM",
           "opponent": "North Middlesex",
           "home": false,
           "result": null,
