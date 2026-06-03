@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-03T16:03:37.122735Z",
+  "generated": "2026-06-03T19:33:39.542945Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3906,6 +3906,7 @@
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Greg Baker",
                   "Hannah Stewart",
                   "Harper Vandenheuval",
                   "Irelynn Shaw",
@@ -3964,7 +3965,7 @@
                 ],
                 "assigned_count": 121,
                 "accepted_count": 100,
-                "pending_count": 42,
+                "pending_count": 43,
                 "denied_count": 28,
                 "assignment_state": "assigned_and_accepted"
               },
