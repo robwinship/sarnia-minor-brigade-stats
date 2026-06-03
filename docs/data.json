@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-02T23:03:36.760059Z",
+  "generated": "2026-06-03T10:03:45.686045Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1168,12 +1168,12 @@
       "id": 1291,
       "name": "9U OBA Rep",
       "category": "OBA Rep",
-      "gp": 5,
-      "wins": 5,
+      "gp": 6,
+      "wins": 6,
       "losses": 0,
       "ties": 0,
-      "runs_for": 93,
-      "runs_against": 28,
+      "runs_for": 114,
+      "runs_against": 38,
       "practices": 35,
       "roster": {
         "players": 12,
@@ -1399,7 +1399,7 @@
           "date": "2026-06-02",
           "start_time": "6:00 PM",
           "end_date": "2026-06-03",
-          "summary": "9U OBA Rep - Game @ Lucan-Ilderton Athletics [9u31]",
+          "summary": "9U OBA Rep - Game @ Lucan-Ilderton Athletics [9u31](W 21-10)",
           "location": "Heritage (1)",
           "type": "game",
           "cancelled": false
@@ -1935,9 +1935,9 @@
           "start_time": "6:00 PM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 21,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -3902,7 +3902,6 @@
                   "Carter Palmer",
                   "Charlie Philp",
                   "Chris Bonneau",
-                  "Derek Bayly",
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
@@ -3961,7 +3960,7 @@
                 ],
                 "assigned_count": 121,
                 "accepted_count": 100,
-                "pending_count": 40,
+                "pending_count": 39,
                 "denied_count": 27,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -12837,7 +12836,7 @@
       "ties": 0,
       "runs_for": 56,
       "runs_against": 50,
-      "practices": 21,
+      "practices": 20,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -12847,16 +12846,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19823-sarniabrigade.ca",
-          "date": "2026-04-02",
-          "start_time": "7:00 PM",
-          "end_date": "2026-04-03",
-          "summary": "11U Select - Indoor Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19824-sarniabrigade.ca",
           "date": "2026-04-16",
@@ -14481,7 +14470,7 @@
       "ties": 0,
       "runs_for": 31,
       "runs_against": 31,
-      "practices": 35,
+      "practices": 34,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -14491,16 +14480,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20066-sarniabrigade.ca",
-          "date": "2026-04-02",
-          "start_time": "7:00 PM",
-          "end_date": "2026-04-03",
-          "summary": "15U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20067-sarniabrigade.ca",
           "date": "2026-04-16",
