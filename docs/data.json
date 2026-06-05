@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-05T10:03:46.003707Z",
+  "generated": "2026-06-05T16:04:34.649184Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3909,6 +3909,7 @@
                   "Ryan Carlton",
                   "Ryder Daye",
                   "Ryerson Nead",
+                  "Summer Steinke",
                   "Terry Doyle",
                   "Timothy Johnston",
                   "Tristan Heeringa",
@@ -3917,6 +3918,7 @@
                   "Wiishkpimin Macbeth"
                 ],
                 "denied_umpires": [
+                  "Brian Mundt",
                   "Bryson Large",
                   "Chris Bonneau",
                   "Chris Makrigiannis",
@@ -3945,8 +3947,8 @@
                 ],
                 "assigned_count": 119,
                 "accepted_count": 100,
-                "pending_count": 38,
-                "denied_count": 25,
+                "pending_count": 39,
+                "denied_count": 26,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4314,7 +4316,7 @@
           "uid": "MS-21735-sarniabrigade.ca",
           "date": "2026-06-07",
           "start_time": "4:00 PM",
-          "end_date": "2026-06-08",
+          "end_date": "2026-06-07",
           "summary": "10U A OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
@@ -10515,12 +10517,12 @@
       "id": 1297,
       "name": "15U OBA Rep",
       "category": "OBA Rep",
-      "gp": 3,
+      "gp": 4,
       "wins": 1,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
-      "runs_for": 17,
-      "runs_against": 29,
+      "runs_for": 18,
+      "runs_against": 40,
       "practices": 58,
       "roster": {
         "players": 14,
@@ -10886,7 +10888,7 @@
           "date": "2026-06-03",
           "start_time": "8:30 PM",
           "end_date": "2026-06-04",
-          "summary": "15U OBA Rep - Game @ London West Tincaps [15u22]",
+          "summary": "15U OBA Rep - Game @ London West Tincaps [15u22](L 1-11)",
           "location": "Stoneybrook (Dan Pulham)",
           "type": "game",
           "cancelled": false
@@ -11686,9 +11688,9 @@
           "start_time": "8:30 PM",
           "opponent": "London West Tincaps",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 1,
+          "opp_score": 11,
           "cancelled": false
         },
         {
