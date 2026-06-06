@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-06T16:03:29.811579Z",
+  "generated": "2026-06-06T19:35:30.294578Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1092,35 +1092,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-06-06",
-            "time": "11:00 AM",
-            "opponent": "Chatham Diamonds 8U",
-            "venue": "Clearwater Diamond #3",
-            "assigned_umpires": [
-              "Logan Hiscocks",
-              "Tucker Stokes"
-            ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Logan Hiscocks",
-              "Tucker Stokes"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 2,
-            "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-05-31",
@@ -3928,7 +3905,6 @@
                   "Kirk Vines",
                   "Kye Golder",
                   "Levi Burlingham",
-                  "Logan Hiscocks",
                   "Luke Walls",
                   "Mason Harper",
                   "Nate Edwards",
@@ -3941,7 +3917,6 @@
                   "Terry Doyle",
                   "Timothy Johnston",
                   "Tristan Heeringa",
-                  "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Whetham",
                   "Wiishkpimin Macbeth"
@@ -3976,7 +3951,7 @@
                 ],
                 "assigned_count": 120,
                 "accepted_count": 101,
-                "pending_count": 42,
+                "pending_count": 40,
                 "denied_count": 26,
                 "assignment_state": "assigned_and_accepted"
               },
