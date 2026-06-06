@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-06T19:35:30.294578Z",
+  "generated": "2026-06-06T23:03:38.384582Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1168,12 +1168,12 @@
       "id": 1291,
       "name": "9U OBA Rep",
       "category": "OBA Rep",
-      "gp": 6,
-      "wins": 6,
+      "gp": 8,
+      "wins": 8,
       "losses": 0,
       "ties": 0,
-      "runs_for": 114,
-      "runs_against": 38,
+      "runs_for": 133,
+      "runs_against": 54,
       "practices": 35,
       "roster": {
         "players": 12,
@@ -1409,7 +1409,7 @@
           "date": "2026-06-06",
           "start_time": "10:00 AM",
           "end_date": "2026-06-06",
-          "summary": "9U OBA Rep - Game vs North London Nationals [9u41]",
+          "summary": "9U OBA Rep - Game vs North London Nationals [9u41](W 6-8)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -1419,7 +1419,7 @@
           "date": "2026-06-06",
           "start_time": "1:00 PM",
           "end_date": "2026-06-06",
-          "summary": "9U OBA Rep - Game vs North London Nationals [9u81]",
+          "summary": "9U OBA Rep - Game vs North London Nationals [9u81](W 10-11)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -1947,9 +1947,9 @@
           "start_time": "10:00 AM",
           "opponent": "North London Nationals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 8,
+          "opp_score": 6,
           "cancelled": false
         },
         {
@@ -1959,9 +1959,9 @@
           "start_time": "1:00 PM",
           "opponent": "North London Nationals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -7903,13 +7903,13 @@
       "id": 1295,
       "name": "13U OBA Rep",
       "category": "OBA Rep",
-      "gp": 14,
-      "wins": 7,
+      "gp": 15,
+      "wins": 8,
       "losses": 7,
       "ties": 0,
-      "runs_for": 141,
-      "runs_against": 97,
-      "practices": 40,
+      "runs_for": 158,
+      "runs_against": 99,
+      "practices": 39,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -7919,16 +7919,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20230-sarniabrigade.ca",
-          "date": "2026-04-06",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-07",
-          "summary": "13U OBA Rep - Indoor Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20231-sarniabrigade.ca",
           "date": "2026-04-13",
@@ -8292,10 +8282,10 @@
         {
           "uid": "MS-21739-sarniabrigade.ca",
           "date": "2026-06-12",
-          "start_time": "8:30 PM",
+          "start_time": "6:15 PM",
           "end_date": "2026-06-13",
-          "summary": "13U OBA Rep - Game vs Newmarket Hawks",
-          "location": "Stronach #1",
+          "summary": "13U OBA Rep - Game vs Etobicoke Rangers",
+          "location": "North London Sports Field #3",
           "type": "game",
           "cancelled": false
         },
@@ -8304,8 +8294,8 @@
           "date": "2026-06-13",
           "start_time": "1:30 PM",
           "end_date": "2026-06-13",
-          "summary": "13U OBA Rep - Game vs North York Blues",
-          "location": "Stronach #1",
+          "summary": "13U OBA Rep - Game vs Sudbury Voyaguers",
+          "location": "Stronach #2",
           "type": "game",
           "cancelled": false
         },
@@ -8888,9 +8878,9 @@
           "start_time": "10:00 AM",
           "opponent": "Dorchester Diamondbacks",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 17,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -8909,8 +8899,8 @@
           "game_id": "21739",
           "href": "https://sarniabrigade.ca/Teams/1295/Games/21739/",
           "date": "2026-06-12",
-          "start_time": "8:30 PM",
-          "opponent": "Newmarket Hawks Stronach",
+          "start_time": "6:15 PM",
+          "opponent": "Etobicoke Rangers North London Sports Field",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -8922,7 +8912,7 @@
           "href": "https://sarniabrigade.ca/Teams/1295/Games/21740/",
           "date": "2026-06-13",
           "start_time": "1:30 PM",
-          "opponent": "North York Blues Stronach",
+          "opponent": "Sudbury Voyaguers Stronach",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -8934,7 +8924,7 @@
           "href": "https://sarniabrigade.ca/Teams/1295/Games/21741/",
           "date": "2026-06-13",
           "start_time": "6:15 PM",
-          "opponent": "Etobicoke Rangers Stronach",
+          "opponent": "WOBA Bulls Stronach",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -13696,7 +13686,7 @@
       "ties": 0,
       "runs_for": 62,
       "runs_against": 43,
-      "practices": 26,
+      "practices": 25,
       "roster": {
         "players": 12,
         "adults": 4,
@@ -13706,16 +13696,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20173-sarniabrigade.ca",
-          "date": "2026-04-06",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-07",
-          "summary": "13U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20174-sarniabrigade.ca",
           "date": "2026-04-17",
