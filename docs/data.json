@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-06T10:03:22.220533Z",
+  "generated": "2026-06-06T16:03:29.811579Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -272,10 +272,10 @@
         {
           "uid": "MS-21631-sarniabrigade.ca",
           "date": "2026-06-06",
-          "start_time": "10:00 AM",
+          "start_time": "11:00 AM",
           "end_date": "2026-06-06",
           "summary": "8U OBA Rep - Game vs Chatham Diamonds 8U [WC9U-076a]",
-          "location": "Clearwater Diamond #2",
+          "location": "Clearwater Diamond #3",
           "type": "game",
           "cancelled": false
         },
@@ -829,7 +829,7 @@
           "game_id": "21631",
           "href": "https://sarniabrigade.ca/Teams/1290/Games/21631/",
           "date": "2026-06-06",
-          "start_time": "10:00 AM",
+          "start_time": "11:00 AM",
           "opponent": "Chatham Diamonds",
           "home": true,
           "result": null,
@@ -1092,12 +1092,35 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-06-06",
+            "time": "11:00 AM",
+            "opponent": "Chatham Diamonds 8U",
+            "venue": "Clearwater Diamond #3",
+            "assigned_umpires": [
+              "Logan Hiscocks",
+              "Tucker Stokes"
+            ],
+            "accepted_umpires": [],
+            "pending_umpires": [
+              "Logan Hiscocks",
+              "Tucker Stokes"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 0,
+            "pending_count": 2,
+            "denied_count": 0,
+            "assignment_state": "assigned_not_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-05-31",
@@ -3884,7 +3907,6 @@
                   "Ameer Sulaiman",
                   "Axl Taylor",
                   "Baya Vandenheuvel",
-                  "Bentley Daughtrey",
                   "Brian Mundt",
                   "Brock Lane",
                   "Caleb Willemsvandyk",
@@ -3906,6 +3928,7 @@
                   "Kirk Vines",
                   "Kye Golder",
                   "Levi Burlingham",
+                  "Logan Hiscocks",
                   "Luke Walls",
                   "Mason Harper",
                   "Nate Edwards",
@@ -3918,6 +3941,7 @@
                   "Terry Doyle",
                   "Timothy Johnston",
                   "Tristan Heeringa",
+                  "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Whetham",
                   "Wiishkpimin Macbeth"
@@ -3952,7 +3976,7 @@
                 ],
                 "assigned_count": 120,
                 "accepted_count": 101,
-                "pending_count": 41,
+                "pending_count": 42,
                 "denied_count": 26,
                 "assignment_state": "assigned_and_accepted"
               },
