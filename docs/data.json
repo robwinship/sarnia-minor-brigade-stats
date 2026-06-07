@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-07T19:33:14.766796Z",
+  "generated": "2026-06-07T23:03:48.432104Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3727,6 +3727,7 @@
                   "Lawrence Dyck",
                   "Levi Burlingham",
                   "Liam Burns",
+                  "Liam Colosimo",
                   "Liam Scott",
                   "Logan Conroy",
                   "Logan Hiscocks",
@@ -3889,21 +3890,24 @@
                   "Caleb Willemsvandyk",
                   "Carter Palmer",
                   "Charlie Philp",
+                  "Clark Thornton",
                   "Ethan Antle",
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Hannah Stewart",
                   "Harper Vandenheuval",
+                  "Hayden Scheuermann",
                   "Irelynn Shaw",
                   "Jackson Burlingham",
                   "Jakob Rodriguez",
-                  "Jarett Simons",
                   "Jaxson Pyne",
                   "Joey Buchner",
+                  "Kevin Johnson",
                   "Kirk Vines",
                   "Kye Golder",
                   "Levi Burlingham",
+                  "Liam Colosimo",
                   "Luke Walls",
                   "Mason Harper",
                   "Nate Edwards",
@@ -3916,8 +3920,7 @@
                   "Timothy Johnston",
                   "Tristan Heeringa",
                   "Tyler Hoadley",
-                  "Tyler Whetham",
-                  "Wiishkpimin Macbeth"
+                  "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
@@ -3931,6 +3934,7 @@
                   "Ethan Carlton",
                   "Grant Purdy",
                   "Hayden Scheuermann",
+                  "Jarett Simons",
                   "Kirk Vines",
                   "Kylee Salisbury",
                   "Liam Burns",
@@ -3947,10 +3951,10 @@
                   "Tyler Whetham",
                   "Will Garton"
                 ],
-                "assigned_count": 120,
+                "assigned_count": 121,
                 "accepted_count": 101,
-                "pending_count": 38,
-                "denied_count": 26,
+                "pending_count": 40,
+                "denied_count": 27,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -6743,12 +6747,12 @@
       "id": 1294,
       "name": "12U OBA Rep",
       "category": "OBA Rep",
-      "gp": 8,
-      "wins": 2,
-      "losses": 6,
+      "gp": 10,
+      "wins": 3,
+      "losses": 7,
       "ties": 0,
-      "runs_for": 47,
-      "runs_against": 104,
+      "runs_for": 60,
+      "runs_against": 119,
       "practices": 39,
       "roster": {
         "players": 13,
@@ -7004,7 +7008,7 @@
           "date": "2026-06-07",
           "start_time": "10:00 AM",
           "end_date": "2026-06-07",
-          "summary": "12U OBA Rep - Game vs North London Nationals [12u07]",
+          "summary": "12U OBA Rep - Game vs North London Nationals [12u07](L 14-6)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -7014,7 +7018,7 @@
           "date": "2026-06-07",
           "start_time": "1:00 PM",
           "end_date": "2026-06-07",
-          "summary": "12U OBA Rep - Game vs North London Nationals [12u49]",
+          "summary": "12U OBA Rep - Game vs North London Nationals [12u49](W 1-7)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -7608,9 +7612,9 @@
           "start_time": "10:00 AM",
           "opponent": "North London Nationals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 14,
           "cancelled": false
         },
         {
@@ -7620,9 +7624,9 @@
           "start_time": "1:00 PM",
           "opponent": "North London Nationals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 7,
+          "opp_score": 1,
           "cancelled": false
         },
         {
@@ -8418,6 +8422,26 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21751-sarniabrigade.ca",
+          "date": "2026-07-11",
+          "start_time": "10:00 AM",
+          "end_date": "2026-07-11",
+          "summary": "13U OBA Rep - Game vs TBA",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21752-sarniabrigade.ca",
+          "date": "2026-07-11",
+          "start_time": "1:00 PM",
+          "end_date": "2026-07-11",
+          "summary": "13U OBA Rep - Game vs TBA",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20330-sarniabrigade.ca",
           "date": "2026-07-13",
           "start_time": "5:30 PM",
@@ -8984,6 +9008,30 @@
           "start_time": "7:30 PM",
           "opponent": "Mitchell Astros Rep",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21751",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/21751/",
+          "date": "2026-07-11",
+          "start_time": "10:00 AM",
+          "opponent": "TBA Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21752",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/21752/",
+          "date": "2026-07-11",
+          "start_time": "1:00 PM",
+          "opponent": "TBA Tecumseh Park",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -16544,12 +16592,12 @@
       "id": 1315,
       "name": "11U River League",
       "category": "River League",
-      "gp": 3,
+      "gp": 4,
       "wins": 2,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
-      "runs_for": 31,
-      "runs_against": 18,
+      "runs_for": 37,
+      "runs_against": 27,
       "practices": 11,
       "roster": {
         "players": 15,
@@ -16645,7 +16693,7 @@
           "date": "2026-06-07",
           "start_time": "2:00 PM",
           "end_date": "2026-06-07",
-          "summary": "11u River League - Game @ Alvinston Riverhawks Select [RL11UN-17]",
+          "summary": "11u River League - Game @ Alvinston Riverhawks Select [RL11UN-17](L 6-9)",
           "location": "Alvinston CC (South)",
           "type": "game",
           "cancelled": false
@@ -16855,9 +16903,9 @@
           "start_time": "2:00 PM",
           "opponent": "Alvinston Riverhawks Select RL11UN-17 Alvinsto",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -17009,7 +17057,7 @@
       "ties": 0,
       "runs_for": 77,
       "runs_against": 18,
-      "practices": 23,
+      "practices": 22,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -17019,16 +17067,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20338-sarniabrigade.ca",
-          "date": "2026-04-07",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-07",
-          "summary": "13U LDBA House League - Indoor Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20340-sarniabrigade.ca",
           "date": "2026-04-24",
