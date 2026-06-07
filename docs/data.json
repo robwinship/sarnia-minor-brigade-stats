@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-07T10:03:43.269061Z",
+  "generated": "2026-06-07T16:03:21.117891Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3889,7 +3889,6 @@
                   "Caleb Willemsvandyk",
                   "Carter Palmer",
                   "Charlie Philp",
-                  "Chris Bonneau",
                   "Ethan Antle",
                   "Ewan Snedden",
                   "Graham Dolbear",
@@ -3951,7 +3950,7 @@
                 ],
                 "assigned_count": 120,
                 "accepted_count": 101,
-                "pending_count": 40,
+                "pending_count": 39,
                 "denied_count": 26,
                 "assignment_state": "assigned_and_accepted"
               },
