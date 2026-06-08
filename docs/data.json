@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-07T23:03:48.432104Z",
+  "generated": "2026-06-08T10:03:40.799555Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3673,6 +3673,7 @@
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
+                  "Carsyn Tnydall",
                   "Carter Palmer",
                   "Carter Wills",
                   "Charlie Philp",
@@ -3703,6 +3704,7 @@
                   "Hannah Stewart",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
+                  "Hunter Kedwell",
                   "Irelynn Shaw",
                   "Jack Needham",
                   "Jackson Bunda",
@@ -3768,6 +3770,7 @@
                   "Timothy Johnston",
                   "Trent Hogan",
                   "Tristan Heeringa",
+                  "Tristan Nemcek",
                   "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
@@ -3775,6 +3778,7 @@
                   "Wiishkpimin Macbeth",
                   "Will Garton",
                   "William MacKenzie",
+                  "Zachary Engen",
                   "Zhayn Trowbridge"
                 ],
                 "accepted_umpires": [
@@ -3888,6 +3892,7 @@
                   "Brian Mundt",
                   "Brock Lane",
                   "Caleb Willemsvandyk",
+                  "Carsyn Tnydall",
                   "Carter Palmer",
                   "Charlie Philp",
                   "Clark Thornton",
@@ -3898,6 +3903,7 @@
                   "Hannah Stewart",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
+                  "Hunter Kedwell",
                   "Irelynn Shaw",
                   "Jackson Burlingham",
                   "Jakob Rodriguez",
@@ -3906,8 +3912,8 @@
                   "Kevin Johnson",
                   "Kirk Vines",
                   "Kye Golder",
-                  "Levi Burlingham",
                   "Liam Colosimo",
+                  "Logan Conroy",
                   "Luke Walls",
                   "Mason Harper",
                   "Nate Edwards",
@@ -3918,9 +3924,10 @@
                   "Ryerson Nead",
                   "Terry Doyle",
                   "Timothy Johnston",
-                  "Tristan Heeringa",
+                  "Tristan Nemcek",
                   "Tyler Hoadley",
-                  "Tyler Whetham"
+                  "Tyler Whetham",
+                  "Zachary Engen"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
@@ -3934,7 +3941,6 @@
                   "Ethan Carlton",
                   "Grant Purdy",
                   "Hayden Scheuermann",
-                  "Jarett Simons",
                   "Kirk Vines",
                   "Kylee Salisbury",
                   "Liam Burns",
@@ -3951,10 +3957,10 @@
                   "Tyler Whetham",
                   "Will Garton"
                 ],
-                "assigned_count": 121,
+                "assigned_count": 125,
                 "accepted_count": 101,
-                "pending_count": 40,
-                "denied_count": 27,
+                "pending_count": 43,
+                "denied_count": 26,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -7813,8 +7819,8 @@
       "umpire_issues": {
         "games_missed": 1,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -7838,7 +7844,7 @@
         "doubleheader_mismatch_details": [
           {
             "date": "2026-06-07",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": false,
             "pair_signatures": [
               "Brogan Murphy | Summer Steinke",
@@ -10657,12 +10663,12 @@
       "id": 1297,
       "name": "15U OBA Rep",
       "category": "OBA Rep",
-      "gp": 4,
-      "wins": 1,
-      "losses": 3,
+      "gp": 11,
+      "wins": 3,
+      "losses": 8,
       "ties": 0,
-      "runs_for": 18,
-      "runs_against": 40,
+      "runs_for": 64,
+      "runs_against": 102,
       "practices": 58,
       "roster": {
         "players": 14,
@@ -10828,7 +10834,7 @@
           "date": "2026-05-09",
           "start_time": "10:00 AM",
           "end_date": "2026-05-09",
-          "summary": "15U OBA Rep - Game vs Windsor Hawks",
+          "summary": "15U OBA Rep - Game vs Windsor Hawks(L 7-6)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -10838,7 +10844,7 @@
           "date": "2026-05-09",
           "start_time": "12:30 PM",
           "end_date": "2026-05-09",
-          "summary": "15U OBA Rep - Game vs Windsor Hawks",
+          "summary": "15U OBA Rep - Game vs Windsor Hawks(L 11-7)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -10938,7 +10944,7 @@
           "date": "2026-05-24",
           "start_time": "11:00 AM",
           "end_date": "2026-05-24",
-          "summary": "15U OBA Rep - Game @ Tecumseh Rangers",
+          "summary": "15U OBA Rep - Game @ Tecumseh Rangers(L 1-11)",
           "location": "Town Hall South",
           "type": "game",
           "cancelled": false
@@ -10948,7 +10954,7 @@
           "date": "2026-05-24",
           "start_time": "1:30 PM",
           "end_date": "2026-05-24",
-          "summary": "15U OBA Rep - Game @ Tecumseh Rangers",
+          "summary": "15U OBA Rep - Game @ Tecumseh Rangers(W 9-6)",
           "location": "Town Hall South",
           "type": "game",
           "cancelled": false
@@ -10988,7 +10994,7 @@
           "date": "2026-05-29",
           "start_time": "7:30 PM",
           "end_date": "2026-05-30",
-          "summary": "15U OBA Rep - Game @ West London Tincaps",
+          "summary": "15U OBA Rep - Game @ West London Tincaps(L 5-9)",
           "location": "Larry Pearson Diamond - LP2 (Guelph)",
           "type": "game",
           "cancelled": false
@@ -10998,7 +11004,7 @@
           "date": "2026-05-30",
           "start_time": "11:30 AM",
           "end_date": "2026-05-30",
-          "summary": "15U OBA Rep - Game vs East York Bulldogs",
+          "summary": "15U OBA Rep - Game vs East York Bulldogs(L 10-4)",
           "location": "Larry Pearson Diamond - LP2 (Guelph)",
           "type": "game",
           "cancelled": false
@@ -11008,7 +11014,7 @@
           "date": "2026-05-30",
           "start_time": "4:30 PM",
           "end_date": "2026-05-30",
-          "summary": "15U OBA Rep - Game vs Cambridge Cubs",
+          "summary": "15U OBA Rep - Game vs Cambridge Cubs(W 8-14)",
           "location": "Larry Pearson Diamond - LP1 (Guelph)",
           "type": "game",
           "cancelled": false
@@ -11084,6 +11090,36 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21753-sarniabrigade.ca",
+          "date": "2026-06-12",
+          "start_time": "8:30 PM",
+          "end_date": "2026-06-13",
+          "summary": "15U OBA Rep - Game vs Sault Ste Marie Blacksox",
+          "location": "City Wide Sports Park \u2022 Upper (London)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21754-sarniabrigade.ca",
+          "date": "2026-06-13",
+          "start_time": "1:30 PM",
+          "end_date": "2026-06-13",
+          "summary": "15U OBA Rep - Game vs Ancaster Angels",
+          "location": "City Wide Sports Park \u2022 Lower (London)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21755-sarniabrigade.ca",
+          "date": "2026-06-13",
+          "start_time": "8:30 PM",
+          "end_date": "2026-06-14",
+          "summary": "15U OBA Rep - Game vs Chatham Major Diamonds",
+          "location": "City Wide Sports Park \u2022 Lower (London)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19785-sarniabrigade.ca",
           "date": "2026-06-16",
           "start_time": "5:30 PM",
@@ -11101,6 +11137,36 @@
           "summary": "15U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21756-sarniabrigade.ca",
+          "date": "2026-06-19",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-20",
+          "summary": "15U OBA Rep - Game vs Brantford Red Sox",
+          "location": "George Henry @ Cockshutt Park (Brantford)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21757-sarniabrigade.ca",
+          "date": "2026-06-20",
+          "start_time": "9:30 AM",
+          "end_date": "2026-06-20",
+          "summary": "15U OBA Rep - Game vs Waterdown Wolves",
+          "location": "Bill Little Park (Brantford)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21758-sarniabrigade.ca",
+          "date": "2026-06-20",
+          "start_time": "2:30 PM",
+          "end_date": "2026-06-20",
+          "summary": "15U OBA Rep - Game vs Barrie Baycats T1",
+          "location": "Bill Little Park (Brantford)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -11696,9 +11762,9 @@
           "start_time": "10:00 AM",
           "opponent": "Windsor Hawks Blackwell Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -11708,9 +11774,9 @@
           "start_time": "12:30 PM",
           "opponent": "Windsor Hawks Blackwell Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 7,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -11756,9 +11822,9 @@
           "start_time": "11:00 AM",
           "opponent": "Tecumseh Rangers Town Hall South",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 1,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -11768,9 +11834,9 @@
           "start_time": "1:30 PM",
           "opponent": "Tecumseh Rangers Town Hall South",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 6,
           "cancelled": false
         },
         {
@@ -11792,9 +11858,9 @@
           "start_time": "7:30 PM",
           "opponent": "West London Tincaps Larry Pearson Diamond - LP",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 5,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -11804,9 +11870,9 @@
           "start_time": "11:30 AM",
           "opponent": "East York Bulldogs Larry Pearson Diamond - LP2",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -11816,9 +11882,9 @@
           "start_time": "4:30 PM",
           "opponent": "Cambridge Cubs Larry Pearson Diamond - LP1",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 14,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -11840,6 +11906,78 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21753",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/21753/",
+          "date": "2026-06-12",
+          "start_time": "8:30 PM",
+          "opponent": "Sault Ste Marie Blacksox City Wide Sports Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21754",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/21754/",
+          "date": "2026-06-13",
+          "start_time": "1:30 PM",
+          "opponent": "Ancaster Angels City Wide Sports Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21755",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/21755/",
+          "date": "2026-06-13",
+          "start_time": "8:30 PM",
+          "opponent": "Chatham Major Diamonds City Wide Sports Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21756",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/21756/",
+          "date": "2026-06-19",
+          "start_time": "6:00 PM",
+          "opponent": "Brantford Red Sox George Henry",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21757",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/21757/",
+          "date": "2026-06-20",
+          "start_time": "9:30 AM",
+          "opponent": "Waterdown Wolves Bill Little Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21758",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/21758/",
+          "date": "2026-06-20",
+          "start_time": "2:30 PM",
+          "opponent": "Barrie Baycats T1 Bill Little Park",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
