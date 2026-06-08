@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-08T19:34:35.369961Z",
+  "generated": "2026-06-08T23:04:07.545486Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1174,7 +1174,7 @@
       "ties": 0,
       "runs_for": 133,
       "runs_against": 54,
-      "practices": 35,
+      "practices": 34,
       "roster": {
         "players": 12,
         "adults": 5,
@@ -1184,16 +1184,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20176-sarniabrigade.ca",
-          "date": "2026-04-08",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-08",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20177-sarniabrigade.ca",
           "date": "2026-04-15",
@@ -3745,7 +3735,6 @@
                   "Mikayla Coubroug",
                   "Myles Hobbs",
                   "Nate Edwards",
-                  "Nathan Zavitz",
                   "Noah Bechard",
                   "Nolan Bogaert",
                   "Nolan Pool",
@@ -3918,7 +3907,6 @@
                   "Logan Hiscocks",
                   "Mason Harper",
                   "Nate Edwards",
-                  "Nathan Zavitz",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
@@ -3955,13 +3943,12 @@
                   "Sydney Nisbet",
                   "Tristan Heeringa",
                   "Tyler Vandenberg",
-                  "Tyler Whetham",
-                  "Will Garton"
+                  "Tyler Whetham"
                 ],
-                "assigned_count": 125,
+                "assigned_count": 124,
                 "accepted_count": 101,
-                "pending_count": 45,
-                "denied_count": 25,
+                "pending_count": 44,
+                "denied_count": 24,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -10714,7 +10701,7 @@
       "ties": 0,
       "runs_for": 64,
       "runs_against": 102,
-      "practices": 58,
+      "practices": 57,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10724,16 +10711,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19695-sarniabrigade.ca",
-          "date": "2026-04-08",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-08",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20142-sarniabrigade.ca",
           "date": "2026-04-12",
