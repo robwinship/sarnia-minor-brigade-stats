@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-09T19:39:49.655705Z",
+  "generated": "2026-06-09T23:08:36.189593Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 159,
       "runs_against": 182,
-      "practices": 39,
+      "practices": 38,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19950-sarniabrigade.ca",
-          "date": "2026-04-09",
-          "start_time": "5:00 PM",
-          "end_date": "2026-04-09",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20266-sarniabrigade.ca",
           "date": "2026-04-22",
@@ -3891,7 +3881,6 @@
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Hannah Stewart",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
                   "Hunter Kedwell",
@@ -3933,6 +3922,7 @@
                   "Drew Bennett",
                   "Ethan Carlton",
                   "Grant Purdy",
+                  "Hannah Stewart",
                   "Hayden Scheuermann",
                   "Kirk Vines",
                   "Kylee Salisbury",
@@ -3950,8 +3940,8 @@
                 ],
                 "assigned_count": 125,
                 "accepted_count": 101,
-                "pending_count": 46,
-                "denied_count": 24,
+                "pending_count": 45,
+                "denied_count": 25,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -5412,7 +5402,7 @@
       "ties": 0,
       "runs_for": 114,
       "runs_against": 66,
-      "practices": 38,
+      "practices": 37,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5422,16 +5412,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20057-sarniabrigade.ca",
-          "date": "2026-04-09",
-          "start_time": "5:00 PM",
-          "end_date": "2026-04-09",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20058-sarniabrigade.ca",
           "date": "2026-04-16",
