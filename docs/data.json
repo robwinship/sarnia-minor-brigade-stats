@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-09T10:04:16.492689Z",
+  "generated": "2026-06-09T16:04:15.778644Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3766,6 +3766,7 @@
                   "Tyler Whetham",
                   "Wiishkpimin Macbeth",
                   "Will Garton",
+                  "Will Greer",
                   "William MacKenzie",
                   "Zachary Engen",
                   "Zhayn Trowbridge"
@@ -3884,11 +3885,13 @@
                   "Carsyn Tnydall",
                   "Carter Palmer",
                   "Charlie Philp",
+                  "Chris Bonneau",
                   "Clark Thornton",
                   "Ethan Antle",
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Greg Baker",
                   "Hannah Stewart",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
@@ -3896,7 +3899,6 @@
                   "Irelynn Shaw",
                   "Jackson Burlingham",
                   "Jakob Rodriguez",
-                  "Jarett Simons",
                   "Jaxson Pyne",
                   "Joey Buchner",
                   "Kirk Vines",
@@ -3907,6 +3909,7 @@
                   "Logan Hiscocks",
                   "Mason Harper",
                   "Nate Edwards",
+                  "Penny Core",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
@@ -3917,11 +3920,11 @@
                   "Tristan Nemcek",
                   "Tyler Hoadley",
                   "Tyler Whetham",
+                  "Will Greer",
                   "Zachary Engen"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
-                  "Brock Lane",
                   "Bryson Large",
                   "Chris Bonneau",
                   "Chris Makrigiannis",
@@ -3946,10 +3949,10 @@
                   "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 124,
+                "assigned_count": 125,
                 "accepted_count": 101,
-                "pending_count": 44,
-                "denied_count": 25,
+                "pending_count": 47,
+                "denied_count": 24,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4391,6 +4394,36 @@
           "summary": "10U A OBA Rep - Practice",
           "location": "Coronation Park Diamond",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21774-sarniabrigade.ca",
+          "date": "2026-06-19",
+          "start_time": "10:30 AM",
+          "end_date": "2026-06-19",
+          "summary": "10U A OBA Rep - Game vs Halton Hills Eagles",
+          "location": "Studiman Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21775-sarniabrigade.ca",
+          "date": "2026-06-19",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-20",
+          "summary": "10U A OBA Rep - Game @ Kanata Cubs",
+          "location": "Studiman Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21776-sarniabrigade.ca",
+          "date": "2026-06-20",
+          "start_time": "2:00 PM",
+          "end_date": "2026-06-20",
+          "summary": "10U A OBA Rep - Game @ Oakville A's",
+          "location": "Lincoln Park (2)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -5025,6 +5058,42 @@
           "date": "2026-06-15",
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21774",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/21774/",
+          "date": "2026-06-19",
+          "start_time": "10:30 AM",
+          "opponent": "Halton Hills Eagles Studiman Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21775",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/21775/",
+          "date": "2026-06-19",
+          "start_time": "6:00 PM",
+          "opponent": "Kanata Cubs Studiman Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21776",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/21776/",
+          "date": "2026-06-20",
+          "start_time": "2:00 PM",
+          "opponent": "Oakville A's Lincoln Park",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -9157,7 +9226,7 @@
       "ties": 0,
       "runs_for": 166,
       "runs_against": 73,
-      "practices": 40,
+      "practices": 52,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -9598,6 +9667,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21762-sarniabrigade.ca",
+          "date": "2026-06-15",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-16",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21604-sarniabrigade.ca",
           "date": "2026-06-16",
           "start_time": "6:30 PM",
@@ -9648,6 +9727,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21763-sarniabrigade.ca",
+          "date": "2026-06-22",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-23",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21605-sarniabrigade.ca",
           "date": "2026-06-25",
           "start_time": "6:30 PM",
@@ -9685,6 +9774,16 @@
           "summary": "14U OBA Rep - Game vs Dorchester Diamondbacks [14u59]",
           "location": "Blackwell Park",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21764-sarniabrigade.ca",
+          "date": "2026-06-29",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-30",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -9728,6 +9827,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21765-sarniabrigade.ca",
+          "date": "2026-07-06",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-07",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20878-sarniabrigade.ca",
           "date": "2026-07-07",
           "start_time": "6:30 PM",
@@ -9752,6 +9861,16 @@
           "date": "2026-07-09",
           "start_time": "8:00 PM",
           "end_date": "2026-07-10",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21766-sarniabrigade.ca",
+          "date": "2026-07-13",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-14",
           "summary": "14U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
@@ -9808,6 +9927,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21767-sarniabrigade.ca",
+          "date": "2026-07-20",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-21",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21609-sarniabrigade.ca",
           "date": "2026-07-23",
           "start_time": "6:30 PM",
@@ -9848,6 +9977,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21768-sarniabrigade.ca",
+          "date": "2026-07-27",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-28",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21610-sarniabrigade.ca",
           "date": "2026-07-28",
           "start_time": "6:30 PM",
@@ -9862,6 +10001,16 @@
           "date": "2026-07-30",
           "start_time": "8:00 PM",
           "end_date": "2026-07-31",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21769-sarniabrigade.ca",
+          "date": "2026-08-03",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-04",
           "summary": "14U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
@@ -9928,6 +10077,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21770-sarniabrigade.ca",
+          "date": "2026-08-10",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-11",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20660-sarniabrigade.ca",
           "date": "2026-08-11",
           "start_time": "6:00 PM",
@@ -9958,6 +10117,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21771-sarniabrigade.ca",
+          "date": "2026-08-17",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-18",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21613-sarniabrigade.ca",
           "date": "2026-08-20",
           "start_time": "6:30 PM",
@@ -9974,6 +10143,16 @@
           "end_date": "2026-08-21",
           "summary": "14U OBA Rep - Practice",
           "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21772-sarniabrigade.ca",
+          "date": "2026-08-24",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-25",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -10015,6 +10194,16 @@
           "summary": "14U OBA Rep - Game vs Windsor Stars",
           "location": "Blackwell North",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21773-sarniabrigade.ca",
+          "date": "2026-08-31",
+          "start_time": "6:00 PM",
+          "end_date": "2026-09-01",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -16759,7 +16948,7 @@
       "ties": 0,
       "runs_for": 54,
       "runs_against": 43,
-      "practices": 11,
+      "practices": 12,
       "roster": {
         "players": 15,
         "adults": 2,
@@ -16867,6 +17056,16 @@
           "summary": "11u River League - Game vs Wyoming Wranglers Red [RL11UN-47](W 16-17)",
           "location": "Clearwater Diamond #2",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21779-sarniabrigade.ca",
+          "date": "2026-06-10",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-11",
+          "summary": "11u River League - Practice",
+          "location": "Coronation Park Diamond",
+          "type": "practice",
           "cancelled": false
         },
         {
