@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-12T19:33:27.306346Z",
+  "generated": "2026-06-12T23:03:43.399463Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3849,8 +3849,6 @@
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
-                  "Steve McGrail",
-                  "Summer Steinke",
                   "Terry Doyle",
                   "Tyler Whetham"
                 ],
@@ -3865,7 +3863,7 @@
                 ],
                 "assigned_count": 105,
                 "accepted_count": 101,
-                "pending_count": 18,
+                "pending_count": 16,
                 "denied_count": 7,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -3960,7 +3958,7 @@
       "ties": 0,
       "runs_for": 98,
       "runs_against": 97,
-      "practices": 44,
+      "practices": 43,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -3970,16 +3968,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19924-sarniabrigade.ca",
-          "date": "2026-04-12",
-          "start_time": "4:00 PM",
-          "end_date": "2026-04-12",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20152-sarniabrigade.ca",
           "date": "2026-04-16",
