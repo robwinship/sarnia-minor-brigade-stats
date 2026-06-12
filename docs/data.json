@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-11T23:03:43.200959Z",
+  "generated": "2026-06-12T10:03:27.933407Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3674,7 +3674,6 @@
                   "Jakob Rodriguez",
                   "Jarett Simons",
                   "Jason Lajeunesse",
-                  "Jaxon Jacobs",
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Juan Peralta",
@@ -3710,6 +3709,7 @@
                   "Penny Core",
                   "Rachel Burns",
                   "Ralph Campbell",
+                  "Rio Ruiz",
                   "Ronnie Atyeo",
                   "Ryan Carlton",
                   "Ryder Daye",
@@ -3838,28 +3838,21 @@
                 ],
                 "pending_umpires": [
                   "Ameer Sulaiman",
-                  "Brock Lane",
+                  "Brogan Murphy",
                   "Carter Palmer",
                   "Chris Bonneau",
                   "David Haasen",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
-                  "Jackson Burlingham",
                   "Jakob Rodriguez",
-                  "Jarett Simons",
-                  "Jaxon Jacobs",
                   "Kayleigh Buchan",
-                  "Lucas Barker",
-                  "Marko Sazdov",
-                  "Paolo Padiglia",
-                  "Ralph Campbell",
+                  "Kye Golder",
+                  "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
                   "Summer Steinke",
                   "Terry Doyle",
-                  "Tristan Heeringa",
-                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3868,18 +3861,16 @@
                   "Cohen Smith",
                   "Drew Baxter",
                   "Grant Purdy",
-                  "Greg Armstrong",
                   "Hayden Scheuermann",
-                  "Jackson Burlingham",
+                  "Ralph Campbell",
                   "Shane Moorhouse",
                   "Steve McGrail",
-                  "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 107,
                 "accepted_count": 101,
-                "pending_count": 24,
-                "denied_count": 12,
+                "pending_count": 17,
+                "denied_count": 10,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -15601,11 +15592,67 @@
         "games_missed": 0,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-06-19",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "David Haasen | Jason Lajeunesse",
+              "Jackson Burlingham | Jason Lajeunesse"
+            ],
+            "mismatched_names": [
+              "David Haasen",
+              "Jackson Burlingham"
+            ],
+            "games": [
+              {
+                "time": "6:00 PM",
+                "opponent": "Dorchester Diamondbacks",
+                "venue": "Blackwell Park",
+                "assigned_umpires": [
+                  "Jackson Burlingham",
+                  "Jason Lajeunesse"
+                ],
+                "accepted_umpires": [
+                  "Jackson Burlingham",
+                  "Jason Lajeunesse"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "9:00 PM",
+                "opponent": "Dorchester Diamondbacks",
+                "venue": "Blackwell Park",
+                "assigned_umpires": [
+                  "David Haasen",
+                  "Jason Lajeunesse"
+                ],
+                "accepted_umpires": [
+                  "David Haasen",
+                  "Jason Lajeunesse"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          }
+        ]
       },
       "uniform_cost": 0.0,
       "equipment_cost": 0.0,
@@ -17288,12 +17335,12 @@
       "id": 1302,
       "name": "13U LDBA House League",
       "category": "House League",
-      "gp": 4,
-      "wins": 4,
+      "gp": 5,
+      "wins": 5,
       "losses": 0,
       "ties": 0,
-      "runs_for": 77,
-      "runs_against": 18,
+      "runs_for": 97,
+      "runs_against": 21,
       "practices": 22,
       "roster": {
         "players": 14,
@@ -17459,7 +17506,7 @@
           "date": "2026-06-11",
           "start_time": "6:00 PM",
           "end_date": "2026-06-12",
-          "summary": "13U LDBA House League - Game @ Strathroy Royal Blue [13uW29]",
+          "summary": "13U LDBA House League - Game @ Strathroy Royal Blue [13uW29](W 20-3)",
           "location": "York Street (1)",
           "type": "game",
           "cancelled": false
@@ -17795,9 +17842,9 @@
           "start_time": "6:00 PM",
           "opponent": "Strathroy Royal Blue",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 20,
+          "opp_score": 3,
           "cancelled": false
         },
         {
