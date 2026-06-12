@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-12T10:03:27.933407Z",
+  "generated": "2026-06-12T16:04:29.596334Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3639,10 +3639,8 @@
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
-                  "Carter Palmer",
                   "Carter Wills",
                   "Chris Bonneau",
-                  "Chris Makrigiannis",
                   "Clark Thornton",
                   "Cohen Smith",
                   "Colby Sheffer",
@@ -3838,16 +3836,18 @@
                 ],
                 "pending_umpires": [
                   "Ameer Sulaiman",
+                  "Brock Lane",
                   "Brogan Murphy",
-                  "Carter Palmer",
                   "Chris Bonneau",
                   "David Haasen",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
                   "Jakob Rodriguez",
+                  "Katrina Cadotte",
                   "Kayleigh Buchan",
                   "Kye Golder",
+                  "Lawrence Dyck",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
@@ -3857,20 +3857,17 @@
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
-                  "Chris Makrigiannis",
-                  "Cohen Smith",
                   "Drew Baxter",
                   "Grant Purdy",
                   "Hayden Scheuermann",
-                  "Ralph Campbell",
                   "Shane Moorhouse",
                   "Steve McGrail",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 107,
+                "assigned_count": 105,
                 "accepted_count": 101,
-                "pending_count": 17,
-                "denied_count": 10,
+                "pending_count": 19,
+                "denied_count": 7,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -9114,7 +9111,7 @@
       "ties": 0,
       "runs_for": 184,
       "runs_against": 84,
-      "practices": 51,
+      "practices": 50,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -9124,16 +9121,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20052-sarniabrigade.ca",
-          "date": "2026-04-12",
-          "start_time": "7:00 AM",
-          "end_date": "2026-04-12",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20053-sarniabrigade.ca",
           "date": "2026-04-19",
@@ -10759,7 +10746,7 @@
       "ties": 0,
       "runs_for": 64,
       "runs_against": 112,
-      "practices": 57,
+      "practices": 56,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10769,16 +10756,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20142-sarniabrigade.ca",
-          "date": "2026-04-12",
-          "start_time": "11:00 AM",
-          "end_date": "2026-04-12",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20143-sarniabrigade.ca",
           "date": "2026-04-19",
@@ -16323,7 +16300,7 @@
       "ties": 0,
       "runs_for": 17,
       "runs_against": 44,
-      "practices": 19,
+      "practices": 18,
       "roster": {
         "players": 12,
         "adults": 1,
@@ -16491,16 +16468,6 @@
           "summary": "11U Lady Brigade - Game @ Alvinston Riverhawks Select [RL11UN-54]",
           "location": "Alvinston CC (South)",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21073-sarniabrigade.ca",
-          "date": "2026-06-15",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-16",
-          "summary": "11U Lady Brigade - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
           "cancelled": false
         },
         {
