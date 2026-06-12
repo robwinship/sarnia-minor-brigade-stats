@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-12T16:04:29.596334Z",
+  "generated": "2026-06-12T19:33:27.306346Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3844,13 +3844,12 @@
                   "Grant Purdy",
                   "Greg Armstrong",
                   "Jakob Rodriguez",
-                  "Katrina Cadotte",
                   "Kayleigh Buchan",
                   "Kye Golder",
-                  "Lawrence Dyck",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
+                  "Steve McGrail",
                   "Summer Steinke",
                   "Terry Doyle",
                   "Tyler Whetham"
@@ -3866,7 +3865,7 @@
                 ],
                 "assigned_count": 105,
                 "accepted_count": 101,
-                "pending_count": 19,
+                "pending_count": 18,
                 "denied_count": 7,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -17484,7 +17483,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-06-13",
           "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #4",
+          "location": "Clearwater Diamond #3",
           "type": "practice",
           "cancelled": false
         },
