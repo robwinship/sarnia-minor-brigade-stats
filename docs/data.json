@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-12T23:03:43.399463Z",
+  "generated": "2026-06-13T10:03:48.551521Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1158,12 +1158,12 @@
       "id": 1291,
       "name": "9U OBA Rep",
       "category": "OBA Rep",
-      "gp": 10,
+      "gp": 11,
       "wins": 9,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
-      "runs_for": 161,
-      "runs_against": 68,
+      "runs_for": 174,
+      "runs_against": 82,
       "practices": 34,
       "roster": {
         "players": 12,
@@ -1439,7 +1439,7 @@
           "date": "2026-06-12",
           "start_time": "6:00 PM",
           "end_date": "2026-06-13",
-          "summary": "9U OBA Rep - Game @ Dorchester Diamondbacks [9u87]",
+          "summary": "9U OBA Rep - Game @ Dorchester Diamondbacks [9u87](L 13-14)",
           "location": "Dorchester (2)",
           "type": "game",
           "cancelled": false
@@ -1975,9 +1975,9 @@
           "start_time": "6:00 PM",
           "opponent": "Dorchester Diamondbacks",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 13,
+          "opp_score": 14,
           "cancelled": false
         },
         {
