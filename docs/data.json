@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-14T19:33:35.709634Z",
+  "generated": "2026-06-14T23:04:21.920961Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3596,7 +3596,6 @@
               "Paolo Padiglia",
               "Parker Leighton",
               "Penny Core",
-              "Rachel Burns",
               "Ronnie Atyeo",
               "Ryder Daye",
               "Ryerson Nead",
@@ -3706,7 +3705,6 @@
                   "Paolo Padiglia",
                   "Parker Leighton",
                   "Penny Core",
-                  "Rachel Burns",
                   "Ralph Campbell",
                   "Rio Ruiz",
                   "Ronnie Atyeo",
@@ -3811,7 +3809,6 @@
                   "Paolo Padiglia",
                   "Parker Leighton",
                   "Penny Core",
-                  "Rachel Burns",
                   "Ralph Campbell",
                   "Ronnie Atyeo",
                   "Ryder Daye",
@@ -3838,6 +3835,7 @@
                 "pending_umpires": [
                   "Ameer Sulaiman",
                   "Austin Lozon",
+                  "Axl Taylor",
                   "Brock Lane",
                   "Brogan Murphy",
                   "Carson Whittington",
@@ -3846,18 +3844,25 @@
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
+                  "Hannah Stewart",
+                  "Harper Vandenheuval",
                   "Jakob Rodriguez",
                   "Joey Buchner",
+                  "Jonas Winklmeier",
+                  "Juan Peralta",
                   "Kayleigh Buchan",
+                  "Kayne Golder",
+                  "Kirk Vines",
                   "Kye Golder",
+                  "Logan Hiscocks",
                   "Marko Sazdov",
-                  "Matt Kennett",
                   "Myles Hobbs",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
                   "Terry Doyle",
                   "Tristan Heeringa",
+                  "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
@@ -3866,16 +3871,18 @@
                   "Drew Baxter",
                   "Grant Purdy",
                   "Hayden Scheuermann",
+                  "Jack Needham",
                   "Jason Lajeunesse",
                   "Shane Moorhouse",
                   "Steve McGrail",
+                  "Summer Steinke",
                   "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 106,
-                "accepted_count": 101,
-                "pending_count": 24,
-                "denied_count": 9,
+                "assigned_count": 105,
+                "accepted_count": 100,
+                "pending_count": 32,
+                "denied_count": 11,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -9106,15 +9113,21 @@
             "time": "8:30 PM",
             "opponent": "Wyoming Wranglers",
             "venue": "Tecumseh Park",
-            "assigned_umpires": [],
+            "assigned_umpires": [
+              "Juan Peralta",
+              "Kirk Vines"
+            ],
             "accepted_umpires": [],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Juan Peralta",
+              "Kirk Vines"
+            ],
             "denied_umpires": [],
-            "assigned_count": 0,
+            "assigned_count": 2,
             "accepted_count": 0,
-            "pending_count": 0,
+            "pending_count": 2,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_not_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -9155,15 +9168,21 @@
                 "time": "8:30 PM",
                 "opponent": "Wyoming Wranglers",
                 "venue": "Tecumseh Park",
-                "assigned_umpires": [],
+                "assigned_umpires": [
+                  "Juan Peralta",
+                  "Kirk Vines"
+                ],
                 "accepted_umpires": [],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "Juan Peralta",
+                  "Kirk Vines"
+                ],
                 "denied_umpires": [],
-                "assigned_count": 0,
+                "assigned_count": 2,
                 "accepted_count": 0,
-                "pending_count": 0,
+                "pending_count": 2,
                 "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
+                "assignment_state": "assigned_not_accepted"
               }
             ]
           }
@@ -12387,7 +12406,7 @@
       "ties": 0,
       "runs_for": 85,
       "runs_against": 120,
-      "practices": 27,
+      "practices": 26,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -12397,16 +12416,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19820-sarniabrigade.ca",
-          "date": "2026-04-14",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-14",
-          "summary": "9U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20769-sarniabrigade.ca",
           "date": "2026-05-04",
@@ -13397,7 +13406,7 @@
           "date": "2026-06-14",
           "start_time": "10:00 AM",
           "end_date": "2026-06-14",
-          "summary": "11U Select - Game vs Lucan-Ilderton Athletics [11uS98]",
+          "summary": "11U Select - Game vs Lucan-Ilderton Athletics [11uS98](W 5-8)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -20025,7 +20034,7 @@
       ],
       "umpire_issues": {
         "games_missed": 2,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -20062,6 +20071,22 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
+          },
+          {
+            "date": "2026-06-16",
+            "time": "7:30 PM",
+            "opponent": "Wyoming Minor Wranglers",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": []
