@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-14T16:03:48.810226Z",
+  "generated": "2026-06-14T19:33:35.709634Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3628,6 +3628,7 @@
                   "Alexander Pfaff",
                   "Ameer Sulaiman",
                   "Annette Hoggarth",
+                  "Austin Lozon",
                   "Axl Taylor",
                   "Bentley Bartosz",
                   "Bentley Daughtrey",
@@ -3836,18 +3837,18 @@
                 ],
                 "pending_umpires": [
                   "Ameer Sulaiman",
+                  "Austin Lozon",
                   "Brock Lane",
                   "Brogan Murphy",
+                  "Carson Whittington",
                   "Chris Bonneau",
                   "Clark Thornton",
-                  "Dan Scott",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
                   "Jakob Rodriguez",
                   "Joey Buchner",
                   "Kayleigh Buchan",
-                  "Kirk Vines",
                   "Kye Golder",
                   "Marko Sazdov",
                   "Matt Kennett",
@@ -3865,15 +3866,16 @@
                   "Drew Baxter",
                   "Grant Purdy",
                   "Hayden Scheuermann",
+                  "Jason Lajeunesse",
                   "Shane Moorhouse",
                   "Steve McGrail",
                   "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 105,
+                "assigned_count": 106,
                 "accepted_count": 101,
                 "pending_count": 24,
-                "denied_count": 8,
+                "denied_count": 9,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -8277,6 +8279,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21859-sarniabrigade.ca",
+          "date": "2026-06-18",
+          "start_time": "8:30 PM",
+          "end_date": "2026-06-19",
+          "summary": "13U OBA Rep - Game vs Wyoming Wranglers [WC13U-10]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20874-sarniabrigade.ca",
           "date": "2026-06-20",
           "start_time": "10:00 AM",
@@ -8913,6 +8925,18 @@
           "cancelled": false
         },
         {
+          "game_id": "21859",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/21859/",
+          "date": "2026-06-18",
+          "start_time": "8:30 PM",
+          "opponent": "Wyoming Wranglers WC13U-10 Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20874",
           "href": "https://sarniabrigade.ca/Teams/1295/Games/20874/",
           "date": "2026-06-20",
@@ -9071,13 +9095,79 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "games_missed_details": [
+          {
+            "date": "2026-06-18",
+            "time": "8:30 PM",
+            "opponent": "Wyoming Wranglers",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          }
+        ],
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-06-18",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [
+              "Juan Peralta | Kirk Vines"
+            ],
+            "mismatched_names": [
+              "Juan Peralta",
+              "Kirk Vines"
+            ],
+            "games": [
+              {
+                "time": "6:00 PM",
+                "opponent": "Wyoming Wranglers",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Juan Peralta",
+                  "Kirk Vines"
+                ],
+                "accepted_umpires": [
+                  "Juan Peralta",
+                  "Kirk Vines"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "8:30 PM",
+                "opponent": "Wyoming Wranglers",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
+              }
+            ]
+          }
+        ]
       },
       "uniform_cost": 7288.5,
       "equipment_cost": 0.0,
@@ -9091,12 +9181,12 @@
       "id": 1296,
       "name": "14U OBA Rep",
       "category": "OBA Rep",
-      "gp": 16,
-      "wins": 13,
+      "gp": 17,
+      "wins": 14,
       "losses": 3,
       "ties": 0,
-      "runs_for": 206,
-      "runs_against": 85,
+      "runs_for": 215,
+      "runs_against": 87,
       "practices": 50,
       "roster": {
         "players": 14,
@@ -9502,7 +9592,7 @@
           "date": "2026-06-14",
           "start_time": "10:00 AM",
           "end_date": "2026-06-14",
-          "summary": "14U OBA Rep - Game vs Lucan-Ilderton Athletics [14u03]",
+          "summary": "14U OBA Rep - Game vs Lucan-Ilderton Athletics [14u03](W 2-9)",
           "location": "Canton",
           "type": "game",
           "cancelled": false
@@ -9512,7 +9602,7 @@
           "date": "2026-06-14",
           "start_time": "12:30 PM",
           "end_date": "2026-06-14",
-          "summary": "14U OBA Rep - Game vs Lucan-Ilderton Athletics [14u31]",
+          "summary": "CANCELLED 14U OBA Rep - Game vs Lucan-Ilderton Athletics [14u31]",
           "location": "Canton",
           "type": "game",
           "cancelled": false
@@ -10422,9 +10512,9 @@
           "start_time": "10:00 AM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -10437,7 +10527,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "21226",
@@ -10726,12 +10816,12 @@
       "id": 1297,
       "name": "15U OBA Rep",
       "category": "OBA Rep",
-      "gp": 12,
-      "wins": 3,
-      "losses": 9,
+      "gp": 14,
+      "wins": 4,
+      "losses": 10,
       "ties": 0,
-      "runs_for": 64,
-      "runs_against": 112,
+      "runs_for": 87,
+      "runs_against": 138,
       "practices": 56,
       "roster": {
         "players": 14,
@@ -11137,7 +11227,7 @@
           "date": "2026-06-12",
           "start_time": "8:30 PM",
           "end_date": "2026-06-13",
-          "summary": "15U OBA Rep - Game vs Sault Ste Marie Blacksox",
+          "summary": "15U OBA Rep - Game vs Sault Ste Marie Blacksox(T 8-8)",
           "location": "City Wide Sports Park \u2022 Upper (London)",
           "type": "game",
           "cancelled": false
@@ -11147,7 +11237,7 @@
           "date": "2026-06-13",
           "start_time": "1:30 PM",
           "end_date": "2026-06-13",
-          "summary": "15U OBA Rep - Game vs Ancaster Angels",
+          "summary": "15U OBA Rep - Game vs Ancaster Angels(W 7-12)",
           "location": "City Wide Sports Park \u2022 Lower (London)",
           "type": "game",
           "cancelled": false
@@ -11157,7 +11247,7 @@
           "date": "2026-06-13",
           "start_time": "8:30 PM",
           "end_date": "2026-06-14",
-          "summary": "15U OBA Rep - Game vs Chatham Major Diamonds",
+          "summary": "15U OBA Rep - Game vs Chatham Major Diamonds(L 11-3)",
           "location": "City Wide Sports Park \u2022 Lower (London)",
           "type": "game",
           "cancelled": false
@@ -11185,7 +11275,7 @@
         {
           "uid": "MS-21756-sarniabrigade.ca",
           "date": "2026-06-19",
-          "start_time": "6:00 PM",
+          "start_time": "8:30 PM",
           "end_date": "2026-06-20",
           "summary": "15U OBA Rep - Game vs Brantford Red Sox",
           "location": "George Henry @ Cockshutt Park (Brantford)",
@@ -11193,22 +11283,12 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21757-sarniabrigade.ca",
-          "date": "2026-06-20",
-          "start_time": "9:30 AM",
-          "end_date": "2026-06-20",
-          "summary": "15U OBA Rep - Game vs Waterdown Wolves",
-          "location": "Bill Little Park (Brantford)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21758-sarniabrigade.ca",
           "date": "2026-06-20",
-          "start_time": "2:30 PM",
+          "start_time": "11:15 AM",
           "end_date": "2026-06-20",
           "summary": "15U OBA Rep - Game vs Barrie Baycats T1",
-          "location": "Bill Little Park (Brantford)",
+          "location": "George Henry @ Cockshutt Park (Brantford)",
           "type": "game",
           "cancelled": false
         },
@@ -11962,8 +12042,8 @@
           "opponent": "Sault Ste Marie Blacksox City Wide Sports Park",
           "home": true,
           "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "brigade_score": 8,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -11973,9 +12053,9 @@
           "start_time": "1:30 PM",
           "opponent": "Ancaster Angels City Wide Sports Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -11985,30 +12065,18 @@
           "start_time": "8:30 PM",
           "opponent": "Chatham Major Diamonds City Wide Sports Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 3,
+          "opp_score": 11,
           "cancelled": false
         },
         {
           "game_id": "21756",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/21756/",
           "date": "2026-06-19",
-          "start_time": "6:00 PM",
+          "start_time": "8:30 PM",
           "opponent": "Brantford Red Sox George Henry",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "21757",
-          "href": "https://sarniabrigade.ca/Teams/1297/Games/21757/",
-          "date": "2026-06-20",
-          "start_time": "9:30 AM",
-          "opponent": "Waterdown Wolves Bill Little Park",
-          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -12018,9 +12086,9 @@
           "game_id": "21758",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/21758/",
           "date": "2026-06-20",
-          "start_time": "2:30 PM",
-          "opponent": "Barrie Baycats T1 Bill Little Park",
-          "home": true,
+          "start_time": "11:15 AM",
+          "opponent": "Barrie Baycats T1 George Henry",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -12494,7 +12562,7 @@
           "date": "2026-06-14",
           "start_time": "3:30 PM",
           "end_date": "2026-06-14",
-          "summary": "9U Select - Game @ Dorchester Diamondbacks [9uS02]",
+          "summary": "CANCELLED 9U Select - Game @ Dorchester Diamondbacks [9uS02]",
           "location": "Dorchester (2)",
           "type": "game",
           "cancelled": false
@@ -12883,7 +12951,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20710",
@@ -13108,12 +13176,12 @@
       "id": 1303,
       "name": "11U Select",
       "category": "Select",
-      "gp": 7,
-      "wins": 4,
+      "gp": 8,
+      "wins": 5,
       "losses": 3,
       "ties": 0,
-      "runs_for": 76,
-      "runs_against": 65,
+      "runs_for": 84,
+      "runs_against": 70,
       "practices": 20,
       "roster": {
         "players": 13,
@@ -13711,9 +13779,9 @@
           "start_time": "10:00 AM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 8,
+          "opp_score": 5,
           "cancelled": false
         },
         {
@@ -17955,12 +18023,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 20,
-      "wins": 11,
-      "losses": 9,
+      "gp": 23,
+      "wins": 13,
+      "losses": 10,
       "ties": 0,
-      "runs_for": 122,
-      "runs_against": 125,
+      "runs_for": 168,
+      "runs_against": 140,
       "practices": 44,
       "roster": {
         "players": 15,
@@ -18426,7 +18494,7 @@
           "date": "2026-06-13",
           "start_time": "6:00 PM",
           "end_date": "2026-06-14",
-          "summary": "16U PBLO - Game @ Ontario Giants",
+          "summary": "16U PBLO - Game @ Ontario Giants(W 13-5)",
           "location": "Trafalgar Sports (2)",
           "type": "game",
           "cancelled": false
@@ -18436,7 +18504,7 @@
           "date": "2026-06-13",
           "start_time": "8:30 PM",
           "end_date": "2026-06-14",
-          "summary": "16U PBLO - Game @ Ontario Giants",
+          "summary": "16U PBLO - Game @ Ontario Giants(W 29-5)",
           "location": "Trafalgar Sports (2)",
           "type": "game",
           "cancelled": false
@@ -18446,7 +18514,7 @@
           "date": "2026-06-14",
           "start_time": "9:00 AM",
           "end_date": "2026-06-14",
-          "summary": "16U PBLO - Game @ Ontario Giants",
+          "summary": "16U PBLO - Game @ Ontario Giants(L 4-5)",
           "location": "Morris Kerbel",
           "type": "game",
           "cancelled": false
@@ -19184,9 +19252,9 @@
           "start_time": "6:00 PM",
           "opponent": "Ontario Giants Trafalgar Sports",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 13,
+          "opp_score": 5,
           "cancelled": false
         },
         {
@@ -19196,9 +19264,9 @@
           "start_time": "8:30 PM",
           "opponent": "Ontario Giants Trafalgar Sports",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 29,
+          "opp_score": 5,
           "cancelled": false
         },
         {
@@ -19208,9 +19276,9 @@
           "start_time": "9:00 AM",
           "opponent": "Ontario Giants Morris Kerbel",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 5,
           "cancelled": false
         },
         {
@@ -20795,6 +20863,15 @@
       "location": "Blackwell Park"
     },
     {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "game",
+      "date": "2026-06-14",
+      "start_time": "12:30 PM",
+      "summary": "CANCELLED 14U OBA Rep - Game vs Lucan-Ilderton Athletics [14u31]",
+      "location": "Canton"
+    },
+    {
       "team_id": 1297,
       "team_name": "15U OBA Rep",
       "type": "game",
@@ -20820,6 +20897,15 @@
       "start_time": "1:30 PM",
       "summary": "CANCELLED 15U OBA Rep - Game vs Chatham Diamonds 15U [WC15U-055]",
       "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1299,
+      "team_name": "9U Select",
+      "type": "game",
+      "date": "2026-06-14",
+      "start_time": "3:30 PM",
+      "summary": "CANCELLED 9U Select - Game @ Dorchester Diamondbacks [9uS02]",
+      "location": "Dorchester (2)"
     },
     {
       "team_id": 1303,
