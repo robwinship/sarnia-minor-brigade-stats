@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-14T10:03:33.345339Z",
+  "generated": "2026-06-14T16:03:48.810226Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3839,17 +3839,25 @@
                   "Brock Lane",
                   "Brogan Murphy",
                   "Chris Bonneau",
-                  "David Haasen",
+                  "Clark Thornton",
+                  "Dan Scott",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
                   "Jakob Rodriguez",
+                  "Joey Buchner",
                   "Kayleigh Buchan",
+                  "Kirk Vines",
                   "Kye Golder",
+                  "Marko Sazdov",
+                  "Matt Kennett",
+                  "Myles Hobbs",
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
                   "Terry Doyle",
+                  "Tristan Heeringa",
+                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3859,12 +3867,13 @@
                   "Hayden Scheuermann",
                   "Shane Moorhouse",
                   "Steve McGrail",
+                  "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 105,
                 "accepted_count": 101,
-                "pending_count": 16,
-                "denied_count": 7,
+                "pending_count": 24,
+                "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4394,7 +4403,7 @@
           "start_time": "5:30 PM",
           "end_date": "2026-07-02",
           "summary": "10U A OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
+          "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
         },
@@ -17466,13 +17475,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21215-sarniabrigade.ca",
+          "uid": "MS-20371-sarniabrigade.ca",
           "date": "2026-06-14",
           "start_time": "1:00 PM",
           "end_date": "2026-06-14",
-          "summary": "13U LDBA House League - Game vs North Middlesex 1 [13uW33]",
+          "summary": "13U LDBA House League - Practice",
           "location": "Clearwater Diamond #2",
-          "type": "game",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -17482,16 +17491,6 @@
           "end_date": "2026-06-20",
           "summary": "13U LDBA House League - Game vs Strathroy Black [13uW39]",
           "location": "Clearwater Diamond #4",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21217-sarniabrigade.ca",
-          "date": "2026-06-21",
-          "start_time": "1:00 PM",
-          "end_date": "2026-06-21",
-          "summary": "13U LDBA House League - Game vs DKMB Red [13uW41]",
-          "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
         },
@@ -17576,13 +17575,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20371-sarniabrigade.ca",
+          "uid": "MS-21217-sarniabrigade.ca",
           "date": "2026-07-19",
           "start_time": "1:00 PM",
           "end_date": "2026-07-19",
-          "summary": "13U LDBA House League - Practice",
+          "summary": "13U LDBA House League - Game vs DKMB Red [13uW41]",
           "location": "Clearwater Diamond #2",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -17603,6 +17602,16 @@
           "summary": "13U LDBA House League - Practice",
           "location": "Clearwater Diamond #4",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21215-sarniabrigade.ca",
+          "date": "2026-07-26",
+          "start_time": "1:00 PM",
+          "end_date": "2026-07-26",
+          "summary": "13U LDBA House League - Game vs North Middlesex 1 [13uW33]",
+          "location": "Clearwater Diamond #2",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -17792,35 +17801,11 @@
           "cancelled": false
         },
         {
-          "game_id": "21215",
-          "href": "https://sarniabrigade.ca/Teams/1302/Games/21215/",
-          "date": "2026-06-14",
-          "start_time": "1:00 PM",
-          "opponent": "North Middlesex",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "21216",
           "href": "https://sarniabrigade.ca/Teams/1302/Games/21216/",
           "date": "2026-06-19",
           "start_time": "6:00 PM",
           "opponent": "Strathroy Black",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "21217",
-          "href": "https://sarniabrigade.ca/Teams/1302/Games/21217/",
-          "date": "2026-06-21",
-          "start_time": "1:00 PM",
-          "opponent": "DKMB Red",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -17900,12 +17885,36 @@
           "cancelled": false
         },
         {
+          "game_id": "21217",
+          "href": "https://sarniabrigade.ca/Teams/1302/Games/21217/",
+          "date": "2026-07-19",
+          "start_time": "1:00 PM",
+          "opponent": "DKMB Red",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "21224",
           "href": "https://sarniabrigade.ca/Teams/1302/Games/21224/",
           "date": "2026-07-20",
           "start_time": "6:00 PM",
           "opponent": "North Middlesex",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21215",
+          "href": "https://sarniabrigade.ca/Teams/1302/Games/21215/",
+          "date": "2026-07-26",
+          "start_time": "1:00 PM",
+          "opponent": "North Middlesex",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
