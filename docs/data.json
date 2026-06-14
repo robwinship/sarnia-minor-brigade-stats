@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-13T19:33:18.908580Z",
+  "generated": "2026-06-14T10:03:33.345339Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -5309,12 +5309,12 @@
       "id": 1293,
       "name": "11U OBA Rep",
       "category": "OBA Rep",
-      "gp": 9,
-      "wins": 7,
-      "losses": 2,
+      "gp": 11,
+      "wins": 8,
+      "losses": 3,
       "ties": 0,
-      "runs_for": 114,
-      "runs_against": 66,
+      "runs_for": 127,
+      "runs_against": 81,
       "practices": 37,
       "roster": {
         "players": 12,
@@ -5670,7 +5670,7 @@
           "date": "2026-06-13",
           "start_time": "4:00 PM",
           "end_date": "2026-06-13",
-          "summary": "11U OBA Rep - Game vs DKMB River Cats [11u14]",
+          "summary": "11U OBA Rep - Game vs DKMB River Cats [11u14](W 7-10)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -5680,7 +5680,7 @@
           "date": "2026-06-13",
           "start_time": "6:30 PM",
           "end_date": "2026-06-14",
-          "summary": "11U OBA Rep - Game vs DKMB River Cats [11u50]",
+          "summary": "11U OBA Rep - Game vs DKMB River Cats [11u50](L 8-3)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6346,9 +6346,9 @@
           "start_time": "4:00 PM",
           "opponent": "DKMB River Cats",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 10,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -6358,9 +6358,9 @@
           "start_time": "6:30 PM",
           "opponent": "DKMB River Cats",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 3,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -6607,8 +6607,8 @@
       "umpire_issues": {
         "games_missed": 1,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -6636,7 +6636,7 @@
         "doubleheader_mismatch_details": [
           {
             "date": "2026-06-13",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": false,
             "pair_signatures": [
               "Clark Thornton | Jackson Bunda",
@@ -7847,7 +7847,7 @@
       "ties": 0,
       "runs_for": 173,
       "runs_against": 104,
-      "practices": 39,
+      "practices": 38,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -7857,16 +7857,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20231-sarniabrigade.ca",
-          "date": "2026-04-13",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-14",
-          "summary": "13U OBA Rep - Indoor Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20234-sarniabrigade.ca",
           "date": "2026-04-20",
@@ -9092,12 +9082,12 @@
       "id": 1296,
       "name": "14U OBA Rep",
       "category": "OBA Rep",
-      "gp": 15,
-      "wins": 12,
+      "gp": 16,
+      "wins": 13,
       "losses": 3,
       "ties": 0,
-      "runs_for": 184,
-      "runs_against": 84,
+      "runs_for": 206,
+      "runs_against": 85,
       "practices": 50,
       "roster": {
         "players": 14,
@@ -9493,7 +9483,7 @@
           "date": "2026-06-13",
           "start_time": "7:00 PM",
           "end_date": "2026-06-14",
-          "summary": "14U OBA Rep - Game @ Strathroy Royals [14u55]",
+          "summary": "14U OBA Rep - Game @ Strathroy Royals [14u55](W 22-1)",
           "location": "York Street (3)",
           "type": "game",
           "cancelled": false
@@ -10411,9 +10401,9 @@
           "start_time": "7:00 PM",
           "opponent": "Strathroy Royals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 22,
+          "opp_score": 1,
           "cancelled": false
         },
         {
