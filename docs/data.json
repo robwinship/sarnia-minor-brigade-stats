@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-14T23:04:21.920961Z",
+  "generated": "2026-06-15T10:03:48.454758Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3627,7 +3627,6 @@
                   "Alexander Pfaff",
                   "Ameer Sulaiman",
                   "Annette Hoggarth",
-                  "Austin Lozon",
                   "Axl Taylor",
                   "Bentley Bartosz",
                   "Bentley Daughtrey",
@@ -3636,6 +3635,7 @@
                   "Brock Lane",
                   "Brock Prozorowicz",
                   "Brogan Murphy",
+                  "Caleb Willemsvandyk",
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
@@ -3656,6 +3656,7 @@
                   "Easton McKinlay",
                   "Ethan Antle",
                   "Ethan Carlton",
+                  "Ewan Snedden",
                   "Gage Boyd",
                   "Grady Boyd",
                   "Graham Dolbear",
@@ -3672,6 +3673,7 @@
                   "Jakob Rodriguez",
                   "Jarett Simons",
                   "Jason Lajeunesse",
+                  "Jaxson Pyne",
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Juan Peralta",
@@ -3706,9 +3708,7 @@
                   "Parker Leighton",
                   "Penny Core",
                   "Ralph Campbell",
-                  "Rio Ruiz",
                   "Ronnie Atyeo",
-                  "Ryan Carlton",
                   "Ryder Daye",
                   "Ryerson Nead",
                   "Rylie Bunda",
@@ -3834,55 +3834,50 @@
                 ],
                 "pending_umpires": [
                   "Ameer Sulaiman",
-                  "Austin Lozon",
-                  "Axl Taylor",
+                  "Bentley Bartosz",
                   "Brock Lane",
                   "Brogan Murphy",
+                  "Caleb Willemsvandyk",
                   "Carson Whittington",
                   "Chris Bonneau",
                   "Clark Thornton",
+                  "Easton McKinlay",
+                  "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
                   "Hannah Stewart",
                   "Harper Vandenheuval",
-                  "Jakob Rodriguez",
+                  "Jarett Simons",
+                  "Jason Lajeunesse",
+                  "Jaxson Pyne",
                   "Joey Buchner",
-                  "Jonas Winklmeier",
-                  "Juan Peralta",
-                  "Kayleigh Buchan",
-                  "Kayne Golder",
                   "Kirk Vines",
-                  "Kye Golder",
-                  "Logan Hiscocks",
+                  "Lane Vanden Ouweland",
                   "Marko Sazdov",
+                  "Mikayla Coubroug",
                   "Myles Hobbs",
-                  "Rio Ruiz",
-                  "Ryan Carlton",
+                  "Paolo Padiglia",
                   "Ryder Daye",
                   "Terry Doyle",
                   "Tristan Heeringa",
-                  "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
+                  "Chris Bonneau",
                   "Drew Baxter",
                   "Grant Purdy",
-                  "Hayden Scheuermann",
-                  "Jack Needham",
                   "Jason Lajeunesse",
-                  "Shane Moorhouse",
                   "Steve McGrail",
-                  "Summer Steinke",
                   "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 105,
                 "accepted_count": 100,
-                "pending_count": 32,
-                "denied_count": 11,
+                "pending_count": 30,
+                "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -3970,12 +3965,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 9,
+      "gp": 10,
       "wins": 6,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
-      "runs_for": 98,
-      "runs_against": 97,
+      "runs_for": 101,
+      "runs_against": 110,
       "practices": 43,
       "roster": {
         "players": 13,
@@ -4281,7 +4276,7 @@
           "date": "2026-06-14",
           "start_time": "6:30 PM",
           "end_date": "2026-06-15",
-          "summary": "10U A OBA Rep - Game vs Chatham Diamonds 10u [WC11U-066]",
+          "summary": "10U A OBA Rep - Game vs Chatham Diamonds 10u [WC11U-066](L 13-3)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -4967,9 +4962,9 @@
           "start_time": "6:30 PM",
           "opponent": "Chatham Diamonds",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 3,
+          "opp_score": 13,
           "cancelled": false
         },
         {
@@ -9102,91 +9097,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-06-18",
-            "time": "8:30 PM",
-            "opponent": "Wyoming Wranglers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Juan Peralta",
-              "Kirk Vines"
-            ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Juan Peralta",
-              "Kirk Vines"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 2,
-            "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-06-18",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [
-              "Juan Peralta | Kirk Vines"
-            ],
-            "mismatched_names": [
-              "Juan Peralta",
-              "Kirk Vines"
-            ],
-            "games": [
-              {
-                "time": "6:00 PM",
-                "opponent": "Wyoming Wranglers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Juan Peralta",
-                  "Kirk Vines"
-                ],
-                "accepted_umpires": [
-                  "Juan Peralta",
-                  "Kirk Vines"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "8:30 PM",
-                "opponent": "Wyoming Wranglers",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Juan Peralta",
-                  "Kirk Vines"
-                ],
-                "accepted_umpires": [],
-                "pending_umpires": [
-                  "Juan Peralta",
-                  "Kirk Vines"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 0,
-                "pending_count": 2,
-                "denied_count": 0,
-                "assignment_state": "assigned_not_accepted"
-              }
-            ]
-          }
-        ]
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7288.5,
       "equipment_cost": 0.0,
@@ -9713,6 +9630,26 @@
           "end_date": "2026-06-26",
           "summary": "14U OBA Rep - Game vs Corunna Giants [WC15U-012]",
           "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21861-sarniabrigade.ca",
+          "date": "2026-06-27",
+          "start_time": "3:30 PM",
+          "end_date": "2026-06-27",
+          "summary": "14U OBA Rep - Game vs Bearcats 14U Jacob",
+          "location": "TBD",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21862-sarniabrigade.ca",
+          "date": "2026-06-27",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-28",
+          "summary": "14U OBA Rep - Game vs Bearcats 14U Jacob",
+          "location": "TBD",
           "type": "game",
           "cancelled": false
         },
@@ -10590,6 +10527,30 @@
           "date": "2026-06-25",
           "start_time": "8:00 PM",
           "opponent": "Corunna Giants WC15U-012 Blackwell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21861",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/21861/",
+          "date": "2026-06-27",
+          "start_time": "3:30 PM",
+          "opponent": "Bearcats",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21862",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/21862/",
+          "date": "2026-06-27",
+          "start_time": "6:00 PM",
+          "opponent": "Bearcats",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -16876,12 +16837,40 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-06-22",
+            "time": "6:30 PM",
+            "opponent": "Wyoming Wranglers Red",
+            "venue": "Clearwater Diamond #1",
+            "assigned_umpires": [
+              "Alexander Pfaff",
+              "Hannah Stewart",
+              "Harper Vandenheuval",
+              "Mikayla Coubroug"
+            ],
+            "accepted_umpires": [
+              "Alexander Pfaff"
+            ],
+            "pending_umpires": [
+              "Hannah Stewart",
+              "Harper Vandenheuval",
+              "Mikayla Coubroug"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 4,
+            "accepted_count": 1,
+            "pending_count": 3,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 0.0,
@@ -19650,7 +19639,7 @@
           "date": "2026-06-16",
           "start_time": "7:30 PM",
           "end_date": "2026-06-17",
-          "summary": "22U AAA - Game vs Wyoming Minor Wranglers",
+          "summary": "CANCELLED 22U AAA - Game vs Wyoming Minor Wranglers",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -19933,7 +19922,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "21380",
@@ -20034,7 +20023,7 @@
       ],
       "umpire_issues": {
         "games_missed": 2,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -20071,22 +20060,6 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
-          },
-          {
-            "date": "2026-06-16",
-            "time": "7:30 PM",
-            "opponent": "Wyoming Minor Wranglers",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": []
@@ -21056,6 +21029,15 @@
       "date": "2026-05-23",
       "start_time": "2:00 PM",
       "summary": "CANCELLED 16U PBLO - Game vs Ontario Prospects",
+      "location": "Errol Russell Park"
+    },
+    {
+      "team_id": 1306,
+      "team_name": "22U AAA",
+      "type": "game",
+      "date": "2026-06-16",
+      "start_time": "7:30 PM",
+      "summary": "CANCELLED 22U AAA - Game vs Wyoming Minor Wranglers",
       "location": "Errol Russell Park"
     }
   ]
