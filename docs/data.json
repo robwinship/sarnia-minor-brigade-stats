@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-15T10:03:48.454758Z",
+  "generated": "2026-06-15T16:04:25.713851Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3834,7 +3834,6 @@
                 ],
                 "pending_umpires": [
                   "Ameer Sulaiman",
-                  "Bentley Bartosz",
                   "Brock Lane",
                   "Brogan Murphy",
                   "Caleb Willemsvandyk",
@@ -3846,38 +3845,35 @@
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
-                  "Hannah Stewart",
-                  "Harper Vandenheuval",
-                  "Jarett Simons",
-                  "Jason Lajeunesse",
                   "Jaxson Pyne",
                   "Joey Buchner",
                   "Kirk Vines",
                   "Lane Vanden Ouweland",
+                  "Lawrence Dyck",
                   "Marko Sazdov",
-                  "Mikayla Coubroug",
-                  "Myles Hobbs",
+                  "Matthew Schrie",
                   "Paolo Padiglia",
-                  "Ryder Daye",
+                  "Steve McGrail",
                   "Terry Doyle",
-                  "Tristan Heeringa",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
+                  "Brock Lane",
                   "Chris Bonneau",
                   "Drew Baxter",
                   "Grant Purdy",
                   "Jason Lajeunesse",
+                  "Marko Sazdov",
                   "Steve McGrail",
                   "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 105,
                 "accepted_count": 100,
-                "pending_count": 30,
-                "denied_count": 8,
+                "pending_count": 24,
+                "denied_count": 10,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -9534,16 +9530,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21745-sarniabrigade.ca",
-          "date": "2026-06-14",
-          "start_time": "12:30 PM",
-          "end_date": "2026-06-14",
-          "summary": "CANCELLED 14U OBA Rep - Game vs Lucan-Ilderton Athletics [14u31]",
-          "location": "Canton",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21762-sarniabrigade.ca",
           "date": "2026-06-15",
           "start_time": "6:00 PM",
@@ -9919,6 +9905,16 @@
           "start_time": "6:00 PM",
           "end_date": "2026-08-06",
           "summary": "14U OBA Rep - Game @ Lucan-Ilderton Athletics [14u82]",
+          "location": "Lucan (1)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21863-sarniabrigade.ca",
+          "date": "2026-08-05",
+          "start_time": "8:30 PM",
+          "end_date": "2026-08-06",
+          "summary": "14U OBA Rep - Game @ Lucan-Ilderton Athletics [14u31]",
           "location": "Lucan (1)",
           "type": "game",
           "cancelled": false
@@ -10474,18 +10470,6 @@
           "cancelled": false
         },
         {
-          "game_id": "21745",
-          "href": "https://sarniabrigade.ca/Teams/1296/Games/21745/",
-          "date": "2026-06-14",
-          "start_time": "12:30 PM",
-          "opponent": "Lucan-Ilderton Athletics",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
           "game_id": "21226",
           "href": "https://sarniabrigade.ca/Teams/1296/Games/21226/",
           "date": "2026-06-19",
@@ -10539,7 +10523,7 @@
           "date": "2026-06-27",
           "start_time": "3:30 PM",
           "opponent": "Bearcats",
-          "home": true,
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -10551,7 +10535,7 @@
           "date": "2026-06-27",
           "start_time": "6:00 PM",
           "opponent": "Bearcats",
-          "home": true,
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -10682,6 +10666,18 @@
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20854/",
           "date": "2026-08-05",
           "start_time": "6:00 PM",
+          "opponent": "Lucan-Ilderton Athletics",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21863",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/21863/",
+          "date": "2026-08-05",
+          "start_time": "8:30 PM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": false,
           "result": null,
@@ -13779,6 +13775,18 @@
           "cancelled": false
         },
         {
+          "game_id": "21865",
+          "href": "https://sarniabrigade.ca/Teams/1303/Games/21865/",
+          "date": "2026-06-27",
+          "start_time": "1:30 PM",
+          "opponent": "Lambton Shores Eagles Coultis Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20812",
           "href": "https://sarniabrigade.ca/Teams/1303/Games/20812/",
           "date": "2026-06-28",
@@ -16837,40 +16845,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-06-22",
-            "time": "6:30 PM",
-            "opponent": "Wyoming Wranglers Red",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "Alexander Pfaff",
-              "Hannah Stewart",
-              "Harper Vandenheuval",
-              "Mikayla Coubroug"
-            ],
-            "accepted_umpires": [
-              "Alexander Pfaff"
-            ],
-            "pending_umpires": [
-              "Hannah Stewart",
-              "Harper Vandenheuval",
-              "Mikayla Coubroug"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 4,
-            "accepted_count": 1,
-            "pending_count": 3,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 0.0,
@@ -20859,15 +20839,6 @@
       "start_time": "10:00 AM",
       "summary": "CANCELLED 14U OBA Rep - Game vs London West Tincaps",
       "location": "Blackwell Park"
-    },
-    {
-      "team_id": 1296,
-      "team_name": "14U OBA Rep",
-      "type": "game",
-      "date": "2026-06-14",
-      "start_time": "12:30 PM",
-      "summary": "CANCELLED 14U OBA Rep - Game vs Lucan-Ilderton Athletics [14u31]",
-      "location": "Canton"
     },
     {
       "team_id": 1297,
