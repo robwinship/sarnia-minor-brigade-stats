@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-16T19:33:21.919953Z",
+  "generated": "2026-06-16T23:03:40.741610Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3775,6 +3775,7 @@
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Juan Peralta",
+                  "Justin Vanhorn",
                   "Kassie Buchan",
                   "Katrina Cadotte",
                   "Kayleigh Buchan",
@@ -3938,16 +3939,19 @@
                 ],
                 "pending_umpires": [
                   "Ameer Sulaiman",
+                  "Brian Mundt",
                   "Chris Bonneau",
                   "Clark Thornton",
                   "Cohen Smith",
                   "Doug Krall",
-                  "Drew Bennett",
                   "Easton McKinlay",
+                  "Gage Boyd",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
+                  "Greg Baker",
                   "Jarett Simons",
+                  "Justin Vanhorn",
                   "Liam Colosimo",
                   "Logan Hiscocks",
                   "Marko Sazdov",
@@ -3958,19 +3962,21 @@
                   "Nathan Zavitz",
                   "Rio Ruiz",
                   "Ronnie Atyeo",
+                  "Summer Steinke",
                   "Terry Doyle",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
                   "Drew Baxter",
+                  "Drew Bennett",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 107,
+                "assigned_count": 108,
                 "accepted_count": 101,
-                "pending_count": 23,
-                "denied_count": 4,
+                "pending_count": 27,
+                "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4064,7 +4070,7 @@
       "ties": 0,
       "runs_for": 113,
       "runs_against": 121,
-      "practices": 43,
+      "practices": 42,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -4074,16 +4080,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20152-sarniabrigade.ca",
-          "date": "2026-04-16",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-16",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19925-sarniabrigade.ca",
           "date": "2026-04-19",
@@ -5421,7 +5417,7 @@
       "ties": 0,
       "runs_for": 127,
       "runs_against": 81,
-      "practices": 37,
+      "practices": 36,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5431,16 +5427,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20058-sarniabrigade.ca",
-          "date": "2026-04-16",
-          "start_time": "5:00 PM",
-          "end_date": "2026-04-16",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20387-sarniabrigade.ca",
           "date": "2026-04-23",
