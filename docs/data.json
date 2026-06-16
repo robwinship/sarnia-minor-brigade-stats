@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-15T23:03:48.193974Z",
+  "generated": "2026-06-16T10:02:51.231319Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3692,6 +3692,8 @@
                   "Max McClintock",
                   "Mikayla Coubroug",
                   "Myles Hobbs",
+                  "Nate Edwards",
+                  "Nathan Zavitz",
                   "Noah Bechard",
                   "Nolan Bogaert",
                   "Nolan Pool",
@@ -3699,6 +3701,7 @@
                   "Parker Leighton",
                   "Penny Core",
                   "Ralph Campbell",
+                  "Rio Ruiz",
                   "Ronnie Atyeo",
                   "Ryder Daye",
                   "Ryerson Nead",
@@ -3831,6 +3834,8 @@
                   "Carson Whittington",
                   "Chris Bonneau",
                   "Clark Thornton",
+                  "Cohen Smith",
+                  "Drew Baxter",
                   "Easton McKinlay",
                   "Ewan Snedden",
                   "Graham Dolbear",
@@ -3843,9 +3848,12 @@
                   "Lawrence Dyck",
                   "Liam Colosimo",
                   "Logan Conroy",
-                  "Marko Sazdov",
+                  "Logan Hiscocks",
+                  "Mason Portiss",
                   "Matthew Schrie",
-                  "Paolo Padiglia",
+                  "Nate Edwards",
+                  "Nathan Zavitz",
+                  "Rio Ruiz",
                   "Ronnie Atyeo",
                   "Terry Doyle",
                   "Tyler Hoadley",
@@ -3863,9 +3871,9 @@
                   "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 106,
+                "assigned_count": 109,
                 "accepted_count": 100,
-                "pending_count": 26,
+                "pending_count": 31,
                 "denied_count": 10,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -3954,12 +3962,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 10,
-      "wins": 6,
+      "gp": 11,
+      "wins": 7,
       "losses": 4,
       "ties": 0,
-      "runs_for": 101,
-      "runs_against": 110,
+      "runs_for": 113,
+      "runs_against": 121,
       "practices": 43,
       "roster": {
         "players": 13,
@@ -4275,7 +4283,7 @@
           "date": "2026-06-15",
           "start_time": "6:00 PM",
           "end_date": "2026-06-16",
-          "summary": "10U A OBA Rep - Game @ North London Nationals [10u38]",
+          "summary": "10U A OBA Rep - Game @ North London Nationals [10u38](W 12-11)",
           "location": "North London (3)",
           "type": "game",
           "cancelled": false
@@ -4963,9 +4971,9 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -15740,7 +15748,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-05-26",
           "summary": "9U River League - Game vs Alvinston Riverhawks Navy [RL9UN-30](L 15-10)",
-          "location": "Blackwell (North)",
+          "location": "Blackwell North",
           "type": "game",
           "cancelled": false
         },
@@ -15760,7 +15768,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-06-02",
           "summary": "9U River League - Game vs Alvinston Riverhawks Grey [RL9UN-63](W 5-14)",
-          "location": "Blackwell (North)",
+          "location": "Blackwell North",
           "type": "game",
           "cancelled": false
         },
@@ -15780,7 +15788,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-06-09",
           "summary": "9U River League - Game vs Wyoming Wranglers Navy [RL9UN-98](L 16-11)",
-          "location": "Blackwell (North)",
+          "location": "Blackwell North",
           "type": "game",
           "cancelled": false
         },
@@ -15800,7 +15808,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-06-16",
           "summary": "9U River League - Game vs Wyoming Wranglers Red [RL9UN-46]",
-          "location": "Blackwell (North)",
+          "location": "Blackwell North",
           "type": "game",
           "cancelled": false
         },
@@ -15840,7 +15848,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-06-30",
           "summary": "9U River League - Game vs Oil Springs Drillers [RL9UN-59]",
-          "location": "Blackwell (North)",
+          "location": "Blackwell North",
           "type": "game",
           "cancelled": false
         },
@@ -15860,7 +15868,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-07-07",
           "summary": "9U River League - Game vs Corunna Giants Team 2 [RL9UN-93]",
-          "location": "Blackwell (North)",
+          "location": "Blackwell North",
           "type": "game",
           "cancelled": false
         },
@@ -15880,7 +15888,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-07-14",
           "summary": "9U River League - Game vs Port Lambton Pirates [RL9UN-79]",
-          "location": "Blackwell (North)",
+          "location": "Blackwell North",
           "type": "game",
           "cancelled": false
         },
@@ -15930,7 +15938,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-07-21",
           "summary": "9U River League - Game vs Wyoming Wranglers Grey [RL9UN-92]",
-          "location": "Blackwell (North)",
+          "location": "Blackwell North",
           "type": "game",
           "cancelled": false
         },
@@ -15960,7 +15968,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-07-28",
           "summary": "9U River League - Game vs Alvinston Riverhawks Red [RL9UN-11]",
-          "location": "Blackwell (North)",
+          "location": "Blackwell North",
           "type": "game",
           "cancelled": false
         },
@@ -16010,7 +16018,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-08-11",
           "summary": "9U River League - Game vs Corunna Giants Team 1 [RL9UN-97]",
-          "location": "Blackwell (North)",
+          "location": "Blackwell North",
           "type": "game",
           "cancelled": false
         },
@@ -16308,8 +16316,8 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -16329,7 +16337,7 @@
             "pending_count": 0,
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
+            "issue_timing": "past"
           }
         ],
         "doubleheader_mismatch_details": []
@@ -16346,12 +16354,12 @@
       "id": 1310,
       "name": "11U Lady Brigade",
       "category": "River League",
-      "gp": 3,
+      "gp": 4,
       "wins": 0,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
-      "runs_for": 17,
-      "runs_against": 44,
+      "runs_for": 25,
+      "runs_against": 56,
       "practices": 18,
       "roster": {
         "players": 12,
@@ -16527,7 +16535,7 @@
           "date": "2026-06-15",
           "start_time": "6:30 PM",
           "end_date": "2026-06-16",
-          "summary": "11U Lady Brigade - Game @ 11u River League [RL11UN-16]",
+          "summary": "11U Lady Brigade - Game @ 11u River League [RL11UN-16](L 8-12)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -16749,9 +16757,9 @@
           "start_time": "6:30 PM",
           "opponent": null,
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 8,
+          "opp_score": 12,
           "cancelled": false
         },
         {
@@ -16885,12 +16893,12 @@
       "id": 1315,
       "name": "11U River League",
       "category": "River League",
-      "gp": 5,
-      "wins": 3,
+      "gp": 6,
+      "wins": 4,
       "losses": 2,
       "ties": 0,
-      "runs_for": 54,
-      "runs_against": 43,
+      "runs_for": 66,
+      "runs_against": 51,
       "practices": 12,
       "roster": {
         "players": 15,
@@ -17016,7 +17024,7 @@
           "date": "2026-06-15",
           "start_time": "6:30 PM",
           "end_date": "2026-06-16",
-          "summary": "11u River League - Game vs 11U Lady Brigade [RL11UN-16]",
+          "summary": "11u River League - Game vs 11U Lady Brigade [RL11UN-16](W 8-12)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -17230,9 +17238,9 @@
           "start_time": "6:30 PM",
           "opponent": null,
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 8,
           "cancelled": false
         },
         {
