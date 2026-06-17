@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-16T23:03:40.741610Z",
+  "generated": "2026-06-17T10:03:40.113597Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3666,6 +3666,7 @@
               "Joey Buchner",
               "Jonas Winklmeier",
               "Juan Peralta",
+              "Justin Vanhorn",
               "Kassie Buchan",
               "Katrina Cadotte",
               "Kayleigh Buchan",
@@ -3883,6 +3884,7 @@
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Juan Peralta",
+                  "Justin Vanhorn",
                   "Kassie Buchan",
                   "Katrina Cadotte",
                   "Kayleigh Buchan",
@@ -3943,7 +3945,6 @@
                   "Chris Bonneau",
                   "Clark Thornton",
                   "Cohen Smith",
-                  "Doug Krall",
                   "Easton McKinlay",
                   "Gage Boyd",
                   "Graham Dolbear",
@@ -3951,7 +3952,7 @@
                   "Greg Armstrong",
                   "Greg Baker",
                   "Jarett Simons",
-                  "Justin Vanhorn",
+                  "Kayne Golder",
                   "Liam Colosimo",
                   "Logan Hiscocks",
                   "Marko Sazdov",
@@ -3968,15 +3969,16 @@
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
+                  "Doug Krall",
                   "Drew Baxter",
                   "Drew Bennett",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 108,
-                "accepted_count": 101,
-                "pending_count": 27,
-                "denied_count": 5,
+                "accepted_count": 102,
+                "pending_count": 26,
+                "denied_count": 6,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -13291,13 +13293,13 @@
       "id": 1303,
       "name": "11U Select",
       "category": "Select",
-      "gp": 8,
+      "gp": 9,
       "wins": 5,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
-      "runs_for": 84,
-      "runs_against": 70,
-      "practices": 20,
+      "runs_for": 93,
+      "runs_against": 82,
+      "practices": 19,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -13307,16 +13309,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19824-sarniabrigade.ca",
-          "date": "2026-04-16",
-          "start_time": "7:00 PM",
-          "end_date": "2026-04-17",
-          "summary": "11U Select - Indoor Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20104-sarniabrigade.ca",
           "date": "2026-04-23",
@@ -13522,7 +13514,7 @@
           "date": "2026-06-16",
           "start_time": "7:00 PM",
           "end_date": "2026-06-17",
-          "summary": "11U Select - Game @ Lambton Shores Falcons [11uS67]",
+          "summary": "11U Select - Game @ Lambton Shores Falcons [11uS67](L 9-12)",
           "location": "Rick Goodhand",
           "type": "game",
           "cancelled": false
@@ -13916,9 +13908,9 @@
           "start_time": "7:00 PM",
           "opponent": "Lambton Shores Falcons",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 9,
+          "opp_score": 12,
           "cancelled": false
         },
         {
@@ -14943,7 +14935,7 @@
       "ties": 0,
       "runs_for": 36,
       "runs_against": 39,
-      "practices": 34,
+      "practices": 33,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -14953,16 +14945,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20067-sarniabrigade.ca",
-          "date": "2026-04-16",
-          "start_time": "7:00 PM",
-          "end_date": "2026-04-17",
-          "summary": "15U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20072-sarniabrigade.ca",
           "date": "2026-04-26",
