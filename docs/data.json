@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-17T16:03:34.044101Z",
+  "generated": "2026-06-17T19:33:41.672402Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3947,12 +3947,13 @@
                   "Chris Bonneau",
                   "Clark Thornton",
                   "Cohen Smith",
+                  "David Haasen",
+                  "Drew Bennett",
                   "Easton McKinlay",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
                   "Greg Baker",
-                  "Jarett Simons",
                   "Kayne Golder",
                   "Liam Colosimo",
                   "Logan Hiscocks",
@@ -3961,24 +3962,25 @@
                   "Matthew Schrie",
                   "Nate Edwards",
                   "Nathan Zavitz",
+                  "Paolo Padiglia",
                   "Ralph Campbell",
                   "Rio Ruiz",
-                  "Ronnie Atyeo",
                   "Summer Steinke",
-                  "Sydney Nisbet",
                   "Terry Doyle",
-                  "Tyler Whetham"
+                  "Tyler Whetham",
+                  "Zhayn Trowbridge"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
                   "Doug Krall",
                   "Tyler Hoadley",
-                  "Tyler Whetham"
+                  "Tyler Whetham",
+                  "Wiishkpimin Macbeth"
                 ],
                 "assigned_count": 108,
                 "accepted_count": 103,
-                "pending_count": 26,
-                "denied_count": 4,
+                "pending_count": 27,
+                "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4397,7 +4399,7 @@
           "date": "2026-06-17",
           "start_time": "5:30 PM",
           "end_date": "2026-06-17",
-          "summary": "10U A OBA Rep - Practice",
+          "summary": "CANCELLED 10U A OBA Rep - Practice",
           "location": "Coronation Park Diamond",
           "type": "practice",
           "cancelled": false
@@ -5401,7 +5403,7 @@
           }
         ]
       },
-      "uniform_cost": 7288.5,
+      "uniform_cost": 7648.97,
       "equipment_cost": 0.0,
       "tournament_cost": 1950.0,
       "police_checks_cost": null,
@@ -6869,7 +6871,7 @@
       "ties": 0,
       "runs_for": 70,
       "runs_against": 123,
-      "practices": 37,
+      "practices": 36,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -7170,16 +7172,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20708-sarniabrigade.ca",
-          "date": "2026-06-17",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-18",
-          "summary": "12U OBA Rep - Game vs London Talons [12u06]",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20064-sarniabrigade.ca",
           "date": "2026-06-21",
           "start_time": "10:00 AM",
@@ -7430,13 +7422,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20574-sarniabrigade.ca",
+          "uid": "MS-20708-sarniabrigade.ca",
           "date": "2026-08-12",
           "start_time": "6:00 PM",
           "end_date": "2026-08-13",
-          "summary": "12U OBA Rep - Practice",
+          "summary": "12U OBA Rep - Game vs London Talons [12u06]",
           "location": "Tecumseh Park",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -7750,18 +7742,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20708",
-          "href": "https://sarniabrigade.ca/Teams/1294/Games/20708/",
-          "date": "2026-06-17",
-          "start_time": "6:00 PM",
-          "opponent": "London Talons",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "20064",
           "href": "https://sarniabrigade.ca/Teams/1294/Games/20064/",
           "date": "2026-06-21",
@@ -7899,6 +7879,18 @@
           "date": "2026-08-09",
           "start_time": "1:00 PM",
           "opponent": "London West Tincaps",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20708",
+          "href": "https://sarniabrigade.ca/Teams/1294/Games/20708/",
+          "date": "2026-08-12",
+          "start_time": "6:00 PM",
+          "opponent": "London Talons",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -8412,7 +8404,7 @@
           "date": "2026-06-17",
           "start_time": "6:00 PM",
           "end_date": "2026-06-18",
-          "summary": "13U OBA Rep - Game @ Dorchester Diamondbacks [13u50]",
+          "summary": "CANCELLED 13U OBA Rep - Game @ Dorchester Diamondbacks [13u50]",
           "location": "Dorchester (3)",
           "type": "game",
           "cancelled": false
@@ -9059,7 +9051,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20516",
@@ -10931,7 +10923,7 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 7738.24,
+      "uniform_cost": 8098.71,
       "equipment_cost": 0.0,
       "tournament_cost": 2600.0,
       "police_checks_cost": null,
@@ -13281,7 +13273,7 @@
           }
         ]
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 5051.0,
       "equipment_cost": 0.0,
       "tournament_cost": 1245.0,
       "police_checks_cost": null,
@@ -14092,7 +14084,7 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 5529.0,
       "equipment_cost": 0.0,
       "tournament_cost": 1225.0,
       "police_checks_cost": null,
@@ -14917,7 +14909,7 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 5351.68,
       "equipment_cost": 0.0,
       "tournament_cost": 1925.0,
       "police_checks_cost": null,
@@ -15150,7 +15142,7 @@
           "date": "2026-06-17",
           "start_time": "8:30 PM",
           "end_date": "2026-06-18",
-          "summary": "15U Select - Game @ Lucan-Ilderton Athletics [15uS40]",
+          "summary": "CANCELLED 15U Select - Game @ Lucan-Ilderton Athletics [15uS40]",
           "location": "Lucan (1)",
           "type": "game",
           "cancelled": false
@@ -15546,18 +15538,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20862",
-          "href": "https://sarniabrigade.ca/Teams/1301/Games/20862/",
-          "date": "2026-06-17",
-          "start_time": "8:30 PM",
-          "opponent": "Lucan-Ilderton Athletics",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "21111",
           "href": "https://sarniabrigade.ca/Teams/1301/Games/21111/",
           "date": "2026-06-19",
@@ -15726,6 +15706,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20862",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/20862/",
+          "date": "2026-08-12",
+          "start_time": "8:30 PM",
+          "opponent": "Lucan-Ilderton Athletics",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "21117",
           "href": "https://sarniabrigade.ca/Teams/1301/Games/21117/",
           "date": "2026-08-16",
@@ -15804,7 +15796,7 @@
           }
         ]
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 5621.75,
       "equipment_cost": 0.0,
       "tournament_cost": 1301.05,
       "police_checks_cost": null,
@@ -17011,7 +17003,7 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 2179.77,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
       "police_checks_cost": null,
@@ -18681,7 +18673,7 @@
           "start_time": "7:00 PM",
           "end_date": "2026-06-18",
           "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
+          "location": "Errol Russell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -20854,7 +20846,7 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 1271.25,
       "equipment_cost": 0.0,
       "tournament_cost": 0.0,
       "police_checks_cost": null,
@@ -20908,6 +20900,15 @@
       "start_time": "5:30 PM",
       "summary": "CANCELLED 10U AA OBA Rep - Practice",
       "location": "Clearwater Diamond #2"
+    },
+    {
+      "team_id": 1311,
+      "team_name": "10U A OBA Rep",
+      "type": "practice",
+      "date": "2026-06-17",
+      "start_time": "5:30 PM",
+      "summary": "CANCELLED 10U A OBA Rep - Practice",
+      "location": "Coronation Park Diamond"
     },
     {
       "team_id": 1293,
@@ -20980,6 +20981,15 @@
       "start_time": "10:00 AM",
       "summary": "CANCELLED 13U OBA Rep - Practice",
       "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1295,
+      "team_name": "13U OBA Rep",
+      "type": "game",
+      "date": "2026-06-17",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 13U OBA Rep - Game @ Dorchester Diamondbacks [13u50]",
+      "location": "Dorchester (3)"
     },
     {
       "team_id": 1296,
@@ -21079,6 +21089,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 13U Select - Practice",
       "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1301,
+      "team_name": "15U Select",
+      "type": "game",
+      "date": "2026-06-17",
+      "start_time": "8:30 PM",
+      "summary": "CANCELLED 15U Select - Game @ Lucan-Ilderton Athletics [15uS40]",
+      "location": "Lucan (1)"
     },
     {
       "team_id": 1310,
