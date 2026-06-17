@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-17T19:33:41.672402Z",
+  "generated": "2026-06-17T23:03:40.711920Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1569,7 +1569,7 @@
           "date": "2026-06-17",
           "start_time": "6:00 PM",
           "end_date": "2026-06-18",
-          "summary": "9U OBA Rep - Practice",
+          "summary": "CANCELLED 9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
           "type": "practice",
           "cancelled": false
@@ -2289,7 +2289,7 @@
       "ties": 0,
       "runs_for": 64,
       "runs_against": 46,
-      "practices": 44,
+      "practices": 43,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -2299,16 +2299,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20386-sarniabrigade.ca",
-          "date": "2026-04-17",
-          "start_time": "5:00 PM",
-          "end_date": "2026-04-17",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19651-sarniabrigade.ca",
           "date": "2026-04-22",
@@ -2664,7 +2654,7 @@
           "date": "2026-06-17",
           "start_time": "5:30 PM",
           "end_date": "2026-06-17",
-          "summary": "10U AA OBA Rep - Practice",
+          "summary": "CANCELLED 10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
           "cancelled": false
@@ -3655,7 +3645,6 @@
               "Greg Armstrong",
               "Greg Baker",
               "Hannah Stewart",
-              "Harper Vandenheuval",
               "Hayden Scheuermann",
               "Jack Needham",
               "Jackson Bunda",
@@ -3874,7 +3863,6 @@
                   "Greg Armstrong",
                   "Greg Baker",
                   "Hannah Stewart",
-                  "Harper Vandenheuval",
                   "Hayden Scheuermann",
                   "Jack Needham",
                   "Jackson Bunda",
@@ -3944,16 +3932,20 @@
                 "pending_umpires": [
                   "Ameer Sulaiman",
                   "Brian Mundt",
+                  "Carson Whittington",
                   "Chris Bonneau",
                   "Clark Thornton",
                   "Cohen Smith",
+                  "Dan Scott",
                   "David Haasen",
-                  "Drew Bennett",
+                  "Doug Krall",
                   "Easton McKinlay",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
-                  "Greg Baker",
+                  "Harper Vandenheuval",
+                  "Jacob Dawson",
+                  "Jason Lajeunesse",
                   "Kayne Golder",
                   "Liam Colosimo",
                   "Logan Hiscocks",
@@ -3963,24 +3955,21 @@
                   "Nate Edwards",
                   "Nathan Zavitz",
                   "Paolo Padiglia",
-                  "Ralph Campbell",
                   "Rio Ruiz",
                   "Summer Steinke",
                   "Terry Doyle",
-                  "Tyler Whetham",
-                  "Zhayn Trowbridge"
+                  "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
                   "Doug Krall",
-                  "Tyler Hoadley",
                   "Tyler Whetham",
                   "Wiishkpimin Macbeth"
                 ],
                 "assigned_count": 108,
-                "accepted_count": 103,
-                "pending_count": 27,
-                "denied_count": 5,
+                "accepted_count": 102,
+                "pending_count": 29,
+                "denied_count": 4,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -14102,7 +14091,7 @@
       "ties": 0,
       "runs_for": 62,
       "runs_against": 43,
-      "practices": 25,
+      "practices": 24,
       "roster": {
         "players": 12,
         "adults": 4,
@@ -14112,16 +14101,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20174-sarniabrigade.ca",
-          "date": "2026-04-17",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-18",
-          "summary": "13U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19830-sarniabrigade.ca",
           "date": "2026-04-24",
@@ -15138,16 +15117,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20862-sarniabrigade.ca",
-          "date": "2026-06-17",
-          "start_time": "8:30 PM",
-          "end_date": "2026-06-18",
-          "summary": "CANCELLED 15U Select - Game @ Lucan-Ilderton Athletics [15uS40]",
-          "location": "Lucan (1)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21111-sarniabrigade.ca",
           "date": "2026-06-19",
           "start_time": "6:00 PM",
@@ -15405,6 +15374,16 @@
           "summary": "15U Select - Practice",
           "location": "Blackwell Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20862-sarniabrigade.ca",
+          "date": "2026-08-12",
+          "start_time": "8:30 PM",
+          "end_date": "2026-08-13",
+          "summary": "15U Select - Game @ Lucan-Ilderton Athletics [15uS40]",
+          "location": "Lucan (1)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -16667,7 +16646,7 @@
           "date": "2026-06-17",
           "start_time": "6:00 PM",
           "end_date": "2026-06-18",
-          "summary": "11U Lady Brigade - Practice",
+          "summary": "CANCELLED 11U Lady Brigade - Practice",
           "location": "TBD",
           "type": "practice",
           "cancelled": false
@@ -18672,7 +18651,7 @@
           "date": "2026-06-17",
           "start_time": "7:00 PM",
           "end_date": "2026-06-18",
-          "summary": "16U PBLO - Practice",
+          "summary": "CANCELLED 16U PBLO - Practice",
           "location": "Errol Russell Park",
           "type": "practice",
           "cancelled": false
@@ -20878,6 +20857,15 @@
       "team_id": 1291,
       "team_name": "9U OBA Rep",
       "type": "practice",
+      "date": "2026-06-17",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 9U OBA Rep - Practice",
+      "location": "Clearwater Diamond #1"
+    },
+    {
+      "team_id": 1291,
+      "team_name": "9U OBA Rep",
+      "type": "practice",
       "date": "2026-07-01",
       "start_time": "6:00 PM",
       "summary": "CANCELLED 9U OBA Rep - Practice",
@@ -20897,6 +20885,15 @@
       "team_name": "10U AA OBA Rep",
       "type": "practice",
       "date": "2026-04-29",
+      "start_time": "5:30 PM",
+      "summary": "CANCELLED 10U AA OBA Rep - Practice",
+      "location": "Clearwater Diamond #2"
+    },
+    {
+      "team_id": 1292,
+      "team_name": "10U AA OBA Rep",
+      "type": "practice",
+      "date": "2026-06-17",
       "start_time": "5:30 PM",
       "summary": "CANCELLED 10U AA OBA Rep - Practice",
       "location": "Clearwater Diamond #2"
@@ -21091,15 +21088,6 @@
       "location": "Tecumseh Park"
     },
     {
-      "team_id": 1301,
-      "team_name": "15U Select",
-      "type": "game",
-      "date": "2026-06-17",
-      "start_time": "8:30 PM",
-      "summary": "CANCELLED 15U Select - Game @ Lucan-Ilderton Athletics [15uS40]",
-      "location": "Lucan (1)"
-    },
-    {
       "team_id": 1310,
       "team_name": "11U Lady Brigade",
       "type": "practice",
@@ -21107,6 +21095,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 11U Lady Brigade - Practice",
       "location": "Clearwater Diamond #1"
+    },
+    {
+      "team_id": 1310,
+      "team_name": "11U Lady Brigade",
+      "type": "practice",
+      "date": "2026-06-17",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 11U Lady Brigade - Practice",
+      "location": "TBD"
     },
     {
       "team_id": 1302,
@@ -21187,6 +21184,15 @@
       "date": "2026-05-23",
       "start_time": "2:00 PM",
       "summary": "CANCELLED 16U PBLO - Game vs Ontario Prospects",
+      "location": "Errol Russell Park"
+    },
+    {
+      "team_id": 1298,
+      "team_name": "16U PBLO",
+      "type": "practice",
+      "date": "2026-06-17",
+      "start_time": "7:00 PM",
+      "summary": "CANCELLED 16U PBLO - Practice",
       "location": "Errol Russell Park"
     },
     {
