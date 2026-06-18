@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-18T19:33:29.430916Z",
+  "generated": "2026-06-18T23:03:43.952967Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -375,7 +375,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-06-18",
           "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
+          "location": "Blackwell North",
           "type": "practice",
           "cancelled": false
         },
@@ -3945,6 +3945,7 @@
                   "Kayne Golder",
                   "Kevin Johnson",
                   "Liam Colosimo",
+                  "Logan Conroy",
                   "Mason Portiss",
                   "Matthew Schrie",
                   "Nate Edwards",
@@ -3970,7 +3971,7 @@
                 ],
                 "assigned_count": 108,
                 "accepted_count": 102,
-                "pending_count": 25,
+                "pending_count": 26,
                 "denied_count": 10,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -15198,7 +15199,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-06-20",
           "summary": "15U Select - Game vs Dorchester Diamondbacks [15uS69]",
-          "location": "Blackwell Park",
+          "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
         },
@@ -15208,7 +15209,7 @@
           "start_time": "9:00 PM",
           "end_date": "2026-06-20",
           "summary": "15U Select - Game vs Dorchester Diamondbacks [15uS74]",
-          "location": "Blackwell Park",
+          "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
         },
@@ -15810,7 +15811,7 @@
               {
                 "time": "6:00 PM",
                 "opponent": "Dorchester Diamondbacks",
-                "venue": "Blackwell Park",
+                "venue": "Errol Russell Park",
                 "assigned_umpires": [
                   "Jackson Burlingham",
                   "Jason Lajeunesse"
@@ -15830,7 +15831,7 @@
               {
                 "time": "9:00 PM",
                 "opponent": "Dorchester Diamondbacks",
-                "venue": "Blackwell Park",
+                "venue": "Errol Russell Park",
                 "assigned_umpires": [
                   "David Haasen",
                   "Jason Lajeunesse"
