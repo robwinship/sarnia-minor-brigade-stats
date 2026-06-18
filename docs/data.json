@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-18T10:03:26.337239Z",
+  "generated": "2026-06-18T16:03:30.457358Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3932,11 +3932,11 @@
                 "pending_umpires": [
                   "Ameer Sulaiman",
                   "Brian Mundt",
-                  "Carson Whittington",
-                  "Chris Bonneau",
                   "Clark Thornton",
                   "Cohen Smith",
                   "Dan Scott",
+                  "David Haasen",
+                  "Drew Bennett",
                   "Easton McKinlay",
                   "Graham Dolbear",
                   "Grant Purdy",
@@ -3947,29 +3947,32 @@
                   "Kayne Golder",
                   "Kevin Johnson",
                   "Liam Colosimo",
+                  "Lucas Nethery",
                   "Mason Portiss",
-                  "Matt Kennett",
+                  "Matthew Schrie",
                   "Nate Edwards",
                   "Nathan Zavitz",
-                  "Paolo Padiglia",
                   "Rio Ruiz",
                   "Ryder Daye",
                   "Shane Moorhouse",
                   "Terry Doyle",
-                  "Tyler Whetham"
+                  "Tyler Whetham",
+                  "Wiishkpimin Macbeth"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
+                  "Carson Whittington",
+                  "Carter Wills",
+                  "Chris Bonneau",
                   "Logan Hiscocks",
                   "Marko Sazdov",
-                  "Ralph Campbell",
                   "Tyler Whetham",
                   "Wiishkpimin Macbeth"
                 ],
                 "assigned_count": 108,
                 "accepted_count": 102,
-                "pending_count": 27,
-                "denied_count": 6,
+                "pending_count": 28,
+                "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -6854,13 +6857,13 @@
       "id": 1294,
       "name": "12U OBA Rep",
       "category": "OBA Rep",
-      "gp": 11,
-      "wins": 4,
+      "gp": 12,
+      "wins": 5,
       "losses": 7,
       "ties": 0,
-      "runs_for": 70,
-      "runs_against": 123,
-      "practices": 35,
+      "runs_for": 85,
+      "runs_against": 136,
+      "practices": 34,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -6870,16 +6873,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-20000-sarniabrigade.ca",
-          "date": "2026-04-18",
-          "start_time": "7:00 AM",
-          "end_date": "2026-04-18",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20521-sarniabrigade.ca",
           "date": "2026-04-22",
@@ -7155,7 +7148,7 @@
           "date": "2026-06-16",
           "start_time": "6:00 PM",
           "end_date": "2026-06-17",
-          "summary": "12U OBA Rep - Game @ St. Thomas Cardinals [12u20]",
+          "summary": "12U OBA Rep - Game @ St. Thomas Cardinals [12u20](W 15-13)",
           "location": "New York Central",
           "type": "game",
           "cancelled": false
@@ -7735,9 +7728,9 @@
           "start_time": "6:00 PM",
           "opponent": "St. Thomas Cardinals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 15,
+          "opp_score": 13,
           "cancelled": false
         },
         {
@@ -13308,12 +13301,12 @@
       "id": 1303,
       "name": "11U Select",
       "category": "Select",
-      "gp": 9,
-      "wins": 5,
+      "gp": 10,
+      "wins": 6,
       "losses": 4,
       "ties": 0,
-      "runs_for": 93,
-      "runs_against": 82,
+      "runs_for": 104,
+      "runs_against": 86,
       "practices": 19,
       "roster": {
         "players": 13,
@@ -13509,7 +13502,7 @@
           "date": "2026-06-12",
           "start_time": "6:00 PM",
           "end_date": "2026-06-13",
-          "summary": "11U Select - Game @ Dutton Royals [11uS119]",
+          "summary": "11U Select - Game @ Dutton Royals [11uS119](W 11-4)",
           "location": "Scotland Park (Diamond 1)",
           "type": "game",
           "cancelled": false
@@ -13899,9 +13892,9 @@
           "start_time": "6:00 PM",
           "opponent": "Dutton Royals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 4,
           "cancelled": false
         },
         {
