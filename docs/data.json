@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-18T16:03:30.457358Z",
+  "generated": "2026-06-18T19:33:29.430916Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3935,8 +3935,6 @@
                   "Clark Thornton",
                   "Cohen Smith",
                   "Dan Scott",
-                  "David Haasen",
-                  "Drew Bennett",
                   "Easton McKinlay",
                   "Graham Dolbear",
                   "Grant Purdy",
@@ -3947,7 +3945,6 @@
                   "Kayne Golder",
                   "Kevin Johnson",
                   "Liam Colosimo",
-                  "Lucas Nethery",
                   "Mason Portiss",
                   "Matthew Schrie",
                   "Nate Edwards",
@@ -3964,15 +3961,17 @@
                   "Carson Whittington",
                   "Carter Wills",
                   "Chris Bonneau",
+                  "Drew Bennett",
                   "Logan Hiscocks",
+                  "Lucas Nethery",
                   "Marko Sazdov",
                   "Tyler Whetham",
                   "Wiishkpimin Macbeth"
                 ],
                 "assigned_count": 108,
                 "accepted_count": 102,
-                "pending_count": 28,
-                "denied_count": 8,
+                "pending_count": 25,
+                "denied_count": 10,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -9713,7 +9712,7 @@
           "date": "2026-06-18",
           "start_time": "8:00 PM",
           "end_date": "2026-06-19",
-          "summary": "14U OBA Rep - Practice",
+          "summary": "CANCELLED 14U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
@@ -11402,7 +11401,7 @@
           "date": "2026-06-18",
           "start_time": "5:30 PM",
           "end_date": "2026-06-18",
-          "summary": "15U OBA Rep - Practice",
+          "summary": "CANCELLED 15U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
@@ -13307,7 +13306,7 @@
       "ties": 0,
       "runs_for": 104,
       "runs_against": 86,
-      "practices": 19,
+      "practices": 24,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -13538,6 +13537,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21912-sarniabrigade.ca",
+          "date": "2026-06-22",
+          "start_time": "7:00 PM",
+          "end_date": "2026-06-23",
+          "summary": "11U Select - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20913-sarniabrigade.ca",
           "date": "2026-06-23",
           "start_time": "6:00 PM",
@@ -13575,6 +13584,16 @@
           "summary": "11U Select - Game vs Southwest London Scorpions [11uS61]",
           "location": "Clearwater Diamond #2",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21913-sarniabrigade.ca",
+          "date": "2026-07-06",
+          "start_time": "7:00 PM",
+          "end_date": "2026-07-07",
+          "summary": "11U Select - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -13628,6 +13647,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21914-sarniabrigade.ca",
+          "date": "2026-07-20",
+          "start_time": "7:00 PM",
+          "end_date": "2026-07-21",
+          "summary": "11U Select - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20894-sarniabrigade.ca",
           "date": "2026-07-23",
           "start_time": "6:30 PM",
@@ -13655,6 +13684,16 @@
           "summary": "11U Select - Game @ Lucan-Ilderton Athletics [11uS23]",
           "location": "Lucan (2)",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21915-sarniabrigade.ca",
+          "date": "2026-08-03",
+          "start_time": "7:00 PM",
+          "end_date": "2026-08-04",
+          "summary": "11U Select - Indoor Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -13754,6 +13793,16 @@
           "end_date": "2026-08-30",
           "summary": "11U Select - Practice",
           "location": "Clearwater Diamond #2",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21916-sarniabrigade.ca",
+          "date": "2026-08-31",
+          "start_time": "7:00 PM",
+          "end_date": "2026-09-01",
+          "summary": "11U Select - Indoor Practice",
+          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -19614,7 +19663,7 @@
       },
       "uniform_cost": 8187.98,
       "equipment_cost": 0.0,
-      "tournament_cost": 1950.0,
+      "tournament_cost": 3938.0,
       "police_checks_cost": null,
       "coach_certs_cost": 0.0,
       "pitch_cost": 0.0,
@@ -21113,6 +21162,15 @@
       "location": "Blackwell Park"
     },
     {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "practice",
+      "date": "2026-06-18",
+      "start_time": "8:00 PM",
+      "summary": "CANCELLED 14U OBA Rep - Practice",
+      "location": "Blackwell Park"
+    },
+    {
       "team_id": 1297,
       "team_name": "15U OBA Rep",
       "type": "game",
@@ -21137,6 +21195,15 @@
       "date": "2026-05-16",
       "start_time": "1:30 PM",
       "summary": "CANCELLED 15U OBA Rep - Game vs Chatham Diamonds 15U [WC15U-055]",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1297,
+      "team_name": "15U OBA Rep",
+      "type": "practice",
+      "date": "2026-06-18",
+      "start_time": "5:30 PM",
+      "summary": "CANCELLED 15U OBA Rep - Practice",
       "location": "Blackwell Park"
     },
     {
