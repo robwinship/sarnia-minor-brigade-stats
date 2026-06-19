@@ -262,7 +262,9 @@ def fetch_budget_metrics(csv_url: str) -> dict:
         if uniform_value is None:
             uniform_value = row.get("Uniform")
 
-        equipment_value = row.get("Equipment $")
+        equipment_value = row.get("League Fees")
+        if equipment_value is None:
+            equipment_value = row.get("Equipment $")
         if equipment_value is None:
             equipment_value = row.get("Equipment")
 
@@ -270,7 +272,9 @@ def fetch_budget_metrics(csv_url: str) -> dict:
         if tournament_value is None:
             tournament_value = row.get("Tournament")
 
-        police_checks_value = row.get("Police Checks")
+        police_checks_value = row.get("Split Expenses")
+        if police_checks_value is None:
+            police_checks_value = row.get("Police Checks")
         coach_certs_value = row.get("Coach Certs")
         pitch_value = row.get("Pitch $")
         reg_fee_2026_value = row.get("2026 Reg Fee")
