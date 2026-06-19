@@ -2383,9 +2383,9 @@ function renderBudgetModel() {
             <tr>
               <th class="col-team">Team</th>
               <th>Uniform $</th>
-              <th>Equipment</th>
+              <th>League Fees</th>
               <th>Tournaments</th>
-              <th>Police Checks</th>
+              <th>Split Expenses</th>
               <th>Coach Certs</th>
               <th>Pitch $</th>
               <th>Players</th>
@@ -2406,7 +2406,7 @@ function renderBudgetModel() {
   body.innerHTML = `
     <div class="cat-block">
       <div class="cat-header">Modeled Total: ${escHtml(fmtMoney(totals.total_cost))} (Players: ${totals.players}, Adults: ${totals.adults})</div>
-      <div class="controls-note" style="margin-top:0.8rem;">Note: sheet-sourced costs (Uniforms, Equipment, Tournaments, Police Checks, Coach Certs, Pitch $) are imported from the budget metrics spreadsheet and added to the modelled totals.</div>
+      <div class="controls-note" style="margin-top:0.8rem;">Note: sheet-sourced costs (Uniforms, League Fees, Tournaments, Split Expenses, Coach Certs, Pitch $) are imported from the budget metrics spreadsheet and added to the modelled totals.</div>
     </div>
     ${categoryBlocksHtml}`;
 }
