@@ -887,7 +887,7 @@
   <div id="view-proposed-fees" style="display:none">
     <div class="controls-card" aria-label="Proposed fees note">
       <div class="section-title">Proposed Fees</div>
-      <div class="controls-note">Compares the 2026 registration fee per player against the full-season modelled cost per player (using rates configured in Budget Model). Proposed 2027 adds 12% to the modelled cost per player.</div>
+      <div class="controls-note">Compares the 2026 registration fee per player against the full-season modelled cost per player (using rates configured in Budget Model). Proposed 2027 adds 3% to the modelled cost per player.</div>
     </div>
     <div id="proposed-fees-body"></div>
   </div><!-- /view-proposed-fees -->
@@ -2420,7 +2420,7 @@ function buildProposedFeesRows(teams, costs) {
   return budgetRows.map(row => {
     const regFee = Number((teamByName[row.team_name] ?? {}).reg_fee_2026);
     const costPerPlayer = row.players > 0 ? row.total_cost / row.players : null;
-    const proposed2027 = costPerPlayer != null ? costPerPlayer * 1.12 : null;
+    const proposed2027 = costPerPlayer != null ? costPerPlayer * 1.03 : null;
     return {
       team_name: row.team_name,
       category: row.category,
