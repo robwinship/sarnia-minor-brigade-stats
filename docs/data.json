@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-19T19:33:28.663423Z",
+  "generated": "2026-06-19T23:03:39.255959Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3934,14 +3934,12 @@
                   "Brogan Murphy",
                   "Dan Scott",
                   "Dawson O'Brien",
-                  "Easton McKinlay",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Armstrong",
                   "Jason Lajeunesse",
                   "Kayleigh Buchan",
                   "Kayne Golder",
-                  "Kevin Johnson",
                   "Liam Colosimo",
                   "Liam Scott",
                   "Logan Conroy",
@@ -3953,10 +3951,8 @@
                   "Rio Ruiz",
                   "Ryder Daye",
                   "Sadie Daughtrey",
-                  "Shane Moorhouse",
                   "Sydney Nisbet",
                   "Terry Doyle",
-                  "Tie Richards",
                   "Tucker Stokes",
                   "Tyler Whetham"
                 ],
@@ -3969,13 +3965,14 @@
                   "Logan Hiscocks",
                   "Lucas Nethery",
                   "Marko Sazdov",
+                  "Shane Moorhouse",
                   "Tyler Whetham",
                   "Wiishkpimin Macbeth"
                 ],
                 "assigned_count": 107,
                 "accepted_count": 102,
-                "pending_count": 30,
-                "denied_count": 10,
+                "pending_count": 26,
+                "denied_count": 11,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4069,7 +4066,7 @@
       "ties": 0,
       "runs_for": 113,
       "runs_against": 121,
-      "practices": 42,
+      "practices": 41,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -4079,16 +4076,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19925-sarniabrigade.ca",
-          "date": "2026-04-19",
-          "start_time": "4:00 PM",
-          "end_date": "2026-04-19",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20153-sarniabrigade.ca",
           "date": "2026-04-23",
