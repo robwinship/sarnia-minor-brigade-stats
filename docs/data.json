@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-19T00:35:14.421350Z",
+  "generated": "2026-06-19T00:45:02.402564Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3931,7 +3931,6 @@
                 ],
                 "pending_umpires": [
                   "Ameer Sulaiman",
-                  "Bentley Bartosz",
                   "Blake Adams",
                   "Brian Mundt",
                   "Brogan Murphy",
@@ -3981,7 +3980,7 @@
                 ],
                 "assigned_count": 108,
                 "accepted_count": 102,
-                "pending_count": 36,
+                "pending_count": 35,
                 "denied_count": 10,
                 "assignment_state": "assigned_and_accepted"
               },
