@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-19T23:03:39.255959Z",
+  "generated": "2026-06-20T10:03:40.994265Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2265,11 +2265,67 @@
         "games_missed": 0,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-06-27",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "Hayden Scheuermann | Kayne Golder",
+              "Hayden Scheuermann | Zhayn Trowbridge"
+            ],
+            "mismatched_names": [
+              "Kayne Golder",
+              "Zhayn Trowbridge"
+            ],
+            "games": [
+              {
+                "time": "11:00 AM",
+                "opponent": "Lasalle Turtle Club",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Hayden Scheuermann",
+                  "Kayne Golder"
+                ],
+                "accepted_umpires": [
+                  "Hayden Scheuermann",
+                  "Kayne Golder"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "2:00 PM",
+                "opponent": "Lasalle Turtle Club",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Hayden Scheuermann",
+                  "Zhayn Trowbridge"
+                ],
+                "accepted_umpires": [
+                  "Hayden Scheuermann",
+                  "Zhayn Trowbridge"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          }
+        ]
       },
       "uniform_cost": 7060.24,
       "equipment_cost": 1135.0,
@@ -3932,7 +3988,6 @@
                   "Ameer Sulaiman",
                   "Brian Mundt",
                   "Brogan Murphy",
-                  "Dan Scott",
                   "Dawson O'Brien",
                   "Graham Dolbear",
                   "Grant Purdy",
@@ -3971,7 +4026,7 @@
                 ],
                 "assigned_count": 107,
                 "accepted_count": 102,
-                "pending_count": 26,
+                "pending_count": 25,
                 "denied_count": 11,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -14953,7 +15008,7 @@
       "ties": 0,
       "runs_for": 36,
       "runs_against": 39,
-      "practices": 33,
+      "practices": 32,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -15484,16 +15539,6 @@
           "cancelled": false
         },
         {
-          "uid": "MD-3302-sarniabrigade.ca",
-          "date": "2026-04-19",
-          "start_time": "5:45 PM",
-          "end_date": "2026-04-20",
-          "summary": "15U Select - Practice",
-          "location": "Blackwell",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MD-3303-sarniabrigade.ca",
           "date": "2026-06-05",
           "start_time": null,
@@ -15759,15 +15804,15 @@
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-06-19",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": false,
             "pair_signatures": [
               "David Haasen | Jason Lajeunesse",
@@ -17041,12 +17086,12 @@
       "id": 1315,
       "name": "11U River League",
       "category": "River League",
-      "gp": 6,
-      "wins": 4,
+      "gp": 7,
+      "wins": 5,
       "losses": 2,
       "ties": 0,
-      "runs_for": 66,
-      "runs_against": 51,
+      "runs_for": 78,
+      "runs_against": 57,
       "practices": 13,
       "roster": {
         "players": 15,
@@ -17182,7 +17227,7 @@
           "date": "2026-06-19",
           "start_time": "8:00 PM",
           "end_date": "2026-06-20",
-          "summary": "11u River League - Game @ Corunna Giants Select [WC11UEX-016]",
+          "summary": "11u River League - Game @ Corunna Giants Select [WC11UEX-016](W 12-6)",
           "location": "Stewart Park",
           "type": "game",
           "cancelled": false
@@ -17408,9 +17453,9 @@
           "start_time": "8:00 PM",
           "opponent": "Corunna Giants Select WC11UEX-016 Stewart Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 6,
           "cancelled": false
         },
         {
@@ -17520,12 +17565,12 @@
       "id": 1302,
       "name": "13U LDBA House League",
       "category": "House League",
-      "gp": 5,
-      "wins": 5,
+      "gp": 6,
+      "wins": 6,
       "losses": 0,
       "ties": 0,
-      "runs_for": 97,
-      "runs_against": 21,
+      "runs_for": 109,
+      "runs_against": 23,
       "practices": 22,
       "roster": {
         "players": 14,
@@ -17721,7 +17766,7 @@
           "date": "2026-06-19",
           "start_time": "6:00 PM",
           "end_date": "2026-06-20",
-          "summary": "13U LDBA House League - Game vs Strathroy Black [13uW39]",
+          "summary": "13U LDBA House League - Game vs Strathroy Black [13uW39](W 2-12)",
           "location": "Clearwater Diamond #4",
           "type": "game",
           "cancelled": false
@@ -18039,9 +18084,9 @@
           "start_time": "6:00 PM",
           "opponent": "Strathroy Black",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 2,
           "cancelled": false
         },
         {
