@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-20T10:03:40.994265Z",
+  "generated": "2026-06-20T16:03:23.533237Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3991,8 +3991,6 @@
                   "Dawson O'Brien",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Greg Armstrong",
-                  "Jason Lajeunesse",
                   "Kayleigh Buchan",
                   "Kayne Golder",
                   "Liam Colosimo",
@@ -4026,7 +4024,7 @@
                 ],
                 "assigned_count": 107,
                 "accepted_count": 102,
-                "pending_count": 25,
+                "pending_count": 23,
                 "denied_count": 11,
                 "assignment_state": "assigned_and_accepted"
               },
