@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-20T16:03:23.533237Z",
+  "generated": "2026-06-20T19:33:09.893570Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3833,7 +3833,6 @@
                   "Lane Vanden Ouweland",
                   "Lawrence Dyck",
                   "Levi Burlingham",
-                  "Liam Colosimo",
                   "Liam Scott",
                   "Logan Conroy",
                   "Logan Hiscocks",
@@ -3847,8 +3846,6 @@
                   "Max McClintock",
                   "Mikayla Coubroug",
                   "Myles Hobbs",
-                  "Nate Edwards",
-                  "Nathan Zavitz",
                   "Noah Bechard",
                   "Nolan Bogaert",
                   "Nolan Pool",
@@ -3987,23 +3984,20 @@
                 "pending_umpires": [
                   "Ameer Sulaiman",
                   "Brian Mundt",
+                  "Brock Lane",
                   "Brogan Murphy",
-                  "Dawson O'Brien",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Kayleigh Buchan",
                   "Kayne Golder",
-                  "Liam Colosimo",
                   "Liam Scott",
                   "Logan Conroy",
                   "Logan Hiscocks",
+                  "Marko Sazdov",
                   "Mason Portiss",
                   "Matthew Schrie",
-                  "Nate Edwards",
-                  "Nathan Zavitz",
+                  "Ralph Campbell",
                   "Rio Ruiz",
                   "Ryder Daye",
-                  "Sadie Daughtrey",
                   "Sydney Nisbet",
                   "Terry Doyle",
                   "Tucker Stokes",
@@ -4014,18 +4008,16 @@
                   "Carson Whittington",
                   "Chris Bonneau",
                   "Clark Thornton",
+                  "Dawson O'Brien",
                   "Drew Bennett",
-                  "Logan Hiscocks",
-                  "Lucas Nethery",
                   "Marko Sazdov",
                   "Shane Moorhouse",
-                  "Tyler Whetham",
-                  "Wiishkpimin Macbeth"
+                  "Tyler Whetham"
                 ],
-                "assigned_count": 107,
+                "assigned_count": 104,
                 "accepted_count": 102,
-                "pending_count": 23,
-                "denied_count": 11,
+                "pending_count": 20,
+                "denied_count": 9,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -15877,12 +15869,12 @@
       "id": 1304,
       "name": "9U River League",
       "category": "River League",
-      "gp": 5,
+      "gp": 6,
       "wins": 2,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
-      "runs_for": 67,
-      "runs_against": 59,
+      "runs_for": 80,
+      "runs_against": 76,
       "practices": 17,
       "roster": {
         "players": 16,
@@ -16018,7 +16010,7 @@
           "date": "2026-06-20",
           "start_time": "12:00 PM",
           "end_date": "2026-06-20",
-          "summary": "9U River League - Game @ Alvinston Riverhawks Navy [RL9UN-42]",
+          "summary": "9U River League - Game @ Alvinston Riverhawks Navy [RL9UN-42](L 13-17)",
           "location": "Inwood Park",
           "type": "game",
           "cancelled": false
@@ -16332,9 +16324,9 @@
           "start_time": "12:00 PM",
           "opponent": "Alvinston Riverhawks Navy RL9UN-42 Inwood Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 13,
+          "opp_score": 17,
           "cancelled": false
         },
         {
@@ -18230,12 +18222,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 23,
+      "gp": 24,
       "wins": 13,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "runs_for": 168,
-      "runs_against": 140,
+      "runs_for": 171,
+      "runs_against": 150,
       "practices": 44,
       "roster": {
         "players": 15,
@@ -18751,7 +18743,7 @@
           "date": "2026-06-20",
           "start_time": "10:00 AM",
           "end_date": "2026-06-20",
-          "summary": "16U PBLO - Game @ London Badgers",
+          "summary": "16U PBLO - Game @ London Badgers(L 3-10)",
           "location": "Stronach (Aldridge)",
           "type": "game",
           "cancelled": false
@@ -19495,9 +19487,9 @@
           "start_time": "10:00 AM",
           "opponent": "London Badgers Stronach",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 3,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -20232,9 +20224,9 @@
       ],
       "umpire_issues": {
         "games_missed": 2,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -20269,9 +20261,107 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
+          },
+          {
+            "date": "2026-06-27",
+            "time": "1:00 PM",
+            "opponent": "Hamilton",
+            "venue": "Courtright Community Park",
+            "assigned_umpires": [
+              "Brock Lane",
+              "Lawrence Dyck"
+            ],
+            "accepted_umpires": [
+              "Lawrence Dyck"
+            ],
+            "pending_umpires": [
+              "Brock Lane"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-06-27",
+            "time": "3:30 PM",
+            "opponent": "Hamilton",
+            "venue": "Courtright Community Park",
+            "assigned_umpires": [
+              "Brock Lane",
+              "Lawrence Dyck"
+            ],
+            "accepted_umpires": [
+              "Lawrence Dyck"
+            ],
+            "pending_umpires": [
+              "Brock Lane"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
           }
         ],
-        "doubleheader_mismatch_details": []
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-06-27",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "1:00 PM",
+                "opponent": "Hamilton",
+                "venue": "Courtright Community Park",
+                "assigned_umpires": [
+                  "Brock Lane",
+                  "Lawrence Dyck"
+                ],
+                "accepted_umpires": [
+                  "Lawrence Dyck"
+                ],
+                "pending_umpires": [
+                  "Brock Lane"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "3:30 PM",
+                "opponent": "Hamilton",
+                "venue": "Courtright Community Park",
+                "assigned_umpires": [
+                  "Brock Lane",
+                  "Lawrence Dyck"
+                ],
+                "accepted_umpires": [
+                  "Lawrence Dyck"
+                ],
+                "pending_umpires": [
+                  "Brock Lane"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          }
+        ]
       },
       "uniform_cost": null,
       "equipment_cost": null,
