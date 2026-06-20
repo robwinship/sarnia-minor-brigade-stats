@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-20T19:33:09.893570Z",
+  "generated": "2026-06-20T23:03:16.228705Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3984,40 +3984,42 @@
                 "pending_umpires": [
                   "Ameer Sulaiman",
                   "Brian Mundt",
-                  "Brock Lane",
-                  "Brogan Murphy",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Jackson Burlingham",
                   "Kayne Golder",
+                  "Levi Burlingham",
                   "Liam Scott",
                   "Logan Conroy",
                   "Logan Hiscocks",
                   "Marko Sazdov",
                   "Mason Portiss",
                   "Matthew Schrie",
-                  "Ralph Campbell",
                   "Rio Ruiz",
                   "Ryder Daye",
                   "Sydney Nisbet",
                   "Terry Doyle",
+                  "Tristan Heeringa",
                   "Tucker Stokes",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
+                  "Brogan Murphy",
                   "Carson Whittington",
                   "Chris Bonneau",
                   "Clark Thornton",
                   "Dawson O'Brien",
                   "Drew Bennett",
                   "Marko Sazdov",
+                  "Ralph Campbell",
                   "Shane Moorhouse",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 104,
                 "accepted_count": 102,
                 "pending_count": 20,
-                "denied_count": 9,
+                "denied_count": 11,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -8050,7 +8052,7 @@
       "ties": 0,
       "runs_for": 173,
       "runs_against": 104,
-      "practices": 38,
+      "practices": 37,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -8060,16 +8062,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20234-sarniabrigade.ca",
-          "date": "2026-04-20",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-21",
-          "summary": "13U OBA Rep - Indoor Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20235-sarniabrigade.ca",
           "date": "2026-04-23",
@@ -14992,12 +14984,12 @@
       "id": 1301,
       "name": "15U Select",
       "category": "Select",
-      "gp": 3,
-      "wins": 1,
-      "losses": 2,
+      "gp": 5,
+      "wins": 2,
+      "losses": 3,
       "ties": 0,
-      "runs_for": 36,
-      "runs_against": 39,
+      "runs_for": 53,
+      "runs_against": 76,
       "practices": 32,
       "roster": {
         "players": 12,
@@ -15213,7 +15205,7 @@
           "date": "2026-06-19",
           "start_time": "6:00 PM",
           "end_date": "2026-06-20",
-          "summary": "15U Select - Game vs Dorchester Diamondbacks [15uS69]",
+          "summary": "15U Select - Game vs Dorchester Diamondbacks [15uS69](W 11-12)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -15223,7 +15215,7 @@
           "date": "2026-06-19",
           "start_time": "9:00 PM",
           "end_date": "2026-06-20",
-          "summary": "15U Select - Game vs Dorchester Diamondbacks [15uS74]",
+          "summary": "15U Select - Game vs Dorchester Diamondbacks [15uS74](L 26-5)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -15605,9 +15597,9 @@
           "start_time": "6:00 PM",
           "opponent": "Dorchester Diamondbacks",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -15617,9 +15609,9 @@
           "start_time": "9:00 PM",
           "opponent": "Dorchester Diamondbacks",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 5,
+          "opp_score": 26,
           "cancelled": false
         },
         {
@@ -18222,12 +18214,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 24,
-      "wins": 13,
+      "gp": 25,
+      "wins": 14,
       "losses": 11,
       "ties": 0,
-      "runs_for": 171,
-      "runs_against": 150,
+      "runs_for": 182,
+      "runs_against": 160,
       "practices": 44,
       "roster": {
         "players": 15,
@@ -18753,7 +18745,7 @@
           "date": "2026-06-20",
           "start_time": "1:30 PM",
           "end_date": "2026-06-20",
-          "summary": "16U PBLO - Game vs Sudbury Voyageurs",
+          "summary": "16U PBLO - Game vs Sudbury Voyageurs(W 10-11)",
           "location": "Stronach (Aldridge)",
           "type": "game",
           "cancelled": false
@@ -19499,9 +19491,9 @@
           "start_time": "1:30 PM",
           "opponent": "Sudbury Voyageurs Stronach",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -20224,9 +20216,9 @@
       ],
       "umpire_issues": {
         "games_missed": 2,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -20261,107 +20253,9 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
-          },
-          {
-            "date": "2026-06-27",
-            "time": "1:00 PM",
-            "opponent": "Hamilton",
-            "venue": "Courtright Community Park",
-            "assigned_umpires": [
-              "Brock Lane",
-              "Lawrence Dyck"
-            ],
-            "accepted_umpires": [
-              "Lawrence Dyck"
-            ],
-            "pending_umpires": [
-              "Brock Lane"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-27",
-            "time": "3:30 PM",
-            "opponent": "Hamilton",
-            "venue": "Courtright Community Park",
-            "assigned_umpires": [
-              "Brock Lane",
-              "Lawrence Dyck"
-            ],
-            "accepted_umpires": [
-              "Lawrence Dyck"
-            ],
-            "pending_umpires": [
-              "Brock Lane"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
           }
         ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-06-27",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "1:00 PM",
-                "opponent": "Hamilton",
-                "venue": "Courtright Community Park",
-                "assigned_umpires": [
-                  "Brock Lane",
-                  "Lawrence Dyck"
-                ],
-                "accepted_umpires": [
-                  "Lawrence Dyck"
-                ],
-                "pending_umpires": [
-                  "Brock Lane"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "3:30 PM",
-                "opponent": "Hamilton",
-                "venue": "Courtright Community Park",
-                "assigned_umpires": [
-                  "Brock Lane",
-                  "Lawrence Dyck"
-                ],
-                "accepted_umpires": [
-                  "Lawrence Dyck"
-                ],
-                "pending_umpires": [
-                  "Brock Lane"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_details": []
       },
       "uniform_cost": null,
       "equipment_cost": null,
