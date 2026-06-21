@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-21T16:03:39.073584Z",
+  "generated": "2026-06-21T19:33:04.819262Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3983,17 +3983,23 @@
                 "pending_umpires": [
                   "Ameer Sulaiman",
                   "Brian Mundt",
+                  "Cambria Caissie",
+                  "Clark Thornton",
+                  "Dan Scott",
+                  "David Haasen",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Jackson Burlingham",
+                  "Jason Lajeunesse",
                   "Kayne Golder",
                   "Logan Conroy",
+                  "Marko Sazdov",
                   "Mason Portiss",
+                  "Mikayla Coubroug",
                   "Ryder Daye",
                   "Sydney Nisbet",
                   "Terry Doyle",
                   "Tristan Heeringa",
-                  "Tucker Stokes",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -4011,7 +4017,7 @@
                 ],
                 "assigned_count": 103,
                 "accepted_count": 102,
-                "pending_count": 14,
+                "pending_count": 20,
                 "denied_count": 11,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -10931,12 +10937,35 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 3,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
+          {
+            "date": "2026-06-25",
+            "time": "8:00 PM",
+            "opponent": "Corunna Giants",
+            "venue": "Blackwell Park",
+            "assigned_umpires": [
+              "Clark Thornton",
+              "Jason Lajeunesse"
+            ],
+            "accepted_umpires": [
+              "Jason Lajeunesse"
+            ],
+            "pending_umpires": [
+              "Clark Thornton"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          },
           {
             "date": "2026-06-28",
             "time": "10:00 AM",
