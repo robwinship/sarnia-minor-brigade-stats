@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-20T23:03:16.228705Z",
+  "generated": "2026-06-21T10:03:25.714395Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3988,8 +3988,6 @@
                   "Grant Purdy",
                   "Jackson Burlingham",
                   "Kayne Golder",
-                  "Levi Burlingham",
-                  "Liam Scott",
                   "Logan Conroy",
                   "Logan Hiscocks",
                   "Marko Sazdov",
@@ -4018,7 +4016,7 @@
                 ],
                 "assigned_count": 104,
                 "accepted_count": 102,
-                "pending_count": 20,
+                "pending_count": 18,
                 "denied_count": 11,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -8046,12 +8044,12 @@
       "id": 1295,
       "name": "13U OBA Rep",
       "category": "OBA Rep",
-      "gp": 16,
-      "wins": 9,
+      "gp": 17,
+      "wins": 10,
       "losses": 7,
       "ties": 0,
-      "runs_for": 173,
-      "runs_against": 104,
+      "runs_for": 187,
+      "runs_against": 108,
       "practices": 37,
       "roster": {
         "players": 13,
@@ -8457,7 +8455,7 @@
           "date": "2026-06-18",
           "start_time": "6:00 PM",
           "end_date": "2026-06-19",
-          "summary": "13U OBA Rep - Game vs Wyoming Wranglers [WC13U-31]",
+          "summary": "13U OBA Rep - Game vs Wyoming Wranglers [WC13U-31](T 4-4)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -8467,7 +8465,7 @@
           "date": "2026-06-18",
           "start_time": "8:30 PM",
           "end_date": "2026-06-19",
-          "summary": "13U OBA Rep - Game vs Wyoming Wranglers [WC13U-10]",
+          "summary": "13U OBA Rep - Game vs Wyoming Wranglers [WC13U-10](W 0-10)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -9104,8 +9102,8 @@
           "opponent": "Wyoming Wranglers WC13U-31 Tecumseh Park",
           "home": true,
           "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "brigade_score": 4,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -9115,9 +9113,9 @@
           "start_time": "8:30 PM",
           "opponent": "Wyoming Wranglers WC13U-10 Tecumseh Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 10,
+          "opp_score": 0,
           "cancelled": false
         },
         {
@@ -9305,7 +9303,7 @@
       "ties": 0,
       "runs_for": 215,
       "runs_against": 87,
-      "practices": 49,
+      "practices": 48,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -9315,16 +9313,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20431-sarniabrigade.ca",
-          "date": "2026-04-20",
-          "start_time": "8:00 PM",
-          "end_date": "2026-04-21",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20414-sarniabrigade.ca",
           "date": "2026-04-23",
@@ -16517,7 +16505,7 @@
         ],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 2000.0,
       "equipment_cost": 100.0,
       "tournament_cost": 0.0,
       "police_checks_cost": 1299.19,
@@ -17535,7 +17523,7 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": 0.0,
+      "uniform_cost": 2000.0,
       "equipment_cost": 100.0,
       "tournament_cost": 0.0,
       "police_checks_cost": 1299.19,
