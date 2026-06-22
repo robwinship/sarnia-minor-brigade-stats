@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-21T23:03:46.295356Z",
+  "generated": "2026-06-22T10:03:39.256794Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3773,7 +3773,6 @@
                 "venue": "Clearwater Diamond #2",
                 "assigned_umpires": [
                   "Alexander Pfaff",
-                  "Ameer Sulaiman",
                   "Annette Hoggarth",
                   "Axl Taylor",
                   "Bentley Bartosz",
@@ -3803,6 +3802,7 @@
                   "Easton McKinlay",
                   "Ethan Antle",
                   "Ethan Carlton",
+                  "Ewan Snedden",
                   "Gage Boyd",
                   "Grady Boyd",
                   "Graham Dolbear",
@@ -3981,45 +3981,44 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Ameer Sulaiman",
                   "Brian Mundt",
+                  "Brock Lane",
+                  "Brogan Murphy",
                   "Cambria Caissie",
-                  "Clark Thornton",
+                  "Chris Bonneau",
                   "Dan Scott",
-                  "David Haasen",
                   "Doug Krall",
+                  "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Jason Lajeunesse",
-                  "Kayne Golder",
                   "Logan Conroy",
                   "Marko Sazdov",
+                  "Matthew Schrie",
+                  "Paolo Padiglia",
                   "Ralph Campbell",
                   "Ryder Daye",
-                  "Sydney Nisbet",
                   "Terry Doyle",
-                  "Tristan Heeringa",
+                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
-                  "Brogan Murphy",
-                  "Carson Whittington",
                   "Chris Bonneau",
-                  "Clark Thornton",
                   "Dawson O'Brien",
                   "Drew Bennett",
+                  "Graham Dolbear",
                   "Greg Armstrong",
                   "Marko Sazdov",
                   "Mikayla Coubroug",
                   "Ralph Campbell",
                   "Shane Moorhouse",
+                  "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 103,
                 "accepted_count": 102,
                 "pending_count": 19,
-                "denied_count": 13,
+                "denied_count": 12,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -8046,12 +8045,12 @@
       "id": 1295,
       "name": "13U OBA Rep",
       "category": "OBA Rep",
-      "gp": 17,
-      "wins": 10,
-      "losses": 7,
+      "gp": 21,
+      "wins": 12,
+      "losses": 9,
       "ties": 0,
-      "runs_for": 187,
-      "runs_against": 108,
+      "runs_for": 220,
+      "runs_against": 153,
       "practices": 37,
       "roster": {
         "players": 13,
@@ -8407,7 +8406,7 @@
           "date": "2026-06-12",
           "start_time": "6:15 PM",
           "end_date": "2026-06-13",
-          "summary": "13U OBA Rep - Game vs Etobicoke Rangers",
+          "summary": "13U OBA Rep - Game vs Etobicoke Rangers(L 15-6)",
           "location": "North London Sports Field #3",
           "type": "game",
           "cancelled": false
@@ -8417,7 +8416,7 @@
           "date": "2026-06-13",
           "start_time": "1:30 PM",
           "end_date": "2026-06-13",
-          "summary": "13U OBA Rep - Game vs Sudbury Voyaguers",
+          "summary": "13U OBA Rep - Game vs Sudbury Voyaguers (W 10-11)",
           "location": "Stronach #2",
           "type": "game",
           "cancelled": false
@@ -8427,7 +8426,7 @@
           "date": "2026-06-13",
           "start_time": "6:15 PM",
           "end_date": "2026-06-14",
-          "summary": "13U OBA Rep - Game vs WOBA Bulls",
+          "summary": "13U OBA Rep - Game vs WOBA Bulls(L 9-2)",
           "location": "Stronach #3",
           "type": "game",
           "cancelled": false
@@ -8477,7 +8476,7 @@
           "date": "2026-06-20",
           "start_time": "10:00 AM",
           "end_date": "2026-06-20",
-          "summary": "13U OBA Rep - Game vs Lucan-Ilderton Athletics [13u53]",
+          "summary": "13U OBA Rep - Game vs Lucan-Ilderton Athletics [13u53](W 11-14)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -8510,6 +8509,26 @@
           "summary": "13U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21920-sarniabrigade.ca",
+          "date": "2026-06-26",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-27",
+          "summary": "13U OBA Rep - Game vs Rochester Raptors",
+          "location": "Kyte Monroe Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21921-sarniabrigade.ca",
+          "date": "2026-06-26",
+          "start_time": "8:00 PM",
+          "end_date": "2026-06-27",
+          "summary": "13U OBA Rep - Game vs Hit Dogs East",
+          "location": "Kyte Monroe Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -9055,9 +9074,9 @@
           "start_time": "6:15 PM",
           "opponent": "Etobicoke Rangers North London Sports Field",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 15,
           "cancelled": false
         },
         {
@@ -9067,9 +9086,9 @@
           "start_time": "1:30 PM",
           "opponent": "Sudbury Voyaguers Stronach",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -9079,9 +9098,9 @@
           "start_time": "6:15 PM",
           "opponent": "WOBA Bulls Stronach",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 2,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -9127,9 +9146,9 @@
           "start_time": "10:00 AM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 14,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -9139,6 +9158,30 @@
           "start_time": "6:00 PM",
           "opponent": "London Talons",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21920",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/21920/",
+          "date": "2026-06-26",
+          "start_time": "6:00 PM",
+          "opponent": "Rochester Raptors Kyte Monroe Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21921",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/21921/",
+          "date": "2026-06-26",
+          "start_time": "8:00 PM",
+          "opponent": "Hit Dogs East Kyte Monroe Park",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -9299,13 +9342,13 @@
       "id": 1296,
       "name": "14U OBA Rep",
       "category": "OBA Rep",
-      "gp": 17,
-      "wins": 14,
-      "losses": 3,
+      "gp": 22,
+      "wins": 17,
+      "losses": 5,
       "ties": 0,
-      "runs_for": 215,
-      "runs_against": 87,
-      "practices": 48,
+      "runs_for": 275,
+      "runs_against": 133,
+      "practices": 47,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -9730,7 +9773,7 @@
           "date": "2026-06-19",
           "start_time": "5:00 PM",
           "end_date": "2026-06-19",
-          "summary": "14U OBA Rep - Game vs Etobicoke [1]",
+          "summary": "14U OBA Rep - Game vs Etobicoke [1](L 14-11)",
           "location": "Point Clark",
           "type": "game",
           "cancelled": false
@@ -9740,7 +9783,7 @@
           "date": "2026-06-20",
           "start_time": "9:30 AM",
           "end_date": "2026-06-20",
-          "summary": "14U OBA Rep - Game vs Aurora [2]",
+          "summary": "14U OBA Rep - Game vs Aurora [2](L 12-10)",
           "location": "Point Clark",
           "type": "game",
           "cancelled": false
@@ -9750,19 +9793,29 @@
           "date": "2026-06-20",
           "start_time": "6:00 PM",
           "end_date": "2026-06-21",
-          "summary": "14U OBA Rep - Game vs Wheat Kings [2]",
+          "summary": "14U OBA Rep - Game vs Wheat Kings [2](W 5-6)",
           "location": "Connaught Park",
           "type": "game",
           "cancelled": false
         },
         {
-          "uid": "MS-21763-sarniabrigade.ca",
-          "date": "2026-06-22",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-23",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
+          "uid": "MS-21923-sarniabrigade.ca",
+          "date": "2026-06-21",
+          "start_time": "12:00 PM",
+          "end_date": "2026-06-21",
+          "summary": "14U OBA Rep - Game vs West  York WildCats [4](W 14-17)",
+          "location": "Point Clark",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21924-sarniabrigade.ca",
+          "date": "2026-06-21",
+          "start_time": "6:30 PM",
+          "end_date": "2026-06-22",
+          "summary": "14U OBA Rep - Game vs Wheat Kings [4](W 1-16)",
+          "location": "Connaught Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -10642,9 +10695,9 @@
           "start_time": "5:00 PM",
           "opponent": "Etobicoke",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 11,
+          "opp_score": 14,
           "cancelled": false
         },
         {
@@ -10654,9 +10707,9 @@
           "start_time": "9:30 AM",
           "opponent": "Aurora",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 10,
+          "opp_score": 12,
           "cancelled": false
         },
         {
@@ -10666,9 +10719,33 @@
           "start_time": "6:00 PM",
           "opponent": "Wheat Kings",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 6,
+          "opp_score": 5,
+          "cancelled": false
+        },
+        {
+          "game_id": "21923",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/21923/",
+          "date": "2026-06-21",
+          "start_time": "12:00 PM",
+          "opponent": "West York WildCats",
+          "home": true,
+          "result": "W",
+          "brigade_score": 17,
+          "opp_score": 14,
+          "cancelled": false
+        },
+        {
+          "game_id": "21924",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/21924/",
+          "date": "2026-06-21",
+          "start_time": "6:30 PM",
+          "opponent": "Wheat Kings",
+          "home": true,
+          "result": "W",
+          "brigade_score": 16,
+          "opp_score": 1,
           "cancelled": false
         },
         {
@@ -10938,135 +11015,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 3,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-06-25",
-            "time": "8:00 PM",
-            "opponent": "Corunna Giants",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Clark Thornton",
-              "Jason Lajeunesse"
-            ],
-            "accepted_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "pending_umpires": [
-              "Clark Thornton"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-28",
-            "time": "10:00 AM",
-            "opponent": "Dorchester Diamondbacks",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Clark Thornton",
-              "Tyler Whetham"
-            ],
-            "accepted_umpires": [
-              "Clark Thornton"
-            ],
-            "pending_umpires": [
-              "Tyler Whetham"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-28",
-            "time": "12:00 PM",
-            "opponent": "Dorchester Diamondbacks",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Clark Thornton",
-              "Tyler Whetham"
-            ],
-            "accepted_umpires": [
-              "Clark Thornton"
-            ],
-            "pending_umpires": [
-              "Tyler Whetham"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-06-28",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "Dorchester Diamondbacks",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Clark Thornton",
-                  "Tyler Whetham"
-                ],
-                "accepted_umpires": [
-                  "Clark Thornton"
-                ],
-                "pending_umpires": [
-                  "Tyler Whetham"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "12:00 PM",
-                "opponent": "Dorchester Diamondbacks",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Clark Thornton",
-                  "Tyler Whetham"
-                ],
-                "accepted_umpires": [
-                  "Clark Thornton"
-                ],
-                "pending_umpires": [
-                  "Tyler Whetham"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       },
       "uniform_cost": 8098.71,
       "equipment_cost": 1135.0,
@@ -18326,12 +18281,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 25,
-      "wins": 14,
-      "losses": 11,
+      "gp": 27,
+      "wins": 15,
+      "losses": 12,
       "ties": 0,
-      "runs_for": 182,
-      "runs_against": 160,
+      "runs_for": 196,
+      "runs_against": 181,
       "practices": 44,
       "roster": {
         "players": 15,
@@ -18867,7 +18822,7 @@
           "date": "2026-06-21",
           "start_time": "12:30 PM",
           "end_date": "2026-06-21",
-          "summary": "16U PBLO - Game @ Sudbury Voyageurs",
+          "summary": "16U PBLO - Game @ Sudbury Voyageurs(W 10-7)",
           "location": "Stronach (Aldridge)",
           "type": "game",
           "cancelled": false
@@ -18877,7 +18832,7 @@
           "date": "2026-06-21",
           "start_time": "4:00 PM",
           "end_date": "2026-06-21",
-          "summary": "16U PBLO - Game @ London Badgers",
+          "summary": "16U PBLO - Game @ London Badgers(L 4-14)",
           "location": "Stronach (Aldridge)",
           "type": "game",
           "cancelled": false
@@ -19615,9 +19570,9 @@
           "start_time": "12:30 PM",
           "opponent": "Sudbury Voyageurs Stronach",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 10,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -19627,9 +19582,9 @@
           "start_time": "4:00 PM",
           "opponent": "London Badgers Stronach",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 14,
           "cancelled": false
         },
         {
