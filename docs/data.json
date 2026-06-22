@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-22T19:33:16.077878Z",
+  "generated": "2026-06-22T23:04:44.890758Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 260,
       "runs_against": 309,
-      "practices": 37,
+      "practices": 36,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20266-sarniabrigade.ca",
-          "date": "2026-04-22",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-22",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #3",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19952-sarniabrigade.ca",
           "date": "2026-04-23",
@@ -1264,7 +1254,7 @@
       "ties": 0,
       "runs_for": 174,
       "runs_against": 82,
-      "practices": 33,
+      "practices": 31,
       "roster": {
         "players": 12,
         "adults": 5,
@@ -1274,26 +1264,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20178-sarniabrigade.ca",
-          "date": "2026-04-22",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-22",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19872-sarniabrigade.ca",
-          "date": "2026-04-22",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-23",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19892-sarniabrigade.ca",
           "date": "2026-04-25",
@@ -2335,7 +2305,7 @@
       "ties": 0,
       "runs_for": 64,
       "runs_against": 46,
-      "practices": 43,
+      "practices": 42,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -2345,16 +2315,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19651-sarniabrigade.ca",
-          "date": "2026-04-22",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-22",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20385-sarniabrigade.ca",
           "date": "2026-04-24",
@@ -3978,12 +3938,16 @@
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Jackson Burlingham",
+                  "Lane Vanden Ouweland",
                   "Lawrence Dyck",
                   "Logan Conroy",
                   "Matthew Schrie",
                   "Paolo Padiglia",
                   "Ryder Daye",
+                  "Summer Steinke",
                   "Terry Doyle",
+                  "Tristan Heeringa",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
@@ -4003,7 +3967,7 @@
                 ],
                 "assigned_count": 103,
                 "accepted_count": 102,
-                "pending_count": 15,
+                "pending_count": 19,
                 "denied_count": 12,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -6885,7 +6849,7 @@
       "ties": 0,
       "runs_for": 98,
       "runs_against": 159,
-      "practices": 34,
+      "practices": 33,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -6895,16 +6859,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-20521-sarniabrigade.ca",
-          "date": "2026-04-22",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-23",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Clearwater Diamond #4",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20522-sarniabrigade.ca",
           "date": "2026-04-26",
@@ -16580,7 +16534,7 @@
       "ties": 0,
       "runs_for": 25,
       "runs_against": 56,
-      "practices": 18,
+      "practices": 17,
       "roster": {
         "players": 12,
         "adults": 1,
@@ -16590,16 +16544,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20850-sarniabrigade.ca",
-          "date": "2026-04-22",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-23",
-          "summary": "11U Lady Brigade - Practice",
-          "location": "Germain Diamond #4",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20957-sarniabrigade.ca",
           "date": "2026-04-27",
@@ -18259,11 +18203,11 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 27,
-      "wins": 15,
+      "gp": 28,
+      "wins": 16,
       "losses": 12,
       "ties": 0,
-      "runs_for": 196,
+      "runs_for": 217,
       "runs_against": 181,
       "practices": 44,
       "roster": {
@@ -18613,6 +18557,16 @@
           "summary": "16U PBLO - Practice",
           "location": "Blackwell Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21926-sarniabrigade.ca",
+          "date": "2026-05-29",
+          "start_time": "3:30 PM",
+          "end_date": "2026-05-29",
+          "summary": "16U PBLO - Game @ Sudbury Voyageurs(W 21-0)",
+          "location": "Terry Fox Complex (Main)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -19395,6 +19349,18 @@
           "result": "L",
           "brigade_score": 3,
           "opp_score": 7,
+          "cancelled": false
+        },
+        {
+          "game_id": "21926",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/21926/",
+          "date": "2026-05-29",
+          "start_time": "3:30 PM",
+          "opponent": "Sudbury Voyageurs Terry Fox Complex",
+          "home": false,
+          "result": "W",
+          "brigade_score": 21,
+          "opp_score": 0,
           "cancelled": false
         },
         {
