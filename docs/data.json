@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-23T19:33:27.806702Z",
+  "generated": "2026-06-23T23:03:29.675018Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 270,
       "runs_against": 333,
-      "practices": 36,
+      "practices": 35,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19952-sarniabrigade.ca",
-          "date": "2026-04-23",
-          "start_time": "5:00 PM",
-          "end_date": "2026-04-23",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20286-sarniabrigade.ca",
           "date": "2026-04-26",
@@ -3931,16 +3921,13 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Brock Lane",
-                  "Brogan Murphy",
                   "Dan Scott",
-                  "Drew Bennett",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Lawrence Dyck",
                   "Logan Conroy",
+                  "Marko Sazdov",
                   "Matthew Schrie",
-                  "Ryder Daye",
                   "Summer Steinke",
                   "Terry Doyle",
                   "Tyler Hoadley",
@@ -3950,18 +3937,17 @@
                   "Brian Mundt",
                   "Chris Bonneau",
                   "Dawson O'Brien",
+                  "Drew Bennett",
                   "Graham Dolbear",
                   "Marko Sazdov",
                   "Myles Hobbs",
                   "Ralph Campbell",
-                  "Shane Moorhouse",
-                  "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 15,
-                "denied_count": 10,
+                "pending_count": 12,
+                "denied_count": 9,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4055,7 +4041,7 @@
       "ties": 0,
       "runs_for": 113,
       "runs_against": 121,
-      "practices": 41,
+      "practices": 40,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -4065,16 +4051,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20153-sarniabrigade.ca",
-          "date": "2026-04-23",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-23",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19926-sarniabrigade.ca",
           "date": "2026-04-26",
@@ -5392,7 +5368,7 @@
       "ties": 0,
       "runs_for": 127,
       "runs_against": 81,
-      "practices": 36,
+      "practices": 35,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5402,16 +5378,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20387-sarniabrigade.ca",
-          "date": "2026-04-23",
-          "start_time": "5:00 PM",
-          "end_date": "2026-04-23",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20489-sarniabrigade.ca",
           "date": "2026-04-25",
@@ -8006,7 +7972,7 @@
       "ties": 0,
       "runs_for": 220,
       "runs_against": 153,
-      "practices": 37,
+      "practices": 36,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -8016,16 +7982,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20235-sarniabrigade.ca",
-          "date": "2026-04-23",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-24",
-          "summary": "13U OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20236-sarniabrigade.ca",
           "date": "2026-04-25",
@@ -10996,7 +10952,7 @@
       "ties": 0,
       "runs_for": 115,
       "runs_against": 167,
-      "practices": 52,
+      "practices": 51,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -11006,16 +10962,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20146-sarniabrigade.ca",
-          "date": "2026-04-23",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-23",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20151-sarniabrigade.ca",
           "date": "2026-04-25",
@@ -13328,7 +13274,7 @@
       "ties": 0,
       "runs_for": 104,
       "runs_against": 86,
-      "practices": 24,
+      "practices": 23,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -13338,16 +13284,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20104-sarniabrigade.ca",
-          "date": "2026-04-23",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-24",
-          "summary": "11U Select - Practice",
-          "location": "Clearwater Diamond #3",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20106-sarniabrigade.ca",
           "date": "2026-04-26",
