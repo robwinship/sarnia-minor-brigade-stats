@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-23T10:03:39.617833Z",
+  "generated": "2026-06-23T16:04:33.774769Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3937,12 +3937,12 @@
                   "Drew Bennett",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Lane Vanden Ouweland",
                   "Lawrence Dyck",
                   "Logan Conroy",
                   "Matthew Schrie",
                   "Paolo Padiglia",
                   "Ryder Daye",
+                  "Summer Steinke",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham"
@@ -3953,6 +3953,7 @@
                   "Dawson O'Brien",
                   "Graham Dolbear",
                   "Marko Sazdov",
+                  "Myles Hobbs",
                   "Ralph Campbell",
                   "Shane Moorhouse",
                   "Tristan Heeringa",
@@ -3961,7 +3962,7 @@
                 "assigned_count": 102,
                 "accepted_count": 102,
                 "pending_count": 16,
-                "denied_count": 9,
+                "denied_count": 10,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -16543,12 +16544,12 @@
       "id": 1310,
       "name": "11U Lady Brigade",
       "category": "River League",
-      "gp": 6,
+      "gp": 7,
       "wins": 0,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "runs_for": 46,
-      "runs_against": 84,
+      "runs_for": 51,
+      "runs_against": 100,
       "practices": 17,
       "roster": {
         "players": 12,
@@ -16704,7 +16705,7 @@
           "date": "2026-06-11",
           "start_time": "6:30 PM",
           "end_date": "2026-06-12",
-          "summary": "11U Lady Brigade - Game @ Alvinston Riverhawks Select [RL11UN-54]",
+          "summary": "11U Lady Brigade - Game @ Alvinston Riverhawks Select [RL11UN-54](L 5-16)",
           "location": "Alvinston CC (South)",
           "type": "game",
           "cancelled": false
@@ -16924,9 +16925,9 @@
           "start_time": "6:30 PM",
           "opponent": "Alvinston Riverhawks Select RL11UN-54 Alvinsto",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 5,
+          "opp_score": 16,
           "cancelled": false
         },
         {
