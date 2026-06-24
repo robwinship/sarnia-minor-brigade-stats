@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-23T23:03:29.675018Z",
+  "generated": "2026-06-24T10:03:19.281255Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1645,6 +1645,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20910-sarniabrigade.ca",
+          "date": "2026-07-08",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-09",
+          "summary": "9U OBA Rep - Game @ DKMB River Cats [9u22]",
+          "location": "Tri-Township",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-19883-sarniabrigade.ca",
           "date": "2026-07-08",
           "start_time": "6:00 PM",
@@ -1772,16 +1782,6 @@
           "summary": "9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
           "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20910-sarniabrigade.ca",
-          "date": "2026-08-07",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-08",
-          "summary": "9U OBA Rep - Game @ DKMB River Cats [9u22]",
-          "location": "Tri-Township",
-          "type": "game",
           "cancelled": false
         },
         {
@@ -2103,6 +2103,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20910",
+          "href": "https://sarniabrigade.ca/Teams/1291/Games/20910/",
+          "date": "2026-07-08",
+          "start_time": "6:00 PM",
+          "opponent": "DKMB River Cats",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20731",
           "href": "https://sarniabrigade.ca/Teams/1291/Games/20731/",
           "date": "2026-07-11",
@@ -2168,18 +2180,6 @@
           "date": "2026-08-04",
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "20910",
-          "href": "https://sarniabrigade.ca/Teams/1291/Games/20910/",
-          "date": "2026-08-07",
-          "start_time": "6:00 PM",
-          "opponent": "DKMB River Cats",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -3742,6 +3742,7 @@
                   "Easton McKinlay",
                   "Ethan Antle",
                   "Ethan Carlton",
+                  "Ewan Snedden",
                   "Gage Boyd",
                   "Grady Boyd",
                   "Graham Dolbear",
@@ -3922,15 +3923,20 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Dan Scott",
+                  "Ewan Snedden",
+                  "Gage Boyd",
+                  "Grady Boyd",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Jarett Simons",
                   "Lawrence Dyck",
                   "Logan Conroy",
                   "Marko Sazdov",
                   "Matthew Schrie",
-                  "Summer Steinke",
+                  "Sydney Nisbet",
                   "Terry Doyle",
                   "Tyler Hoadley",
+                  "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3940,14 +3946,13 @@
                   "Drew Bennett",
                   "Graham Dolbear",
                   "Marko Sazdov",
-                  "Myles Hobbs",
                   "Ralph Campbell",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 102,
+                "assigned_count": 103,
                 "accepted_count": 102,
-                "pending_count": 12,
-                "denied_count": 9,
+                "pending_count": 17,
+                "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4035,12 +4040,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 11,
+      "gp": 12,
       "wins": 7,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "runs_for": 113,
-      "runs_against": 121,
+      "runs_for": 119,
+      "runs_against": 134,
       "practices": 40,
       "roster": {
         "players": 13,
@@ -4396,7 +4401,7 @@
           "date": "2026-06-23",
           "start_time": "6:00 PM",
           "end_date": "2026-06-24",
-          "summary": "10U A OBA Rep - Game @ Lucan-Ilderton Athletics [10u19]",
+          "summary": "10U A OBA Rep - Game @ Lucan-Ilderton Athletics [10u19](L 6-13)",
           "location": "Lucan (2)",
           "type": "game",
           "cancelled": false
@@ -5062,9 +5067,9 @@
           "start_time": "6:00 PM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 13,
           "cancelled": false
         },
         {
@@ -7966,12 +7971,12 @@
       "id": 1295,
       "name": "13U OBA Rep",
       "category": "OBA Rep",
-      "gp": 21,
-      "wins": 12,
+      "gp": 22,
+      "wins": 13,
       "losses": 9,
       "ties": 0,
-      "runs_for": 220,
-      "runs_against": 153,
+      "runs_for": 235,
+      "runs_against": 159,
       "practices": 36,
       "roster": {
         "players": 13,
@@ -8407,7 +8412,7 @@
           "date": "2026-06-23",
           "start_time": "6:00 PM",
           "end_date": "2026-06-24",
-          "summary": "13U OBA Rep - Game @ London Talons [13u39]",
+          "summary": "13U OBA Rep - Game @ London Talons [13u39](W 15-6)",
           "location": "Kiwanis (1)",
           "type": "game",
           "cancelled": false
@@ -9069,9 +9074,9 @@
           "start_time": "6:00 PM",
           "opponent": "London Talons",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 15,
+          "opp_score": 6,
           "cancelled": false
         },
         {
@@ -9259,7 +9264,7 @@
       "ties": 0,
       "runs_for": 275,
       "runs_against": 133,
-      "practices": 47,
+      "practices": 46,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -9269,16 +9274,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20414-sarniabrigade.ca",
-          "date": "2026-04-23",
-          "start_time": "8:00 PM",
-          "end_date": "2026-04-24",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20600-sarniabrigade.ca",
           "date": "2026-04-26",
