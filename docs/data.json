@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-24T10:03:19.281255Z",
+  "generated": "2026-06-24T16:02:56.009753Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3922,21 +3922,17 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Dan Scott",
                   "Ewan Snedden",
                   "Gage Boyd",
                   "Grady Boyd",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Jarett Simons",
                   "Lawrence Dyck",
                   "Logan Conroy",
                   "Marko Sazdov",
                   "Matthew Schrie",
-                  "Sydney Nisbet",
                   "Terry Doyle",
                   "Tyler Hoadley",
-                  "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3947,12 +3943,14 @@
                   "Graham Dolbear",
                   "Marko Sazdov",
                   "Ralph Campbell",
+                  "Sydney Nisbet",
+                  "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 103,
                 "accepted_count": 102,
-                "pending_count": 17,
-                "denied_count": 8,
+                "pending_count": 13,
+                "denied_count": 10,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -13263,12 +13261,12 @@
       "id": 1303,
       "name": "11U Select",
       "category": "Select",
-      "gp": 10,
+      "gp": 11,
       "wins": 6,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "runs_for": 104,
-      "runs_against": 86,
+      "runs_for": 110,
+      "runs_against": 102,
       "practices": 23,
       "roster": {
         "players": 13,
@@ -13504,7 +13502,7 @@
           "date": "2026-06-23",
           "start_time": "6:00 PM",
           "end_date": "2026-06-24",
-          "summary": "11U Select - Game @ DKMB River Cats [11uS38]",
+          "summary": "11U Select - Game @ DKMB River Cats [11uS38](L 6-16)",
           "location": "Tri-Township",
           "type": "game",
           "cancelled": false
@@ -13930,9 +13928,9 @@
           "start_time": "6:00 PM",
           "opponent": "DKMB River Cats",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 16,
           "cancelled": false
         },
         {
