@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-24T23:04:16.546626Z",
+  "generated": "2026-06-25T10:03:31.923974Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3666,6 +3666,7 @@
               "Matthew Schrie",
               "Max McClintock",
               "Mikayla Coubroug",
+              "Mike Moorhouse",
               "Myles Hobbs",
               "Noah Bechard",
               "Nolan Bogaert",
@@ -3705,7 +3706,6 @@
                   "Alexander Pfaff",
                   "Annette Hoggarth",
                   "Axl Taylor",
-                  "Baya Vandenheuvel",
                   "Bentley Bartosz",
                   "Bentley Daughtrey",
                   "Blake Adams",
@@ -3733,7 +3733,6 @@
                   "Easton McKinlay",
                   "Ethan Antle",
                   "Ethan Carlton",
-                  "Ewan Snedden",
                   "Gage Boyd",
                   "Grady Boyd",
                   "Graham Dolbear",
@@ -3881,6 +3880,7 @@
                   "Matthew Schrie",
                   "Max McClintock",
                   "Mikayla Coubroug",
+                  "Mike Moorhouse",
                   "Myles Hobbs",
                   "Noah Bechard",
                   "Nolan Bogaert",
@@ -3913,18 +3913,17 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Baya Vandenheuvel",
+                  "Annette Hoggarth",
                   "Brian Mundt",
-                  "Ethan Antle",
-                  "Ewan Snedden",
-                  "Gage Boyd",
-                  "Grady Boyd",
+                  "Brock Lane",
+                  "Chris Bonneau",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Greg Baker",
                   "Lawrence Dyck",
-                  "Logan Conroy",
                   "Marko Sazdov",
-                  "Mike Moorhouse",
+                  "Matthew Schrie",
+                  "Ralph Campbell",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham"
@@ -3932,20 +3931,16 @@
                 "denied_umpires": [
                   "Brian Mundt",
                   "Chris Bonneau",
-                  "Dawson O'Brien",
-                  "Drew Bennett",
                   "Graham Dolbear",
-                  "Marko Sazdov",
                   "Matthew Schrie",
-                  "Ralph Campbell",
+                  "Steve McGrail",
                   "Sydney Nisbet",
-                  "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 105,
-                "accepted_count": 102,
-                "pending_count": 15,
-                "denied_count": 11,
+                "assigned_count": 103,
+                "accepted_count": 103,
+                "pending_count": 14,
+                "denied_count": 7,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -10914,112 +10909,13 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-06-28",
-            "time": "10:00 AM",
-            "opponent": "Dorchester Diamondbacks",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Mike Moorhouse",
-              "Tyler Whetham"
-            ],
-            "accepted_umpires": [
-              "Tyler Whetham"
-            ],
-            "pending_umpires": [
-              "Mike Moorhouse"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-06-28",
-            "time": "12:00 PM",
-            "opponent": "Dorchester Diamondbacks",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Mike Moorhouse",
-              "Tyler Whetham"
-            ],
-            "accepted_umpires": [
-              "Tyler Whetham"
-            ],
-            "pending_umpires": [
-              "Mike Moorhouse"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-06-28",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "Dorchester Diamondbacks",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Mike Moorhouse",
-                  "Tyler Whetham"
-                ],
-                "accepted_umpires": [
-                  "Tyler Whetham"
-                ],
-                "pending_umpires": [
-                  "Mike Moorhouse"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "12:00 PM",
-                "opponent": "Dorchester Diamondbacks",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "Mike Moorhouse",
-                  "Tyler Whetham"
-                ],
-                "accepted_umpires": [
-                  "Tyler Whetham"
-                ],
-                "pending_umpires": [
-                  "Mike Moorhouse"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       },
       "uniform_cost": 8098.71,
       "equipment_cost": 1135.0,
@@ -14206,12 +14102,12 @@
       "id": 1300,
       "name": "13U Select",
       "category": "Select",
-      "gp": 6,
-      "wins": 4,
+      "gp": 7,
+      "wins": 5,
       "losses": 2,
       "ties": 0,
-      "runs_for": 62,
-      "runs_against": 43,
+      "runs_for": 74,
+      "runs_against": 47,
       "practices": 23,
       "roster": {
         "players": 12,
@@ -14417,7 +14313,7 @@
           "date": "2026-06-24",
           "start_time": "6:00 PM",
           "end_date": "2026-06-25",
-          "summary": "13U Select - Game @ Dorchester Diamondbacks [13uS62]",
+          "summary": "13U Select - Game @ Dorchester Diamondbacks [13uS62](W 12-4)",
           "location": "Dorchester (4)",
           "type": "game",
           "cancelled": false
@@ -14815,9 +14711,9 @@
           "start_time": "6:00 PM",
           "opponent": "Dorchester Diamondbacks",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -16556,12 +16452,12 @@
       "id": 1310,
       "name": "11U Lady Brigade",
       "category": "River League",
-      "gp": 7,
+      "gp": 8,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "ties": 0,
-      "runs_for": 51,
-      "runs_against": 100,
+      "runs_for": 57,
+      "runs_against": 112,
       "practices": 17,
       "roster": {
         "players": 12,
@@ -16767,7 +16663,7 @@
           "date": "2026-06-24",
           "start_time": "6:30 PM",
           "end_date": "2026-06-25",
-          "summary": "11U Lady Brigade - Game @ Wyoming Wranglers Navy [RL11UN-34]",
+          "summary": "11U Lady Brigade - Game @ Wyoming Wranglers Navy [RL11UN-34](L 6-12)",
           "location": "Bridgeview Park",
           "type": "game",
           "cancelled": false
@@ -16985,9 +16881,9 @@
           "start_time": "6:30 PM",
           "opponent": "Wyoming Wranglers Navy RL11UN-34 Bridgeview Pa",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 12,
           "cancelled": false
         },
         {
@@ -17085,12 +16981,12 @@
       "id": 1315,
       "name": "11U River League",
       "category": "River League",
-      "gp": 8,
+      "gp": 9,
       "wins": 5,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
-      "runs_for": 87,
-      "runs_against": 68,
+      "runs_for": 95,
+      "runs_against": 77,
       "practices": 13,
       "roster": {
         "players": 15,
@@ -17256,7 +17152,7 @@
           "date": "2026-06-24",
           "start_time": "6:30 PM",
           "end_date": "2026-06-25",
-          "summary": "11u River League - Game @ Corunna Giants [RL11UN-49]",
+          "summary": "11u River League - Game @ Corunna Giants [RL11UN-49](L 8-9)",
           "location": "Athletic Park (3)",
           "type": "game",
           "cancelled": false
@@ -17476,9 +17372,9 @@
           "start_time": "6:30 PM",
           "opponent": "Corunna Giants RL11UN-49 Athletic Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 8,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -18227,7 +18123,7 @@
       "ties": 0,
       "runs_for": 217,
       "runs_against": 181,
-      "practices": 43,
+      "practices": 42,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -18237,16 +18133,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20030-sarniabrigade.ca",
-          "date": "2026-04-24",
-          "start_time": "7:30 PM",
-          "end_date": "2026-04-25",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19738-sarniabrigade.ca",
           "date": "2026-04-25",
