@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-25T10:03:31.923974Z",
+  "generated": "2026-06-25T16:03:28.716867Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1244,7 +1244,7 @@
       "ties": 0,
       "runs_for": 174,
       "runs_against": 82,
-      "practices": 31,
+      "practices": 30,
       "roster": {
         "players": 12,
         "adults": 5,
@@ -1254,16 +1254,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19892-sarniabrigade.ca",
-          "date": "2026-04-25",
-          "start_time": "10:00 AM",
-          "end_date": "2026-04-25",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20179-sarniabrigade.ca",
           "date": "2026-04-29",
@@ -2305,16 +2295,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20907-sarniabrigade.ca",
-          "date": "2026-04-25",
-          "start_time": "10:00 AM",
-          "end_date": "2026-04-25",
-          "summary": "10U AA OBA Rep - Game vs 10UA OBA REP  [DH]",
-          "location": "Clearwater Diamond #2",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20474-sarniabrigade.ca",
           "date": "2026-04-29",
@@ -3921,9 +3901,10 @@
                   "Grant Purdy",
                   "Greg Baker",
                   "Lawrence Dyck",
-                  "Marko Sazdov",
                   "Matthew Schrie",
-                  "Ralph Campbell",
+                  "Mike Moorhouse",
+                  "Shane Moorhouse",
+                  "Steve McGrail",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham"
@@ -3932,15 +3913,13 @@
                   "Brian Mundt",
                   "Chris Bonneau",
                   "Graham Dolbear",
-                  "Matthew Schrie",
                   "Steve McGrail",
-                  "Sydney Nisbet",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
-                "pending_count": 14,
-                "denied_count": 7,
+                "pending_count": 15,
+                "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4792,16 +4771,6 @@
           "summary": "10U A OBA Rep - Practice",
           "location": "Coronation Park Diamond",
           "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MD-3311-sarniabrigade.ca",
-          "date": "2026-04-25",
-          "start_time": "9:30 AM",
-          "end_date": "2026-04-25",
-          "summary": "10U A OBA Rep - Fundraiser - MacGregor's Meat Order Delivery",
-          "location": "PASA",
-          "type": "other",
           "cancelled": false
         },
         {
@@ -7965,7 +7934,7 @@
       "ties": 0,
       "runs_for": 235,
       "runs_against": 159,
-      "practices": 36,
+      "practices": 35,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -7975,16 +7944,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20236-sarniabrigade.ca",
-          "date": "2026-04-25",
-          "start_time": "11:00 AM",
-          "end_date": "2026-04-25",
-          "summary": "13U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20237-sarniabrigade.ca",
           "date": "2026-04-27",
@@ -9728,7 +9687,7 @@
           "start_time": "8:00 PM",
           "end_date": "2026-06-26",
           "summary": "14U OBA Rep - Game vs Corunna Giants [WC15U-012]",
-          "location": "Blackwell Park",
+          "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
         },
@@ -10647,7 +10606,7 @@
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20879/",
           "date": "2026-06-25",
           "start_time": "8:00 PM",
-          "opponent": "Corunna Giants WC15U-012 Blackwell Park",
+          "opponent": "Corunna Giants WC15U-012 Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -10935,7 +10894,7 @@
       "ties": 0,
       "runs_for": 115,
       "runs_against": 167,
-      "practices": 51,
+      "practices": 50,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10945,16 +10904,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20151-sarniabrigade.ca",
-          "date": "2026-04-25",
-          "start_time": "11:00 AM",
-          "end_date": "2026-04-25",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20600-sarniabrigade.ca",
           "date": "2026-04-26",
@@ -11411,7 +11360,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-06-26",
           "summary": "15U OBA Rep - Game vs North London Nationals [15u15]",
-          "location": "Blackwell Park",
+          "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
         },
@@ -17178,6 +17127,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21936-sarniabrigade.ca",
+          "date": "2026-07-13",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-14",
+          "summary": "11u River League - Game vs Wyoming Wranglers Red",
+          "location": "Clearwater Diamond #2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21279-sarniabrigade.ca",
           "date": "2026-07-13",
           "start_time": "6:00 PM",
@@ -17383,6 +17342,18 @@
           "date": "2026-06-29",
           "start_time": "6:30 PM",
           "opponent": "Wyoming Wranglers Navy RL11UN-25 Clearwater Di",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21936",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21936/",
+          "date": "2026-07-13",
+          "start_time": "6:00 PM",
+          "opponent": "Wyoming Wranglers Red Clearwater Diamond",
           "home": true,
           "result": null,
           "brigade_score": null,
