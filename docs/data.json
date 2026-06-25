@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-25T16:03:28.716867Z",
+  "generated": "2026-06-25T19:33:19.781069Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3893,32 +3893,28 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Annette Hoggarth",
                   "Brian Mundt",
                   "Brock Lane",
                   "Chris Bonneau",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Baker",
-                  "Lawrence Dyck",
                   "Matthew Schrie",
                   "Mike Moorhouse",
-                  "Shane Moorhouse",
                   "Steve McGrail",
                   "Terry Doyle",
-                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
                   "Chris Bonneau",
-                  "Graham Dolbear",
+                  "Lawrence Dyck",
                   "Steve McGrail",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
-                "pending_count": 15,
+                "pending_count": 11,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4007,12 +4003,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 12,
+      "gp": 13,
       "wins": 7,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "runs_for": 119,
-      "runs_against": 134,
+      "runs_for": 126,
+      "runs_against": 150,
       "practices": 40,
       "roster": {
         "players": 13,
@@ -4378,7 +4374,7 @@
           "date": "2026-06-24",
           "start_time": "6:00 PM",
           "end_date": "2026-06-25",
-          "summary": "10U A OBA Rep - Game vs London West Tincaps [10u60]",
+          "summary": "10U A OBA Rep - Game vs London West Tincaps [10u60](L 16-7)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -5036,9 +5032,9 @@
           "start_time": "6:00 PM",
           "opponent": "London West Tincaps",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 7,
+          "opp_score": 16,
           "cancelled": false
         },
         {
@@ -18105,16 +18101,6 @@
       },
       "events": [
         {
-          "uid": "MS-19738-sarniabrigade.ca",
-          "date": "2026-04-25",
-          "start_time": "1:00 PM",
-          "end_date": "2026-04-25",
-          "summary": "CANCELLED 16U PBLO - Game vs Oshawa Legionaires",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19739-sarniabrigade.ca",
           "date": "2026-04-25",
           "start_time": "6:00 PM",
@@ -21173,15 +21159,6 @@
     {
       "team_id": 1298,
       "team_name": "16U PBLO",
-      "type": "game",
-      "date": "2026-04-25",
-      "start_time": "1:00 PM",
-      "summary": "CANCELLED 16U PBLO - Game vs Oshawa Legionaires",
-      "location": "Errol Russell Park"
-    },
-    {
-      "team_id": 1298,
-      "team_name": "16U PBLO",
       "type": "practice",
       "date": "2026-04-29",
       "start_time": "7:30 PM",
@@ -21241,6 +21218,15 @@
       "start_time": "7:00 PM",
       "summary": "CANCELLED 16U PBLO - Practice",
       "location": "Errol Russell Park"
+    },
+    {
+      "team_id": 1298,
+      "team_name": "16U PBLO",
+      "type": "game",
+      "date": "2026-04-25",
+      "start_time": "1:00 PM",
+      "summary": "CANCELLED 16U PBLO - Game vs Oshawa Legionaires Errol Russell Park",
+      "location": ""
     },
     {
       "team_id": 1306,
