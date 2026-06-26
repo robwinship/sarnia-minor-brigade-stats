@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-25T23:03:29.819616Z",
+  "generated": "2026-06-26T10:04:20.217030Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2696,6 +2696,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21942-sarniabrigade.ca",
+          "date": "2026-06-27",
+          "start_time": "6:00 PM",
+          "end_date": "2026-06-28",
+          "summary": "10U AA OBA Rep - Game vs Leamington Lakers [3]",
+          "location": "Turtle Club",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21240-sarniabrigade.ca",
           "date": "2026-07-01",
           "start_time": "4:30 PM",
@@ -3972,12 +3982,10 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Brock Lane",
-                  "Chris Bonneau",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Mike Moorhouse",
-                  "Steve McGrail",
+                  "Shane Moorhouse",
                   "Terry Doyle",
                   "Tyler Whetham"
                 ],
@@ -3991,7 +3999,7 @@
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
-                "pending_count": 9,
+                "pending_count": 7,
                 "denied_count": 6,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -9274,7 +9282,7 @@
       "ties": 0,
       "runs_for": 275,
       "runs_against": 133,
-      "practices": 45,
+      "practices": 44,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -9951,16 +9959,6 @@
           "end_date": "2026-07-24",
           "summary": "14U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21593-sarniabrigade.ca",
-          "date": "2026-07-23",
-          "start_time": "8:00 PM",
-          "end_date": "2026-07-24",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
         },
