@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-26T10:04:20.217030Z",
+  "generated": "2026-06-26T16:03:20.039135Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 270,
       "runs_against": 333,
-      "practices": 35,
+      "practices": 34,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20286-sarniabrigade.ca",
-          "date": "2026-04-26",
-          "start_time": "10:00 AM",
-          "end_date": "2026-04-26",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20267-sarniabrigade.ca",
           "date": "2026-04-29",
@@ -9293,16 +9283,6 @@
       },
       "events": [
         {
-          "uid": "MS-20600-sarniabrigade.ca",
-          "date": "2026-04-26",
-          "start_time": "11:00 AM",
-          "end_date": "2026-04-26",
-          "summary": "CANCELLED 14U OBA Rep - Game @ 15U OBA Rep",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20417-sarniabrigade.ca",
           "date": "2026-04-27",
           "start_time": "6:00 PM",
@@ -10945,7 +10925,7 @@
       "ties": 0,
       "runs_for": 115,
       "runs_against": 167,
-      "practices": 50,
+      "practices": 49,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10955,26 +10935,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20600-sarniabrigade.ca",
-          "date": "2026-04-26",
-          "start_time": "11:00 AM",
-          "end_date": "2026-04-26",
-          "summary": "CANCELLED 15U OBA Rep - Game vs 14U OBA Rep",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20144-sarniabrigade.ca",
-          "date": "2026-04-26",
-          "start_time": "11:00 AM",
-          "end_date": "2026-04-26",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20149-sarniabrigade.ca",
           "date": "2026-04-28",
@@ -13257,7 +13217,7 @@
       "ties": 0,
       "runs_for": 110,
       "runs_against": 102,
-      "practices": 23,
+      "practices": 22,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -13267,16 +13227,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20106-sarniabrigade.ca",
-          "date": "2026-04-26",
-          "start_time": "10:00 AM",
-          "end_date": "2026-04-26",
-          "summary": "11U Select - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19825-sarniabrigade.ca",
           "date": "2026-04-30",
@@ -18156,16 +18106,6 @@
       },
       "events": [
         {
-          "uid": "MS-19740-sarniabrigade.ca",
-          "date": "2026-04-26",
-          "start_time": "11:00 AM",
-          "end_date": "2026-04-26",
-          "summary": "16U PBLO - Game vs Oshawa Legionaires(W 2-9)",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19741-sarniabrigade.ca",
           "date": "2026-04-26",
           "start_time": "2:00 PM",
@@ -21061,15 +21001,6 @@
       "team_id": 1296,
       "team_name": "14U OBA Rep",
       "type": "game",
-      "date": "2026-04-26",
-      "start_time": "11:00 AM",
-      "summary": "CANCELLED 14U OBA Rep - Game @ 15U OBA Rep",
-      "location": "Blackwell Park"
-    },
-    {
-      "team_id": 1296,
-      "team_name": "14U OBA Rep",
-      "type": "game",
       "date": "2026-05-10",
       "start_time": "10:00 AM",
       "summary": "CANCELLED 14U OBA Rep - Game vs TBA",
@@ -21103,13 +21034,13 @@
       "location": "Errol Russell Park"
     },
     {
-      "team_id": 1297,
-      "team_name": "15U OBA Rep",
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
       "type": "game",
       "date": "2026-04-26",
       "start_time": "11:00 AM",
-      "summary": "CANCELLED 15U OBA Rep - Game vs 14U OBA Rep",
-      "location": "Blackwell Park"
+      "summary": "CANCELLED 14U OBA Rep - Game",
+      "location": ""
     },
     {
       "team_id": 1297,
@@ -21146,6 +21077,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 15U OBA Rep - Game vs North London Nationals [15u15]",
       "location": "Errol Russell Park"
+    },
+    {
+      "team_id": 1297,
+      "team_name": "15U OBA Rep",
+      "type": "game",
+      "date": "2026-04-26",
+      "start_time": "11:00 AM",
+      "summary": "CANCELLED 15U OBA Rep - Game",
+      "location": ""
     },
     {
       "team_id": 1299,
