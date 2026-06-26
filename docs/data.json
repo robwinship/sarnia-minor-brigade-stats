@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-26T16:03:20.039135Z",
+  "generated": "2026-06-26T19:43:54.928738Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3975,7 +3975,6 @@
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Mike Moorhouse",
-                  "Shane Moorhouse",
                   "Terry Doyle",
                   "Tyler Whetham"
                 ],
@@ -3984,13 +3983,15 @@
                   "Chris Bonneau",
                   "Lawrence Dyck",
                   "Matthew Schrie",
+                  "Mike Moorhouse",
+                  "Shane Moorhouse",
                   "Steve McGrail",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
-                "pending_count": 7,
-                "denied_count": 6,
+                "pending_count": 6,
+                "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -6853,7 +6854,7 @@
       "ties": 0,
       "runs_for": 98,
       "runs_against": 159,
-      "practices": 33,
+      "practices": 32,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -6863,16 +6864,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-20522-sarniabrigade.ca",
-          "date": "2026-04-26",
-          "start_time": "1:00 PM",
-          "end_date": "2026-04-26",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20599-sarniabrigade.ca",
           "date": "2026-04-29",
@@ -17438,7 +17429,7 @@
       "ties": 0,
       "runs_for": 109,
       "runs_against": 23,
-      "practices": 21,
+      "practices": 20,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -17448,16 +17439,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20359-sarniabrigade.ca",
-          "date": "2026-04-26",
-          "start_time": "1:00 PM",
-          "end_date": "2026-04-26",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20341-sarniabrigade.ca",
           "date": "2026-05-01",
@@ -18105,16 +18086,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19741-sarniabrigade.ca",
-          "date": "2026-04-26",
-          "start_time": "2:00 PM",
-          "end_date": "2026-04-26",
-          "summary": "16U PBLO - Game vs Oshawa Legionaires(W 6-7)",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20010-sarniabrigade.ca",
           "date": "2026-04-29",
