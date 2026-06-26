@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-26T19:43:54.928738Z",
+  "generated": "2026-06-26T23:03:36.471577Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4085,7 +4085,7 @@
       "ties": 0,
       "runs_for": 126,
       "runs_against": 150,
-      "practices": 40,
+      "practices": 39,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -4095,16 +4095,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19926-sarniabrigade.ca",
-          "date": "2026-04-26",
-          "start_time": "4:00 PM",
-          "end_date": "2026-04-26",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20154-sarniabrigade.ca",
           "date": "2026-04-30",
@@ -14854,7 +14844,7 @@
       "ties": 0,
       "runs_for": 53,
       "runs_against": 76,
-      "practices": 32,
+      "practices": 31,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -14864,16 +14854,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20072-sarniabrigade.ca",
-          "date": "2026-04-26",
-          "start_time": "5:45 PM",
-          "end_date": "2026-04-27",
-          "summary": "15U Select - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20077-sarniabrigade.ca",
           "date": "2026-04-28",
