@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-27T19:33:35.379929Z",
+  "generated": "2026-06-27T23:03:18.148907Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1539,7 +1539,7 @@
           "date": "2026-06-27",
           "start_time": "11:00 AM",
           "end_date": "2026-06-27",
-          "summary": "9U OBA Rep - Game vs Lasalle Turtle Club",
+          "summary": "9U OBA Rep - Game vs Lasalle Turtle Club(L 16-1)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -1549,7 +1549,7 @@
           "date": "2026-06-27",
           "start_time": "2:00 PM",
           "end_date": "2026-06-27",
-          "summary": "9U OBA Rep - Game vs Lasalle Turtle Club",
+          "summary": "9U OBA Rep - Game vs Lasalle Turtle Club(L 12-4)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -3976,6 +3976,7 @@
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Baker",
+                  "Jason Lajeunesse",
                   "Mike Moorhouse",
                   "Steve McGrail",
                   "Terry Doyle",
@@ -3990,7 +3991,7 @@
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
-                "pending_count": 9,
+                "pending_count": 10,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -8031,7 +8032,7 @@
       "ties": 0,
       "runs_for": 235,
       "runs_against": 159,
-      "practices": 35,
+      "practices": 34,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -8041,16 +8042,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20237-sarniabrigade.ca",
-          "date": "2026-04-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-28",
-          "summary": "13U OBA Rep - Indoor Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20238-sarniabrigade.ca",
           "date": "2026-04-30",
@@ -9308,7 +9299,7 @@
       "ties": 0,
       "runs_for": 275,
       "runs_against": 133,
-      "practices": 44,
+      "practices": 43,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -9318,16 +9309,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20417-sarniabrigade.ca",
-          "date": "2026-04-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-28",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20426-sarniabrigade.ca",
           "date": "2026-05-03",
@@ -14094,7 +14075,7 @@
       "ties": 0,
       "runs_for": 83,
       "runs_against": 50,
-      "practices": 23,
+      "practices": 22,
       "roster": {
         "players": 12,
         "adults": 4,
@@ -14104,16 +14085,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19851-sarniabrigade.ca",
-          "date": "2026-04-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-28",
-          "summary": "13U Select - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19831-sarniabrigade.ca",
           "date": "2026-05-01",
@@ -15684,12 +15655,36 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-06-28",
+            "time": "6:00 PM",
+            "opponent": "Aylmer Pirates",
+            "venue": "Blackwell Park",
+            "assigned_umpires": [
+              "Jason Lajeunesse",
+              "Tyler Whetham"
+            ],
+            "accepted_umpires": [
+              "Tyler Whetham"
+            ],
+            "pending_umpires": [
+              "Jason Lajeunesse"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-06-19",
@@ -15766,7 +15761,7 @@
       "ties": 0,
       "runs_for": 80,
       "runs_against": 76,
-      "practices": 17,
+      "practices": 16,
       "roster": {
         "players": 16,
         "adults": 5,
@@ -15776,16 +15771,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20409-sarniabrigade.ca",
-          "date": "2026-04-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-28",
-          "summary": "9U River League - Practice",
-          "location": "Blackwell North",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20410-sarniabrigade.ca",
           "date": "2026-05-04",
@@ -16434,7 +16419,7 @@
       "ties": 0,
       "runs_for": 57,
       "runs_against": 112,
-      "practices": 17,
+      "practices": 16,
       "roster": {
         "players": 12,
         "adults": 1,
@@ -16444,16 +16429,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20957-sarniabrigade.ca",
-          "date": "2026-04-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-28",
-          "summary": "11U Lady Brigade - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21053-sarniabrigade.ca",
           "date": "2026-04-29",
@@ -16963,7 +16938,7 @@
       "ties": 0,
       "runs_for": 95,
       "runs_against": 77,
-      "practices": 13,
+      "practices": 12,
       "roster": {
         "players": 15,
         "adults": 2,
@@ -16973,16 +16948,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20469-sarniabrigade.ca",
-          "date": "2026-04-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-28",
-          "summary": "11u River League - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20470-sarniabrigade.ca",
           "date": "2026-05-04",
@@ -18105,12 +18070,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 28,
-      "wins": 16,
-      "losses": 12,
+      "gp": 30,
+      "wins": 17,
+      "losses": 13,
       "ties": 0,
-      "runs_for": 217,
-      "runs_against": 181,
+      "runs_for": 230,
+      "runs_against": 202,
       "practices": 42,
       "roster": {
         "players": 15,
@@ -18646,7 +18611,7 @@
           "date": "2026-06-27",
           "start_time": "11:00 AM",
           "end_date": "2026-06-27",
-          "summary": "16U PBLO - Game vs Tecumseh Thunder",
+          "summary": "16U PBLO - Game vs Tecumseh Thunder(L 13-4)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -18656,7 +18621,7 @@
           "date": "2026-06-27",
           "start_time": "2:00 PM",
           "end_date": "2026-06-27",
-          "summary": "16U PBLO - Game vs Tecumseh Thunder",
+          "summary": "16U PBLO - Game vs Tecumseh Thunder(W 8-9)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -19380,9 +19345,9 @@
           "start_time": "11:00 AM",
           "opponent": "Tecumseh Thunder Errol Russell Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 13,
           "cancelled": false
         },
         {
@@ -19392,9 +19357,9 @@
           "start_time": "2:00 PM",
           "opponent": "Tecumseh Thunder Errol Russell Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 8,
           "cancelled": false
         },
         {
