@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-26T23:03:36.471577Z",
+  "generated": "2026-06-27T10:03:28.399341Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3971,10 +3971,13 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
+                  "Annette Hoggarth",
                   "Brian Mundt",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Greg Baker",
                   "Mike Moorhouse",
+                  "Steve McGrail",
                   "Terry Doyle",
                   "Tyler Whetham"
                 ],
@@ -3990,7 +3993,7 @@
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
-                "pending_count": 6,
+                "pending_count": 9,
                 "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -6743,7 +6746,7 @@
         "games_missed": 1,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -6813,6 +6816,61 @@
                 "accepted_umpires": [
                   "Clark Thornton",
                   "Jackson Bunda"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-07-04",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "Drew Bennett | Jakob Rodriguez",
+              "Jakob Rodriguez | Max McClintock"
+            ],
+            "mismatched_names": [
+              "Drew Bennett",
+              "Max McClintock"
+            ],
+            "games": [
+              {
+                "time": "4:00 PM",
+                "opponent": "London Badgers 10u",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Jakob Rodriguez",
+                  "Max McClintock"
+                ],
+                "accepted_umpires": [
+                  "Jakob Rodriguez",
+                  "Max McClintock"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "6:30 PM",
+                "opponent": "London Badgers 10u",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Drew Bennett",
+                  "Jakob Rodriguez"
+                ],
+                "accepted_umpires": [
+                  "Drew Bennett",
+                  "Jakob Rodriguez"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
@@ -14033,12 +14091,12 @@
       "id": 1300,
       "name": "13U Select",
       "category": "Select",
-      "gp": 7,
-      "wins": 5,
+      "gp": 8,
+      "wins": 6,
       "losses": 2,
       "ties": 0,
-      "runs_for": 74,
-      "runs_against": 47,
+      "runs_for": 83,
+      "runs_against": 50,
       "practices": 23,
       "roster": {
         "players": 12,
@@ -14254,7 +14312,7 @@
           "date": "2026-06-26",
           "start_time": "6:00 PM",
           "end_date": "2026-06-27",
-          "summary": "13U Select - Game vs London West Tincaps [13uS46]",
+          "summary": "13U Select - Game vs London West Tincaps [13uS46](W 3-9)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -14654,9 +14712,9 @@
           "start_time": "6:00 PM",
           "opponent": "London West Tincaps",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 3,
           "cancelled": false
         },
         {
