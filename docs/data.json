@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-27T23:03:18.148907Z",
+  "generated": "2026-06-28T10:03:25.413710Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2194,15 +2194,15 @@
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-06-27",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": false,
             "pair_signatures": [
               "Hayden Scheuermann | Kayne Golder",
@@ -3976,7 +3976,6 @@
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Greg Baker",
-                  "Jason Lajeunesse",
                   "Mike Moorhouse",
                   "Steve McGrail",
                   "Terry Doyle",
@@ -3991,7 +3990,7 @@
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
-                "pending_count": 10,
+                "pending_count": 9,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -7935,7 +7934,7 @@
         "games_missed": 1,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -8001,6 +8000,61 @@
                 "accepted_umpires": [
                   "Carter Wills",
                   "Summer Steinke"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-07-05",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "Logan Conroy | Ralph Campbell",
+              "Ralph Campbell | Ryder Daye"
+            ],
+            "mismatched_names": [
+              "Logan Conroy",
+              "Ryder Daye"
+            ],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "12U Rep St. Thomas Cardinals",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Logan Conroy",
+                  "Ralph Campbell"
+                ],
+                "accepted_umpires": [
+                  "Logan Conroy",
+                  "Ralph Campbell"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "1:00 PM",
+                "opponent": "St. Thomas Cardinals",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Ralph Campbell",
+                  "Ryder Daye"
+                ],
+                "accepted_umpires": [
+                  "Ralph Campbell",
+                  "Ryder Daye"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
@@ -15655,36 +15709,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-06-28",
-            "time": "6:00 PM",
-            "opponent": "Aylmer Pirates",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Jason Lajeunesse",
-              "Tyler Whetham"
-            ],
-            "accepted_umpires": [
-              "Tyler Whetham"
-            ],
-            "pending_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-06-19",
