@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-28T19:33:20.594947Z",
+  "generated": "2026-06-28T23:02:51.332230Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -5393,7 +5393,7 @@
       "ties": 0,
       "runs_for": 127,
       "runs_against": 81,
-      "practices": 34,
+      "practices": 33,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5403,16 +5403,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20490-sarniabrigade.ca",
-          "date": "2026-04-28",
-          "start_time": "6:00 PM",
-          "end_date": "2026-04-29",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20388-sarniabrigade.ca",
           "date": "2026-04-30",
@@ -11019,7 +11009,7 @@
       "ties": 0,
       "runs_for": 115,
       "runs_against": 167,
-      "practices": 49,
+      "practices": 48,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -11029,16 +11019,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20149-sarniabrigade.ca",
-          "date": "2026-04-28",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-28",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20147-sarniabrigade.ca",
           "date": "2026-04-30",
@@ -13311,7 +13291,7 @@
       "ties": 0,
       "runs_for": 117,
       "runs_against": 108,
-      "practices": 22,
+      "practices": 23,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -13569,6 +13549,16 @@
           "summary": "11U Select - Game vs Southwest London Scorpions [11uS61](W 6-7)",
           "location": "Clearwater Diamond #2",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21944-sarniabrigade.ca",
+          "date": "2026-07-02",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-03",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -17476,12 +17466,12 @@
       "id": 1302,
       "name": "13U LDBA House League",
       "category": "House League",
-      "gp": 7,
-      "wins": 6,
+      "gp": 8,
+      "wins": 7,
       "losses": 1,
       "ties": 0,
-      "runs_for": 113,
-      "runs_against": 32,
+      "runs_for": 128,
+      "runs_against": 40,
       "practices": 20,
       "roster": {
         "players": 14,
@@ -17677,7 +17667,7 @@
           "date": "2026-06-28",
           "start_time": "1:00 PM",
           "end_date": "2026-06-28",
-          "summary": "13U LDBA House League - Game vs Lambton Shores 1 [13uW49]",
+          "summary": "13U LDBA House League - Game vs Lambton Shores 1 [13uW49](W 8-15)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -17999,9 +17989,9 @@
           "start_time": "1:00 PM",
           "opponent": "Lambton Shores",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 15,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -18123,12 +18113,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 30,
-      "wins": 17,
-      "losses": 13,
+      "gp": 32,
+      "wins": 18,
+      "losses": 14,
       "ties": 0,
-      "runs_for": 230,
-      "runs_against": 202,
+      "runs_for": 237,
+      "runs_against": 212,
       "practices": 42,
       "roster": {
         "players": 15,
@@ -18684,7 +18674,7 @@
           "date": "2026-06-28",
           "start_time": "1:00 PM",
           "end_date": "2026-06-28",
-          "summary": "16U PBLO - Game @ Tecumseh Thunder",
+          "summary": "16U PBLO - Game @ Tecumseh Thunder(L 3-8)",
           "location": "Lacasse",
           "type": "game",
           "cancelled": false
@@ -18694,7 +18684,7 @@
           "date": "2026-06-28",
           "start_time": "3:30 PM",
           "end_date": "2026-06-28",
-          "summary": "16U PBLO - Game @ Tecumseh Thunder",
+          "summary": "16U PBLO - Game @ Tecumseh Thunder(W 4-2)",
           "location": "Lacasse",
           "type": "game",
           "cancelled": false
@@ -19422,9 +19412,9 @@
           "start_time": "1:00 PM",
           "opponent": "Tecumseh Thunder Lacasse",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 3,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -19434,9 +19424,9 @@
           "start_time": "3:30 PM",
           "opponent": "Tecumseh Thunder Lacasse",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 4,
+          "opp_score": 2,
           "cancelled": false
         },
         {
