@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-28T10:03:25.413710Z",
+  "generated": "2026-06-28T16:03:21.317564Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3975,10 +3975,11 @@
                   "Brian Mundt",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Greg Baker",
+                  "Hayden Scheuermann",
+                  "Marko Sazdov",
                   "Mike Moorhouse",
-                  "Steve McGrail",
                   "Terry Doyle",
+                  "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3990,7 +3991,7 @@
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
-                "pending_count": 9,
+                "pending_count": 10,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -7932,7 +7933,7 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
@@ -7953,6 +7954,29 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
+          },
+          {
+            "date": "2026-07-05",
+            "time": "1:00 PM",
+            "opponent": "St. Thomas Cardinals",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Hayden Scheuermann",
+              "Ralph Campbell"
+            ],
+            "accepted_umpires": [
+              "Ralph Campbell"
+            ],
+            "pending_umpires": [
+              "Hayden Scheuermann"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -8014,14 +8038,12 @@
           {
             "date": "2026-07-05",
             "issue_timing": "upcoming",
-            "incomplete_assignment": false,
+            "incomplete_assignment": true,
             "pair_signatures": [
-              "Logan Conroy | Ralph Campbell",
-              "Ralph Campbell | Ryder Daye"
+              "Logan Conroy | Ralph Campbell"
             ],
             "mismatched_names": [
-              "Logan Conroy",
-              "Ryder Daye"
+              "Logan Conroy"
             ],
             "games": [
               {
@@ -8049,18 +8071,19 @@
                 "opponent": "St. Thomas Cardinals",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
-                  "Ralph Campbell",
-                  "Ryder Daye"
+                  "Hayden Scheuermann",
+                  "Ralph Campbell"
                 ],
                 "accepted_umpires": [
-                  "Ralph Campbell",
-                  "Ryder Daye"
+                  "Ralph Campbell"
                 ],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "Hayden Scheuermann"
+                ],
                 "denied_umpires": [],
                 "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
+                "accepted_count": 1,
+                "pending_count": 1,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               }
@@ -17453,12 +17476,12 @@
       "id": 1302,
       "name": "13U LDBA House League",
       "category": "House League",
-      "gp": 6,
+      "gp": 7,
       "wins": 6,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "runs_for": 109,
-      "runs_against": 23,
+      "runs_for": 113,
+      "runs_against": 32,
       "practices": 20,
       "roster": {
         "players": 14,
@@ -17644,7 +17667,7 @@
           "date": "2026-06-26",
           "start_time": "6:30 PM",
           "end_date": "2026-06-27",
-          "summary": "13U LDBA House League - Game @ Camlachie 1 [13uW48]",
+          "summary": "13U LDBA House League - Game @ Camlachie 1 [13uW48](L 4-9)",
           "location": "Arnold Minielly (Diamond 3)",
           "type": "game",
           "cancelled": false
@@ -17964,9 +17987,9 @@
           "start_time": "6:30 PM",
           "opponent": "Camlachie",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 9,
           "cancelled": false
         },
         {
