@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-29T16:03:26.037513Z",
+  "generated": "2026-06-29T19:33:19.907573Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3973,11 +3973,11 @@
                 "pending_umpires": [
                   "Annette Hoggarth",
                   "Brian Mundt",
+                  "Carson Whittington",
                   "Grant Purdy",
                   "Hayden Scheuermann",
                   "Marko Sazdov",
                   "Ronnie Atyeo",
-                  "Shane Moorhouse",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
@@ -8102,7 +8102,7 @@
       "ties": 0,
       "runs_for": 235,
       "runs_against": 159,
-      "practices": 34,
+      "practices": 33,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -8713,16 +8713,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20761-sarniabrigade.ca",
-          "date": "2026-07-30",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-31",
-          "summary": "13U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20333-sarniabrigade.ca",
           "date": "2026-08-03",
           "start_time": "5:30 PM",
@@ -8740,6 +8730,26 @@
           "summary": "13U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21945-sarniabrigade.ca",
+          "date": "2026-08-08",
+          "start_time": "10:30 AM",
+          "end_date": "2026-08-08",
+          "summary": "13U OBA Rep - Game vs Windsor Stars",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21946-sarniabrigade.ca",
+          "date": "2026-08-08",
+          "start_time": "1:15 PM",
+          "end_date": "2026-08-08",
+          "summary": "13U OBA Rep - Game vs Windsor Stars",
+          "location": "Tecumseh Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -9310,6 +9320,30 @@
           "date": "2026-07-25",
           "start_time": "1:00 PM",
           "opponent": "London Talons",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21945",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/21945/",
+          "date": "2026-08-08",
+          "start_time": "10:30 AM",
+          "opponent": "Windsor Stars Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21946",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/21946/",
+          "date": "2026-08-08",
+          "start_time": "1:15 PM",
+          "opponent": "Windsor Stars Tecumseh Park",
           "home": true,
           "result": null,
           "brigade_score": null,
