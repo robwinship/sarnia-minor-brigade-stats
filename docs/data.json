@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-28T23:02:51.332230Z",
+  "generated": "2026-06-29T10:03:28.115950Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3973,11 +3973,11 @@
                 "pending_umpires": [
                   "Annette Hoggarth",
                   "Brian Mundt",
-                  "Graham Dolbear",
                   "Grant Purdy",
                   "Hayden Scheuermann",
+                  "Jarett Simons",
                   "Marko Sazdov",
-                  "Mike Moorhouse",
+                  "Ronnie Atyeo",
                   "Terry Doyle",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
@@ -3985,14 +3985,12 @@
                 "denied_umpires": [
                   "Brian Mundt",
                   "Chris Bonneau",
-                  "Matthew Schrie",
-                  "Steve McGrail",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
                 "pending_count": 10,
-                "denied_count": 5,
+                "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -14937,7 +14935,7 @@
       "ties": 0,
       "runs_for": 53,
       "runs_against": 76,
-      "practices": 31,
+      "practices": 30,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -14947,16 +14945,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20077-sarniabrigade.ca",
-          "date": "2026-04-28",
-          "start_time": "7:45 PM",
-          "end_date": "2026-04-29",
-          "summary": "15U Select - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20068-sarniabrigade.ca",
           "date": "2026-04-30",
@@ -20554,10 +20542,10 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 3,
-        "games_missed_upcoming": 1,
-        "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 1,
+        "games_missed": 4,
+        "games_missed_upcoming": 0,
+        "doubleheader_mismatch": 2,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -20623,7 +20611,7 @@
             "pending_count": 0,
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
+            "issue_timing": "past"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -20666,7 +20654,7 @@
           },
           {
             "date": "2026-06-28",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": true,
             "pair_signatures": [
               "Chris Bonneau | Lawrence Dyck"
