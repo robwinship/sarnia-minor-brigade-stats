@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-29T10:03:28.115950Z",
+  "generated": "2026-06-29T16:03:26.037513Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1228,12 +1228,12 @@
       "id": 1291,
       "name": "9U OBA Rep",
       "category": "OBA Rep",
-      "gp": 13,
+      "gp": 15,
       "wins": 9,
-      "losses": 4,
+      "losses": 6,
       "ties": 0,
-      "runs_for": 179,
-      "runs_against": 110,
+      "runs_for": 197,
+      "runs_against": 133,
       "practices": 30,
       "roster": {
         "players": 12,
@@ -1559,7 +1559,7 @@
           "date": "2026-06-28",
           "start_time": "12:00 PM",
           "end_date": "2026-06-28",
-          "summary": "9U OBA Rep - Game @ Windsor Stars",
+          "summary": "9U OBA Rep - Game @ Windsor Stars(L 13-14)",
           "location": "Mic Mac Park",
           "type": "game",
           "cancelled": false
@@ -1569,7 +1569,7 @@
           "date": "2026-06-28",
           "start_time": "4:00 PM",
           "end_date": "2026-06-28",
-          "summary": "9U OBA Rep - Game @ Lasalle Turtle Club",
+          "summary": "9U OBA Rep - Game @ Lasalle Turtle Club(L 5-9)",
           "location": "Turtle Club",
           "type": "game",
           "cancelled": false
@@ -2041,9 +2041,9 @@
           "start_time": "12:00 PM",
           "opponent": "Windsor Stars Mic Mac Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 13,
+          "opp_score": 14,
           "cancelled": false
         },
         {
@@ -2053,9 +2053,9 @@
           "start_time": "4:00 PM",
           "opponent": "Lasalle Turtle Club Turtle Club",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 5,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -3975,10 +3975,11 @@
                   "Brian Mundt",
                   "Grant Purdy",
                   "Hayden Scheuermann",
-                  "Jarett Simons",
                   "Marko Sazdov",
                   "Ronnie Atyeo",
+                  "Shane Moorhouse",
                   "Terry Doyle",
+                  "Tyler Hoadley",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
@@ -3989,7 +3990,7 @@
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
-                "pending_count": 10,
+                "pending_count": 11,
                 "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4078,12 +4079,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 13,
+      "gp": 14,
       "wins": 7,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "runs_for": 126,
-      "runs_against": 150,
+      "runs_for": 130,
+      "runs_against": 169,
       "practices": 39,
       "roster": {
         "players": 13,
@@ -4449,7 +4450,7 @@
           "date": "2026-06-28",
           "start_time": "4:00 PM",
           "end_date": "2026-06-28",
-          "summary": "10U A OBA Rep - Game vs Wyoming Wranglers [WC11U-045]",
+          "summary": "10U A OBA Rep - Game vs Wyoming Wranglers [WC11U-045](L 19-4)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -5109,9 +5110,9 @@
           "start_time": "4:00 PM",
           "opponent": "Wyoming Wranglers WC11U-045 Tecumseh Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 19,
           "cancelled": false
         },
         {
@@ -7950,18 +7951,20 @@
             "venue": "Tecumseh Park",
             "assigned_umpires": [
               "Hayden Scheuermann",
-              "Ralph Campbell"
+              "Ralph Campbell",
+              "Tyler Hoadley"
             ],
             "accepted_umpires": [
               "Ralph Campbell"
             ],
             "pending_umpires": [
-              "Hayden Scheuermann"
+              "Hayden Scheuermann",
+              "Tyler Hoadley"
             ],
             "denied_umpires": [],
-            "assigned_count": 2,
+            "assigned_count": 3,
             "accepted_count": 1,
-            "pending_count": 1,
+            "pending_count": 2,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -8060,18 +8063,20 @@
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
                   "Hayden Scheuermann",
-                  "Ralph Campbell"
+                  "Ralph Campbell",
+                  "Tyler Hoadley"
                 ],
                 "accepted_umpires": [
                   "Ralph Campbell"
                 ],
                 "pending_umpires": [
-                  "Hayden Scheuermann"
+                  "Hayden Scheuermann",
+                  "Tyler Hoadley"
                 ],
                 "denied_umpires": [],
-                "assigned_count": 2,
+                "assigned_count": 3,
                 "accepted_count": 1,
-                "pending_count": 1,
+                "pending_count": 2,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               }
@@ -14929,12 +14934,12 @@
       "id": 1301,
       "name": "15U Select",
       "category": "Select",
-      "gp": 5,
-      "wins": 2,
+      "gp": 6,
+      "wins": 3,
       "losses": 3,
       "ties": 0,
-      "runs_for": 53,
-      "runs_against": 76,
+      "runs_for": 62,
+      "runs_against": 82,
       "practices": 30,
       "roster": {
         "players": 12,
@@ -15190,7 +15195,7 @@
           "date": "2026-06-28",
           "start_time": "6:00 PM",
           "end_date": "2026-06-29",
-          "summary": "15U Select - Game vs Aylmer Pirates [15uS51]",
+          "summary": "15U Select - Game vs Aylmer Pirates [15uS51](W 6-9)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -15558,9 +15563,9 @@
           "start_time": "6:00 PM",
           "opponent": "Aylmer Pirates",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 6,
           "cancelled": false
         },
         {
