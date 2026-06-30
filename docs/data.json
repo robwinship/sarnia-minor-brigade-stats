@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-30T10:03:35.928161Z",
+  "generated": "2026-06-30T16:03:18.503530Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3922,9 +3922,9 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Carter Wills",
                   "Grant Purdy",
                   "Hayden Scheuermann",
+                  "Kye Golder",
                   "Marko Sazdov",
                   "Ronnie Atyeo",
                   "Terry Doyle",
@@ -3934,13 +3934,12 @@
                 "denied_umpires": [
                   "Brian Mundt",
                   "Chris Bonneau",
-                  "Hayden Scheuermann",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
                 "pending_count": 9,
-                "denied_count": 4,
+                "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -5335,12 +5334,12 @@
       "id": 1293,
       "name": "11U OBA Rep",
       "category": "OBA Rep",
-      "gp": 11,
-      "wins": 8,
+      "gp": 13,
+      "wins": 10,
       "losses": 3,
       "ties": 0,
-      "runs_for": 127,
-      "runs_against": 81,
+      "runs_for": 139,
+      "runs_against": 87,
       "practices": 33,
       "roster": {
         "players": 12,
@@ -5746,7 +5745,7 @@
           "date": "2026-06-27",
           "start_time": "12:30 PM",
           "end_date": "2026-06-27",
-          "summary": "11U OBA Rep - Game @ Lucan-Ilderton Athletics [11u19]",
+          "summary": "11U OBA Rep - Game @ Lucan-Ilderton Athletics [11u19](W 5-3)",
           "location": "Lucan (2)",
           "type": "game",
           "cancelled": false
@@ -5756,7 +5755,7 @@
           "date": "2026-06-27",
           "start_time": "3:00 PM",
           "end_date": "2026-06-27",
-          "summary": "11U OBA Rep - Game @ Lucan-Ilderton Athletics [11u55]",
+          "summary": "11U OBA Rep - Game @ Lucan-Ilderton Athletics [11u55](W 7-3)",
           "location": "Lucan (2)",
           "type": "game",
           "cancelled": false
@@ -6432,9 +6431,9 @@
           "start_time": "12:30 PM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 5,
+          "opp_score": 3,
           "cancelled": false
         },
         {
@@ -6444,9 +6443,9 @@
           "start_time": "3:00 PM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 7,
+          "opp_score": 3,
           "cancelled": false
         },
         {
@@ -8031,7 +8030,7 @@
       "ties": 0,
       "runs_for": 235,
       "runs_against": 159,
-      "practices": 33,
+      "practices": 34,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -8522,23 +8521,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21751-sarniabrigade.ca",
+          "uid": "MS-21950-sarniabrigade.ca",
           "date": "2026-07-11",
           "start_time": "10:00 AM",
           "end_date": "2026-07-11",
-          "summary": "13U OBA Rep - Game vs TBA",
+          "summary": "13U OBA Rep - Practice",
           "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21752-sarniabrigade.ca",
-          "date": "2026-07-11",
-          "start_time": "1:00 PM",
-          "end_date": "2026-07-11",
-          "summary": "13U OBA Rep - Game vs TBA",
-          "location": "Tecumseh Park",
-          "type": "game",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -9154,30 +9143,6 @@
           "start_time": "7:30 PM",
           "opponent": "Mitchell Astros Rep",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "21751",
-          "href": "https://sarniabrigade.ca/Teams/1295/Games/21751/",
-          "date": "2026-07-11",
-          "start_time": "10:00 AM",
-          "opponent": "TBA Tecumseh Park",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "21752",
-          "href": "https://sarniabrigade.ca/Teams/1295/Games/21752/",
-          "date": "2026-07-11",
-          "start_time": "1:00 PM",
-          "opponent": "TBA Tecumseh Park",
-          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -9910,6 +9875,16 @@
           "summary": "14U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21949-sarniabrigade.ca",
+          "date": "2026-07-14",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-15",
+          "summary": "14U OBA Rep - Game @ Chatham Major Diamonds",
+          "location": "Fergie Jenkins Field",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -10752,6 +10727,18 @@
           "date": "2026-07-07",
           "start_time": "6:30 PM",
           "opponent": "Corunna Giants WC15U-025 Community Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21949",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/21949/",
+          "date": "2026-07-14",
+          "start_time": "6:30 PM",
+          "opponent": "Chatham Major Diamonds Fergie Jenkins Field",
           "home": false,
           "result": null,
           "brigade_score": null,
