@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-29T23:03:17.912678Z",
+  "generated": "2026-06-30T10:03:35.928161Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3921,14 +3921,13 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Annette Hoggarth",
                   "Brian Mundt",
+                  "Carter Wills",
                   "Grant Purdy",
                   "Hayden Scheuermann",
                   "Marko Sazdov",
                   "Ronnie Atyeo",
                   "Terry Doyle",
-                  "Tyler Hoadley",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
@@ -3940,7 +3939,7 @@
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
-                "pending_count": 10,
+                "pending_count": 9,
                 "denied_count": 4,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -6681,7 +6680,7 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
@@ -6706,6 +6705,26 @@
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "past"
+          },
+          {
+            "date": "2026-07-04",
+            "time": "6:30 PM",
+            "opponent": "London Badgers 10u",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Jakob Rodriguez"
+            ],
+            "accepted_umpires": [
+              "Jakob Rodriguez"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -6767,13 +6786,11 @@
           {
             "date": "2026-07-04",
             "issue_timing": "upcoming",
-            "incomplete_assignment": false,
+            "incomplete_assignment": true,
             "pair_signatures": [
-              "Drew Bennett | Jakob Rodriguez",
               "Jakob Rodriguez | Max McClintock"
             ],
             "mismatched_names": [
-              "Drew Bennett",
               "Max McClintock"
             ],
             "games": [
@@ -6802,17 +6819,15 @@
                 "opponent": "London Badgers 10u",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
-                  "Drew Bennett",
                   "Jakob Rodriguez"
                 ],
                 "accepted_umpires": [
-                  "Drew Bennett",
                   "Jakob Rodriguez"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
+                "assigned_count": 1,
+                "accepted_count": 1,
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
@@ -7980,20 +7995,17 @@
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
                   "Hayden Scheuermann",
-                  "Ralph Campbell",
-                  "Tyler Hoadley"
+                  "Ralph Campbell"
                 ],
                 "accepted_umpires": [
                   "Hayden Scheuermann",
                   "Ralph Campbell"
                 ],
-                "pending_umpires": [
-                  "Tyler Hoadley"
-                ],
+                "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 3,
+                "assigned_count": 2,
                 "accepted_count": 2,
-                "pending_count": 1,
+                "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               }
@@ -9314,13 +9326,13 @@
       "id": 1296,
       "name": "14U OBA Rep",
       "category": "OBA Rep",
-      "gp": 22,
-      "wins": 17,
-      "losses": 5,
+      "gp": 26,
+      "wins": 20,
+      "losses": 6,
       "ties": 0,
-      "runs_for": 275,
-      "runs_against": 133,
-      "practices": 43,
+      "runs_for": 325,
+      "runs_against": 153,
+      "practices": 42,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -9775,7 +9787,7 @@
           "date": "2026-06-27",
           "start_time": "3:30 PM",
           "end_date": "2026-06-27",
-          "summary": "14U OBA Rep - Game @ Bearcats 14U Jacob",
+          "summary": "14U OBA Rep - Game @ Bearcats 14U Jacob(L 2-7)",
           "location": "St. Mary's Cement Park",
           "type": "game",
           "cancelled": false
@@ -9785,7 +9797,7 @@
           "date": "2026-06-27",
           "start_time": "6:00 PM",
           "end_date": "2026-06-28",
-          "summary": "14U OBA Rep - Game @ Bearcats 14U Jacob",
+          "summary": "14U OBA Rep - Game @ Bearcats 14U Jacob(W 18-3)",
           "location": "St. Mary's Cement Park",
           "type": "game",
           "cancelled": false
@@ -9795,7 +9807,7 @@
           "date": "2026-06-28",
           "start_time": "10:00 AM",
           "end_date": "2026-06-28",
-          "summary": "14U OBA Rep - Game vs Dorchester Diamondbacks [14u07]",
+          "summary": "14U OBA Rep - Game vs Dorchester Diamondbacks [14u07](W 3-13)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -9805,7 +9817,7 @@
           "date": "2026-06-28",
           "start_time": "12:00 PM",
           "end_date": "2026-06-28",
-          "summary": "14U OBA Rep - Game vs Dorchester Diamondbacks [14u59]",
+          "summary": "14U OBA Rep - Game vs Dorchester Diamondbacks [14u59](W 7-17)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -9817,16 +9829,6 @@
           "end_date": "2026-06-30",
           "summary": "14U OBA Rep - Practice",
           "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21606-sarniabrigade.ca",
-          "date": "2026-06-30",
-          "start_time": "6:30 PM",
-          "end_date": "2026-07-01",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
           "type": "practice",
           "cancelled": false
         },
@@ -10291,16 +10293,6 @@
           "cancelled": false
         },
         {
-          "uid": "MD-3278-sarniabrigade.ca",
-          "date": "2026-07-10",
-          "start_time": null,
-          "end_date": "2026-07-13",
-          "summary": "14U OBA Rep - Sarnia",
-          "location": "Sarnia",
-          "type": "tournament",
-          "cancelled": false
-        },
-        {
           "uid": "MD-3280-sarniabrigade.ca",
           "date": "2026-07-31",
           "start_time": null,
@@ -10689,9 +10681,9 @@
           "start_time": "3:30 PM",
           "opponent": "Bearcats",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 2,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -10701,9 +10693,9 @@
           "start_time": "6:00 PM",
           "opponent": "Bearcats",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 18,
+          "opp_score": 3,
           "cancelled": false
         },
         {
@@ -10713,9 +10705,9 @@
           "start_time": "10:00 AM",
           "opponent": "Dorchester Diamondbacks",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 13,
+          "opp_score": 3,
           "cancelled": false
         },
         {
@@ -10725,9 +10717,9 @@
           "start_time": "12:00 PM",
           "opponent": "Dorchester Diamondbacks",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 17,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -10957,12 +10949,12 @@
       "id": 1297,
       "name": "15U OBA Rep",
       "category": "OBA Rep",
-      "gp": 17,
-      "wins": 5,
+      "gp": 18,
+      "wins": 6,
       "losses": 12,
       "ties": 0,
-      "runs_for": 115,
-      "runs_against": 167,
+      "runs_for": 118,
+      "runs_against": 169,
       "practices": 48,
       "roster": {
         "players": 14,
@@ -11438,7 +11430,7 @@
           "date": "2026-06-29",
           "start_time": "6:00 PM",
           "end_date": "2026-06-30",
-          "summary": "15U OBA Rep - Game @ London Talons [15u05]",
+          "summary": "15U OBA Rep - Game @ London Talons [15u05](W 3-2)",
           "location": "City Wide (Upper)",
           "type": "game",
           "cancelled": false
@@ -12210,9 +12202,9 @@
           "start_time": "6:00 PM",
           "opponent": "London Talons",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 3,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -12454,12 +12446,12 @@
       "id": 1299,
       "name": "9U Select",
       "category": "Select",
-      "gp": 6,
+      "gp": 8,
       "wins": 2,
-      "losses": 4,
+      "losses": 6,
       "ties": 0,
-      "runs_for": 85,
-      "runs_against": 120,
+      "runs_for": 88,
+      "runs_against": 160,
       "practices": 26,
       "roster": {
         "players": 13,
@@ -12655,7 +12647,7 @@
           "date": "2026-06-28",
           "start_time": "6:00 PM",
           "end_date": "2026-06-29",
-          "summary": "9U Select - Game vs Lambton Shores Falcons [9uS70]",
+          "summary": "9U Select - Game vs Lambton Shores Falcons [9uS70](L 22-3)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -12665,7 +12657,7 @@
           "date": "2026-06-29",
           "start_time": "7:00 PM",
           "end_date": "2026-06-30",
-          "summary": "9U Select - Game @ Lambton Shores Falcons [9uS34]",
+          "summary": "9U Select - Game @ Lambton Shores Falcons [9uS34](L 0-18)",
           "location": "Rick Goodhand",
           "type": "game",
           "cancelled": false
@@ -13035,9 +13027,9 @@
           "start_time": "6:00 PM",
           "opponent": "Lambton Shores Falcons",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 3,
+          "opp_score": 22,
           "cancelled": false
         },
         {
@@ -13047,9 +13039,9 @@
           "start_time": "7:00 PM",
           "opponent": "Lambton Shores Falcons",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 0,
+          "opp_score": 18,
           "cancelled": false
         },
         {
@@ -15264,7 +15256,7 @@
         {
           "uid": "MS-21947-sarniabrigade.ca",
           "date": "2026-07-29",
-          "start_time": "8:00 PM",
+          "start_time": "7:30 PM",
           "end_date": "2026-07-30",
           "summary": "15U Select - Game @ Ingersoll Ironbirds [15uS97]",
           "location": "Victoria Park (South)",
@@ -15593,7 +15585,7 @@
           "game_id": "21947",
           "href": "https://sarniabrigade.ca/Teams/1301/Games/21947/",
           "date": "2026-07-29",
-          "start_time": "8:00 PM",
+          "start_time": "7:30 PM",
           "opponent": "Ingersoll Ironbirds",
           "home": false,
           "result": null,
@@ -15764,12 +15756,12 @@
       "id": 1304,
       "name": "9U River League",
       "category": "River League",
-      "gp": 6,
-      "wins": 2,
+      "gp": 7,
+      "wins": 3,
       "losses": 4,
       "ties": 0,
-      "runs_for": 80,
-      "runs_against": 76,
+      "runs_for": 85,
+      "runs_against": 79,
       "practices": 16,
       "roster": {
         "players": 16,
@@ -15915,7 +15907,7 @@
           "date": "2026-06-29",
           "start_time": "6:00 PM",
           "end_date": "2026-06-30",
-          "summary": "9U River League - Game vs Oil Springs Drillers [RL9UN-59]",
+          "summary": "9U River League - Game vs Oil Springs Drillers [RL9UN-59](W 3-5)",
           "location": "Blackwell North",
           "type": "game",
           "cancelled": false
@@ -16221,9 +16213,9 @@
           "start_time": "6:00 PM",
           "opponent": "Oil Springs Drillers RL9UN-59 Blackwell North",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 5,
+          "opp_score": 3,
           "cancelled": false
         },
         {
@@ -16931,12 +16923,12 @@
       "id": 1315,
       "name": "11U River League",
       "category": "River League",
-      "gp": 9,
-      "wins": 5,
+      "gp": 10,
+      "wins": 6,
       "losses": 4,
       "ties": 0,
-      "runs_for": 95,
-      "runs_against": 77,
+      "runs_for": 105,
+      "runs_against": 85,
       "practices": 12,
       "roster": {
         "players": 15,
@@ -17102,7 +17094,7 @@
           "date": "2026-06-29",
           "start_time": "6:30 PM",
           "end_date": "2026-06-30",
-          "summary": "11u River League - Game vs Wyoming Wranglers Navy [RL11UN-25]",
+          "summary": "11u River League - Game vs Wyoming Wranglers Navy [RL11UN-25](W 8-10)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -17334,9 +17326,9 @@
           "start_time": "6:30 PM",
           "opponent": "Wyoming Wranglers Navy RL11UN-25 Clearwater Di",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 10,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -18075,7 +18067,7 @@
       "ties": 0,
       "runs_for": 237,
       "runs_against": 212,
-      "practices": 42,
+      "practices": 41,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -18085,16 +18077,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20010-sarniabrigade.ca",
-          "date": "2026-04-29",
-          "start_time": "7:30 PM",
-          "end_date": "2026-04-30",
-          "summary": "CANCELLED 16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20495-sarniabrigade.ca",
           "date": "2026-05-01",
@@ -21192,15 +21174,6 @@
       "start_time": "1:00 PM",
       "summary": "CANCELLED 13U LDBA House League - Game vs DKMB Blue [13uW25]",
       "location": "Clearwater Diamond #2"
-    },
-    {
-      "team_id": 1298,
-      "team_name": "16U PBLO",
-      "type": "practice",
-      "date": "2026-04-29",
-      "start_time": "7:30 PM",
-      "summary": "CANCELLED 16U PBLO - Practice",
-      "location": "Blackwell Park"
     },
     {
       "team_id": 1298,
