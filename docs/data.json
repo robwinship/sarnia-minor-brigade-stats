@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-30T16:03:18.503530Z",
+  "generated": "2026-06-30T19:33:28.010214Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3923,12 +3923,9 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Grant Purdy",
-                  "Hayden Scheuermann",
-                  "Kye Golder",
-                  "Marko Sazdov",
-                  "Ronnie Atyeo",
+                  "Greg Baker",
                   "Terry Doyle",
-                  "Tyler Vandenberg",
+                  "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3938,7 +3935,7 @@
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
-                "pending_count": 9,
+                "pending_count": 6,
                 "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -6679,7 +6676,7 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
@@ -6704,26 +6701,6 @@
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "past"
-          },
-          {
-            "date": "2026-07-04",
-            "time": "6:30 PM",
-            "opponent": "London Badgers 10u",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Jakob Rodriguez"
-            ],
-            "accepted_umpires": [
-              "Jakob Rodriguez"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -6785,12 +6762,14 @@
           {
             "date": "2026-07-04",
             "issue_timing": "upcoming",
-            "incomplete_assignment": true,
+            "incomplete_assignment": false,
             "pair_signatures": [
-              "Jakob Rodriguez | Max McClintock"
+              "Jakob Rodriguez | Max McClintock",
+              "Jakob Rodriguez | Paolo Padiglia"
             ],
             "mismatched_names": [
-              "Max McClintock"
+              "Max McClintock",
+              "Paolo Padiglia"
             ],
             "games": [
               {
@@ -6818,15 +6797,17 @@
                 "opponent": "London Badgers 10u",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
-                  "Jakob Rodriguez"
+                  "Jakob Rodriguez",
+                  "Paolo Padiglia"
                 ],
                 "accepted_umpires": [
-                  "Jakob Rodriguez"
+                  "Jakob Rodriguez",
+                  "Paolo Padiglia"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 1,
-                "accepted_count": 1,
+                "assigned_count": 2,
+                "accepted_count": 2,
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
