@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-30T19:33:28.010214Z",
+  "generated": "2026-06-30T23:04:14.398703Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 270,
       "runs_against": 333,
-      "practices": 33,
+      "practices": 32,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19953-sarniabrigade.ca",
-          "date": "2026-04-30",
-          "start_time": "5:00 PM",
-          "end_date": "2026-04-30",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20287-sarniabrigade.ca",
           "date": "2026-05-03",
@@ -3923,9 +3913,8 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Grant Purdy",
-                  "Greg Baker",
                   "Terry Doyle",
-                  "Tristan Heeringa",
+                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3935,7 +3924,7 @@
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
-                "pending_count": 6,
+                "pending_count": 5,
                 "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4030,7 +4019,7 @@
       "ties": 0,
       "runs_for": 130,
       "runs_against": 169,
-      "practices": 39,
+      "practices": 38,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -4040,16 +4029,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20154-sarniabrigade.ca",
-          "date": "2026-04-30",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-30",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20519-sarniabrigade.ca",
           "date": "2026-05-02",
@@ -5337,7 +5316,7 @@
       "ties": 0,
       "runs_for": 139,
       "runs_against": 87,
-      "practices": 33,
+      "practices": 32,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5347,16 +5326,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20388-sarniabrigade.ca",
-          "date": "2026-04-30",
-          "start_time": "5:00 PM",
-          "end_date": "2026-04-30",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20061-sarniabrigade.ca",
           "date": "2026-05-02",
@@ -8011,7 +7980,7 @@
       "ties": 0,
       "runs_for": 235,
       "runs_against": 159,
-      "practices": 34,
+      "practices": 33,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -8021,16 +7990,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20238-sarniabrigade.ca",
-          "date": "2026-04-30",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-01",
-          "summary": "13U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19717-sarniabrigade.ca",
           "date": "2026-05-02",
@@ -10923,7 +10882,7 @@
       "ties": 0,
       "runs_for": 118,
       "runs_against": 169,
-      "practices": 48,
+      "practices": 47,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10933,16 +10892,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20147-sarniabrigade.ca",
-          "date": "2026-04-30",
-          "start_time": "5:30 PM",
-          "end_date": "2026-04-30",
-          "summary": "CANCELLED 15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20966-sarniabrigade.ca",
           "date": "2026-05-01",
@@ -20998,15 +20947,6 @@
       "start_time": "11:00 AM",
       "summary": "CANCELLED 14U OBA Rep - Game",
       "location": ""
-    },
-    {
-      "team_id": 1297,
-      "team_name": "15U OBA Rep",
-      "type": "practice",
-      "date": "2026-04-30",
-      "start_time": "5:30 PM",
-      "summary": "CANCELLED 15U OBA Rep - Practice",
-      "location": "Blackwell Park"
     },
     {
       "team_id": 1297,
