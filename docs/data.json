@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-01T19:32:55.411031Z",
+  "generated": "2026-07-01T23:05:14.476399Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3914,7 +3914,6 @@
                   "Brian Mundt",
                   "Cambria Caissie",
                   "Carson Whittington",
-                  "Doug Krall",
                   "Grant Purdy",
                   "Greg Armstrong",
                   "Hayden Scheuermann",
@@ -3933,7 +3932,7 @@
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
-                "pending_count": 12,
+                "pending_count": 11,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -10891,7 +10890,7 @@
       "ties": 0,
       "runs_for": 118,
       "runs_against": 169,
-      "practices": 47,
+      "practices": 46,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10901,16 +10900,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20966-sarniabrigade.ca",
-          "date": "2026-05-01",
-          "start_time": "5:00 PM",
-          "end_date": "2026-05-01",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20985-sarniabrigade.ca",
           "date": "2026-05-02",
@@ -14004,7 +13993,7 @@
       "ties": 0,
       "runs_for": 95,
       "runs_against": 52,
-      "practices": 22,
+      "practices": 21,
       "roster": {
         "players": 12,
         "adults": 4,
@@ -14014,16 +14003,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19831-sarniabrigade.ca",
-          "date": "2026-05-01",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-02",
-          "summary": "13U Select - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19852-sarniabrigade.ca",
           "date": "2026-05-04",
@@ -17326,7 +17305,7 @@
       "ties": 0,
       "runs_for": 128,
       "runs_against": 40,
-      "practices": 20,
+      "practices": 19,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -17336,16 +17315,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20341-sarniabrigade.ca",
-          "date": "2026-05-01",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-02",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #4",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20360-sarniabrigade.ca",
           "date": "2026-05-03",
