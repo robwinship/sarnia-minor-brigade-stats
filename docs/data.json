@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-06-30T23:04:14.398703Z",
+  "generated": "2026-07-01T10:03:39.162792Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3912,9 +3912,10 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
+                  "Doug Krall",
                   "Grant Purdy",
+                  "Marko Sazdov",
                   "Terry Doyle",
-                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3924,7 +3925,7 @@
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
-                "pending_count": 5,
+                "pending_count": 6,
                 "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -5310,12 +5311,12 @@
       "id": 1293,
       "name": "11U OBA Rep",
       "category": "OBA Rep",
-      "gp": 13,
-      "wins": 10,
+      "gp": 14,
+      "wins": 11,
       "losses": 3,
       "ties": 0,
-      "runs_for": 139,
-      "runs_against": 87,
+      "runs_for": 154,
+      "runs_against": 98,
       "practices": 32,
       "roster": {
         "players": 12,
@@ -5731,7 +5732,7 @@
           "date": "2026-06-30",
           "start_time": "6:00 PM",
           "end_date": "2026-07-01",
-          "summary": "11U OBA Rep - Game @ DKMB River Cats [11u79]",
+          "summary": "11U OBA Rep - Game @ DKMB River Cats [11u79](W 15-11)",
           "location": "Komoka (Front)",
           "type": "game",
           "cancelled": false
@@ -6421,9 +6422,9 @@
           "start_time": "6:00 PM",
           "opponent": "DKMB River Cats",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 15,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -13154,7 +13155,7 @@
       "ties": 0,
       "runs_for": 117,
       "runs_against": 108,
-      "practices": 23,
+      "practices": 22,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -13164,16 +13165,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19825-sarniabrigade.ca",
-          "date": "2026-04-30",
-          "start_time": "7:00 PM",
-          "end_date": "2026-05-01",
-          "summary": "11U Select - Indoor Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20107-sarniabrigade.ca",
           "date": "2026-05-03",
@@ -14800,7 +14791,7 @@
       "ties": 0,
       "runs_for": 62,
       "runs_against": 82,
-      "practices": 30,
+      "practices": 29,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -14810,16 +14801,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20068-sarniabrigade.ca",
-          "date": "2026-04-30",
-          "start_time": "7:00 PM",
-          "end_date": "2026-05-01",
-          "summary": "15U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20074-sarniabrigade.ca",
           "date": "2026-05-03",
