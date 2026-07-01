@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-01T16:03:13.936314Z",
+  "generated": "2026-07-01T19:32:55.411031Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3912,10 +3912,14 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
+                  "Cambria Caissie",
+                  "Carson Whittington",
                   "Doug Krall",
                   "Grant Purdy",
+                  "Greg Armstrong",
+                  "Hayden Scheuermann",
+                  "Kye Golder",
                   "Marko Sazdov",
-                  "Ralph Campbell",
                   "Sydney Nisbet",
                   "Terry Doyle",
                   "Tyler Whetham"
@@ -3923,12 +3927,14 @@
                 "denied_umpires": [
                   "Brian Mundt",
                   "Chris Bonneau",
+                  "Drew Bennett",
+                  "Ralph Campbell",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 103,
                 "accepted_count": 103,
-                "pending_count": 8,
-                "denied_count": 3,
+                "pending_count": 12,
+                "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
               {
