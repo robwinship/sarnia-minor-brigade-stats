@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-02T10:03:15.088620Z",
+  "generated": "2026-07-02T16:03:11.143100Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -391,7 +391,7 @@
         },
         {
           "uid": "MS-20276-sarniabrigade.ca",
-          "date": "2026-07-01",
+          "date": "2026-07-02",
           "start_time": "6:00 PM",
           "end_date": "2026-07-02",
           "summary": "8U OBA Rep - Practice",
@@ -1214,7 +1214,7 @@
       "ties": 0,
       "runs_for": 197,
       "runs_against": 133,
-      "practices": 28,
+      "practices": 27,
       "roster": {
         "players": 12,
         "adults": 5,
@@ -1224,16 +1224,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19893-sarniabrigade.ca",
-          "date": "2026-05-02",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-02",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20180-sarniabrigade.ca",
           "date": "2026-05-05",
@@ -2245,16 +2235,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20519-sarniabrigade.ca",
-          "date": "2026-05-02",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-02",
-          "summary": "10U AA OBA Rep - Game @ 10U A OBA Rep [WC11U-070](W 20-10)",
-          "location": "Clearwater Diamond #2",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21232-sarniabrigade.ca",
           "date": "2026-05-06",
@@ -3913,19 +3893,18 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
+                  "Brogan Murphy",
                   "Caleb Willemsvandyk",
                   "Cambria Caissie",
-                  "Carson Whittington",
                   "Carter Wills",
-                  "Clark Thornton",
                   "Grant Purdy",
                   "Greg Armstrong",
                   "Hayden Scheuermann",
                   "Joey Buchner",
-                  "Kye Golder",
-                  "Marko Sazdov",
+                  "Kirk Vines",
+                  "Matthew Schrie",
+                  "Mike Moorhouse",
                   "Parker Leighton",
-                  "Sydney Nisbet",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham"
@@ -3933,14 +3912,13 @@
                 "denied_umpires": [
                   "Brian Mundt",
                   "Chris Bonneau",
-                  "Drew Bennett",
                   "Ralph Campbell",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 104,
                 "accepted_count": 103,
-                "pending_count": 17,
-                "denied_count": 5,
+                "pending_count": 16,
+                "denied_count": 4,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4044,16 +4022,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20519-sarniabrigade.ca",
-          "date": "2026-05-02",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-02",
-          "summary": "10U A OBA Rep - Game vs 10U AA OBA Rep [WC11U-070](L 20-10)",
-          "location": "Clearwater Diamond #2",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20513-sarniabrigade.ca",
           "date": "2026-05-03",
@@ -8006,16 +7974,6 @@
       },
       "events": [
         {
-          "uid": "MS-19717-sarniabrigade.ca",
-          "date": "2026-05-02",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-02",
-          "summary": "13U OBA Rep - Game vs London  Badgers(L 24-6)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19719-sarniabrigade.ca",
           "date": "2026-05-03",
           "start_time": "12:00 PM",
@@ -10891,13 +10849,13 @@
       "id": 1297,
       "name": "15U OBA Rep",
       "category": "OBA Rep",
-      "gp": 18,
-      "wins": 6,
-      "losses": 12,
+      "gp": 20,
+      "wins": 7,
+      "losses": 13,
       "ties": 0,
-      "runs_for": 118,
-      "runs_against": 169,
-      "practices": 46,
+      "runs_for": 138,
+      "runs_against": 183,
+      "practices": 45,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10907,16 +10865,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20985-sarniabrigade.ca",
-          "date": "2026-05-02",
-          "start_time": "11:00 AM",
-          "end_date": "2026-05-02",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20426-sarniabrigade.ca",
           "date": "2026-05-03",
@@ -11332,7 +11280,7 @@
           "date": "2026-06-27",
           "start_time": "11:00 AM",
           "end_date": "2026-06-27",
-          "summary": "15U OBA Rep - Game vs St. Thomas Cardinals [15u16]",
+          "summary": "15U OBA Rep - Game vs St. Thomas Cardinals [15u16](L 11-6)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -11342,7 +11290,7 @@
           "date": "2026-06-27",
           "start_time": "1:30 PM",
           "end_date": "2026-06-27",
-          "summary": "15U OBA Rep - Game vs St. Thomas Cardinals [15u46]",
+          "summary": "15U OBA Rep - Game vs St. Thomas Cardinals [15u46](W 3-14)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -12100,9 +12048,9 @@
           "start_time": "11:00 AM",
           "opponent": "St. Thomas Cardinals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -12112,9 +12060,9 @@
           "start_time": "1:30 PM",
           "opponent": "St. Thomas Cardinals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 14,
+          "opp_score": 3,
           "cancelled": false
         },
         {
@@ -14759,12 +14707,36 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-07-06",
+            "time": "6:00 PM",
+            "opponent": "Lucan-Ilderton Athletics",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Brogan Murphy",
+              "Tristan Heeringa"
+            ],
+            "accepted_umpires": [
+              "Tristan Heeringa"
+            ],
+            "pending_umpires": [
+              "Brogan Murphy"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 5351.68,
@@ -17961,16 +17933,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20496-sarniabrigade.ca",
-          "date": "2026-05-02",
-          "start_time": "11:00 AM",
-          "end_date": "2026-05-02",
-          "summary": "16U PBLO - Game vs East York [12](W 0-9)",
-          "location": "Father Angelo Saad",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20497-sarniabrigade.ca",
           "date": "2026-05-02",
