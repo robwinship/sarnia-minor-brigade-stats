@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-01T23:05:14.476399Z",
+  "generated": "2026-07-02T10:03:15.088620Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3711,6 +3711,7 @@
                   "Brock Lane",
                   "Brock Prozorowicz",
                   "Brogan Murphy",
+                  "Caleb Willemsvandyk",
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
@@ -3912,15 +3913,21 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
+                  "Caleb Willemsvandyk",
                   "Cambria Caissie",
                   "Carson Whittington",
+                  "Carter Wills",
+                  "Clark Thornton",
                   "Grant Purdy",
                   "Greg Armstrong",
                   "Hayden Scheuermann",
+                  "Joey Buchner",
                   "Kye Golder",
                   "Marko Sazdov",
+                  "Parker Leighton",
                   "Sydney Nisbet",
                   "Terry Doyle",
+                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3930,9 +3937,9 @@
                   "Ralph Campbell",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 103,
+                "assigned_count": 104,
                 "accepted_count": 103,
-                "pending_count": 11,
+                "pending_count": 17,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -16814,7 +16821,7 @@
       "ties": 0,
       "runs_for": 105,
       "runs_against": 85,
-      "practices": 12,
+      "practices": 10,
       "roster": {
         "players": 15,
         "adults": 2,
@@ -16985,33 +16992,23 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21278-sarniabrigade.ca",
+          "uid": "MS-21957-sarniabrigade.ca",
           "date": "2026-07-06",
           "start_time": "6:00 PM",
           "end_date": "2026-07-07",
-          "summary": "11u River League - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21936-sarniabrigade.ca",
-          "date": "2026-07-13",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-14",
-          "summary": "11u River League - Game vs Wyoming Wranglers Red",
+          "summary": "11u River League - Game vs Oil Springs Drillers",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
         },
         {
-          "uid": "MS-21279-sarniabrigade.ca",
+          "uid": "MS-21936-sarniabrigade.ca",
           "date": "2026-07-13",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-07-14",
-          "summary": "11u River League - Practice",
+          "summary": "11u River League - Game vs Wyoming Wranglers Red",
           "location": "Clearwater Diamond #2",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -17217,10 +17214,22 @@
           "cancelled": false
         },
         {
+          "game_id": "21957",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21957/",
+          "date": "2026-07-06",
+          "start_time": "6:00 PM",
+          "opponent": "Oil Springs Drillers Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "21936",
           "href": "https://sarniabrigade.ca/Teams/1315/Games/21936/",
           "date": "2026-07-13",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "opponent": "Wyoming Wranglers Red Clearwater Diamond",
           "home": true,
           "result": null,
@@ -17952,16 +17961,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20495-sarniabrigade.ca",
-          "date": "2026-05-01",
-          "start_time": "8:00 PM",
-          "end_date": "2026-05-02",
-          "summary": "16U PBLO - Game vs Etobicoke [5](W 8-9)",
-          "location": "River Grove Community Centre (Diamond 2)",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20496-sarniabrigade.ca",
           "date": "2026-05-02",
