@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-02T16:03:11.143100Z",
+  "generated": "2026-07-02T19:33:10.444068Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1131,13 +1131,54 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 0,
+        "games_missed": 2,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 1,
+        "doubleheader_mismatch": 2,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-06-07",
+            "time": "10:00 AM",
+            "opponent": "North London Nationals",
+            "venue": "Clearwater Diamond #1",
+            "assigned_umpires": [
+              "Lane Vanden Ouweland"
+            ],
+            "accepted_umpires": [
+              "Lane Vanden Ouweland"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "past"
+          },
+          {
+            "date": "2026-06-07",
+            "time": "1:00 PM",
+            "opponent": "North London Nationals",
+            "venue": "Clearwater Diamond #1",
+            "assigned_umpires": [
+              "Lane Vanden Ouweland"
+            ],
+            "accepted_umpires": [
+              "Lane Vanden Ouweland"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "past"
+          }
+        ],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-05-31",
@@ -1188,6 +1229,51 @@
                 "denied_umpires": [],
                 "assigned_count": 2,
                 "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-06-07",
+            "issue_timing": "past",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "North London Nationals",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Lane Vanden Ouweland"
+                ],
+                "accepted_umpires": [
+                  "Lane Vanden Ouweland"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 1,
+                "accepted_count": 1,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "1:00 PM",
+                "opponent": "North London Nationals",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Lane Vanden Ouweland"
+                ],
+                "accepted_umpires": [
+                  "Lane Vanden Ouweland"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 1,
+                "accepted_count": 1,
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
@@ -3664,7 +3750,6 @@
               "Sydney Nisbet",
               "Terry Doyle",
               "Tie Richards",
-              "Trent Hogan",
               "Tristan Heeringa",
               "Tucker Stokes",
               "Tyler Hoadley",
@@ -3775,7 +3860,6 @@
                   "Sydney Nisbet",
                   "Terry Doyle",
                   "Tie Richards",
-                  "Trent Hogan",
                   "Tristan Heeringa",
                   "Tucker Stokes",
                   "Tyler Hoadley",
@@ -3880,7 +3964,6 @@
                   "Sydney Nisbet",
                   "Terry Doyle",
                   "Tie Richards",
-                  "Trent Hogan",
                   "Tristan Heeringa",
                   "Tucker Stokes",
                   "Tyler Hoadley",
@@ -3897,6 +3980,7 @@
                   "Caleb Willemsvandyk",
                   "Cambria Caissie",
                   "Carter Wills",
+                  "Chris Bonneau",
                   "Grant Purdy",
                   "Greg Armstrong",
                   "Hayden Scheuermann",
@@ -3904,21 +3988,22 @@
                   "Kirk Vines",
                   "Matthew Schrie",
                   "Mike Moorhouse",
+                  "Myles Hobbs",
                   "Parker Leighton",
                   "Terry Doyle",
-                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
                   "Chris Bonneau",
                   "Ralph Campbell",
+                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 104,
-                "accepted_count": 103,
-                "pending_count": 16,
-                "denied_count": 4,
+                "assigned_count": 103,
+                "accepted_count": 102,
+                "pending_count": 17,
+                "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -17933,16 +18018,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20497-sarniabrigade.ca",
-          "date": "2026-05-02",
-          "start_time": "2:00 PM",
-          "end_date": "2026-05-02",
-          "summary": "16U PBLO - Game vs Milton [15](W 3-7)",
-          "location": "Father Angelo Saad",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21251-sarniabrigade.ca",
           "date": "2026-05-03",
