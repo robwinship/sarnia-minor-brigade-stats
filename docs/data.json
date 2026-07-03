@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-03T19:33:14.509162Z",
+  "generated": "2026-07-03T23:03:24.896836Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4083,26 +4083,6 @@
       },
       "events": [
         {
-          "uid": "MS-20513-sarniabrigade.ca",
-          "date": "2026-05-03",
-          "start_time": "4:00 PM",
-          "end_date": "2026-05-03",
-          "summary": "10U A OBA Rep - Game @ 11U OBA Rep [WC11U-005](L 4-16)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20517-sarniabrigade.ca",
-          "date": "2026-05-03",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-04",
-          "summary": "10U A OBA Rep - Game vs 11U OBA Rep [WC11U-064](L 16-3)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20243-sarniabrigade.ca",
           "date": "2026-05-05",
           "start_time": "6:30 PM",
@@ -5369,26 +5349,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20513-sarniabrigade.ca",
-          "date": "2026-05-03",
-          "start_time": "4:00 PM",
-          "end_date": "2026-05-03",
-          "summary": "11U OBA Rep - Game vs 10U A OBA Rep [WC11U-005](W 4-16)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20517-sarniabrigade.ca",
-          "date": "2026-05-03",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-04",
-          "summary": "11U OBA Rep - Game @ 10U A OBA Rep [WC11U-064](W 16-3)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21154-sarniabrigade.ca",
           "date": "2026-05-05",
@@ -14703,7 +14663,7 @@
       "ties": 0,
       "runs_for": 62,
       "runs_against": 82,
-      "practices": 28,
+      "practices": 27,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -14713,16 +14673,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20074-sarniabrigade.ca",
-          "date": "2026-05-03",
-          "start_time": "5:45 PM",
-          "end_date": "2026-05-04",
-          "summary": "15U Select - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20076-sarniabrigade.ca",
           "date": "2026-05-05",
