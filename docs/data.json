@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-03T16:03:00.898141Z",
+  "generated": "2026-07-03T19:33:14.509162Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3965,7 +3965,7 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Brock Lane",
+                  "Clark Thornton",
                   "Grant Purdy",
                   "Terry Doyle",
                   "Tyler Whetham"
@@ -6826,7 +6826,7 @@
       "ties": 0,
       "runs_for": 109,
       "runs_against": 160,
-      "practices": 32,
+      "practices": 31,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -6836,16 +6836,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-20524-sarniabrigade.ca",
-          "date": "2026-05-03",
-          "start_time": "1:00 PM",
-          "end_date": "2026-05-03",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20581-sarniabrigade.ca",
           "date": "2026-05-04",
@@ -8013,26 +8003,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19719-sarniabrigade.ca",
-          "date": "2026-05-03",
-          "start_time": "12:00 PM",
-          "end_date": "2026-05-03",
-          "summary": "13U OBA Rep - Game @ London  Badgers(L 6-7)",
-          "location": "TBD",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19720-sarniabrigade.ca",
-          "date": "2026-05-03",
-          "start_time": "3:00 PM",
-          "end_date": "2026-05-03",
-          "summary": "13U OBA Rep - Game @ London  Badgers(L 9-11)",
-          "location": "TBD",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20239-sarniabrigade.ca",
           "date": "2026-05-04",
@@ -14733,7 +14703,7 @@
       "ties": 0,
       "runs_for": 62,
       "runs_against": 82,
-      "practices": 29,
+      "practices": 28,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -15004,13 +14974,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21134-sarniabrigade.ca",
+          "uid": "MS-21973-sarniabrigade.ca",
           "date": "2026-07-07",
-          "start_time": "8:00 PM",
+          "start_time": "8:30 PM",
           "end_date": "2026-07-08",
-          "summary": "15U Select - Practice",
+          "summary": "15U Select - Game vs Corunna Major Giants",
           "location": "Blackwell Park",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -15374,6 +15344,18 @@
           "cancelled": false
         },
         {
+          "game_id": "21973",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/21973/",
+          "date": "2026-07-07",
+          "start_time": "8:30 PM",
+          "opponent": "Corunna Major Giants Blackwell Park More Detai",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20849",
           "href": "https://sarniabrigade.ca/Teams/1301/Games/20849/",
           "date": "2026-07-17",
@@ -15520,12 +15502,29 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-07-07",
+            "time": "8:30 PM",
+            "opponent": "Corunna Major Giants",
+            "venue": "Blackwell Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-06-19",
@@ -16942,7 +16941,7 @@
         {
           "uid": "MS-21957-sarniabrigade.ca",
           "date": "2026-07-06",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "end_date": "2026-07-07",
           "summary": "11u River League - Game vs Oil Springs Drillers",
           "location": "Clearwater Diamond #2",
@@ -17165,7 +17164,7 @@
           "game_id": "21957",
           "href": "https://sarniabrigade.ca/Teams/1315/Games/21957/",
           "date": "2026-07-06",
-          "start_time": "6:00 PM",
+          "start_time": "6:30 PM",
           "opponent": "Oil Springs Drillers Clearwater Diamond",
           "home": true,
           "result": null,
@@ -17262,7 +17261,7 @@
       "ties": 0,
       "runs_for": 128,
       "runs_against": 40,
-      "practices": 19,
+      "practices": 18,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -17272,16 +17271,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20360-sarniabrigade.ca",
-          "date": "2026-05-03",
-          "start_time": "1:00 PM",
-          "end_date": "2026-05-03",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20342-sarniabrigade.ca",
           "date": "2026-05-08",
@@ -20307,7 +20296,7 @@
       ],
       "umpire_issues": {
         "games_missed": 4,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 2,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -20376,29 +20365,6 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
-          },
-          {
-            "date": "2026-07-07",
-            "time": "7:30 PM",
-            "opponent": "Port Lambton Pirates",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [
-              "Brock Lane",
-              "Grant Purdy"
-            ],
-            "accepted_umpires": [
-              "Grant Purdy"
-            ],
-            "pending_umpires": [
-              "Brock Lane"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
