@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-03T10:03:22.468540Z",
+  "generated": "2026-07-03T16:03:00.898141Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 270,
       "runs_against": 333,
-      "practices": 32,
+      "practices": 31,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20287-sarniabrigade.ca",
-          "date": "2026-05-03",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-03",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20300-sarniabrigade.ca",
           "date": "2026-05-05",
@@ -2230,36 +2220,36 @@
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
-            "date": "2026-06-27",
-            "issue_timing": "past",
+            "date": "2026-07-04",
+            "issue_timing": "upcoming",
             "incomplete_assignment": false,
             "pair_signatures": [
-              "Hayden Scheuermann | Kayne Golder",
-              "Hayden Scheuermann | Zhayn Trowbridge"
+              "Cohen Smith | Tucker Stokes",
+              "Cohen Smith | Zhayn Trowbridge"
             ],
             "mismatched_names": [
-              "Kayne Golder",
+              "Tucker Stokes",
               "Zhayn Trowbridge"
             ],
             "games": [
               {
-                "time": "11:00 AM",
-                "opponent": "Lasalle Turtle Club",
+                "time": "10:00 AM",
+                "opponent": "St. Thomas Cardinals",
                 "venue": "Clearwater Diamond #1",
                 "assigned_umpires": [
-                  "Hayden Scheuermann",
-                  "Kayne Golder"
+                  "Cohen Smith",
+                  "Zhayn Trowbridge"
                 ],
                 "accepted_umpires": [
-                  "Hayden Scheuermann",
-                  "Kayne Golder"
+                  "Cohen Smith",
+                  "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
@@ -2270,16 +2260,16 @@
                 "assignment_state": "assigned_and_accepted"
               },
               {
-                "time": "2:00 PM",
-                "opponent": "Lasalle Turtle Club",
+                "time": "1:00 PM",
+                "opponent": "St. Thomas Cardinals",
                 "venue": "Clearwater Diamond #1",
                 "assigned_umpires": [
-                  "Hayden Scheuermann",
-                  "Zhayn Trowbridge"
+                  "Cohen Smith",
+                  "Tucker Stokes"
                 ],
                 "accepted_umpires": [
-                  "Hayden Scheuermann",
-                  "Zhayn Trowbridge"
+                  "Cohen Smith",
+                  "Tucker Stokes"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
@@ -3974,26 +3964,21 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Blake Adams",
                   "Brian Mundt",
-                  "Cruz Marinaro",
+                  "Brock Lane",
                   "Grant Purdy",
-                  "Greg Armstrong",
-                  "Marko Sazdov",
                   "Terry Doyle",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
                   "Chris Bonneau",
-                  "Ralph Campbell",
-                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 8,
-                "denied_count": 5,
+                "pending_count": 5,
+                "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -9276,16 +9261,6 @@
       },
       "events": [
         {
-          "uid": "MS-20426-sarniabrigade.ca",
-          "date": "2026-05-03",
-          "start_time": "11:00 AM",
-          "end_date": "2026-05-03",
-          "summary": "14U OBA Rep - Game vs 15U OBA Rep [WC15U-008](L 11-9)",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20418-sarniabrigade.ca",
           "date": "2026-05-04",
           "start_time": "6:00 PM",
@@ -10910,16 +10885,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20426-sarniabrigade.ca",
-          "date": "2026-05-03",
-          "start_time": "11:00 AM",
-          "end_date": "2026-05-03",
-          "summary": "15U OBA Rep - Game @ 14U OBA Rep [WC15U-008](W 11-9)",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-19779-sarniabrigade.ca",
           "date": "2026-05-05",
@@ -13152,7 +13117,7 @@
       "ties": 0,
       "runs_for": 117,
       "runs_against": 108,
-      "practices": 22,
+      "practices": 21,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -13162,16 +13127,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20107-sarniabrigade.ca",
-          "date": "2026-05-03",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-03",
-          "summary": "11U Select - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21250-sarniabrigade.ca",
           "date": "2026-05-07",
@@ -17955,16 +17910,6 @@
       },
       "events": [
         {
-          "uid": "MS-21251-sarniabrigade.ca",
-          "date": "2026-05-03",
-          "start_time": "11:15 AM",
-          "end_date": "2026-05-03",
-          "summary": "16U PBLO - Game vs Markham Mariners 16u Elite [SF](L 13-1)",
-          "location": "River Grove Community Centre (Diamond 2)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20211-sarniabrigade.ca",
           "date": "2026-05-04",
           "start_time": "7:00 PM",
@@ -20437,15 +20382,22 @@
             "time": "7:30 PM",
             "opponent": "Port Lambton Pirates",
             "venue": "Errol Russell Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
+            "assigned_umpires": [
+              "Brock Lane",
+              "Grant Purdy"
+            ],
+            "accepted_umpires": [
+              "Grant Purdy"
+            ],
+            "pending_umpires": [
+              "Brock Lane"
+            ],
             "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
