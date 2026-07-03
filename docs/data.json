@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-02T23:03:14.931168Z",
+  "generated": "2026-07-03T10:03:22.468540Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3776,7 +3776,6 @@
                   "Brock Lane",
                   "Brock Prozorowicz",
                   "Brogan Murphy",
-                  "Caleb Willemsvandyk",
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
@@ -3975,20 +3974,12 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
+                  "Blake Adams",
                   "Brian Mundt",
-                  "Brogan Murphy",
-                  "Caleb Willemsvandyk",
-                  "Cambria Caissie",
-                  "Carter Wills",
-                  "Chris Bonneau",
+                  "Cruz Marinaro",
                   "Grant Purdy",
                   "Greg Armstrong",
-                  "Hayden Scheuermann",
-                  "Joey Buchner",
-                  "Kirk Vines",
-                  "Matthew Schrie",
-                  "Myles Hobbs",
-                  "Parker Leighton",
+                  "Marko Sazdov",
                   "Terry Doyle",
                   "Tyler Whetham"
                 ],
@@ -3999,9 +3990,9 @@
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 103,
+                "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 16,
+                "pending_count": 8,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -6844,12 +6835,12 @@
       "id": 1294,
       "name": "12U OBA Rep",
       "category": "OBA Rep",
-      "gp": 14,
-      "wins": 6,
+      "gp": 15,
+      "wins": 7,
       "losses": 8,
       "ties": 0,
-      "runs_for": 98,
-      "runs_against": 159,
+      "runs_for": 109,
+      "runs_against": 160,
       "practices": 32,
       "roster": {
         "players": 13,
@@ -7165,7 +7156,7 @@
           "date": "2026-07-02",
           "start_time": "6:00 PM",
           "end_date": "2026-07-03",
-          "summary": "12U OBA Rep - Game @ DKMB River Cats [12u69]",
+          "summary": "12U OBA Rep - Game @ DKMB River Cats [12u69](W 11-1)",
           "location": "Tri-Township",
           "type": "game",
           "cancelled": false
@@ -7721,9 +7712,9 @@
           "start_time": "6:00 PM",
           "opponent": "DKMB River Cats",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 1,
           "cancelled": false
         },
         {
@@ -14761,36 +14752,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-07-06",
-            "time": "6:00 PM",
-            "opponent": "Lucan-Ilderton Athletics",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Brogan Murphy",
-              "Tristan Heeringa"
-            ],
-            "accepted_umpires": [
-              "Tristan Heeringa"
-            ],
-            "pending_umpires": [
-              "Brogan Murphy"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 5351.68,
