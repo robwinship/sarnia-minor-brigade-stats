@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-04T16:03:10.872435Z",
+  "generated": "2026-07-04T19:33:10.282470Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4021,12 +4021,11 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Clark Thornton",
+                  "Graham Dolbear",
                   "Grant Purdy",
                   "Jackson Burlingham",
                   "Kirk Vines",
-                  "Marko Sazdov",
                   "Terry Doyle",
-                  "Tristan Heeringa",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
@@ -4037,7 +4036,7 @@
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 10,
+                "pending_count": 9,
                 "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -15534,21 +15533,19 @@
             "opponent": "Corunna Major Giants",
             "venue": "Blackwell Park",
             "assigned_umpires": [
-              "Marko Sazdov",
-              "Mike Moorhouse",
-              "Tristan Heeringa"
+              "Graham Dolbear",
+              "Mike Moorhouse"
             ],
             "accepted_umpires": [
               "Mike Moorhouse"
             ],
             "pending_umpires": [
-              "Marko Sazdov",
-              "Tristan Heeringa"
+              "Graham Dolbear"
             ],
             "denied_umpires": [],
-            "assigned_count": 3,
+            "assigned_count": 2,
             "accepted_count": 1,
-            "pending_count": 2,
+            "pending_count": 1,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -16282,12 +16279,12 @@
       "id": 1310,
       "name": "11U Lady Brigade",
       "category": "River League",
-      "gp": 8,
+      "gp": 9,
       "wins": 0,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "runs_for": 57,
-      "runs_against": 112,
+      "runs_for": 65,
+      "runs_against": 128,
       "practices": 15,
       "roster": {
         "players": 12,
@@ -16483,7 +16480,7 @@
           "date": "2026-06-29",
           "start_time": "6:30 PM",
           "end_date": "2026-06-30",
-          "summary": "11U Lady Brigade - Game vs Corunna Giants [RL11UN-40]",
+          "summary": "11U Lady Brigade - Game vs Corunna Giants [RL11UN-40](L 16-8)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -16703,9 +16700,9 @@
           "start_time": "6:30 PM",
           "opponent": "Corunna Giants RL11UN-40 Clearwater Diamond",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 8,
+          "opp_score": 16,
           "cancelled": false
         },
         {
