@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-04T19:33:10.282470Z",
+  "generated": "2026-07-04T23:03:20.736313Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4020,11 +4020,9 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Clark Thornton",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Jackson Burlingham",
-                  "Kirk Vines",
                   "Terry Doyle",
                   "Tyler Hoadley",
                   "Tyler Whetham"
@@ -4032,12 +4030,13 @@
                 "denied_umpires": [
                   "Brian Mundt",
                   "Chris Bonneau",
+                  "Tucker Stokes",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 9,
-                "denied_count": 3,
+                "pending_count": 7,
+                "denied_count": 4,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -6845,7 +6844,7 @@
       "ties": 0,
       "runs_for": 109,
       "runs_against": 160,
-      "practices": 31,
+      "practices": 30,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -6855,16 +6854,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-20581-sarniabrigade.ca",
-          "date": "2026-05-04",
-          "start_time": "5:30 PM",
-          "end_date": "2026-05-04",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20525-sarniabrigade.ca",
           "date": "2026-05-06",
@@ -8012,7 +8001,7 @@
       "ties": 0,
       "runs_for": 235,
       "runs_against": 159,
-      "practices": 33,
+      "practices": 32,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -8022,16 +8011,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20239-sarniabrigade.ca",
-          "date": "2026-05-04",
-          "start_time": "5:30 PM",
-          "end_date": "2026-05-04",
-          "summary": "13U OBA Rep - Indoor Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20240-sarniabrigade.ca",
           "date": "2026-05-07",
@@ -9239,7 +9218,7 @@
       "ties": 0,
       "runs_for": 325,
       "runs_against": 153,
-      "practices": 41,
+      "practices": 40,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -9249,16 +9228,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20418-sarniabrigade.ca",
-          "date": "2026-05-04",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-05",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21091-sarniabrigade.ca",
           "date": "2026-05-07",
@@ -13947,7 +13916,7 @@
       "ties": 0,
       "runs_for": 98,
       "runs_against": 55,
-      "practices": 21,
+      "practices": 20,
       "roster": {
         "players": 12,
         "adults": 4,
@@ -13957,16 +13926,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19852-sarniabrigade.ca",
-          "date": "2026-05-04",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-05",
-          "summary": "13U Select - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21153-sarniabrigade.ca",
           "date": "2026-05-08",
@@ -15627,7 +15586,7 @@
       "ties": 0,
       "runs_for": 85,
       "runs_against": 79,
-      "practices": 16,
+      "practices": 15,
       "roster": {
         "players": 16,
         "adults": 5,
@@ -15637,16 +15596,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20410-sarniabrigade.ca",
-          "date": "2026-05-04",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-05",
-          "summary": "9U River League - Practice",
-          "location": "Blackwell North",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20411-sarniabrigade.ca",
           "date": "2026-05-11",
@@ -16285,7 +16234,7 @@
       "ties": 0,
       "runs_for": 65,
       "runs_against": 128,
-      "practices": 15,
+      "practices": 14,
       "roster": {
         "players": 12,
         "adults": 1,
@@ -16295,16 +16244,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21067-sarniabrigade.ca",
-          "date": "2026-05-04",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-05",
-          "summary": "11U Lady Brigade - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21054-sarniabrigade.ca",
           "date": "2026-05-06",
@@ -16794,7 +16733,7 @@
       "ties": 0,
       "runs_for": 105,
       "runs_against": 85,
-      "practices": 10,
+      "practices": 9,
       "roster": {
         "players": 15,
         "adults": 2,
@@ -16804,16 +16743,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20470-sarniabrigade.ca",
-          "date": "2026-05-04",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-05",
-          "summary": "11u River League - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20471-sarniabrigade.ca",
           "date": "2026-05-11",
@@ -20489,7 +20418,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 14,
+      "practices": 13,
       "roster": {
         "players": 21,
         "adults": 2,
@@ -20499,16 +20428,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20196-sarniabrigade.ca",
-          "date": "2026-05-04",
-          "start_time": "5:30 PM",
-          "end_date": "2026-05-04",
-          "summary": "Instructional - Practice",
-          "location": "Point Edward McCrae Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20197-sarniabrigade.ca",
           "date": "2026-05-11",
