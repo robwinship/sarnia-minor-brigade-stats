@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-04T10:03:11.732438Z",
+  "generated": "2026-07-04T16:03:10.872435Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4022,12 +4022,11 @@
                   "Brian Mundt",
                   "Clark Thornton",
                   "Grant Purdy",
-                  "Greg Baker",
                   "Jackson Burlingham",
                   "Kirk Vines",
                   "Marko Sazdov",
-                  "Mike Moorhouse",
                   "Terry Doyle",
+                  "Tristan Heeringa",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
@@ -4038,7 +4037,7 @@
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 11,
+                "pending_count": 10,
                 "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4127,12 +4126,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 14,
-      "wins": 7,
+      "gp": 15,
+      "wins": 8,
       "losses": 7,
       "ties": 0,
-      "runs_for": 130,
-      "runs_against": 169,
+      "runs_for": 142,
+      "runs_against": 177,
       "practices": 38,
       "roster": {
         "players": 13,
@@ -4478,7 +4477,7 @@
           "date": "2026-06-30",
           "start_time": "6:00 PM",
           "end_date": "2026-07-01",
-          "summary": "10U A OBA Rep - Game @ London Talons [10u02]",
+          "summary": "10U A OBA Rep - Game @ London Talons [10u02](W 12-8)",
           "location": "Kiwanis (2)",
           "type": "game",
           "cancelled": false
@@ -5130,9 +5129,9 @@
           "start_time": "6:00 PM",
           "opponent": "London Talons",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -14200,12 +14199,12 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20724-sarniabrigade.ca",
+          "uid": "MS-21975-sarniabrigade.ca",
           "date": "2026-07-10",
           "start_time": "6:00 PM",
           "end_date": "2026-07-11",
-          "summary": "13U Select - Game vs North London Nationals [13uS95]",
-          "location": "Tecumseh Park",
+          "summary": "13U Select - Game @ North London Nationals [13uS95]",
+          "location": "North London (3)",
           "type": "game",
           "cancelled": false
         },
@@ -14598,12 +14597,12 @@
           "cancelled": false
         },
         {
-          "game_id": "20724",
-          "href": "https://sarniabrigade.ca/Teams/1300/Games/20724/",
+          "game_id": "21975",
+          "href": "https://sarniabrigade.ca/Teams/1300/Games/21975/",
           "date": "2026-07-10",
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
-          "home": true,
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -14728,12 +14727,12 @@
       "id": 1301,
       "name": "15U Select",
       "category": "Select",
-      "gp": 6,
-      "wins": 3,
+      "gp": 7,
+      "wins": 4,
       "losses": 3,
       "ties": 0,
-      "runs_for": 62,
-      "runs_against": 82,
+      "runs_for": 77,
+      "runs_against": 96,
       "practices": 27,
       "roster": {
         "players": 12,
@@ -14979,7 +14978,7 @@
           "date": "2026-06-30",
           "start_time": "8:30 PM",
           "end_date": "2026-07-01",
-          "summary": "15U Select - Game vs London West Tincaps [15uS64]",
+          "summary": "15U Select - Game vs London West Tincaps [15uS64](W 14-15)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -15359,9 +15358,9 @@
           "start_time": "8:30 PM",
           "opponent": "London West Tincaps",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 15,
+          "opp_score": 14,
           "cancelled": false
         },
         {
@@ -15536,19 +15535,22 @@
             "venue": "Blackwell Park",
             "assigned_umpires": [
               "Marko Sazdov",
+              "Mike Moorhouse",
+              "Tristan Heeringa"
+            ],
+            "accepted_umpires": [
               "Mike Moorhouse"
             ],
-            "accepted_umpires": [],
             "pending_umpires": [
               "Marko Sazdov",
-              "Mike Moorhouse"
+              "Tristan Heeringa"
             ],
             "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 0,
+            "assigned_count": 3,
+            "accepted_count": 1,
             "pending_count": 2,
             "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
