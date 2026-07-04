@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-03T23:03:24.896836Z",
+  "generated": "2026-07-04T10:03:11.732438Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2221,7 +2221,7 @@
         "games_missed": 0,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
@@ -2270,6 +2270,61 @@
                 "accepted_umpires": [
                   "Cohen Smith",
                   "Tucker Stokes"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-07-11",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "Drew Baxter | Easton McKinlay",
+              "Drew Baxter | William MacKenzie"
+            ],
+            "mismatched_names": [
+              "Easton McKinlay",
+              "William MacKenzie"
+            ],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "London West Tincaps",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Drew Baxter",
+                  "Easton McKinlay"
+                ],
+                "accepted_umpires": [
+                  "Drew Baxter",
+                  "Easton McKinlay"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "1:00 PM",
+                "opponent": "London Talons",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Drew Baxter",
+                  "William MacKenzie"
+                ],
+                "accepted_umpires": [
+                  "Drew Baxter",
+                  "William MacKenzie"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
@@ -3967,7 +4022,13 @@
                   "Brian Mundt",
                   "Clark Thornton",
                   "Grant Purdy",
+                  "Greg Baker",
+                  "Jackson Burlingham",
+                  "Kirk Vines",
+                  "Marko Sazdov",
+                  "Mike Moorhouse",
                   "Terry Doyle",
+                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3977,7 +4038,7 @@
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 5,
+                "pending_count": 11,
                 "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -11196,16 +11257,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20680-sarniabrigade.ca",
-          "date": "2026-06-25",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-26",
-          "summary": "CANCELLED 15U OBA Rep - Game vs North London Nationals [15u15]",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20974-sarniabrigade.ca",
           "date": "2026-06-26",
           "start_time": "5:00 PM",
@@ -11406,6 +11457,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20680-sarniabrigade.ca",
+          "date": "2026-07-23",
+          "start_time": "8:30 PM",
+          "end_date": "2026-07-24",
+          "summary": "15U OBA Rep - Game vs North London Nationals [15u15]",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20978-sarniabrigade.ca",
           "date": "2026-07-24",
           "start_time": "5:00 PM",
@@ -11506,26 +11567,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20676-sarniabrigade.ca",
-          "date": "2026-08-08",
-          "start_time": "11:00 AM",
-          "end_date": "2026-08-08",
-          "summary": "15U OBA Rep - Game vs London West Tincaps [15u07]",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20677-sarniabrigade.ca",
-          "date": "2026-08-08",
-          "start_time": "1:30 PM",
-          "end_date": "2026-08-08",
-          "summary": "15U OBA Rep - Game vs London West Tincaps [15u37]",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20679-sarniabrigade.ca",
           "date": "2026-08-11",
           "start_time": "6:00 PM",
@@ -11576,9 +11617,29 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20676-sarniabrigade.ca",
+          "date": "2026-08-16",
+          "start_time": "11:00 AM",
+          "end_date": "2026-08-16",
+          "summary": "15U OBA Rep - Game vs London West Tincaps [15u07]",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20677-sarniabrigade.ca",
+          "date": "2026-08-16",
+          "start_time": "1:30 PM",
+          "end_date": "2026-08-16",
+          "summary": "15U OBA Rep - Game vs London West Tincaps [15u37]",
+          "location": "Blackwell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20674-sarniabrigade.ca",
           "date": "2026-08-18",
-          "start_time": "7:00 PM",
+          "start_time": "6:00 PM",
           "end_date": "2026-08-19",
           "summary": "15U OBA Rep - Game vs Alvinston Riverhawks [15u69]",
           "location": "Blackwell Park",
@@ -11970,18 +12031,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20680",
-          "href": "https://sarniabrigade.ca/Teams/1297/Games/20680/",
-          "date": "2026-06-25",
-          "start_time": "6:00 PM",
-          "opponent": "North London Nationals",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
           "game_id": "20682",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/20682/",
           "date": "2026-06-27",
@@ -12114,6 +12163,18 @@
           "cancelled": false
         },
         {
+          "game_id": "20680",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/20680/",
+          "date": "2026-07-23",
+          "start_time": "8:30 PM",
+          "opponent": "North London Nationals",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "19757",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/19757/",
           "date": "2026-07-30",
@@ -12162,30 +12223,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20676",
-          "href": "https://sarniabrigade.ca/Teams/1297/Games/20676/",
-          "date": "2026-08-08",
-          "start_time": "11:00 AM",
-          "opponent": "London West Tincaps",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "20677",
-          "href": "https://sarniabrigade.ca/Teams/1297/Games/20677/",
-          "date": "2026-08-08",
-          "start_time": "1:30 PM",
-          "opponent": "London West Tincaps",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "20679",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/20679/",
           "date": "2026-08-11",
@@ -12222,10 +12259,34 @@
           "cancelled": false
         },
         {
+          "game_id": "20676",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/20676/",
+          "date": "2026-08-16",
+          "start_time": "11:00 AM",
+          "opponent": "London West Tincaps",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20677",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/20677/",
+          "date": "2026-08-16",
+          "start_time": "1:30 PM",
+          "opponent": "London West Tincaps",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20674",
           "href": "https://sarniabrigade.ca/Teams/1297/Games/20674/",
           "date": "2026-08-18",
-          "start_time": "7:00 PM",
+          "start_time": "6:00 PM",
           "opponent": "Alvinston Riverhawks",
           "home": true,
           "result": null,
@@ -13047,7 +13108,7 @@
       "ties": 0,
       "runs_for": 117,
       "runs_against": 108,
-      "practices": 21,
+      "practices": 22,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -13388,6 +13449,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21974-sarniabrigade.ca",
+          "date": "2026-07-30",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-31",
+          "summary": "11U Select - Practice",
+          "location": "Clearwater Diamond #3",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21915-sarniabrigade.ca",
           "date": "2026-08-03",
           "start_time": "7:00 PM",
@@ -13412,7 +13483,7 @@
           "date": "2026-08-06",
           "start_time": "6:00 PM",
           "end_date": "2026-08-07",
-          "summary": "11U Select - Practice",
+          "summary": "CANCELLED 11U Select - Practice",
           "location": "Clearwater Diamond #3",
           "type": "practice",
           "cancelled": false
@@ -13876,8 +13947,8 @@
       "wins": 7,
       "losses": 2,
       "ties": 0,
-      "runs_for": 95,
-      "runs_against": 52,
+      "runs_for": 98,
+      "runs_against": 55,
       "practices": 21,
       "roster": {
         "players": 12,
@@ -14103,7 +14174,7 @@
           "date": "2026-07-03",
           "start_time": "6:00 PM",
           "end_date": "2026-07-04",
-          "summary": "13U Select - Game vs St. Thomas Cardinals [13uS27]",
+          "summary": "13U Select - Game vs St. Thomas Cardinals [13uS27](T 3-3)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -14498,8 +14569,8 @@
           "opponent": "St. Thomas Cardinals",
           "home": true,
           "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "brigade_score": 3,
+          "opp_score": 3,
           "cancelled": false
         },
         {
@@ -15463,15 +15534,21 @@
             "time": "8:30 PM",
             "opponent": "Corunna Major Giants",
             "venue": "Blackwell Park",
-            "assigned_umpires": [],
+            "assigned_umpires": [
+              "Marko Sazdov",
+              "Mike Moorhouse"
+            ],
             "accepted_umpires": [],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Marko Sazdov",
+              "Mike Moorhouse"
+            ],
             "denied_umpires": [],
-            "assigned_count": 0,
+            "assigned_count": 2,
             "accepted_count": 0,
-            "pending_count": 0,
+            "pending_count": 2,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_not_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -18589,16 +18666,6 @@
           "cancelled": false
         },
         {
-          "uid": "MD-3271-sarniabrigade.ca",
-          "date": "2026-05-01",
-          "start_time": null,
-          "end_date": "2026-05-04",
-          "summary": "16U PBLO - MNBA Early Bird",
-          "location": "Mississauga",
-          "type": "tournament",
-          "cancelled": false
-        },
-        {
           "uid": "MD-3274-sarniabrigade.ca",
           "date": "2026-07-10",
           "start_time": null,
@@ -20806,15 +20873,6 @@
       "team_id": 1297,
       "team_name": "15U OBA Rep",
       "type": "game",
-      "date": "2026-06-25",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 15U OBA Rep - Game vs North London Nationals [15u15]",
-      "location": "Errol Russell Park"
-    },
-    {
-      "team_id": 1297,
-      "team_name": "15U OBA Rep",
-      "type": "game",
       "date": "2026-04-26",
       "start_time": "11:00 AM",
       "summary": "CANCELLED 15U OBA Rep - Game",
@@ -20852,6 +20910,15 @@
       "team_name": "11U Select",
       "type": "practice",
       "date": "2026-06-25",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 11U Select - Practice",
+      "location": "Clearwater Diamond #3"
+    },
+    {
+      "team_id": 1303,
+      "team_name": "11U Select",
+      "type": "practice",
+      "date": "2026-08-06",
       "start_time": "6:00 PM",
       "summary": "CANCELLED 11U Select - Practice",
       "location": "Clearwater Diamond #3"
