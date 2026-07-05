@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-05T16:03:23.682540Z",
+  "generated": "2026-07-05T19:33:54.061132Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1284,12 +1284,12 @@
       "id": 1291,
       "name": "9U OBA Rep",
       "category": "OBA Rep",
-      "gp": 15,
+      "gp": 17,
       "wins": 9,
-      "losses": 6,
+      "losses": 8,
       "ties": 0,
-      "runs_for": 197,
-      "runs_against": 133,
+      "runs_for": 207,
+      "runs_against": 151,
       "practices": 27,
       "roster": {
         "players": 12,
@@ -1625,7 +1625,7 @@
           "date": "2026-07-04",
           "start_time": "10:00 AM",
           "end_date": "2026-07-04",
-          "summary": "9U OBA Rep - Game vs St. Thomas Cardinals [9u35]",
+          "summary": "9U OBA Rep - Game vs St. Thomas Cardinals [9u35](L 9-2)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -1635,7 +1635,7 @@
           "date": "2026-07-04",
           "start_time": "1:00 PM",
           "end_date": "2026-07-04",
-          "summary": "9U OBA Rep - Game vs St. Thomas Cardinals [9U71]",
+          "summary": "9U OBA Rep - Game vs St. Thomas Cardinals [9U71](L 9-8)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -2091,9 +2091,9 @@
           "start_time": "10:00 AM",
           "opponent": "St. Thomas Cardinals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 2,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -2103,9 +2103,9 @@
           "start_time": "1:00 PM",
           "opponent": "St. Thomas Cardinals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 8,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -2219,12 +2219,36 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-07-11",
+            "time": "10:00 AM",
+            "opponent": "London West Tincaps",
+            "venue": "Clearwater Diamond #1",
+            "assigned_umpires": [
+              "Drew Baxter",
+              "William MacKenzie"
+            ],
+            "accepted_umpires": [
+              "Drew Baxter"
+            ],
+            "pending_umpires": [
+              "William MacKenzie"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-07-04",
@@ -2284,13 +2308,11 @@
           {
             "date": "2026-07-11",
             "issue_timing": "upcoming",
-            "incomplete_assignment": false,
+            "incomplete_assignment": true,
             "pair_signatures": [
-              "Drew Baxter | Easton McKinlay",
               "Drew Baxter | William MacKenzie"
             ],
             "mismatched_names": [
-              "Easton McKinlay",
               "William MacKenzie"
             ],
             "games": [
@@ -2300,17 +2322,18 @@
                 "venue": "Clearwater Diamond #1",
                 "assigned_umpires": [
                   "Drew Baxter",
-                  "Easton McKinlay"
+                  "William MacKenzie"
                 ],
                 "accepted_umpires": [
-                  "Drew Baxter",
-                  "Easton McKinlay"
+                  "Drew Baxter"
                 ],
-                "pending_umpires": [],
+                "pending_umpires": [
+                  "William MacKenzie"
+                ],
                 "denied_umpires": [],
                 "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
+                "accepted_count": 1,
+                "pending_count": 1,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4026,7 +4049,8 @@
                   "Jackson Burlingham",
                   "Penny Core",
                   "Tyler Hoadley",
-                  "Tyler Whetham"
+                  "Tyler Whetham",
+                  "William MacKenzie"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
@@ -4039,7 +4063,7 @@
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 8,
+                "pending_count": 9,
                 "denied_count": 7,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4554,7 +4578,7 @@
           "date": "2026-07-05",
           "start_time": "4:00 PM",
           "end_date": "2026-07-05",
-          "summary": "10U A OBA Rep - Game vs St. Thomas Cardinals [10u12]",
+          "summary": "CANCELLED 10U A OBA Rep - Game vs St. Thomas Cardinals [10u12]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -4564,7 +4588,7 @@
           "date": "2026-07-05",
           "start_time": "6:30 PM",
           "end_date": "2026-07-06",
-          "summary": "10U A OBA Rep - Game vs St. Thomas Cardinals [10u42]",
+          "summary": "CANCELLED 10U A OBA Rep - Game vs St. Thomas Cardinals [10u42]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -5201,7 +5225,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20762",
@@ -5213,7 +5237,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20504",
@@ -6897,12 +6921,12 @@
       "id": 1294,
       "name": "12U OBA Rep",
       "category": "OBA Rep",
-      "gp": 15,
-      "wins": 7,
+      "gp": 16,
+      "wins": 8,
       "losses": 8,
       "ties": 0,
-      "runs_for": 109,
-      "runs_against": 160,
+      "runs_for": 114,
+      "runs_against": 163,
       "practices": 30,
       "roster": {
         "players": 13,
@@ -7218,7 +7242,7 @@
           "date": "2026-07-05",
           "start_time": "1:00 PM",
           "end_date": "2026-07-05",
-          "summary": "12U OBA Rep - Game vs St. Thomas Cardinals [12u41]",
+          "summary": "CANCELLED 12U OBA Rep - Game vs St. Thomas Cardinals [12u41]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -7766,9 +7790,9 @@
           "start_time": "10:00 AM",
           "opponent": null,
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 5,
+          "opp_score": 3,
           "cancelled": false
         },
         {
@@ -7781,7 +7805,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20909",
@@ -7906,9 +7930,9 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -7927,6 +7951,22 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
+          },
+          {
+            "date": "2026-07-05",
+            "time": "10:00 AM",
+            "opponent": "12U Rep St. Thomas Cardinals",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -7974,61 +8014,6 @@
                 "accepted_umpires": [
                   "Carter Wills",
                   "Summer Steinke"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-07-05",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "Hayden Scheuermann | Ralph Campbell",
-              "Logan Conroy | Ralph Campbell"
-            ],
-            "mismatched_names": [
-              "Hayden Scheuermann",
-              "Logan Conroy"
-            ],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "12U Rep St. Thomas Cardinals",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Logan Conroy",
-                  "Ralph Campbell"
-                ],
-                "accepted_umpires": [
-                  "Logan Conroy",
-                  "Ralph Campbell"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Hayden Scheuermann",
-                  "Ralph Campbell"
-                ],
-                "accepted_umpires": [
-                  "Hayden Scheuermann",
-                  "Ralph Campbell"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
@@ -9772,7 +9757,7 @@
           "date": "2026-07-05",
           "start_time": "12:00 PM",
           "end_date": "2026-07-05",
-          "summary": "14U OBA Rep - Game vs North London Nationals [14u65]",
+          "summary": "CANCELLED 14U OBA Rep - Game vs North London Nationals [14u65]",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -10669,7 +10654,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20878",
@@ -10866,12 +10851,29 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-07-05",
+            "time": "10:00 AM",
+            "opponent": "North London Nationals",
+            "venue": "Blackwell Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 8098.71,
@@ -12574,7 +12576,7 @@
           "date": "2026-07-05",
           "start_time": "6:00 PM",
           "end_date": "2026-07-06",
-          "summary": "9U Select - Game vs Dorchester Diamondbacks [9uS38]",
+          "summary": "CANCELLED 9U Select - Game vs Dorchester Diamondbacks [9uS38]",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -12941,7 +12943,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20694",
@@ -14714,12 +14716,33 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-07-06",
+            "time": "6:00 PM",
+            "opponent": "Lucan-Ilderton Athletics",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Tristan Heeringa"
+            ],
+            "accepted_umpires": [
+              "Tristan Heeringa"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 5351.68,
@@ -14995,7 +15018,7 @@
           "date": "2026-07-05",
           "start_time": "6:00 PM",
           "end_date": "2026-07-06",
-          "summary": "15U Select - Practice",
+          "summary": "CANCELLED 15U Select - Practice",
           "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
@@ -17460,7 +17483,7 @@
           "date": "2026-07-05",
           "start_time": "1:00 PM",
           "end_date": "2026-07-05",
-          "summary": "13U LDBA House League - Practice",
+          "summary": "CANCELLED 13U LDBA House League - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
           "cancelled": false
@@ -20674,6 +20697,24 @@
       "location": "Coronation Park Diamond"
     },
     {
+      "team_id": 1311,
+      "team_name": "10U A OBA Rep",
+      "type": "game",
+      "date": "2026-07-05",
+      "start_time": "4:00 PM",
+      "summary": "CANCELLED 10U A OBA Rep - Game vs St. Thomas Cardinals [10u12]",
+      "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1311,
+      "team_name": "10U A OBA Rep",
+      "type": "game",
+      "date": "2026-07-05",
+      "start_time": "6:30 PM",
+      "summary": "CANCELLED 10U A OBA Rep - Game vs St. Thomas Cardinals [10u42]",
+      "location": "Tecumseh Park"
+    },
+    {
       "team_id": 1293,
       "team_name": "11U OBA Rep",
       "type": "game",
@@ -20735,6 +20776,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 12U OBA Rep - Game @ North London Nationals [12u28]",
       "location": "North London (3)"
+    },
+    {
+      "team_id": 1294,
+      "team_name": "12U OBA Rep",
+      "type": "game",
+      "date": "2026-07-05",
+      "start_time": "1:00 PM",
+      "summary": "CANCELLED 12U OBA Rep - Game vs St. Thomas Cardinals [12u41]",
+      "location": "Tecumseh Park"
     },
     {
       "team_id": 1295,
@@ -20803,6 +20853,15 @@
       "team_id": 1296,
       "team_name": "14U OBA Rep",
       "type": "game",
+      "date": "2026-07-05",
+      "start_time": "12:00 PM",
+      "summary": "CANCELLED 14U OBA Rep - Game vs North London Nationals [14u65]",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "game",
       "date": "2026-04-26",
       "start_time": "11:00 AM",
       "summary": "CANCELLED 14U OBA Rep - Game",
@@ -20852,6 +20911,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 9U Select - Game @ Southwest London Scorpions [9uS50]",
       "location": "SW Optimists Park (1)"
+    },
+    {
+      "team_id": 1299,
+      "team_name": "9U Select",
+      "type": "game",
+      "date": "2026-07-05",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 9U Select - Game vs Dorchester Diamondbacks [9uS38]",
+      "location": "Clearwater Diamond #1"
     },
     {
       "team_id": 1303,
@@ -20917,6 +20985,15 @@
       "location": "Stoneybrook (Dan Pulham)"
     },
     {
+      "team_id": 1301,
+      "team_name": "15U Select",
+      "type": "practice",
+      "date": "2026-07-05",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 15U Select - Practice",
+      "location": "Blackwell Park"
+    },
+    {
       "team_id": 1310,
       "team_name": "11U Lady Brigade",
       "type": "practice",
@@ -20941,6 +21018,15 @@
       "date": "2026-06-07",
       "start_time": "1:00 PM",
       "summary": "CANCELLED 13U LDBA House League - Game vs DKMB Blue [13uW25]",
+      "location": "Clearwater Diamond #2"
+    },
+    {
+      "team_id": 1302,
+      "team_name": "13U LDBA House League",
+      "type": "practice",
+      "date": "2026-07-05",
+      "start_time": "1:00 PM",
+      "summary": "CANCELLED 13U LDBA House League - Practice",
       "location": "Clearwater Diamond #2"
     },
     {
