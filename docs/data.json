@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-04T23:03:20.736313Z",
+  "generated": "2026-07-05T10:03:05.967025Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2220,15 +2220,15 @@
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 2,
+        "doubleheader_mismatch": 1,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-07-04",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": false,
             "pair_signatures": [
               "Cohen Smith | Tucker Stokes",
@@ -3651,7 +3651,7 @@
         "games_missed": 2,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 2,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -4030,13 +4030,14 @@
                 "denied_umpires": [
                   "Brian Mundt",
                   "Chris Bonneau",
+                  "Drew Bennett",
                   "Tucker Stokes",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
                 "pending_count": 7,
-                "denied_count": 4,
+                "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4104,6 +4105,61 @@
                 "denied_umpires": [],
                 "assigned_count": 1,
                 "accepted_count": 1,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-07-12",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "Kayne Golder | Kye Golder",
+              "Kayne Golder | Liam Scott"
+            ],
+            "mismatched_names": [
+              "Kye Golder",
+              "Liam Scott"
+            ],
+            "games": [
+              {
+                "time": "4:00 PM",
+                "opponent": "London Badgers",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Kayne Golder",
+                  "Kye Golder"
+                ],
+                "accepted_umpires": [
+                  "Kayne Golder",
+                  "Kye Golder"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "6:45 PM",
+                "opponent": "London Badgers",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Kayne Golder",
+                  "Liam Scott"
+                ],
+                "accepted_umpires": [
+                  "Kayne Golder",
+                  "Liam Scott"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
@@ -5391,12 +5447,12 @@
       "id": 1293,
       "name": "11U OBA Rep",
       "category": "OBA Rep",
-      "gp": 14,
-      "wins": 11,
-      "losses": 3,
+      "gp": 16,
+      "wins": 12,
+      "losses": 4,
       "ties": 0,
-      "runs_for": 154,
-      "runs_against": 98,
+      "runs_for": 171,
+      "runs_against": 113,
       "practices": 31,
       "roster": {
         "players": 12,
@@ -5802,7 +5858,7 @@
           "date": "2026-07-04",
           "start_time": "4:00 PM",
           "end_date": "2026-07-04",
-          "summary": "11U OBA Rep - Game vs London Badgers 10u [11u67]",
+          "summary": "11U OBA Rep - Game vs London Badgers 10u [11u67](L 11-8)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -5812,7 +5868,7 @@
           "date": "2026-07-04",
           "start_time": "6:30 PM",
           "end_date": "2026-07-05",
-          "summary": "11U OBA Rep - Game vs London Badgers 10u [11u32]",
+          "summary": "11U OBA Rep - Game vs London Badgers 10u [11u32](W 4-9)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6474,9 +6530,9 @@
           "start_time": "4:00 PM",
           "opponent": "London Badgers",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 8,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -6486,9 +6542,9 @@
           "start_time": "6:30 PM",
           "opponent": "London Badgers",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -6687,8 +6743,8 @@
       "umpire_issues": {
         "games_missed": 1,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch": 2,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -6771,7 +6827,7 @@
           },
           {
             "date": "2026-07-04",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": false,
             "pair_signatures": [
               "Jakob Rodriguez | Max McClintock",
@@ -12290,7 +12346,7 @@
       "ties": 0,
       "runs_for": 88,
       "runs_against": 160,
-      "practices": 26,
+      "practices": 25,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -12300,16 +12356,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20769-sarniabrigade.ca",
-          "date": "2026-05-04",
-          "start_time": "7:00 PM",
-          "end_date": "2026-05-05",
-          "summary": "9U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20531-sarniabrigade.ca",
           "date": "2026-05-07",
@@ -17843,7 +17889,7 @@
       "ties": 0,
       "runs_for": 237,
       "runs_against": 212,
-      "practices": 41,
+      "practices": 40,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -17853,16 +17899,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20211-sarniabrigade.ca",
-          "date": "2026-05-04",
-          "start_time": "7:00 PM",
-          "end_date": "2026-05-05",
-          "summary": "16U PBLO - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20011-sarniabrigade.ca",
           "date": "2026-05-06",
