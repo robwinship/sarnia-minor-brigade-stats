@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-05T10:03:05.967025Z",
+  "generated": "2026-07-05T16:03:23.682540Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4020,10 +4020,11 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
+                  "Derek Bayly",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Jackson Burlingham",
-                  "Terry Doyle",
+                  "Penny Core",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
@@ -4031,13 +4032,15 @@
                   "Brian Mundt",
                   "Chris Bonneau",
                   "Drew Bennett",
+                  "Grady Boyd",
+                  "Terry Doyle",
                   "Tucker Stokes",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 7,
-                "denied_count": 5,
+                "pending_count": 8,
+                "denied_count": 7,
                 "assignment_state": "assigned_and_accepted"
               },
               {
