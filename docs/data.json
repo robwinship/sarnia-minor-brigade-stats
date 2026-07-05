@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-05T19:33:54.061132Z",
+  "generated": "2026-07-05T23:03:23.916736Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 270,
       "runs_against": 333,
-      "practices": 31,
+      "practices": 30,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20300-sarniabrigade.ca",
-          "date": "2026-05-05",
-          "start_time": "5:00 PM",
-          "end_date": "2026-05-05",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20268-sarniabrigade.ca",
           "date": "2026-05-06",
@@ -1290,7 +1280,7 @@
       "ties": 0,
       "runs_for": 207,
       "runs_against": 151,
-      "practices": 27,
+      "practices": 26,
       "roster": {
         "players": 12,
         "adults": 5,
@@ -1300,16 +1290,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20180-sarniabrigade.ca",
-          "date": "2026-05-05",
-          "start_time": "5:00 PM",
-          "end_date": "2026-05-05",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19874-sarniabrigade.ca",
           "date": "2026-05-06",
@@ -4044,16 +4024,23 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Derek Bayly",
-                  "Graham Dolbear",
                   "Grant Purdy",
+                  "Hayden Scheuermann",
                   "Jackson Burlingham",
+                  "Kayne Golder",
+                  "Lucas Nethery",
+                  "Mike Moorhouse",
+                  "Myles Hobbs",
                   "Penny Core",
+                  "Shane Moorhouse",
                   "Tyler Hoadley",
                   "Tyler Whetham",
-                  "William MacKenzie"
+                  "William MacKenzie",
+                  "Zhayn Trowbridge"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
+                  "Brogan Murphy",
                   "Chris Bonneau",
                   "Drew Bennett",
                   "Grady Boyd",
@@ -4063,8 +4050,8 @@
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 9,
-                "denied_count": 7,
+                "pending_count": 15,
+                "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4213,7 +4200,7 @@
       "ties": 0,
       "runs_for": 142,
       "runs_against": 177,
-      "practices": 38,
+      "practices": 37,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -4223,16 +4210,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20243-sarniabrigade.ca",
-          "date": "2026-05-05",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-06",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20155-sarniabrigade.ca",
           "date": "2026-05-07",
@@ -5480,7 +5457,7 @@
       "ties": 0,
       "runs_for": 171,
       "runs_against": 113,
-      "practices": 31,
+      "practices": 30,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5490,16 +5467,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21154-sarniabrigade.ca",
-          "date": "2026-05-05",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-06",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20389-sarniabrigade.ca",
           "date": "2026-05-07",
@@ -6769,7 +6736,7 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 2,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -6794,6 +6761,26 @@
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "past"
+          },
+          {
+            "date": "2026-07-07",
+            "time": "6:00 PM",
+            "opponent": "North London Nationals",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Carter Wills"
+            ],
+            "accepted_umpires": [
+              "Carter Wills"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -7232,7 +7219,7 @@
           "date": "2026-07-05",
           "start_time": "10:00 AM",
           "end_date": "2026-07-05",
-          "summary": "12U OBA Rep - Game vs 12U Rep St. Thomas Cardinals",
+          "summary": "12U OBA Rep - Game vs 12U Rep St. Thomas Cardinals (W 3-5)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -7930,7 +7917,7 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -7951,22 +7938,6 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
-          },
-          {
-            "date": "2026-07-05",
-            "time": "10:00 AM",
-            "opponent": "12U Rep St. Thomas Cardinals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -8560,7 +8531,17 @@
           "date": "2026-07-23",
           "start_time": "6:00 PM",
           "end_date": "2026-07-24",
-          "summary": "13U OBA Rep - Game vs Exeter Express Rep [13u75]",
+          "summary": "CANCELLED 13U OBA Rep - Game vs Exeter Express Rep [13u75]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21980-sarniabrigade.ca",
+          "date": "2026-07-23",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-24",
+          "summary": "13U OBA Rep - Game vs Corunna Giants [WC13U-57]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -9150,6 +9131,18 @@
           "cancelled": false
         },
         {
+          "game_id": "21980",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/21980/",
+          "date": "2026-07-23",
+          "start_time": "6:00 PM",
+          "opponent": "Corunna Giants WC13U-57 Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20870",
           "href": "https://sarniabrigade.ca/Teams/1295/Games/20870/",
           "date": "2026-07-23",
@@ -9159,7 +9152,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20871",
@@ -10851,29 +10844,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-07-05",
-            "time": "10:00 AM",
-            "opponent": "North London Nationals",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 8098.71,
@@ -10894,7 +10870,7 @@
       "ties": 0,
       "runs_for": 138,
       "runs_against": 183,
-      "practices": 45,
+      "practices": 44,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10904,16 +10880,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19779-sarniabrigade.ca",
-          "date": "2026-05-05",
-          "start_time": "5:30 PM",
-          "end_date": "2026-05-05",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19796-sarniabrigade.ca",
           "date": "2026-05-07",
@@ -15552,36 +15518,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-07-07",
-            "time": "8:30 PM",
-            "opponent": "Corunna Major Giants",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Graham Dolbear",
-              "Mike Moorhouse"
-            ],
-            "accepted_umpires": [
-              "Mike Moorhouse"
-            ],
-            "pending_umpires": [
-              "Graham Dolbear"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-06-19",
@@ -20811,6 +20753,15 @@
       "date": "2026-06-25",
       "start_time": "6:00 PM",
       "summary": "CANCELLED 13U OBA Rep - Practice",
+      "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1295,
+      "team_name": "13U OBA Rep",
+      "type": "game",
+      "date": "2026-07-23",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 13U OBA Rep - Game vs Exeter Express Rep [13u75]",
       "location": "Tecumseh Park"
     },
     {
