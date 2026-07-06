@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-06T19:33:30.114011Z",
+  "generated": "2026-07-06T23:03:10.714553Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 329,
       "runs_against": 366,
-      "practices": 30,
+      "practices": 29,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20268-sarniabrigade.ca",
-          "date": "2026-05-06",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-07",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20288-sarniabrigade.ca",
           "date": "2026-05-10",
@@ -1368,7 +1358,7 @@
       "ties": 0,
       "runs_for": 207,
       "runs_against": 151,
-      "practices": 26,
+      "practices": 25,
       "roster": {
         "players": 12,
         "adults": 5,
@@ -1378,16 +1368,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19874-sarniabrigade.ca",
-          "date": "2026-05-06",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-07",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19894-sarniabrigade.ca",
           "date": "2026-05-09",
@@ -2447,7 +2427,7 @@
       "ties": 0,
       "runs_for": 64,
       "runs_against": 46,
-      "practices": 40,
+      "practices": 38,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -2457,26 +2437,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21232-sarniabrigade.ca",
-          "date": "2026-05-06",
-          "start_time": "4:30 PM",
-          "end_date": "2026-05-06",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19653-sarniabrigade.ca",
-          "date": "2026-05-06",
-          "start_time": "5:30 PM",
-          "end_date": "2026-05-06",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19681-sarniabrigade.ca",
           "date": "2026-05-09",
@@ -4112,14 +4072,11 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Brock Lane",
-                  "Dan Scott",
                   "Grant Purdy",
                   "Hayden Scheuermann",
-                  "Kayne Golder",
                   "Lane Vanden Ouweland",
                   "Lucas Nethery",
                   "Marko Sazdov",
-                  "Mike Moorhouse",
                   "Shane Moorhouse",
                   "Tucker Stokes",
                   "Tyler Hoadley",
@@ -4131,13 +4088,14 @@
                   "Brogan Murphy",
                   "Carson Whittington",
                   "Chris Bonneau",
+                  "Mike Moorhouse",
                   "Terry Doyle",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 15,
-                "denied_count": 6,
+                "pending_count": 12,
+                "denied_count": 7,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -6980,7 +6938,7 @@
       "ties": 0,
       "runs_for": 114,
       "runs_against": 163,
-      "practices": 29,
+      "practices": 28,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -6990,16 +6948,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-20525-sarniabrigade.ca",
-          "date": "2026-05-06",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-07",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20898-sarniabrigade.ca",
           "date": "2026-05-10",
@@ -7973,7 +7921,7 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -7994,29 +7942,6 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
-          },
-          {
-            "date": "2026-07-12",
-            "time": "10:00 AM",
-            "opponent": "North London Nationals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Mike Moorhouse",
-              "Summer Steinke"
-            ],
-            "accepted_umpires": [
-              "Summer Steinke"
-            ],
-            "pending_umpires": [
-              "Mike Moorhouse"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -16296,7 +16221,7 @@
       "ties": 0,
       "runs_for": 65,
       "runs_against": 128,
-      "practices": 14,
+      "practices": 13,
       "roster": {
         "players": 12,
         "adults": 1,
@@ -16306,16 +16231,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21054-sarniabrigade.ca",
-          "date": "2026-05-06",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-07",
-          "summary": "11U Lady Brigade - Practice",
-          "location": "Germain Diamond #4",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21068-sarniabrigade.ca",
           "date": "2026-05-11",
