@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-06T16:03:21.509414Z",
+  "generated": "2026-07-06T19:33:30.114011Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4110,46 +4110,34 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Blake Adams",
                   "Brian Mundt",
                   "Brock Lane",
-                  "Dawson O'Brien",
-                  "Derek Bayly",
+                  "Dan Scott",
                   "Grant Purdy",
                   "Hayden Scheuermann",
-                  "Jacob Dawson",
+                  "Kayne Golder",
                   "Lane Vanden Ouweland",
-                  "Logan Conroy",
+                  "Lucas Nethery",
                   "Marko Sazdov",
                   "Mike Moorhouse",
-                  "Parker Leighton",
-                  "Penny Core",
                   "Shane Moorhouse",
+                  "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Whetham",
-                  "William MacKenzie",
-                  "Zhayn Trowbridge"
+                  "William MacKenzie"
                 ],
                 "denied_umpires": [
-                  "Bentley Daughtrey",
                   "Brian Mundt",
                   "Brogan Murphy",
                   "Carson Whittington",
                   "Chris Bonneau",
-                  "Drew Bennett",
-                  "Grady Boyd",
-                  "Kayne Golder",
-                  "Lane Vanden Ouweland",
-                  "Ryerson Nead",
-                  "Sadie Daughtrey",
                   "Terry Doyle",
-                  "Tucker Stokes",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 19,
-                "denied_count": 14,
+                "pending_count": 15,
+                "denied_count": 6,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -6834,7 +6822,7 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 2,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -6859,26 +6847,6 @@
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "past"
-          },
-          {
-            "date": "2026-07-07",
-            "time": "6:00 PM",
-            "opponent": "North London Nationals",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Carter Wills"
-            ],
-            "accepted_umpires": [
-              "Carter Wills"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -8032,15 +8000,22 @@
             "time": "10:00 AM",
             "opponent": "North London Nationals",
             "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
+            "assigned_umpires": [
+              "Mike Moorhouse",
+              "Summer Steinke"
+            ],
+            "accepted_umpires": [
+              "Summer Steinke"
+            ],
+            "pending_umpires": [
+              "Mike Moorhouse"
+            ],
             "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
