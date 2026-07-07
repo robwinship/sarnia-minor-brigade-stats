@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-06T23:03:10.714553Z",
+  "generated": "2026-07-07T10:03:32.328880Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4075,9 +4075,11 @@
                   "Grant Purdy",
                   "Hayden Scheuermann",
                   "Lane Vanden Ouweland",
+                  "Logan Conroy",
                   "Lucas Nethery",
                   "Marko Sazdov",
-                  "Shane Moorhouse",
+                  "Mike Moorhouse",
+                  "Paolo Padiglia",
                   "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Whetham",
@@ -4089,13 +4091,15 @@
                   "Carson Whittington",
                   "Chris Bonneau",
                   "Mike Moorhouse",
+                  "Shane Moorhouse",
                   "Terry Doyle",
+                  "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 12,
-                "denied_count": 7,
+                "pending_count": 14,
+                "denied_count": 9,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -16704,12 +16708,12 @@
       "id": 1315,
       "name": "11U River League",
       "category": "River League",
-      "gp": 10,
-      "wins": 6,
+      "gp": 11,
+      "wins": 7,
       "losses": 4,
       "ties": 0,
-      "runs_for": 105,
-      "runs_against": 85,
+      "runs_for": 117,
+      "runs_against": 88,
       "practices": 9,
       "roster": {
         "players": 15,
@@ -16875,7 +16879,7 @@
           "date": "2026-07-06",
           "start_time": "6:30 PM",
           "end_date": "2026-07-07",
-          "summary": "11u River League - Game vs Oil Springs Drillers",
+          "summary": "11u River League - Game vs Oil Springs Drillers(W 3-12)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -17099,9 +17103,9 @@
           "start_time": "6:30 PM",
           "opponent": "Oil Springs Drillers Clearwater Diamond",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 3,
           "cancelled": false
         },
         {
@@ -17820,7 +17824,7 @@
       "ties": 0,
       "runs_for": 237,
       "runs_against": 212,
-      "practices": 40,
+      "practices": 39,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -17830,16 +17834,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20011-sarniabrigade.ca",
-          "date": "2026-05-06",
-          "start_time": "7:30 PM",
-          "end_date": "2026-05-07",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20032-sarniabrigade.ca",
           "date": "2026-05-08",
