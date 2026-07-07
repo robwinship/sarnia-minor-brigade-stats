@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-07T10:03:32.328880Z",
+  "generated": "2026-07-07T16:03:38.736594Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 329,
       "runs_against": 366,
-      "practices": 29,
+      "practices": 27,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -490,16 +490,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20298-sarniabrigade.ca",
-          "date": "2026-07-19",
-          "start_time": "10:00 AM",
-          "end_date": "2026-07-19",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20902-sarniabrigade.ca",
           "date": "2026-07-19",
           "start_time": "1:00 PM",
@@ -527,16 +517,6 @@
           "summary": "8U OBA Rep - Game @ North London Nationals [8u54]",
           "location": "North London (2)",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20279-sarniabrigade.ca",
-          "date": "2026-07-22",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-23",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -726,6 +706,26 @@
           "end_date": "2026-08-03",
           "summary": "8U OBA Rep - Lasalle Tournament",
           "location": "Lasalle",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3351-sarniabrigade.ca",
+          "date": "2026-08-21",
+          "start_time": null,
+          "end_date": "2026-08-24",
+          "summary": "8U OBA Rep - LDBA Playoffs",
+          "location": "London West",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3352-sarniabrigade.ca",
+          "date": "2026-08-27",
+          "start_time": null,
+          "end_date": "2026-09-01",
+          "summary": "8U OBA Rep - OBA 'AA' Provincials",
+          "location": "Brantford",
           "type": "tournament",
           "cancelled": false
         }
@@ -1190,9 +1190,9 @@
       ],
       "umpire_issues": {
         "games_missed": 2,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 2,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -1235,6 +1235,31 @@
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "past"
+          },
+          {
+            "date": "2026-07-12",
+            "time": "10:00 AM",
+            "opponent": "London West Tincaps",
+            "venue": "Clearwater Diamond #1",
+            "assigned_umpires": [
+              "Juan Peralta",
+              "Liam Scott",
+              "Rio Ruiz"
+            ],
+            "accepted_umpires": [
+              "Juan Peralta"
+            ],
+            "pending_umpires": [
+              "Liam Scott",
+              "Rio Ruiz"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 3,
+            "accepted_count": 1,
+            "pending_count": 2,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -1332,6 +1357,62 @@
                 "denied_umpires": [],
                 "assigned_count": 1,
                 "accepted_count": 1,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-07-12",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [
+              "Cohen Smith | Juan Peralta"
+            ],
+            "mismatched_names": [
+              "Cohen Smith"
+            ],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "London West Tincaps",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Juan Peralta",
+                  "Liam Scott",
+                  "Rio Ruiz"
+                ],
+                "accepted_umpires": [
+                  "Juan Peralta"
+                ],
+                "pending_umpires": [
+                  "Liam Scott",
+                  "Rio Ruiz"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 3,
+                "accepted_count": 1,
+                "pending_count": 2,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "1:00 PM",
+                "opponent": "London West Tincaps",
+                "venue": "Clearwater Diamond #1",
+                "assigned_umpires": [
+                  "Cohen Smith",
+                  "Juan Peralta"
+                ],
+                "accepted_umpires": [
+                  "Cohen Smith",
+                  "Juan Peralta"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
@@ -3943,6 +4024,7 @@
                   "Parker Leighton",
                   "Penny Core",
                   "Ralph Campbell",
+                  "Rio Ruiz",
                   "Ronnie Atyeo",
                   "Ryder Daye",
                   "Ryerson Nead",
@@ -4071,15 +4153,17 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Brock Lane",
+                  "Chris Bonneau",
                   "Grant Purdy",
-                  "Hayden Scheuermann",
                   "Lane Vanden Ouweland",
+                  "Liam Scott",
                   "Logan Conroy",
                   "Lucas Nethery",
-                  "Marko Sazdov",
                   "Mike Moorhouse",
                   "Paolo Padiglia",
+                  "Ralph Campbell",
+                  "Rio Ruiz",
+                  "Shane Moorhouse",
                   "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Whetham",
@@ -4087,19 +4171,18 @@
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
-                  "Brogan Murphy",
+                  "Brock Lane",
                   "Carson Whittington",
                   "Chris Bonneau",
-                  "Mike Moorhouse",
+                  "Grant Purdy",
                   "Shane Moorhouse",
                   "Terry Doyle",
-                  "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 102,
+                "assigned_count": 103,
                 "accepted_count": 102,
-                "pending_count": 14,
-                "denied_count": 9,
+                "pending_count": 16,
+                "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -13935,12 +14018,12 @@
       "id": 1300,
       "name": "13U Select",
       "category": "Select",
-      "gp": 9,
+      "gp": 10,
       "wins": 7,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
-      "runs_for": 98,
-      "runs_against": 55,
+      "runs_for": 104,
+      "runs_against": 64,
       "practices": 20,
       "roster": {
         "players": 12,
@@ -14166,7 +14249,7 @@
           "date": "2026-07-06",
           "start_time": "6:00 PM",
           "end_date": "2026-07-07",
-          "summary": "13U Select - Game vs Lucan-Ilderton Athletics [13uS109]",
+          "summary": "13U Select - Game vs Lucan-Ilderton Athletics [13uS109](L 9-6)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -14562,9 +14645,9 @@
           "start_time": "6:00 PM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -14907,16 +14990,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20831-sarniabrigade.ca",
-          "date": "2026-06-22",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-23",
-          "summary": "CANCELLED 15U Select - Game @ North London Nationals [15uS48]",
-          "location": "Stoneybrook (Dan Pulham)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21131-sarniabrigade.ca",
           "date": "2026-06-23",
           "start_time": "8:00 PM",
@@ -15063,6 +15136,16 @@
           "end_date": "2026-07-30",
           "summary": "15U Select - Game @ Ingersoll Ironbirds [15uS97]",
           "location": "Victoria Park (South)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20831-sarniabrigade.ca",
+          "date": "2026-07-31",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-01",
+          "summary": "15U Select - Game @ North London Nationals [15uS48]",
+          "location": "Stoneybrook (1)",
           "type": "game",
           "cancelled": false
         },
@@ -15301,18 +15384,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20831",
-          "href": "https://sarniabrigade.ca/Teams/1301/Games/20831/",
-          "date": "2026-06-22",
-          "start_time": "6:00 PM",
-          "opponent": "North London Nationals",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
           "game_id": "21113",
           "href": "https://sarniabrigade.ca/Teams/1301/Games/21113/",
           "date": "2026-06-28",
@@ -15402,6 +15473,18 @@
           "date": "2026-07-29",
           "start_time": "7:30 PM",
           "opponent": "Ingersoll Ironbirds",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20831",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/20831/",
+          "date": "2026-07-31",
+          "start_time": "6:00 PM",
+          "opponent": "North London Nationals",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -20864,15 +20947,6 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 13U Select - Practice",
       "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1301,
-      "team_name": "15U Select",
-      "type": "game",
-      "date": "2026-06-22",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 15U Select - Game @ North London Nationals [15uS48]",
-      "location": "Stoneybrook (Dan Pulham)"
     },
     {
       "team_id": 1301,
