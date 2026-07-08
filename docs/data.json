@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-08T10:03:06.134583Z",
+  "generated": "2026-07-08T16:03:31.345175Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2322,35 +2322,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
-          {
-            "date": "2026-07-11",
-            "time": "12:00 PM",
-            "opponent": "London West Tincaps",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "Drew Baxter",
-              "William MacKenzie"
-            ],
-            "accepted_umpires": [
-              "William MacKenzie"
-            ],
-            "pending_umpires": [
-              "Drew Baxter"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
           {
             "date": "2026-07-15",
             "time": "6:00 PM",
@@ -2358,19 +2335,22 @@
             "venue": "Clearwater Diamond #1",
             "assigned_umpires": [
               "Drew Baxter",
+              "Rio Ruiz",
               "William MacKenzie"
             ],
             "accepted_umpires": [],
             "pending_umpires": [
-              "Drew Baxter",
+              "Rio Ruiz",
               "William MacKenzie"
             ],
-            "denied_umpires": [],
-            "assigned_count": 2,
+            "denied_umpires": [
+              "Drew Baxter"
+            ],
+            "assigned_count": 3,
             "accepted_count": 0,
             "pending_count": 2,
-            "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "denied_count": 1,
+            "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
           }
         ],
@@ -2444,12 +2424,12 @@
       "id": 1292,
       "name": "10U AA OBA Rep",
       "category": "OBA Rep",
-      "gp": 5,
+      "gp": 6,
       "wins": 4,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
-      "runs_for": 64,
-      "runs_against": 46,
+      "runs_for": 66,
+      "runs_against": 56,
       "practices": 38,
       "roster": {
         "players": 13,
@@ -2855,7 +2835,7 @@
           "date": "2026-07-07",
           "start_time": "6:30 PM",
           "end_date": "2026-07-08",
-          "summary": "10U AA OBA Rep - Game @ Corunna Giants [WC11U-068]",
+          "summary": "10U AA OBA Rep - Game @ Corunna Giants [WC11U-068](L 2-10)",
           "location": "Cameron Park",
           "type": "game",
           "cancelled": false
@@ -3535,9 +3515,9 @@
           "start_time": "6:30 PM",
           "opponent": "Corunna Giants WC11U-068 Cameron Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 2,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -3723,7 +3703,7 @@
       ],
       "umpire_issues": {
         "games_missed": 2,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 2,
         "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
@@ -3771,29 +3751,6 @@
           },
           {
             "date": "2026-07-11",
-            "time": "11:00 AM",
-            "opponent": "LaSalle Titans",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [
-              "Kye Golder",
-              "Tucker Stokes"
-            ],
-            "accepted_umpires": [
-              "Tucker Stokes"
-            ],
-            "pending_umpires": [
-              "Kye Golder"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-07-11",
             "time": "1:30 PM",
             "opponent": "LaSalle Titans",
             "venue": "Clearwater Diamond #2",
@@ -3804,14 +3761,14 @@
             "accepted_umpires": [
               "Tucker Stokes"
             ],
-            "pending_umpires": [
+            "pending_umpires": [],
+            "denied_umpires": [
               "Kye Golder"
             ],
-            "denied_umpires": [],
             "assigned_count": 2,
             "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
+            "pending_count": 0,
+            "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
@@ -4012,6 +3969,7 @@
                   "Parker Leighton",
                   "Penny Core",
                   "Ralph Campbell",
+                  "Rio Ruiz",
                   "Ronnie Atyeo",
                   "Ryder Daye",
                   "Ryerson Nead",
@@ -4141,38 +4099,34 @@
                 "pending_umpires": [
                   "Axl Taylor",
                   "Brian Mundt",
+                  "Brock Lane",
                   "Carter Wills",
-                  "Chris Bonneau",
                   "Dan Scott",
-                  "Drew Baxter",
                   "Grant Purdy",
-                  "Kye Golder",
+                  "Jarett Simons",
                   "Lane Vanden Ouweland",
                   "Logan Conroy",
                   "Lucas Nethery",
                   "Mike Moorhouse",
                   "Noah Bechard",
-                  "Paolo Padiglia",
+                  "Rio Ruiz",
                   "Shane Moorhouse",
                   "Tucker Stokes",
                   "Tyler Whetham",
                   "William MacKenzie"
                 ],
                 "denied_umpires": [
-                  "Brian Mundt",
-                  "Brock Lane",
                   "Carson Whittington",
                   "Chris Bonneau",
-                  "Grant Purdy",
-                  "Marko Sazdov",
-                  "Shane Moorhouse",
-                  "Terry Doyle",
-                  "Tyler Whetham"
+                  "Drew Baxter",
+                  "Kye Golder",
+                  "Mike Moorhouse",
+                  "Shane Moorhouse"
                 ],
-                "assigned_count": 102,
+                "assigned_count": 103,
                 "accepted_count": 102,
-                "pending_count": 18,
-                "denied_count": 9,
+                "pending_count": 17,
+                "denied_count": 6,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4250,8 +4204,12 @@
             "date": "2026-07-11",
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
+            "pair_signatures": [
+              "Kye Golder | Tucker Stokes"
+            ],
+            "mismatched_names": [
+              "Kye Golder"
+            ],
             "games": [
               {
                 "time": "11:00 AM",
@@ -4262,15 +4220,14 @@
                   "Tucker Stokes"
                 ],
                 "accepted_umpires": [
+                  "Kye Golder",
                   "Tucker Stokes"
                 ],
-                "pending_umpires": [
-                  "Kye Golder"
-                ],
+                "pending_umpires": [],
                 "denied_umpires": [],
                 "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
+                "accepted_count": 2,
+                "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4285,14 +4242,14 @@
                 "accepted_umpires": [
                   "Tucker Stokes"
                 ],
-                "pending_umpires": [
+                "pending_umpires": [],
+                "denied_umpires": [
                   "Kye Golder"
                 ],
-                "denied_umpires": [],
                 "assigned_count": 2,
                 "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
+                "pending_count": 0,
+                "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               }
             ]
@@ -5679,12 +5636,12 @@
       "id": 1293,
       "name": "11U OBA Rep",
       "category": "OBA Rep",
-      "gp": 16,
+      "gp": 17,
       "wins": 12,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "runs_for": 171,
-      "runs_against": 113,
+      "runs_for": 177,
+      "runs_against": 131,
       "practices": 29,
       "roster": {
         "players": 12,
@@ -6090,7 +6047,7 @@
           "date": "2026-07-07",
           "start_time": "6:00 PM",
           "end_date": "2026-07-08",
-          "summary": "11U OBA Rep - Game vs North London Nationals [11u76]",
+          "summary": "11U OBA Rep - Game vs North London Nationals [11u76](L 18-6)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6766,9 +6723,9 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 18,
           "cancelled": false
         },
         {
@@ -8188,13 +8145,13 @@
       "id": 1295,
       "name": "13U OBA Rep",
       "category": "OBA Rep",
-      "gp": 22,
-      "wins": 13,
-      "losses": 9,
+      "gp": 25,
+      "wins": 15,
+      "losses": 10,
       "ties": 0,
-      "runs_for": 235,
-      "runs_against": 159,
-      "practices": 31,
+      "runs_for": 269,
+      "runs_against": 180,
+      "practices": 30,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -8569,7 +8526,7 @@
           "date": "2026-06-26",
           "start_time": "6:00 PM",
           "end_date": "2026-06-27",
-          "summary": "13U OBA Rep - Game vs Rochester Raptors",
+          "summary": "13U OBA Rep - Game vs Rochester Raptors(L 6-5)",
           "location": "Kyte Monroe Park",
           "type": "game",
           "cancelled": false
@@ -8579,7 +8536,7 @@
           "date": "2026-06-26",
           "start_time": "8:00 PM",
           "end_date": "2026-06-27",
-          "summary": "13U OBA Rep - Game vs Hit Dogs East",
+          "summary": "13U OBA Rep - Game vs Hit Dogs East(W 6-18)",
           "location": "Kyte Monroe Park",
           "type": "game",
           "cancelled": false
@@ -8609,7 +8566,7 @@
           "date": "2026-07-07",
           "start_time": "7:30 PM",
           "end_date": "2026-07-08",
-          "summary": "13U OBA Rep - Game @ Mitchell Astros Rep [13u91]",
+          "summary": "13U OBA Rep - Game @ Mitchell Astros Rep [13u91](W 11-9)",
           "location": "Kinsmen (Cooper)",
           "type": "game",
           "cancelled": false
@@ -8752,16 +8709,6 @@
           "summary": "13U OBA Rep - Game vs Exeter Express Rep [13u75]",
           "location": "Tecumseh Park",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20855-sarniabrigade.ca",
-          "date": "2026-08-06",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-07",
-          "summary": "13U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -9233,9 +9180,9 @@
           "start_time": "6:00 PM",
           "opponent": "Rochester Raptors Kyte Monroe Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 5,
+          "opp_score": 6,
           "cancelled": false
         },
         {
@@ -9245,9 +9192,9 @@
           "start_time": "8:00 PM",
           "opponent": "Hit Dogs East Kyte Monroe Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 18,
+          "opp_score": 6,
           "cancelled": false
         },
         {
@@ -9257,9 +9204,9 @@
           "start_time": "7:30 PM",
           "opponent": "Mitchell Astros Rep",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -14820,12 +14767,12 @@
       "id": 1301,
       "name": "15U Select",
       "category": "Select",
-      "gp": 7,
-      "wins": 4,
+      "gp": 8,
+      "wins": 5,
       "losses": 3,
       "ties": 0,
-      "runs_for": 77,
-      "runs_against": 96,
+      "runs_for": 93,
+      "runs_against": 104,
       "practices": 26,
       "roster": {
         "players": 12,
@@ -15071,7 +15018,7 @@
           "date": "2026-07-07",
           "start_time": "8:30 PM",
           "end_date": "2026-07-08",
-          "summary": "15U Select - Game vs Corunna Major Giants",
+          "summary": "15U Select - Game vs Corunna Major Giants(W 8-16)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -15439,11 +15386,11 @@
           "href": "https://sarniabrigade.ca/Teams/1301/Games/21973/",
           "date": "2026-07-07",
           "start_time": "8:30 PM",
-          "opponent": "Corunna Major Giants Blackwell Park More Detai",
+          "opponent": "Corunna Major Giants Blackwell Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 16,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -15681,12 +15628,12 @@
       "id": 1304,
       "name": "9U River League",
       "category": "River League",
-      "gp": 7,
+      "gp": 8,
       "wins": 3,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "runs_for": 85,
-      "runs_against": 79,
+      "runs_for": 91,
+      "runs_against": 91,
       "practices": 15,
       "roster": {
         "players": 16,
@@ -15842,7 +15789,7 @@
           "date": "2026-07-06",
           "start_time": "6:00 PM",
           "end_date": "2026-07-07",
-          "summary": "9U River League - Game vs Corunna Giants Team 2 [RL9UN-93]",
+          "summary": "9U River League - Game vs Corunna Giants Team 2 [RL9UN-93](L 12-6)",
           "location": "Blackwell North",
           "type": "game",
           "cancelled": false
@@ -16140,9 +16087,9 @@
           "start_time": "6:00 PM",
           "opponent": "Corunna Giants Team",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 12,
           "cancelled": false
         },
         {
