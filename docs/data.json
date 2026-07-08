@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-07T23:03:26.491314Z",
+  "generated": "2026-07-08T10:03:06.134583Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2322,7 +2322,7 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -2332,6 +2332,29 @@
             "date": "2026-07-11",
             "time": "12:00 PM",
             "opponent": "London West Tincaps",
+            "venue": "Clearwater Diamond #1",
+            "assigned_umpires": [
+              "Drew Baxter",
+              "William MacKenzie"
+            ],
+            "accepted_umpires": [
+              "William MacKenzie"
+            ],
+            "pending_umpires": [
+              "Drew Baxter"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-07-15",
+            "time": "6:00 PM",
+            "opponent": "London Talons",
             "venue": "Clearwater Diamond #1",
             "assigned_umpires": [
               "Drew Baxter",
@@ -4131,7 +4154,6 @@
                   "Noah Bechard",
                   "Paolo Padiglia",
                   "Shane Moorhouse",
-                  "Summer Steinke",
                   "Tucker Stokes",
                   "Tyler Whetham",
                   "William MacKenzie"
@@ -4149,7 +4171,7 @@
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 19,
+                "pending_count": 18,
                 "denied_count": 9,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -9395,13 +9417,13 @@
       "id": 1296,
       "name": "14U OBA Rep",
       "category": "OBA Rep",
-      "gp": 27,
-      "wins": 21,
+      "gp": 28,
+      "wins": 22,
       "losses": 6,
       "ties": 0,
-      "runs_for": 333,
-      "runs_against": 160,
-      "practices": 39,
+      "runs_for": 344,
+      "runs_against": 161,
+      "practices": 38,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -9411,16 +9433,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20438-sarniabrigade.ca",
-          "date": "2026-05-07",
-          "start_time": "8:00 PM",
-          "end_date": "2026-05-08",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20427-sarniabrigade.ca",
           "date": "2026-05-10",
@@ -9906,7 +9918,7 @@
           "date": "2026-07-07",
           "start_time": "6:30 PM",
           "end_date": "2026-07-08",
-          "summary": "14U OBA Rep - Game @ Corunna Giants [WC15U-025]",
+          "summary": "14U OBA Rep - Game @ Corunna Giants [WC15U-025](W 11-1)",
           "location": "Community Park (Eric MF)",
           "type": "game",
           "cancelled": false
@@ -10792,9 +10804,9 @@
           "start_time": "6:30 PM",
           "opponent": "Corunna Giants WC15U-025 Community Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 1,
           "cancelled": false
         },
         {
@@ -16601,16 +16613,6 @@
           "summary": "11U Lady Brigade - Practice",
           "location": "TBD",
           "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MD-3323-sarniabrigade.ca",
-          "date": "2026-05-07",
-          "start_time": "7:00 PM",
-          "end_date": "2026-05-08",
-          "summary": "11U Lady Brigade - WCBA River League Scheduling Meeting",
-          "location": "Sombra Community Hall",
-          "type": "other",
           "cancelled": false
         }
       ],
