@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-08T23:03:27.695173Z",
+  "generated": "2026-07-09T10:03:31.113155Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -13,12 +13,12 @@
       "id": 1290,
       "name": "8U OBA Rep",
       "category": "OBA Rep",
-      "gp": 23,
+      "gp": 24,
       "wins": 12,
-      "losses": 11,
+      "losses": 12,
       "ties": 0,
-      "runs_for": 329,
-      "runs_against": 366,
+      "runs_for": 341,
+      "runs_against": 383,
       "practices": 27,
       "roster": {
         "players": 12,
@@ -424,7 +424,7 @@
           "date": "2026-07-08",
           "start_time": "6:00 PM",
           "end_date": "2026-07-09",
-          "summary": "8U OBA Rep - Game @ North London Nationals [8u24]",
+          "summary": "8U OBA Rep - Game @ North London Nationals [8u24](L 12-17)",
           "location": "North London (2)",
           "type": "game",
           "cancelled": false
@@ -1014,9 +1014,9 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 12,
+          "opp_score": 17,
           "cancelled": false
         },
         {
@@ -1407,12 +1407,12 @@
       "id": 1291,
       "name": "9U OBA Rep",
       "category": "OBA Rep",
-      "gp": 17,
+      "gp": 18,
       "wins": 9,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "runs_for": 207,
-      "runs_against": 151,
+      "runs_for": 216,
+      "runs_against": 165,
       "practices": 25,
       "roster": {
         "players": 12,
@@ -1758,7 +1758,7 @@
           "date": "2026-07-08",
           "start_time": "6:00 PM",
           "end_date": "2026-07-09",
-          "summary": "9U OBA Rep - Game @ DKMB River Cats [9u22]",
+          "summary": "9U OBA Rep - Game @ DKMB River Cats [9u22](L 9-14)",
           "location": "Tri-Township",
           "type": "game",
           "cancelled": false
@@ -2218,9 +2218,9 @@
           "start_time": "6:00 PM",
           "opponent": "DKMB River Cats",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 9,
+          "opp_score": 14,
           "cancelled": false
         },
         {
@@ -17818,7 +17818,7 @@
       "ties": 0,
       "runs_for": 237,
       "runs_against": 212,
-      "practices": 39,
+      "practices": 38,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -17828,16 +17828,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20032-sarniabrigade.ca",
-          "date": "2026-05-08",
-          "start_time": "7:30 PM",
-          "end_date": "2026-05-09",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20493-sarniabrigade.ca",
           "date": "2026-05-09",
