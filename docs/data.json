@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-09T10:03:31.113155Z",
+  "generated": "2026-07-09T16:03:53.597665Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1413,7 +1413,7 @@
       "ties": 0,
       "runs_for": 216,
       "runs_against": 165,
-      "practices": 25,
+      "practices": 24,
       "roster": {
         "players": 12,
         "adults": 5,
@@ -1423,16 +1423,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19894-sarniabrigade.ca",
-          "date": "2026-05-09",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-09",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20181-sarniabrigade.ca",
           "date": "2026-05-12",
@@ -2334,21 +2324,23 @@
             "opponent": "London Talons",
             "venue": "Clearwater Diamond #1",
             "assigned_umpires": [
+              "Brogan Murphy",
               "Drew Baxter",
               "Rio Ruiz",
               "William MacKenzie"
             ],
             "accepted_umpires": [],
             "pending_umpires": [
+              "Brogan Murphy",
               "Rio Ruiz",
               "William MacKenzie"
             ],
             "denied_umpires": [
               "Drew Baxter"
             ],
-            "assigned_count": 3,
+            "assigned_count": 4,
             "accepted_count": 0,
-            "pending_count": 2,
+            "pending_count": 3,
             "denied_count": 1,
             "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
@@ -2440,16 +2432,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19681-sarniabrigade.ca",
-          "date": "2026-05-09",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-09",
-          "summary": "10U AA OBA Rep - Game vs Chatham Minor Diamonds [DH](W 2-15)",
-          "location": "Clearwater Diamond #2",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21388-sarniabrigade.ca",
           "date": "2026-05-09",
@@ -4077,31 +4059,32 @@
                   "Axl Taylor",
                   "Brian Mundt",
                   "Brock Lane",
+                  "Brogan Murphy",
                   "Carter Wills",
+                  "Cruz Marinaro",
                   "Dan Scott",
                   "Grant Purdy",
                   "Jarett Simons",
-                  "Lane Vanden Ouweland",
+                  "Kayleigh Buchan",
                   "Logan Conroy",
-                  "Lucas Nethery",
                   "Mike Moorhouse",
+                  "Myles Hobbs",
                   "Noah Bechard",
                   "Rio Ruiz",
                   "Shane Moorhouse",
-                  "Tucker Stokes",
                   "Tyler Whetham",
                   "William MacKenzie"
                 ],
                 "denied_umpires": [
-                  "Carson Whittington",
                   "Chris Bonneau",
                   "Drew Baxter",
                   "Mike Moorhouse",
-                  "Shane Moorhouse"
+                  "Shane Moorhouse",
+                  "Tucker Stokes"
                 ],
                 "assigned_count": 103,
                 "accepted_count": 102,
-                "pending_count": 17,
+                "pending_count": 18,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -8139,16 +8122,6 @@
       },
       "events": [
         {
-          "uid": "MS-20377-sarniabrigade.ca",
-          "date": "2026-05-09",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-09",
-          "summary": "13U OBA Rep - Game vs St. Thomas Cardinals [13u01](W 9-12)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20378-sarniabrigade.ca",
           "date": "2026-05-09",
           "start_time": "1:00 PM",
@@ -10952,16 +10925,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19756-sarniabrigade.ca",
-          "date": "2026-05-09",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-09",
-          "summary": "15U OBA Rep - Game vs Windsor Hawks(L 7-6)",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-19755-sarniabrigade.ca",
           "date": "2026-05-09",
@@ -16233,12 +16196,12 @@
       "id": 1310,
       "name": "11U Lady Brigade",
       "category": "River League",
-      "gp": 9,
+      "gp": 10,
       "wins": 0,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "runs_for": 65,
-      "runs_against": 128,
+      "runs_for": 70,
+      "runs_against": 143,
       "practices": 13,
       "roster": {
         "players": 12,
@@ -16434,7 +16397,7 @@
           "date": "2026-07-06",
           "start_time": "6:30 PM",
           "end_date": "2026-07-07",
-          "summary": "11U Lady Brigade - Game vs Alvinston Riverhawks Select [RL11UN-37]",
+          "summary": "11U Lady Brigade - Game vs Alvinston Riverhawks Select [RL11UN-37](L 15-5)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -16636,9 +16599,9 @@
           "start_time": "6:30 PM",
           "opponent": "Alvinston Riverhawks Select RL11UN-37 Clearwat",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 5,
+          "opp_score": 15,
           "cancelled": false
         },
         {
@@ -17828,16 +17791,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20493-sarniabrigade.ca",
-          "date": "2026-05-09",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-09",
-          "summary": "16U PBLO - Game vs London Badgers(W 13-15)",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20494-sarniabrigade.ca",
           "date": "2026-05-09",
