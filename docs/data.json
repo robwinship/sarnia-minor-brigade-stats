@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-10T19:34:01.200899Z",
+  "generated": "2026-07-10T23:03:36.681635Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4178,7 +4178,7 @@
       "ties": 0,
       "runs_for": 142,
       "runs_against": 177,
-      "practices": 36,
+      "practices": 35,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -4188,16 +4188,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20830-sarniabrigade.ca",
-          "date": "2026-05-10",
-          "start_time": "4:00 PM",
-          "end_date": "2026-05-10",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20923-sarniabrigade.ca",
           "date": "2026-05-11",
@@ -12201,16 +12191,6 @@
       },
       "events": [
         {
-          "uid": "MS-20700-sarniabrigade.ca",
-          "date": "2026-05-10",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-11",
-          "summary": "9U Select - Game vs South London Tigers [9uS19](W 9-15)",
-          "location": "Clearwater Diamond #1",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20905-sarniabrigade.ca",
           "date": "2026-05-12",
           "start_time": "6:00 PM",
@@ -14541,7 +14521,7 @@
       "ties": 0,
       "runs_for": 93,
       "runs_against": 104,
-      "practices": 26,
+      "practices": 25,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -14551,16 +14531,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21119-sarniabrigade.ca",
-          "date": "2026-05-10",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-11",
-          "summary": "15U Select - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21120-sarniabrigade.ca",
           "date": "2026-05-12",
