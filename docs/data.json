@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-09T23:03:36.903683Z",
+  "generated": "2026-07-10T10:03:47.448838Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2312,40 +2312,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-07-15",
-            "time": "6:00 PM",
-            "opponent": "London Talons",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "Brogan Murphy",
-              "Drew Baxter",
-              "Rio Ruiz",
-              "William MacKenzie"
-            ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Brogan Murphy",
-              "Rio Ruiz",
-              "William MacKenzie"
-            ],
-            "denied_umpires": [
-              "Drew Baxter"
-            ],
-            "assigned_count": 4,
-            "accepted_count": 0,
-            "pending_count": 3,
-            "denied_count": 1,
-            "assignment_state": "assigned_but_denied",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-07-04",
@@ -3837,10 +3809,10 @@
                 "opponent": "10UA OBA REP",
                 "venue": "Clearwater Diamond #2",
                 "assigned_umpires": [
+                  "AJ Mumby",
                   "Alexander Pfaff",
                   "Annette Hoggarth",
                   "Axl Taylor",
-                  "Baya Vandenheuvel",
                   "Bentley Bartosz",
                   "Bentley Daughtrey",
                   "Blake Adams",
@@ -3851,6 +3823,7 @@
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
+                  "Carter Palmer",
                   "Carter Wills",
                   "Chris Bonneau",
                   "Clark Thornton",
@@ -4047,35 +4020,28 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Axl Taylor",
-                  "Baya Vandenheuvel",
+                  "AJ Mumby",
                   "Brian Mundt",
-                  "Brogan Murphy",
-                  "Carson Whittington",
-                  "Carter Wills",
-                  "Cruz Marinaro",
-                  "Dan Scott",
-                  "Gage Boyd",
-                  "Grady Boyd",
+                  "Carter Palmer",
                   "Grant Purdy",
-                  "Noah Bechard",
-                  "Paolo Padiglia",
+                  "Lane Vanden Ouweland",
+                  "Liam Scott",
                   "Rio Ruiz",
-                  "Shane Moorhouse",
-                  "Tyler Vandenberg",
                   "Tyler Whetham",
                   "William MacKenzie"
                 ],
                 "denied_umpires": [
+                  "Brogan Murphy",
                   "Chris Bonneau",
                   "Drew Baxter",
                   "Mike Moorhouse",
-                  "Tucker Stokes"
+                  "Noah Bechard",
+                  "Tie Richards"
                 ],
-                "assigned_count": 104,
+                "assigned_count": 105,
                 "accepted_count": 102,
-                "pending_count": 18,
-                "denied_count": 4,
+                "pending_count": 9,
+                "denied_count": 6,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -10869,12 +10835,12 @@
       "id": 1297,
       "name": "15U OBA Rep",
       "category": "OBA Rep",
-      "gp": 20,
+      "gp": 21,
       "wins": 7,
-      "losses": 13,
+      "losses": 14,
       "ties": 0,
-      "runs_for": 138,
-      "runs_against": 183,
+      "runs_for": 141,
+      "runs_against": 187,
       "practices": 42,
       "roster": {
         "players": 14,
@@ -11300,7 +11266,7 @@
           "date": "2026-07-09",
           "start_time": "6:00 PM",
           "end_date": "2026-07-10",
-          "summary": "15U OBA Rep - Game vs London Talons [15u50]",
+          "summary": "15U OBA Rep - Game vs London Talons [15u50](L 4-3)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -12032,9 +11998,9 @@
           "start_time": "6:00 PM",
           "opponent": "London Talons",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 3,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -12423,16 +12389,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20786-sarniabrigade.ca",
-          "date": "2026-06-14",
-          "start_time": "3:30 PM",
-          "end_date": "2026-06-14",
-          "summary": "CANCELLED 9U Select - Game @ Dorchester Diamondbacks [9uS02]",
-          "location": "Dorchester (2)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20772-sarniabrigade.ca",
           "date": "2026-06-15",
           "start_time": "7:00 PM",
@@ -12653,6 +12609,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20786-sarniabrigade.ca",
+          "date": "2026-08-12",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-13",
+          "summary": "9U Select - Game @ Dorchester Diamondbacks [9uS02]",
+          "location": "Dorchester (2)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20545-sarniabrigade.ca",
           "date": "2026-08-13",
           "start_time": "6:00 PM",
@@ -12807,18 +12773,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20786",
-          "href": "https://sarniabrigade.ca/Teams/1299/Games/20786/",
-          "date": "2026-06-14",
-          "start_time": "3:30 PM",
-          "opponent": "Dorchester Diamondbacks",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
           "game_id": "20710",
           "href": "https://sarniabrigade.ca/Teams/1299/Games/20710/",
           "date": "2026-06-25",
@@ -12957,6 +12911,18 @@
           "start_time": "6:00 PM",
           "opponent": "Lambton Shores Falcons",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20786",
+          "href": "https://sarniabrigade.ca/Teams/1299/Games/20786/",
+          "date": "2026-08-12",
+          "start_time": "6:00 PM",
+          "opponent": "Dorchester Diamondbacks",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -13872,12 +13838,12 @@
       "id": 1300,
       "name": "13U Select",
       "category": "Select",
-      "gp": 10,
-      "wins": 7,
+      "gp": 11,
+      "wins": 8,
       "losses": 3,
       "ties": 0,
-      "runs_for": 104,
-      "runs_against": 64,
+      "runs_for": 117,
+      "runs_against": 68,
       "practices": 19,
       "roster": {
         "players": 12,
@@ -14103,7 +14069,7 @@
           "date": "2026-07-09",
           "start_time": "6:00 PM",
           "end_date": "2026-07-10",
-          "summary": "13U Select - Game @ London West Tincaps [13uS123]",
+          "summary": "13U Select - Game @ London West Tincaps [13uS123](W 13-4)",
           "location": "West Lions",
           "type": "game",
           "cancelled": false
@@ -14501,9 +14467,9 @@
           "start_time": "6:00 PM",
           "opponent": "London West Tincaps",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 13,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -17108,12 +17074,12 @@
       "id": 1302,
       "name": "13U LDBA House League",
       "category": "House League",
-      "gp": 8,
-      "wins": 7,
+      "gp": 9,
+      "wins": 8,
       "losses": 1,
       "ties": 0,
-      "runs_for": 128,
-      "runs_against": 40,
+      "runs_for": 150,
+      "runs_against": 43,
       "practices": 17,
       "roster": {
         "players": 14,
@@ -17309,7 +17275,7 @@
           "date": "2026-07-09",
           "start_time": "6:00 PM",
           "end_date": "2026-07-10",
-          "summary": "13U LDBA House League - Game @ DKMB Blue [13uW60]",
+          "summary": "13U LDBA House League - Game @ DKMB Blue [13uW60](W 22-3)",
           "location": "Delaware Lions",
           "type": "game",
           "cancelled": false
@@ -17613,9 +17579,9 @@
           "start_time": "6:00 PM",
           "opponent": "DKMB Blue",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 22,
+          "opp_score": 3,
           "cancelled": false
         },
         {
@@ -20650,15 +20616,6 @@
       "start_time": "11:00 AM",
       "summary": "CANCELLED 15U OBA Rep - Game",
       "location": ""
-    },
-    {
-      "team_id": 1299,
-      "team_name": "9U Select",
-      "type": "game",
-      "date": "2026-06-14",
-      "start_time": "3:30 PM",
-      "summary": "CANCELLED 9U Select - Game @ Dorchester Diamondbacks [9uS02]",
-      "location": "Dorchester (2)"
     },
     {
       "team_id": 1299,
