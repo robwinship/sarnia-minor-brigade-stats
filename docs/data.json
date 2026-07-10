@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-10T10:03:47.448838Z",
+  "generated": "2026-07-10T16:03:57.214540Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 341,
       "runs_against": 383,
-      "practices": 27,
+      "practices": 26,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20288-sarniabrigade.ca",
-          "date": "2026-05-10",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-10",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20301-sarniabrigade.ca",
           "date": "2026-05-12",
@@ -3809,7 +3799,6 @@
                 "opponent": "10UA OBA REP",
                 "venue": "Clearwater Diamond #2",
                 "assigned_umpires": [
-                  "AJ Mumby",
                   "Alexander Pfaff",
                   "Annette Hoggarth",
                   "Axl Taylor",
@@ -3823,7 +3812,6 @@
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
-                  "Carter Palmer",
                   "Carter Wills",
                   "Chris Bonneau",
                   "Clark Thornton",
@@ -3892,7 +3880,6 @@
                   "Parker Leighton",
                   "Penny Core",
                   "Ralph Campbell",
-                  "Rio Ruiz",
                   "Ronnie Atyeo",
                   "Ryder Daye",
                   "Ryerson Nead",
@@ -4020,28 +4007,20 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "AJ Mumby",
+                  "Blake Adams",
                   "Brian Mundt",
-                  "Carter Palmer",
                   "Grant Purdy",
-                  "Lane Vanden Ouweland",
-                  "Liam Scott",
-                  "Rio Ruiz",
-                  "Tyler Whetham",
-                  "William MacKenzie"
+                  "Tyler Whetham"
                 ],
                 "denied_umpires": [
-                  "Brogan Murphy",
                   "Chris Bonneau",
-                  "Drew Baxter",
                   "Mike Moorhouse",
-                  "Noah Bechard",
-                  "Tie Richards"
+                  "Noah Bechard"
                 ],
-                "assigned_count": 105,
+                "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 9,
-                "denied_count": 6,
+                "pending_count": 4,
+                "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -6976,16 +6955,6 @@
       },
       "events": [
         {
-          "uid": "MS-20898-sarniabrigade.ca",
-          "date": "2026-05-10",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-10",
-          "summary": "12U OBA Rep - Game vs Wyoming Wranglers [WC13U-08](L 8-1)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20899-sarniabrigade.ca",
           "date": "2026-05-10",
           "start_time": "1:00 PM",
@@ -8582,7 +8551,7 @@
           "date": "2026-08-06",
           "start_time": "6:00 PM",
           "end_date": "2026-08-07",
-          "summary": "13U OBA Rep - Game vs Exeter Express Rep [13u75]",
+          "summary": "13U OBA Rep - Game vs Exeter Express 13u Rep [13u75]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -9162,7 +9131,7 @@
           "href": "https://sarniabrigade.ca/Teams/1295/Games/20870/",
           "date": "2026-08-06",
           "start_time": "6:00 PM",
-          "opponent": "Exeter Express Rep",
+          "opponent": "Exeter Express",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -9256,16 +9225,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20427-sarniabrigade.ca",
-          "date": "2026-05-10",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-10",
-          "summary": "CANCELLED 14U OBA Rep - Game vs TBA",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20419-sarniabrigade.ca",
           "date": "2026-05-11",
@@ -13013,7 +12972,7 @@
       "ties": 0,
       "runs_for": 117,
       "runs_against": 108,
-      "practices": 22,
+      "practices": 21,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -13023,16 +12982,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20108-sarniabrigade.ca",
-          "date": "2026-05-10",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-10",
-          "summary": "11U Select - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20839-sarniabrigade.ca",
           "date": "2026-05-13",
@@ -17708,16 +17657,6 @@
       },
       "events": [
         {
-          "uid": "MS-19721-sarniabrigade.ca",
-          "date": "2026-05-10",
-          "start_time": "9:00 AM",
-          "end_date": "2026-05-10",
-          "summary": "16U PBLO - Game @ London Badgers(L 4-5)",
-          "location": "Stoneybrook (Dan Pulham)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19722-sarniabrigade.ca",
           "date": "2026-05-10",
           "start_time": "12:00 PM",
@@ -20540,15 +20479,6 @@
       "team_id": 1296,
       "team_name": "14U OBA Rep",
       "type": "game",
-      "date": "2026-05-10",
-      "start_time": "10:00 AM",
-      "summary": "CANCELLED 14U OBA Rep - Game vs TBA",
-      "location": "Blackwell Park"
-    },
-    {
-      "team_id": 1296,
-      "team_name": "14U OBA Rep",
-      "type": "game",
       "date": "2026-05-17",
       "start_time": "10:00 AM",
       "summary": "CANCELLED 14U OBA Rep - Game vs London West Tincaps",
@@ -20588,6 +20518,15 @@
       "date": "2026-04-26",
       "start_time": "11:00 AM",
       "summary": "CANCELLED 14U OBA Rep - Game",
+      "location": ""
+    },
+    {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "game",
+      "date": "2026-05-10",
+      "start_time": "10:00 AM",
+      "summary": "CANCELLED 14U OBA Rep - Game vs TBA Blackwell Park",
       "location": ""
     },
     {
