@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-11T16:06:33.815114Z",
+  "generated": "2026-07-11T19:33:48.876561Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1353,12 +1353,12 @@
       "id": 1291,
       "name": "9U OBA Rep",
       "category": "OBA Rep",
-      "gp": 18,
-      "wins": 9,
+      "gp": 19,
+      "wins": 10,
       "losses": 9,
       "ties": 0,
-      "runs_for": 216,
-      "runs_against": 165,
+      "runs_for": 227,
+      "runs_against": 172,
       "practices": 24,
       "roster": {
         "players": 12,
@@ -1714,7 +1714,7 @@
           "date": "2026-07-11",
           "start_time": "12:00 PM",
           "end_date": "2026-07-11",
-          "summary": "9U OBA Rep - Game vs London West Tincaps [9u13]",
+          "summary": "9U OBA Rep - Game vs London West Tincaps [9u13](W 7-11)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -2166,9 +2166,9 @@
           "start_time": "12:00 PM",
           "opponent": "London West Tincaps",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 7,
           "cancelled": false
         },
         {
