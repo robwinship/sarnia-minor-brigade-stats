@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-11T10:03:48.039976Z",
+  "generated": "2026-07-11T16:06:33.815114Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -13806,12 +13806,12 @@
       "id": 1300,
       "name": "13U Select",
       "category": "Select",
-      "gp": 11,
-      "wins": 8,
+      "gp": 12,
+      "wins": 9,
       "losses": 3,
       "ties": 0,
-      "runs_for": 117,
-      "runs_against": 68,
+      "runs_for": 128,
+      "runs_against": 70,
       "practices": 19,
       "roster": {
         "players": 12,
@@ -14047,7 +14047,7 @@
           "date": "2026-07-10",
           "start_time": "6:00 PM",
           "end_date": "2026-07-11",
-          "summary": "13U Select - Game @ North London Nationals [13uS95]",
+          "summary": "13U Select - Game @ North London Nationals [13uS95](W 11-2)",
           "location": "North London (3)",
           "type": "game",
           "cancelled": false
@@ -14447,9 +14447,9 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 2,
           "cancelled": false
         },
         {
