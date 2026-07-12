@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-12T10:03:34.492746Z",
+  "generated": "2026-07-12T16:03:28.684551Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3965,6 +3965,7 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Grant Purdy",
+                  "Jason Lajeunesse",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3972,7 +3973,7 @@
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 3,
+                "pending_count": 4,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -5519,12 +5520,12 @@
       "id": 1293,
       "name": "11U OBA Rep",
       "category": "OBA Rep",
-      "gp": 17,
+      "gp": 19,
       "wins": 12,
-      "losses": 5,
+      "losses": 7,
       "ties": 0,
-      "runs_for": 177,
-      "runs_against": 131,
+      "runs_for": 182,
+      "runs_against": 151,
       "practices": 29,
       "roster": {
         "players": 12,
@@ -5930,7 +5931,7 @@
           "date": "2026-07-11",
           "start_time": "4:00 PM",
           "end_date": "2026-07-11",
-          "summary": "11U OBA Rep - Game vs London West Tincaps [11u23]",
+          "summary": "11U OBA Rep - Game vs London West Tincaps [11u23](L 13-1)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -5940,7 +5941,7 @@
           "date": "2026-07-11",
           "start_time": "6:30 PM",
           "end_date": "2026-07-12",
-          "summary": "11U OBA Rep - Game vs London West Tincaps [11u59]",
+          "summary": "11U OBA Rep - Game vs London West Tincaps [11u59](L 7-4)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6598,9 +6599,9 @@
           "start_time": "4:00 PM",
           "opponent": "London West Tincaps",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 1,
+          "opp_score": 13,
           "cancelled": false
         },
         {
@@ -6610,9 +6611,9 @@
           "start_time": "6:30 PM",
           "opponent": "London West Tincaps",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -10811,19 +10812,22 @@
             "opponent": "North London Nationals",
             "venue": "Blackwell Park",
             "assigned_umpires": [
+              "Jason Lajeunesse",
               "Myles Hobbs",
               "Tristan Heeringa"
             ],
             "accepted_umpires": [
               "Myles Hobbs"
             ],
-            "pending_umpires": [],
+            "pending_umpires": [
+              "Jason Lajeunesse"
+            ],
             "denied_umpires": [
               "Tristan Heeringa"
             ],
-            "assigned_count": 2,
+            "assigned_count": 3,
             "accepted_count": 1,
-            "pending_count": 0,
+            "pending_count": 1,
             "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
