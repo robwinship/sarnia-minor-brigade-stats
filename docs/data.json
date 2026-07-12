@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-12T19:33:18.641534Z",
+  "generated": "2026-07-12T23:03:01.278464Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -13,13 +13,13 @@
       "id": 1290,
       "name": "8U OBA Rep",
       "category": "OBA Rep",
-      "gp": 24,
+      "gp": 26,
       "wins": 12,
-      "losses": 12,
+      "losses": 14,
       "ties": 0,
-      "runs_for": 341,
-      "runs_against": 383,
-      "practices": 26,
+      "runs_for": 369,
+      "runs_against": 437,
+      "practices": 25,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20301-sarniabrigade.ca",
-          "date": "2026-05-12",
-          "start_time": "5:00 PM",
-          "end_date": "2026-05-12",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20269-sarniabrigade.ca",
           "date": "2026-05-13",
@@ -424,7 +414,7 @@
           "date": "2026-07-12",
           "start_time": "10:00 AM",
           "end_date": "2026-07-12",
-          "summary": "8U OBA Rep - Game vs London West Tincaps [8u18]",
+          "summary": "8U OBA Rep - Game vs London West Tincaps [8u18](L 29-20)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -434,7 +424,7 @@
           "date": "2026-07-12",
           "start_time": "1:00 PM",
           "end_date": "2026-07-12",
-          "summary": "8U OBA Rep - Game vs London West Tincaps [8u48]",
+          "summary": "8U OBA Rep - Game vs London West Tincaps [8u48](L 25-8)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -996,9 +986,9 @@
           "start_time": "10:00 AM",
           "opponent": "London West Tincaps",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 20,
+          "opp_score": 29,
           "cancelled": false
         },
         {
@@ -1008,9 +998,9 @@
           "start_time": "1:00 PM",
           "opponent": "London West Tincaps",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 8,
+          "opp_score": 25,
           "cancelled": false
         },
         {
@@ -1359,7 +1349,7 @@
       "ties": 0,
       "runs_for": 227,
       "runs_against": 172,
-      "practices": 24,
+      "practices": 23,
       "roster": {
         "players": 12,
         "adults": 5,
@@ -1369,16 +1359,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20181-sarniabrigade.ca",
-          "date": "2026-05-12",
-          "start_time": "5:00 PM",
-          "end_date": "2026-05-12",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19875-sarniabrigade.ca",
           "date": "2026-05-13",
@@ -5536,16 +5516,6 @@
       },
       "events": [
         {
-          "uid": "MS-20512-sarniabrigade.ca",
-          "date": "2026-05-12",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-13",
-          "summary": "11U OBA Rep - Game vs Chatham Diamonds 11u [WC11U-082](L 13-7)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20390-sarniabrigade.ca",
           "date": "2026-05-14",
           "start_time": "6:30 PM",
@@ -9239,16 +9209,6 @@
       },
       "events": [
         {
-          "uid": "MS-20661-sarniabrigade.ca",
-          "date": "2026-05-12",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-13",
-          "summary": "14U OBA Rep - Game @ London West Tincaps [14u75](W 12-5)",
-          "location": "Stoneybrook (Dan Pulham)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20778-sarniabrigade.ca",
           "date": "2026-05-14",
           "start_time": "6:00 PM",
@@ -10825,7 +10785,7 @@
       "ties": 0,
       "runs_for": 141,
       "runs_against": 187,
-      "practices": 42,
+      "practices": 41,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10835,16 +10795,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19780-sarniabrigade.ca",
-          "date": "2026-05-12",
-          "start_time": "5:30 PM",
-          "end_date": "2026-05-12",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20780-sarniabrigade.ca",
           "date": "2026-05-13",
@@ -12298,16 +12248,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20905-sarniabrigade.ca",
-          "date": "2026-05-12",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-13",
-          "summary": "9U Select - Game @ South London Tigers [9uS55](W 19-12)",
-          "location": "Glanworth (1)",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20532-sarniabrigade.ca",
           "date": "2026-05-14",
@@ -17651,12 +17591,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 35,
-      "wins": 21,
-      "losses": 14,
+      "gp": 37,
+      "wins": 22,
+      "losses": 15,
       "ties": 0,
-      "runs_for": 252,
-      "runs_against": 215,
+      "runs_for": 260,
+      "runs_against": 225,
       "practices": 37,
       "roster": {
         "players": 15,
@@ -18162,7 +18102,17 @@
           "date": "2026-07-12",
           "start_time": "11:00 AM",
           "end_date": "2026-07-12",
-          "summary": "16U PBLO - Game vs Michigan Dawgs 18u Mosley",
+          "summary": "16U PBLO - Game vs Michigan Dawgs 18u Mosley(W 5-6)",
+          "location": "Kyte Monroe Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22007-sarniabrigade.ca",
+          "date": "2026-07-12",
+          "start_time": "1:30 PM",
+          "end_date": "2026-07-12",
+          "summary": "16U PBLO - Game vs Bluewater Titans 17u(L 5-2)",
           "location": "Kyte Monroe Park",
           "type": "game",
           "cancelled": false
@@ -18910,9 +18860,21 @@
           "start_time": "11:00 AM",
           "opponent": "Michigan Dawgs",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 6,
+          "opp_score": 5,
+          "cancelled": false
+        },
+        {
+          "game_id": "22007",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/22007/",
+          "date": "2026-07-12",
+          "start_time": "1:30 PM",
+          "opponent": "Bluewater Titans",
+          "home": true,
+          "result": "L",
+          "brigade_score": 2,
+          "opp_score": 5,
           "cancelled": false
         },
         {
