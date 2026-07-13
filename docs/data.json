@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-12T23:03:01.278464Z",
+  "generated": "2026-07-13T10:03:29.754043Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1127,8 +1127,8 @@
       "umpire_issues": {
         "games_missed": 2,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 2,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch": 3,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -1276,7 +1276,7 @@
           },
           {
             "date": "2026-07-12",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": false,
             "pair_signatures": [
               "Cohen Smith | Juan Peralta",
@@ -3574,8 +3574,8 @@
       "umpire_issues": {
         "games_missed": 2,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 3,
-        "doubleheader_mismatch_upcoming": 2,
+        "doubleheader_mismatch": 4,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -3944,15 +3944,19 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
+                  "Clark Thornton",
                   "Grant Purdy",
+                  "Marko Sazdov",
+                  "Mike Moorhouse",
+                  "Shane Moorhouse",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
-                  "Tristan Heeringa"
+                  "Jason Lajeunesse"
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 3,
+                "pending_count": 7,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4084,15 +4088,15 @@
           },
           {
             "date": "2026-07-12",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": false,
             "pair_signatures": [
-              "Kayne Golder | Kye Golder",
-              "Kayne Golder | Liam Scott"
+              "Carson Whittington | Kayne Golder",
+              "Kayne Golder | Kye Golder"
             ],
             "mismatched_names": [
-              "Kye Golder",
-              "Liam Scott"
+              "Carson Whittington",
+              "Kye Golder"
             ],
             "games": [
               {
@@ -4120,12 +4124,12 @@
                 "opponent": "London Badgers",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
-                  "Kayne Golder",
-                  "Liam Scott"
+                  "Carson Whittington",
+                  "Kayne Golder"
                 ],
                 "accepted_umpires": [
-                  "Kayne Golder",
-                  "Liam Scott"
+                  "Carson Whittington",
+                  "Kayne Golder"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
@@ -14559,7 +14563,7 @@
       "ties": 0,
       "runs_for": 93,
       "runs_against": 104,
-      "practices": 25,
+      "practices": 24,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -14569,16 +14573,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21120-sarniabrigade.ca",
-          "date": "2026-05-12",
-          "start_time": "8:00 PM",
-          "end_date": "2026-05-13",
-          "summary": "15U Select - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21520-sarniabrigade.ca",
           "date": "2026-05-14",
@@ -18997,16 +18991,6 @@
       },
       "events": [
         {
-          "uid": "MS-21181-sarniabrigade.ca",
-          "date": "2026-05-12",
-          "start_time": "7:30 PM",
-          "end_date": "2026-05-13",
-          "summary": "22U AAA - Game vs TBA",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21184-sarniabrigade.ca",
           "date": "2026-05-19",
           "start_time": "7:30 PM",
@@ -19584,16 +19568,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21156-sarniabrigade.ca",
-          "date": "2026-05-12",
-          "start_time": "7:30 PM",
-          "end_date": "2026-05-13",
-          "summary": "Senior AAA - Game @ TBA",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21157-sarniabrigade.ca",
           "date": "2026-05-17",
