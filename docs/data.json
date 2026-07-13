@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-13T10:03:29.754043Z",
+  "generated": "2026-07-13T16:03:35.359714Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3946,9 +3946,12 @@
                   "Brian Mundt",
                   "Clark Thornton",
                   "Grant Purdy",
+                  "Hayden Scheuermann",
                   "Marko Sazdov",
                   "Mike Moorhouse",
+                  "Myles Hobbs",
                   "Shane Moorhouse",
+                  "Summer Steinke",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3956,7 +3959,7 @@
                 ],
                 "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 7,
+                "pending_count": 10,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -5950,6 +5953,36 @@
           "cancelled": false
         },
         {
+          "uid": "MS-22030-sarniabrigade.ca",
+          "date": "2026-07-17",
+          "start_time": "1:00 PM",
+          "end_date": "2026-07-17",
+          "summary": "11U OBA Rep - Game vs Leamington",
+          "location": "Mornington 1",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22031-sarniabrigade.ca",
+          "date": "2026-07-18",
+          "start_time": "1:15 PM",
+          "end_date": "2026-07-18",
+          "summary": "11U OBA Rep - Game @ Riverside Royals",
+          "location": "Stronach 1",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22032-sarniabrigade.ca",
+          "date": "2026-07-18",
+          "start_time": "5:45 PM",
+          "end_date": "2026-07-18",
+          "summary": "11U OBA Rep - Game vs Soo Black Sox",
+          "location": "Mornington 1",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20091-sarniabrigade.ca",
           "date": "2026-07-21",
           "start_time": "6:00 PM",
@@ -6602,6 +6635,42 @@
           "cancelled": false
         },
         {
+          "game_id": "22030",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/22030/",
+          "date": "2026-07-17",
+          "start_time": "1:00 PM",
+          "opponent": "Leamington Mornington",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22031",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/22031/",
+          "date": "2026-07-18",
+          "start_time": "1:15 PM",
+          "opponent": "Riverside Royals Stronach",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22032",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/22032/",
+          "date": "2026-07-18",
+          "start_time": "5:45 PM",
+          "opponent": "Soo Black Sox Mornington",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20686",
           "href": "https://sarniabrigade.ca/Teams/1293/Games/20686/",
           "date": "2026-07-25",
@@ -6955,12 +7024,12 @@
       "id": 1294,
       "name": "12U OBA Rep",
       "category": "OBA Rep",
-      "gp": 16,
-      "wins": 8,
+      "gp": 17,
+      "wins": 9,
       "losses": 8,
       "ties": 0,
-      "runs_for": 114,
-      "runs_against": 163,
+      "runs_for": 123,
+      "runs_against": 170,
       "practices": 27,
       "roster": {
         "players": 13,
@@ -7256,7 +7325,7 @@
           "date": "2026-07-12",
           "start_time": "10:00 AM",
           "end_date": "2026-07-12",
-          "summary": "12U OBA Rep - Game vs North London Nationals [12u28]",
+          "summary": "12U OBA Rep - Game vs North London Nationals [12u28](W 7-9)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -7786,9 +7855,9 @@
           "start_time": "10:00 AM",
           "opponent": "North London Nationals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -16978,12 +17047,12 @@
       "id": 1302,
       "name": "13U LDBA House League",
       "category": "House League",
-      "gp": 9,
+      "gp": 10,
       "wins": 8,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
-      "runs_for": 158,
-      "runs_against": 51,
+      "runs_for": 165,
+      "runs_against": 60,
       "practices": 16,
       "roster": {
         "players": 14,
@@ -17189,7 +17258,7 @@
           "date": "2026-07-12",
           "start_time": "1:00 PM",
           "end_date": "2026-07-12",
-          "summary": "13U LDBA House League - Game vs Camlachie 1 [13uW64]",
+          "summary": "13U LDBA House League - Game vs Camlachie 1 [13uW64](L 9-7)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -17497,9 +17566,9 @@
           "start_time": "1:00 PM",
           "opponent": "Camlachie",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 7,
+          "opp_score": 9,
           "cancelled": false
         },
         {
