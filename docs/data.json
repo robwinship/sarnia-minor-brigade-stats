@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-14T16:03:38.073854Z",
+  "generated": "2026-07-14T19:34:27.942899Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2805,7 +2805,7 @@
           "date": "2026-07-25",
           "start_time": "10:00 AM",
           "end_date": "2026-07-25",
-          "summary": "10U AA OBA Rep - Game vs Cambridge Cubs  [DH]",
+          "summary": "CANCELLED 10U AA OBA Rep - Game vs Cambridge Cubs  [DH]",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -3432,7 +3432,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "19648",
@@ -3779,6 +3779,7 @@
                   "Parker Leighton",
                   "Penny Core",
                   "Ralph Campbell",
+                  "Rio Ruiz",
                   "Ronnie Atyeo",
                   "Ryder Daye",
                   "Ryerson Nead",
@@ -3918,8 +3919,7 @@
                   "Hayden Scheuermann",
                   "Jarett Simons",
                   "Jaxson Pyne",
-                  "Mike Moorhouse",
-                  "Myles Hobbs",
+                  "Rio Ruiz",
                   "Summer Steinke",
                   "Tristan Heeringa",
                   "Tyler Hoadley",
@@ -3935,9 +3935,9 @@
                   "Shane Moorhouse",
                   "Summer Steinke"
                 ],
-                "assigned_count": 105,
+                "assigned_count": 106,
                 "accepted_count": 102,
-                "pending_count": 18,
+                "pending_count": 17,
                 "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -20339,6 +20339,15 @@
       "date": "2026-06-17",
       "start_time": "5:30 PM",
       "summary": "CANCELLED 10U AA OBA Rep - Practice",
+      "location": "Clearwater Diamond #2"
+    },
+    {
+      "team_id": 1292,
+      "team_name": "10U AA OBA Rep",
+      "type": "game",
+      "date": "2026-07-25",
+      "start_time": "10:00 AM",
+      "summary": "CANCELLED 10U AA OBA Rep - Game vs Cambridge Cubs  [DH]",
       "location": "Clearwater Diamond #2"
     },
     {
