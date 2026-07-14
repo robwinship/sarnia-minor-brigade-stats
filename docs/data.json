@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-13T23:03:39.154221Z",
+  "generated": "2026-07-14T10:03:40.846582Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3733,6 +3733,7 @@
                   "Greg Armstrong",
                   "Greg Baker",
                   "Hannah Stewart",
+                  "Harper Vandenheuval",
                   "Hayden Scheuermann",
                   "Jack Needham",
                   "Jackson Bunda",
@@ -3741,6 +3742,7 @@
                   "Jakob Rodriguez",
                   "Jarett Simons",
                   "Jason Lajeunesse",
+                  "Jaxson Pyne",
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Juan Peralta",
@@ -3905,12 +3907,21 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
+                  "Brock Lane",
+                  "Brogan Murphy",
                   "Dylan Heeringa",
                   "Ethan Antle",
                   "Ewan Snedden",
                   "Grant Purdy",
+                  "Greg Baker",
+                  "Harper Vandenheuval",
                   "Hayden Scheuermann",
+                  "Jaxson Pyne",
+                  "Mike Moorhouse",
+                  "Myles Hobbs",
                   "Summer Steinke",
+                  "Sydney Nisbet",
+                  "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3922,9 +3933,9 @@
                   "Shane Moorhouse",
                   "Summer Steinke"
                 ],
-                "assigned_count": 103,
+                "assigned_count": 105,
                 "accepted_count": 102,
-                "pending_count": 8,
+                "pending_count": 17,
                 "denied_count": 7,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4178,12 +4189,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 16,
+      "gp": 17,
       "wins": 8,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "runs_for": 148,
-      "runs_against": 190,
+      "runs_for": 149,
+      "runs_against": 202,
       "practices": 34,
       "roster": {
         "players": 13,
@@ -4589,7 +4600,7 @@
           "date": "2026-07-13",
           "start_time": "6:00 PM",
           "end_date": "2026-07-14",
-          "summary": "10U A OBA Rep - Game @ North London Nationals [10u08]",
+          "summary": "10U A OBA Rep - Game @ North London Nationals [10u08](L 1-12)",
           "location": "North London (3)",
           "type": "game",
           "cancelled": false
@@ -5255,9 +5266,9 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 1,
+          "opp_score": 12,
           "cancelled": false
         },
         {
@@ -8047,16 +8058,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20662-sarniabrigade.ca",
-          "date": "2026-05-13",
-          "start_time": "8:30 PM",
-          "end_date": "2026-05-14",
-          "summary": "13U OBA Rep - Game @ London West Tincaps [13u47](W 9-0)",
-          "location": "Byron Sports Complex (2)",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20242-sarniabrigade.ca",
           "date": "2026-05-14",
@@ -15406,8 +15407,8 @@
       "wins": 4,
       "losses": 4,
       "ties": 0,
-      "runs_for": 97,
-      "runs_against": 85,
+      "runs_for": 104,
+      "runs_against": 92,
       "practices": 14,
       "roster": {
         "players": 16,
@@ -15573,7 +15574,7 @@
           "date": "2026-07-13",
           "start_time": "6:00 PM",
           "end_date": "2026-07-14",
-          "summary": "9U River League - Game vs Port Lambton Pirates [RL9UN-79]",
+          "summary": "9U River League - Game vs Port Lambton Pirates [RL9UN-79](T 7-7)",
           "location": "Blackwell North",
           "type": "game",
           "cancelled": false
@@ -15864,8 +15865,8 @@
           "opponent": "Port Lambton Pirates RL9UN-79 Blackwell North",
           "home": true,
           "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "brigade_score": 7,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -16499,12 +16500,12 @@
       "id": 1315,
       "name": "11U River League",
       "category": "River League",
-      "gp": 11,
+      "gp": 12,
       "wins": 7,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "runs_for": 117,
-      "runs_against": 88,
+      "runs_for": 129,
+      "runs_against": 104,
       "practices": 8,
       "roster": {
         "players": 15,
@@ -16680,7 +16681,7 @@
           "date": "2026-07-13",
           "start_time": "6:30 PM",
           "end_date": "2026-07-14",
-          "summary": "11u River League - Game vs Wyoming Wranglers Red",
+          "summary": "11u River League - Game vs Wyoming Wranglers Red(L 16-12)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -16896,9 +16897,9 @@
           "start_time": "6:30 PM",
           "opponent": "Wyoming Wranglers Red Clearwater Diamond",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 12,
+          "opp_score": 16,
           "cancelled": false
         },
         {
