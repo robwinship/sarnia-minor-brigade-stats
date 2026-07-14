@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-14T19:34:27.942899Z",
+  "generated": "2026-07-14T23:03:44.710141Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3725,7 +3725,6 @@
                   "Easton McKinlay",
                   "Ethan Antle",
                   "Ethan Carlton",
-                  "Ewan Snedden",
                   "Gage Boyd",
                   "Grady Boyd",
                   "Graham Dolbear",
@@ -3733,7 +3732,6 @@
                   "Greg Armstrong",
                   "Greg Baker",
                   "Hannah Stewart",
-                  "Harper Vandenheuval",
                   "Hayden Scheuermann",
                   "Jack Needham",
                   "Jackson Bunda",
@@ -3742,7 +3740,6 @@
                   "Jakob Rodriguez",
                   "Jarett Simons",
                   "Jason Lajeunesse",
-                  "Jaxson Pyne",
                   "Joey Buchner",
                   "Jonas Winklmeier",
                   "Juan Peralta",
@@ -3779,7 +3776,6 @@
                   "Parker Leighton",
                   "Penny Core",
                   "Ralph Campbell",
-                  "Rio Ruiz",
                   "Ronnie Atyeo",
                   "Ryder Daye",
                   "Ryerson Nead",
@@ -3910,35 +3906,25 @@
                   "Brian Mundt",
                   "Brock Lane",
                   "Brogan Murphy",
-                  "Dylan Heeringa",
-                  "Ethan Antle",
-                  "Ewan Snedden",
                   "Grant Purdy",
+                  "Greg Armstrong",
                   "Greg Baker",
-                  "Harper Vandenheuval",
                   "Hayden Scheuermann",
                   "Jarett Simons",
-                  "Jaxson Pyne",
-                  "Rio Ruiz",
-                  "Summer Steinke",
-                  "Tristan Heeringa",
+                  "Shane Moorhouse",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
-                  "Clark Thornton",
-                  "Gage Boyd",
                   "Jason Lajeunesse",
                   "Marko Sazdov",
                   "Mike Moorhouse",
-                  "Myles Hobbs",
-                  "Shane Moorhouse",
-                  "Summer Steinke"
+                  "Shane Moorhouse"
                 ],
-                "assigned_count": 106,
+                "assigned_count": 102,
                 "accepted_count": 102,
-                "pending_count": 17,
-                "denied_count": 8,
+                "pending_count": 11,
+                "denied_count": 4,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4197,7 +4183,7 @@
       "ties": 0,
       "runs_for": 149,
       "runs_against": 202,
-      "practices": 34,
+      "practices": 33,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -4207,16 +4193,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20156-sarniabrigade.ca",
-          "date": "2026-05-14",
-          "start_time": "5:30 PM",
-          "end_date": "2026-05-14",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20245-sarniabrigade.ca",
           "date": "2026-05-19",
@@ -5490,7 +5466,7 @@
       "ties": 0,
       "runs_for": 182,
       "runs_against": 151,
-      "practices": 29,
+      "practices": 28,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5500,16 +5476,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20390-sarniabrigade.ca",
-          "date": "2026-05-14",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-15",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20514-sarniabrigade.ca",
           "date": "2026-05-17",
@@ -8050,7 +8016,7 @@
       "ties": 0,
       "runs_for": 269,
       "runs_against": 180,
-      "practices": 29,
+      "practices": 28,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -8060,16 +8026,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20242-sarniabrigade.ca",
-          "date": "2026-05-14",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-15",
-          "summary": "13U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20465-sarniabrigade.ca",
           "date": "2026-05-15",
@@ -9239,16 +9195,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20778-sarniabrigade.ca",
-          "date": "2026-05-14",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-15",
-          "summary": "14U OBA Rep - Game @ St. Thomas Cardinals [14u18](W 20-7)",
-          "location": "Emslie Field",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21519-sarniabrigade.ca",
           "date": "2026-05-17",
@@ -10816,7 +10762,7 @@
       "ties": 0,
       "runs_for": 141,
       "runs_against": 187,
-      "practices": 41,
+      "practices": 40,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10826,16 +10772,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19797-sarniabrigade.ca",
-          "date": "2026-05-14",
-          "start_time": "5:30 PM",
-          "end_date": "2026-05-14",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20968-sarniabrigade.ca",
           "date": "2026-05-15",
@@ -12259,7 +12195,7 @@
       "ties": 0,
       "runs_for": 88,
       "runs_against": 160,
-      "practices": 24,
+      "practices": 23,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -12269,16 +12205,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20532-sarniabrigade.ca",
-          "date": "2026-05-14",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-15",
-          "summary": "9U Select - Practice",
-          "location": "Blackwell North",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20770-sarniabrigade.ca",
           "date": "2026-05-18",
@@ -13004,7 +12930,7 @@
       "ties": 0,
       "runs_for": 131,
       "runs_against": 121,
-      "practices": 21,
+      "practices": 20,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -13014,16 +12940,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20126-sarniabrigade.ca",
-          "date": "2026-05-14",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-15",
-          "summary": "11U Select - Practice",
-          "location": "Clearwater Diamond #3",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20842-sarniabrigade.ca",
           "date": "2026-05-15",
@@ -14570,7 +14486,7 @@
       "ties": 0,
       "runs_for": 93,
       "runs_against": 104,
-      "practices": 24,
+      "practices": 23,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -14580,16 +14496,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21520-sarniabrigade.ca",
-          "date": "2026-05-14",
-          "start_time": "5:00 PM",
-          "end_date": "2026-05-14",
-          "summary": "15U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21123-sarniabrigade.ca",
           "date": "2026-05-17",
