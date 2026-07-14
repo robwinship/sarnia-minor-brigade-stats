@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-14T10:03:40.846582Z",
+  "generated": "2026-07-14T16:03:38.073854Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3916,12 +3916,13 @@
                   "Greg Baker",
                   "Harper Vandenheuval",
                   "Hayden Scheuermann",
+                  "Jarett Simons",
                   "Jaxson Pyne",
                   "Mike Moorhouse",
                   "Myles Hobbs",
                   "Summer Steinke",
-                  "Sydney Nisbet",
                   "Tristan Heeringa",
+                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3929,14 +3930,15 @@
                   "Gage Boyd",
                   "Jason Lajeunesse",
                   "Marko Sazdov",
+                  "Mike Moorhouse",
                   "Myles Hobbs",
                   "Shane Moorhouse",
                   "Summer Steinke"
                 ],
                 "assigned_count": 105,
                 "accepted_count": 102,
-                "pending_count": 17,
-                "denied_count": 7,
+                "pending_count": 18,
+                "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4516,26 +4518,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20760-sarniabrigade.ca",
-          "date": "2026-07-05",
-          "start_time": "4:00 PM",
-          "end_date": "2026-07-05",
-          "summary": "CANCELLED 10U A OBA Rep - Game vs St. Thomas Cardinals [10u12]",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20762-sarniabrigade.ca",
-          "date": "2026-07-05",
-          "start_time": "6:30 PM",
-          "end_date": "2026-07-06",
-          "summary": "CANCELLED 10U A OBA Rep - Game vs St. Thomas Cardinals [10u42]",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20252-sarniabrigade.ca",
           "date": "2026-07-07",
           "start_time": "6:30 PM",
@@ -4796,6 +4778,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20760-sarniabrigade.ca",
+          "date": "2026-08-16",
+          "start_time": "4:00 PM",
+          "end_date": "2026-08-16",
+          "summary": "10U A OBA Rep - Game vs St. Thomas Cardinals [10u12]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20837-sarniabrigade.ca",
           "date": "2026-08-16",
           "start_time": "4:00 PM",
@@ -4803,6 +4795,16 @@
           "summary": "10U A OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20762-sarniabrigade.ca",
+          "date": "2026-08-16",
+          "start_time": "6:30 PM",
+          "end_date": "2026-08-17",
+          "summary": "10U A OBA Rep - Game vs St. Thomas Cardinals [10u42]",
+          "location": "Tecumseh Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -5188,30 +5190,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20760",
-          "href": "https://sarniabrigade.ca/Teams/1311/Games/20760/",
-          "date": "2026-07-05",
-          "start_time": "4:00 PM",
-          "opponent": "St. Thomas Cardinals",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
-          "game_id": "20762",
-          "href": "https://sarniabrigade.ca/Teams/1311/Games/20762/",
-          "date": "2026-07-05",
-          "start_time": "6:30 PM",
-          "opponent": "St. Thomas Cardinals",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
           "game_id": "20504",
           "href": "https://sarniabrigade.ca/Teams/1311/Games/20504/",
           "date": "2026-07-08",
@@ -5385,6 +5363,30 @@
           "date": "2026-08-09",
           "start_time": "6:30 PM",
           "opponent": "Lucan-Ilderton Athletics",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20760",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20760/",
+          "date": "2026-08-16",
+          "start_time": "4:00 PM",
+          "opponent": "St. Thomas Cardinals",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20762",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20762/",
+          "date": "2026-08-16",
+          "start_time": "6:30 PM",
+          "opponent": "St. Thomas Cardinals",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -11300,7 +11302,7 @@
           "start_time": "11:30 AM",
           "end_date": "2026-07-19",
           "summary": "15U OBA Rep - Game @ Tillsonburg Otters [15u10]",
-          "location": "Tillsonburg Arena (Hardball 1)",
+          "location": "Tillsonburg Arena (Hardball 2)",
           "type": "game",
           "cancelled": false
         },
@@ -11310,7 +11312,7 @@
           "start_time": "1:30 PM",
           "end_date": "2026-07-19",
           "summary": "15U OBA Rep - Game @ Tillsonburg Otters [15u40]",
-          "location": "Tillsonburg Arena (Hardball 1)",
+          "location": "Tillsonburg Arena (Hardball 2)",
           "type": "game",
           "cancelled": false
         },
@@ -20356,24 +20358,6 @@
       "start_time": "5:30 PM",
       "summary": "CANCELLED 10U A OBA Rep - Practice",
       "location": "Coronation Park Diamond"
-    },
-    {
-      "team_id": 1311,
-      "team_name": "10U A OBA Rep",
-      "type": "game",
-      "date": "2026-07-05",
-      "start_time": "4:00 PM",
-      "summary": "CANCELLED 10U A OBA Rep - Game vs St. Thomas Cardinals [10u12]",
-      "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1311,
-      "team_name": "10U A OBA Rep",
-      "type": "game",
-      "date": "2026-07-05",
-      "start_time": "6:30 PM",
-      "summary": "CANCELLED 10U A OBA Rep - Game vs St. Thomas Cardinals [10u42]",
-      "location": "Tecumseh Park"
     },
     {
       "team_id": 1293,
