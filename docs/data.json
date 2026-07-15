@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-15T19:33:03.718298Z",
+  "generated": "2026-07-15T23:03:22.484440Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -434,7 +434,7 @@
           "date": "2026-07-15",
           "start_time": "6:00 PM",
           "end_date": "2026-07-16",
-          "summary": "8U OBA Rep - Practice",
+          "summary": "CANCELLED 8U OBA Rep - Practice",
           "location": "Coronation Park Diamond",
           "type": "practice",
           "cancelled": false
@@ -1694,7 +1694,7 @@
           "date": "2026-07-15",
           "start_time": "6:00 PM",
           "end_date": "2026-07-16",
-          "summary": "9U OBA Rep - Practice",
+          "summary": "CANCELLED 9U OBA Rep - Practice",
           "location": "Clearwater Diamond #1",
           "type": "practice",
           "cancelled": false
@@ -2745,7 +2745,7 @@
           "date": "2026-07-15",
           "start_time": "6:00 PM",
           "end_date": "2026-07-16",
-          "summary": "10U AA OBA Rep - Practice",
+          "summary": "CANCELLED 10U AA OBA Rep - Practice",
           "location": "Clearwater Diamond #2",
           "type": "practice",
           "cancelled": false
@@ -3669,6 +3669,7 @@
               "Parker Leighton",
               "Penny Core",
               "Ronnie Atyeo",
+              "Ryan Ross",
               "Ryder Daye",
               "Ryerson Nead",
               "Rylie Bunda",
@@ -3756,6 +3757,7 @@
                   "Lane Vanden Ouweland",
                   "Lawrence Dyck",
                   "Levi Burlingham",
+                  "Liam Colosimo",
                   "Liam Scott",
                   "Logan Conroy",
                   "Logan Hiscocks",
@@ -3885,6 +3887,7 @@
                   "Penny Core",
                   "Ralph Campbell",
                   "Ronnie Atyeo",
+                  "Ryan Ross",
                   "Ryder Daye",
                   "Ryerson Nead",
                   "Rylie Bunda",
@@ -3909,7 +3912,6 @@
                 "pending_umpires": [
                   "Axl Taylor",
                   "Brian Mundt",
-                  "Brock Lane",
                   "Chris Bonneau",
                   "Doug Krall",
                   "Grant Purdy",
@@ -3917,6 +3919,7 @@
                   "Jakob Rodriguez",
                   "Kirk Vines",
                   "Levi Burlingham",
+                  "Liam Colosimo",
                   "Logan Conroy",
                   "Ryan Ross",
                   "Ryder Daye",
@@ -3927,16 +3930,17 @@
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
+                  "Brock Lane",
                   "Chris Bonneau",
                   "Hayden Scheuermann",
                   "Jason Lajeunesse",
                   "Mike Moorhouse",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 104,
-                "accepted_count": 103,
+                "assigned_count": 105,
+                "accepted_count": 104,
                 "pending_count": 18,
-                "denied_count": 5,
+                "denied_count": 6,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -5893,7 +5897,7 @@
           "date": "2026-07-15",
           "start_time": "6:00 PM",
           "end_date": "2026-07-16",
-          "summary": "11U OBA Rep - Game @ St. Thomas Cardinals [11u08]",
+          "summary": "CANCELLED 11U OBA Rep - Game @ St. Thomas Cardinals [11u08]",
           "location": "New York Central",
           "type": "game",
           "cancelled": false
@@ -6588,7 +6592,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "22030",
@@ -8038,16 +8042,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20465-sarniabrigade.ca",
-          "date": "2026-05-15",
-          "start_time": "5:30 PM",
-          "end_date": "2026-05-15",
-          "summary": "13U OBA Rep - Game vs West Toronto Wildcats(L 3-0)",
-          "location": "South Side Park East",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20466-sarniabrigade.ca",
           "date": "2026-05-16",
@@ -10774,7 +10768,7 @@
       "ties": 0,
       "runs_for": 141,
       "runs_against": 187,
-      "practices": 40,
+      "practices": 39,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10784,16 +10778,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20968-sarniabrigade.ca",
-          "date": "2026-05-15",
-          "start_time": "5:00 PM",
-          "end_date": "2026-05-15",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21582-sarniabrigade.ca",
           "date": "2026-05-16",
@@ -11199,7 +11183,7 @@
           "date": "2026-07-15",
           "start_time": "6:00 PM",
           "end_date": "2026-07-16",
-          "summary": "15U OBA Rep - Game @ St. Thomas Cardinals [15u31]",
+          "summary": "CANCELLED 15U OBA Rep - Game @ St. Thomas Cardinals [15u31]",
           "location": "Emslie Field",
           "type": "game",
           "cancelled": false
@@ -11928,7 +11912,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20678",
@@ -12953,16 +12937,6 @@
       },
       "events": [
         {
-          "uid": "MS-20842-sarniabrigade.ca",
-          "date": "2026-05-15",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-16",
-          "summary": "11U Select - Game @ Strathroy Royals [11uS109](L 9-14)",
-          "location": "York Street (1)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20806-sarniabrigade.ca",
           "date": "2026-05-17",
           "start_time": "10:00 AM",
@@ -13743,7 +13717,7 @@
       "ties": 0,
       "runs_for": 144,
       "runs_against": 75,
-      "practices": 18,
+      "practices": 17,
       "roster": {
         "players": 12,
         "adults": 4,
@@ -13753,16 +13727,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19833-sarniabrigade.ca",
-          "date": "2026-05-15",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-16",
-          "summary": "13U Select - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21629-sarniabrigade.ca",
           "date": "2026-05-18",
@@ -16172,7 +16136,7 @@
           "date": "2026-07-15",
           "start_time": "6:30 PM",
           "end_date": "2026-07-16",
-          "summary": "11U Lady Brigade - Game vs Corunna Giants Select [WC11UEX-005]",
+          "summary": "CANCELLED 11U Lady Brigade - Game vs Corunna Giants Select [WC11UEX-005]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -16359,7 +16323,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "21369",
@@ -16899,7 +16863,7 @@
       "ties": 0,
       "runs_for": 165,
       "runs_against": 60,
-      "practices": 16,
+      "practices": 15,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -16909,16 +16873,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20343-sarniabrigade.ca",
-          "date": "2026-05-15",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-16",
-          "summary": "13U LDBA House League - Practice",
-          "location": "Clearwater Diamond #4",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20362-sarniabrigade.ca",
           "date": "2026-05-17",
@@ -17506,7 +17460,7 @@
       "ties": 0,
       "runs_for": 260,
       "runs_against": 225,
-      "practices": 36,
+      "practices": 35,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -17516,16 +17470,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20033-sarniabrigade.ca",
-          "date": "2026-05-15",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-16",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19742-sarniabrigade.ca",
           "date": "2026-05-16",
@@ -20224,6 +20168,15 @@
   ],
   "cancellations": [
     {
+      "team_id": 1290,
+      "team_name": "8U OBA Rep",
+      "type": "practice",
+      "date": "2026-07-15",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 8U OBA Rep - Practice",
+      "location": "Coronation Park Diamond"
+    },
+    {
       "team_id": 1291,
       "team_name": "9U OBA Rep",
       "type": "practice",
@@ -20251,11 +20204,29 @@
       "location": "Clearwater Diamond #1"
     },
     {
+      "team_id": 1291,
+      "team_name": "9U OBA Rep",
+      "type": "practice",
+      "date": "2026-07-15",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 9U OBA Rep - Practice",
+      "location": "Clearwater Diamond #1"
+    },
+    {
       "team_id": 1292,
       "team_name": "10U AA OBA Rep",
       "type": "practice",
       "date": "2026-06-17",
       "start_time": "5:30 PM",
+      "summary": "CANCELLED 10U AA OBA Rep - Practice",
+      "location": "Clearwater Diamond #2"
+    },
+    {
+      "team_id": 1292,
+      "team_name": "10U AA OBA Rep",
+      "type": "practice",
+      "date": "2026-07-15",
+      "start_time": "6:00 PM",
       "summary": "CANCELLED 10U AA OBA Rep - Practice",
       "location": "Clearwater Diamond #2"
     },
@@ -20321,6 +20292,15 @@
       "start_time": "4:00 PM",
       "summary": "CANCELLED 11U OBA Rep - Practice",
       "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1293,
+      "team_name": "11U OBA Rep",
+      "type": "game",
+      "date": "2026-07-15",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 11U OBA Rep - Game @ St. Thomas Cardinals [11u08]",
+      "location": "New York Central"
     },
     {
       "team_id": 1293,
@@ -20461,6 +20441,15 @@
       "team_id": 1297,
       "team_name": "15U OBA Rep",
       "type": "game",
+      "date": "2026-07-15",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 15U OBA Rep - Game @ St. Thomas Cardinals [15u31]",
+      "location": "Emslie Field"
+    },
+    {
+      "team_id": 1297,
+      "team_name": "15U OBA Rep",
+      "type": "game",
       "date": "2026-04-26",
       "start_time": "11:00 AM",
       "summary": "CANCELLED 15U OBA Rep - Game",
@@ -20555,6 +20544,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 11U Lady Brigade - Practice",
       "location": "TBD"
+    },
+    {
+      "team_id": 1310,
+      "team_name": "11U Lady Brigade",
+      "type": "game",
+      "date": "2026-07-15",
+      "start_time": "6:30 PM",
+      "summary": "CANCELLED 11U Lady Brigade - Game vs Corunna Giants Select [WC11UEX-005]",
+      "location": "Tecumseh Park"
     },
     {
       "team_id": 1302,
