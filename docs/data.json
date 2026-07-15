@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-15T16:03:26.599384Z",
+  "generated": "2026-07-15T19:33:03.718298Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1690,16 +1690,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20730-sarniabrigade.ca",
-          "date": "2026-07-15",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-16",
-          "summary": "9U OBA Rep - Game vs London Talons [9u55]",
-          "location": "Clearwater Diamond #1",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19884-sarniabrigade.ca",
           "date": "2026-07-15",
           "start_time": "6:00 PM",
@@ -1776,6 +1766,16 @@
           "end_date": "2026-08-05",
           "summary": "9U OBA Rep - Game @ North London Nationals [9u05]",
           "location": "North London (2)",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20730-sarniabrigade.ca",
+          "date": "2026-08-05",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-06",
+          "summary": "9U OBA Rep - Game vs London Talons [9u55]",
+          "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
         },
@@ -2132,18 +2132,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20730",
-          "href": "https://sarniabrigade.ca/Teams/1291/Games/20730/",
-          "date": "2026-07-15",
-          "start_time": "6:00 PM",
-          "opponent": "London Talons",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "20652",
           "href": "https://sarniabrigade.ca/Teams/1291/Games/20652/",
           "date": "2026-07-20",
@@ -2186,6 +2174,18 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20730",
+          "href": "https://sarniabrigade.ca/Teams/1291/Games/20730/",
+          "date": "2026-08-05",
+          "start_time": "6:00 PM",
+          "opponent": "London Talons",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -3915,24 +3915,28 @@
                   "Grant Purdy",
                   "Greg Armstrong",
                   "Jakob Rodriguez",
-                  "Kassie Buchan",
                   "Kirk Vines",
                   "Levi Burlingham",
                   "Logan Conroy",
                   "Ryan Ross",
+                  "Ryder Daye",
                   "Shane Moorhouse",
+                  "Sydney Nisbet",
                   "Tristan Heeringa",
+                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
+                  "Chris Bonneau",
                   "Hayden Scheuermann",
                   "Jason Lajeunesse",
-                  "Mike Moorhouse"
+                  "Mike Moorhouse",
+                  "Tyler Whetham"
                 ],
                 "assigned_count": 104,
                 "accepted_count": 103,
-                "pending_count": 16,
-                "denied_count": 3,
+                "pending_count": 18,
+                "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -7287,7 +7291,7 @@
           "date": "2026-07-15",
           "start_time": "6:00 PM",
           "end_date": "2026-07-16",
-          "summary": "12U OBA Rep - Game @ Lucan-Ilderton Athletics [12u44]",
+          "summary": "CANCELLED 12U OBA Rep - Game @ Lucan-Ilderton Athletics [12u44]",
           "location": "Heritage (1)",
           "type": "game",
           "cancelled": false
@@ -7812,7 +7816,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20657",
@@ -8429,7 +8433,7 @@
           "date": "2026-07-15",
           "start_time": "6:00 PM",
           "end_date": "2026-07-16",
-          "summary": "13U OBA Rep - Game @ North London Nationals [13u67]",
+          "summary": "CANCELLED 13U OBA Rep - Game @ North London Nationals [13u67]",
           "location": "North London (3)",
           "type": "game",
           "cancelled": false
@@ -9042,7 +9046,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20868",
@@ -20346,6 +20350,15 @@
       "location": "Tecumseh Park"
     },
     {
+      "team_id": 1294,
+      "team_name": "12U OBA Rep",
+      "type": "game",
+      "date": "2026-07-15",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 12U OBA Rep - Game @ Lucan-Ilderton Athletics [12u44]",
+      "location": "Heritage (1)"
+    },
+    {
       "team_id": 1295,
       "team_name": "13U OBA Rep",
       "type": "practice",
@@ -20371,6 +20384,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 13U OBA Rep - Practice",
       "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1295,
+      "team_name": "13U OBA Rep",
+      "type": "game",
+      "date": "2026-07-15",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 13U OBA Rep - Game @ North London Nationals [13u67]",
+      "location": "North London (3)"
     },
     {
       "team_id": 1296,
