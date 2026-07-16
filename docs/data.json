@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-16T16:03:18.195194Z",
+  "generated": "2026-07-16T19:33:06.884721Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -444,7 +444,7 @@
           "date": "2026-07-16",
           "start_time": "6:00 PM",
           "end_date": "2026-07-17",
-          "summary": "8U OBA Rep - Game @ St. Thomas Cardinals [8u44]",
+          "summary": "CANCELLED 8U OBA Rep - Game @ St. Thomas Cardinals [8u44]",
           "location": "Doug Tarry (2)",
           "type": "game",
           "cancelled": false
@@ -1003,7 +1003,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20901",
@@ -3897,24 +3897,24 @@
                   "Doug Krall",
                   "Grant Purdy",
                   "Greg Armstrong",
-                  "Greg Baker",
                   "Hayden Scheuermann",
                   "Hunter Wolting",
                   "Jakob Rodriguez",
                   "Jarett Simons",
+                  "Kassie Buchan",
                   "Kayne Golder",
                   "Levi Burlingham",
                   "Liam Colosimo",
+                  "Marko Sazdov",
                   "Penny Core",
                   "Ryan Ross",
                   "Ryder Daye",
-                  "Shane Moorhouse",
                   "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Axl Taylor",
-                  "Tristan Heeringa"
+                  "Shane Moorhouse"
                 ],
                 "assigned_count": 106,
                 "accepted_count": 104,
@@ -4573,7 +4573,7 @@
           "date": "2026-07-16",
           "start_time": "6:00 PM",
           "end_date": "2026-07-17",
-          "summary": "10U A OBA Rep - Game @ St. Thomas Cardinals [10u57]",
+          "summary": "CANCELLED 10U A OBA Rep - Game @ St. Thomas Cardinals [10u57]",
           "location": "New York Central",
           "type": "game",
           "cancelled": false
@@ -5230,7 +5230,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20743",
@@ -8012,16 +8012,6 @@
       },
       "events": [
         {
-          "uid": "MS-20467-sarniabrigade.ca",
-          "date": "2026-05-16",
-          "start_time": "12:00 PM",
-          "end_date": "2026-05-16",
-          "summary": "13U OBA Rep - Game vs St Tomas Cardinals(L 7-4)",
-          "location": "South Side Park West",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20322-sarniabrigade.ca",
           "date": "2026-05-18",
           "start_time": "5:30 PM",
@@ -8396,7 +8386,7 @@
           "date": "2026-07-16",
           "start_time": "6:00 PM",
           "end_date": "2026-07-17",
-          "summary": "13U OBA Rep - Practice",
+          "summary": "CANCELLED 13U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
@@ -9655,7 +9645,7 @@
           "date": "2026-07-16",
           "start_time": "8:00 PM",
           "end_date": "2026-07-17",
-          "summary": "14U OBA Rep - Game vs North London Nationals [14u65]",
+          "summary": "CANCELLED 14U OBA Rep - Game vs North London Nationals [14u65]",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -10516,7 +10506,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20447",
@@ -10737,16 +10727,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19758-sarniabrigade.ca",
-          "date": "2026-05-16",
-          "start_time": "1:30 PM",
-          "end_date": "2026-05-16",
-          "summary": "CANCELLED 15U OBA Rep - Game vs Chatham Diamonds 15U [WC15U-055]",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-19781-sarniabrigade.ca",
           "date": "2026-05-19",
@@ -11142,7 +11122,7 @@
           "date": "2026-07-16",
           "start_time": "5:30 PM",
           "end_date": "2026-07-16",
-          "summary": "15U OBA Rep - Practice",
+          "summary": "CANCELLED 15U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
@@ -12930,7 +12910,7 @@
       "ties": 0,
       "runs_for": 131,
       "runs_against": 121,
-      "practices": 20,
+      "practices": 18,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -13171,16 +13151,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20809-sarniabrigade.ca",
-          "date": "2026-07-16",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-17",
-          "summary": "11U Select - Game vs London West Tincaps [11uS05]",
-          "location": "Clearwater Diamond #3",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20118-sarniabrigade.ca",
           "date": "2026-07-19",
           "start_time": "10:00 AM",
@@ -13251,16 +13221,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20138-sarniabrigade.ca",
-          "date": "2026-08-06",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-07",
-          "summary": "CANCELLED 11U Select - Practice",
-          "location": "Clearwater Diamond #3",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20811-sarniabrigade.ca",
           "date": "2026-08-09",
           "start_time": "10:00 AM",
@@ -13311,13 +13271,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20140-sarniabrigade.ca",
+          "uid": "MS-20809-sarniabrigade.ca",
           "date": "2026-08-20",
           "start_time": "6:00 PM",
           "end_date": "2026-08-21",
-          "summary": "11U Select - Practice",
+          "summary": "11U Select - Game vs London West Tincaps [11uS05]",
           "location": "Clearwater Diamond #3",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -13585,18 +13545,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20809",
-          "href": "https://sarniabrigade.ca/Teams/1303/Games/20809/",
-          "date": "2026-07-16",
-          "start_time": "6:00 PM",
-          "opponent": "London West Tincaps",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "20894",
           "href": "https://sarniabrigade.ca/Teams/1303/Games/20894/",
           "date": "2026-07-23",
@@ -13687,6 +13635,18 @@
           "start_time": "6:00 PM",
           "opponent": "St. Thomas Cardinals",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20809",
+          "href": "https://sarniabrigade.ca/Teams/1303/Games/20809/",
+          "date": "2026-08-20",
+          "start_time": "6:00 PM",
+          "opponent": "London West Tincaps",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -17475,16 +17435,6 @@
       },
       "events": [
         {
-          "uid": "MS-19743-sarniabrigade.ca",
-          "date": "2026-05-16",
-          "start_time": "2:00 PM",
-          "end_date": "2026-05-16",
-          "summary": "CANCELLED 16U PBLO - Game vs Tecumseh Thunder",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19727-sarniabrigade.ca",
           "date": "2026-05-17",
           "start_time": "4:00 PM",
@@ -20171,6 +20121,15 @@
       "location": "Coronation Park Diamond"
     },
     {
+      "team_id": 1290,
+      "team_name": "8U OBA Rep",
+      "type": "game",
+      "date": "2026-07-16",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 8U OBA Rep - Game @ St. Thomas Cardinals [8u44]",
+      "location": "Doug Tarry (2)"
+    },
+    {
       "team_id": 1291,
       "team_name": "9U OBA Rep",
       "type": "practice",
@@ -20250,6 +20209,15 @@
       "start_time": "5:30 PM",
       "summary": "CANCELLED 10U A OBA Rep - Practice",
       "location": "Coronation Park Diamond"
+    },
+    {
+      "team_id": 1311,
+      "team_name": "10U A OBA Rep",
+      "type": "game",
+      "date": "2026-07-16",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 10U A OBA Rep - Game @ St. Thomas Cardinals [10u57]",
+      "location": "New York Central"
     },
     {
       "team_id": 1293,
@@ -20369,6 +20337,15 @@
       "location": "North London (3)"
     },
     {
+      "team_id": 1295,
+      "team_name": "13U OBA Rep",
+      "type": "practice",
+      "date": "2026-07-16",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 13U OBA Rep - Practice",
+      "location": "Tecumseh Park"
+    },
+    {
       "team_id": 1296,
       "team_name": "14U OBA Rep",
       "type": "game",
@@ -20399,6 +20376,15 @@
       "team_id": 1296,
       "team_name": "14U OBA Rep",
       "type": "game",
+      "date": "2026-07-16",
+      "start_time": "8:00 PM",
+      "summary": "CANCELLED 14U OBA Rep - Game vs North London Nationals [14u65]",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "game",
       "date": "2026-04-26",
       "start_time": "11:00 AM",
       "summary": "CANCELLED 14U OBA Rep - Game",
@@ -20412,15 +20398,6 @@
       "start_time": "10:00 AM",
       "summary": "CANCELLED 14U OBA Rep - Game vs TBA Blackwell Park",
       "location": ""
-    },
-    {
-      "team_id": 1297,
-      "team_name": "15U OBA Rep",
-      "type": "game",
-      "date": "2026-05-16",
-      "start_time": "1:30 PM",
-      "summary": "CANCELLED 15U OBA Rep - Game vs Chatham Diamonds 15U [WC15U-055]",
-      "location": "Blackwell Park"
     },
     {
       "team_id": 1297,
@@ -20443,10 +20420,28 @@
     {
       "team_id": 1297,
       "team_name": "15U OBA Rep",
+      "type": "practice",
+      "date": "2026-07-16",
+      "start_time": "5:30 PM",
+      "summary": "CANCELLED 15U OBA Rep - Practice",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1297,
+      "team_name": "15U OBA Rep",
       "type": "game",
       "date": "2026-04-26",
       "start_time": "11:00 AM",
       "summary": "CANCELLED 15U OBA Rep - Game",
+      "location": ""
+    },
+    {
+      "team_id": 1297,
+      "team_name": "15U OBA Rep",
+      "type": "game",
+      "date": "2026-05-16",
+      "start_time": "1:30 PM",
+      "summary": "CANCELLED 15U OBA Rep - Game vs Chatham Diamonds",
       "location": ""
     },
     {
@@ -20472,15 +20467,6 @@
       "team_name": "11U Select",
       "type": "practice",
       "date": "2026-06-25",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 11U Select - Practice",
-      "location": "Clearwater Diamond #3"
-    },
-    {
-      "team_id": 1303,
-      "team_name": "11U Select",
-      "type": "practice",
-      "date": "2026-08-06",
       "start_time": "6:00 PM",
       "summary": "CANCELLED 11U Select - Practice",
       "location": "Clearwater Diamond #3"
@@ -20588,15 +20574,6 @@
       "team_id": 1298,
       "team_name": "16U PBLO",
       "type": "game",
-      "date": "2026-05-16",
-      "start_time": "2:00 PM",
-      "summary": "CANCELLED 16U PBLO - Game vs Tecumseh Thunder",
-      "location": "Errol Russell Park"
-    },
-    {
-      "team_id": 1298,
-      "team_name": "16U PBLO",
-      "type": "game",
       "date": "2026-05-23",
       "start_time": "11:00 AM",
       "summary": "CANCELLED 16U PBLO - Game vs Ontario Prospects",
@@ -20635,6 +20612,15 @@
       "type": "game",
       "date": "2026-05-16",
       "start_time": "11:00 AM",
+      "summary": "CANCELLED 16U PBLO - Game vs Tecumseh Thunder Errol Russell Park",
+      "location": ""
+    },
+    {
+      "team_id": 1298,
+      "team_name": "16U PBLO",
+      "type": "game",
+      "date": "2026-05-16",
+      "start_time": "2:00 PM",
       "summary": "CANCELLED 16U PBLO - Game vs Tecumseh Thunder Errol Russell Park",
       "location": ""
     },
