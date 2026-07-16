@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-15T23:03:22.484440Z",
+  "generated": "2026-07-16T10:03:30.654302Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3910,9 +3910,7 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Axl Taylor",
                   "Brian Mundt",
-                  "Chris Bonneau",
                   "Doug Krall",
                   "Grant Purdy",
                   "Greg Armstrong",
@@ -3924,7 +3922,6 @@
                   "Ryan Ross",
                   "Ryder Daye",
                   "Shane Moorhouse",
-                  "Sydney Nisbet",
                   "Tristan Heeringa",
                   "Tyler Hoadley",
                   "Tyler Whetham"
@@ -3935,12 +3932,13 @@
                   "Hayden Scheuermann",
                   "Jason Lajeunesse",
                   "Mike Moorhouse",
+                  "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 105,
                 "accepted_count": 104,
-                "pending_count": 18,
-                "denied_count": 6,
+                "pending_count": 15,
+                "denied_count": 7,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -12111,7 +12109,7 @@
         "games_missed": 0,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
@@ -12160,6 +12158,61 @@
                 "accepted_umpires": [
                   "Kirk Vines",
                   "Paolo Padiglia"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-07-23",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "David Haasen | Kirk Vines",
+              "Kirk Vines | Mike Moorhouse"
+            ],
+            "mismatched_names": [
+              "David Haasen",
+              "Mike Moorhouse"
+            ],
+            "games": [
+              {
+                "time": "6:00 PM",
+                "opponent": "North London Nationals",
+                "venue": "Blackwell Park",
+                "assigned_umpires": [
+                  "David Haasen",
+                  "Kirk Vines"
+                ],
+                "accepted_umpires": [
+                  "David Haasen",
+                  "Kirk Vines"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "8:30 PM",
+                "opponent": "North London Nationals",
+                "venue": "Blackwell Park",
+                "assigned_umpires": [
+                  "Kirk Vines",
+                  "Mike Moorhouse"
+                ],
+                "accepted_umpires": [
+                  "Kirk Vines",
+                  "Mike Moorhouse"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
