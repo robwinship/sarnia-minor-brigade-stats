@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-16T19:33:06.884721Z",
+  "generated": "2026-07-16T23:03:35.774684Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2290,7 +2290,7 @@
       "ties": 0,
       "runs_for": 66,
       "runs_against": 56,
-      "practices": 35,
+      "practices": 34,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -2771,13 +2771,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-19664-sarniabrigade.ca",
+          "uid": "MS-22078-sarniabrigade.ca",
           "date": "2026-07-22",
-          "start_time": "5:30 PM",
-          "end_date": "2026-07-22",
-          "summary": "10U AA OBA Rep - Practice",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-23",
+          "summary": "10U AA OBA Rep - Game vs Dresden Minor",
           "location": "Clearwater Diamond #2",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -3403,6 +3403,18 @@
           "cancelled": false
         },
         {
+          "game_id": "22078",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/22078/",
+          "date": "2026-07-22",
+          "start_time": "6:00 PM",
+          "opponent": "Dresden Minor Clearwater Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20475",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/20475/",
           "date": "2026-07-25",
@@ -3513,7 +3525,7 @@
       ],
       "umpire_issues": {
         "games_missed": 2,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 4,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
@@ -3558,6 +3570,28 @@
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "past"
+          },
+          {
+            "date": "2026-07-22",
+            "time": "6:00 PM",
+            "opponent": "Dresden Minor",
+            "venue": "Clearwater Diamond #2",
+            "assigned_umpires": [
+              "Juan Peralta",
+              "Wiishkpimin Macbeth"
+            ],
+            "accepted_umpires": [],
+            "pending_umpires": [
+              "Juan Peralta",
+              "Wiishkpimin Macbeth"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 0,
+            "pending_count": 2,
+            "denied_count": 0,
+            "assignment_state": "assigned_not_accepted",
+            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -3897,10 +3931,10 @@
                   "Doug Krall",
                   "Grant Purdy",
                   "Greg Armstrong",
-                  "Hayden Scheuermann",
                   "Hunter Wolting",
                   "Jakob Rodriguez",
                   "Jarett Simons",
+                  "Juan Peralta",
                   "Kassie Buchan",
                   "Kayne Golder",
                   "Levi Burlingham",
@@ -3909,8 +3943,10 @@
                   "Penny Core",
                   "Ryan Ross",
                   "Ryder Daye",
+                  "Shane Moorhouse",
                   "Tristan Heeringa",
-                  "Tyler Whetham"
+                  "Tyler Whetham",
+                  "Wiishkpimin Macbeth"
                 ],
                 "denied_umpires": [
                   "Axl Taylor",
@@ -3918,7 +3954,7 @@
                 ],
                 "assigned_count": 106,
                 "accepted_count": 104,
-                "pending_count": 20,
+                "pending_count": 22,
                 "denied_count": 2,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -5894,8 +5930,8 @@
         {
           "uid": "MS-22030-sarniabrigade.ca",
           "date": "2026-07-17",
-          "start_time": "1:00 PM",
-          "end_date": "2026-07-17",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-18",
           "summary": "11U OBA Rep - Game vs Leamington",
           "location": "Mornington 1",
           "type": "game",
@@ -6577,7 +6613,7 @@
           "game_id": "22030",
           "href": "https://sarniabrigade.ca/Teams/1293/Games/22030/",
           "date": "2026-07-17",
-          "start_time": "1:00 PM",
+          "start_time": "6:00 PM",
           "opponent": "Leamington Mornington",
           "home": true,
           "result": null,
@@ -12380,7 +12416,7 @@
           "date": "2026-07-16",
           "start_time": "6:00 PM",
           "end_date": "2026-07-17",
-          "summary": "9U Select - Practice",
+          "summary": "CANCELLED 9U Select - Practice",
           "location": "Blackwell North",
           "type": "practice",
           "cancelled": false
@@ -20461,6 +20497,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 9U Select - Game vs Dorchester Diamondbacks [9uS38]",
       "location": "Clearwater Diamond #1"
+    },
+    {
+      "team_id": 1299,
+      "team_name": "9U Select",
+      "type": "practice",
+      "date": "2026-07-16",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 9U Select - Practice",
+      "location": "Blackwell North"
     },
     {
       "team_id": 1303,
