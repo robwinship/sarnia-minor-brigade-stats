@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-16T10:03:30.654302Z",
+  "generated": "2026-07-16T16:03:18.195194Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1339,7 +1339,7 @@
       "ties": 0,
       "runs_for": 227,
       "runs_against": 172,
-      "practices": 22,
+      "practices": 21,
       "roster": {
         "players": 12,
         "adults": 5,
@@ -1349,16 +1349,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19895-sarniabrigade.ca",
-          "date": "2026-05-16",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-16",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19778-sarniabrigade.ca",
           "date": "2026-05-19",
@@ -2300,7 +2290,7 @@
       "ties": 0,
       "runs_for": 66,
       "runs_against": 56,
-      "practices": 36,
+      "practices": 35,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -2310,16 +2300,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19676-sarniabrigade.ca",
-          "date": "2026-05-16",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-16",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20514-sarniabrigade.ca",
           "date": "2026-05-17",
@@ -3735,6 +3715,7 @@
                   "Greg Baker",
                   "Hannah Stewart",
                   "Hayden Scheuermann",
+                  "Hunter Wolting",
                   "Jack Needham",
                   "Jackson Bunda",
                   "Jackson Burlingham",
@@ -3911,34 +3892,34 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
+                  "Brock Lane",
+                  "Cambria Caissie",
                   "Doug Krall",
                   "Grant Purdy",
                   "Greg Armstrong",
+                  "Greg Baker",
+                  "Hayden Scheuermann",
+                  "Hunter Wolting",
                   "Jakob Rodriguez",
-                  "Kirk Vines",
+                  "Jarett Simons",
+                  "Kayne Golder",
                   "Levi Burlingham",
                   "Liam Colosimo",
-                  "Logan Conroy",
+                  "Penny Core",
                   "Ryan Ross",
                   "Ryder Daye",
                   "Shane Moorhouse",
                   "Tristan Heeringa",
-                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
-                  "Brock Lane",
-                  "Chris Bonneau",
-                  "Hayden Scheuermann",
-                  "Jason Lajeunesse",
-                  "Mike Moorhouse",
-                  "Tristan Heeringa",
-                  "Tyler Whetham"
+                  "Axl Taylor",
+                  "Tristan Heeringa"
                 ],
-                "assigned_count": 105,
+                "assigned_count": 106,
                 "accepted_count": 104,
-                "pending_count": 15,
-                "denied_count": 7,
+                "pending_count": 20,
+                "denied_count": 2,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -5491,21 +5472,21 @@
       },
       "events": [
         {
-          "uid": "MS-20514-sarniabrigade.ca",
-          "date": "2026-05-17",
-          "start_time": "4:00 PM",
-          "end_date": "2026-05-17",
-          "summary": "11U OBA Rep - Game vs 10U AA OBA Rep [WC11U-018](W 6-19)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20102-sarniabrigade.ca",
           "date": "2026-05-17",
           "start_time": "4:00 PM",
           "end_date": "2026-05-17",
           "summary": "CANCELLED 11U OBA Rep - Game vs Woodstock Wranglers",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20514-sarniabrigade.ca",
+          "date": "2026-05-17",
+          "start_time": "4:00 PM",
+          "end_date": "2026-05-17",
+          "summary": "11U OBA Rep - Game vs 10U AA OBA Rep [WC11U-018](W 6-19)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6988,7 +6969,7 @@
       "ties": 0,
       "runs_for": 123,
       "runs_against": 170,
-      "practices": 26,
+      "practices": 25,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -6998,16 +6979,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-20528-sarniabrigade.ca",
-          "date": "2026-05-16",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-16",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20706-sarniabrigade.ca",
           "date": "2026-05-17",
@@ -8040,16 +8011,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20466-sarniabrigade.ca",
-          "date": "2026-05-16",
-          "start_time": "9:00 AM",
-          "end_date": "2026-05-16",
-          "summary": "13U OBA Rep - Game vs Etobicoke Rangers(L 7-4)",
-          "location": "South Side Park West",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20467-sarniabrigade.ca",
           "date": "2026-05-16",
@@ -10776,16 +10737,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21582-sarniabrigade.ca",
-          "date": "2026-05-16",
-          "start_time": "11:00 AM",
-          "end_date": "2026-05-16",
-          "summary": "15U OBA Rep - Game vs TBA  [Umpire$]",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-19758-sarniabrigade.ca",
           "date": "2026-05-16",
@@ -15541,7 +15492,7 @@
           "date": "2026-07-16",
           "start_time": "6:00 PM",
           "end_date": "2026-07-17",
-          "summary": "9U River League - Game @ Corunna Giants Team 1 [RL9UN-33]",
+          "summary": "CANCELLED 9U River League - Game @ Corunna Giants Team 1 [RL9UN-33]",
           "location": "Athletic Park (4)",
           "type": "game",
           "cancelled": false
@@ -15828,7 +15779,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "21349",
@@ -17523,16 +17474,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19742-sarniabrigade.ca",
-          "date": "2026-05-16",
-          "start_time": "11:00 AM",
-          "end_date": "2026-05-16",
-          "summary": "CANCELLED 16U PBLO - Game vs Tecumseh Thunder",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-19743-sarniabrigade.ca",
           "date": "2026-05-16",
@@ -20590,6 +20531,15 @@
       "location": "Blackwell Park"
     },
     {
+      "team_id": 1304,
+      "team_name": "9U River League",
+      "type": "game",
+      "date": "2026-07-16",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 9U River League - Game @ Corunna Giants Team 1 [RL9UN-33]",
+      "location": "Athletic Park (4)"
+    },
+    {
       "team_id": 1310,
       "team_name": "11U Lady Brigade",
       "type": "practice",
@@ -20639,15 +20589,6 @@
       "team_name": "16U PBLO",
       "type": "game",
       "date": "2026-05-16",
-      "start_time": "11:00 AM",
-      "summary": "CANCELLED 16U PBLO - Game vs Tecumseh Thunder",
-      "location": "Errol Russell Park"
-    },
-    {
-      "team_id": 1298,
-      "team_name": "16U PBLO",
-      "type": "game",
-      "date": "2026-05-16",
       "start_time": "2:00 PM",
       "summary": "CANCELLED 16U PBLO - Game vs Tecumseh Thunder",
       "location": "Errol Russell Park"
@@ -20686,6 +20627,15 @@
       "date": "2026-04-25",
       "start_time": "1:00 PM",
       "summary": "CANCELLED 16U PBLO - Game vs Oshawa Legionaires Errol Russell Park",
+      "location": ""
+    },
+    {
+      "team_id": 1298,
+      "team_name": "16U PBLO",
+      "type": "game",
+      "date": "2026-05-16",
+      "start_time": "11:00 AM",
+      "summary": "CANCELLED 16U PBLO - Game vs Tecumseh Thunder Errol Russell Park",
       "location": ""
     },
     {
