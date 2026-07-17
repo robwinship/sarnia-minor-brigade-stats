@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-16T23:03:35.774684Z",
+  "generated": "2026-07-17T10:03:25.576232Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3933,13 +3933,10 @@
                   "Greg Armstrong",
                   "Hunter Wolting",
                   "Jakob Rodriguez",
-                  "Jarett Simons",
                   "Juan Peralta",
                   "Kassie Buchan",
-                  "Kayne Golder",
-                  "Levi Burlingham",
                   "Liam Colosimo",
-                  "Marko Sazdov",
+                  "Lucas Nethery",
                   "Penny Core",
                   "Ryan Ross",
                   "Ryder Daye",
@@ -3950,12 +3947,13 @@
                 ],
                 "denied_umpires": [
                   "Axl Taylor",
+                  "Kayne Golder",
                   "Shane Moorhouse"
                 ],
                 "assigned_count": 106,
                 "accepted_count": 104,
-                "pending_count": 22,
-                "denied_count": 2,
+                "pending_count": 19,
+                "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -6185,16 +6183,6 @@
           "summary": "11U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MD-3305-sarniabrigade.ca",
-          "date": "2026-05-16",
-          "start_time": "10:15 AM",
-          "end_date": "2026-05-17",
-          "summary": "11U OBA Rep - Bus Trip",
-          "location": "Detroit",
-          "type": "other",
           "cancelled": false
         },
         {
@@ -10034,16 +10022,6 @@
           "summary": "14U OBA Rep - Practice",
           "location": "Blackwell North",
           "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MD-3318-sarniabrigade.ca",
-          "date": "2026-05-16",
-          "start_time": "8:00 AM",
-          "end_date": "2026-05-16",
-          "summary": "14U OBA Rep - Jays @ Tigers",
-          "location": "Comerica",
-          "type": "other",
           "cancelled": false
         },
         {
@@ -17454,12 +17432,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 37,
-      "wins": 22,
+      "gp": 38,
+      "wins": 23,
       "losses": 15,
       "ties": 0,
-      "runs_for": 260,
-      "runs_against": 225,
+      "runs_for": 269,
+      "runs_against": 227,
       "practices": 35,
       "roster": {
         "players": 15,
@@ -17958,6 +17936,16 @@
           "summary": "16U PBLO - Practice",
           "location": "Blackwell Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22080-sarniabrigade.ca",
+          "date": "2026-07-16",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-17",
+          "summary": "16U PBLO - Game vs Climax Bobcats 16u(W 2-9)",
+          "location": "Morrison Field at Bailey Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -18698,6 +18686,18 @@
           "result": "L",
           "brigade_score": 2,
           "opp_score": 5,
+          "cancelled": false
+        },
+        {
+          "game_id": "22080",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/22080/",
+          "date": "2026-07-16",
+          "start_time": "6:00 PM",
+          "opponent": "Climax Bobcats",
+          "home": true,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 2,
           "cancelled": false
         },
         {
