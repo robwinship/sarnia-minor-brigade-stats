@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-17T23:03:43.408895Z",
+  "generated": "2026-07-18T16:04:08.304670Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2291,16 +2291,6 @@
       },
       "events": [
         {
-          "uid": "MS-21155-sarniabrigade.ca",
-          "date": "2026-05-17",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-18",
-          "summary": "10U AA OBA Rep - Game vs 11U OBA Rep [WC11U-024](W 11-15)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21234-sarniabrigade.ca",
           "date": "2026-05-20",
           "start_time": "4:30 PM",
@@ -3883,36 +3873,37 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Axl Taylor",
                   "Brian Mundt",
                   "Brock Lane",
                   "Cambria Caissie",
-                  "Doug Krall",
+                  "Chris Bonneau",
+                  "Cohen Smith",
+                  "Drew Baxter",
+                  "Easton McKinlay",
                   "Grant Purdy",
-                  "Greg Armstrong",
                   "Hunter Wolting",
                   "Jakob Rodriguez",
                   "Juan Peralta",
-                  "Kassie Buchan",
                   "Liam Colosimo",
-                  "Lucas Nethery",
+                  "Mason Portiss",
+                  "Mike Moorhouse",
                   "Paolo Padiglia",
                   "Penny Core",
                   "Ryan Ross",
                   "Shane Moorhouse",
-                  "Tristan Heeringa",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Axl Taylor",
-                  "Shane Moorhouse",
-                  "Summer Steinke"
+                  "Greg Armstrong",
+                  "Liam Scott",
+                  "Shane Moorhouse"
                 ],
                 "assigned_count": 106,
                 "accepted_count": 104,
                 "pending_count": 20,
-                "denied_count": 3,
+                "denied_count": 4,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -8449,16 +8440,6 @@
           "cancelled": false
         },
         {
-          "uid": "MD-3262-sarniabrigade.ca",
-          "date": "2026-05-15",
-          "start_time": null,
-          "end_date": "2026-05-18",
-          "summary": "13U OBA Rep - Woodstock AAA",
-          "location": "Woodstock, ON",
-          "type": "tournament",
-          "cancelled": false
-        },
-        {
           "uid": "MD-3263-sarniabrigade.ca",
           "date": "2026-06-12",
           "start_time": null,
@@ -10538,12 +10519,12 @@
       "id": 1297,
       "name": "15U OBA Rep",
       "category": "OBA Rep",
-      "gp": 21,
-      "wins": 7,
+      "gp": 22,
+      "wins": 8,
       "losses": 14,
       "ties": 0,
-      "runs_for": 141,
-      "runs_against": 187,
+      "runs_for": 160,
+      "runs_against": 190,
       "practices": 39,
       "roster": {
         "players": 14,
@@ -10929,7 +10910,7 @@
           "date": "2026-07-14",
           "start_time": "7:00 PM",
           "end_date": "2026-07-15",
-          "summary": "15U OBA Rep - Game @ Alvinston Riverhawks [15u60]",
+          "summary": "15U OBA Rep - Game @ Alvinston Riverhawks [15u60](W 19-3)",
           "location": "Alvinston CC (South)",
           "type": "game",
           "cancelled": false
@@ -10970,7 +10951,7 @@
           "start_time": "11:00 AM",
           "end_date": "2026-07-18",
           "summary": "15U OBA Rep - Game vs Mitchell Astros Rep [15u53]",
-          "location": "Blackwell Park",
+          "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
         },
@@ -10980,7 +10961,7 @@
           "start_time": "1:30 PM",
           "end_date": "2026-07-18",
           "summary": "15U OBA Rep - Game vs Tillsonburg Otters [15u25]",
-          "location": "Blackwell Park",
+          "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
         },
@@ -11653,9 +11634,9 @@
           "start_time": "7:00 PM",
           "opponent": "Alvinston Riverhawks",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 19,
+          "opp_score": 3,
           "cancelled": false
         },
         {
@@ -11888,7 +11869,7 @@
               {
                 "time": "11:00 AM",
                 "opponent": "Mitchell Astros Rep",
-                "venue": "Blackwell Park",
+                "venue": "Errol Russell Park",
                 "assigned_umpires": [
                   "Jason Lajeunesse",
                   "Kirk Vines"
@@ -11908,7 +11889,7 @@
               {
                 "time": "1:30 PM",
                 "opponent": "Tillsonburg Otters",
-                "venue": "Blackwell Park",
+                "venue": "Errol Russell Park",
                 "assigned_umpires": [
                   "Kirk Vines",
                   "Paolo Padiglia"
@@ -15659,7 +15640,7 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -15680,29 +15661,6 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
-          },
-          {
-            "date": "2026-07-20",
-            "time": "6:00 PM",
-            "opponent": "Wyoming Wranglers Grey",
-            "venue": "Blackwell North",
-            "assigned_umpires": [
-              "Axl Taylor",
-              "Kye Golder"
-            ],
-            "accepted_umpires": [
-              "Kye Golder"
-            ],
-            "pending_umpires": [
-              "Axl Taylor"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": []
