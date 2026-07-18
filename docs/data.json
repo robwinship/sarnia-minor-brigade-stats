@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-18T16:04:08.304670Z",
+  "generated": "2026-07-18T19:33:28.260759Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3887,7 +3887,6 @@
                   "Liam Colosimo",
                   "Mason Portiss",
                   "Mike Moorhouse",
-                  "Paolo Padiglia",
                   "Penny Core",
                   "Ryan Ross",
                   "Shane Moorhouse",
@@ -3898,12 +3897,13 @@
                   "Axl Taylor",
                   "Greg Armstrong",
                   "Liam Scott",
+                  "Paolo Padiglia",
                   "Shane Moorhouse"
                 ],
                 "assigned_count": 106,
                 "accepted_count": 104,
-                "pending_count": 20,
-                "denied_count": 4,
+                "pending_count": 19,
+                "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -17196,11 +17196,11 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 39,
-      "wins": 24,
+      "gp": 40,
+      "wins": 25,
       "losses": 15,
       "ties": 0,
-      "runs_for": 279,
+      "runs_for": 290,
       "runs_against": 230,
       "practices": 35,
       "roster": {
@@ -17707,7 +17707,7 @@
           "date": "2026-07-18",
           "start_time": "12:00 PM",
           "end_date": "2026-07-18",
-          "summary": "16U PBLO - Game vs MSA Warinsky 16u",
+          "summary": "16U PBLO - Game vs MSA Warinsky 16u(W 0-11)",
           "location": "Nichols Field at Bailey Park",
           "type": "game",
           "cancelled": false
@@ -18493,9 +18493,9 @@
           "start_time": "12:00 PM",
           "opponent": "MSA Warinsky",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 0,
           "cancelled": false
         },
         {
