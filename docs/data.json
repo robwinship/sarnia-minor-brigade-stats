@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-19T19:33:25.479487Z",
+  "generated": "2026-07-19T23:03:57.476679Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 369,
       "runs_against": 437,
-      "practices": 23,
+      "practices": 22,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20302-sarniabrigade.ca",
-          "date": "2026-05-19",
-          "start_time": "5:00 PM",
-          "end_date": "2026-05-19",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20503-sarniabrigade.ca",
           "date": "2026-05-20",
@@ -1339,16 +1329,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-19778-sarniabrigade.ca",
-          "date": "2026-05-19",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-20",
-          "summary": "9U OBA Rep - Game @ Chatham Diamonds 9U [WC9U-070](T 0-0)",
-          "location": "Jaycee Park (1)",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-19772-sarniabrigade.ca",
           "date": "2026-05-20",
@@ -3875,30 +3855,30 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Brock Lane",
-                  "Cambria Caissie",
-                  "Chris Bonneau",
                   "Grant Purdy",
+                  "Greg Baker",
                   "Hayden Scheuermann",
-                  "Jackson Burlingham",
                   "Joey Buchner",
                   "Logan Conroy",
                   "Myles Hobbs",
+                  "Paolo Padiglia",
                   "Ryan Ross",
+                  "Rylie Bunda",
+                  "Sydney Nisbet",
+                  "Tristan Heeringa",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Axl Taylor",
+                  "Brock Lane",
                   "Paolo Padiglia",
-                  "Penny Core",
-                  "Shane Moorhouse",
-                  "Tyler Hoadley"
+                  "Shane Moorhouse"
                 ],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 13,
-                "denied_count": 5,
+                "pending_count": 14,
+                "denied_count": 4,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4157,7 +4137,7 @@
       "ties": 0,
       "runs_for": 149,
       "runs_against": 202,
-      "practices": 33,
+      "practices": 32,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -4167,16 +4147,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20245-sarniabrigade.ca",
-          "date": "2026-05-19",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-20",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20157-sarniabrigade.ca",
           "date": "2026-05-21",
@@ -5440,7 +5410,7 @@
       "ties": 0,
       "runs_for": 183,
       "runs_against": 161,
-      "practices": 28,
+      "practices": 27,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5450,16 +5420,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20082-sarniabrigade.ca",
-          "date": "2026-05-19",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-20",
-          "summary": "CANCELLED 11U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20507-sarniabrigade.ca",
           "date": "2026-05-20",
@@ -9008,7 +8968,7 @@
       "ties": 0,
       "runs_for": 356,
       "runs_against": 172,
-      "practices": 37,
+      "practices": 36,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -9018,16 +8978,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21600-sarniabrigade.ca",
-          "date": "2026-05-19",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-20",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21584-sarniabrigade.ca",
           "date": "2026-05-21",
@@ -10549,13 +10499,13 @@
       "id": 1297,
       "name": "15U OBA Rep",
       "category": "OBA Rep",
-      "gp": 23,
-      "wins": 9,
-      "losses": 14,
+      "gp": 25,
+      "wins": 10,
+      "losses": 15,
       "ties": 0,
-      "runs_for": 173,
-      "runs_against": 192,
-      "practices": 39,
+      "runs_for": 193,
+      "runs_against": 201,
+      "practices": 38,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10565,16 +10515,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19781-sarniabrigade.ca",
-          "date": "2026-05-19",
-          "start_time": "5:30 PM",
-          "end_date": "2026-05-19",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19798-sarniabrigade.ca",
           "date": "2026-05-21",
@@ -11000,7 +10940,7 @@
           "date": "2026-07-19",
           "start_time": "11:30 AM",
           "end_date": "2026-07-19",
-          "summary": "15U OBA Rep - Game @ Tillsonburg Otters [15u10]",
+          "summary": "15U OBA Rep - Game @ Tillsonburg Otters [15u10](W 14-1)",
           "location": "Tillsonburg Arena (Hardball 2)",
           "type": "game",
           "cancelled": false
@@ -11010,7 +10950,7 @@
           "date": "2026-07-19",
           "start_time": "1:30 PM",
           "end_date": "2026-07-19",
-          "summary": "15U OBA Rep - Game @ Tillsonburg Otters [15u40]",
+          "summary": "15U OBA Rep - Game @ Tillsonburg Otters [15u40](L 6-8)",
           "location": "Tillsonburg Arena (Hardball 2)",
           "type": "game",
           "cancelled": false
@@ -11712,9 +11652,9 @@
           "start_time": "11:30 AM",
           "opponent": "Tillsonburg Otters",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 14,
+          "opp_score": 1,
           "cancelled": false
         },
         {
@@ -11724,9 +11664,9 @@
           "start_time": "1:30 PM",
           "opponent": "Tillsonburg Otters",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -16790,7 +16730,7 @@
           "date": "2026-07-19",
           "start_time": "1:00 PM",
           "end_date": "2026-07-19",
-          "summary": "13U LDBA House League - Game vs DKMB Red [13uW41]",
+          "summary": "13U LDBA House League - Game vs DKMB Red [13uW41](W 5-10)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -20048,15 +19988,6 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 10U A OBA Rep - Game @ St. Thomas Cardinals [10u57]",
       "location": "New York Central"
-    },
-    {
-      "team_id": 1293,
-      "team_name": "11U OBA Rep",
-      "type": "practice",
-      "date": "2026-05-19",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 11U OBA Rep - Practice",
-      "location": "Tecumseh Park"
     },
     {
       "team_id": 1293,
