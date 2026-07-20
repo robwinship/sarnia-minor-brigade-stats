@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-20T10:03:29.298181Z",
+  "generated": "2026-07-20T16:05:10.363647Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3854,22 +3854,24 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Blake Adams",
+                  "Bentley Daughtrey",
                   "Brian Mundt",
                   "Brock Lane",
                   "Chris Bonneau",
-                  "Drew Bennett",
+                  "David Haasen",
+                  "Graham Dolbear",
                   "Grant Purdy",
                   "Hayden Scheuermann",
                   "Joey Buchner",
+                  "Kye Golder",
                   "Logan Conroy",
-                  "Lucas Barker",
+                  "Lucas Nethery",
+                  "Marko Sazdov",
                   "Paolo Padiglia",
-                  "Parker Leighton",
                   "Ryan Ross",
+                  "Ryder Daye",
                   "Sydney Nisbet",
                   "Tristan Heeringa",
-                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3881,7 +3883,7 @@
                 ],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 17,
+                "pending_count": 19,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -5414,7 +5416,7 @@
       "ties": 0,
       "runs_for": 183,
       "runs_against": 161,
-      "practices": 27,
+      "practices": 28,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5992,6 +5994,16 @@
           "summary": "11U OBA Rep - Game vs London Badgers",
           "location": "Tecumseh Park",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22093-sarniabrigade.ca",
+          "date": "2026-08-22",
+          "start_time": "4:00 PM",
+          "end_date": "2026-08-22",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -14399,16 +14411,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20849-sarniabrigade.ca",
-          "date": "2026-07-17",
-          "start_time": "8:30 PM",
-          "end_date": "2026-07-18",
-          "summary": "CANCELLED 15U Select - Game @ Aylmer Pirates [15uS15]",
-          "location": "Aylmer Optimist",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21115-sarniabrigade.ca",
           "date": "2026-07-19",
           "start_time": "6:00 PM",
@@ -14599,6 +14601,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20849-sarniabrigade.ca",
+          "date": "2026-08-20",
+          "start_time": "8:00 PM",
+          "end_date": "2026-08-21",
+          "summary": "15U Select - Game @ Aylmer Pirates [15uS15]",
+          "location": "Aylmer Optimist",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21143-sarniabrigade.ca",
           "date": "2026-08-23",
           "start_time": "6:00 PM",
@@ -14749,18 +14761,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20849",
-          "href": "https://sarniabrigade.ca/Teams/1301/Games/20849/",
-          "date": "2026-07-17",
-          "start_time": "8:30 PM",
-          "opponent": "Aylmer Pirates",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
           "game_id": "21115",
           "href": "https://sarniabrigade.ca/Teams/1301/Games/21115/",
           "date": "2026-07-19",
@@ -14899,6 +14899,18 @@
           "start_time": "6:00 PM",
           "opponent": "DKMB River Cats",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20849",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/20849/",
+          "date": "2026-08-20",
+          "start_time": "8:00 PM",
+          "opponent": "Aylmer Pirates",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -15170,16 +15182,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21295-sarniabrigade.ca",
-          "date": "2026-07-16",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-17",
-          "summary": "CANCELLED 9U River League - Game @ Corunna Giants Team 1 [RL9UN-33]",
-          "location": "Athletic Park (4)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21349-sarniabrigade.ca",
           "date": "2026-07-19",
           "start_time": "6:00 PM",
@@ -15246,6 +15248,16 @@
           "end_date": "2026-07-29",
           "summary": "9U River League - Game @ Oil Springs Drillers [RL9UN-35]",
           "location": "Oil Springs",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21295-sarniabrigade.ca",
+          "date": "2026-07-30",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-31",
+          "summary": "9U River League - Game @ Corunna Giants Team 1 [RL9UN-33]",
+          "location": "Athletic Park (4)",
           "type": "game",
           "cancelled": false
         },
@@ -15452,18 +15464,6 @@
           "cancelled": false
         },
         {
-          "game_id": "21295",
-          "href": "https://sarniabrigade.ca/Teams/1304/Games/21295/",
-          "date": "2026-07-16",
-          "start_time": "6:00 PM",
-          "opponent": "Corunna Giants Team",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
           "game_id": "21349",
           "href": "https://sarniabrigade.ca/Teams/1304/Games/21349/",
           "date": "2026-07-19",
@@ -15517,6 +15517,18 @@
           "date": "2026-07-28",
           "start_time": "6:00 PM",
           "opponent": "Oil Springs Drillers RL9UN-35 Oil Springs",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21295",
+          "href": "https://sarniabrigade.ca/Teams/1304/Games/21295/",
+          "date": "2026-07-30",
+          "start_time": "6:00 PM",
+          "opponent": "Corunna Giants Team",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -17042,7 +17054,7 @@
         {
           "game_id": "21224",
           "href": "https://sarniabrigade.ca/Teams/1302/Games/21224/",
-          "date": "2026-07-20",
+          "date": "2026-07-21",
           "start_time": "6:00 PM",
           "opponent": "North Middlesex",
           "home": false,
@@ -17110,12 +17122,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 43,
-      "wins": 27,
+      "gp": 44,
+      "wins": 28,
       "losses": 16,
       "ties": 0,
-      "runs_for": 311,
-      "runs_against": 238,
+      "runs_for": 319,
+      "runs_against": 243,
       "practices": 34,
       "roster": {
         "players": 15,
@@ -17643,6 +17655,16 @@
           "end_date": "2026-07-19",
           "summary": "16U PBLO - Game vs Dagda 16u [SF](W 3-15)",
           "location": "Nichols Field at Bailey Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22094-sarniabrigade.ca",
+          "date": "2026-07-19",
+          "start_time": "4:30 PM",
+          "end_date": "2026-07-19",
+          "summary": "16U PBLO - Game vs 517 16u(W 5-8)",
+          "location": "C.O. Brown Stadium",
           "type": "game",
           "cancelled": false
         },
@@ -18456,6 +18478,18 @@
           "result": "W",
           "brigade_score": 15,
           "opp_score": 3,
+          "cancelled": false
+        },
+        {
+          "game_id": "22094",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/22094/",
+          "date": "2026-07-19",
+          "start_time": "4:30 PM",
+          "opponent": null,
+          "home": false,
+          "result": "W",
+          "brigade_score": 8,
+          "opp_score": 5,
           "cancelled": false
         },
         {
@@ -20269,24 +20303,6 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 15U Select - Practice",
       "location": "Blackwell Park"
-    },
-    {
-      "team_id": 1301,
-      "team_name": "15U Select",
-      "type": "game",
-      "date": "2026-07-17",
-      "start_time": "8:30 PM",
-      "summary": "CANCELLED 15U Select - Game @ Aylmer Pirates [15uS15]",
-      "location": "Aylmer Optimist"
-    },
-    {
-      "team_id": 1304,
-      "team_name": "9U River League",
-      "type": "game",
-      "date": "2026-07-16",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 9U River League - Game @ Corunna Giants Team 1 [RL9UN-33]",
-      "location": "Athletic Park (4)"
     },
     {
       "team_id": 1310,
