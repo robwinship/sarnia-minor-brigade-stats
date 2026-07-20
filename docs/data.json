@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-20T19:33:20.109116Z",
+  "generated": "2026-07-20T23:03:05.741118Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20503-sarniabrigade.ca",
-          "date": "2026-05-20",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-21",
-          "summary": "8U OBA Rep - Game @ Wyoming Wranglers [WC9U-029](L 8-15)",
-          "location": "Kerr Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20261-sarniabrigade.ca",
           "date": "2026-05-24",
@@ -1330,16 +1320,6 @@
       },
       "events": [
         {
-          "uid": "MS-19772-sarniabrigade.ca",
-          "date": "2026-05-20",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-21",
-          "summary": "9U OBA Rep - Game vs Chatham Diamonds 9U [WC9U-084](W 1-19)",
-          "location": "Clearwater Diamond #1",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20183-sarniabrigade.ca",
           "date": "2026-05-26",
           "start_time": "5:00 PM",
@@ -2260,7 +2240,7 @@
       "ties": 0,
       "runs_for": 66,
       "runs_against": 56,
-      "practices": 34,
+      "practices": 32,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -2270,26 +2250,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21234-sarniabrigade.ca",
-          "date": "2026-05-20",
-          "start_time": "4:30 PM",
-          "end_date": "2026-05-20",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19655-sarniabrigade.ca",
-          "date": "2026-05-20",
-          "start_time": "5:30 PM",
-          "end_date": "2026-05-20",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19644-sarniabrigade.ca",
           "date": "2026-05-23",
@@ -3858,38 +3818,32 @@
                   "Brian Mundt",
                   "Brock Lane",
                   "Chris Bonneau",
-                  "Dan Scott",
                   "David Haasen",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Hayden Scheuermann",
-                  "Joey Buchner",
                   "Kye Golder",
                   "Logan Conroy",
                   "Lucas Nethery",
                   "Marko Sazdov",
                   "Paolo Padiglia",
-                  "Ralph Campbell",
                   "Ryan Ross",
                   "Ryder Daye",
                   "Sydney Nisbet",
-                  "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Axl Taylor",
                   "Brock Lane",
-                  "Chris Bonneau",
                   "Myles Hobbs",
-                  "Paolo Padiglia",
+                  "Ralph Campbell",
                   "Shane Moorhouse",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 21,
-                "denied_count": 8,
+                "pending_count": 16,
+                "denied_count": 7,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -5432,16 +5386,6 @@
       },
       "events": [
         {
-          "uid": "MS-20507-sarniabrigade.ca",
-          "date": "2026-05-20",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-21",
-          "summary": "11U OBA Rep - Game @ Chatham Diamonds 11u [WC11U-101](W 7-6)",
-          "location": "Kinsmen Park (2)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20391-sarniabrigade.ca",
           "date": "2026-05-21",
           "start_time": "6:30 PM",
@@ -5782,16 +5726,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20765-sarniabrigade.ca",
-          "date": "2026-07-15",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-16",
-          "summary": "CANCELLED 11U OBA Rep - Game @ St. Thomas Cardinals [11u08]",
-          "location": "New York Central",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20399-sarniabrigade.ca",
           "date": "2026-07-16",
           "start_time": "6:30 PM",
@@ -5968,6 +5902,16 @@
           "end_date": "2026-08-16",
           "summary": "11U OBA Rep - Game vs St. Thomas Cardinals [11u82]",
           "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20765-sarniabrigade.ca",
+          "date": "2026-08-18",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-19",
+          "summary": "11U OBA Rep - Game @ St. Thomas Cardinals [11u08]",
+          "location": "New York Central",
           "type": "game",
           "cancelled": false
         },
@@ -6442,18 +6386,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20765",
-          "href": "https://sarniabrigade.ca/Teams/1293/Games/20765/",
-          "date": "2026-07-15",
-          "start_time": "6:00 PM",
-          "opponent": "St. Thomas Cardinals",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
           "game_id": "20668",
           "href": "https://sarniabrigade.ca/Teams/1293/Games/20668/",
           "date": "2026-07-19",
@@ -6568,6 +6500,18 @@
           "start_time": "6:30 PM",
           "opponent": "St. Thomas Cardinals",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20765",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/20765/",
+          "date": "2026-08-18",
+          "start_time": "6:00 PM",
+          "opponent": "St. Thomas Cardinals",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -6813,7 +6757,7 @@
       "ties": 0,
       "runs_for": 123,
       "runs_against": 170,
-      "practices": 24,
+      "practices": 23,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -6823,16 +6767,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-20530-sarniabrigade.ca",
-          "date": "2026-05-20",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-21",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20320-sarniabrigade.ca",
           "date": "2026-05-24",
@@ -7880,16 +7814,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20832-sarniabrigade.ca",
-          "date": "2026-05-20",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-21",
-          "summary": "13U OBA Rep - Game @ North London Nationals [13u15](W 19-6)",
-          "location": "North London (3)",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20745-sarniabrigade.ca",
           "date": "2026-05-21",
@@ -8983,12 +8907,12 @@
       "id": 1296,
       "name": "14U OBA Rep",
       "category": "OBA Rep",
-      "gp": 29,
-      "wins": 23,
-      "losses": 6,
+      "gp": 33,
+      "wins": 26,
+      "losses": 7,
       "ties": 0,
-      "runs_for": 356,
-      "runs_against": 172,
+      "runs_for": 400,
+      "runs_against": 197,
       "practices": 36,
       "roster": {
         "players": 14,
@@ -9474,7 +9398,7 @@
           "date": "2026-07-18",
           "start_time": "12:00 PM",
           "end_date": "2026-07-18",
-          "summary": "14U OBA Rep - Game @ Riverside Royals",
+          "summary": "14U OBA Rep - Game @ Riverside Royals(L 8-15)",
           "location": "Riverside Diamond #1",
           "type": "game",
           "cancelled": false
@@ -9484,7 +9408,7 @@
           "date": "2026-07-18",
           "start_time": "3:00 PM",
           "end_date": "2026-07-18",
-          "summary": "14U OBA Rep - Game @ Riverside Royals",
+          "summary": "14U OBA Rep - Game @ Riverside Royals(W 9-5)",
           "location": "Riverside Diamond #1",
           "type": "game",
           "cancelled": false
@@ -9494,7 +9418,7 @@
           "date": "2026-07-19",
           "start_time": "10:00 AM",
           "end_date": "2026-07-19",
-          "summary": "14U OBA Rep - Game vs St. Thomas Cardinals [14u46]",
+          "summary": "14U OBA Rep - Game vs St. Thomas Cardinals [14u46](W 2-14)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -9504,7 +9428,7 @@
           "date": "2026-07-19",
           "start_time": "12:00 PM",
           "end_date": "2026-07-19",
-          "summary": "14U OBA Rep - Game vs St. Thomas Cardinals [14u70]",
+          "summary": "14U OBA Rep - Game vs St. Thomas Cardinals [14u70](W 3-13)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -9587,6 +9511,46 @@
           "summary": "14U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22098-sarniabrigade.ca",
+          "date": "2026-07-31",
+          "start_time": "10:30 AM",
+          "end_date": "2026-07-31",
+          "summary": "14U OBA Rep - Game vs Lasalle Turtle Club T2 [1]",
+          "location": "Turtle Club (LaSalle) D7",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22099-sarniabrigade.ca",
+          "date": "2026-07-31",
+          "start_time": "3:30 PM",
+          "end_date": "2026-07-31",
+          "summary": "14U OBA Rep - Game vs Lakeshore Whitecaps [2]",
+          "location": "Vollmer 2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22100-sarniabrigade.ca",
+          "date": "2026-08-01",
+          "start_time": "9:00 AM",
+          "end_date": "2026-08-01",
+          "summary": "14U OBA Rep - Game vs Windsor Stars [3]",
+          "location": "Vollmer 2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22101-sarniabrigade.ca",
+          "date": "2026-08-01",
+          "start_time": "2:00 PM",
+          "end_date": "2026-08-01",
+          "summary": "14U OBA Rep - Game vs Lasalle Turtle Club T1 [4]",
+          "location": "Villy1",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -10312,9 +10276,9 @@
           "start_time": "12:00 PM",
           "opponent": "Riverside Royals Riverside Diamond",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 8,
+          "opp_score": 15,
           "cancelled": false
         },
         {
@@ -10324,9 +10288,9 @@
           "start_time": "3:00 PM",
           "opponent": "Riverside Royals Riverside Diamond",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 5,
           "cancelled": false
         },
         {
@@ -10336,9 +10300,9 @@
           "start_time": "10:00 AM",
           "opponent": "St. Thomas Cardinals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 14,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -10348,9 +10312,9 @@
           "start_time": "12:00 PM",
           "opponent": "St. Thomas Cardinals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 13,
+          "opp_score": 3,
           "cancelled": false
         },
         {
@@ -10383,6 +10347,54 @@
           "date": "2026-07-26",
           "start_time": "12:30 PM",
           "opponent": "Riverside Royals Canton Park More Details Jul",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22098",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/22098/",
+          "date": "2026-07-31",
+          "start_time": "10:30 AM",
+          "opponent": "Lasalle Turtle Club T2",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22099",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/22099/",
+          "date": "2026-07-31",
+          "start_time": "3:30 PM",
+          "opponent": "Lakeshore Whitecaps",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22100",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/22100/",
+          "date": "2026-08-01",
+          "start_time": "9:00 AM",
+          "opponent": "Windsor Stars",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22101",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/22101/",
+          "date": "2026-08-01",
+          "start_time": "2:00 PM",
+          "opponent": "Lasalle Turtle Club T1",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -17133,7 +17145,7 @@
       "ties": 0,
       "runs_for": 319,
       "runs_against": 243,
-      "practices": 34,
+      "practices": 33,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -17143,16 +17155,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20013-sarniabrigade.ca",
-          "date": "2026-05-20",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-21",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20034-sarniabrigade.ca",
           "date": "2026-05-22",
@@ -20020,15 +20022,6 @@
       "start_time": "4:00 PM",
       "summary": "CANCELLED 11U OBA Rep - Practice",
       "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1293,
-      "team_name": "11U OBA Rep",
-      "type": "game",
-      "date": "2026-07-15",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 11U OBA Rep - Game @ St. Thomas Cardinals [11u08]",
-      "location": "New York Central"
     },
     {
       "team_id": 1293,
