@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-19T23:03:57.476679Z",
+  "generated": "2026-07-20T10:03:29.298181Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -13,12 +13,12 @@
       "id": 1290,
       "name": "8U OBA Rep",
       "category": "OBA Rep",
-      "gp": 26,
-      "wins": 12,
+      "gp": 28,
+      "wins": 14,
       "losses": 14,
       "ties": 0,
-      "runs_for": 369,
-      "runs_against": 437,
+      "runs_for": 412,
+      "runs_against": 450,
       "practices": 22,
       "roster": {
         "players": 12,
@@ -434,7 +434,7 @@
           "date": "2026-07-19",
           "start_time": "10:00 AM",
           "end_date": "2026-07-19",
-          "summary": "8U OBA Rep - Game @ Lucan-Ilderton Athletics [8u04]",
+          "summary": "8U OBA Rep - Game @ Lucan-Ilderton Athletics [8u04](W 23-4)",
           "location": "Heritage (1)",
           "type": "game",
           "cancelled": false
@@ -444,7 +444,7 @@
           "date": "2026-07-19",
           "start_time": "1:00 PM",
           "end_date": "2026-07-19",
-          "summary": "8U OBA Rep - Game @ Lucan-Ilderton Athletics [8u34]",
+          "summary": "8U OBA Rep - Game @ Lucan-Ilderton Athletics [8u34](W 20-9)",
           "location": "Heritage (1)",
           "type": "game",
           "cancelled": false
@@ -992,9 +992,9 @@
           "start_time": "10:00 AM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 23,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -1004,9 +1004,9 @@
           "start_time": "1:00 PM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 20,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -3476,8 +3476,8 @@
       "umpire_issues": {
         "games_missed": 2,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 4,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch": 5,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -3854,16 +3854,19 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
+                  "Blake Adams",
                   "Brian Mundt",
+                  "Brock Lane",
+                  "Chris Bonneau",
+                  "Drew Bennett",
                   "Grant Purdy",
-                  "Greg Baker",
                   "Hayden Scheuermann",
                   "Joey Buchner",
                   "Logan Conroy",
-                  "Myles Hobbs",
+                  "Lucas Barker",
                   "Paolo Padiglia",
+                  "Parker Leighton",
                   "Ryan Ross",
-                  "Rylie Bunda",
                   "Sydney Nisbet",
                   "Tristan Heeringa",
                   "Tyler Hoadley",
@@ -3872,13 +3875,14 @@
                 "denied_umpires": [
                   "Axl Taylor",
                   "Brock Lane",
+                  "Myles Hobbs",
                   "Paolo Padiglia",
                   "Shane Moorhouse"
                 ],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 14,
-                "denied_count": 4,
+                "pending_count": 17,
+                "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4064,7 +4068,7 @@
           },
           {
             "date": "2026-07-19",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": false,
             "pair_signatures": [
               "Easton McKinlay | Juan Peralta",
@@ -4131,12 +4135,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 17,
-      "wins": 8,
+      "gp": 19,
+      "wins": 10,
       "losses": 9,
       "ties": 0,
-      "runs_for": 149,
-      "runs_against": 202,
+      "runs_for": 169,
+      "runs_against": 220,
       "practices": 32,
       "roster": {
         "players": 13,
@@ -4532,7 +4536,7 @@
           "date": "2026-07-19",
           "start_time": "4:00 PM",
           "end_date": "2026-07-19",
-          "summary": "10U A OBA Rep - Game vs London Talons [10u17]",
+          "summary": "10U A OBA Rep - Game vs London Talons [10u17](W 8-9)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -4542,7 +4546,7 @@
           "date": "2026-07-19",
           "start_time": "6:30 PM",
           "end_date": "2026-07-20",
-          "summary": "10U A OBA Rep - Game vs London Talons [10u47]",
+          "summary": "10U A OBA Rep - Game vs London Talons [10u47](W 10-11)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -5188,9 +5192,9 @@
           "start_time": "4:00 PM",
           "opponent": "London Talons",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -5200,9 +5204,9 @@
           "start_time": "6:30 PM",
           "opponent": "London Talons",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -11947,12 +11951,12 @@
       "id": 1299,
       "name": "9U Select",
       "category": "Select",
-      "gp": 8,
+      "gp": 9,
       "wins": 2,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "runs_for": 88,
-      "runs_against": 160,
+      "runs_for": 89,
+      "runs_against": 177,
       "practices": 22,
       "roster": {
         "players": 13,
@@ -12158,7 +12162,7 @@
           "date": "2026-07-19",
           "start_time": "6:00 PM",
           "end_date": "2026-07-20",
-          "summary": "9U Select - Game vs Aylmer Pirates [9uS29]",
+          "summary": "9U Select - Game vs Aylmer Pirates [9uS29](L 17-1)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -12492,9 +12496,9 @@
           "start_time": "6:00 PM",
           "opponent": "Aylmer Pirates",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 1,
+          "opp_score": 17,
           "cancelled": false
         },
         {
@@ -14168,12 +14172,12 @@
       "id": 1301,
       "name": "15U Select",
       "category": "Select",
-      "gp": 8,
+      "gp": 9,
       "wins": 5,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
-      "runs_for": 93,
-      "runs_against": 104,
+      "runs_for": 104,
+      "runs_against": 116,
       "practices": 22,
       "roster": {
         "players": 12,
@@ -14184,16 +14188,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21109-sarniabrigade.ca",
-          "date": "2026-05-19",
-          "start_time": "8:30 PM",
-          "end_date": "2026-05-20",
-          "summary": "15U Select - Game vs North London Nationals [15uS12](T 8-8)",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20704-sarniabrigade.ca",
           "date": "2026-05-21",
@@ -14419,7 +14413,7 @@
           "date": "2026-07-19",
           "start_time": "6:00 PM",
           "end_date": "2026-07-20",
-          "summary": "15U Select - Game vs St. Thomas Cardinals [15uS21]",
+          "summary": "15U Select - Game vs St. Thomas Cardinals [15uS21](L 12-11)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -14773,9 +14767,9 @@
           "start_time": "6:00 PM",
           "opponent": "St. Thomas Cardinals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 11,
+          "opp_score": 12,
           "cancelled": false
         },
         {
@@ -14989,12 +14983,12 @@
       "id": 1304,
       "name": "9U River League",
       "category": "River League",
-      "gp": 9,
+      "gp": 10,
       "wins": 5,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "runs_for": 111,
-      "runs_against": 97,
+      "runs_for": 118,
+      "runs_against": 105,
       "practices": 13,
       "roster": {
         "players": 16,
@@ -15190,7 +15184,7 @@
           "date": "2026-07-19",
           "start_time": "6:00 PM",
           "end_date": "2026-07-20",
-          "summary": "9U River League - Game @ Corunna Giants Team 2 [RL9UN-101]",
+          "summary": "9U River League - Game @ Corunna Giants Team 2 [RL9UN-101](L 7-8)",
           "location": "Athletic Park (1)",
           "type": "game",
           "cancelled": false
@@ -15476,9 +15470,9 @@
           "start_time": "6:00 PM",
           "opponent": "Corunna Giants Team",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 7,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -18583,16 +18577,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21184-sarniabrigade.ca",
-          "date": "2026-05-19",
-          "start_time": "7:30 PM",
-          "end_date": "2026-05-20",
-          "summary": "22U AAA - Game vs Port Lambton Pirates",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21383-sarniabrigade.ca",
           "date": "2026-05-20",
