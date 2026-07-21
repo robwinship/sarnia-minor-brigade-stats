@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-21T16:03:32.163115Z",
+  "generated": "2026-07-21T19:33:22.916211Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3816,20 +3816,14 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Grant Purdy",
-                  "Kye Golder",
-                  "Marko Sazdov",
                   "Ryan Ross",
                   "Tyler Whetham"
                 ],
-                "denied_umpires": [
-                  "Axl Taylor",
-                  "Cambria Caissie",
-                  "Shane Moorhouse"
-                ],
+                "denied_umpires": [],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 6,
-                "denied_count": 3,
+                "pending_count": 4,
+                "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -5736,7 +5730,7 @@
           "date": "2026-07-21",
           "start_time": "6:00 PM",
           "end_date": "2026-07-22",
-          "summary": "11U OBA Rep - Practice",
+          "summary": "CANCELLED 11U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
@@ -7981,16 +7975,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20784-sarniabrigade.ca",
-          "date": "2026-06-17",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-18",
-          "summary": "CANCELLED 13U OBA Rep - Game @ Dorchester Diamondbacks [13u50]",
-          "location": "Dorchester (3)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20516-sarniabrigade.ca",
           "date": "2026-06-18",
           "start_time": "6:00 PM",
@@ -8218,6 +8202,16 @@
           "summary": "13U OBA Rep - Indoor Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20784-sarniabrigade.ca",
+          "date": "2026-08-05",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-06",
+          "summary": "13U OBA Rep - Game @ Dorchester Diamondbacks [13u50]",
+          "location": "Dorchester (3)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -8633,18 +8627,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20784",
-          "href": "https://sarniabrigade.ca/Teams/1295/Games/20784/",
-          "date": "2026-06-17",
-          "start_time": "6:00 PM",
-          "opponent": "Dorchester Diamondbacks",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
           "game_id": "20516",
           "href": "https://sarniabrigade.ca/Teams/1295/Games/20516/",
           "date": "2026-06-18",
@@ -8783,6 +8765,18 @@
           "start_time": "1:00 PM",
           "opponent": "London Talons",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20784",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20784/",
+          "date": "2026-08-05",
+          "start_time": "6:00 PM",
+          "opponent": "Dorchester Diamondbacks",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -10969,7 +10963,7 @@
           "date": "2026-07-21",
           "start_time": "5:30 PM",
           "end_date": "2026-07-21",
-          "summary": "15U OBA Rep - Practice",
+          "summary": "CANCELLED 15U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
@@ -12605,39 +12599,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-07-26",
-            "time": "6:00 PM",
-            "opponent": "North London Nationals",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "Cambria Caissie",
-              "Marko Sazdov",
-              "Max McClintock"
-            ],
-            "accepted_umpires": [
-              "Max McClintock"
-            ],
-            "pending_umpires": [
-              "Marko Sazdov"
-            ],
-            "denied_umpires": [
-              "Cambria Caissie"
-            ],
-            "assigned_count": 3,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-05-24",
@@ -13141,6 +13108,16 @@
           "end_date": "2026-08-03",
           "summary": "11U Select - Forest Glade 11U Select Tournament",
           "location": "Windsor, ON",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3357-sarniabrigade.ca",
+          "date": "2026-09-04",
+          "start_time": null,
+          "end_date": "2026-09-07",
+          "summary": "11U Select - OBA Provincials",
+          "location": "Hamilton, ON",
           "type": "tournament",
           "cancelled": false
         }
@@ -14445,7 +14422,7 @@
           "date": "2026-07-21",
           "start_time": "8:00 PM",
           "end_date": "2026-07-22",
-          "summary": "15U Select - Practice",
+          "summary": "CANCELLED 15U Select - Practice",
           "location": "Blackwell Park",
           "type": "practice",
           "cancelled": false
@@ -20037,6 +20014,15 @@
     {
       "team_id": 1293,
       "team_name": "11U OBA Rep",
+      "type": "practice",
+      "date": "2026-07-21",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 11U OBA Rep - Practice",
+      "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1293,
+      "team_name": "11U OBA Rep",
       "type": "game",
       "date": "2026-05-09",
       "start_time": "4:00 PM",
@@ -20096,15 +20082,6 @@
       "start_time": "10:00 AM",
       "summary": "CANCELLED 13U OBA Rep - Practice",
       "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1295,
-      "team_name": "13U OBA Rep",
-      "type": "game",
-      "date": "2026-06-17",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 13U OBA Rep - Game @ Dorchester Diamondbacks [13u50]",
-      "location": "Dorchester (3)"
     },
     {
       "team_id": 1295,
@@ -20208,6 +20185,15 @@
     {
       "team_id": 1297,
       "team_name": "15U OBA Rep",
+      "type": "practice",
+      "date": "2026-07-21",
+      "start_time": "5:30 PM",
+      "summary": "CANCELLED 15U OBA Rep - Practice",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1297,
+      "team_name": "15U OBA Rep",
       "type": "game",
       "date": "2026-04-26",
       "start_time": "11:00 AM",
@@ -20301,6 +20287,15 @@
       "type": "practice",
       "date": "2026-07-05",
       "start_time": "6:00 PM",
+      "summary": "CANCELLED 15U Select - Practice",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1301,
+      "team_name": "15U Select",
+      "type": "practice",
+      "date": "2026-07-21",
+      "start_time": "8:00 PM",
       "summary": "CANCELLED 15U Select - Practice",
       "location": "Blackwell Park"
     },
