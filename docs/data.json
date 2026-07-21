@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-20T23:03:05.741118Z",
+  "generated": "2026-07-21T10:03:52.698868Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1303,12 +1303,12 @@
       "id": 1291,
       "name": "9U OBA Rep",
       "category": "OBA Rep",
-      "gp": 19,
+      "gp": 20,
       "wins": 10,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "runs_for": 227,
-      "runs_against": 172,
+      "runs_for": 232,
+      "runs_against": 181,
       "practices": 21,
       "roster": {
         "players": 12,
@@ -1644,7 +1644,7 @@
           "date": "2026-07-20",
           "start_time": "6:00 PM",
           "end_date": "2026-07-21",
-          "summary": "9U OBA Rep - Game @ London West Tincaps [9u73]",
+          "summary": "9U OBA Rep - Game @ London West Tincaps [9u73](L 5-9)",
           "location": "Oakridge Optimist (Upper)",
           "type": "game",
           "cancelled": false
@@ -2078,9 +2078,9 @@
           "start_time": "6:00 PM",
           "opponent": "London West Tincaps",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 5,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -3814,11 +3814,11 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
+                  "Axl Taylor",
                   "Bentley Daughtrey",
                   "Brian Mundt",
                   "Brock Lane",
                   "Chris Bonneau",
-                  "David Haasen",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Kye Golder",
@@ -3827,13 +3827,14 @@
                   "Marko Sazdov",
                   "Paolo Padiglia",
                   "Ryan Ross",
-                  "Ryder Daye",
                   "Sydney Nisbet",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Axl Taylor",
                   "Brock Lane",
+                  "Cambria Caissie",
+                  "Carson Whittington",
                   "Myles Hobbs",
                   "Ralph Campbell",
                   "Shane Moorhouse",
@@ -3842,8 +3843,8 @@
                 ],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 16,
-                "denied_count": 7,
+                "pending_count": 15,
+                "denied_count": 9,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -12629,12 +12630,39 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-07-26",
+            "time": "6:00 PM",
+            "opponent": "North London Nationals",
+            "venue": "Clearwater Diamond #1",
+            "assigned_umpires": [
+              "Cambria Caissie",
+              "Marko Sazdov",
+              "Max McClintock"
+            ],
+            "accepted_umpires": [
+              "Max McClintock"
+            ],
+            "pending_umpires": [
+              "Marko Sazdov"
+            ],
+            "denied_umpires": [
+              "Cambria Caissie"
+            ],
+            "assigned_count": 3,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 1,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-05-24",
@@ -15657,16 +15685,6 @@
       },
       "events": [
         {
-          "uid": "MS-21363-sarniabrigade.ca",
-          "date": "2026-05-20",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-21",
-          "summary": "11U Lady Brigade - Game vs 11u River League [RL11UN-45](L 16-4)",
-          "location": "Clearwater Diamond #2",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21371-sarniabrigade.ca",
           "date": "2026-05-25",
           "start_time": "6:30 PM",
@@ -16089,12 +16107,12 @@
       "id": 1315,
       "name": "11U River League",
       "category": "River League",
-      "gp": 12,
+      "gp": 13,
       "wins": 7,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "runs_for": 129,
-      "runs_against": 104,
+      "runs_for": 132,
+      "runs_against": 116,
       "practices": 7,
       "roster": {
         "players": 15,
@@ -16105,16 +16123,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21363-sarniabrigade.ca",
-          "date": "2026-05-20",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-21",
-          "summary": "11u River League - Game @ 11U Lady Brigade [RL11UN-45](W 16-4)",
-          "location": "Clearwater Diamond #2",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20473-sarniabrigade.ca",
           "date": "2026-05-25",
@@ -16280,7 +16288,7 @@
           "date": "2026-07-20",
           "start_time": "6:30 PM",
           "end_date": "2026-07-21",
-          "summary": "11u River League - Game vs Alvinston Riverhawks Select [RL11UN-51]",
+          "summary": "11u River League - Game vs Alvinston Riverhawks Select [RL11UN-51](L 12-3)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -16500,9 +16508,9 @@
           "start_time": "6:30 PM",
           "opponent": "Alvinston Riverhawks Select RL11UN-51 Clearwat",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 3,
+          "opp_score": 12,
           "cancelled": false
         },
         {
@@ -16552,12 +16560,12 @@
       "id": 1302,
       "name": "13U LDBA House League",
       "category": "House League",
-      "gp": 11,
-      "wins": 9,
+      "gp": 12,
+      "wins": 10,
       "losses": 2,
       "ties": 0,
-      "runs_for": 175,
-      "runs_against": 65,
+      "runs_for": 196,
+      "runs_against": 67,
       "practices": 14,
       "roster": {
         "players": 14,
@@ -16763,7 +16771,7 @@
           "date": "2026-07-20",
           "start_time": "6:00 PM",
           "end_date": "2026-07-21",
-          "summary": "13U LDBA House League - Game @ North Middlesex 1 [13uW72]",
+          "summary": "13U LDBA House League - Game @ North Middlesex 1 [13uW72](W 21-2)",
           "location": "Parkhill (A)",
           "type": "game",
           "cancelled": false
@@ -17075,9 +17083,9 @@
           "start_time": "6:00 PM",
           "opponent": "North Middlesex",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 21,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -17693,6 +17701,16 @@
           "summary": "16U PBLO - Practice",
           "location": "Blackwell Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22102-sarniabrigade.ca",
+          "date": "2026-07-24",
+          "start_time": "7:30 PM",
+          "end_date": "2026-07-25",
+          "summary": "16U PBLO - Game vs London Badgers",
+          "location": "Errol Russell Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -18500,6 +18518,18 @@
           "cancelled": false
         },
         {
+          "game_id": "22102",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/22102/",
+          "date": "2026-07-24",
+          "start_time": "7:30 PM",
+          "opponent": "London Badgers Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20379",
           "href": "https://sarniabrigade.ca/Teams/1298/Games/20379/",
           "date": "2026-08-14",
@@ -18618,16 +18648,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21383-sarniabrigade.ca",
-          "date": "2026-05-20",
-          "start_time": "7:30 PM",
-          "end_date": "2026-05-21",
-          "summary": "22U AAA - Game vs Port Lambton Pirates 22u(L 6-4)",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21185-sarniabrigade.ca",
           "date": "2026-05-27",
@@ -19117,7 +19137,7 @@
       ],
       "umpire_issues": {
         "games_missed": 2,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -19154,6 +19174,22 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
+          },
+          {
+            "date": "2026-07-28",
+            "time": "7:30 PM",
+            "opponent": "TBA",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": []
