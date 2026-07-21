@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-21T10:03:52.698868Z",
+  "generated": "2026-07-21T16:03:32.163115Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3814,37 +3814,22 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Axl Taylor",
-                  "Bentley Daughtrey",
                   "Brian Mundt",
-                  "Brock Lane",
-                  "Chris Bonneau",
-                  "Graham Dolbear",
                   "Grant Purdy",
                   "Kye Golder",
-                  "Logan Conroy",
-                  "Lucas Nethery",
                   "Marko Sazdov",
-                  "Paolo Padiglia",
                   "Ryan Ross",
-                  "Sydney Nisbet",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Axl Taylor",
-                  "Brock Lane",
                   "Cambria Caissie",
-                  "Carson Whittington",
-                  "Myles Hobbs",
-                  "Ralph Campbell",
-                  "Shane Moorhouse",
-                  "Tyler Hoadley",
-                  "Tyler Whetham"
+                  "Shane Moorhouse"
                 ],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 15,
-                "denied_count": 9,
+                "pending_count": 6,
+                "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -5376,7 +5361,7 @@
       "ties": 0,
       "runs_for": 183,
       "runs_against": 161,
-      "practices": 28,
+      "practices": 27,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5914,16 +5899,6 @@
           "summary": "11U OBA Rep - Game @ St. Thomas Cardinals [11u08]",
           "location": "New York Central",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20095-sarniabrigade.ca",
-          "date": "2026-08-18",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-19",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -8156,16 +8131,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20833-sarniabrigade.ca",
-          "date": "2026-07-15",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-16",
-          "summary": "CANCELLED 13U OBA Rep - Game @ North London Nationals [13u67]",
-          "location": "North London (3)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20759-sarniabrigade.ca",
           "date": "2026-07-16",
           "start_time": "6:00 PM",
@@ -8302,6 +8267,16 @@
           "end_date": "2026-08-11",
           "summary": "13U OBA Rep - Game @ St. Thomas Cardinals [13u29]",
           "location": "New York Central",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-20833-sarniabrigade.ca",
+          "date": "2026-08-11",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-12",
+          "summary": "13U OBA Rep - Game @ North London Nationals [13u67]",
+          "location": "North London (2)",
           "type": "game",
           "cancelled": false
         },
@@ -8754,18 +8729,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20833",
-          "href": "https://sarniabrigade.ca/Teams/1295/Games/20833/",
-          "date": "2026-07-15",
-          "start_time": "6:00 PM",
-          "opponent": "North London Nationals",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
           "game_id": "20868",
           "href": "https://sarniabrigade.ca/Teams/1295/Games/20868/",
           "date": "2026-07-18",
@@ -8867,6 +8830,18 @@
           "date": "2026-08-10",
           "start_time": "8:30 PM",
           "opponent": "St. Thomas Cardinals",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20833",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/20833/",
+          "date": "2026-08-11",
+          "start_time": "6:00 PM",
+          "opponent": "North London Nationals",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -15040,12 +15015,12 @@
       "id": 1304,
       "name": "9U River League",
       "category": "River League",
-      "gp": 10,
-      "wins": 5,
+      "gp": 11,
+      "wins": 6,
       "losses": 5,
       "ties": 0,
-      "runs_for": 118,
-      "runs_against": 105,
+      "runs_for": 133,
+      "runs_against": 107,
       "practices": 13,
       "roster": {
         "players": 16,
@@ -15241,7 +15216,7 @@
           "date": "2026-07-20",
           "start_time": "6:00 PM",
           "end_date": "2026-07-21",
-          "summary": "9U River League - Game vs Wyoming Wranglers Grey [RL9UN-92]",
+          "summary": "9U River League - Game vs Wyoming Wranglers Grey [RL9UN-92](W 2-15)",
           "location": "Blackwell North",
           "type": "game",
           "cancelled": false
@@ -15527,9 +15502,9 @@
           "start_time": "6:00 PM",
           "opponent": "Wyoming Wranglers Grey RL9UN-92 Blackwell Nort",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 15,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -20139,15 +20114,6 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 13U OBA Rep - Practice",
       "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1295,
-      "team_name": "13U OBA Rep",
-      "type": "game",
-      "date": "2026-07-15",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 13U OBA Rep - Game @ North London Nationals [13u67]",
-      "location": "North London (3)"
     },
     {
       "team_id": 1295,
