@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-22T10:03:33.398486Z",
+  "generated": "2026-07-22T16:03:15.550116Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3818,7 +3818,7 @@
                   "Cambria Caissie",
                   "Grant Purdy",
                   "Ryan Ross",
-                  "Tyler Hoadley",
+                  "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [],
@@ -5892,7 +5892,7 @@
           "date": "2026-08-22",
           "start_time": "4:00 PM",
           "end_date": "2026-08-22",
-          "summary": "11U OBA Rep - Game vs London Badgers",
+          "summary": "CANCELLED 11U OBA Rep - Game vs London Badgers",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -5912,7 +5912,7 @@
           "date": "2026-08-22",
           "start_time": "6:30 PM",
           "end_date": "2026-08-23",
-          "summary": "11U OBA Rep - Game vs London Badgers",
+          "summary": "CANCELLED 11U OBA Rep - Game vs London Badgers",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6479,7 +6479,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "21720",
@@ -6491,7 +6491,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         }
       ],
       "umpire_issues": {
@@ -16160,16 +16160,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21362-sarniabrigade.ca",
-          "date": "2026-07-16",
-          "start_time": "6:30 PM",
-          "end_date": "2026-07-17",
-          "summary": "11u River League - Game @ Oil Springs Drillers [RL11UN-38]",
-          "location": "Oil Springs",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21354-sarniabrigade.ca",
           "date": "2026-07-20",
           "start_time": "6:30 PM",
@@ -16196,6 +16186,16 @@
           "end_date": "2026-07-30",
           "summary": "11u River League - Game @ Wyoming Wranglers Navy [RL11UN-02]",
           "location": "Bridgeview Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21362-sarniabrigade.ca",
+          "date": "2026-07-30",
+          "start_time": "6:30 PM",
+          "end_date": "2026-07-31",
+          "summary": "11u River League - Game @ Oil Springs Drillers [RL11UN-38]",
+          "location": "Oil Springs",
           "type": "game",
           "cancelled": false
         },
@@ -16376,18 +16376,6 @@
           "cancelled": false
         },
         {
-          "game_id": "21362",
-          "href": "https://sarniabrigade.ca/Teams/1315/Games/21362/",
-          "date": "2026-07-16",
-          "start_time": "6:30 PM",
-          "opponent": "Oil Springs Drillers RL11UN-38 Oil Springs",
-          "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "21354",
           "href": "https://sarniabrigade.ca/Teams/1315/Games/21354/",
           "date": "2026-07-20",
@@ -16417,6 +16405,18 @@
           "date": "2026-07-29",
           "start_time": "6:30 PM",
           "opponent": "Wyoming Wranglers Navy RL11UN-02 Bridgeview Pa",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21362",
+          "href": "https://sarniabrigade.ca/Teams/1315/Games/21362/",
+          "date": "2026-07-30",
+          "start_time": "6:30 PM",
+          "opponent": "Oil Springs Drillers RL11UN-38 Oil Springs",
           "home": false,
           "result": null,
           "brigade_score": null,
@@ -19933,6 +19933,24 @@
       "date": "2026-07-21",
       "start_time": "6:00 PM",
       "summary": "CANCELLED 11U OBA Rep - Practice",
+      "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1293,
+      "team_name": "11U OBA Rep",
+      "type": "game",
+      "date": "2026-08-22",
+      "start_time": "4:00 PM",
+      "summary": "CANCELLED 11U OBA Rep - Game vs London Badgers",
+      "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1293,
+      "team_name": "11U OBA Rep",
+      "type": "game",
+      "date": "2026-08-22",
+      "start_time": "6:30 PM",
+      "summary": "CANCELLED 11U OBA Rep - Game vs London Badgers",
       "location": "Tecumseh Park"
     },
     {
