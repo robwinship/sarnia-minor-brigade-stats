@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-22T16:03:15.550116Z",
+  "generated": "2026-07-22T19:33:24.994592Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3817,6 +3817,8 @@
                   "Brian Mundt",
                   "Cambria Caissie",
                   "Grant Purdy",
+                  "Jarett Simons",
+                  "Myles Hobbs",
                   "Ryan Ross",
                   "Tristan Heeringa",
                   "Tyler Whetham"
@@ -3824,7 +3826,7 @@
                 "denied_umpires": [],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 6,
+                "pending_count": 8,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -15999,7 +16001,7 @@
       "ties": 0,
       "runs_for": 132,
       "runs_against": 116,
-      "practices": 7,
+      "practices": 8,
       "roster": {
         "players": 15,
         "adults": 2,
@@ -16167,6 +16169,16 @@
           "summary": "11u River League - Game vs Alvinston Riverhawks Select [RL11UN-51](L 12-3)",
           "location": "Clearwater Diamond #2",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22106-sarniabrigade.ca",
+          "date": "2026-07-22",
+          "start_time": "4:30 PM",
+          "end_date": "2026-07-22",
+          "summary": "11u River League - Practice",
+          "location": "Pitch Indoor Sports",
+          "type": "practice",
           "cancelled": false
         },
         {
