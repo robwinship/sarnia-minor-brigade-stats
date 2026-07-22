@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-21T23:03:30.600335Z",
+  "generated": "2026-07-22T10:03:33.398486Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3815,15 +3815,16 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
+                  "Cambria Caissie",
                   "Grant Purdy",
                   "Ryan Ross",
-                  "Terry Doyle",
+                  "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 5,
+                "pending_count": 6,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -8854,7 +8855,7 @@
       "ties": 0,
       "runs_for": 400,
       "runs_against": 197,
-      "practices": 36,
+      "practices": 35,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -8864,16 +8865,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21584-sarniabrigade.ca",
-          "date": "2026-05-21",
-          "start_time": "7:00 PM",
-          "end_date": "2026-05-22",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20443-sarniabrigade.ca",
           "date": "2026-05-24",
