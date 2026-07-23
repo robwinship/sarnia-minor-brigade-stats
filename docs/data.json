@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-23T19:33:18.098092Z",
+  "generated": "2026-07-23T23:03:21.823826Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -5295,7 +5295,7 @@
       "ties": 0,
       "runs_for": 183,
       "runs_against": 161,
-      "practices": 26,
+      "practices": 25,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5305,16 +5305,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20848-sarniabrigade.ca",
-          "date": "2026-05-23",
-          "start_time": "4:00 PM",
-          "end_date": "2026-05-23",
-          "summary": "CANCELLED 11U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20083-sarniabrigade.ca",
           "date": "2026-05-26",
@@ -19775,15 +19765,6 @@
       "start_time": "5:30 PM",
       "summary": "CANCELLED 10U A OBA Rep - Practice",
       "location": "Coronation Park Diamond"
-    },
-    {
-      "team_id": 1293,
-      "team_name": "11U OBA Rep",
-      "type": "practice",
-      "date": "2026-05-23",
-      "start_time": "4:00 PM",
-      "summary": "CANCELLED 11U OBA Rep - Practice",
-      "location": "Tecumseh Park"
     },
     {
       "team_id": 1293,
