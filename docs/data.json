@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-23T16:03:30.050260Z",
+  "generated": "2026-07-23T19:33:18.098092Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2251,16 +2251,6 @@
       },
       "events": [
         {
-          "uid": "MS-21531-sarniabrigade.ca",
-          "date": "2026-05-23",
-          "start_time": "1:30 PM",
-          "end_date": "2026-05-23",
-          "summary": "10U AA OBA Rep - Game @ LaSalle  Titans",
-          "location": "Turtle Club",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20004-sarniabrigade.ca",
           "date": "2026-05-24",
           "start_time": "11:00 AM",
@@ -3806,11 +3796,11 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Brock Lane",
+                  "Carson Whittington",
                   "Chris Bonneau",
                   "Clark Thornton",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Kayne Golder",
                   "Logan Conroy",
                   "Marko Sazdov",
                   "Tyler Whetham"
@@ -4092,16 +4082,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21082-sarniabrigade.ca",
-          "date": "2026-05-23",
-          "start_time": "2:45 PM",
-          "end_date": "2026-05-23",
-          "summary": "10U A OBA Rep - Game @ St Catharines",
-          "location": "Doug Tarry Complex Diamond 2",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20924-sarniabrigade.ca",
           "date": "2026-05-25",
@@ -16978,16 +16958,6 @@
       },
       "events": [
         {
-          "uid": "MS-19745-sarniabrigade.ca",
-          "date": "2026-05-23",
-          "start_time": "2:00 PM",
-          "end_date": "2026-05-23",
-          "summary": "CANCELLED 16U PBLO - Game vs Ontario Prospects",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19746-sarniabrigade.ca",
           "date": "2026-05-24",
           "start_time": "11:00 AM",
@@ -19017,16 +18987,6 @@
       },
       "events": [
         {
-          "uid": "MS-21165-sarniabrigade.ca",
-          "date": "2026-05-23",
-          "start_time": "12:30 PM",
-          "end_date": "2026-05-23",
-          "summary": "Senior AAA - Game @ Windsor Stars",
-          "location": "Mic Mac Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21163-sarniabrigade.ca",
           "date": "2026-05-27",
           "start_time": "7:30 PM",
@@ -20161,15 +20121,6 @@
     {
       "team_id": 1298,
       "team_name": "16U PBLO",
-      "type": "game",
-      "date": "2026-05-23",
-      "start_time": "2:00 PM",
-      "summary": "CANCELLED 16U PBLO - Game vs Ontario Prospects",
-      "location": "Errol Russell Park"
-    },
-    {
-      "team_id": 1298,
-      "team_name": "16U PBLO",
       "type": "practice",
       "date": "2026-06-17",
       "start_time": "7:00 PM",
@@ -20209,6 +20160,15 @@
       "type": "game",
       "date": "2026-05-23",
       "start_time": "11:00 AM",
+      "summary": "CANCELLED 16U PBLO - Game vs Ontario Prospects Errol Russell Park",
+      "location": ""
+    },
+    {
+      "team_id": 1298,
+      "team_name": "16U PBLO",
+      "type": "game",
+      "date": "2026-05-23",
+      "start_time": "2:00 PM",
       "summary": "CANCELLED 16U PBLO - Game vs Ontario Prospects Errol Russell Park",
       "location": ""
     },
