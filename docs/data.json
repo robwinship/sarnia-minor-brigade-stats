@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-23T23:03:21.823826Z",
+  "generated": "2026-07-24T10:03:36.730262Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3796,24 +3796,25 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Brock Lane",
-                  "Carson Whittington",
-                  "Chris Bonneau",
+                  "Brogan Murphy",
                   "Clark Thornton",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Logan Conroy",
-                  "Marko Sazdov",
+                  "Ralph Campbell",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
+                  "Joey Buchner",
                   "Paolo Padiglia",
+                  "Steve McGrail",
                   "Tristan Heeringa",
                   "Tyler Hoadley"
                 ],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 10,
-                "denied_count": 3,
+                "pending_count": 9,
+                "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4066,12 +4067,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 19,
-      "wins": 10,
+      "gp": 20,
+      "wins": 11,
       "losses": 9,
       "ties": 0,
-      "runs_for": 169,
-      "runs_against": 220,
+      "runs_for": 178,
+      "runs_against": 225,
       "practices": 30,
       "roster": {
         "players": 13,
@@ -4447,7 +4448,7 @@
           "date": "2026-07-22",
           "start_time": "6:00 PM",
           "end_date": "2026-07-23",
-          "summary": "10U A OBA Rep - Game @ London West Tincaps [10u15]",
+          "summary": "10U A OBA Rep - Game @ London West Tincaps [10u15](W 9-5)",
           "location": "Oakridge Optimist (Upper)",
           "type": "game",
           "cancelled": false
@@ -5085,9 +5086,9 @@
           "start_time": "6:00 PM",
           "opponent": "London West Tincaps",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 5,
           "cancelled": false
         },
         {
@@ -10414,12 +10415,12 @@
       "id": 1297,
       "name": "15U OBA Rep",
       "category": "OBA Rep",
-      "gp": 25,
-      "wins": 10,
-      "losses": 15,
+      "gp": 27,
+      "wins": 11,
+      "losses": 16,
       "ties": 0,
-      "runs_for": 193,
-      "runs_against": 201,
+      "runs_for": 214,
+      "runs_against": 224,
       "practices": 36,
       "roster": {
         "players": 14,
@@ -10855,7 +10856,7 @@
           "date": "2026-07-23",
           "start_time": "6:00 PM",
           "end_date": "2026-07-24",
-          "summary": "15U OBA Rep - Game vs North London Nationals [15u45]",
+          "summary": "15U OBA Rep - Game vs North London Nationals [15u45](W 8-9)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -10865,7 +10866,7 @@
           "date": "2026-07-23",
           "start_time": "8:30 PM",
           "end_date": "2026-07-24",
-          "summary": "15U OBA Rep - Game vs North London Nationals [15u15]",
+          "summary": "15U OBA Rep - Game vs North London Nationals [15u15](L 15-12)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -11559,9 +11560,9 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -11571,9 +11572,9 @@
           "start_time": "8:30 PM",
           "opponent": "North London Nationals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 12,
+          "opp_score": 15,
           "cancelled": false
         },
         {
@@ -11712,8 +11713,8 @@
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch": 2,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
@@ -11775,14 +11776,14 @@
           },
           {
             "date": "2026-07-23",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": false,
             "pair_signatures": [
               "David Haasen | Kirk Vines",
-              "Kirk Vines | Mike Moorhouse"
+              "David Haasen | Mike Moorhouse"
             ],
             "mismatched_names": [
-              "David Haasen",
+              "Kirk Vines",
               "Mike Moorhouse"
             ],
             "games": [
@@ -11811,11 +11812,11 @@
                 "opponent": "North London Nationals",
                 "venue": "Blackwell Park",
                 "assigned_umpires": [
-                  "Kirk Vines",
+                  "David Haasen",
                   "Mike Moorhouse"
                 ],
                 "accepted_umpires": [
-                  "Kirk Vines",
+                  "David Haasen",
                   "Mike Moorhouse"
                 ],
                 "pending_umpires": [],
@@ -12557,12 +12558,12 @@
       "id": 1303,
       "name": "11U Select",
       "category": "Select",
-      "gp": 13,
+      "gp": 14,
       "wins": 8,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "runs_for": 131,
-      "runs_against": 121,
+      "runs_for": 137,
+      "runs_against": 131,
       "practices": 17,
       "roster": {
         "players": 13,
@@ -12808,7 +12809,7 @@
           "date": "2026-07-23",
           "start_time": "6:30 PM",
           "end_date": "2026-07-24",
-          "summary": "11U Select - Game @ Wyoming Wranglers [11uS47]",
+          "summary": "11U Select - Game @ Wyoming Wranglers [11uS47](L 6-10)",
           "location": "Kerr Park",
           "type": "game",
           "cancelled": false
@@ -13194,9 +13195,9 @@
           "start_time": "6:30 PM",
           "opponent": "Wyoming Wranglers",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 10,
           "cancelled": false
         },
         {
