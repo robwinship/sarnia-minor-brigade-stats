@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-24T10:03:36.730262Z",
+  "generated": "2026-07-24T16:03:25.462269Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2251,16 +2251,6 @@
       },
       "events": [
         {
-          "uid": "MS-20004-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "11:00 AM",
-          "end_date": "2026-05-24",
-          "summary": "10U AA OBA Rep - Game @ Leamington  [DH]",
-          "location": "Kinsmen Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21532-sarniabrigade.ca",
           "date": "2026-05-24",
           "start_time": "1:30 PM",
@@ -3797,11 +3787,12 @@
                   "Brian Mundt",
                   "Brock Lane",
                   "Brogan Murphy",
-                  "Clark Thornton",
+                  "Dawson O'Brien",
+                  "Drew Bennett",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Logan Conroy",
-                  "Ralph Campbell",
+                  "Max McClintock",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3813,7 +3804,7 @@
                 ],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 9,
+                "pending_count": 10,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -6659,16 +6650,6 @@
       },
       "events": [
         {
-          "uid": "MS-20320-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "10:45 AM",
-          "end_date": "2026-05-24",
-          "summary": "12U OBA Rep - Game vs Windsor Windsor Nationals(L 29-4)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20321-sarniabrigade.ca",
           "date": "2026-05-24",
           "start_time": "1:00 PM",
@@ -7689,12 +7670,12 @@
       "id": 1295,
       "name": "13U OBA Rep",
       "category": "OBA Rep",
-      "gp": 26,
-      "wins": 16,
+      "gp": 27,
+      "wins": 17,
       "losses": 10,
       "ties": 0,
-      "runs_for": 278,
-      "runs_against": 188,
+      "runs_for": 289,
+      "runs_against": 193,
       "practices": 25,
       "roster": {
         "players": 13,
@@ -8060,7 +8041,7 @@
           "date": "2026-07-23",
           "start_time": "6:00 PM",
           "end_date": "2026-07-24",
-          "summary": "13U OBA Rep - Game vs Corunna Giants [WC13U-57]",
+          "summary": "13U OBA Rep - Game vs Corunna Giants [WC13U-57](W 5-11)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -8642,9 +8623,9 @@
           "start_time": "6:00 PM",
           "opponent": "Corunna Giants WC13U-57 Tecumseh Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 5,
           "cancelled": false
         },
         {
@@ -8794,16 +8775,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20443-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-24",
-          "summary": "14U OBA Rep - Game @ Chatham Diamonds 14U [WC15U-029](T 0-0)",
-          "location": "Fergie Jenkins Field",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20444-sarniabrigade.ca",
           "date": "2026-05-24",
@@ -10432,16 +10403,6 @@
       },
       "events": [
         {
-          "uid": "MS-19759-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "11:00 AM",
-          "end_date": "2026-05-24",
-          "summary": "15U OBA Rep - Game @ Tecumseh Rangers(L 1-11)",
-          "location": "Town Hall South",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19760-sarniabrigade.ca",
           "date": "2026-05-24",
           "start_time": "1:30 PM",
@@ -11860,16 +11821,6 @@
       },
       "events": [
         {
-          "uid": "MS-20701-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-24",
-          "summary": "9U Select - Game vs St. Thomas Cardinals [9uS60](L 24-8)",
-          "location": "Clearwater Diamond #1",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20702-sarniabrigade.ca",
           "date": "2026-05-24",
           "start_time": "1:00 PM",
@@ -12564,7 +12515,7 @@
       "ties": 0,
       "runs_for": 137,
       "runs_against": 131,
-      "practices": 17,
+      "practices": 16,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -12574,16 +12525,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20110-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "10:00 AM",
-          "end_date": "2026-05-24",
-          "summary": "11U Select - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20825-sarniabrigade.ca",
           "date": "2026-05-26",
@@ -15708,6 +15649,16 @@
           "location": "TBD",
           "type": "practice",
           "cancelled": false
+        },
+        {
+          "uid": "MS-22111-sarniabrigade.ca",
+          "date": "2026-07-30",
+          "start_time": "6:00 PM",
+          "end_date": "2026-07-31",
+          "summary": "11U Lady Brigade - Game @ Corunna Giants Select [9UHS-011]",
+          "location": "Athletic Park (1)",
+          "type": "game",
+          "cancelled": false
         }
       ],
       "games": [
@@ -15874,6 +15825,18 @@
           "start_time": "6:30 PM",
           "opponent": "Corunna Minor Giants Clearwater Diamond",
           "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22111",
+          "href": "https://sarniabrigade.ca/Teams/1310/Games/22111/",
+          "date": "2026-07-30",
+          "start_time": "6:00 PM",
+          "opponent": "Corunna Giants Select",
+          "home": false,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -16948,16 +16911,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19746-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "11:00 AM",
-          "end_date": "2026-05-24",
-          "summary": "16U PBLO - Game vs Ontario Prospects(L 11-8)",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-19747-sarniabrigade.ca",
           "date": "2026-05-24",
