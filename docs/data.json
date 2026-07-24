@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-24T16:03:25.462269Z",
+  "generated": "2026-07-24T19:33:26.254399Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -29,26 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20261-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "1:00 PM",
-          "end_date": "2026-05-24",
-          "summary": "8U OBA Rep - Game @ Leamington Lakers(W 16-13)",
-          "location": "Kinsmen Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20262-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "3:00 PM",
-          "end_date": "2026-05-24",
-          "summary": "8U OBA Rep - Game @ Leamington Lakers(L 15-22)",
-          "location": "Kinsmen Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20303-sarniabrigade.ca",
           "date": "2026-05-26",
@@ -2251,16 +2231,6 @@
       },
       "events": [
         {
-          "uid": "MS-21532-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "1:30 PM",
-          "end_date": "2026-05-24",
-          "summary": "10U AA OBA Rep - Game @ Leamington",
-          "location": "Kinsmen Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21235-sarniabrigade.ca",
           "date": "2026-05-27",
           "start_time": "4:30 PM",
@@ -3786,13 +3756,16 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Brock Lane",
-                  "Brogan Murphy",
+                  "Cruz Marinaro",
+                  "Dan Scott",
                   "Dawson O'Brien",
                   "Drew Bennett",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Logan Conroy",
-                  "Max McClintock",
+                  "Mike Moorhouse",
+                  "Myles Hobbs",
+                  "Ralph Campbell",
+                  "Shane Moorhouse",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3804,7 +3777,7 @@
                 ],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 10,
+                "pending_count": 13,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4665,22 +4638,22 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20838-sarniabrigade.ca",
-          "date": "2026-08-30",
-          "start_time": "4:00 PM",
-          "end_date": "2026-08-31",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20260-sarniabrigade.ca",
           "date": "2026-09-01",
           "start_time": "6:30 PM",
           "end_date": "2026-09-02",
           "summary": "10U A OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22113-sarniabrigade.ca",
+          "date": "2026-09-02",
+          "start_time": "5:30 PM",
+          "end_date": "2026-09-02",
+          "summary": "10U A OBA Rep - Practice",
+          "location": "Suncor Recreation Centre",
           "type": "practice",
           "cancelled": false
         },
@@ -6649,16 +6622,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-20321-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "1:00 PM",
-          "end_date": "2026-05-24",
-          "summary": "12U OBA Rep - Game vs Windsor Windsor Nationals(L 20-4)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20794-sarniabrigade.ca",
           "date": "2026-05-25",
@@ -8776,16 +8739,6 @@
       },
       "events": [
         {
-          "uid": "MS-20444-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "12:00 PM",
-          "end_date": "2026-05-24",
-          "summary": "14U OBA Rep - Game @ Chatham Diamonds 14U [WC15U-084](T 0-0)",
-          "location": "Fergie Jenkins Field",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20421-sarniabrigade.ca",
           "date": "2026-05-25",
           "start_time": "6:00 PM",
@@ -10403,16 +10356,6 @@
       },
       "events": [
         {
-          "uid": "MS-19760-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "1:30 PM",
-          "end_date": "2026-05-24",
-          "summary": "15U OBA Rep - Game @ Tecumseh Rangers(W 9-6)",
-          "location": "Town Hall South",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19782-sarniabrigade.ca",
           "date": "2026-05-26",
           "start_time": "5:30 PM",
@@ -11820,16 +11763,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20702-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "1:00 PM",
-          "end_date": "2026-05-24",
-          "summary": "9U Select - Game vs St. Thomas Cardinals [9uS79](L 29-27)",
-          "location": "Clearwater Diamond #1",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20534-sarniabrigade.ca",
           "date": "2026-05-28",
@@ -13955,12 +13888,36 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-07-27",
+            "time": "6:00 PM",
+            "opponent": "Strathroy Royals",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Dan Scott",
+              "Hayden Scheuermann"
+            ],
+            "accepted_umpires": [
+              "Hayden Scheuermann"
+            ],
+            "pending_umpires": [
+              "Dan Scott"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 5351.68,
@@ -16345,16 +16302,6 @@
       },
       "events": [
         {
-          "uid": "MS-21209-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "1:00 PM",
-          "end_date": "2026-05-24",
-          "summary": "CANCELLED 13U LDBA House League - Game vs North Middlesex 2 [13uW09]",
-          "location": "Clearwater Diamond #2",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21210-sarniabrigade.ca",
           "date": "2026-05-29",
           "start_time": "6:00 PM",
@@ -16911,16 +16858,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19747-sarniabrigade.ca",
-          "date": "2026-05-24",
-          "start_time": "2:00 PM",
-          "end_date": "2026-05-24",
-          "summary": "16U PBLO - Game vs Ontario Prospects(L 7-3)",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20214-sarniabrigade.ca",
           "date": "2026-05-25",
@@ -20030,15 +19967,6 @@
       "team_id": 1302,
       "team_name": "13U LDBA House League",
       "type": "game",
-      "date": "2026-05-24",
-      "start_time": "1:00 PM",
-      "summary": "CANCELLED 13U LDBA House League - Game vs North Middlesex 2 [13uW09]",
-      "location": "Clearwater Diamond #2"
-    },
-    {
-      "team_id": 1302,
-      "team_name": "13U LDBA House League",
-      "type": "game",
       "date": "2026-06-07",
       "start_time": "1:00 PM",
       "summary": "CANCELLED 13U LDBA House League - Game vs DKMB Blue [13uW25]",
@@ -20052,6 +19980,15 @@
       "start_time": "1:00 PM",
       "summary": "CANCELLED 13U LDBA House League - Practice",
       "location": "Clearwater Diamond #2"
+    },
+    {
+      "team_id": 1302,
+      "team_name": "13U LDBA House League",
+      "type": "game",
+      "date": "2026-05-24",
+      "start_time": "1:00 PM",
+      "summary": "CANCELLED 13U LDBA House League - Game vs North Middlesex",
+      "location": ""
     },
     {
       "team_id": 1298,
