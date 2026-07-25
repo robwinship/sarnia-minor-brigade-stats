@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-25T10:03:41.490316Z",
+  "generated": "2026-07-25T16:03:23.000209Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3747,10 +3747,8 @@
                   "Brian Mundt",
                   "Brock Lane",
                   "Dawson O'Brien",
-                  "Drew Bennett",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Myles Hobbs",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3763,7 +3761,7 @@
                 ],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 8,
+                "pending_count": 6,
                 "denied_count": 6,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -16784,12 +16782,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 44,
-      "wins": 28,
+      "gp": 45,
+      "wins": 29,
       "losses": 16,
       "ties": 0,
-      "runs_for": 319,
-      "runs_against": 243,
+      "runs_for": 337,
+      "runs_against": 254,
       "practices": 32,
       "roster": {
         "players": 15,
@@ -17295,7 +17293,17 @@
           "date": "2026-07-24",
           "start_time": "7:30 PM",
           "end_date": "2026-07-25",
-          "summary": "16U PBLO - Game vs London Badgers",
+          "summary": "16U PBLO - Game vs London Badgers(W 11-18)",
+          "location": "Errol Russell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22121-sarniabrigade.ca",
+          "date": "2026-07-25",
+          "start_time": "1:00 PM",
+          "end_date": "2026-07-25",
+          "summary": "16U PBLO - Game vs Oshawa Legionnaires",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -18110,6 +18118,18 @@
           "date": "2026-07-24",
           "start_time": "7:30 PM",
           "opponent": "London Badgers Errol Russell Park",
+          "home": true,
+          "result": "W",
+          "brigade_score": 18,
+          "opp_score": 11,
+          "cancelled": false
+        },
+        {
+          "game_id": "22121",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/22121/",
+          "date": "2026-07-25",
+          "start_time": "1:00 PM",
+          "opponent": "Oshawa Legionnaires Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
