@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-24T23:03:30.554001Z",
+  "generated": "2026-07-25T10:03:41.490316Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1287,8 +1287,8 @@
       "wins": 10,
       "losses": 10,
       "ties": 0,
-      "runs_for": 232,
-      "runs_against": 181,
+      "runs_for": 243,
+      "runs_against": 192,
       "practices": 21,
       "roster": {
         "players": 12,
@@ -1644,7 +1644,7 @@
           "date": "2026-07-22",
           "start_time": "6:00 PM",
           "end_date": "2026-07-23",
-          "summary": "9U OBA Rep - Game vs Lucan-Ilderton Athletics [9u67]",
+          "summary": "9U OBA Rep - Game vs Lucan-Ilderton Athletics [9u67](T 11-11)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -1757,16 +1757,6 @@
           "summary": "9U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MD-3287-sarniabrigade.ca",
-          "date": "2026-05-22",
-          "start_time": null,
-          "end_date": "2026-05-25",
-          "summary": "9U OBA Rep - Corbett Classic",
-          "location": "Cambridge",
-          "type": "tournament",
           "cancelled": false
         },
         {
@@ -2071,8 +2061,8 @@
           "opponent": "Lucan-Ilderton Athletics",
           "home": true,
           "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "brigade_score": 11,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -3761,11 +3751,11 @@
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Myles Hobbs",
-                  "Ralph Campbell",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Joey Buchner",
+                  "Myles Hobbs",
                   "Paolo Padiglia",
                   "Steve McGrail",
                   "Tristan Heeringa",
@@ -3773,8 +3763,8 @@
                 ],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 9,
-                "denied_count": 5,
+                "pending_count": 8,
+                "denied_count": 6,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4661,16 +4651,6 @@
           "summary": "10U A OBA Rep - Practice",
           "location": "Coronation Park Diamond",
           "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MD-3292-sarniabrigade.ca",
-          "date": "2026-05-22",
-          "start_time": null,
-          "end_date": "2026-05-25",
-          "summary": "10U A OBA Rep - Cardinal Classic Tournament",
-          "location": "St. Thomas, Ontario",
-          "type": "tournament",
           "cancelled": false
         },
         {
@@ -6602,12 +6582,12 @@
       "id": 1294,
       "name": "12U OBA Rep",
       "category": "OBA Rep",
-      "gp": 17,
-      "wins": 9,
-      "losses": 8,
+      "gp": 19,
+      "wins": 10,
+      "losses": 9,
       "ties": 0,
-      "runs_for": 123,
-      "runs_against": 170,
+      "runs_for": 141,
+      "runs_against": 182,
       "practices": 23,
       "roster": {
         "players": 13,
@@ -6873,7 +6853,7 @@
           "date": "2026-07-24",
           "start_time": "6:00 PM",
           "end_date": "2026-07-25",
-          "summary": "12U OBA Rep - Game @ London West Tincaps [12u16]",
+          "summary": "12U OBA Rep - Game @ London West Tincaps [12u16](W 12-2)",
           "location": "West Lions",
           "type": "game",
           "cancelled": false
@@ -6883,7 +6863,7 @@
           "date": "2026-07-24",
           "start_time": "8:15 PM",
           "end_date": "2026-07-25",
-          "summary": "12U OBA Rep - Game @ London West Tincaps [12u37]",
+          "summary": "12U OBA Rep - Game @ London West Tincaps [12u37](L 6-10)",
           "location": "West Lions",
           "type": "game",
           "cancelled": false
@@ -7377,9 +7357,9 @@
           "start_time": "6:00 PM",
           "opponent": "London West Tincaps",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -7389,9 +7369,9 @@
           "start_time": "8:15 PM",
           "opponent": "London West Tincaps",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -13189,12 +13169,12 @@
       "id": 1300,
       "name": "13U Select",
       "category": "Select",
-      "gp": 14,
-      "wins": 10,
+      "gp": 15,
+      "wins": 11,
       "losses": 4,
       "ties": 0,
-      "runs_for": 146,
-      "runs_against": 85,
+      "runs_for": 158,
+      "runs_against": 87,
       "practices": 17,
       "roster": {
         "players": 12,
@@ -13440,7 +13420,7 @@
           "date": "2026-07-24",
           "start_time": "6:00 PM",
           "end_date": "2026-07-25",
-          "summary": "13U Select - Game vs Ingersoll Ironbirds [13uS40]",
+          "summary": "13U Select - Game vs Ingersoll Ironbirds [13uS40](W 2-12)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -13816,9 +13796,9 @@
           "start_time": "6:00 PM",
           "opponent": "Ingersoll Ironbirds",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 2,
           "cancelled": false
         },
         {
