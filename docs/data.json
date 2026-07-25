@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-25T16:03:23.000209Z",
+  "generated": "2026-07-25T19:33:14.784305Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -15301,12 +15301,12 @@
       "id": 1310,
       "name": "11U Lady Brigade",
       "category": "River League",
-      "gp": 10,
+      "gp": 11,
       "wins": 0,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "runs_for": 70,
-      "runs_against": 143,
+      "runs_for": 77,
+      "runs_against": 157,
       "practices": 10,
       "roster": {
         "players": 12,
@@ -15522,7 +15522,7 @@
           "date": "2026-07-23",
           "start_time": "6:30 PM",
           "end_date": "2026-07-24",
-          "summary": "11U Lady Brigade - Game @ Wyoming Wranglers Red [RL11UN-15]",
+          "summary": "11U Lady Brigade - Game @ Wyoming Wranglers Red [RL11UN-15](L 7-14)",
           "location": "Bridgeview Park",
           "type": "game",
           "cancelled": false
@@ -15710,9 +15710,9 @@
           "start_time": "6:30 PM",
           "opponent": "Wyoming Wranglers Red RL11UN-15 Bridgeview Par",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 7,
+          "opp_score": 14,
           "cancelled": false
         },
         {
