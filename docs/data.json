@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-26T19:33:04.518927Z",
+  "generated": "2026-07-26T23:03:22.100619Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 430,
       "runs_against": 466,
-      "practices": 22,
+      "practices": 21,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20303-sarniabrigade.ca",
-          "date": "2026-05-26",
-          "start_time": "5:00 PM",
-          "end_date": "2026-05-26",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21710-sarniabrigade.ca",
           "date": "2026-05-27",
@@ -1289,7 +1279,7 @@
       "ties": 0,
       "runs_for": 243,
       "runs_against": 192,
-      "practices": 21,
+      "practices": 20,
       "roster": {
         "players": 12,
         "adults": 5,
@@ -1299,16 +1289,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20183-sarniabrigade.ca",
-          "date": "2026-05-26",
-          "start_time": "5:00 PM",
-          "end_date": "2026-05-26",
-          "summary": "9U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20737-sarniabrigade.ca",
           "date": "2026-05-27",
@@ -3748,16 +3728,18 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
+                  "Chris Bonneau",
                   "Dan Scott",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Mike Moorhouse",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [],
                 "assigned_count": 106,
                 "accepted_count": 106,
-                "pending_count": 6,
+                "pending_count": 8,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4027,16 +4009,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20852-sarniabrigade.ca",
-          "date": "2026-05-26",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-27",
-          "summary": "10U A OBA Rep - Game @ Lucan-Ilderton Athletics [10u49](W 11-2)",
-          "location": "Lucan (2)",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20158-sarniabrigade.ca",
           "date": "2026-05-28",
@@ -5220,7 +5192,7 @@
       "ties": 0,
       "runs_for": 194,
       "runs_against": 175,
-      "practices": 25,
+      "practices": 24,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5230,16 +5202,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20083-sarniabrigade.ca",
-          "date": "2026-05-26",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-27",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20827-sarniabrigade.ca",
           "date": "2026-05-28",
@@ -6566,12 +6528,12 @@
       "id": 1294,
       "name": "12U OBA Rep",
       "category": "OBA Rep",
-      "gp": 19,
-      "wins": 10,
-      "losses": 9,
+      "gp": 21,
+      "wins": 11,
+      "losses": 10,
       "ties": 0,
-      "runs_for": 141,
-      "runs_against": 182,
+      "runs_for": 157,
+      "runs_against": 200,
       "practices": 23,
       "roster": {
         "players": 13,
@@ -6847,7 +6809,7 @@
           "date": "2026-07-26",
           "start_time": "10:00 AM",
           "end_date": "2026-07-26",
-          "summary": "12U OBA Rep - Game vs Dresden Major",
+          "summary": "12U OBA Rep - Game vs Dresden Major (W 7-8)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6857,7 +6819,7 @@
           "date": "2026-07-26",
           "start_time": "1:00 PM",
           "end_date": "2026-07-26",
-          "summary": "12U OBA Rep - Game vs Dresden Major",
+          "summary": "12U OBA Rep - Game vs Dresden Major (L 11-8)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -7355,9 +7317,9 @@
           "start_time": "10:00 AM",
           "opponent": "Dresden Major Tecumseh Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 8,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -7367,9 +7329,9 @@
           "start_time": "1:00 PM",
           "opponent": "Dresden Major Tecumseh Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 8,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -7599,16 +7561,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20864-sarniabrigade.ca",
-          "date": "2026-05-26",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-27",
-          "summary": "13U OBA Rep - Game @ Lucan-Ilderton Athletics [13u25](T 6-6)",
-          "location": "Heritage (1)",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20867-sarniabrigade.ca",
           "date": "2026-05-28",
@@ -10275,7 +10227,7 @@
       "ties": 0,
       "runs_for": 214,
       "runs_against": 224,
-      "practices": 36,
+      "practices": 35,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10285,26 +10237,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19782-sarniabrigade.ca",
-          "date": "2026-05-26",
-          "start_time": "5:30 PM",
-          "end_date": "2026-05-26",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20897-sarniabrigade.ca",
-          "date": "2026-05-26",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-27",
-          "summary": "15U OBA Rep - Game @ London Badgers [15u75](L 5-11)",
-          "location": "Stronach (Aldridge)",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-19799-sarniabrigade.ca",
           "date": "2026-05-28",
@@ -12388,16 +12320,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20825-sarniabrigade.ca",
-          "date": "2026-05-26",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-27",
-          "summary": "11U Select - Game @ North London Nationals [11uS138](W 16-6)",
-          "location": "Jack Chambers",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20666-sarniabrigade.ca",
           "date": "2026-05-28",
@@ -16131,12 +16053,12 @@
       "id": 1302,
       "name": "13U LDBA House League",
       "category": "House League",
-      "gp": 12,
-      "wins": 10,
+      "gp": 13,
+      "wins": 11,
       "losses": 2,
       "ties": 0,
-      "runs_for": 196,
-      "runs_against": 67,
+      "runs_for": 217,
+      "runs_against": 72,
       "practices": 13,
       "roster": {
         "players": 14,
@@ -16332,7 +16254,7 @@
           "date": "2026-07-26",
           "start_time": "1:00 PM",
           "end_date": "2026-07-26",
-          "summary": "13U LDBA House League - Game vs North Middlesex 1 [13uW33]",
+          "summary": "13U LDBA House League - Game vs North Middlesex 1 [13uW33](W 5-21)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -16636,9 +16558,9 @@
           "start_time": "1:00 PM",
           "opponent": "North Middlesex",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 21,
+          "opp_score": 5,
           "cancelled": false
         },
         {
