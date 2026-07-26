@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-25T23:03:34.605917Z",
+  "generated": "2026-07-26T10:03:32.365238Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -8668,12 +8668,12 @@
       "id": 1296,
       "name": "14U OBA Rep",
       "category": "OBA Rep",
-      "gp": 33,
-      "wins": 26,
+      "gp": 34,
+      "wins": 27,
       "losses": 7,
       "ties": 0,
-      "runs_for": 400,
-      "runs_against": 197,
+      "runs_for": 410,
+      "runs_against": 198,
       "practices": 34,
       "roster": {
         "players": 14,
@@ -9179,7 +9179,7 @@
           "date": "2026-07-25",
           "start_time": "4:00 PM",
           "end_date": "2026-07-25",
-          "summary": "14U OBA Rep - Game vs North London Nationals [14u65]",
+          "summary": "14U OBA Rep - Game vs North London Nationals [14u65](W 1-10)",
           "location": "Canton",
           "type": "game",
           "cancelled": false
@@ -10055,9 +10055,9 @@
           "start_time": "4:00 PM",
           "opponent": "North London Nationals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 10,
+          "opp_score": 1,
           "cancelled": false
         },
         {
@@ -16700,7 +16700,7 @@
       "ties": 0,
       "runs_for": 337,
       "runs_against": 254,
-      "practices": 32,
+      "practices": 31,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -16710,16 +16710,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20214-sarniabrigade.ca",
-          "date": "2026-05-25",
-          "start_time": "7:00 PM",
-          "end_date": "2026-05-26",
-          "summary": "16U PBLO - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20014-sarniabrigade.ca",
           "date": "2026-05-27",
