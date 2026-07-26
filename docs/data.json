@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-26T10:03:32.365238Z",
+  "generated": "2026-07-26T16:03:04.914019Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3746,9 +3746,14 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Brock Lane",
-                  "Dawson O'Brien",
+                  "David Haasen",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Jarett Simons",
+                  "Matthew Schrie",
+                  "Mike Moorhouse",
+                  "Paolo Padiglia",
+                  "Tristan Heeringa",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
@@ -3763,7 +3768,7 @@
                 ],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 7,
+                "pending_count": 12,
                 "denied_count": 7,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -5220,12 +5225,12 @@
       "id": 1293,
       "name": "11U OBA Rep",
       "category": "OBA Rep",
-      "gp": 20,
+      "gp": 22,
       "wins": 12,
-      "losses": 8,
+      "losses": 10,
       "ties": 0,
-      "runs_for": 183,
-      "runs_against": 161,
+      "runs_for": 194,
+      "runs_against": 175,
       "practices": 25,
       "roster": {
         "players": 12,
@@ -5601,7 +5606,7 @@
           "date": "2026-07-25",
           "start_time": "4:00 PM",
           "end_date": "2026-07-25",
-          "summary": "11U OBA Rep - Game vs Dorchester Diamondbacks [11u10]",
+          "summary": "11U OBA Rep - Game vs Dorchester Diamondbacks [11u10](L 5-4)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -5611,7 +5616,7 @@
           "date": "2026-07-25",
           "start_time": "6:30 PM",
           "end_date": "2026-07-26",
-          "summary": "11U OBA Rep - Game vs Dorchester Diamondbacks [11u36]",
+          "summary": "11U OBA Rep - Game vs Dorchester Diamondbacks [11u36](L 9-7)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -6225,9 +6230,9 @@
           "start_time": "4:00 PM",
           "opponent": "Dorchester Diamondbacks",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 5,
           "cancelled": false
         },
         {
@@ -6237,9 +6242,9 @@
           "start_time": "6:30 PM",
           "opponent": "Dorchester Diamondbacks",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 7,
+          "opp_score": 9,
           "cancelled": false
         },
         {
