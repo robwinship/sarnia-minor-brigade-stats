@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-27T19:33:50.533127Z",
+  "generated": "2026-07-27T23:03:54.101313Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 469,
       "runs_against": 486,
-      "practices": 21,
+      "practices": 20,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21710-sarniabrigade.ca",
-          "date": "2026-05-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-27",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20804-sarniabrigade.ca",
           "date": "2026-05-31",
@@ -1290,16 +1280,6 @@
       },
       "events": [
         {
-          "uid": "MS-20737-sarniabrigade.ca",
-          "date": "2026-05-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-28",
-          "summary": "9U OBA Rep - Game vs Strathroy Royals [9u28](W 7-22)",
-          "location": "Clearwater Diamond #1",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20779-sarniabrigade.ca",
           "date": "2026-05-28",
           "start_time": "6:00 PM",
@@ -2190,7 +2170,7 @@
       "ties": 0,
       "runs_for": 66,
       "runs_against": 56,
-      "practices": 32,
+      "practices": 30,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -2200,26 +2180,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21235-sarniabrigade.ca",
-          "date": "2026-05-27",
-          "start_time": "4:30 PM",
-          "end_date": "2026-05-27",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19656-sarniabrigade.ca",
-          "date": "2026-05-27",
-          "start_time": "5:30 PM",
-          "end_date": "2026-05-27",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21554-sarniabrigade.ca",
           "date": "2026-05-29",
@@ -6531,7 +6491,7 @@
       "ties": 0,
       "runs_for": 157,
       "runs_against": 200,
-      "practices": 23,
+      "practices": 22,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -6541,16 +6501,6 @@
         "managers": 2
       },
       "events": [
-        {
-          "uid": "MS-20548-sarniabrigade.ca",
-          "date": "2026-05-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-28",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20585-sarniabrigade.ca",
           "date": "2026-06-01",
@@ -13049,16 +12999,6 @@
       },
       "events": [
         {
-          "uid": "MS-20703-sarniabrigade.ca",
-          "date": "2026-05-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-28",
-          "summary": "13U Select - Game @ Southwest London Scorpions [13uS72](L 9-19)",
-          "location": "SW Optimists Park (1)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19826-sarniabrigade.ca",
           "date": "2026-05-29",
           "start_time": "6:00 PM",
@@ -13743,7 +13683,7 @@
       "ties": 0,
       "runs_for": 108,
       "runs_against": 135,
-      "practices": 21,
+      "practices": 20,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -13753,16 +13693,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21711-sarniabrigade.ca",
-          "date": "2026-05-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-28",
-          "summary": "15U Select - Practice",
-          "location": "Suncor Recreation Centre",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21521-sarniabrigade.ca",
           "date": "2026-05-28",
@@ -16593,7 +16523,7 @@
       "ties": 0,
       "runs_for": 337,
       "runs_against": 254,
-      "practices": 31,
+      "practices": 30,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -16603,16 +16533,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20014-sarniabrigade.ca",
-          "date": "2026-05-27",
-          "start_time": "6:00 PM",
-          "end_date": "2026-05-28",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21926-sarniabrigade.ca",
           "date": "2026-05-29",
