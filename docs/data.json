@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-26T23:03:22.100619Z",
+  "generated": "2026-07-27T10:03:31.256658Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3729,18 +3729,20 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Chris Bonneau",
-                  "Dan Scott",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Mike Moorhouse",
+                  "Marko Sazdov",
+                  "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Whetham"
                 ],
-                "denied_umpires": [],
+                "denied_umpires": [
+                  "Summer Steinke"
+                ],
                 "assigned_count": 106,
                 "accepted_count": 106,
                 "pending_count": 8,
-                "denied_count": 0,
+                "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -3993,12 +3995,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 20,
-      "wins": 11,
-      "losses": 9,
+      "gp": 22,
+      "wins": 12,
+      "losses": 10,
       "ties": 0,
-      "runs_for": 178,
-      "runs_against": 225,
+      "runs_for": 202,
+      "runs_against": 244,
       "practices": 29,
       "roster": {
         "players": 13,
@@ -4374,7 +4376,7 @@
           "date": "2026-07-26",
           "start_time": "4:00 PM",
           "end_date": "2026-07-26",
-          "summary": "10U A OBA Rep - Game vs Lucan-Ilderton Athletics [10u04]",
+          "summary": "10U A OBA Rep - Game vs Lucan-Ilderton Athletics [10u04](L 13-9)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -4384,7 +4386,7 @@
           "date": "2026-07-26",
           "start_time": "6:30 PM",
           "end_date": "2026-07-27",
-          "summary": "10U A OBA Rep - Game vs Lucan-Ilderton Athletics [10u34]",
+          "summary": "10U A OBA Rep - Game vs Lucan-Ilderton Athletics [10u34](W 6-15)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -4994,9 +4996,9 @@
           "start_time": "4:00 PM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 9,
+          "opp_score": 13,
           "cancelled": false
         },
         {
@@ -5006,9 +5008,9 @@
           "start_time": "6:30 PM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 15,
+          "opp_score": 6,
           "cancelled": false
         },
         {
@@ -7398,8 +7400,8 @@
       "umpire_issues": {
         "games_missed": 1,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch": 2,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -7478,7 +7480,7 @@
           },
           {
             "date": "2026-07-26",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": false,
             "pair_signatures": [
               "Lane Vanden Ouweland | Marko Sazdov",
@@ -8630,16 +8632,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20510-sarniabrigade.ca",
-          "date": "2026-05-26",
-          "start_time": "7:00 PM",
-          "end_date": "2026-05-27",
-          "summary": "14U OBA Rep - Game @ Chatham Diamonds 15U [WC15U-028](L 0-10)",
-          "location": "Fergie Jenkins Field",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21601-sarniabrigade.ca",
           "date": "2026-05-28",
@@ -11609,12 +11601,12 @@
       "id": 1299,
       "name": "9U Select",
       "category": "Select",
-      "gp": 9,
+      "gp": 10,
       "wins": 2,
-      "losses": 7,
+      "losses": 8,
       "ties": 0,
-      "runs_for": 89,
-      "runs_against": 177,
+      "runs_for": 91,
+      "runs_against": 198,
       "practices": 22,
       "roster": {
         "players": 13,
@@ -11810,7 +11802,7 @@
           "date": "2026-07-26",
           "start_time": "6:00 PM",
           "end_date": "2026-07-27",
-          "summary": "9U Select - Game vs North London Nationals [9uS48]",
+          "summary": "9U Select - Game vs North London Nationals [9uS48](L 21-2)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -12136,9 +12128,9 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 2,
+          "opp_score": 21,
           "cancelled": false
         },
         {
@@ -13756,7 +13748,7 @@
       "ties": 0,
       "runs_for": 108,
       "runs_against": 135,
-      "practices": 22,
+      "practices": 21,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -13766,16 +13758,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21124-sarniabrigade.ca",
-          "date": "2026-05-26",
-          "start_time": "8:00 PM",
-          "end_date": "2026-05-27",
-          "summary": "15U Select - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21711-sarniabrigade.ca",
           "date": "2026-05-27",
