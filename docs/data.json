@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-27T16:03:28.189958Z",
+  "generated": "2026-07-27T19:33:50.533127Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3728,21 +3728,16 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Dylan Heeringa",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Marko Sazdov",
-                  "Mike Moorhouse",
-                  "Paolo Padiglia",
                   "Tyler Whetham"
                 ],
-                "denied_umpires": [
-                  "Summer Steinke"
-                ],
+                "denied_umpires": [],
                 "assigned_count": 106,
                 "accepted_count": 106,
-                "pending_count": 8,
-                "denied_count": 1,
+                "pending_count": 5,
+                "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -11812,7 +11807,7 @@
           "date": "2026-07-27",
           "start_time": "6:00 PM",
           "end_date": "2026-07-28",
-          "summary": "9U Select - Game @ North London Nationals [9uS12]",
+          "summary": "CANCELLED 9U Select - Game @ North London Nationals [9uS12]",
           "location": "North London (2)",
           "type": "game",
           "cancelled": false
@@ -12143,7 +12138,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20711",
@@ -12568,7 +12563,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-08-07",
           "summary": "11U Select - Game @ Lucan-Ilderton Athletics [11uS23]",
-          "location": "Lucan (2)",
+          "location": "Granton",
           "type": "game",
           "cancelled": false
         },
@@ -19633,6 +19628,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 9U Select - Practice",
       "location": "Blackwell North"
+    },
+    {
+      "team_id": 1299,
+      "team_name": "9U Select",
+      "type": "game",
+      "date": "2026-07-27",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 9U Select - Game @ North London Nationals [9uS12]",
+      "location": "North London (2)"
     },
     {
       "team_id": 1303,
