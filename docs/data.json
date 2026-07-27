@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-27T10:03:31.256658Z",
+  "generated": "2026-07-27T16:03:28.189958Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -13,12 +13,12 @@
       "id": 1290,
       "name": "8U OBA Rep",
       "category": "OBA Rep",
-      "gp": 29,
-      "wins": 15,
+      "gp": 31,
+      "wins": 17,
       "losses": 14,
       "ties": 0,
-      "runs_for": 430,
-      "runs_against": 466,
+      "runs_for": 469,
+      "runs_against": 486,
       "practices": 21,
       "roster": {
         "players": 12,
@@ -424,7 +424,7 @@
           "date": "2026-07-26",
           "start_time": "10:00 AM",
           "end_date": "2026-07-26",
-          "summary": "8U OBA Rep - Game vs Lucan-Ilderton Athletics [8u19]",
+          "summary": "8U OBA Rep - Game vs Lucan-Ilderton Athletics [8u19](W 9-18)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -434,7 +434,7 @@
           "date": "2026-07-26",
           "start_time": "1:00 PM",
           "end_date": "2026-07-26",
-          "summary": "8U OBA Rep - Game vs Lucan-Ilderton Athletics [8u49]",
+          "summary": "8U OBA Rep - Game vs Lucan-Ilderton Athletics [8u49](W 11-21)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -976,9 +976,9 @@
           "start_time": "10:00 AM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 18,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -988,9 +988,9 @@
           "start_time": "1:00 PM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 21,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -3728,12 +3728,12 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Chris Bonneau",
+                  "Dylan Heeringa",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Marko Sazdov",
-                  "Tucker Stokes",
-                  "Tyler Hoadley",
+                  "Mike Moorhouse",
+                  "Paolo Padiglia",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -14523,12 +14523,12 @@
       "id": 1304,
       "name": "9U River League",
       "category": "River League",
-      "gp": 11,
-      "wins": 6,
+      "gp": 12,
+      "wins": 7,
       "losses": 5,
       "ties": 0,
-      "runs_for": 133,
-      "runs_against": 107,
+      "runs_for": 158,
+      "runs_against": 111,
       "practices": 12,
       "roster": {
         "players": 16,
@@ -14724,7 +14724,7 @@
           "date": "2026-07-23",
           "start_time": "6:30 PM",
           "end_date": "2026-07-24",
-          "summary": "9U River League - Game @ Alvinston Riverhawks Grey [RL9UN-49]",
+          "summary": "9U River League - Game @ Alvinston Riverhawks Grey [RL9UN-49](W 25-4)",
           "location": "Inwood Park",
           "type": "game",
           "cancelled": false
@@ -15002,9 +15002,9 @@
           "start_time": "6:30 PM",
           "opponent": "Alvinston Riverhawks Grey RL9UN-49 Inwood Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 25,
+          "opp_score": 4,
           "cancelled": false
         },
         {
