@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-27T23:03:54.101313Z",
+  "generated": "2026-07-28T10:03:43.125711Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3688,7 +3688,7 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Graham Dolbear",
+                  "Cali Vanderslagt",
                   "Grant Purdy",
                   "Marko Sazdov",
                   "Tyler Whetham"
@@ -5143,12 +5143,12 @@
       "id": 1293,
       "name": "11U OBA Rep",
       "category": "OBA Rep",
-      "gp": 22,
+      "gp": 23,
       "wins": 12,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "runs_for": 194,
-      "runs_against": 175,
+      "runs_for": 199,
+      "runs_against": 182,
       "practices": 24,
       "roster": {
         "players": 12,
@@ -5534,7 +5534,7 @@
           "date": "2026-07-27",
           "start_time": "6:30 PM",
           "end_date": "2026-07-28",
-          "summary": "11U OBA Rep - Game @ Dresden Tigers [WC11U-039]",
+          "summary": "11U OBA Rep - Game @ Dresden Tigers [WC11U-039](L 5-7)",
           "location": "McVean Park",
           "type": "game",
           "cancelled": false
@@ -6162,9 +6162,9 @@
           "start_time": "6:30 PM",
           "opponent": "Dresden Tigers WC11U-039 McVean Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 5,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -12982,12 +12982,12 @@
       "id": 1300,
       "name": "13U Select",
       "category": "Select",
-      "gp": 15,
+      "gp": 16,
       "wins": 11,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "runs_for": 158,
-      "runs_against": 87,
+      "runs_for": 165,
+      "runs_against": 96,
       "practices": 16,
       "roster": {
         "players": 12,
@@ -13233,7 +13233,7 @@
           "date": "2026-07-27",
           "start_time": "6:00 PM",
           "end_date": "2026-07-28",
-          "summary": "13U Select - Game vs Strathroy Royals [13uS67]",
+          "summary": "13U Select - Game vs Strathroy Royals [13uS67](L 9-7)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -13601,9 +13601,9 @@
           "start_time": "6:00 PM",
           "opponent": "Strathroy Royals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 7,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -14448,12 +14448,12 @@
       "id": 1304,
       "name": "9U River League",
       "category": "River League",
-      "gp": 12,
-      "wins": 7,
+      "gp": 13,
+      "wins": 8,
       "losses": 5,
       "ties": 0,
-      "runs_for": 158,
-      "runs_against": 111,
+      "runs_for": 170,
+      "runs_against": 122,
       "practices": 12,
       "roster": {
         "players": 16,
@@ -14659,7 +14659,7 @@
           "date": "2026-07-27",
           "start_time": "6:00 PM",
           "end_date": "2026-07-28",
-          "summary": "9U River League - Game vs Alvinston Riverhawks Red [RL9UN-11]",
+          "summary": "9U River League - Game vs Alvinston Riverhawks Red [RL9UN-11](W 11-12)",
           "location": "Blackwell North",
           "type": "game",
           "cancelled": false
@@ -14939,9 +14939,9 @@
           "start_time": "6:00 PM",
           "opponent": "Alvinston Riverhawks Red RL9UN-11 Blackwell No",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -15072,16 +15072,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21431-sarniabrigade.ca",
-          "date": "2026-05-27",
-          "start_time": "6:30 PM",
-          "end_date": "2026-05-28",
-          "summary": "11U Lady Brigade - Game @ Corunna Giants [RL11UN-52](L 11-12)",
-          "location": "Athletic Park (3)",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21071-sarniabrigade.ca",
           "date": "2026-06-01",
@@ -17971,16 +17961,6 @@
       },
       "events": [
         {
-          "uid": "MS-21185-sarniabrigade.ca",
-          "date": "2026-05-27",
-          "start_time": "7:30 PM",
-          "end_date": "2026-05-28",
-          "summary": "22U AAA - Game @ TBA",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21204-sarniabrigade.ca",
           "date": "2026-05-30",
           "start_time": "12:00 PM",
@@ -18544,16 +18524,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21163-sarniabrigade.ca",
-          "date": "2026-05-27",
-          "start_time": "7:30 PM",
-          "end_date": "2026-05-28",
-          "summary": "Senior AAA - Game vs TBA",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21701-sarniabrigade.ca",
           "date": "2026-05-29",
