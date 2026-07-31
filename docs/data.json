@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-31T19:33:26.818975Z",
+  "generated": "2026-07-31T23:03:35.145498Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3607,15 +3607,16 @@
                 "pending_umpires": [
                   "Baya Vandenheuvel",
                   "Brian Mundt",
+                  "Carter Wills",
                   "Dan Scott",
                   "Dawson O'Brien",
                   "Drew Baxter",
                   "Grant Purdy",
                   "Greg Armstrong",
-                  "Kirk Vines",
                   "Logan Conroy",
+                  "Logan Hiscocks",
                   "Tristan Heeringa",
-                  "Tyler Hoadley",
+                  "Tucker Stokes",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -3623,7 +3624,7 @@
                 ],
                 "assigned_count": 106,
                 "accepted_count": 105,
-                "pending_count": 12,
+                "pending_count": 13,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -3893,26 +3894,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20755-sarniabrigade.ca",
-          "date": "2026-05-31",
-          "start_time": "4:00 PM",
-          "end_date": "2026-05-31",
-          "summary": "10U A OBA Rep - Game vs North London Nationals [10u23](W 10-11)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20756-sarniabrigade.ca",
-          "date": "2026-05-31",
-          "start_time": "6:30 PM",
-          "end_date": "2026-06-01",
-          "summary": "10U A OBA Rep - Game vs North London Nationals [10u53](W 9-13)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20247-sarniabrigade.ca",
           "date": "2026-06-02",
@@ -11271,7 +11252,7 @@
       "ties": 0,
       "runs_for": 92,
       "runs_against": 217,
-      "practices": 21,
+      "practices": 20,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -11281,16 +11262,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21705-sarniabrigade.ca",
-          "date": "2026-05-31",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-01",
-          "summary": "9U Select - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20771-sarniabrigade.ca",
           "date": "2026-06-01",
@@ -13384,7 +13355,7 @@
       "ties": 0,
       "runs_for": 111,
       "runs_against": 139,
-      "practices": 19,
+      "practices": 18,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -13394,16 +13365,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21126-sarniabrigade.ca",
-          "date": "2026-05-31",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-01",
-          "summary": "15U Select - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21127-sarniabrigade.ca",
           "date": "2026-06-02",
@@ -16183,17 +16144,18 @@
               "Kirk Vines",
               "Tristan Heeringa"
             ],
-            "accepted_umpires": [],
+            "accepted_umpires": [
+              "Kirk Vines"
+            ],
             "pending_umpires": [
-              "Kirk Vines",
               "Tristan Heeringa"
             ],
             "denied_umpires": [],
             "assigned_count": 2,
-            "accepted_count": 0,
-            "pending_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
             "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
