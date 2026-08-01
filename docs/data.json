@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-07-31T23:03:35.145498Z",
+  "generated": "2026-08-01T10:03:30.901637Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2701,16 +2701,6 @@
           "cancelled": false
         },
         {
-          "uid": "MD-3236-sarniabrigade.ca",
-          "date": "2026-05-29",
-          "start_time": null,
-          "end_date": "2026-06-01",
-          "summary": "10U AA OBA Rep - Mississauga Tournament",
-          "location": "Sarnia, Ontario",
-          "type": "tournament",
-          "cancelled": false
-        },
-        {
           "uid": "MD-3234-sarniabrigade.ca",
           "date": "2026-06-05",
           "start_time": null,
@@ -3608,7 +3598,6 @@
                   "Baya Vandenheuvel",
                   "Brian Mundt",
                   "Carter Wills",
-                  "Dan Scott",
                   "Dawson O'Brien",
                   "Drew Baxter",
                   "Grant Purdy",
@@ -3617,6 +3606,7 @@
                   "Logan Hiscocks",
                   "Tristan Heeringa",
                   "Tucker Stokes",
+                  "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
@@ -6777,16 +6767,6 @@
           "summary": "12U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MD-3225-sarniabrigade.ca",
-          "date": "2026-05-29",
-          "start_time": null,
-          "end_date": "2026-06-01",
-          "summary": "12U OBA Rep - St Thomas Cardinal Classic",
-          "location": "St thomas Ontario",
-          "type": "tournament",
           "cancelled": false
         },
         {
@@ -10543,16 +10523,6 @@
           "cancelled": false
         },
         {
-          "uid": "MD-3268-sarniabrigade.ca",
-          "date": "2026-05-29",
-          "start_time": null,
-          "end_date": "2026-06-01",
-          "summary": "15U OBA Rep - Royal City Showdown 15U AA",
-          "location": "Guelph, ON",
-          "type": "tournament",
-          "cancelled": false
-        },
-        {
           "uid": "MD-3264-sarniabrigade.ca",
           "date": "2026-06-12",
           "start_time": null,
@@ -11091,36 +11061,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 2,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-08-01",
-            "time": "12:00 PM",
-            "opponent": "Tecumseh Rangers",
-            "venue": "Blackwell Park",
-            "assigned_umpires": [
-              "Dan Scott",
-              "Greg Baker"
-            ],
-            "accepted_umpires": [
-              "Greg Baker"
-            ],
-            "pending_umpires": [
-              "Dan Scott"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-07-18",
@@ -13349,12 +13295,12 @@
       "id": 1301,
       "name": "15U Select",
       "category": "Select",
-      "gp": 11,
-      "wins": 5,
+      "gp": 12,
+      "wins": 6,
       "losses": 6,
       "ties": 0,
-      "runs_for": 111,
-      "runs_against": 139,
+      "runs_for": 125,
+      "runs_against": 145,
       "practices": 18,
       "roster": {
         "players": 12,
@@ -13580,7 +13526,7 @@
           "date": "2026-07-31",
           "start_time": "6:00 PM",
           "end_date": "2026-08-01",
-          "summary": "15U Select - Game @ North London Nationals [15uS48]",
+          "summary": "15U Select - Game @ North London Nationals [15uS48](W 14-6)",
           "location": "Stoneybrook (1)",
           "type": "game",
           "cancelled": false
@@ -13920,9 +13866,9 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 14,
+          "opp_score": 6,
           "cancelled": false
         },
         {
