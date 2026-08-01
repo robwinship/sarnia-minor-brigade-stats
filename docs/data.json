@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-01T10:03:30.901637Z",
+  "generated": "2026-08-01T16:03:21.340824Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -10308,7 +10308,7 @@
           "start_time": "12:00 PM",
           "end_date": "2026-08-01",
           "summary": "15U OBA Rep - Game vs Tecumseh Rangers",
-          "location": "Blackwell Park",
+          "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
         },
@@ -10955,7 +10955,7 @@
           "href": "https://sarniabrigade.ca/Teams/1297/Games/19813/",
           "date": "2026-08-01",
           "start_time": "12:00 PM",
-          "opponent": "Tecumseh Rangers Blackwell Park",
+          "opponent": "Tecumseh Rangers Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
