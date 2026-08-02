@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-02T10:03:26.503374Z",
+  "generated": "2026-08-02T16:03:26.543142Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3587,24 +3587,27 @@
                 "pending_umpires": [
                   "Baya Vandenheuvel",
                   "Brian Mundt",
+                  "Brogan Murphy",
                   "Carter Wills",
                   "Dawson O'Brien",
                   "Drew Baxter",
                   "Grant Purdy",
                   "Logan Conroy",
                   "Logan Hiscocks",
+                  "Marko Sazdov",
+                  "Ralph Campbell",
                   "Tristan Heeringa",
                   "Tucker Stokes",
-                  "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
+                  "Hayden Scheuermann",
                   "Jason Lajeunesse"
                 ],
                 "assigned_count": 106,
                 "accepted_count": 105,
-                "pending_count": 12,
-                "denied_count": 1,
+                "pending_count": 14,
+                "denied_count": 2,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -3857,12 +3860,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 28,
+      "gp": 29,
       "wins": 14,
-      "losses": 14,
+      "losses": 15,
       "ties": 0,
-      "runs_for": 241,
-      "runs_against": 289,
+      "runs_for": 245,
+      "runs_against": 299,
       "practices": 27,
       "roster": {
         "players": 13,
@@ -4238,7 +4241,7 @@
           "date": "2026-07-28",
           "start_time": "6:00 PM",
           "end_date": "2026-07-29",
-          "summary": "10U A OBA Rep - Game @ London Talons [10u32]",
+          "summary": "10U A OBA Rep - Game @ London Talons [10u32](L 4-10)",
           "location": "Kiwanis (2)",
           "type": "game",
           "cancelled": false
@@ -4842,9 +4845,9 @@
           "start_time": "6:00 PM",
           "opponent": "London Talons",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -13279,12 +13282,12 @@
       "id": 1301,
       "name": "15U Select",
       "category": "Select",
-      "gp": 12,
-      "wins": 6,
+      "gp": 13,
+      "wins": 7,
       "losses": 6,
       "ties": 0,
-      "runs_for": 125,
-      "runs_against": 145,
+      "runs_for": 152,
+      "runs_against": 149,
       "practices": 18,
       "roster": {
         "players": 12,
@@ -13500,7 +13503,7 @@
           "date": "2026-07-29",
           "start_time": "6:30 PM",
           "end_date": "2026-07-30",
-          "summary": "15U Select - Game @ Ingersoll Ironbirds [15uS97]",
+          "summary": "15U Select - Game @ Ingersoll Ironbirds [15uS97](W 27-4)",
           "location": "Currie Park",
           "type": "game",
           "cancelled": false
@@ -13838,9 +13841,9 @@
           "start_time": "6:30 PM",
           "opponent": "Ingersoll Ironbirds",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 27,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -16031,20 +16034,25 @@
             "opponent": "DKMB Blue",
             "venue": "Clearwater Diamond #4",
             "assigned_umpires": [
+              "Hayden Scheuermann",
               "Kirk Vines",
+              "Ralph Campbell",
               "Tristan Heeringa"
             ],
             "accepted_umpires": [
               "Kirk Vines"
             ],
             "pending_umpires": [
+              "Ralph Campbell",
               "Tristan Heeringa"
             ],
-            "denied_umpires": [],
-            "assigned_count": 2,
+            "denied_umpires": [
+              "Hayden Scheuermann"
+            ],
+            "assigned_count": 4,
             "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
+            "pending_count": 2,
+            "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
