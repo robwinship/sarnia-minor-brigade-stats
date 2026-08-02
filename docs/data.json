@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-02T19:33:07.765930Z",
+  "generated": "2026-08-02T23:03:33.658265Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1249,16 +1249,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20861-sarniabrigade.ca",
-          "date": "2026-06-02",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-03",
-          "summary": "9U OBA Rep - Game @ Lucan-Ilderton Athletics [9u31](W 21-10)",
-          "location": "Heritage (1)",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20733-sarniabrigade.ca",
           "date": "2026-06-06",
@@ -3592,23 +3582,26 @@
                   "Dawson O'Brien",
                   "Drew Baxter",
                   "Grant Purdy",
+                  "Jason Lajeunesse",
+                  "Joey Buchner",
                   "Logan Conroy",
                   "Logan Hiscocks",
                   "Marko Sazdov",
                   "Nolan Pool",
                   "Ralph Campbell",
-                  "Tristan Heeringa",
                   "Tucker Stokes",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Hayden Scheuermann",
-                  "Jason Lajeunesse"
+                  "Jason Lajeunesse",
+                  "Paolo Padiglia",
+                  "Tristan Heeringa"
                 ],
                 "assigned_count": 106,
                 "accepted_count": 105,
-                "pending_count": 15,
-                "denied_count": 2,
+                "pending_count": 16,
+                "denied_count": 4,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -3867,7 +3860,7 @@
       "ties": 0,
       "runs_for": 245,
       "runs_against": 299,
-      "practices": 27,
+      "practices": 26,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -3877,16 +3870,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20247-sarniabrigade.ca",
-          "date": "2026-06-02",
-          "start_time": "6:30 PM",
-          "end_date": "2026-06-03",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20763-sarniabrigade.ca",
           "date": "2026-06-04",
@@ -5075,7 +5058,7 @@
       "ties": 0,
       "runs_for": 199,
       "runs_against": 182,
-      "practices": 23,
+      "practices": 22,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5085,16 +5068,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20084-sarniabrigade.ca",
-          "date": "2026-06-02",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-03",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20393-sarniabrigade.ca",
           "date": "2026-06-04",
@@ -8383,7 +8356,7 @@
       "ties": 0,
       "runs_for": 447,
       "runs_against": 217,
-      "practices": 32,
+      "practices": 31,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -8393,16 +8366,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21602-sarniabrigade.ca",
-          "date": "2026-06-02",
-          "start_time": "6:30 PM",
-          "end_date": "2026-06-03",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21586-sarniabrigade.ca",
           "date": "2026-06-04",
@@ -9900,7 +9863,7 @@
       "ties": 0,
       "runs_for": 222,
       "runs_against": 240,
-      "practices": 33,
+      "practices": 32,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -9910,16 +9873,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19783-sarniabrigade.ca",
-          "date": "2026-06-02",
-          "start_time": "5:30 PM",
-          "end_date": "2026-06-02",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20665-sarniabrigade.ca",
           "date": "2026-06-03",
@@ -13530,16 +13483,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21118-sarniabrigade.ca",
-          "date": "2026-08-02",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-03",
-          "summary": "15U Select - Game vs Southwest London Scorpions [15uS30]",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20787-sarniabrigade.ca",
           "date": "2026-08-03",
           "start_time": "8:30 PM",
@@ -13557,6 +13500,16 @@
           "summary": "15U Select - Practice",
           "location": "Blackwell Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-21118-sarniabrigade.ca",
+          "date": "2026-08-04",
+          "start_time": "8:30 PM",
+          "end_date": "2026-08-05",
+          "summary": "15U Select - Game vs Southwest London Scorpions [15uS30]",
+          "location": "Errol Russell Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -13870,24 +13823,24 @@
           "cancelled": false
         },
         {
-          "game_id": "21118",
-          "href": "https://sarniabrigade.ca/Teams/1301/Games/21118/",
-          "date": "2026-08-02",
-          "start_time": "6:00 PM",
-          "opponent": "Southwest London Scorpions",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
           "game_id": "20787",
           "href": "https://sarniabrigade.ca/Teams/1301/Games/20787/",
           "date": "2026-08-03",
           "start_time": "8:30 PM",
           "opponent": "Dorchester Diamondbacks",
           "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "21118",
+          "href": "https://sarniabrigade.ca/Teams/1301/Games/21118/",
+          "date": "2026-08-04",
+          "start_time": "8:30 PM",
+          "opponent": "Southwest London Scorpions",
+          "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
@@ -13968,12 +13921,35 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-08-04",
+            "time": "8:30 PM",
+            "opponent": "Southwest London Scorpions",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [
+              "Jason Lajeunesse",
+              "Joey Buchner"
+            ],
+            "accepted_umpires": [],
+            "pending_umpires": [
+              "Jason Lajeunesse",
+              "Joey Buchner"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 0,
+            "pending_count": 2,
+            "denied_count": 0,
+            "assignment_state": "assigned_not_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-06-19",
@@ -16074,16 +16050,16 @@
               "Kirk Vines"
             ],
             "pending_umpires": [
-              "Ralph Campbell",
-              "Tristan Heeringa"
+              "Ralph Campbell"
             ],
             "denied_umpires": [
-              "Hayden Scheuermann"
+              "Hayden Scheuermann",
+              "Tristan Heeringa"
             ],
             "assigned_count": 4,
             "accepted_count": 1,
-            "pending_count": 2,
-            "denied_count": 1,
+            "pending_count": 1,
+            "denied_count": 2,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
