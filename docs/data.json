@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-01T23:03:22.479849Z",
+  "generated": "2026-08-02T10:03:26.503374Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -4936,7 +4936,7 @@
         "games_missed": 0,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
@@ -4985,6 +4985,61 @@
                 "accepted_umpires": [
                   "Axl Taylor",
                   "Summer Steinke"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-08-09",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "Easton McKinlay | Wiishkpimin Macbeth",
+              "Lane Vanden Ouweland | Wiishkpimin Macbeth"
+            ],
+            "mismatched_names": [
+              "Easton McKinlay",
+              "Lane Vanden Ouweland"
+            ],
+            "games": [
+              {
+                "time": "4:00 PM",
+                "opponent": "London West Tincaps",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Lane Vanden Ouweland",
+                  "Wiishkpimin Macbeth"
+                ],
+                "accepted_umpires": [
+                  "Lane Vanden Ouweland",
+                  "Wiishkpimin Macbeth"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "6:30 PM",
+                "opponent": "Lucan-Ilderton Athletics",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Easton McKinlay",
+                  "Wiishkpimin Macbeth"
+                ],
+                "accepted_umpires": [
+                  "Easton McKinlay",
+                  "Wiishkpimin Macbeth"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
@@ -11147,7 +11202,7 @@
       "ties": 0,
       "runs_for": 92,
       "runs_against": 217,
-      "practices": 20,
+      "practices": 19,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -11157,16 +11212,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20771-sarniabrigade.ca",
-          "date": "2026-06-01",
-          "start_time": "7:00 PM",
-          "end_date": "2026-06-02",
-          "summary": "9U Select - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20535-sarniabrigade.ca",
           "date": "2026-06-04",
@@ -16024,7 +16069,7 @@
       "ties": 0,
       "runs_for": 337,
       "runs_against": 254,
-      "practices": 30,
+      "practices": 29,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -16034,16 +16079,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20215-sarniabrigade.ca",
-          "date": "2026-06-01",
-          "start_time": "7:00 PM",
-          "end_date": "2026-06-02",
-          "summary": "16U PBLO - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20015-sarniabrigade.ca",
           "date": "2026-06-03",
