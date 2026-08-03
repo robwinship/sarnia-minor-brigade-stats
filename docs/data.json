@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-03T19:33:20.012919Z",
+  "generated": "2026-08-03T23:03:31.339420Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -19,7 +19,7 @@
       "ties": 0,
       "runs_for": 469,
       "runs_against": 486,
-      "practices": 20,
+      "practices": 19,
       "roster": {
         "players": 12,
         "adults": 6,
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20272-sarniabrigade.ca",
-          "date": "2026-06-03",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-04",
-          "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20721-sarniabrigade.ca",
           "date": "2026-06-04",
@@ -2100,7 +2090,7 @@
       "ties": 0,
       "runs_for": 66,
       "runs_against": 56,
-      "practices": 30,
+      "practices": 28,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -2110,26 +2100,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21236-sarniabrigade.ca",
-          "date": "2026-06-03",
-          "start_time": "4:30 PM",
-          "end_date": "2026-06-03",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19657-sarniabrigade.ca",
-          "date": "2026-06-03",
-          "start_time": "5:30 PM",
-          "end_date": "2026-06-03",
-          "summary": "10U AA OBA Rep - Practice",
-          "location": "Clearwater Diamond #2",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21529-sarniabrigade.ca",
           "date": "2026-06-05",
@@ -3373,6 +3343,7 @@
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
+                  "Carsyn Tnydall",
                   "Carter Wills",
                   "Chris Bonneau",
                   "Clark Thornton",
@@ -3444,6 +3415,7 @@
                   "Penny Core",
                   "Ralph Campbell",
                   "Ronnie Atyeo",
+                  "Ryan Carlton",
                   "Ryan Ross",
                   "Ryder Daye",
                   "Ryerson Nead",
@@ -3463,6 +3435,7 @@
                   "Tyler Whetham",
                   "Wiishkpimin Macbeth",
                   "Will Garton",
+                  "Will Greer",
                   "William MacKenzie",
                   "Zhayn Trowbridge"
                 ],
@@ -3575,28 +3548,33 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
+                  "Brock Lane",
                   "Brogan Murphy",
+                  "Carsyn Tnydall",
                   "Carter Wills",
                   "Chris Bonneau",
                   "Gage Boyd",
+                  "Graham Dolbear",
                   "Grant Purdy",
                   "Hayden Scheuermann",
                   "Jason Lajeunesse",
-                  "Marko Sazdov",
-                  "Nolan Pool",
-                  "Paolo Padiglia",
+                  "Joey Buchner",
+                  "Ryan Carlton",
+                  "Ryder Daye",
                   "Tristan Heeringa",
-                  "Tyler Whetham"
+                  "Tyler Whetham",
+                  "Will Greer"
                 ],
                 "denied_umpires": [
                   "Jason Lajeunesse",
                   "Joey Buchner",
+                  "Paolo Padiglia",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 105,
+                "assigned_count": 108,
                 "accepted_count": 105,
-                "pending_count": 13,
-                "denied_count": 3,
+                "pending_count": 17,
+                "denied_count": 4,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -6366,16 +6344,6 @@
       },
       "events": [
         {
-          "uid": "MS-20908-sarniabrigade.ca",
-          "date": "2026-06-03",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-04",
-          "summary": "12U OBA Rep - Game @ Lucan-Ilderton Athletics [12u02](L 1-17)",
-          "location": "Heritage (1)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20714-sarniabrigade.ca",
           "date": "2026-06-07",
           "start_time": "10:00 AM",
@@ -7352,16 +7320,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20916-sarniabrigade.ca",
-          "date": "2026-06-03",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-04",
-          "summary": "13U OBA Rep - Game @ DKMB River Cats [13u59](L 7-8)",
-          "location": "Delaware Lions",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20750-sarniabrigade.ca",
           "date": "2026-06-04",
@@ -8355,13 +8313,13 @@
       "id": 1296,
       "name": "14U OBA Rep",
       "category": "OBA Rep",
-      "gp": 37,
-      "wins": 30,
+      "gp": 41,
+      "wins": 34,
       "losses": 7,
       "ties": 0,
-      "runs_for": 447,
-      "runs_against": 217,
-      "practices": 31,
+      "runs_for": 498,
+      "runs_against": 233,
+      "practices": 30,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -8836,7 +8794,7 @@
           "date": "2026-07-31",
           "start_time": "10:30 AM",
           "end_date": "2026-07-31",
-          "summary": "14U OBA Rep - Game vs Lasalle Turtle Club T2 [1]",
+          "summary": "14U OBA Rep - Game vs Lasalle Turtle Club T2 [1](W 9-12)",
           "location": "Turtle Club (LaSalle) D7",
           "type": "game",
           "cancelled": false
@@ -8846,7 +8804,7 @@
           "date": "2026-07-31",
           "start_time": "3:30 PM",
           "end_date": "2026-07-31",
-          "summary": "14U OBA Rep - Game vs Lakeshore Whitecaps [2]",
+          "summary": "14U OBA Rep - Game vs Lakeshore Whitecaps [2](W 2-8)",
           "location": "Vollmer 2",
           "type": "game",
           "cancelled": false
@@ -8856,7 +8814,7 @@
           "date": "2026-08-01",
           "start_time": "9:00 AM",
           "end_date": "2026-08-01",
-          "summary": "14U OBA Rep - Game vs Windsor Stars [3]",
+          "summary": "14U OBA Rep - Game vs Windsor Stars [3](W 4-15)",
           "location": "Vollmer 2",
           "type": "game",
           "cancelled": false
@@ -8866,19 +8824,9 @@
           "date": "2026-08-01",
           "start_time": "2:00 PM",
           "end_date": "2026-08-01",
-          "summary": "14U OBA Rep - Game vs Lasalle Turtle Club T1 [4]",
+          "summary": "14U OBA Rep - Game vs Lasalle Turtle Club T1 [4](W 1-16)",
           "location": "Villy1",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21769-sarniabrigade.ca",
-          "date": "2026-08-03",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-04",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -9690,9 +9638,9 @@
           "start_time": "10:30 AM",
           "opponent": "Lasalle Turtle Club T2",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -9702,9 +9650,9 @@
           "start_time": "3:30 PM",
           "opponent": "Lakeshore Whitecaps",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 8,
+          "opp_score": 2,
           "cancelled": false
         },
         {
@@ -9714,9 +9662,9 @@
           "start_time": "9:00 AM",
           "opponent": "Windsor Stars",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 15,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -9726,9 +9674,9 @@
           "start_time": "2:00 PM",
           "opponent": "Lasalle Turtle Club T1",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 16,
+          "opp_score": 1,
           "cancelled": false
         },
         {
@@ -13257,7 +13205,7 @@
       "ties": 0,
       "runs_for": 152,
       "runs_against": 149,
-      "practices": 18,
+      "practices": 17,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -13267,16 +13215,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21712-sarniabrigade.ca",
-          "date": "2026-06-03",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-04",
-          "summary": "15U Select - Practice",
-          "location": "Suncor Recreation Centre",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21128-sarniabrigade.ca",
           "date": "2026-06-09",
@@ -13928,6 +13866,9 @@
             "opponent": "Southwest London Scorpions",
             "venue": "Errol Russell Park",
             "assigned_umpires": [
+              "Brock Lane",
+              "Carter Wills",
+              "Graham Dolbear",
               "Hayden Scheuermann",
               "Jason Lajeunesse",
               "Joey Buchner",
@@ -13937,15 +13878,18 @@
               "Liam Scott"
             ],
             "pending_umpires": [
+              "Brock Lane",
+              "Carter Wills",
+              "Graham Dolbear",
               "Hayden Scheuermann",
               "Jason Lajeunesse"
             ],
             "denied_umpires": [
               "Joey Buchner"
             ],
-            "assigned_count": 4,
+            "assigned_count": 7,
             "accepted_count": 1,
-            "pending_count": 2,
+            "pending_count": 5,
             "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -14037,16 +13981,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21292-sarniabrigade.ca",
-          "date": "2026-06-03",
-          "start_time": "6:30 PM",
-          "end_date": "2026-06-04",
-          "summary": "9U River League - Game @ Alvinston Riverhawks Red [RL9UN-22](W 17-3)",
-          "location": "Inwood Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21471-sarniabrigade.ca",
           "date": "2026-06-08",
@@ -14645,7 +14579,7 @@
       "ties": 0,
       "runs_for": 92,
       "runs_against": 185,
-      "practices": 9,
+      "practices": 8,
       "roster": {
         "players": 12,
         "adults": 1,
@@ -14655,16 +14589,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21058-sarniabrigade.ca",
-          "date": "2026-06-03",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-04",
-          "summary": "11U Lady Brigade - Practice",
-          "location": "Clearwater Diamond #1",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21072-sarniabrigade.ca",
           "date": "2026-06-08",
