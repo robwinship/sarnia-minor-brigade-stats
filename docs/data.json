@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-03T16:05:39.592585Z",
+  "generated": "2026-08-03T19:33:20.012919Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3578,25 +3578,24 @@
                   "Brogan Murphy",
                   "Carter Wills",
                   "Chris Bonneau",
+                  "Gage Boyd",
                   "Grant Purdy",
                   "Hayden Scheuermann",
                   "Jason Lajeunesse",
-                  "Joey Buchner",
                   "Marko Sazdov",
                   "Nolan Pool",
                   "Paolo Padiglia",
-                  "Ralph Campbell",
                   "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
-                  "Hayden Scheuermann",
                   "Jason Lajeunesse",
-                  "Tristan Heeringa"
+                  "Joey Buchner",
+                  "Tyler Whetham"
                 ],
                 "assigned_count": 105,
                 "accepted_count": 105,
-                "pending_count": 14,
+                "pending_count": 13,
                 "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -13939,14 +13938,15 @@
             ],
             "pending_umpires": [
               "Hayden Scheuermann",
-              "Jason Lajeunesse",
+              "Jason Lajeunesse"
+            ],
+            "denied_umpires": [
               "Joey Buchner"
             ],
-            "denied_umpires": [],
             "assigned_count": 4,
             "accepted_count": 1,
-            "pending_count": 3,
-            "denied_count": 0,
+            "pending_count": 2,
+            "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
@@ -16030,41 +16030,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-08-07",
-            "time": "6:00 PM",
-            "opponent": "DKMB Blue",
-            "venue": "Clearwater Diamond #4",
-            "assigned_umpires": [
-              "Hayden Scheuermann",
-              "Kirk Vines",
-              "Ralph Campbell",
-              "Tristan Heeringa"
-            ],
-            "accepted_umpires": [
-              "Kirk Vines"
-            ],
-            "pending_umpires": [
-              "Ralph Campbell"
-            ],
-            "denied_umpires": [
-              "Hayden Scheuermann",
-              "Tristan Heeringa"
-            ],
-            "assigned_count": 4,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 2,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 1952.64,
