@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-02T23:03:33.658265Z",
+  "generated": "2026-08-03T10:03:19.994383Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3579,29 +3579,33 @@
                   "Brian Mundt",
                   "Brogan Murphy",
                   "Carter Wills",
+                  "Chris Bonneau",
                   "Dawson O'Brien",
                   "Drew Baxter",
                   "Grant Purdy",
+                  "Jackson Burlingham",
+                  "Jacob Dawson",
                   "Jason Lajeunesse",
                   "Joey Buchner",
-                  "Logan Conroy",
+                  "Liam Scott",
                   "Logan Hiscocks",
                   "Marko Sazdov",
                   "Nolan Pool",
+                  "Paolo Padiglia",
                   "Ralph Campbell",
+                  "Tristan Heeringa",
                   "Tucker Stokes",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Hayden Scheuermann",
                   "Jason Lajeunesse",
-                  "Paolo Padiglia",
                   "Tristan Heeringa"
                 ],
                 "assigned_count": 106,
                 "accepted_count": 105,
-                "pending_count": 16,
-                "denied_count": 4,
+                "pending_count": 21,
+                "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -13263,16 +13267,6 @@
       },
       "events": [
         {
-          "uid": "MS-21127-sarniabrigade.ca",
-          "date": "2026-06-02",
-          "start_time": "8:30 PM",
-          "end_date": "2026-06-03",
-          "summary": "15U Select - Game vs Exeter (L 8-5)",
-          "location": "Blackwell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21712-sarniabrigade.ca",
           "date": "2026-06-03",
           "start_time": "6:00 PM",
@@ -13934,17 +13928,19 @@
             "venue": "Errol Russell Park",
             "assigned_umpires": [
               "Jason Lajeunesse",
-              "Joey Buchner"
+              "Joey Buchner",
+              "Liam Scott"
             ],
             "accepted_umpires": [],
             "pending_umpires": [
               "Jason Lajeunesse",
-              "Joey Buchner"
+              "Joey Buchner",
+              "Liam Scott"
             ],
             "denied_umpires": [],
-            "assigned_count": 2,
+            "assigned_count": 3,
             "accepted_count": 0,
-            "pending_count": 2,
+            "pending_count": 3,
             "denied_count": 0,
             "assignment_state": "assigned_not_accepted",
             "issue_timing": "upcoming"
@@ -17481,16 +17477,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21384-sarniabrigade.ca",
-          "date": "2026-06-02",
-          "start_time": "7:30 PM",
-          "end_date": "2026-06-03",
-          "summary": "22U AAA - Game vs London",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21191-sarniabrigade.ca",
           "date": "2026-06-04",
