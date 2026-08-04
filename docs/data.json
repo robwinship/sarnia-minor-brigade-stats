@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-04T16:03:22.130531Z",
+  "generated": "2026-08-04T19:33:19.036755Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3548,6 +3548,7 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
+                  "Annette Hoggarth",
                   "Brian Mundt",
                   "Brock Lane",
                   "Brogan Murphy",
@@ -3557,15 +3558,19 @@
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
+                  "Jarett Simons",
+                  "Mike Moorhouse",
                   "Myles Hobbs",
                   "Ryan Carlton",
                   "Ryder Daye",
+                  "Steve McGrail",
                   "Tyler Vandenberg",
                   "Tyler Whetham",
                   "Will Greer"
                 ],
                 "denied_umpires": [
                   "Brock Lane",
+                  "Chris Bonneau",
                   "Hayden Scheuermann",
                   "Jason Lajeunesse",
                   "Paolo Padiglia",
@@ -3575,8 +3580,8 @@
                 ],
                 "assigned_count": 109,
                 "accepted_count": 105,
-                "pending_count": 15,
-                "denied_count": 7,
+                "pending_count": 19,
+                "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
               {
