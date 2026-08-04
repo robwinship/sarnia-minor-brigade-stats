@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-04T10:03:32.789175Z",
+  "generated": "2026-08-04T16:03:22.130531Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3557,7 +3557,6 @@
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Hayden Scheuermann",
                   "Myles Hobbs",
                   "Ryan Carlton",
                   "Ryder Daye",
@@ -3566,6 +3565,8 @@
                   "Will Greer"
                 ],
                 "denied_umpires": [
+                  "Brock Lane",
+                  "Hayden Scheuermann",
                   "Jason Lajeunesse",
                   "Paolo Padiglia",
                   "Steve McGrail",
@@ -3574,8 +3575,8 @@
                 ],
                 "assigned_count": 109,
                 "accepted_count": 105,
-                "pending_count": 16,
-                "denied_count": 5,
+                "pending_count": 15,
+                "denied_count": 7,
                 "assignment_state": "assigned_and_accepted"
               },
               {
