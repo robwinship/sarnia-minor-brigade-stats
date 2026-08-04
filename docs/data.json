@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-04T19:33:19.036755Z",
+  "generated": "2026-08-04T23:14:14.930965Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20721-sarniabrigade.ca",
-          "date": "2026-06-04",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-05",
-          "summary": "8U OBA Rep - Game @ St. Thomas Cardinals [8u14](W 29-21)",
-          "location": "Doug Tarry (2)",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21631-sarniabrigade.ca",
           "date": "2026-06-06",
@@ -3343,7 +3333,6 @@
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
-                  "Carsyn Tnydall",
                   "Carter Wills",
                   "Chris Bonneau",
                   "Clark Thornton",
@@ -3416,7 +3405,6 @@
                   "Penny Core",
                   "Ralph Campbell",
                   "Ronnie Atyeo",
-                  "Ryan Carlton",
                   "Ryan Ross",
                   "Ryder Daye",
                   "Ryerson Nead",
@@ -3436,7 +3424,6 @@
                   "Tyler Whetham",
                   "Wiishkpimin Macbeth",
                   "Will Garton",
-                  "Will Greer",
                   "William MacKenzie",
                   "Zhayn Trowbridge"
                 ],
@@ -3552,36 +3539,25 @@
                   "Brian Mundt",
                   "Brock Lane",
                   "Brogan Murphy",
-                  "Carsyn Tnydall",
                   "Carter Wills",
-                  "Chris Bonneau",
                   "Ewan Snedden",
-                  "Graham Dolbear",
                   "Grant Purdy",
                   "Jarett Simons",
                   "Mike Moorhouse",
                   "Myles Hobbs",
-                  "Ryan Carlton",
-                  "Ryder Daye",
-                  "Steve McGrail",
                   "Tyler Vandenberg",
-                  "Tyler Whetham",
-                  "Will Greer"
-                ],
-                "denied_umpires": [
-                  "Brock Lane",
-                  "Chris Bonneau",
-                  "Hayden Scheuermann",
-                  "Jason Lajeunesse",
-                  "Paolo Padiglia",
-                  "Steve McGrail",
-                  "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 109,
+                "denied_umpires": [
+                  "Chris Bonneau",
+                  "Jason Lajeunesse",
+                  "Steve McGrail",
+                  "Tyler Whetham"
+                ],
+                "assigned_count": 106,
                 "accepted_count": 105,
-                "pending_count": 19,
-                "denied_count": 8,
+                "pending_count": 12,
+                "denied_count": 4,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -3850,16 +3826,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20763-sarniabrigade.ca",
-          "date": "2026-06-04",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-05",
-          "summary": "10U A OBA Rep - Game @ St. Thomas Cardinals [10u27](W 16-10)",
-          "location": "New York Central",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21735-sarniabrigade.ca",
           "date": "2026-06-07",
@@ -5038,7 +5004,7 @@
       "ties": 0,
       "runs_for": 199,
       "runs_against": 182,
-      "practices": 23,
+      "practices": 22,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5048,16 +5014,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20393-sarniabrigade.ca",
-          "date": "2026-06-04",
-          "start_time": "6:30 PM",
-          "end_date": "2026-06-05",
-          "summary": "11U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-21726-sarniabrigade.ca",
           "date": "2026-06-05",
@@ -7317,7 +7273,7 @@
       "ties": 0,
       "runs_for": 308,
       "runs_against": 209,
-      "practices": 22,
+      "practices": 21,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -7327,16 +7283,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20750-sarniabrigade.ca",
-          "date": "2026-06-04",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-05",
-          "summary": "13U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20869-sarniabrigade.ca",
           "date": "2026-06-06",
@@ -9823,7 +9769,7 @@
       "ties": 0,
       "runs_for": 222,
       "runs_against": 240,
-      "practices": 32,
+      "practices": 31,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -9833,16 +9779,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19800-sarniabrigade.ca",
-          "date": "2026-06-04",
-          "start_time": "5:30 PM",
-          "end_date": "2026-06-04",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20971-sarniabrigade.ca",
           "date": "2026-06-05",
@@ -11109,7 +11045,7 @@
       "ties": 0,
       "runs_for": 92,
       "runs_against": 217,
-      "practices": 20,
+      "practices": 19,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -11119,16 +11055,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20535-sarniabrigade.ca",
-          "date": "2026-06-04",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-05",
-          "summary": "9U Select - Practice",
-          "location": "Blackwell North",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20783-sarniabrigade.ca",
           "date": "2026-06-10",
@@ -11197,16 +11123,6 @@
           "summary": "9U Select - Practice",
           "location": "Blackwell North",
           "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20695-sarniabrigade.ca",
-          "date": "2026-07-05",
-          "start_time": "6:00 PM",
-          "end_date": "2026-07-06",
-          "summary": "CANCELLED 9U Select - Game vs Dorchester Diamondbacks [9uS38]",
-          "location": "Clearwater Diamond #1",
-          "type": "game",
           "cancelled": false
         },
         {
@@ -11410,6 +11326,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20695-sarniabrigade.ca",
+          "date": "2026-08-16",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-17",
+          "summary": "9U Select - Game vs Dorchester Diamondbacks [9uS38]",
+          "location": "Clearwater Diamond #2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21707-sarniabrigade.ca",
           "date": "2026-08-16",
           "start_time": "6:00 PM",
@@ -11578,18 +11504,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20695",
-          "href": "https://sarniabrigade.ca/Teams/1299/Games/20695/",
-          "date": "2026-07-05",
-          "start_time": "6:00 PM",
-          "opponent": "Dorchester Diamondbacks",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
           "game_id": "20694",
           "href": "https://sarniabrigade.ca/Teams/1299/Games/20694/",
           "date": "2026-07-19",
@@ -11720,6 +11634,18 @@
           "brigade_score": null,
           "opp_score": null,
           "cancelled": false
+        },
+        {
+          "game_id": "20695",
+          "href": "https://sarniabrigade.ca/Teams/1299/Games/20695/",
+          "date": "2026-08-16",
+          "start_time": "6:00 PM",
+          "opponent": "Dorchester Diamondbacks",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
         }
       ],
       "umpire_issues": {
@@ -11816,16 +11742,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20672-sarniabrigade.ca",
-          "date": "2026-06-04",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-05",
-          "summary": "11U Select - Game @ Dorchester Diamondbacks [11uS18](L 4-9)",
-          "location": "Dorchester (3)",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20815-sarniabrigade.ca",
           "date": "2026-06-07",
@@ -12537,16 +12453,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20860-sarniabrigade.ca",
-          "date": "2026-06-04",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-05",
-          "summary": "13U Select - Game @ Lucan-Ilderton Athletics [13uS34](L 5-10)",
-          "location": "Heritage (1)",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-19836-sarniabrigade.ca",
           "date": "2026-06-05",
@@ -13438,7 +13344,7 @@
           "start_time": "8:30 PM",
           "end_date": "2026-08-05",
           "summary": "15U Select - Game vs Southwest London Scorpions [15uS30]",
-          "location": "Errol Russell Park",
+          "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
         },
@@ -14972,16 +14878,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21365-sarniabrigade.ca",
-          "date": "2026-06-04",
-          "start_time": "6:30 PM",
-          "end_date": "2026-06-05",
-          "summary": "11u River League - Game @ Wyoming Wranglers Red [RL11UN-21](W 6-3)",
-          "location": "Bridgeview Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21360-sarniabrigade.ca",
           "date": "2026-06-07",
@@ -18771,15 +18667,6 @@
       "start_time": "1:30 PM",
       "summary": "CANCELLED 15U OBA Rep - Game vs Chatham Diamonds",
       "location": ""
-    },
-    {
-      "team_id": 1299,
-      "team_name": "9U Select",
-      "type": "game",
-      "date": "2026-07-05",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 9U Select - Game vs Dorchester Diamondbacks [9uS38]",
-      "location": "Clearwater Diamond #1"
     },
     {
       "team_id": 1299,
