@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-03T23:03:31.339420Z",
+  "generated": "2026-08-04T10:03:32.789175Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3360,6 +3360,7 @@
                   "Easton McKinlay",
                   "Ethan Antle",
                   "Ethan Carlton",
+                  "Ewan Snedden",
                   "Gage Boyd",
                   "Grady Boyd",
                   "Graham Dolbear",
@@ -3553,28 +3554,28 @@
                   "Carsyn Tnydall",
                   "Carter Wills",
                   "Chris Bonneau",
-                  "Gage Boyd",
+                  "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
                   "Hayden Scheuermann",
-                  "Jason Lajeunesse",
-                  "Joey Buchner",
+                  "Myles Hobbs",
                   "Ryan Carlton",
                   "Ryder Daye",
-                  "Tristan Heeringa",
+                  "Tyler Vandenberg",
                   "Tyler Whetham",
                   "Will Greer"
                 ],
                 "denied_umpires": [
                   "Jason Lajeunesse",
-                  "Joey Buchner",
                   "Paolo Padiglia",
+                  "Steve McGrail",
+                  "Tristan Heeringa",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 108,
+                "assigned_count": 109,
                 "accepted_count": 105,
-                "pending_count": 17,
-                "denied_count": 4,
+                "pending_count": 16,
+                "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -9827,16 +9828,6 @@
       },
       "events": [
         {
-          "uid": "MS-20665-sarniabrigade.ca",
-          "date": "2026-06-03",
-          "start_time": "8:30 PM",
-          "end_date": "2026-06-04",
-          "summary": "15U OBA Rep - Game @ London West Tincaps [15u22](L 1-11)",
-          "location": "Stoneybrook (Dan Pulham)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19800-sarniabrigade.ca",
           "date": "2026-06-04",
           "start_time": "5:30 PM",
@@ -13199,12 +13190,12 @@
       "id": 1301,
       "name": "15U Select",
       "category": "Select",
-      "gp": 13,
+      "gp": 14,
       "wins": 7,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "runs_for": 152,
-      "runs_against": 149,
+      "runs_for": 156,
+      "runs_against": 168,
       "practices": 17,
       "roster": {
         "players": 12,
@@ -13420,7 +13411,7 @@
           "date": "2026-08-03",
           "start_time": "8:30 PM",
           "end_date": "2026-08-04",
-          "summary": "15U Select - Game @ Dorchester Diamondbacks [15uS33]",
+          "summary": "15U Select - Game @ Dorchester Diamondbacks [15uS33](L 4-19)",
           "location": "Outdoor Complex (Royal)",
           "type": "game",
           "cancelled": false
@@ -13762,9 +13753,9 @@
           "start_time": "8:30 PM",
           "opponent": "Dorchester Diamondbacks",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 19,
           "cancelled": false
         },
         {
@@ -13854,47 +13845,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-08-04",
-            "time": "8:30 PM",
-            "opponent": "Southwest London Scorpions",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [
-              "Brock Lane",
-              "Carter Wills",
-              "Graham Dolbear",
-              "Hayden Scheuermann",
-              "Jason Lajeunesse",
-              "Joey Buchner",
-              "Liam Scott"
-            ],
-            "accepted_umpires": [
-              "Liam Scott"
-            ],
-            "pending_umpires": [
-              "Brock Lane",
-              "Carter Wills",
-              "Graham Dolbear",
-              "Hayden Scheuermann",
-              "Jason Lajeunesse"
-            ],
-            "denied_umpires": [
-              "Joey Buchner"
-            ],
-            "assigned_count": 7,
-            "accepted_count": 1,
-            "pending_count": 5,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-06-19",
@@ -13965,12 +13921,12 @@
       "id": 1304,
       "name": "9U River League",
       "category": "River League",
-      "gp": 15,
-      "wins": 10,
+      "gp": 16,
+      "wins": 11,
       "losses": 5,
       "ties": 0,
-      "runs_for": 208,
-      "runs_against": 138,
+      "runs_for": 220,
+      "runs_against": 148,
       "practices": 12,
       "roster": {
         "players": 16,
@@ -14196,7 +14152,7 @@
           "date": "2026-08-03",
           "start_time": "6:30 PM",
           "end_date": "2026-08-04",
-          "summary": "9U River League - Game @ Wyoming Wranglers Red [RL9UN-77]",
+          "summary": "9U River League - Game @ Wyoming Wranglers Red [RL9UN-77](W 12-10)",
           "location": "Bridgeview Park",
           "type": "game",
           "cancelled": false
@@ -14472,9 +14428,9 @@
           "start_time": "6:30 PM",
           "opponent": "Wyoming Wranglers Red RL9UN-77 Bridgeview Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -15980,7 +15936,7 @@
       "ties": 0,
       "runs_for": 337,
       "runs_against": 254,
-      "practices": 29,
+      "practices": 28,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -15990,16 +15946,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20015-sarniabrigade.ca",
-          "date": "2026-06-03",
-          "start_time": "7:00 PM",
-          "end_date": "2026-06-04",
-          "summary": "16U PBLO - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19734-sarniabrigade.ca",
           "date": "2026-06-06",
@@ -17891,16 +17837,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21168-sarniabrigade.ca",
-          "date": "2026-06-03",
-          "start_time": "7:30 PM",
-          "end_date": "2026-06-04",
-          "summary": "Senior AAA - Game vs Ilderton",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21169-sarniabrigade.ca",
           "date": "2026-06-07",
