@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-05T10:03:16.207705Z",
+  "generated": "2026-08-05T16:03:23.390635Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2541,6 +2541,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-22143-sarniabrigade.ca",
+          "date": "2026-08-18",
+          "start_time": "6:30 PM",
+          "end_date": "2026-08-19",
+          "summary": "10U AA OBA Rep - Game @ Corunna Giants",
+          "location": "Cameron Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21247-sarniabrigade.ca",
           "date": "2026-08-19",
           "start_time": "4:30 PM",
@@ -3129,6 +3139,18 @@
           "cancelled": false
         },
         {
+          "game_id": "22143",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/22143/",
+          "date": "2026-08-18",
+          "start_time": "6:30 PM",
+          "opponent": "Corunna Giants Cameron Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20007",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/20007/",
           "date": "2026-08-23",
@@ -3548,6 +3570,7 @@
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
+                  "Brock Lane",
                   "Chris Bonneau",
                   "Jason Lajeunesse",
                   "Steve McGrail",
@@ -3556,7 +3579,7 @@
                 "assigned_count": 106,
                 "accepted_count": 105,
                 "pending_count": 11,
-                "denied_count": 4,
+                "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -13026,12 +13049,12 @@
       "id": 1301,
       "name": "15U Select",
       "category": "Select",
-      "gp": 14,
+      "gp": 15,
       "wins": 7,
-      "losses": 7,
+      "losses": 8,
       "ties": 0,
-      "runs_for": 156,
-      "runs_against": 168,
+      "runs_for": 157,
+      "runs_against": 174,
       "practices": 17,
       "roster": {
         "players": 12,
@@ -13267,7 +13290,7 @@
           "date": "2026-08-04",
           "start_time": "8:30 PM",
           "end_date": "2026-08-05",
-          "summary": "15U Select - Game vs Southwest London Scorpions [15uS30]",
+          "summary": "15U Select - Game vs Southwest London Scorpions [15uS30](L 6-1)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -13601,9 +13624,9 @@
           "start_time": "8:30 PM",
           "opponent": "Southwest London Scorpions",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 1,
+          "opp_score": 6,
           "cancelled": false
         },
         {
