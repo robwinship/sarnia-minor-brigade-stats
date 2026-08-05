@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-05T19:33:03.589031Z",
+  "generated": "2026-08-05T23:03:21.994529Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2091,26 +2091,6 @@
       },
       "events": [
         {
-          "uid": "MS-21529-sarniabrigade.ca",
-          "date": "2026-06-05",
-          "start_time": "4:00 PM",
-          "end_date": "2026-06-05",
-          "summary": "10U AA OBA Rep - Game @ Oshawa Legionaires [1]",
-          "location": "Stronach Complex 2",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21530-sarniabrigade.ca",
-          "date": "2026-06-05",
-          "start_time": "6:15 PM",
-          "end_date": "2026-06-06",
-          "summary": "10U AA OBA Rep - Game @ Hamilton Cardinals [2]",
-          "location": "Stronach Complex 2",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21733-sarniabrigade.ca",
           "date": "2026-06-06",
           "start_time": "6:00 PM",
@@ -3355,6 +3335,7 @@
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
+                  "Carter Palmer",
                   "Carter Wills",
                   "Chris Bonneau",
                   "Clark Thornton",
@@ -3560,25 +3541,32 @@
                   "Brian Mundt",
                   "Brock Lane",
                   "Brogan Murphy",
+                  "Carter Palmer",
                   "Carter Wills",
+                  "Colby Sheffer",
+                  "Derek Bayly",
+                  "Drew Baxter",
+                  "Drew Bennett",
                   "Ewan Snedden",
                   "Grant Purdy",
-                  "Logan Conroy",
+                  "Jakob Rodriguez",
+                  "Marko Sazdov",
                   "Mike Moorhouse",
                   "Myles Hobbs",
+                  "Summer Steinke",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
-                  "Brock Lane",
+                  "Cambria Caissie",
                   "Chris Bonneau",
                   "Jason Lajeunesse",
                   "Steve McGrail",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 106,
+                "assigned_count": 107,
                 "accepted_count": 105,
-                "pending_count": 11,
+                "pending_count": 18,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -9726,7 +9714,7 @@
       "ties": 0,
       "runs_for": 239,
       "runs_against": 243,
-      "practices": 30,
+      "practices": 29,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -9736,16 +9724,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20971-sarniabrigade.ca",
-          "date": "2026-06-05",
-          "start_time": "5:00 PM",
-          "end_date": "2026-06-05",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20824-sarniabrigade.ca",
           "date": "2026-06-08",
@@ -12390,7 +12368,7 @@
       "ties": 0,
       "runs_for": 180,
       "runs_against": 100,
-      "practices": 16,
+      "practices": 15,
       "roster": {
         "players": 12,
         "adults": 4,
@@ -12400,16 +12378,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19836-sarniabrigade.ca",
-          "date": "2026-06-05",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-06",
-          "summary": "13U Select - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-19857-sarniabrigade.ca",
           "date": "2026-06-08",
