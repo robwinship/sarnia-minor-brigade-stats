@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-05T16:03:23.390635Z",
+  "generated": "2026-08-05T19:33:03.589031Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -13786,7 +13786,7 @@
       "ties": 0,
       "runs_for": 220,
       "runs_against": 148,
-      "practices": 12,
+      "practices": 11,
       "roster": {
         "players": 16,
         "adults": 5,
@@ -14057,13 +14057,23 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20462-sarniabrigade.ca",
+          "uid": "MS-22145-sarniabrigade.ca",
           "date": "2026-08-17",
           "start_time": "6:00 PM",
           "end_date": "2026-08-18",
-          "summary": "9U River League - Practice",
+          "summary": "9U River League - Game vs Corunna Giants Select",
           "location": "Blackwell North",
-          "type": "practice",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22144-sarniabrigade.ca",
+          "date": "2026-08-20",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-21",
+          "summary": "9U River League - Game @ Corunna Giants Select",
+          "location": "Athletic Park (3)",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -14322,6 +14332,30 @@
           "date": "2026-08-16",
           "start_time": "6:30 PM",
           "opponent": "Wyoming Wranglers Grey RL9UN-21 Bridgeview Par",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22145",
+          "href": "https://sarniabrigade.ca/Teams/1304/Games/22145/",
+          "date": "2026-08-17",
+          "start_time": "6:00 PM",
+          "opponent": "Corunna Giants Select Blackwell North",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22144",
+          "href": "https://sarniabrigade.ca/Teams/1304/Games/22144/",
+          "date": "2026-08-20",
+          "start_time": "6:00 PM",
+          "opponent": "Corunna Giants Select Athletic Park",
           "home": false,
           "result": null,
           "brigade_score": null,
