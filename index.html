@@ -823,7 +823,7 @@
   <div id="view-budget" style="display:none">
     <div class="controls-card" aria-label="Budget model controls">
       <div class="section-title">Budget Model</div>
-      <div class="controls-note">Costs are estimates. Insurance is charged per roster member annually (default: $7.52 + 1.13% tax = $7.60/person). Diamond rates are hourly with day/evening splits and a 2-hour booking assumption; if time is missing, a 2-hour day rate is used. Only configured home diamonds are priced; others default to $0.</div>
+      <div class="controls-note">Costs are estimates. Insurance is charged per roster member annually (default: $7.52 + 1.13% tax = $7.60/person). Diamond rates are hourly with day/evening splits and a 2-hour booking assumption (13% HST applied); if time is missing, a 2-hour day rate is used. Only configured home diamonds are priced; others default to $0. Interest is not included in these totals.</div>
 
       <div class="controls-row" style="margin-top:0.8rem;">
         <div class="control-group">
@@ -2185,6 +2185,91 @@ function isBillablePracticeEvent(event) {
   return isLocalHomeDiamond(event.location);
 }
 
+function buildBillableDiamondEvents(teams, startDate, endDate) {
+  const billableEvents = [];
+
+  for (const team of (teams ?? [])) {
+    const events = (team.events ?? []).filter(event => inRange(event.date, startDate, endDate));
+    const gameEvents = events.filter(event =>
+      event.type === "game" && !!(event.location || "").trim() && !!event.date
+    );
+
+    const eventsByDate = new Map();
+    for (const event of gameEvents) {
+      const arr = eventsByDate.get(event.date) || [];
+      arr.push(event);
+      eventsByDate.set(event.date, arr);
+    }
+
+    const homeGames = (team.games ?? []).filter(game =>
+      game.home === true && !!game.date && inRange(game.date, startDate, endDate)
+    );
+    const homeByDate = new Map();
+    for (const game of homeGames) {
+      const arr = homeByDate.get(game.date) || [];
+      arr.push(game);
+      homeByDate.set(game.date, arr);
+    }
+
+    for (const [date, gamesOnDate] of homeByDate.entries()) {
+      const eventsOnDate = eventsByDate.get(date) || [];
+      if (!eventsOnDate.length) continue;
+
+      const usedEventIndexes = new Set();
+      for (const game of gamesOnDate) {
+        let bestIdx = -1;
+        let bestScore = -1;
+
+        for (let i = 0; i < eventsOnDate.length; i += 1) {
+          if (usedEventIndexes.has(i)) continue;
+          const event = eventsOnDate[i];
+          const score = scoreOpponentMatch(game.opponent || "", event.summary || "");
+          if (score > bestScore) {
+            bestScore = score;
+            bestIdx = i;
+          }
+        }
+
+        if (bestIdx === -1) continue;
+        usedEventIndexes.add(bestIdx);
+
+        const matchedEvent = eventsOnDate[bestIdx];
+        const diamondName = (matchedEvent.location || "").trim();
+        if (!LOCAL_HOME_DIAMONDS.has(normalizeVenueName(diamondName))) continue;
+
+        billableEvents.push({
+          team_id: team.id,
+          team_name: team.name,
+          date,
+          summary: game.opponent ? `Home game vs ${game.opponent}` : "Home game",
+          location: diamondName,
+          event: matchedEvent,
+          usage_type: "home_game",
+        });
+      }
+    }
+
+    for (const event of events) {
+      if (event.type !== "practice") continue;
+      const diamondName = (event.location || "").trim();
+      if (!diamondName) continue;
+      if (!LOCAL_HOME_DIAMONDS.has(normalizeVenueName(diamondName))) continue;
+
+      billableEvents.push({
+        team_id: team.id,
+        team_name: team.name,
+        date: event.date || "",
+        summary: event.summary || "Practice",
+        location: diamondName,
+        event,
+        usage_type: "practice",
+      });
+    }
+  }
+
+  return billableEvents;
+}
+
 function calcDiamondEventCost(event, costs) {
   const tier = getDiamondRateTier(event?.location || "");
   if (!tier) return 0;
@@ -2194,7 +2279,9 @@ function calcDiamondEventCost(event, costs) {
   const bookingMinutes = 120;
 
   const startMinutes = parseTimeToMinutes(extractEventTimeLabel(event));
-  if (startMinutes === null) return dayRate * 2;
+  const HST_RATE = 1.13;
+
+  if (startMinutes === null) return dayRate * 2 * HST_RATE;
 
   const dayStart = 7 * 60;
   const dayEnd = (19 * 60) + 30;
@@ -2208,14 +2295,16 @@ function calcDiamondEventCost(event, costs) {
   const eveningMinutes = Math.max(0, Math.min(bookingEnd, eveningEnd) - Math.max(bookingStart, eveningStart));
 
   if ((dayMinutes + eveningMinutes) === 0) {
-    return dayRate * 2;
+    return dayRate * 2 * HST_RATE;
   }
 
-  return (dayMinutes / 60) * dayRate + (eveningMinutes / 60) * eveningRate;
+  return ((dayMinutes / 60) * dayRate + (eveningMinutes / 60) * eveningRate) * HST_RATE;
 }
 
 function buildBudgetRows(teams, startDate, endDate, costs) {
   const rows = [];
+  const billableDiamondEvents = buildBillableDiamondEvents((teams ?? []), startDate, endDate);
+
   for (const [teamIndex, team] of (teams ?? []).entries()) {
     const summary = summarizeTeam(team, startDate, endDate);
     const players = Number(team?.roster?.players) || 0;
@@ -2227,12 +2316,12 @@ function buildBudgetRows(teams, startDate, endDate, costs) {
     const coachCertsCost = Number(team?.coach_certs_cost);
     const pitchCost = Number(team?.pitch_cost);
 
-    const billableHomeGameEvents = (summary.events ?? []).filter(isBillableHomeGameEvent);
-    const billablePracticeEvents = (summary.events ?? []).filter(isBillablePracticeEvent);
-    const billableDiamondEvents = [...billableHomeGameEvents, ...billablePracticeEvents];
+    const teamBillableEvents = billableDiamondEvents.filter(event => String(event.team_id) === String(team.id));
+    const billableHomeGameEvents = teamBillableEvents.filter(event => event.usage_type === "home_game");
+    const billablePracticeEvents = teamBillableEvents.filter(event => event.usage_type === "practice");
 
-    const diamondCost = billableDiamondEvents.reduce((acc, event) => {
-      return acc + calcDiamondEventCost(event, costs);
+    const diamondCost = teamBillableEvents.reduce((acc, event) => {
+      return acc + calcDiamondEventCost(event.event || event, costs);
     }, 0);
     const umpireCost = billableHomeGameEvents.length * getUmpireRatePerGame(team.name, costs);
     const insuranceCost = (players + adults) * costs.insurancePerPerson;
@@ -2248,8 +2337,8 @@ function buildBudgetRows(teams, startDate, endDate, costs) {
       team_name: team.name,
       category: team.category || "Other",
       team_index: teamIndex,
-      home_games: summary.home_games,
-      practices: summary.practices,
+      home_games: billableHomeGameEvents.length,
+      practices: billablePracticeEvents.length,
       uniform_cost: Number.isFinite(uniformCost) ? uniformCost : null,
       equipment_cost: Number.isFinite(equipmentCost) ? equipmentCost : null,
       tournament_cost: Number.isFinite(tournamentCost) ? tournamentCost : null,
