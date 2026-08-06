@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-06T10:03:34.568617Z",
+  "generated": "2026-08-06T16:03:31.295825Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21631-sarniabrigade.ca",
-          "date": "2026-06-06",
-          "start_time": "11:00 AM",
-          "end_date": "2026-06-06",
-          "summary": "8U OBA Rep - Game vs Chatham Diamonds 8U [WC9U-076a](W 11-23)",
-          "location": "Clearwater Diamond #3",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20801-sarniabrigade.ca",
           "date": "2026-06-07",
@@ -1229,16 +1219,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20733-sarniabrigade.ca",
-          "date": "2026-06-06",
-          "start_time": "10:00 AM",
-          "end_date": "2026-06-06",
-          "summary": "9U OBA Rep - Game vs North London Nationals [9u41](W 6-8)",
-          "location": "Clearwater Diamond #1",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20734-sarniabrigade.ca",
           "date": "2026-06-06",
@@ -3427,6 +3407,7 @@
                   "Penny Core",
                   "Ralph Campbell",
                   "Ronnie Atyeo",
+                  "Ryan Carlton",
                   "Ryan Ross",
                   "Ryder Daye",
                   "Ryerson Nead",
@@ -3556,40 +3537,44 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Blake Adams",
                   "Brian Mundt",
                   "Brock Lane",
                   "Brogan Murphy",
                   "Carson Whittington",
                   "Carter Palmer",
                   "Carter Wills",
-                  "Cohen Smith",
+                  "Chris Bonneau",
+                  "Clark Thornton",
                   "Derek Bayly",
-                  "Drew Baxter",
                   "Drew Bennett",
                   "Ewan Snedden",
                   "Grant Purdy",
+                  "Hayden Scheuermann",
                   "Jakob Rodriguez",
-                  "Jonas Winklmeier",
                   "Marko Sazdov",
-                  "Mike Moorhouse",
                   "Myles Hobbs",
+                  "Paolo Padiglia",
+                  "Ryan Carlton",
                   "Summer Steinke",
+                  "Tucker Stokes",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Cambria Caissie",
                   "Chris Bonneau",
+                  "Cohen Smith",
                   "Colby Sheffer",
+                  "Drew Baxter",
                   "Jason Lajeunesse",
+                  "Mike Moorhouse",
                   "Steve McGrail",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 106,
+                "assigned_count": 107,
                 "accepted_count": 104,
-                "pending_count": 21,
-                "denied_count": 6,
+                "pending_count": 22,
+                "denied_count": 9,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -7234,12 +7219,12 @@
       "id": 1295,
       "name": "13U OBA Rep",
       "category": "OBA Rep",
-      "gp": 28,
-      "wins": 18,
+      "gp": 29,
+      "wins": 19,
       "losses": 10,
       "ties": 0,
-      "runs_for": 308,
-      "runs_against": 209,
+      "runs_for": 323,
+      "runs_against": 213,
       "practices": 21,
       "roster": {
         "players": 13,
@@ -7250,16 +7235,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20869-sarniabrigade.ca",
-          "date": "2026-06-06",
-          "start_time": "10:00 AM",
-          "end_date": "2026-06-06",
-          "summary": "13U OBA Rep - Game vs Dorchester Diamondbacks [13u22](W 2-17)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20325-sarniabrigade.ca",
           "date": "2026-06-08",
@@ -7555,7 +7530,7 @@
           "date": "2026-08-05",
           "start_time": "6:00 PM",
           "end_date": "2026-08-06",
-          "summary": "13U OBA Rep - Game @ Dorchester Diamondbacks [13u50]",
+          "summary": "13U OBA Rep - Game @ Dorchester Diamondbacks [13u50](W 15-4)",
           "location": "Dorchester (3)",
           "type": "game",
           "cancelled": false
@@ -8121,9 +8096,9 @@
           "start_time": "6:00 PM",
           "opponent": "Dorchester Diamondbacks",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 15,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -8213,12 +8188,28 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 3,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
+          {
+            "date": "2026-08-06",
+            "time": "6:00 PM",
+            "opponent": "Exeter Express 13u Rep",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
           {
             "date": "2026-08-08",
             "time": "10:30 AM",
@@ -8227,20 +8218,22 @@
             "assigned_umpires": [
               "Carson Whittington",
               "Hayden Scheuermann",
-              "Jason Lajeunesse"
+              "Jason Lajeunesse",
+              "Paolo Padiglia"
             ],
             "accepted_umpires": [
               "Hayden Scheuermann"
             ],
             "pending_umpires": [
-              "Carson Whittington"
+              "Carson Whittington",
+              "Paolo Padiglia"
             ],
             "denied_umpires": [
               "Jason Lajeunesse"
             ],
-            "assigned_count": 3,
+            "assigned_count": 4,
             "accepted_count": 1,
-            "pending_count": 1,
+            "pending_count": 2,
             "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -8253,20 +8246,22 @@
             "assigned_umpires": [
               "Carson Whittington",
               "Hayden Scheuermann",
-              "Jason Lajeunesse"
+              "Jason Lajeunesse",
+              "Paolo Padiglia"
             ],
             "accepted_umpires": [
               "Hayden Scheuermann"
             ],
             "pending_umpires": [
-              "Carson Whittington"
+              "Carson Whittington",
+              "Paolo Padiglia"
             ],
             "denied_umpires": [
               "Jason Lajeunesse"
             ],
-            "assigned_count": 3,
+            "assigned_count": 4,
             "accepted_count": 1,
-            "pending_count": 1,
+            "pending_count": 2,
             "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -8287,20 +8282,22 @@
                 "assigned_umpires": [
                   "Carson Whittington",
                   "Hayden Scheuermann",
-                  "Jason Lajeunesse"
+                  "Jason Lajeunesse",
+                  "Paolo Padiglia"
                 ],
                 "accepted_umpires": [
                   "Hayden Scheuermann"
                 ],
                 "pending_umpires": [
-                  "Carson Whittington"
+                  "Carson Whittington",
+                  "Paolo Padiglia"
                 ],
                 "denied_umpires": [
                   "Jason Lajeunesse"
                 ],
-                "assigned_count": 3,
+                "assigned_count": 4,
                 "accepted_count": 1,
-                "pending_count": 1,
+                "pending_count": 2,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -8311,20 +8308,22 @@
                 "assigned_umpires": [
                   "Carson Whittington",
                   "Hayden Scheuermann",
-                  "Jason Lajeunesse"
+                  "Jason Lajeunesse",
+                  "Paolo Padiglia"
                 ],
                 "accepted_umpires": [
                   "Hayden Scheuermann"
                 ],
                 "pending_umpires": [
-                  "Carson Whittington"
+                  "Carson Whittington",
+                  "Paolo Padiglia"
                 ],
                 "denied_umpires": [
                   "Jason Lajeunesse"
                 ],
-                "assigned_count": 3,
+                "assigned_count": 4,
                 "accepted_count": 1,
-                "pending_count": 1,
+                "pending_count": 2,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               }
@@ -9876,12 +9875,12 @@
       "id": 1297,
       "name": "15U OBA Rep",
       "category": "OBA Rep",
-      "gp": 29,
-      "wins": 12,
+      "gp": 30,
+      "wins": 13,
       "losses": 17,
       "ties": 0,
-      "runs_for": 239,
-      "runs_against": 243,
+      "runs_for": 245,
+      "runs_against": 244,
       "practices": 29,
       "roster": {
         "players": 14,
@@ -10287,7 +10286,7 @@
           "date": "2026-08-05",
           "start_time": "8:30 PM",
           "end_date": "2026-08-06",
-          "summary": "15U OBA Rep - Game @ St. Thomas Cardinals [15u31]",
+          "summary": "15U OBA Rep - Game @ St. Thomas Cardinals [15u31](W 6-1)",
           "location": "Emslie Field",
           "type": "game",
           "cancelled": false
@@ -10921,9 +10920,9 @@
           "start_time": "8:30 PM",
           "opponent": "St. Thomas Cardinals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 6,
+          "opp_score": 1,
           "cancelled": false
         },
         {
@@ -13916,12 +13915,12 @@
       "id": 1304,
       "name": "9U River League",
       "category": "River League",
-      "gp": 16,
-      "wins": 11,
+      "gp": 17,
+      "wins": 12,
       "losses": 5,
       "ties": 0,
-      "runs_for": 220,
-      "runs_against": 148,
+      "runs_for": 234,
+      "runs_against": 152,
       "practices": 11,
       "roster": {
         "players": 16,
@@ -14157,7 +14156,7 @@
           "date": "2026-08-04",
           "start_time": "6:00 PM",
           "end_date": "2026-08-05",
-          "summary": "9U River League - Game @ Wyoming Wranglers Navy [RL9UN-96]",
+          "summary": "9U River League - Game @ Wyoming Wranglers Navy [RL9UN-96](W 14-4)",
           "location": "Bridgeview Park",
           "type": "game",
           "cancelled": false
@@ -14445,9 +14444,9 @@
           "start_time": "6:00 PM",
           "opponent": "Wyoming Wranglers Navy RL9UN-96 Bridgeview Par",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 14,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -15966,16 +15965,6 @@
       },
       "events": [
         {
-          "uid": "MS-19734-sarniabrigade.ca",
-          "date": "2026-06-06",
-          "start_time": "10:00 AM",
-          "end_date": "2026-06-06",
-          "summary": "16U PBLO - Game @ Ontario Yankees",
-          "location": "Pan-Am Sportsplex (5)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19735-sarniabrigade.ca",
           "date": "2026-06-06",
           "start_time": "12:30 PM",
@@ -17342,16 +17331,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21377-sarniabrigade.ca",
-          "date": "2026-06-06",
-          "start_time": "10:00 AM",
-          "end_date": "2026-06-06",
-          "summary": "22U AAA - Game @ Tecumseh Thunder",
-          "location": "Mic Mac Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21378-sarniabrigade.ca",
           "date": "2026-06-06",
