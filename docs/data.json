@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-06T19:33:38.651282Z",
+  "generated": "2026-08-06T23:03:22.035722Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2082,16 +2082,6 @@
       },
       "events": [
         {
-          "uid": "MS-21733-sarniabrigade.ca",
-          "date": "2026-06-06",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-07",
-          "summary": "10U AA OBA Rep - Game vs TBD [3]",
-          "location": "TBD",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21237-sarniabrigade.ca",
           "date": "2026-06-10",
           "start_time": "4:30 PM",
@@ -3144,6 +3134,18 @@
           "brigade_score": null,
           "opp_score": null,
           "cancelled": false
+        },
+        {
+          "game_id": "22159",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/22159/",
+          "date": "2026-08-25",
+          "start_time": "6:30 PM",
+          "opponent": "Corunna Giants Cameron Park",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
         }
       ],
       "umpire_issues": {
@@ -3396,6 +3398,7 @@
                   "Parker Leighton",
                   "Penny Core",
                   "Ralph Campbell",
+                  "Rio Ruiz",
                   "Ronnie Atyeo",
                   "Ryan Carlton",
                   "Ryan Ross",
@@ -3527,24 +3530,30 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
+                  "Bentley Bartosz",
+                  "Bentley Daughtrey",
                   "Brian Mundt",
                   "Brock Lane",
                   "Brogan Murphy",
+                  "Carson Whittington",
                   "Carter Palmer",
                   "Carter Wills",
-                  "Chris Bonneau",
                   "Clark Thornton",
                   "Derek Bayly",
                   "Ewan Snedden",
+                  "Graham Dolbear",
                   "Grant Purdy",
-                  "Greg Baker",
+                  "Greg Armstrong",
                   "Hayden Scheuermann",
                   "Jakob Rodriguez",
                   "Jarett Simons",
                   "Marko Sazdov",
-                  "Mike Moorhouse",
                   "Myles Hobbs",
+                  "Rio Ruiz",
                   "Ryan Carlton",
+                  "Sadie Daughtrey",
+                  "Shane Moorhouse",
+                  "Steve McGrail",
                   "Summer Steinke",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
@@ -3556,14 +3565,16 @@
                   "Colby Sheffer",
                   "Drew Baxter",
                   "Jason Lajeunesse",
+                  "Joey Buchner",
                   "Mike Moorhouse",
+                  "Paolo Padiglia",
                   "Steve McGrail",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 107,
+                "assigned_count": 108,
                 "accepted_count": 104,
-                "pending_count": 21,
-                "denied_count": 9,
+                "pending_count": 27,
+                "denied_count": 11,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4217,7 +4228,7 @@
           "date": "2026-08-06",
           "start_time": "5:30 PM",
           "end_date": "2026-08-06",
-          "summary": "10U A OBA Rep - Practice",
+          "summary": "CANCELLED 10U A OBA Rep - Practice",
           "location": "Coronation Park Diamond",
           "type": "practice",
           "cancelled": false
@@ -4965,16 +4976,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21728-sarniabrigade.ca",
-          "date": "2026-06-06",
-          "start_time": "6:00 PM",
-          "end_date": "2026-06-07",
-          "summary": "11U OBA Rep - Game @ London Badgers",
-          "location": "North London Sports Field #2",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21729-sarniabrigade.ca",
           "date": "2026-06-09",
@@ -8266,7 +8267,7 @@
       "ties": 0,
       "runs_for": 528,
       "runs_against": 235,
-      "practices": 29,
+      "practices": 30,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -8781,9 +8782,19 @@
           "date": "2026-08-09",
           "start_time": "10:00 AM",
           "end_date": "2026-08-09",
-          "summary": "14U OBA Rep - Game vs Strathroy Royals [14u27]",
+          "summary": "CANCELLED 14U OBA Rep - Game vs Strathroy Royals [14u27]",
           "location": "Blackwell Park",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22152-sarniabrigade.ca",
+          "date": "2026-08-09",
+          "start_time": "10:00 AM",
+          "end_date": "2026-08-09",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell Park",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -8791,7 +8802,7 @@
           "date": "2026-08-09",
           "start_time": "12:00 PM",
           "end_date": "2026-08-09",
-          "summary": "14U OBA Rep - Game vs Strathroy Royals [14u79]",
+          "summary": "CANCELLED 14U OBA Rep - Game vs Strathroy Royals [14u79]",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -13038,20 +13049,33 @@
             "opponent": "Alvinston Riverhawks Select",
             "venue": "Tecumseh Park",
             "assigned_umpires": [
-              "Mike Moorhouse",
-              "Ryder Daye"
+              "Brogan Murphy",
+              "Carson Whittington",
+              "Graham Dolbear",
+              "Hayden Scheuermann",
+              "Joey Buchner",
+              "Paolo Padiglia",
+              "Ryder Daye",
+              "Steve McGrail"
             ],
             "accepted_umpires": [
               "Ryder Daye"
             ],
             "pending_umpires": [
-              "Mike Moorhouse"
+              "Brogan Murphy",
+              "Carson Whittington",
+              "Graham Dolbear",
+              "Hayden Scheuermann",
+              "Steve McGrail"
             ],
-            "denied_umpires": [],
-            "assigned_count": 2,
+            "denied_umpires": [
+              "Joey Buchner",
+              "Paolo Padiglia"
+            ],
+            "assigned_count": 8,
             "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
+            "pending_count": 5,
+            "denied_count": 2,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
@@ -15840,7 +15864,7 @@
       "ties": 0,
       "runs_for": 337,
       "runs_against": 254,
-      "practices": 28,
+      "practices": 26,
       "roster": {
         "players": 15,
         "adults": 6,
@@ -16291,16 +16315,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20045-sarniabrigade.ca",
-          "date": "2026-08-07",
-          "start_time": "7:00 PM",
-          "end_date": "2026-08-08",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20225-sarniabrigade.ca",
           "date": "2026-08-10",
           "start_time": "7:00 PM",
@@ -16341,6 +16355,26 @@
           "cancelled": false
         },
         {
+          "uid": "MS-22155-sarniabrigade.ca",
+          "date": "2026-08-15",
+          "start_time": "11:00 AM",
+          "end_date": "2026-08-15",
+          "summary": "16U PBLO - Game vs Sarnia Brigade 14u",
+          "location": "Errol Russell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22156-sarniabrigade.ca",
+          "date": "2026-08-15",
+          "start_time": "1:30 PM",
+          "end_date": "2026-08-15",
+          "summary": "16U PBLO - Game vs Sarnia Brigade 14u",
+          "location": "Errol Russell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20226-sarniabrigade.ca",
           "date": "2026-08-17",
           "start_time": "7:00 PM",
@@ -16357,16 +16391,6 @@
           "end_date": "2026-08-20",
           "summary": "16U PBLO - Practice",
           "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20047-sarniabrigade.ca",
-          "date": "2026-08-21",
-          "start_time": "7:00 PM",
-          "end_date": "2026-08-22",
-          "summary": "16U PBLO - Practice",
-          "location": "Errol Russell Park",
           "type": "practice",
           "cancelled": false
         },
@@ -16398,6 +16422,26 @@
           "summary": "16U PBLO - Practice",
           "location": "Errol Russell Park",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22157-sarniabrigade.ca",
+          "date": "2026-08-29",
+          "start_time": "11:00 AM",
+          "end_date": "2026-08-29",
+          "summary": "16U PBLO - Game vs London Badgers",
+          "location": "Errol Russell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22158-sarniabrigade.ca",
+          "date": "2026-08-29",
+          "start_time": "1:30 PM",
+          "end_date": "2026-08-29",
+          "summary": "16U PBLO - Game vs London Badgers",
+          "location": "Errol Russell Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -17106,6 +17150,54 @@
           "date": "2026-08-14",
           "start_time": "8:30 PM",
           "opponent": "Chatham Major Diamonds Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22155",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/22155/",
+          "date": "2026-08-15",
+          "start_time": "11:00 AM",
+          "opponent": "Sarnia Brigade",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22156",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/22156/",
+          "date": "2026-08-15",
+          "start_time": "1:30 PM",
+          "opponent": "Sarnia Brigade",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22157",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/22157/",
+          "date": "2026-08-29",
+          "start_time": "11:00 AM",
+          "opponent": "London Badgers Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22158",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/22158/",
+          "date": "2026-08-29",
+          "start_time": "1:30 PM",
+          "opponent": "London Badgers Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -18432,6 +18524,15 @@
       "location": "Coronation Park Diamond"
     },
     {
+      "team_id": 1311,
+      "team_name": "10U A OBA Rep",
+      "type": "practice",
+      "date": "2026-08-06",
+      "start_time": "5:30 PM",
+      "summary": "CANCELLED 10U A OBA Rep - Practice",
+      "location": "Coronation Park Diamond"
+    },
+    {
       "team_id": 1293,
       "team_name": "11U OBA Rep",
       "type": "practice",
@@ -18552,6 +18653,24 @@
       "team_id": 1296,
       "team_name": "14U OBA Rep",
       "type": "game",
+      "date": "2026-08-09",
+      "start_time": "10:00 AM",
+      "summary": "CANCELLED 14U OBA Rep - Game vs Strathroy Royals [14u27]",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "game",
+      "date": "2026-08-09",
+      "start_time": "12:00 PM",
+      "summary": "CANCELLED 14U OBA Rep - Game vs Strathroy Royals [14u79]",
+      "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "game",
       "date": "2026-04-26",
       "start_time": "11:00 AM",
       "summary": "CANCELLED 14U OBA Rep - Game",
@@ -18573,24 +18692,6 @@
       "date": "2026-05-17",
       "start_time": "10:00 AM",
       "summary": "CANCELLED 14U OBA Rep - Game vs London West Tincaps Blackwell Park",
-      "location": ""
-    },
-    {
-      "team_id": 1296,
-      "team_name": "14U OBA Rep",
-      "type": "game",
-      "date": "2026-08-09",
-      "start_time": "10:00 AM",
-      "summary": "CANCELLED 14U OBA Rep - Game vs Strathroy Royals",
-      "location": ""
-    },
-    {
-      "team_id": 1296,
-      "team_name": "14U OBA Rep",
-      "type": "game",
-      "date": "2026-08-09",
-      "start_time": "12:00 PM",
-      "summary": "CANCELLED 14U OBA Rep - Game vs Strathroy Royals",
       "location": ""
     },
     {
