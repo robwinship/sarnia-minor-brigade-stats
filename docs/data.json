@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-05T23:03:21.994529Z",
+  "generated": "2026-08-06T10:03:34.568617Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -13,12 +13,12 @@
       "id": 1290,
       "name": "8U OBA Rep",
       "category": "OBA Rep",
-      "gp": 31,
+      "gp": 32,
       "wins": 17,
-      "losses": 14,
+      "losses": 15,
       "ties": 0,
-      "runs_for": 469,
-      "runs_against": 486,
+      "runs_for": 480,
+      "runs_against": 499,
       "practices": 19,
       "roster": {
         "players": 12,
@@ -414,7 +414,7 @@
           "date": "2026-08-05",
           "start_time": "6:00 PM",
           "end_date": "2026-08-06",
-          "summary": "8U OBA Rep - Game @ London West Tincaps [8u33]",
+          "summary": "8U OBA Rep - Game @ London West Tincaps [8u33](L 11-13)",
           "location": "Oakridge Optimist (Lower)",
           "type": "game",
           "cancelled": false
@@ -940,9 +940,9 @@
           "start_time": "6:00 PM",
           "opponent": "London West Tincaps",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 11,
+          "opp_score": 13,
           "cancelled": false
         },
         {
@@ -1213,12 +1213,12 @@
       "id": 1291,
       "name": "9U OBA Rep",
       "category": "OBA Rep",
-      "gp": 22,
-      "wins": 12,
+      "gp": 23,
+      "wins": 13,
       "losses": 10,
       "ties": 0,
-      "runs_for": 272,
-      "runs_against": 198,
+      "runs_for": 285,
+      "runs_against": 201,
       "practices": 20,
       "roster": {
         "players": 12,
@@ -1564,7 +1564,7 @@
           "date": "2026-08-05",
           "start_time": "6:00 PM",
           "end_date": "2026-08-06",
-          "summary": "9U OBA Rep - Game vs London Talons [9u55]",
+          "summary": "9U OBA Rep - Game vs London Talons [9u55](W 3-13)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -1966,9 +1966,9 @@
           "start_time": "6:00 PM",
           "opponent": "London Talons",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 13,
+          "opp_score": 3,
           "cancelled": false
         },
         {
@@ -1997,13 +1997,34 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 0,
+        "games_missed": 1,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-08-05",
+            "time": "6:00 PM",
+            "opponent": "London Talons",
+            "venue": "Clearwater Diamond #1",
+            "assigned_umpires": [
+              "Axl Taylor"
+            ],
+            "accepted_umpires": [
+              "Axl Taylor"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "past"
+          }
+        ],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-07-04",
@@ -3279,7 +3300,6 @@
               "Lucas Nethery",
               "Luke Walls",
               "Marko Sazdov",
-              "Mason Portiss",
               "Matt Kennett",
               "Matthew Schrie",
               "Max Avery",
@@ -3392,7 +3412,6 @@
                   "Lucas Nethery",
                   "Luke Walls",
                   "Marko Sazdov",
-                  "Mason Portiss",
                   "Matt Kennett",
                   "Matthew Schrie",
                   "Max Avery",
@@ -3499,7 +3518,6 @@
                   "Lucas Nethery",
                   "Luke Walls",
                   "Marko Sazdov",
-                  "Mason Portiss",
                   "Matt Kennett",
                   "Matthew Schrie",
                   "Max Avery",
@@ -3538,18 +3556,21 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
+                  "Blake Adams",
                   "Brian Mundt",
                   "Brock Lane",
                   "Brogan Murphy",
+                  "Carson Whittington",
                   "Carter Palmer",
                   "Carter Wills",
-                  "Colby Sheffer",
+                  "Cohen Smith",
                   "Derek Bayly",
                   "Drew Baxter",
                   "Drew Bennett",
                   "Ewan Snedden",
                   "Grant Purdy",
                   "Jakob Rodriguez",
+                  "Jonas Winklmeier",
                   "Marko Sazdov",
                   "Mike Moorhouse",
                   "Myles Hobbs",
@@ -3560,14 +3581,15 @@
                 "denied_umpires": [
                   "Cambria Caissie",
                   "Chris Bonneau",
+                  "Colby Sheffer",
                   "Jason Lajeunesse",
                   "Steve McGrail",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 107,
-                "accepted_count": 105,
-                "pending_count": 18,
-                "denied_count": 5,
+                "assigned_count": 106,
+                "accepted_count": 104,
+                "pending_count": 21,
+                "denied_count": 6,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -3820,12 +3842,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 29,
+      "gp": 30,
       "wins": 14,
-      "losses": 15,
+      "losses": 16,
       "ties": 0,
-      "runs_for": 245,
-      "runs_against": 299,
+      "runs_for": 249,
+      "runs_against": 310,
       "practices": 26,
       "roster": {
         "players": 13,
@@ -4211,7 +4233,7 @@
           "date": "2026-08-05",
           "start_time": "6:00 PM",
           "end_date": "2026-08-06",
-          "summary": "10U A OBA Rep - Game @ London West Tincaps [10u45]",
+          "summary": "10U A OBA Rep - Game @ London West Tincaps [10u45](L 4-11)",
           "location": "Oakridge Optimist (Upper)",
           "type": "game",
           "cancelled": false
@@ -4797,9 +4819,9 @@
           "start_time": "6:00 PM",
           "opponent": "London West Tincaps",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -4969,16 +4991,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21726-sarniabrigade.ca",
-          "date": "2026-06-05",
-          "start_time": "8:30 PM",
-          "end_date": "2026-06-06",
-          "summary": "11U OBA Rep - Game @ Richmond Hill Phoenix",
-          "location": "Stronach Baseball Complex 1",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21727-sarniabrigade.ca",
           "date": "2026-06-06",
@@ -6245,12 +6257,12 @@
       "id": 1294,
       "name": "12U OBA Rep",
       "category": "OBA Rep",
-      "gp": 21,
-      "wins": 11,
+      "gp": 22,
+      "wins": 12,
       "losses": 10,
       "ties": 0,
-      "runs_for": 161,
-      "runs_against": 204,
+      "runs_for": 175,
+      "runs_against": 208,
       "practices": 21,
       "roster": {
         "players": 13,
@@ -6536,7 +6548,7 @@
           "date": "2026-08-05",
           "start_time": "6:00 PM",
           "end_date": "2026-08-06",
-          "summary": "12U OBA Rep - Game vs London Talons [12u48]",
+          "summary": "12U OBA Rep - Game vs London Talons [12u48](W 4-14)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -7018,9 +7030,9 @@
           "start_time": "6:00 PM",
           "opponent": "London Talons",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 14,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -8201,13 +8213,179 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 2,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
-        "doubleheader_mismatch_details": []
+        "games_missed_details": [
+          {
+            "date": "2026-08-08",
+            "time": "10:30 AM",
+            "opponent": "Windsor Stars",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Carson Whittington",
+              "Hayden Scheuermann",
+              "Jason Lajeunesse"
+            ],
+            "accepted_umpires": [
+              "Hayden Scheuermann"
+            ],
+            "pending_umpires": [
+              "Carson Whittington"
+            ],
+            "denied_umpires": [
+              "Jason Lajeunesse"
+            ],
+            "assigned_count": 3,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 1,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-08-08",
+            "time": "1:15 PM",
+            "opponent": "Windsor Stars",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Carson Whittington",
+              "Hayden Scheuermann",
+              "Jason Lajeunesse"
+            ],
+            "accepted_umpires": [
+              "Hayden Scheuermann"
+            ],
+            "pending_umpires": [
+              "Carson Whittington"
+            ],
+            "denied_umpires": [
+              "Jason Lajeunesse"
+            ],
+            "assigned_count": 3,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 1,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-08-08",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "10:30 AM",
+                "opponent": "Windsor Stars",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Carson Whittington",
+                  "Hayden Scheuermann",
+                  "Jason Lajeunesse"
+                ],
+                "accepted_umpires": [
+                  "Hayden Scheuermann"
+                ],
+                "pending_umpires": [
+                  "Carson Whittington"
+                ],
+                "denied_umpires": [
+                  "Jason Lajeunesse"
+                ],
+                "assigned_count": 3,
+                "accepted_count": 1,
+                "pending_count": 1,
+                "denied_count": 1,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "1:15 PM",
+                "opponent": "Windsor Stars",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Carson Whittington",
+                  "Hayden Scheuermann",
+                  "Jason Lajeunesse"
+                ],
+                "accepted_umpires": [
+                  "Hayden Scheuermann"
+                ],
+                "pending_umpires": [
+                  "Carson Whittington"
+                ],
+                "denied_umpires": [
+                  "Jason Lajeunesse"
+                ],
+                "assigned_count": 3,
+                "accepted_count": 1,
+                "pending_count": 1,
+                "denied_count": 1,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-08-13",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "David Haasen | Paolo Padiglia",
+              "David Haasen | Summer Steinke"
+            ],
+            "mismatched_names": [
+              "Paolo Padiglia",
+              "Summer Steinke"
+            ],
+            "games": [
+              {
+                "time": "6:00 PM",
+                "opponent": "London West Tincaps",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "David Haasen",
+                  "Paolo Padiglia"
+                ],
+                "accepted_umpires": [
+                  "David Haasen",
+                  "Paolo Padiglia"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "8:30 PM",
+                "opponent": "DKMB River Cats",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "David Haasen",
+                  "Summer Steinke"
+                ],
+                "accepted_umpires": [
+                  "David Haasen",
+                  "Summer Steinke"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          }
+        ]
       },
       "uniform_cost": 7288.5,
       "equipment_cost": 1135.0,
@@ -8221,12 +8399,12 @@
       "id": 1296,
       "name": "14U OBA Rep",
       "category": "OBA Rep",
-      "gp": 41,
-      "wins": 34,
+      "gp": 43,
+      "wins": 36,
       "losses": 7,
       "ties": 0,
-      "runs_for": 498,
-      "runs_against": 233,
+      "runs_for": 528,
+      "runs_against": 235,
       "practices": 29,
       "roster": {
         "players": 14,
@@ -8237,16 +8415,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21229-sarniabrigade.ca",
-          "date": "2026-06-05",
-          "start_time": "7:00 PM",
-          "end_date": "2026-06-06",
-          "summary": "14U OBA Rep - Game vs Hamilton [1](W 2-10)",
-          "location": "Larry Pearson Park - Diamond 2",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21230-sarniabrigade.ca",
           "date": "2026-06-06",
@@ -8732,7 +8900,7 @@
           "date": "2026-08-05",
           "start_time": "6:00 PM",
           "end_date": "2026-08-06",
-          "summary": "14U OBA Rep - Game @ Lucan-Ilderton Athletics [14u82]",
+          "summary": "14U OBA Rep - Game @ Lucan-Ilderton Athletics [14u82](W 16-0)",
           "location": "Lucan (1)",
           "type": "game",
           "cancelled": false
@@ -8742,7 +8910,7 @@
           "date": "2026-08-05",
           "start_time": "8:30 PM",
           "end_date": "2026-08-06",
-          "summary": "14U OBA Rep - Game @ Lucan-Ilderton Athletics [14u31]",
+          "summary": "14U OBA Rep - Game @ Lucan-Ilderton Athletics [14u31](W 14-2)",
           "location": "Lucan (1)",
           "type": "game",
           "cancelled": false
@@ -9584,9 +9752,9 @@
           "start_time": "6:00 PM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 16,
+          "opp_score": 0,
           "cancelled": false
         },
         {
@@ -9596,9 +9764,9 @@
           "start_time": "8:30 PM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 14,
+          "opp_score": 2,
           "cancelled": false
         },
         {
