@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-07T16:03:02.583002Z",
+  "generated": "2026-08-07T19:32:51.246527Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20803-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "1:00 PM",
-          "end_date": "2026-06-07",
-          "summary": "8U OBA Rep - Game vs North London Nationals [8u39](L 26-18)",
-          "location": "Clearwater Diamond #1",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20305-sarniabrigade.ca",
           "date": "2026-06-09",
@@ -3328,7 +3318,6 @@
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
-                  "Carter Palmer",
                   "Carter Wills",
                   "Chris Bonneau",
                   "Clark Thornton",
@@ -3531,9 +3520,9 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
+                  "Blake Adams",
                   "Brian Mundt",
                   "Brock Lane",
-                  "Carter Palmer",
                   "Derek Bayly",
                   "Ewan Snedden",
                   "Gage Boyd",
@@ -3544,7 +3533,6 @@
                   "Mike Moorhouse",
                   "Myles Hobbs",
                   "Ronnie Atyeo",
-                  "Steve McGrail",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
@@ -3554,15 +3542,16 @@
                   "Chris Bonneau",
                   "David Haasen",
                   "Greg Armstrong",
+                  "Myles Hobbs",
                   "Sadie Daughtrey",
                   "Steve McGrail",
                   "Summer Steinke",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 107,
+                "assigned_count": 106,
                 "accepted_count": 105,
-                "pending_count": 17,
-                "denied_count": 8,
+                "pending_count": 16,
+                "denied_count": 9,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4262,6 +4251,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-22163-sarniabrigade.ca",
+          "date": "2026-08-12",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-13",
+          "summary": "10U A OBA Rep - Game vs Sarnia Brigade 10U AA",
+          "location": "Clearwater Diamond #2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20760-sarniabrigade.ca",
           "date": "2026-08-16",
           "start_time": "4:00 PM",
@@ -4834,6 +4833,18 @@
           "cancelled": false
         },
         {
+          "game_id": "22163",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/22163/",
+          "date": "2026-08-12",
+          "start_time": "6:00 PM",
+          "opponent": "Sarnia Brigade",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20760",
           "href": "https://sarniabrigade.ca/Teams/1311/Games/20760/",
           "date": "2026-08-16",
@@ -4872,7 +4883,7 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
@@ -4896,6 +4907,22 @@
             "pending_count": 0,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-08-12",
+            "time": "6:00 PM",
+            "opponent": "Sarnia Brigade 10U AA",
+            "venue": "Clearwater Diamond #2",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "upcoming"
           }
         ],
@@ -6315,16 +6342,6 @@
       },
       "events": [
         {
-          "uid": "MS-20715-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "1:00 PM",
-          "end_date": "2026-06-07",
-          "summary": "12U OBA Rep - Game vs North London Nationals [12u49](W 1-7)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20586-sarniabrigade.ca",
           "date": "2026-06-08",
           "start_time": "5:30 PM",
@@ -7596,7 +7613,7 @@
           "date": "2026-08-08",
           "start_time": "10:30 AM",
           "end_date": "2026-08-08",
-          "summary": "13U OBA Rep - Game vs Windsor Stars",
+          "summary": "CANCELLED 13U OBA Rep - Game vs Windsor Stars",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -7606,7 +7623,7 @@
           "date": "2026-08-08",
           "start_time": "1:15 PM",
           "end_date": "2026-08-08",
-          "summary": "13U OBA Rep - Game vs Windsor Stars",
+          "summary": "CANCELLED 13U OBA Rep - Game vs Windsor Stars",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -8179,7 +8196,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "21946",
@@ -8191,7 +8208,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20768",
@@ -8353,16 +8370,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21759-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "12:00 PM",
-          "end_date": "2026-06-07",
-          "summary": "14U OBA Rep - Game vs Guelph(W 1-12)",
-          "location": "Larry Pearson",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21760-sarniabrigade.ca",
           "date": "2026-06-07",
@@ -14924,16 +14931,6 @@
       },
       "events": [
         {
-          "uid": "MS-21360-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "2:00 PM",
-          "end_date": "2026-06-07",
-          "summary": "11u River League - Game @ Alvinston Riverhawks Select [RL11UN-17](L 6-9)",
-          "location": "Alvinston CC (South)",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21359-sarniabrigade.ca",
           "date": "2026-06-08",
           "start_time": "6:30 PM",
@@ -15915,16 +15912,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19737-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "12:30 PM",
-          "end_date": "2026-06-07",
-          "summary": "16U PBLO - Game @ Ontario Yankees(W 6-4)",
-          "location": "Pan-Am Sportsplex (5)",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20216-sarniabrigade.ca",
           "date": "2026-06-08",
@@ -17865,16 +17852,6 @@
       },
       "events": [
         {
-          "uid": "MS-21169-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "1:00 PM",
-          "end_date": "2026-06-07",
-          "summary": "Senior AAA - Game vs Windsor Stars",
-          "location": "Courtright Community Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21170-sarniabrigade.ca",
           "date": "2026-06-07",
           "start_time": "3:30 PM",
@@ -18701,6 +18678,24 @@
       "date": "2026-07-16",
       "start_time": "6:00 PM",
       "summary": "CANCELLED 13U OBA Rep - Practice",
+      "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1295,
+      "team_name": "13U OBA Rep",
+      "type": "game",
+      "date": "2026-08-08",
+      "start_time": "10:30 AM",
+      "summary": "CANCELLED 13U OBA Rep - Game vs Windsor Stars",
+      "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1295,
+      "team_name": "13U OBA Rep",
+      "type": "game",
+      "date": "2026-08-08",
+      "start_time": "1:15 PM",
+      "summary": "CANCELLED 13U OBA Rep - Game vs Windsor Stars",
       "location": "Tecumseh Park"
     },
     {
