@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-06T23:03:22.035722Z",
+  "generated": "2026-08-07T10:03:09.287696Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2562,6 +2562,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-22159-sarniabrigade.ca",
+          "date": "2026-08-25",
+          "start_time": "6:30 PM",
+          "end_date": "2026-08-26",
+          "summary": "10U AA OBA Rep - Game @ Corunna Giants",
+          "location": "Cameron Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21248-sarniabrigade.ca",
           "date": "2026-08-26",
           "start_time": "4:30 PM",
@@ -3377,6 +3387,7 @@
                   "Lane Vanden Ouweland",
                   "Lawrence Dyck",
                   "Levi Burlingham",
+                  "Liam Colosimo",
                   "Liam Scott",
                   "Logan Conroy",
                   "Logan Hiscocks",
@@ -3414,6 +3425,7 @@
                   "Terry Doyle",
                   "Tie Richards",
                   "Tristan Heeringa",
+                  "Tristan Nemcek",
                   "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
@@ -3531,50 +3543,50 @@
                 ],
                 "pending_umpires": [
                   "Bentley Bartosz",
-                  "Bentley Daughtrey",
                   "Brian Mundt",
                   "Brock Lane",
                   "Brogan Murphy",
-                  "Carson Whittington",
                   "Carter Palmer",
                   "Carter Wills",
                   "Clark Thornton",
                   "Derek Bayly",
                   "Ewan Snedden",
-                  "Graham Dolbear",
                   "Grant Purdy",
-                  "Greg Armstrong",
                   "Hayden Scheuermann",
+                  "Jackson Burlingham",
                   "Jakob Rodriguez",
-                  "Jarett Simons",
+                  "Joey Buchner",
+                  "Levi Burlingham",
+                  "Liam Colosimo",
                   "Marko Sazdov",
                   "Myles Hobbs",
                   "Rio Ruiz",
+                  "Ronnie Atyeo",
                   "Ryan Carlton",
-                  "Sadie Daughtrey",
-                  "Shane Moorhouse",
-                  "Steve McGrail",
-                  "Summer Steinke",
+                  "Tristan Nemcek",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
+                  "Bentley Daughtrey",
                   "Cambria Caissie",
                   "Chris Bonneau",
                   "Cohen Smith",
                   "Colby Sheffer",
                   "Drew Baxter",
+                  "Greg Armstrong",
                   "Jason Lajeunesse",
-                  "Joey Buchner",
                   "Mike Moorhouse",
-                  "Paolo Padiglia",
+                  "Sadie Daughtrey",
+                  "Shane Moorhouse",
                   "Steve McGrail",
+                  "Summer Steinke",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 108,
+                "assigned_count": 110,
                 "accepted_count": 104,
-                "pending_count": 27,
-                "denied_count": 11,
+                "pending_count": 24,
+                "denied_count": 14,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4960,11 +4972,11 @@
       "id": 1293,
       "name": "11U OBA Rep",
       "category": "OBA Rep",
-      "gp": 23,
-      "wins": 12,
+      "gp": 24,
+      "wins": 13,
       "losses": 11,
       "ties": 0,
-      "runs_for": 199,
+      "runs_for": 206,
       "runs_against": 182,
       "practices": 22,
       "roster": {
@@ -5291,7 +5303,7 @@
           "date": "2026-08-04",
           "start_time": "6:00 PM",
           "end_date": "2026-08-05",
-          "summary": "CANCELLED 11U OBA Rep - Game vs Mitchell Astros Rep [11u86]",
+          "summary": "11U OBA Rep - Game vs Mitchell Astros Rep [11u86](W 0-7)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -5911,10 +5923,10 @@
           "start_time": "6:00 PM",
           "opponent": "Mitchell Astros Rep",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
+          "result": "W",
+          "brigade_score": 7,
+          "opp_score": 0,
+          "cancelled": false
         },
         {
           "game_id": "21146",
@@ -6014,7 +6026,7 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 1,
+        "games_missed": 2,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 3,
         "doubleheader_mismatch_upcoming": 0,
@@ -6039,6 +6051,22 @@
             "pending_count": 0,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
+            "issue_timing": "past"
+          },
+          {
+            "date": "2026-08-04",
+            "time": "6:00 PM",
+            "opponent": "Mitchell Astros Rep",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
           }
         ],
@@ -8167,8 +8195,8 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
@@ -8188,7 +8216,7 @@
             "pending_count": 0,
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
+            "issue_timing": "past"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -10994,12 +11022,12 @@
       "id": 1299,
       "name": "9U Select",
       "category": "Select",
-      "gp": 11,
+      "gp": 12,
       "wins": 2,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "runs_for": 92,
-      "runs_against": 217,
+      "runs_for": 97,
+      "runs_against": 232,
       "practices": 19,
       "roster": {
         "players": 13,
@@ -11195,7 +11223,7 @@
           "date": "2026-08-06",
           "start_time": "6:30 PM",
           "end_date": "2026-08-07",
-          "summary": "9U Select - Game @ Aylmer Pirates [9uS76]",
+          "summary": "9U Select - Game @ Aylmer Pirates [9uS76](L 5-15)",
           "location": "Steen Park",
           "type": "game",
           "cancelled": false
@@ -11513,9 +11541,9 @@
           "start_time": "6:30 PM",
           "opponent": "Aylmer Pirates",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 5,
+          "opp_score": 15,
           "cancelled": false
         },
         {
@@ -13037,49 +13065,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-08-07",
-            "time": "6:00 PM",
-            "opponent": "Alvinston Riverhawks Select",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Brogan Murphy",
-              "Carson Whittington",
-              "Graham Dolbear",
-              "Hayden Scheuermann",
-              "Joey Buchner",
-              "Paolo Padiglia",
-              "Ryder Daye",
-              "Steve McGrail"
-            ],
-            "accepted_umpires": [
-              "Ryder Daye"
-            ],
-            "pending_umpires": [
-              "Brogan Murphy",
-              "Carson Whittington",
-              "Graham Dolbear",
-              "Hayden Scheuermann",
-              "Steve McGrail"
-            ],
-            "denied_umpires": [
-              "Joey Buchner",
-              "Paolo Padiglia"
-            ],
-            "assigned_count": 8,
-            "accepted_count": 1,
-            "pending_count": 5,
-            "denied_count": 2,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 5351.68,
@@ -13094,12 +13085,12 @@
       "id": 1301,
       "name": "15U Select",
       "category": "Select",
-      "gp": 15,
+      "gp": 16,
       "wins": 7,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "runs_for": 157,
-      "runs_against": 174,
+      "runs_for": 167,
+      "runs_against": 185,
       "practices": 17,
       "roster": {
         "players": 12,
@@ -13355,7 +13346,7 @@
           "date": "2026-08-06",
           "start_time": "6:00 PM",
           "end_date": "2026-08-07",
-          "summary": "15U Select - Game @ DKMB River Cats [15uS06]",
+          "summary": "15U Select - Game @ DKMB River Cats [15uS06](L 10-11)",
           "location": "Komoka (Back)",
           "type": "game",
           "cancelled": false
@@ -13681,9 +13672,9 @@
           "start_time": "6:00 PM",
           "opponent": "DKMB River Cats",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 10,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -15321,12 +15312,12 @@
       "id": 1302,
       "name": "13U LDBA House League",
       "category": "House League",
-      "gp": 14,
+      "gp": 15,
       "wins": 12,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
       "runs_for": 229,
-      "runs_against": 74,
+      "runs_against": 85,
       "practices": 13,
       "roster": {
         "players": 14,
@@ -15522,7 +15513,7 @@
           "date": "2026-08-05",
           "start_time": "6:30 PM",
           "end_date": "2026-08-06",
-          "summary": "13U LDBA House League - Game @ Camlachie 1 [13uW78]",
+          "summary": "13U LDBA House League - Game @ Camlachie 1 [13uW78](L 0-11)",
           "location": "Arnold Minielly (Diamond 3)",
           "type": "game",
           "cancelled": false
@@ -15818,9 +15809,9 @@
           "start_time": "6:30 PM",
           "opponent": "Camlachie",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 0,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -18539,15 +18530,6 @@
       "date": "2026-07-21",
       "start_time": "6:00 PM",
       "summary": "CANCELLED 11U OBA Rep - Practice",
-      "location": "Tecumseh Park"
-    },
-    {
-      "team_id": 1293,
-      "team_name": "11U OBA Rep",
-      "type": "game",
-      "date": "2026-08-04",
-      "start_time": "6:00 PM",
-      "summary": "CANCELLED 11U OBA Rep - Game vs Mitchell Astros Rep [11u86]",
       "location": "Tecumseh Park"
     },
     {
