@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-07T10:03:09.287696Z",
+  "generated": "2026-08-07T16:03:02.583002Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -29,16 +29,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-20801-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "10:00 AM",
-          "end_date": "2026-06-07",
-          "summary": "8U OBA Rep - Game vs North London Nationals [8u09](W 20-21)",
-          "location": "Clearwater Diamond #1",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20803-sarniabrigade.ca",
           "date": "2026-06-07",
@@ -3282,6 +3272,7 @@
               "Lucas Nethery",
               "Luke Walls",
               "Marko Sazdov",
+              "Mason Harper",
               "Matt Kennett",
               "Matthew Schrie",
               "Max Avery",
@@ -3387,7 +3378,6 @@
                   "Lane Vanden Ouweland",
                   "Lawrence Dyck",
                   "Levi Burlingham",
-                  "Liam Colosimo",
                   "Liam Scott",
                   "Logan Conroy",
                   "Logan Hiscocks",
@@ -3395,6 +3385,7 @@
                   "Lucas Nethery",
                   "Luke Walls",
                   "Marko Sazdov",
+                  "Mason Harper",
                   "Matt Kennett",
                   "Matthew Schrie",
                   "Max Avery",
@@ -3409,9 +3400,7 @@
                   "Parker Leighton",
                   "Penny Core",
                   "Ralph Campbell",
-                  "Rio Ruiz",
                   "Ronnie Atyeo",
-                  "Ryan Carlton",
                   "Ryan Ross",
                   "Ryder Daye",
                   "Ryerson Nead",
@@ -3425,7 +3414,6 @@
                   "Terry Doyle",
                   "Tie Richards",
                   "Tristan Heeringa",
-                  "Tristan Nemcek",
                   "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
@@ -3504,6 +3492,7 @@
                   "Lucas Nethery",
                   "Luke Walls",
                   "Marko Sazdov",
+                  "Mason Harper",
                   "Matt Kennett",
                   "Matthew Schrie",
                   "Max Avery",
@@ -3542,51 +3531,38 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Bentley Bartosz",
                   "Brian Mundt",
                   "Brock Lane",
-                  "Brogan Murphy",
                   "Carter Palmer",
-                  "Carter Wills",
-                  "Clark Thornton",
                   "Derek Bayly",
                   "Ewan Snedden",
+                  "Gage Boyd",
                   "Grant Purdy",
-                  "Hayden Scheuermann",
                   "Jackson Burlingham",
-                  "Jakob Rodriguez",
-                  "Joey Buchner",
                   "Levi Burlingham",
-                  "Liam Colosimo",
                   "Marko Sazdov",
+                  "Mike Moorhouse",
                   "Myles Hobbs",
-                  "Rio Ruiz",
                   "Ronnie Atyeo",
-                  "Ryan Carlton",
-                  "Tristan Nemcek",
+                  "Steve McGrail",
+                  "Tyler Hoadley",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Bentley Daughtrey",
-                  "Cambria Caissie",
                   "Chris Bonneau",
-                  "Cohen Smith",
-                  "Colby Sheffer",
-                  "Drew Baxter",
+                  "David Haasen",
                   "Greg Armstrong",
-                  "Jason Lajeunesse",
-                  "Mike Moorhouse",
                   "Sadie Daughtrey",
-                  "Shane Moorhouse",
                   "Steve McGrail",
                   "Summer Steinke",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 110,
-                "accepted_count": 104,
-                "pending_count": 24,
-                "denied_count": 14,
+                "assigned_count": 107,
+                "accepted_count": 105,
+                "pending_count": 17,
+                "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4896,12 +4872,33 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-08-09",
+            "time": "4:00 PM",
+            "opponent": "London West Tincaps",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Easton McKinlay"
+            ],
+            "accepted_umpires": [
+              "Easton McKinlay"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 1,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-05-31",
@@ -4947,6 +4944,57 @@
                 "accepted_umpires": [
                   "Axl Taylor",
                   "Summer Steinke"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-08-09",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [
+              "Easton McKinlay | Mason Harper"
+            ],
+            "mismatched_names": [
+              "Mason Harper"
+            ],
+            "games": [
+              {
+                "time": "4:00 PM",
+                "opponent": "London West Tincaps",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Easton McKinlay"
+                ],
+                "accepted_umpires": [
+                  "Easton McKinlay"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 1,
+                "accepted_count": 1,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "6:30 PM",
+                "opponent": "Lucan-Ilderton Athletics",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Easton McKinlay",
+                  "Mason Harper"
+                ],
+                "accepted_umpires": [
+                  "Easton McKinlay",
+                  "Mason Harper"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
@@ -6267,16 +6315,6 @@
       },
       "events": [
         {
-          "uid": "MS-20714-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "10:00 AM",
-          "end_date": "2026-06-07",
-          "summary": "12U OBA Rep - Game vs North London Nationals [12u07](L 14-6)",
-          "location": "Tecumseh Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20715-sarniabrigade.ca",
           "date": "2026-06-07",
           "start_time": "1:00 PM",
@@ -7227,13 +7265,13 @@
       "id": 1295,
       "name": "13U OBA Rep",
       "category": "OBA Rep",
-      "gp": 29,
-      "wins": 19,
+      "gp": 30,
+      "wins": 20,
       "losses": 10,
       "ties": 0,
-      "runs_for": 323,
+      "runs_for": 330,
       "runs_against": 213,
-      "practices": 21,
+      "practices": 22,
       "roster": {
         "players": 13,
         "adults": 4,
@@ -7548,7 +7586,7 @@
           "date": "2026-08-06",
           "start_time": "6:00 PM",
           "end_date": "2026-08-07",
-          "summary": "13U OBA Rep - Game vs Exeter Express 13u Rep [13u75]",
+          "summary": "13U OBA Rep - Game vs Exeter Express 13u Rep [13u75](W 0-7)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -7621,6 +7659,16 @@
           "summary": "13U OBA Rep - Game vs DKMB River Cats [13u35]",
           "location": "Tecumseh Park",
           "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22162-sarniabrigade.ca",
+          "date": "2026-08-15",
+          "start_time": "10:00 AM",
+          "end_date": "2026-08-15",
+          "summary": "13U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -8116,9 +8164,9 @@
           "start_time": "6:00 PM",
           "opponent": "Exeter Express",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 7,
+          "opp_score": 0,
           "cancelled": false
         },
         {
@@ -8305,16 +8353,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21231-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "9:00 AM",
-          "end_date": "2026-06-07",
-          "summary": "14U OBA Rep - Game vs Bloordale [3](W 0-16)",
-          "location": "Larry Pearson Park - Diamond 2",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21759-sarniabrigade.ca",
           "date": "2026-06-07",
@@ -11725,16 +11763,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-20815-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "10:00 AM",
-          "end_date": "2026-06-07",
-          "summary": "11U Select - Game vs Wyoming Wranglers [11uS124](W 6-16)",
-          "location": "Clearwater Diamond #2",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-20130-sarniabrigade.ca",
           "date": "2026-06-11",
@@ -15559,6 +15587,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-22161-sarniabrigade.ca",
+          "date": "2026-08-15",
+          "start_time": "1:00 PM",
+          "end_date": "2026-08-15",
+          "summary": "13U LDBA House League - Game @ Corunna Minor Giants",
+          "location": "Corunna Athletic Park Diamond 1",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20375-sarniabrigade.ca",
           "date": "2026-08-16",
           "start_time": "1:00 PM",
@@ -15825,6 +15863,18 @@
           "brigade_score": null,
           "opp_score": null,
           "cancelled": false
+        },
+        {
+          "game_id": "22161",
+          "href": "https://sarniabrigade.ca/Teams/1302/Games/22161/",
+          "date": "2026-08-15",
+          "start_time": "1:00 PM",
+          "opponent": "Corunna Minor Giants Corunna Athletic Park Dia",
+          "home": false,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
         }
       ],
       "umpire_issues": {
@@ -15865,16 +15915,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-19736-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "10:00 AM",
-          "end_date": "2026-06-07",
-          "summary": "16U PBLO - Game @ Ontario Yankees(L 1-7)",
-          "location": "Pan-Am Sportsplex (5)",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-19737-sarniabrigade.ca",
           "date": "2026-06-07",
@@ -16313,6 +16353,16 @@
           "summary": "16U PBLO - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22160-sarniabrigade.ca",
+          "date": "2026-08-11",
+          "start_time": "7:00 PM",
+          "end_date": "2026-08-12",
+          "summary": "16U PBLO - Game vs Wyoming Major Wranglers",
+          "location": "Errol Russell Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -17124,6 +17174,18 @@
           "cancelled": false
         },
         {
+          "game_id": "22160",
+          "href": "https://sarniabrigade.ca/Teams/1298/Games/22160/",
+          "date": "2026-08-11",
+          "start_time": "7:00 PM",
+          "opponent": "Wyoming Major Wranglers Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20379",
           "href": "https://sarniabrigade.ca/Teams/1298/Games/20379/",
           "date": "2026-08-14",
@@ -17198,12 +17260,40 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-08-11",
+            "time": "7:00 PM",
+            "opponent": "Wyoming Major Wranglers",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [
+              "Brock Lane",
+              "Steve McGrail",
+              "Tyler Hoadley",
+              "Tyler Whetham"
+            ],
+            "accepted_umpires": [],
+            "pending_umpires": [
+              "Brock Lane",
+              "Tyler Hoadley",
+              "Tyler Whetham"
+            ],
+            "denied_umpires": [
+              "Steve McGrail"
+            ],
+            "assigned_count": 4,
+            "accepted_count": 0,
+            "pending_count": 3,
+            "denied_count": 1,
+            "assignment_state": "assigned_but_denied",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-04-26",
