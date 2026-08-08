@@ -15,6 +15,23 @@ Data sources
 NOTE: Score parsing uses regex against the MBSportsWeb HTML structure.
       If result or score data looks wrong once games begin, update the
       RESULT_RE / SCORE_RE patterns in parse_schedule() below.
+
+KNOWN LIMITATION: The ICS feed omits early-season practices. Confirmed for
+      Instructional (May 4 - Jun 1 practices never appeared in its feed,
+      only Jun 8 onward; manually backfilled into docs/data.json once —
+      see merge_past_events()). Every other team's recorded practices also
+      start no earlier than Jun 8-12 despite games starting in April/May,
+      so the same truncation almost certainly affected them too, but their
+      exact missing dates were never captured anywhere and could not be
+      confirmed, so they were left as-is rather than guessed.
+      The site's HTML Team Calendar page (/Teams/<id>/Calendar/?Month=N&Year=N)
+      does show the full list, but it 403s behind a "Human Verification"
+      wall for any month older than the current or previous one — so it
+      can't be used as an automated fallback in CI to backfill older
+      months. If a team's practice count looks low, check that team's
+      Calendar page by hand and seed docs/data.json the same way
+      Instructional was (merge_past_events() will then keep it going
+      forward).
 """
 
 import csv
@@ -1325,6 +1342,48 @@ def parse_roster_counts(html: str) -> dict:
     )
     return counts
 
+def merge_past_events(previous_team: dict, fresh_events: list) -> list:
+    """Re-add past-dated events present in a prior run but absent from the
+    fresh ICS pull.
+
+    The ICS feed has been observed to silently drop early-season events
+    (e.g. Instructional's May practices vanished once June's arrived).
+    Once a date has passed there's no realistic chance of it still being
+    rescheduled or cancelled, so once we've recorded it, keep it — a
+    disappearance from the feed is treated as feed staleness, not as the
+    event never having happened.
+    """
+    if not previous_team:
+        return fresh_events
+
+    today = date.today()
+    fresh_keys = {
+        (event.get("uid"), event.get("date"), event.get("type"))
+        for event in fresh_events
+    }
+
+    merged = list(fresh_events)
+    for old_event in previous_team.get("events", []):
+        old_date_text = old_event.get("date")
+        if not old_date_text:
+            continue
+        try:
+            old_date = date.fromisoformat(old_date_text)
+        except ValueError:
+            continue
+        if old_date >= today:
+            continue  # only backfill events that have already happened
+
+        key = (old_event.get("uid"), old_event.get("date"), old_event.get("type"))
+        if key in fresh_keys:
+            continue
+        merged.append(old_event)
+        fresh_keys.add(key)
+
+    merged.sort(key=lambda e: (e.get("date") or "", e.get("start_time") or ""))
+    return merged
+
+
 # ---------------------------------------------------------------------------
 # Per-team collection
 # ---------------------------------------------------------------------------
@@ -1465,6 +1524,17 @@ def main():
     out_path = docs_dir / "data.json"
     budget_metrics = fetch_budget_metrics(PUBLIC_BUDGET_METRICS_CSV_URL)
 
+    previous_teams_by_id = {}
+    if out_path.exists():
+        try:
+            with open(out_path, "r", encoding="utf-8") as fh:
+                previous_payload = json.load(fh)
+            previous_teams_by_id = {
+                t["id"]: t for t in previous_payload.get("teams", [])
+            }
+        except (json.JSONDecodeError, OSError) as exc:
+            print(f"  WARN  Could not read previous {out_path}: {exc}", file=sys.stderr)
+
     print("\n[CP Officials]")
     team_assignments, cp_status = collect_cp_umpire_assignments()
     if cp_status.get("available"):
@@ -1482,6 +1552,12 @@ def main():
                 team,
                 team_assignments.get(team["id"], []),
                 cp_status,
+            )
+            team_data["events"] = merge_past_events(
+                previous_teams_by_id.get(team["id"]), team_data["events"]
+            )
+            team_data["practices"] = sum(
+                1 for event in team_data["events"] if event["type"] == "practice"
             )
             metric_values = budget_metrics.get(team["name"], {})
             team_data["uniform_cost"] = metric_values.get("uniform_cost")

@@ -18266,7 +18266,7 @@
       "ties": 0,
       "runs_for": 0,
       "runs_against": 0,
-      "practices": 9,
+      "practices": 14,
       "roster": {
         "players": 21,
         "adults": 2,
@@ -18276,6 +18276,56 @@
         "managers": 0
       },
       "events": [
+        {
+          "uid": "manual-backfill-instructional-2026-05-04",
+          "date": "2026-05-04",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-04",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "manual-backfill-instructional-2026-05-11",
+          "date": "2026-05-11",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-11",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "manual-backfill-instructional-2026-05-18",
+          "date": "2026-05-18",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-18",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "manual-backfill-instructional-2026-05-25",
+          "date": "2026-05-25",
+          "start_time": "5:30 PM",
+          "end_date": "2026-05-25",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "manual-backfill-instructional-2026-06-01",
+          "date": "2026-06-01",
+          "start_time": "5:30 PM",
+          "end_date": "2026-06-01",
+          "summary": "Instructional - Practice",
+          "location": "Point Edward McCrae Park",
+          "type": "practice",
+          "cancelled": false
+        },
         {
           "uid": "MS-20201-sarniabrigade.ca",
           "date": "2026-06-08",
