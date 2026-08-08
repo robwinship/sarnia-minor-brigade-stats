@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-07T19:32:51.246527Z",
+  "generated": "2026-08-08T10:03:18.439915Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2602,16 +2602,6 @@
           "cancelled": false
         },
         {
-          "uid": "MD-3234-sarniabrigade.ca",
-          "date": "2026-06-05",
-          "start_time": null,
-          "end_date": "2026-06-08",
-          "summary": "10U AA OBA Rep - London Badger Tournament",
-          "location": "London, Ontario",
-          "type": "tournament",
-          "cancelled": false
-        },
-        {
           "uid": "MD-3235-sarniabrigade.ca",
           "date": "2026-06-26",
           "start_time": null,
@@ -3520,28 +3510,34 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Blake Adams",
                   "Brian Mundt",
                   "Brock Lane",
+                  "Brogan Murphy",
+                  "Chris Bonneau",
+                  "Cruz Marinaro",
                   "Derek Bayly",
                   "Ewan Snedden",
-                  "Gage Boyd",
+                  "Graham Dolbear",
                   "Grant Purdy",
+                  "Hayden Scheuermann",
                   "Jackson Burlingham",
+                  "Jarett Simons",
                   "Levi Burlingham",
                   "Marko Sazdov",
+                  "Mason Harper",
                   "Mike Moorhouse",
                   "Myles Hobbs",
+                  "Paolo Padiglia",
                   "Ronnie Atyeo",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
-                  "Tyler Whetham"
+                  "Tyler Whetham",
+                  "Wiishkpimin Macbeth"
                 ],
                 "denied_umpires": [
                   "Bentley Daughtrey",
+                  "Carson Whittington",
                   "Chris Bonneau",
-                  "David Haasen",
-                  "Greg Armstrong",
                   "Myles Hobbs",
                   "Sadie Daughtrey",
                   "Steve McGrail",
@@ -3550,8 +3546,8 @@
                 ],
                 "assigned_count": 106,
                 "accepted_count": 105,
-                "pending_count": 16,
-                "denied_count": 9,
+                "pending_count": 23,
+                "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -3810,7 +3806,7 @@
       "ties": 0,
       "runs_for": 249,
       "runs_against": 310,
-      "practices": 26,
+      "practices": 25,
       "roster": {
         "players": 13,
         "adults": 6,
@@ -3820,16 +3816,6 @@
         "managers": 1
       },
       "events": [
-        {
-          "uid": "MS-21735-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "4:00 PM",
-          "end_date": "2026-06-07",
-          "summary": "10U A OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
-          "cancelled": false
-        },
         {
           "uid": "MS-20248-sarniabrigade.ca",
           "date": "2026-06-09",
@@ -4895,17 +4881,23 @@
             "opponent": "London West Tincaps",
             "venue": "Tecumseh Park",
             "assigned_umpires": [
-              "Easton McKinlay"
+              "Carson Whittington",
+              "Easton McKinlay",
+              "Mason Harper"
             ],
             "accepted_umpires": [
               "Easton McKinlay"
             ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
+            "pending_umpires": [
+              "Mason Harper"
+            ],
+            "denied_umpires": [
+              "Carson Whittington"
+            ],
+            "assigned_count": 3,
             "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
+            "pending_count": 1,
+            "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           },
@@ -4914,15 +4906,26 @@
             "time": "6:00 PM",
             "opponent": "Sarnia Brigade 10U AA",
             "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [],
+            "assigned_umpires": [
+              "Brogan Murphy",
+              "Carson Whittington",
+              "Mason Harper",
+              "Summer Steinke"
+            ],
             "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
+            "pending_umpires": [
+              "Brogan Murphy",
+              "Mason Harper"
+            ],
+            "denied_umpires": [
+              "Carson Whittington",
+              "Summer Steinke"
+            ],
+            "assigned_count": 4,
             "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "pending_count": 2,
+            "denied_count": 2,
+            "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
           }
         ],
@@ -4998,17 +5001,23 @@
                 "opponent": "London West Tincaps",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
-                  "Easton McKinlay"
+                  "Carson Whittington",
+                  "Easton McKinlay",
+                  "Mason Harper"
                 ],
                 "accepted_umpires": [
                   "Easton McKinlay"
                 ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 1,
+                "pending_umpires": [
+                  "Mason Harper"
+                ],
+                "denied_umpires": [
+                  "Carson Whittington"
+                ],
+                "assigned_count": 3,
                 "accepted_count": 1,
-                "pending_count": 0,
-                "denied_count": 0,
+                "pending_count": 1,
+                "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -5047,12 +5056,12 @@
       "id": 1293,
       "name": "11U OBA Rep",
       "category": "OBA Rep",
-      "gp": 24,
-      "wins": 13,
-      "losses": 11,
+      "gp": 31,
+      "wins": 14,
+      "losses": 17,
       "ties": 0,
-      "runs_for": 206,
-      "runs_against": 182,
+      "runs_for": 254,
+      "runs_against": 245,
       "practices": 22,
       "roster": {
         "players": 12,
@@ -5128,7 +5137,7 @@
           "date": "2026-06-19",
           "start_time": "1:00 PM",
           "end_date": "2026-06-19",
-          "summary": "11U OBA Rep - Game vs Cambridge Cubs Tier 1 [11UA-4]",
+          "summary": "11U OBA Rep - Game vs Cambridge Cubs Tier 1 [11UA-4](L 9-7)",
           "location": "Studiman Park",
           "type": "game",
           "cancelled": false
@@ -5138,7 +5147,7 @@
           "date": "2026-06-20",
           "start_time": "9:00 AM",
           "end_date": "2026-06-20",
-          "summary": "11U OBA Rep - Game vs Waterdown Wolves [11UA-8]",
+          "summary": "11U OBA Rep - Game vs Waterdown Wolves [11UA-8](L 7-2)",
           "location": "Churchill Park(2)",
           "type": "game",
           "cancelled": false
@@ -5148,7 +5157,7 @@
           "date": "2026-06-20",
           "start_time": "1:30 PM",
           "end_date": "2026-06-20",
-          "summary": "11U OBA Rep - Game vs Mississauga Majors T2 [11UA-10]",
+          "summary": "11U OBA Rep - Game vs Mississauga Majors T2 [11UA-10](L 7-6)",
           "location": "Waterworks Park(2)",
           "type": "game",
           "cancelled": false
@@ -5408,7 +5417,7 @@
           "date": "2026-08-07",
           "start_time": "7:30 PM",
           "end_date": "2026-08-08",
-          "summary": "11U OBA Rep - Game @ Wyoming Wranglers [11u87]",
+          "summary": "11U OBA Rep - Game @ Wyoming Wranglers [11u87](W 15-4)",
           "location": "Centennial",
           "type": "game",
           "cancelled": false
@@ -5541,16 +5550,6 @@
           "summary": "11U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
           "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MD-3301-sarniabrigade.ca",
-          "date": "2026-06-05",
-          "start_time": null,
-          "end_date": "2026-06-08",
-          "summary": "11U OBA Rep - London Badgers AAA",
-          "location": "London, Ontario",
-          "type": "tournament",
           "cancelled": false
         },
         {
@@ -5758,9 +5757,9 @@
           "start_time": "8:30 PM",
           "opponent": "Richmond Hill Phoenix Stronach Baseball Comple",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 0,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -5770,9 +5769,9 @@
           "start_time": "1:30 PM",
           "opponent": "Mississauga SW Twins Stronach Baseball Complex",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 12,
+          "opp_score": 13,
           "cancelled": false
         },
         {
@@ -5782,9 +5781,9 @@
           "start_time": "6:00 PM",
           "opponent": "London Badgers North London Sports Field",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 13,
           "cancelled": false
         },
         {
@@ -5818,9 +5817,9 @@
           "start_time": "1:00 PM",
           "opponent": "Cambridge Cubs Tier",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 7,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -5830,9 +5829,9 @@
           "start_time": "9:00 AM",
           "opponent": "Waterdown Wolves",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 2,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -5842,9 +5841,9 @@
           "start_time": "1:30 PM",
           "opponent": "Mississauga Majors T2",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -6010,9 +6009,9 @@
           "start_time": "7:30 PM",
           "opponent": "Wyoming Wranglers",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 15,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -6325,12 +6324,12 @@
       "id": 1294,
       "name": "12U OBA Rep",
       "category": "OBA Rep",
-      "gp": 22,
+      "gp": 23,
       "wins": 12,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "runs_for": 175,
-      "runs_against": 208,
+      "runs_for": 181,
+      "runs_against": 215,
       "practices": 21,
       "roster": {
         "players": 13,
@@ -6606,7 +6605,7 @@
           "date": "2026-08-07",
           "start_time": "6:30 PM",
           "end_date": "2026-08-08",
-          "summary": "12U OBA Rep - Game @ St. Thomas Cardinals [12U41]",
+          "summary": "12U OBA Rep - Game @ St. Thomas Cardinals [12U41](L 6-7)",
           "location": "New York Central",
           "type": "game",
           "cancelled": false
@@ -7090,9 +7089,9 @@
           "start_time": "6:30 PM",
           "opponent": "St. Thomas Cardinals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -8371,16 +8370,6 @@
       },
       "events": [
         {
-          "uid": "MS-21760-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "3:00 PM",
-          "end_date": "2026-06-07",
-          "summary": "14U OBA Rep - Game vs East York(W 4-8)",
-          "location": "Larry Pearson",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20821-sarniabrigade.ca",
           "date": "2026-06-10",
           "start_time": "6:00 PM",
@@ -9048,16 +9037,6 @@
           "summary": "14U OBA Rep - Practice",
           "location": "Blackwell North",
           "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MD-3281-sarniabrigade.ca",
-          "date": "2026-06-05",
-          "start_time": null,
-          "end_date": "2026-06-08",
-          "summary": "14U OBA Rep - Guelph",
-          "location": "Guelph",
-          "type": "tournament",
           "cancelled": false
         },
         {
@@ -11422,16 +11401,6 @@
           "location": "Blackwell North",
           "type": "practice",
           "cancelled": false
-        },
-        {
-          "uid": "MD-3299-sarniabrigade.ca",
-          "date": "2026-06-05",
-          "start_time": null,
-          "end_date": "2026-06-08",
-          "summary": "9U Select - Saugeen Shores - Battle at the Beach",
-          "location": "Ontario",
-          "type": "tournament",
-          "cancelled": false
         }
       ],
       "games": [
@@ -12465,12 +12434,12 @@
       "id": 1300,
       "name": "13U Select",
       "category": "Select",
-      "gp": 17,
-      "wins": 12,
+      "gp": 18,
+      "wins": 13,
       "losses": 5,
       "ties": 0,
-      "runs_for": 180,
-      "runs_against": 100,
+      "runs_for": 193,
+      "runs_against": 109,
       "practices": 15,
       "roster": {
         "players": 12,
@@ -12726,7 +12695,7 @@
           "date": "2026-08-07",
           "start_time": "6:00 PM",
           "end_date": "2026-08-08",
-          "summary": "13U Select - Game vs Alvinston Riverhawks Select [13uS51]",
+          "summary": "13U Select - Game vs Alvinston Riverhawks Select [13uS51](W 9-13)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -13068,9 +13037,9 @@
           "start_time": "6:00 PM",
           "opponent": "Alvinston Riverhawks Select",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 13,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -13484,16 +13453,6 @@
           "summary": "15U Select - Practice",
           "location": "Blackwell Park",
           "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MD-3303-sarniabrigade.ca",
-          "date": "2026-06-05",
-          "start_time": null,
-          "end_date": "2026-06-08",
-          "summary": "15U Select - Sarnia Brigade 15u Select",
-          "location": "Sarnia",
-          "type": "tournament",
           "cancelled": false
         },
         {
@@ -15624,16 +15583,6 @@
           "cancelled": false
         },
         {
-          "uid": "MD-3315-sarniabrigade.ca",
-          "date": "2026-06-05",
-          "start_time": null,
-          "end_date": "2026-06-08",
-          "summary": "13U LDBA House League - 13U House League Select Tournament",
-          "location": "The Canadian Baseball Hall of Fame, St. Marys Hall",
-          "type": "tournament",
-          "cancelled": false
-        },
-        {
           "uid": "MD-3362-sarniabrigade.ca",
           "date": "2026-08-21",
           "start_time": null,
@@ -17247,9 +17196,9 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 3,
         "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -17260,6 +17209,9 @@
             "venue": "Errol Russell Park",
             "assigned_umpires": [
               "Brock Lane",
+              "Carson Whittington",
+              "Chris Bonneau",
+              "Paolo Padiglia",
               "Steve McGrail",
               "Tyler Hoadley",
               "Tyler Whetham"
@@ -17267,17 +17219,66 @@
             "accepted_umpires": [],
             "pending_umpires": [
               "Brock Lane",
+              "Chris Bonneau",
+              "Paolo Padiglia",
               "Tyler Hoadley",
               "Tyler Whetham"
             ],
             "denied_umpires": [
+              "Carson Whittington",
               "Steve McGrail"
             ],
-            "assigned_count": 4,
+            "assigned_count": 7,
             "accepted_count": 0,
-            "pending_count": 3,
-            "denied_count": 1,
+            "pending_count": 5,
+            "denied_count": 2,
             "assignment_state": "assigned_but_denied",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-08-15",
+            "time": "11:00 AM",
+            "opponent": "Sarnia Brigade 14u",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [
+              "Hayden Scheuermann",
+              "Mike Moorhouse"
+            ],
+            "accepted_umpires": [
+              "Hayden Scheuermann"
+            ],
+            "pending_umpires": [
+              "Mike Moorhouse"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-08-15",
+            "time": "1:30 PM",
+            "opponent": "Sarnia Brigade 14u",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [
+              "Hayden Scheuermann",
+              "Mike Moorhouse"
+            ],
+            "accepted_umpires": [
+              "Hayden Scheuermann"
+            ],
+            "pending_umpires": [
+              "Mike Moorhouse"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 1,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -17332,6 +17333,57 @@
                 "assigned_count": 2,
                 "accepted_count": 2,
                 "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-08-15",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "11:00 AM",
+                "opponent": "Sarnia Brigade 14u",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Hayden Scheuermann",
+                  "Mike Moorhouse"
+                ],
+                "accepted_umpires": [
+                  "Hayden Scheuermann"
+                ],
+                "pending_umpires": [
+                  "Mike Moorhouse"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "1:30 PM",
+                "opponent": "Sarnia Brigade 14u",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Hayden Scheuermann",
+                  "Mike Moorhouse"
+                ],
+                "accepted_umpires": [
+                  "Hayden Scheuermann"
+                ],
+                "pending_umpires": [
+                  "Mike Moorhouse"
+                ],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 1,
+                "pending_count": 1,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               }
@@ -17453,16 +17505,6 @@
           "start_time": "12:30 PM",
           "end_date": "2026-07-12",
           "summary": "22U AAA - Game @ TBA",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21197-sarniabrigade.ca",
-          "date": "2026-07-28",
-          "start_time": "7:30 PM",
-          "end_date": "2026-07-29",
-          "summary": "22U AAA - Game vs TBA",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -17750,22 +17792,10 @@
           "brigade_score": null,
           "opp_score": null,
           "cancelled": false
-        },
-        {
-          "game_id": "21197",
-          "href": "https://sarniabrigade.ca/Teams/1306/Games/21197/",
-          "date": "2026-07-28",
-          "start_time": "7:30 PM",
-          "opponent": "TBA Errol Russell Park",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
         }
       ],
       "umpire_issues": {
-        "games_missed": 3,
+        "games_missed": 2,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
@@ -17792,22 +17822,6 @@
             "date": "2026-05-19",
             "time": "7:30 PM",
             "opponent": "Port Lambton Pirates",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "past"
-          },
-          {
-            "date": "2026-07-28",
-            "time": "7:30 PM",
-            "opponent": "TBA",
             "venue": "Errol Russell Park",
             "assigned_umpires": [],
             "accepted_umpires": [],
@@ -17851,16 +17865,6 @@
         "managers": 0
       },
       "events": [
-        {
-          "uid": "MS-21170-sarniabrigade.ca",
-          "date": "2026-06-07",
-          "start_time": "3:30 PM",
-          "end_date": "2026-06-07",
-          "summary": "Senior AAA - Game vs Windsor Stars",
-          "location": "Courtright Community Park",
-          "type": "game",
-          "cancelled": false
-        },
         {
           "uid": "MS-21174-sarniabrigade.ca",
           "date": "2026-06-23",
