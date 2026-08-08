@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-08T10:03:18.439915Z",
+  "generated": "2026-08-08T16:03:04.788535Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3512,23 +3512,19 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Brock Lane",
-                  "Brogan Murphy",
                   "Chris Bonneau",
                   "Cruz Marinaro",
                   "Derek Bayly",
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Hayden Scheuermann",
-                  "Jackson Burlingham",
                   "Jarett Simons",
-                  "Levi Burlingham",
                   "Marko Sazdov",
-                  "Mason Harper",
-                  "Mike Moorhouse",
                   "Myles Hobbs",
                   "Paolo Padiglia",
                   "Ronnie Atyeo",
+                  "Ryder Daye",
+                  "Tie Richards",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
                   "Tyler Whetham",
@@ -3538,15 +3534,15 @@
                   "Bentley Daughtrey",
                   "Carson Whittington",
                   "Chris Bonneau",
+                  "Hayden Scheuermann",
                   "Myles Hobbs",
                   "Sadie Daughtrey",
                   "Steve McGrail",
-                  "Summer Steinke",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 106,
                 "accepted_count": 105,
-                "pending_count": 23,
+                "pending_count": 19,
                 "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4869,66 +4865,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-08-09",
-            "time": "4:00 PM",
-            "opponent": "London West Tincaps",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Carson Whittington",
-              "Easton McKinlay",
-              "Mason Harper"
-            ],
-            "accepted_umpires": [
-              "Easton McKinlay"
-            ],
-            "pending_umpires": [
-              "Mason Harper"
-            ],
-            "denied_umpires": [
-              "Carson Whittington"
-            ],
-            "assigned_count": 3,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 1,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-12",
-            "time": "6:00 PM",
-            "opponent": "Sarnia Brigade 10U AA",
-            "venue": "Clearwater Diamond #2",
-            "assigned_umpires": [
-              "Brogan Murphy",
-              "Carson Whittington",
-              "Mason Harper",
-              "Summer Steinke"
-            ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Brogan Murphy",
-              "Mason Harper"
-            ],
-            "denied_umpires": [
-              "Carson Whittington",
-              "Summer Steinke"
-            ],
-            "assigned_count": 4,
-            "accepted_count": 0,
-            "pending_count": 2,
-            "denied_count": 2,
-            "assignment_state": "assigned_but_denied",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-05-31",
@@ -4988,12 +4930,14 @@
           {
             "date": "2026-08-09",
             "issue_timing": "upcoming",
-            "incomplete_assignment": true,
+            "incomplete_assignment": false,
             "pair_signatures": [
-              "Easton McKinlay | Mason Harper"
+              "Easton McKinlay | Mason Harper",
+              "Easton McKinlay | Tie Richards"
             ],
             "mismatched_names": [
-              "Mason Harper"
+              "Mason Harper",
+              "Tie Richards"
             ],
             "games": [
               {
@@ -5001,23 +4945,19 @@
                 "opponent": "London West Tincaps",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
-                  "Carson Whittington",
                   "Easton McKinlay",
-                  "Mason Harper"
+                  "Tie Richards"
                 ],
                 "accepted_umpires": [
-                  "Easton McKinlay"
+                  "Easton McKinlay",
+                  "Tie Richards"
                 ],
-                "pending_umpires": [
-                  "Mason Harper"
-                ],
-                "denied_umpires": [
-                  "Carson Whittington"
-                ],
-                "assigned_count": 3,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 1,
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -17196,9 +17136,9 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 3,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -17211,7 +17151,10 @@
               "Brock Lane",
               "Carson Whittington",
               "Chris Bonneau",
+              "Graham Dolbear",
+              "Hayden Scheuermann",
               "Paolo Padiglia",
+              "Ryder Daye",
               "Steve McGrail",
               "Tyler Hoadley",
               "Tyler Whetham"
@@ -17220,65 +17163,22 @@
             "pending_umpires": [
               "Brock Lane",
               "Chris Bonneau",
+              "Graham Dolbear",
               "Paolo Padiglia",
+              "Ryder Daye",
               "Tyler Hoadley",
               "Tyler Whetham"
             ],
             "denied_umpires": [
               "Carson Whittington",
+              "Hayden Scheuermann",
               "Steve McGrail"
             ],
-            "assigned_count": 7,
+            "assigned_count": 10,
             "accepted_count": 0,
-            "pending_count": 5,
-            "denied_count": 2,
+            "pending_count": 7,
+            "denied_count": 3,
             "assignment_state": "assigned_but_denied",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-15",
-            "time": "11:00 AM",
-            "opponent": "Sarnia Brigade 14u",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [
-              "Hayden Scheuermann",
-              "Mike Moorhouse"
-            ],
-            "accepted_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "pending_umpires": [
-              "Mike Moorhouse"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-15",
-            "time": "1:30 PM",
-            "opponent": "Sarnia Brigade 14u",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [
-              "Hayden Scheuermann",
-              "Mike Moorhouse"
-            ],
-            "accepted_umpires": [
-              "Hayden Scheuermann"
-            ],
-            "pending_umpires": [
-              "Mike Moorhouse"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 2,
-            "accepted_count": 1,
-            "pending_count": 1,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -17333,57 +17233,6 @@
                 "assigned_count": 2,
                 "accepted_count": 2,
                 "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-08-15",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "11:00 AM",
-                "opponent": "Sarnia Brigade 14u",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Hayden Scheuermann",
-                  "Mike Moorhouse"
-                ],
-                "accepted_umpires": [
-                  "Hayden Scheuermann"
-                ],
-                "pending_umpires": [
-                  "Mike Moorhouse"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:30 PM",
-                "opponent": "Sarnia Brigade 14u",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Hayden Scheuermann",
-                  "Mike Moorhouse"
-                ],
-                "accepted_umpires": [
-                  "Hayden Scheuermann"
-                ],
-                "pending_umpires": [
-                  "Mike Moorhouse"
-                ],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 1,
-                "pending_count": 1,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               }
