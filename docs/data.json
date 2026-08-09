@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-09T10:03:03.485861Z",
+  "generated": "2026-08-09T16:03:31.771260Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -11759,12 +11759,12 @@
       "id": 1303,
       "name": "11U Select",
       "category": "Select",
-      "gp": 15,
-      "wins": 9,
+      "gp": 16,
+      "wins": 10,
       "losses": 6,
       "ties": 0,
-      "runs_for": 151,
-      "runs_against": 135,
+      "runs_for": 167,
+      "runs_against": 145,
       "practices": 15,
       "roster": {
         "players": 13,
@@ -12382,9 +12382,9 @@
           "start_time": "10:00 AM",
           "opponent": "North London Nationals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 16,
+          "opp_score": 10,
           "cancelled": false
         },
         {
