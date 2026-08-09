@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-08T23:03:10.345456Z",
+  "generated": "2026-08-09T10:03:03.485861Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3532,39 +3532,29 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Bentley Bartosz",
                   "Brian Mundt",
                   "Brock Lane",
-                  "Cruz Marinaro",
-                  "Derek Bayly",
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Grant Purdy",
-                  "Jarett Simons",
-                  "Marko Sazdov",
                   "Myles Hobbs",
-                  "Ronnie Atyeo",
                   "Ryder Daye",
-                  "Tie Richards",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
-                  "Bentley Daughtrey",
                   "Carson Whittington",
                   "Chris Bonneau",
                   "Hayden Scheuermann",
-                  "Myles Hobbs",
                   "Paolo Padiglia",
-                  "Sadie Daughtrey",
                   "Steve McGrail",
                   "Tyler Whetham"
                 ],
                 "assigned_count": 106,
                 "accepted_count": 105,
-                "pending_count": 17,
-                "denied_count": 9,
+                "pending_count": 10,
+                "denied_count": 6,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4238,7 +4228,7 @@
           "date": "2026-08-09",
           "start_time": "4:00 PM",
           "end_date": "2026-08-09",
-          "summary": "10U A OBA Rep - Game vs London West Tincaps [10u30]",
+          "summary": "CANCELLED 10U A OBA Rep - Game vs London West Tincaps [10u30]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -4809,7 +4799,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "20754",
@@ -4888,7 +4878,7 @@
         "games_missed": 0,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
@@ -4937,61 +4927,6 @@
                 "accepted_umpires": [
                   "Axl Taylor",
                   "Summer Steinke"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-08-09",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "Easton McKinlay | Mason Harper",
-              "Easton McKinlay | Tie Richards"
-            ],
-            "mismatched_names": [
-              "Mason Harper",
-              "Tie Richards"
-            ],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "London West Tincaps",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Easton McKinlay",
-                  "Tie Richards"
-                ],
-                "accepted_umpires": [
-                  "Easton McKinlay",
-                  "Tie Richards"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "Lucan-Ilderton Athletics",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Easton McKinlay",
-                  "Mason Harper"
-                ],
-                "accepted_umpires": [
-                  "Easton McKinlay",
-                  "Mason Harper"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
@@ -11147,12 +11082,12 @@
       "id": 1299,
       "name": "9U Select",
       "category": "Select",
-      "gp": 12,
+      "gp": 13,
       "wins": 2,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
-      "runs_for": 97,
-      "runs_against": 232,
+      "runs_for": 102,
+      "runs_against": 251,
       "practices": 19,
       "roster": {
         "players": 13,
@@ -11368,7 +11303,7 @@
           "date": "2026-08-08",
           "start_time": "6:00 PM",
           "end_date": "2026-08-09",
-          "summary": "9U Select - Game @ North London Nationals [9uS12]",
+          "summary": "9U Select - Game @ North London Nationals [9uS12](L 5-19)",
           "location": "North London (2)",
           "type": "game",
           "cancelled": false
@@ -11680,9 +11615,9 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 5,
+          "opp_score": 19,
           "cancelled": false
         },
         {
@@ -18803,6 +18738,15 @@
       "start_time": "5:30 PM",
       "summary": "CANCELLED 10U A OBA Rep - Practice",
       "location": "Coronation Park Diamond"
+    },
+    {
+      "team_id": 1311,
+      "team_name": "10U A OBA Rep",
+      "type": "game",
+      "date": "2026-08-09",
+      "start_time": "4:00 PM",
+      "summary": "CANCELLED 10U A OBA Rep - Game vs London West Tincaps [10u30]",
+      "location": "Tecumseh Park"
     },
     {
       "team_id": 1293,
