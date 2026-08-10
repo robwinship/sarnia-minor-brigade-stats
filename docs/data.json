@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-09T23:03:25.915633Z",
+  "generated": "2026-08-10T10:03:29.160752Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3330,7 +3330,6 @@
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
-                  "Carsyn Tnydall",
                   "Carter Wills",
                   "Chris Bonneau",
                   "Clark Thornton",
@@ -3415,7 +3414,6 @@
                   "Sydney Nisbet",
                   "Terry Doyle",
                   "Tie Richards",
-                  "Timothy Johnston",
                   "Tristan Heeringa",
                   "Tucker Stokes",
                   "Tyler Hoadley",
@@ -3535,32 +3533,19 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Brock Lane",
-                  "Carsyn Tnydall",
                   "Ewan Snedden",
-                  "Graham Dolbear",
-                  "Grant Purdy",
-                  "Jaxon Jacobs",
-                  "Marko Sazdov",
                   "Myles Hobbs",
-                  "Ryder Daye",
-                  "Timothy Johnston",
-                  "Tyler Hoadley",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Carson Whittington",
-                  "Chris Bonneau",
-                  "Hayden Scheuermann",
-                  "Paolo Padiglia",
-                  "Steve McGrail",
-                  "Tyler Whetham"
+                  "Grant Purdy"
                 ],
-                "assigned_count": 108,
+                "assigned_count": 106,
                 "accepted_count": 105,
-                "pending_count": 14,
-                "denied_count": 6,
+                "pending_count": 5,
+                "denied_count": 2,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -3813,12 +3798,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 30,
-      "wins": 14,
+      "gp": 31,
+      "wins": 15,
       "losses": 16,
       "ties": 0,
-      "runs_for": 249,
-      "runs_against": 310,
+      "runs_for": 260,
+      "runs_against": 318,
       "practices": 25,
       "roster": {
         "players": 13,
@@ -4244,7 +4229,7 @@
           "date": "2026-08-09",
           "start_time": "6:30 PM",
           "end_date": "2026-08-10",
-          "summary": "10U A OBA Rep - Game vs Lucan-Ilderton Athletics [10u62]",
+          "summary": "10U A OBA Rep - Game vs Lucan-Ilderton Athletics [10u62](W 8-11)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -4814,9 +4799,9 @@
           "start_time": "6:30 PM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -7045,7 +7030,7 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 2,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -7066,6 +7051,29 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
+          },
+          {
+            "date": "2026-08-12",
+            "time": "6:00 PM",
+            "opponent": "London Talons",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Carson Whittington",
+              "David Haasen"
+            ],
+            "accepted_umpires": [
+              "David Haasen"
+            ],
+            "pending_umpires": [],
+            "denied_umpires": [
+              "Carson Whittington"
+            ],
+            "assigned_count": 2,
+            "accepted_count": 1,
+            "pending_count": 0,
+            "denied_count": 1,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -17388,55 +17396,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-08-11",
-            "time": "7:00 PM",
-            "opponent": "Wyoming Major Wranglers",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [
-              "Brian Mundt",
-              "Brock Lane",
-              "Carson Whittington",
-              "Chris Bonneau",
-              "Graham Dolbear",
-              "Grant Purdy",
-              "Hayden Scheuermann",
-              "Paolo Padiglia",
-              "Steve McGrail",
-              "Tyler Hoadley",
-              "Tyler Whetham"
-            ],
-            "accepted_umpires": [
-              "Brian Mundt"
-            ],
-            "pending_umpires": [
-              "Brock Lane",
-              "Graham Dolbear",
-              "Grant Purdy",
-              "Tyler Hoadley",
-              "Tyler Whetham"
-            ],
-            "denied_umpires": [
-              "Carson Whittington",
-              "Chris Bonneau",
-              "Hayden Scheuermann",
-              "Paolo Padiglia",
-              "Steve McGrail"
-            ],
-            "assigned_count": 11,
-            "accepted_count": 1,
-            "pending_count": 5,
-            "denied_count": 5,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-04-26",
