@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-11T16:03:08.923782Z",
+  "generated": "2026-08-11T19:33:25.361967Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3646,8 +3646,7 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Brogan Murphy",
-                  "Carter Wills",
+                  "Chris Bonneau",
                   "Drew Baxter",
                   "Ewan Snedden",
                   "Joey Buchner",
@@ -3660,7 +3659,6 @@
                   "Rio Ruiz",
                   "Ryan Carlton",
                   "Ryder Daye",
-                  "Summer Steinke",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
@@ -3675,7 +3673,7 @@
                 ],
                 "assigned_count": 108,
                 "accepted_count": 105,
-                "pending_count": 18,
+                "pending_count": 16,
                 "denied_count": 7,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -7161,7 +7159,7 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 2,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -7182,40 +7180,6 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
-          },
-          {
-            "date": "2026-08-12",
-            "time": "6:00 PM",
-            "opponent": "London Talons",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Brogan Murphy",
-              "Carson Whittington",
-              "Carter Wills",
-              "David Haasen",
-              "Hayden Scheuermann",
-              "Marko Sazdov",
-              "Summer Steinke"
-            ],
-            "accepted_umpires": [
-              "David Haasen"
-            ],
-            "pending_umpires": [
-              "Brogan Murphy",
-              "Carter Wills",
-              "Marko Sazdov",
-              "Summer Steinke"
-            ],
-            "denied_umpires": [
-              "Carson Whittington",
-              "Hayden Scheuermann"
-            ],
-            "assigned_count": 7,
-            "accepted_count": 1,
-            "pending_count": 4,
-            "denied_count": 2,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -13461,12 +13425,12 @@
       "id": 1301,
       "name": "15U Select",
       "category": "Select",
-      "gp": 17,
-      "wins": 7,
+      "gp": 18,
+      "wins": 8,
       "losses": 10,
       "ties": 0,
-      "runs_for": 170,
-      "runs_against": 198,
+      "runs_for": 182,
+      "runs_against": 200,
       "practices": 23,
       "roster": {
         "players": 12,
@@ -13862,7 +13826,7 @@
           "date": "2026-08-09",
           "start_time": "6:00 PM",
           "end_date": "2026-08-10",
-          "summary": "15U Select - Game vs Ingersoll Ironbirds [15uS42]",
+          "summary": "15U Select - Game vs Ingersoll Ironbirds [15uS42](W 2-12)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -14170,9 +14134,9 @@
           "start_time": "6:00 PM",
           "opponent": "Ingersoll Ironbirds",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 12,
+          "opp_score": 2,
           "cancelled": false
         },
         {
