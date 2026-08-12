@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-11T23:04:19.686951Z",
+  "generated": "2026-08-12T10:03:05.028218Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2073,7 +2073,7 @@
       "ties": 0,
       "runs_for": 66,
       "runs_against": 56,
-      "practices": 28,
+      "practices": 27,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -2474,13 +2474,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-19667-sarniabrigade.ca",
+          "uid": "MS-22170-sarniabrigade.ca",
           "date": "2026-08-12",
-          "start_time": "5:30 PM",
-          "end_date": "2026-08-12",
-          "summary": "10U AA OBA Rep - Practice",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-13",
+          "summary": "10U AA OBA Rep - Game vs 10UA OBA REP",
           "location": "Clearwater Diamond #2",
-          "type": "practice",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -3044,6 +3044,18 @@
           "cancelled": false
         },
         {
+          "game_id": "22170",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/22170/",
+          "date": "2026-08-12",
+          "start_time": "6:00 PM",
+          "opponent": null,
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20005",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/20005/",
           "date": "2026-08-15",
@@ -3130,7 +3142,7 @@
       ],
       "umpire_issues": {
         "games_missed": 2,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 5,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -3175,6 +3187,22 @@
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "past"
+          },
+          {
+            "date": "2026-08-12",
+            "time": "6:00 PM",
+            "opponent": "10UA OBA REP",
+            "venue": "Clearwater Diamond #2",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -3380,7 +3408,6 @@
                   "Penny Core",
                   "Ralph Campbell",
                   "Ronnie Atyeo",
-                  "Ryan Carlton",
                   "Ryan Ross",
                   "Ryder Daye",
                   "Ryerson Nead",
@@ -3513,29 +3540,29 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Chris Bonneau",
+                  "David Haasen",
                   "Ewan Snedden",
+                  "Greg Baker",
+                  "Jarett Simons",
                   "Joey Buchner",
                   "Katrina Cadotte",
-                  "Kye Golder",
-                  "Logan Conroy",
-                  "Marko Sazdov",
+                  "Kirk Vines",
+                  "Mike Moorhouse",
                   "Myles Hobbs",
-                  "Ryan Carlton",
-                  "Ryder Daye",
+                  "Shane Moorhouse",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
                 "denied_umpires": [
                   "Carson Whittington",
-                  "Gage Boyd",
                   "Grant Purdy",
-                  "Greg Armstrong",
-                  "Hayden Scheuermann"
+                  "Hayden Scheuermann",
+                  "Ralph Campbell"
                 ],
-                "assigned_count": 107,
+                "assigned_count": 106,
                 "accepted_count": 105,
-                "pending_count": 13,
-                "denied_count": 5,
+                "pending_count": 14,
+                "denied_count": 4,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -7168,12 +7195,12 @@
       "id": 1295,
       "name": "13U OBA Rep",
       "category": "OBA Rep",
-      "gp": 31,
-      "wins": 21,
+      "gp": 32,
+      "wins": 22,
       "losses": 10,
       "ties": 0,
-      "runs_for": 337,
-      "runs_against": 216,
+      "runs_for": 359,
+      "runs_against": 223,
       "practices": 22,
       "roster": {
         "players": 13,
@@ -7579,7 +7606,7 @@
           "date": "2026-08-11",
           "start_time": "6:00 PM",
           "end_date": "2026-08-12",
-          "summary": "13U OBA Rep - Game @ North London Nationals [13u67]",
+          "summary": "13U OBA Rep - Game @ North London Nationals [13u67](W 22-7)",
           "location": "North London (2)",
           "type": "game",
           "cancelled": false
@@ -8135,9 +8162,9 @@
           "start_time": "6:00 PM",
           "opponent": "North London Nationals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 22,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -8260,12 +8287,12 @@
       "id": 1296,
       "name": "14U OBA Rep",
       "category": "OBA Rep",
-      "gp": 44,
-      "wins": 37,
+      "gp": 45,
+      "wins": 38,
       "losses": 7,
       "ties": 0,
-      "runs_for": 541,
-      "runs_against": 237,
+      "runs_for": 551,
+      "runs_against": 241,
       "practices": 34,
       "roster": {
         "players": 14,
@@ -8881,7 +8908,7 @@
           "date": "2026-08-11",
           "start_time": "6:00 PM",
           "end_date": "2026-08-12",
-          "summary": "14U OBA Rep - Game @ London West Tincaps [14u23]",
+          "summary": "14U OBA Rep - Game @ London West Tincaps [14u23](W 10-4)",
           "location": "Stoneybrook (Dan Pulham)",
           "type": "game",
           "cancelled": false
@@ -9713,9 +9740,9 @@
           "start_time": "6:00 PM",
           "opponent": "London West Tincaps",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 10,
+          "opp_score": 4,
           "cancelled": false
         },
         {
@@ -9872,12 +9899,12 @@
       "id": 1297,
       "name": "15U OBA Rep",
       "category": "OBA Rep",
-      "gp": 30,
-      "wins": 13,
-      "losses": 17,
+      "gp": 32,
+      "wins": 14,
+      "losses": 18,
       "ties": 0,
-      "runs_for": 245,
-      "runs_against": 244,
+      "runs_for": 265,
+      "runs_against": 262,
       "practices": 29,
       "roster": {
         "players": 14,
@@ -10293,7 +10320,7 @@
           "date": "2026-07-30",
           "start_time": "6:00 PM",
           "end_date": "2026-07-31",
-          "summary": "15U OBA Rep - Game vs Chatham Diamonds 15U [WC15U-005]",
+          "summary": "15U OBA Rep - Game vs Chatham Diamonds 15U [WC15U-005](L 12-10)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -10373,7 +10400,7 @@
           "date": "2026-08-11",
           "start_time": "6:00 PM",
           "end_date": "2026-08-12",
-          "summary": "15U OBA Rep - Game vs Mitchell Astros Rep [15u59]",
+          "summary": "15U OBA Rep - Game vs Mitchell Astros Rep [15u59](W 6-10)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -10931,9 +10958,9 @@
           "start_time": "6:00 PM",
           "opponent": "Chatham Diamonds",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 10,
+          "opp_score": 12,
           "cancelled": false
         },
         {
@@ -10979,9 +11006,9 @@
           "start_time": "6:00 PM",
           "opponent": "Mitchell Astros Rep",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 10,
+          "opp_score": 6,
           "cancelled": false
         },
         {
@@ -11910,12 +11937,12 @@
       "id": 1303,
       "name": "11U Select",
       "category": "Select",
-      "gp": 17,
+      "gp": 18,
       "wins": 11,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "runs_for": 179,
-      "runs_against": 155,
+      "runs_for": 186,
+      "runs_against": 163,
       "practices": 15,
       "roster": {
         "players": 13,
@@ -12191,7 +12218,7 @@
           "date": "2026-08-11",
           "start_time": "6:00 PM",
           "end_date": "2026-08-12",
-          "summary": "11U Select - Game @ London West Tincaps [11uS81]",
+          "summary": "11U Select - Game @ London West Tincaps [11uS81](L 7-8)",
           "location": "Hazelden",
           "type": "game",
           "cancelled": false
@@ -12545,9 +12572,9 @@
           "start_time": "6:00 PM",
           "opponent": "London West Tincaps",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 7,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -14127,12 +14154,12 @@
       "id": 1304,
       "name": "9U River League",
       "category": "River League",
-      "gp": 17,
-      "wins": 12,
+      "gp": 18,
+      "wins": 13,
       "losses": 5,
       "ties": 0,
-      "runs_for": 234,
-      "runs_against": 152,
+      "runs_for": 249,
+      "runs_against": 163,
       "practices": 11,
       "roster": {
         "players": 16,
@@ -14378,7 +14405,7 @@
           "date": "2026-08-10",
           "start_time": "6:00 PM",
           "end_date": "2026-08-11",
-          "summary": "9U River League - Game vs Corunna Giants Team 1 [RL9UN-97]",
+          "summary": "9U River League - Game vs Corunna Giants Team 1 [RL9UN-97](W 11-15)",
           "location": "Blackwell North",
           "type": "game",
           "cancelled": false
@@ -14668,9 +14695,9 @@
           "start_time": "6:00 PM",
           "opponent": "Corunna Giants Team",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 15,
+          "opp_score": 11,
           "cancelled": false
         },
         {
