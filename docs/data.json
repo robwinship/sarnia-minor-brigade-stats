@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-12T16:03:31.139730Z",
+  "generated": "2026-08-12T19:32:46.651765Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1171,13 +1171,13 @@
           }
         ]
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 7559.7,
+      "equipment_cost": 1135.0,
+      "tournament_cost": 1850.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 7412.8,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1291,
@@ -2055,13 +2055,13 @@
           }
         ]
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 7060.24,
+      "equipment_cost": 1135.0,
+      "tournament_cost": 1850.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 7096.4,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1292,
@@ -3541,13 +3541,11 @@
                   "Brian Mundt",
                   "Chris Bonneau",
                   "Ewan Snedden",
-                  "Greg Baker",
                   "Jarett Simons",
                   "Joey Buchner",
                   "Katrina Cadotte",
                   "Kirk Vines",
                   "Myles Hobbs",
-                  "Shane Moorhouse",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
                 ],
@@ -3560,7 +3558,7 @@
                 ],
                 "assigned_count": 106,
                 "accepted_count": 105,
-                "pending_count": 12,
+                "pending_count": 10,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -3802,13 +3800,13 @@
           }
         ]
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 7288.5,
+      "equipment_cost": 500.0,
+      "tournament_cost": 1925.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 6780.0,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1311,
@@ -4947,13 +4945,13 @@
           }
         ]
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 7648.97,
+      "equipment_cost": 1135.0,
+      "tournament_cost": 1950.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 7096.4,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1293,
@@ -6215,13 +6213,13 @@
           }
         ]
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 7233.13,
+      "equipment_cost": 1135.0,
+      "tournament_cost": 1900.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 7096.4,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1294,
@@ -7182,13 +7180,13 @@
           }
         ]
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 7648.97,
+      "equipment_cost": 1135.0,
+      "tournament_cost": 2625.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 7412.8,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1295,
@@ -8274,13 +8272,13 @@
           }
         ]
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 7288.5,
+      "equipment_cost": 1135.0,
+      "tournament_cost": 2100.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 7412.8,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1296,
@@ -9886,13 +9884,13 @@
           }
         ]
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 8098.71,
+      "equipment_cost": 1135.0,
+      "tournament_cost": 2600.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 7096.4,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1297,
@@ -11192,13 +11190,13 @@
           }
         ]
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 8098.71,
+      "equipment_cost": 1135.0,
+      "tournament_cost": 1975.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 7412.8,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1299,
@@ -11924,13 +11922,13 @@
           }
         ]
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 5051.0,
+      "equipment_cost": 1035.0,
+      "tournament_cost": 1245.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 3864.6,
+      "reg_fee_2026": 1050.0
     },
     {
       "id": 1303,
@@ -12635,13 +12633,13 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 5529.0,
+      "equipment_cost": 1035.0,
+      "tournament_cost": 1225.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 3548.2,
+      "reg_fee_2026": 1050.0
     },
     {
       "id": 1300,
@@ -13300,13 +13298,13 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 5351.68,
+      "equipment_cost": 1035.0,
+      "tournament_cost": 1925.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 3548.2,
+      "reg_fee_2026": 1050.0
     },
     {
       "id": 1301,
@@ -14141,13 +14139,13 @@
           }
         ]
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 5621.75,
+      "equipment_cost": 1035.0,
+      "tournament_cost": 1301.05,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 3864.6,
+      "reg_fee_2026": 1050.0
     },
     {
       "id": 1304,
@@ -14783,13 +14781,13 @@
         ],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 2000.0,
+      "equipment_cost": 100.0,
+      "tournament_cost": 0.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 0.0,
+      "reg_fee_2026": 375.0
     },
     {
       "id": 1310,
@@ -15204,13 +15202,13 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 2179.77,
+      "equipment_cost": 100.0,
+      "tournament_cost": 0.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 0.0,
+      "reg_fee_2026": 375.0
     },
     {
       "id": 1315,
@@ -15637,13 +15635,13 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 2000.0,
+      "equipment_cost": 100.0,
+      "tournament_cost": 0.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 0.0,
+      "reg_fee_2026": 375.0
     },
     {
       "id": 1302,
@@ -16186,24 +16184,24 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 1952.64,
+      "equipment_cost": 400.0,
+      "tournament_cost": 0.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 0.0,
+      "reg_fee_2026": 375.0
     },
     {
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 45,
+      "gp": 46,
       "wins": 29,
-      "losses": 16,
+      "losses": 17,
       "ties": 0,
-      "runs_for": 337,
-      "runs_against": 254,
+      "runs_for": 341,
+      "runs_against": 265,
       "practices": 26,
       "roster": {
         "players": 15,
@@ -16689,7 +16687,7 @@
           "date": "2026-08-11",
           "start_time": "7:00 PM",
           "end_date": "2026-08-12",
-          "summary": "16U PBLO - Game vs Wyoming Major Wranglers",
+          "summary": "16U PBLO - Game vs Wyoming Major Wranglers(L 11-4)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -17479,9 +17477,9 @@
           "start_time": "7:00 PM",
           "opponent": "Wyoming Major Wranglers Errol Russell Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -17623,13 +17621,13 @@
           }
         ]
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
-      "police_checks_cost": null,
+      "uniform_cost": 8187.98,
+      "equipment_cost": 3250.0,
+      "tournament_cost": 3938.0,
+      "police_checks_cost": 1299.19,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 7096.4,
+      "reg_fee_2026": 1550.0
     },
     {
       "id": 1306,
@@ -18767,13 +18765,13 @@
         "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
-      "uniform_cost": null,
-      "equipment_cost": null,
-      "tournament_cost": null,
+      "uniform_cost": 1271.25,
+      "equipment_cost": 0.0,
+      "tournament_cost": 0.0,
       "police_checks_cost": null,
       "coach_certs_cost": null,
-      "pitch_cost": null,
-      "reg_fee_2026": null
+      "pitch_cost": 0.0,
+      "reg_fee_2026": 150.0
     }
   ],
   "cancellations": [
