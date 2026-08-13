@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-13T10:03:12.242946Z",
+  "generated": "2026-08-13T16:02:51.470221Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3543,14 +3543,15 @@
                 "pending_umpires": [
                   "Axl Taylor",
                   "Brian Mundt",
-                  "Chris Bonneau",
                   "Easton McKinlay",
                   "Ewan Snedden",
+                  "Graham Dolbear",
                   "Jakob Rodriguez",
+                  "Jason Lajeunesse",
                   "Joey Buchner",
-                  "Jonas Winklmeier",
                   "Katrina Cadotte",
                   "Kirk Vines",
+                  "Logan Conroy",
                   "Luke Walls",
                   "Marko Sazdov",
                   "Myles Hobbs",
@@ -3564,6 +3565,7 @@
                 ],
                 "denied_umpires": [
                   "Carson Whittington",
+                  "Chris Bonneau",
                   "Cohen Smith",
                   "Grant Purdy",
                   "Hayden Scheuermann",
@@ -3571,8 +3573,8 @@
                 ],
                 "assigned_count": 109,
                 "accepted_count": 105,
-                "pending_count": 20,
-                "denied_count": 5,
+                "pending_count": 21,
+                "denied_count": 6,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4923,22 +4925,23 @@
               "Jonas Winklmeier",
               "Luke Walls"
             ],
-            "accepted_umpires": [],
+            "accepted_umpires": [
+              "Jonas Winklmeier"
+            ],
             "pending_umpires": [
               "Axl Taylor",
               "Easton McKinlay",
               "Jakob Rodriguez",
-              "Jonas Winklmeier",
               "Luke Walls"
             ],
             "denied_umpires": [
               "Cohen Smith"
             ],
             "assigned_count": 6,
-            "accepted_count": 0,
-            "pending_count": 5,
+            "accepted_count": 1,
+            "pending_count": 4,
             "denied_count": 1,
-            "assignment_state": "assigned_but_denied",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -5547,6 +5550,26 @@
           "location": "Greater Niagara",
           "type": "tournament",
           "cancelled": false
+        },
+        {
+          "uid": "MS-22204-sarniabrigade.ca",
+          "date": "2026-09-03",
+          "start_time": "4:00 PM",
+          "end_date": "2026-09-03",
+          "summary": "11U OBA Rep - Game vs Greater Niagara Falcons",
+          "location": "OAK Diamond 2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22205-sarniabrigade.ca",
+          "date": "2026-09-03",
+          "start_time": "4:00 PM",
+          "end_date": "2026-09-03",
+          "summary": "11U OBA Rep - Game vs Greater Niagara Falcons",
+          "location": "OAK Diamond 2",
+          "type": "game",
+          "cancelled": false
         }
       ],
       "games": [
@@ -6053,6 +6076,30 @@
           "brigade_score": null,
           "opp_score": null,
           "cancelled": true
+        },
+        {
+          "game_id": "22205",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/22205/",
+          "date": "2026-09-03",
+          "start_time": "4:00 PM",
+          "opponent": "Greater Niagara Falcons OAK Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22204",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/22204/",
+          "date": "2026-09-03",
+          "start_time": "4:00 PM",
+          "opponent": "Greater Niagara Falcons OAK Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
         }
       ],
       "umpire_issues": {
@@ -11257,12 +11304,12 @@
       "id": 1299,
       "name": "9U Select",
       "category": "Select",
-      "gp": 14,
+      "gp": 15,
       "wins": 2,
-      "losses": 12,
+      "losses": 13,
       "ties": 0,
-      "runs_for": 114,
-      "runs_against": 275,
+      "runs_for": 116,
+      "runs_against": 292,
       "practices": 19,
       "roster": {
         "players": 13,
@@ -11508,7 +11555,7 @@
           "date": "2026-08-12",
           "start_time": "6:00 PM",
           "end_date": "2026-08-13",
-          "summary": "9U Select - Game @ Dorchester Diamondbacks [9uS02]",
+          "summary": "9U Select - Game @ Dorchester Diamondbacks [9uS02](L 2-17)",
           "location": "Dorchester (2)",
           "type": "game",
           "cancelled": false
@@ -11814,9 +11861,9 @@
           "start_time": "6:00 PM",
           "opponent": "Dorchester Diamondbacks",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 2,
+          "opp_score": 17,
           "cancelled": false
         },
         {
@@ -16848,26 +16895,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-22157-sarniabrigade.ca",
-          "date": "2026-08-29",
-          "start_time": "11:00 AM",
-          "end_date": "2026-08-29",
-          "summary": "16U PBLO - Game vs London Badgers",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-22158-sarniabrigade.ca",
-          "date": "2026-08-29",
-          "start_time": "1:30 PM",
-          "end_date": "2026-08-29",
-          "summary": "16U PBLO - Game vs London Badgers",
-          "location": "Errol Russell Park",
-          "type": "game",
-          "cancelled": false
-        },
-        {
           "uid": "MS-20228-sarniabrigade.ca",
           "date": "2026-08-31",
           "start_time": "7:00 PM",
@@ -17579,30 +17606,6 @@
           "date": "2026-08-15",
           "start_time": "1:30 PM",
           "opponent": "Sarnia Brigade",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "22157",
-          "href": "https://sarniabrigade.ca/Teams/1298/Games/22157/",
-          "date": "2026-08-29",
-          "start_time": "11:00 AM",
-          "opponent": "London Badgers Errol Russell Park",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "22158",
-          "href": "https://sarniabrigade.ca/Teams/1298/Games/22158/",
-          "date": "2026-08-29",
-          "start_time": "1:30 PM",
-          "opponent": "London Badgers Errol Russell Park",
           "home": true,
           "result": null,
           "brigade_score": null,
