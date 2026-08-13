@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-13T16:02:51.470221Z",
+  "generated": "2026-08-13T19:32:46.611316Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2516,7 +2516,7 @@
         {
           "uid": "MS-22143-sarniabrigade.ca",
           "date": "2026-08-18",
-          "start_time": "6:30 PM",
+          "start_time": "6:15 PM",
           "end_date": "2026-08-19",
           "summary": "10U AA OBA Rep - Game @ Corunna Giants",
           "location": "Cameron Park",
@@ -2576,7 +2576,7 @@
         {
           "uid": "MS-22159-sarniabrigade.ca",
           "date": "2026-08-25",
-          "start_time": "6:30 PM",
+          "start_time": "6:15 PM",
           "end_date": "2026-08-26",
           "summary": "10U AA OBA Rep - Game @ Corunna Giants",
           "location": "Cameron Park",
@@ -3095,7 +3095,7 @@
           "game_id": "22143",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/22143/",
           "date": "2026-08-18",
-          "start_time": "6:30 PM",
+          "start_time": "6:15 PM",
           "opponent": "Corunna Giants Cameron Park",
           "home": false,
           "result": null,
@@ -3131,7 +3131,7 @@
           "game_id": "22159",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/22159/",
           "date": "2026-08-25",
-          "start_time": "6:30 PM",
+          "start_time": "6:15 PM",
           "opponent": "Corunna Giants Cameron Park",
           "home": false,
           "result": null,
@@ -3342,6 +3342,7 @@
                   "Cohen Smith",
                   "Colby Sheffer",
                   "Cruz Marinaro",
+                  "Cullen Pearson",
                   "Dan Scott",
                   "David Haasen",
                   "Dawson O'Brien",
@@ -3411,6 +3412,7 @@
                   "Ryan Carlton",
                   "Ryan Ross",
                   "Ryder Daye",
+                  "Ryder Knight",
                   "Ryerson Nead",
                   "Rylie Bunda",
                   "Sadie Daughtrey",
@@ -3543,20 +3545,22 @@
                 "pending_umpires": [
                   "Axl Taylor",
                   "Brian Mundt",
+                  "Brogan Murphy",
+                  "Carson Whittington",
+                  "Cullen Pearson",
                   "Easton McKinlay",
                   "Ewan Snedden",
                   "Graham Dolbear",
                   "Jakob Rodriguez",
-                  "Jason Lajeunesse",
                   "Joey Buchner",
                   "Katrina Cadotte",
                   "Kirk Vines",
                   "Logan Conroy",
-                  "Luke Walls",
                   "Marko Sazdov",
                   "Myles Hobbs",
                   "Ryan Carlton",
                   "Ryder Daye",
+                  "Ryder Knight",
                   "Tristan Nemcek",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
@@ -3569,12 +3573,13 @@
                   "Cohen Smith",
                   "Grant Purdy",
                   "Hayden Scheuermann",
+                  "Jason Lajeunesse",
                   "Ralph Campbell"
                 ],
-                "assigned_count": 109,
+                "assigned_count": 111,
                 "accepted_count": 105,
-                "pending_count": 21,
-                "denied_count": 6,
+                "pending_count": 23,
+                "denied_count": 7,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4922,8 +4927,7 @@
               "Cohen Smith",
               "Easton McKinlay",
               "Jakob Rodriguez",
-              "Jonas Winklmeier",
-              "Luke Walls"
+              "Jonas Winklmeier"
             ],
             "accepted_umpires": [
               "Jonas Winklmeier"
@@ -4931,15 +4935,14 @@
             "pending_umpires": [
               "Axl Taylor",
               "Easton McKinlay",
-              "Jakob Rodriguez",
-              "Luke Walls"
+              "Jakob Rodriguez"
             ],
             "denied_umpires": [
               "Cohen Smith"
             ],
-            "assigned_count": 6,
+            "assigned_count": 5,
             "accepted_count": 1,
-            "pending_count": 4,
+            "pending_count": 3,
             "denied_count": 1,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -13392,12 +13395,43 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-08-14",
+            "time": "6:00 PM",
+            "opponent": "Wyoming Wranglers",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [
+              "Carson Whittington",
+              "Cullen Pearson",
+              "Hayden Scheuermann",
+              "Joey Buchner",
+              "Shane Moorhouse"
+            ],
+            "accepted_umpires": [
+              "Shane Moorhouse"
+            ],
+            "pending_umpires": [
+              "Carson Whittington",
+              "Cullen Pearson",
+              "Joey Buchner"
+            ],
+            "denied_umpires": [
+              "Hayden Scheuermann"
+            ],
+            "assigned_count": 5,
+            "accepted_count": 1,
+            "pending_count": 3,
+            "denied_count": 1,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 5351.68,
