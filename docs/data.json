@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-13T19:32:46.611316Z",
+  "generated": "2026-08-13T23:03:01.160990Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3543,7 +3543,6 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Axl Taylor",
                   "Brian Mundt",
                   "Brogan Murphy",
                   "Carson Whittington",
@@ -3568,6 +3567,7 @@
                   "Will Greer"
                 ],
                 "denied_umpires": [
+                  "Axl Taylor",
                   "Carson Whittington",
                   "Chris Bonneau",
                   "Cohen Smith",
@@ -3578,8 +3578,8 @@
                 ],
                 "assigned_count": 111,
                 "accepted_count": 105,
-                "pending_count": 23,
-                "denied_count": 7,
+                "pending_count": 22,
+                "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -4933,17 +4933,17 @@
               "Jonas Winklmeier"
             ],
             "pending_umpires": [
-              "Axl Taylor",
               "Easton McKinlay",
               "Jakob Rodriguez"
             ],
             "denied_umpires": [
+              "Axl Taylor",
               "Cohen Smith"
             ],
             "assigned_count": 5,
             "accepted_count": 1,
-            "pending_count": 3,
-            "denied_count": 1,
+            "pending_count": 2,
+            "denied_count": 2,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
