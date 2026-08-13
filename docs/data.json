@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-12T23:05:55.643333Z",
+  "generated": "2026-08-13T10:03:12.242946Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3141,8 +3141,8 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 2,
-        "games_missed_upcoming": 1,
+        "games_missed": 3,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 5,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -3202,7 +3202,7 @@
             "pending_count": 0,
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
+            "issue_timing": "past"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -3408,6 +3408,7 @@
                   "Penny Core",
                   "Ralph Campbell",
                   "Ronnie Atyeo",
+                  "Ryan Carlton",
                   "Ryan Ross",
                   "Ryder Daye",
                   "Ryerson Nead",
@@ -3421,12 +3422,14 @@
                   "Terry Doyle",
                   "Tie Richards",
                   "Tristan Heeringa",
+                  "Tristan Nemcek",
                   "Tucker Stokes",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
                   "Tyler Whetham",
                   "Wiishkpimin Macbeth",
                   "Will Garton",
+                  "Will Greer",
                   "William MacKenzie",
                   "Zhayn Trowbridge"
                 ],
@@ -3538,27 +3541,37 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
+                  "Axl Taylor",
                   "Brian Mundt",
                   "Chris Bonneau",
+                  "Easton McKinlay",
                   "Ewan Snedden",
-                  "Jarett Simons",
+                  "Jakob Rodriguez",
                   "Joey Buchner",
+                  "Jonas Winklmeier",
                   "Katrina Cadotte",
                   "Kirk Vines",
+                  "Luke Walls",
+                  "Marko Sazdov",
                   "Myles Hobbs",
+                  "Ryan Carlton",
+                  "Ryder Daye",
+                  "Tristan Nemcek",
+                  "Tyler Hoadley",
                   "Tyler Vandenberg",
-                  "Tyler Whetham"
+                  "Tyler Whetham",
+                  "Will Greer"
                 ],
                 "denied_umpires": [
                   "Carson Whittington",
+                  "Cohen Smith",
                   "Grant Purdy",
                   "Hayden Scheuermann",
-                  "Lucas Nethery",
                   "Ralph Campbell"
                 ],
-                "assigned_count": 106,
+                "assigned_count": 109,
                 "accepted_count": 105,
-                "pending_count": 10,
+                "pending_count": 20,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4279,6 +4292,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20746-sarniabrigade.ca",
+          "date": "2026-08-15",
+          "start_time": "12:00 PM",
+          "end_date": "2026-08-15",
+          "summary": "10U A OBA Rep - Game vs London West Tincaps [10u30]",
+          "location": "Germain Diamond #2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20760-sarniabrigade.ca",
           "date": "2026-08-16",
           "start_time": "4:00 PM",
@@ -4795,18 +4818,6 @@
           "cancelled": false
         },
         {
-          "game_id": "20746",
-          "href": "https://sarniabrigade.ca/Teams/1311/Games/20746/",
-          "date": "2026-08-09",
-          "start_time": "4:00 PM",
-          "opponent": "London West Tincaps",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": true
-        },
-        {
           "game_id": "20754",
           "href": "https://sarniabrigade.ca/Teams/1311/Games/20754/",
           "date": "2026-08-09",
@@ -4836,6 +4847,18 @@
           "date": "2026-08-12",
           "start_time": "6:00 PM",
           "opponent": "Sarnia Brigade",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "20746",
+          "href": "https://sarniabrigade.ca/Teams/1311/Games/20746/",
+          "date": "2026-08-15",
+          "start_time": "12:00 PM",
+          "opponent": "London West Tincaps",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -4881,12 +4904,44 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [],
+        "games_missed_details": [
+          {
+            "date": "2026-08-15",
+            "time": "12:00 PM",
+            "opponent": "London West Tincaps",
+            "venue": "Germain Diamond #2",
+            "assigned_umpires": [
+              "Axl Taylor",
+              "Cohen Smith",
+              "Easton McKinlay",
+              "Jakob Rodriguez",
+              "Jonas Winklmeier",
+              "Luke Walls"
+            ],
+            "accepted_umpires": [],
+            "pending_umpires": [
+              "Axl Taylor",
+              "Easton McKinlay",
+              "Jakob Rodriguez",
+              "Jonas Winklmeier",
+              "Luke Walls"
+            ],
+            "denied_umpires": [
+              "Cohen Smith"
+            ],
+            "assigned_count": 6,
+            "accepted_count": 0,
+            "pending_count": 5,
+            "denied_count": 1,
+            "assignment_state": "assigned_but_denied",
+            "issue_timing": "upcoming"
+          }
+        ],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-05-31",
@@ -6586,7 +6641,7 @@
           "date": "2026-08-12",
           "start_time": "6:00 PM",
           "end_date": "2026-08-13",
-          "summary": "12U OBA Rep - Game vs London Talons [12u06]",
+          "summary": "CANCELLED 12U OBA Rep - Game vs London Talons [12u06]",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -7039,7 +7094,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         }
       ],
       "umpire_issues": {
@@ -13310,12 +13365,12 @@
       "id": 1301,
       "name": "15U Select",
       "category": "Select",
-      "gp": 18,
-      "wins": 8,
+      "gp": 19,
+      "wins": 9,
       "losses": 10,
       "ties": 0,
-      "runs_for": 182,
-      "runs_against": 200,
+      "runs_for": 202,
+      "runs_against": 209,
       "practices": 23,
       "roster": {
         "players": 12,
@@ -13741,7 +13796,7 @@
           "date": "2026-08-12",
           "start_time": "8:30 PM",
           "end_date": "2026-08-13",
-          "summary": "15U Select - Game @ Lucan-Ilderton Athletics [15uS40]",
+          "summary": "15U Select - Game @ Lucan-Ilderton Athletics [15uS40](W 20-9)",
           "location": "Lucan (1)",
           "type": "game",
           "cancelled": false
@@ -14043,9 +14098,9 @@
           "start_time": "8:30 PM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 20,
+          "opp_score": 9,
           "cancelled": false
         },
         {
@@ -18954,6 +19009,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 12U OBA Rep - Game @ Lucan-Ilderton Athletics [12u44]",
       "location": "Heritage (1)"
+    },
+    {
+      "team_id": 1294,
+      "team_name": "12U OBA Rep",
+      "type": "game",
+      "date": "2026-08-12",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 12U OBA Rep - Game vs London Talons [12u06]",
+      "location": "Tecumseh Park"
     },
     {
       "team_id": 1295,
