@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-14T16:02:57.647959Z",
+  "generated": "2026-08-14T19:33:26.287605Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3547,7 +3547,6 @@
                   "Graham Dolbear",
                   "Joey Buchner",
                   "Katrina Cadotte",
-                  "Kirk Vines",
                   "Logan Conroy",
                   "Matthew Schrie",
                   "Myles Hobbs",
@@ -3569,7 +3568,7 @@
                 ],
                 "assigned_count": 109,
                 "accepted_count": 105,
-                "pending_count": 17,
+                "pending_count": 16,
                 "denied_count": 6,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -11658,6 +11657,16 @@
           "cancelled": false
         },
         {
+          "uid": "MD-3385-sarniabrigade.ca",
+          "date": "2026-08-28",
+          "start_time": null,
+          "end_date": "2026-08-31",
+          "summary": "9U Select - LDBA Playoffs",
+          "location": "London",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21709-sarniabrigade.ca",
           "date": "2026-09-03",
           "start_time": "6:00 PM",
@@ -11665,6 +11674,16 @@
           "summary": "9U Select - Practice",
           "location": "Blackwell North",
           "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MD-3386-sarniabrigade.ca",
+          "date": "2026-09-04",
+          "start_time": null,
+          "end_date": "2026-09-07",
+          "summary": "9U Select - 9U Select OBA",
+          "location": "Innisfil",
+          "type": "tournament",
           "cancelled": false
         }
       ],
