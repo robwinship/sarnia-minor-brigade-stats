@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-14T19:33:26.287605Z",
+  "generated": "2026-08-14T23:03:22.685023Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3543,8 +3543,10 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Brogan Murphy",
+                  "Carter Wills",
                   "Ewan Snedden",
                   "Graham Dolbear",
+                  "Hayden Scheuermann",
                   "Joey Buchner",
                   "Katrina Cadotte",
                   "Logan Conroy",
@@ -3568,7 +3570,7 @@
                 ],
                 "assigned_count": 109,
                 "accepted_count": 105,
-                "pending_count": 16,
+                "pending_count": 18,
                 "denied_count": 6,
                 "assignment_state": "assigned_and_accepted"
               },
