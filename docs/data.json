@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-15T16:02:48.711358Z",
+  "generated": "2026-08-15T19:33:18.031426Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -13,12 +13,12 @@
       "id": 1290,
       "name": "8U OBA Rep",
       "category": "OBA Rep",
-      "gp": 35,
+      "gp": 36,
       "wins": 17,
-      "losses": 18,
+      "losses": 19,
       "ties": 0,
-      "runs_for": 502,
-      "runs_against": 534,
+      "runs_for": 513,
+      "runs_against": 546,
       "practices": 19,
       "roster": {
         "players": 12,
@@ -464,7 +464,7 @@
           "date": "2026-08-15",
           "start_time": "11:00 AM",
           "end_date": "2026-08-15",
-          "summary": "8U OBA Rep - Game @ St. Thomas Cardinals [8u44]",
+          "summary": "8U OBA Rep - Game @ St. Thomas Cardinals [8u44](L 11-12)",
           "location": "Centennial Sports (1)",
           "type": "game",
           "cancelled": false
@@ -958,9 +958,9 @@
           "start_time": "11:00 AM",
           "opponent": "St. Thomas Cardinals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 11,
+          "opp_score": 12,
           "cancelled": false
         }
       ],
@@ -1183,12 +1183,12 @@
       "id": 1291,
       "name": "9U OBA Rep",
       "category": "OBA Rep",
-      "gp": 23,
-      "wins": 13,
-      "losses": 10,
+      "gp": 25,
+      "wins": 14,
+      "losses": 11,
       "ties": 0,
-      "runs_for": 285,
-      "runs_against": 201,
+      "runs_for": 295,
+      "runs_against": 220,
       "practices": 20,
       "roster": {
         "players": 12,
@@ -1584,7 +1584,7 @@
           "date": "2026-08-15",
           "start_time": "10:00 AM",
           "end_date": "2026-08-15",
-          "summary": "9U OBA Rep - Game vs DKMB River Cats [9u58]",
+          "summary": "9U OBA Rep - Game vs DKMB River Cats [9u58](L 11-1)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -1594,7 +1594,7 @@
           "date": "2026-08-15",
           "start_time": "1:00 PM",
           "end_date": "2026-08-15",
-          "summary": "9U OBA Rep - Game vs DKMB River Cats [9u89]",
+          "summary": "9U OBA Rep - Game vs DKMB River Cats [9u89](W 8-9)",
           "location": "Clearwater Diamond #1",
           "type": "game",
           "cancelled": false
@@ -1950,9 +1950,9 @@
           "start_time": "10:00 AM",
           "opponent": "DKMB River Cats",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 1,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -1962,9 +1962,9 @@
           "start_time": "1:00 PM",
           "opponent": "DKMB River Cats",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 9,
+          "opp_score": 8,
           "cancelled": false
         }
       ],
@@ -3336,6 +3336,7 @@
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
+                  "Carter Palmer",
                   "Carter Wills",
                   "Chris Bonneau",
                   "Clark Thornton",
@@ -3393,6 +3394,7 @@
                   "Lucas Nethery",
                   "Marko Sazdov",
                   "Mason Harper",
+                  "Mason Portiss",
                   "Matt Kennett",
                   "Matthew Schrie",
                   "Max Avery",
@@ -3428,7 +3430,6 @@
                   "Tyler Whetham",
                   "Wiishkpimin Macbeth",
                   "Will Garton",
-                  "Will Greer",
                   "William MacKenzie",
                   "Zhayn Trowbridge"
                 ],
@@ -3540,38 +3541,36 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
+                  "Axl Taylor",
                   "Brian Mundt",
                   "Brogan Murphy",
+                  "Carter Palmer",
                   "Carter Wills",
                   "Ewan Snedden",
-                  "Graham Dolbear",
-                  "Grant Purdy",
                   "Hayden Scheuermann",
+                  "Jackson Burlingham",
                   "Jason Lajeunesse",
                   "Katrina Cadotte",
                   "Marko Sazdov",
+                  "Mason Portiss",
                   "Myles Hobbs",
                   "Ryan Carlton",
                   "Ryder Daye",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
-                  "Tyler Whetham",
-                  "Will Greer"
-                ],
-                "denied_umpires": [
-                  "Carson Whittington",
-                  "Chris Bonneau",
-                  "Grant Purdy",
-                  "Hayden Scheuermann",
-                  "Joey Buchner",
-                  "Ralph Campbell",
-                  "Summer Steinke",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 108,
+                "denied_umpires": [
+                  "Brian Mundt",
+                  "Grant Purdy",
+                  "Joey Buchner",
+                  "Jonas Winklmeier",
+                  "Summer Steinke"
+                ],
+                "assigned_count": 109,
                 "accepted_count": 105,
-                "pending_count": 17,
-                "denied_count": 8,
+                "pending_count": 18,
+                "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -6297,7 +6296,7 @@
       "ties": 0,
       "runs_for": 192,
       "runs_against": 226,
-      "practices": 21,
+      "practices": 20,
       "roster": {
         "players": 13,
         "adults": 7,
@@ -6665,16 +6664,6 @@
           "summary": "12U OBA Rep - Game vs London Talons [12u06]",
           "location": "Tecumseh Park",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20575-sarniabrigade.ca",
-          "date": "2026-08-16",
-          "start_time": "10:00 AM",
-          "end_date": "2026-08-16",
-          "summary": "12U OBA Rep - Practice",
-          "location": "Tecumseh Park",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -7147,15 +7136,26 @@
             "time": "10:00 AM",
             "opponent": "London Talons",
             "venue": "Tecumseh Park",
-            "assigned_umpires": [],
+            "assigned_umpires": [
+              "Axl Taylor",
+              "Carter Palmer",
+              "Jonas Winklmeier",
+              "Mason Portiss"
+            ],
             "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
+            "pending_umpires": [
+              "Axl Taylor",
+              "Carter Palmer",
+              "Mason Portiss"
+            ],
+            "denied_umpires": [
+              "Jonas Winklmeier"
+            ],
+            "assigned_count": 4,
             "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
+            "pending_count": 3,
+            "denied_count": 1,
+            "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
           }
         ],
