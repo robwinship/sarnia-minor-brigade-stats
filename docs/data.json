@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-15T10:03:16.676365Z",
+  "generated": "2026-08-15T16:02:48.711358Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -13,12 +13,12 @@
       "id": 1290,
       "name": "8U OBA Rep",
       "category": "OBA Rep",
-      "gp": 34,
+      "gp": 35,
       "wins": 17,
-      "losses": 17,
+      "losses": 18,
       "ties": 0,
-      "runs_for": 498,
-      "runs_against": 520,
+      "runs_for": 502,
+      "runs_against": 534,
       "practices": 19,
       "roster": {
         "players": 12,
@@ -454,7 +454,7 @@
           "date": "2026-08-14",
           "start_time": "6:00 PM",
           "end_date": "2026-08-15",
-          "summary": "8U OBA Rep - Game @ Lucan-Ilderton Athletics [8u62]",
+          "summary": "8U OBA Rep - Game @ Lucan-Ilderton Athletics [8u62](L 4-14)",
           "location": "Lucan (2)",
           "type": "game",
           "cancelled": false
@@ -946,9 +946,9 @@
           "start_time": "6:00 PM",
           "opponent": "Lucan-Ilderton Athletics",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 4,
+          "opp_score": 14,
           "cancelled": false
         },
         {
@@ -3411,7 +3411,6 @@
                   "Ryan Carlton",
                   "Ryan Ross",
                   "Ryder Daye",
-                  "Ryder Knight",
                   "Ryerson Nead",
                   "Rylie Bunda",
                   "Sadie Daughtrey",
@@ -3546,14 +3545,14 @@
                   "Carter Wills",
                   "Ewan Snedden",
                   "Graham Dolbear",
+                  "Grant Purdy",
                   "Hayden Scheuermann",
-                  "Joey Buchner",
+                  "Jason Lajeunesse",
                   "Katrina Cadotte",
-                  "Logan Conroy",
+                  "Marko Sazdov",
                   "Myles Hobbs",
                   "Ryan Carlton",
                   "Ryder Daye",
-                  "Ryder Knight",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
                   "Tyler Whetham",
@@ -3564,14 +3563,15 @@
                   "Chris Bonneau",
                   "Grant Purdy",
                   "Hayden Scheuermann",
-                  "Jason Lajeunesse",
-                  "Matthew Schrie",
-                  "Ralph Campbell"
+                  "Joey Buchner",
+                  "Ralph Campbell",
+                  "Summer Steinke",
+                  "Tyler Whetham"
                 ],
-                "assigned_count": 109,
+                "assigned_count": 108,
                 "accepted_count": 105,
                 "pending_count": 17,
-                "denied_count": 7,
+                "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -6658,6 +6658,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-20708-sarniabrigade.ca",
+          "date": "2026-08-16",
+          "start_time": "10:00 AM",
+          "end_date": "2026-08-16",
+          "summary": "12U OBA Rep - Game vs London Talons [12u06]",
+          "location": "Tecumseh Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20575-sarniabrigade.ca",
           "date": "2026-08-16",
           "start_time": "10:00 AM",
@@ -7098,19 +7108,19 @@
         {
           "game_id": "20708",
           "href": "https://sarniabrigade.ca/Teams/1294/Games/20708/",
-          "date": "2026-08-12",
-          "start_time": "6:00 PM",
+          "date": "2026-08-16",
+          "start_time": "10:00 AM",
           "opponent": "London Talons",
           "home": true,
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": true
+          "cancelled": false
         }
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 2,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -7131,6 +7141,22 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
+          },
+          {
+            "date": "2026-08-16",
+            "time": "10:00 AM",
+            "opponent": "London Talons",
+            "venue": "Tecumseh Park",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -8332,21 +8358,24 @@
               "Carter Wills",
               "Hayden Scheuermann",
               "Joey Buchner",
-              "Ryder Knight"
+              "Marko Sazdov",
+              "Tyler Hoadley"
             ],
             "accepted_umpires": [],
             "pending_umpires": [
               "Carter Wills",
               "Hayden Scheuermann",
-              "Joey Buchner",
-              "Ryder Knight"
+              "Marko Sazdov",
+              "Tyler Hoadley"
             ],
-            "denied_umpires": [],
-            "assigned_count": 4,
+            "denied_umpires": [
+              "Joey Buchner"
+            ],
+            "assigned_count": 5,
             "accepted_count": 0,
             "pending_count": 4,
-            "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "denied_count": 1,
+            "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
           },
           {
@@ -8358,21 +8387,24 @@
               "Carter Wills",
               "Hayden Scheuermann",
               "Joey Buchner",
-              "Ryder Knight"
+              "Marko Sazdov",
+              "Tyler Hoadley"
             ],
             "accepted_umpires": [],
             "pending_umpires": [
               "Carter Wills",
               "Hayden Scheuermann",
-              "Joey Buchner",
-              "Ryder Knight"
+              "Marko Sazdov",
+              "Tyler Hoadley"
             ],
-            "denied_umpires": [],
-            "assigned_count": 4,
+            "denied_umpires": [
+              "Joey Buchner"
+            ],
+            "assigned_count": 5,
             "accepted_count": 0,
             "pending_count": 4,
-            "denied_count": 0,
-            "assignment_state": "assigned_not_accepted",
+            "denied_count": 1,
+            "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
           }
         ],
@@ -8447,21 +8479,24 @@
                   "Carter Wills",
                   "Hayden Scheuermann",
                   "Joey Buchner",
-                  "Ryder Knight"
+                  "Marko Sazdov",
+                  "Tyler Hoadley"
                 ],
                 "accepted_umpires": [],
                 "pending_umpires": [
                   "Carter Wills",
                   "Hayden Scheuermann",
-                  "Joey Buchner",
-                  "Ryder Knight"
+                  "Marko Sazdov",
+                  "Tyler Hoadley"
                 ],
-                "denied_umpires": [],
-                "assigned_count": 4,
+                "denied_umpires": [
+                  "Joey Buchner"
+                ],
+                "assigned_count": 5,
                 "accepted_count": 0,
                 "pending_count": 4,
-                "denied_count": 0,
-                "assignment_state": "assigned_not_accepted"
+                "denied_count": 1,
+                "assignment_state": "assigned_but_denied"
               },
               {
                 "time": "12:30 PM",
@@ -8471,21 +8506,24 @@
                   "Carter Wills",
                   "Hayden Scheuermann",
                   "Joey Buchner",
-                  "Ryder Knight"
+                  "Marko Sazdov",
+                  "Tyler Hoadley"
                 ],
                 "accepted_umpires": [],
                 "pending_umpires": [
                   "Carter Wills",
                   "Hayden Scheuermann",
-                  "Joey Buchner",
-                  "Ryder Knight"
+                  "Marko Sazdov",
+                  "Tyler Hoadley"
                 ],
-                "denied_umpires": [],
-                "assigned_count": 4,
+                "denied_umpires": [
+                  "Joey Buchner"
+                ],
+                "assigned_count": 5,
                 "accepted_count": 0,
                 "pending_count": 4,
-                "denied_count": 0,
-                "assignment_state": "assigned_not_accepted"
+                "denied_count": 1,
+                "assignment_state": "assigned_but_denied"
               }
             ]
           }
@@ -14690,7 +14728,7 @@
           "start_time": "6:30 PM",
           "end_date": "2026-08-17",
           "summary": "9U River League - Game @ Wyoming Wranglers Grey [RL9UN-21]",
-          "location": "Bridgeview Park",
+          "location": "Kerr Park",
           "type": "game",
           "cancelled": false
         },
@@ -14969,7 +15007,7 @@
           "href": "https://sarniabrigade.ca/Teams/1304/Games/21352/",
           "date": "2026-08-16",
           "start_time": "6:30 PM",
-          "opponent": "Wyoming Wranglers Grey RL9UN-21 Bridgeview Par",
+          "opponent": "Wyoming Wranglers Grey RL9UN-21 Kerr Park",
           "home": false,
           "result": null,
           "brigade_score": null,
