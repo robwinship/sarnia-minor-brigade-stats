@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-15T19:33:18.031426Z",
+  "generated": "2026-08-16T10:03:18.525279Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3336,7 +3336,6 @@
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
-                  "Carter Palmer",
                   "Carter Wills",
                   "Chris Bonneau",
                   "Clark Thornton",
@@ -3394,7 +3393,6 @@
                   "Lucas Nethery",
                   "Marko Sazdov",
                   "Mason Harper",
-                  "Mason Portiss",
                   "Matt Kennett",
                   "Matthew Schrie",
                   "Max Avery",
@@ -3541,18 +3539,14 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Axl Taylor",
                   "Brian Mundt",
                   "Brogan Murphy",
-                  "Carter Palmer",
                   "Carter Wills",
                   "Ewan Snedden",
-                  "Hayden Scheuermann",
                   "Jackson Burlingham",
-                  "Jason Lajeunesse",
+                  "Joey Buchner",
                   "Katrina Cadotte",
                   "Marko Sazdov",
-                  "Mason Portiss",
                   "Myles Hobbs",
                   "Ryan Carlton",
                   "Ryder Daye",
@@ -3563,13 +3557,13 @@
                 "denied_umpires": [
                   "Brian Mundt",
                   "Grant Purdy",
+                  "Hayden Scheuermann",
                   "Joey Buchner",
-                  "Jonas Winklmeier",
                   "Summer Steinke"
                 ],
-                "assigned_count": 109,
+                "assigned_count": 107,
                 "accepted_count": 105,
-                "pending_count": 18,
+                "pending_count": 14,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -3823,12 +3817,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 32,
+      "gp": 33,
       "wins": 16,
-      "losses": 16,
+      "losses": 17,
       "ties": 0,
-      "runs_for": 273,
-      "runs_against": 326,
+      "runs_for": 283,
+      "runs_against": 338,
       "practices": 25,
       "roster": {
         "players": 13,
@@ -4294,7 +4288,7 @@
           "date": "2026-08-15",
           "start_time": "12:00 PM",
           "end_date": "2026-08-15",
-          "summary": "10U A OBA Rep - Game vs London West Tincaps [10u30]",
+          "summary": "10U A OBA Rep - Game vs London West Tincaps [10u30](L 12-10)",
           "location": "Germain Diamond #2",
           "type": "game",
           "cancelled": false
@@ -4858,9 +4852,9 @@
           "start_time": "12:00 PM",
           "opponent": "London West Tincaps",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 10,
+          "opp_score": 12,
           "cancelled": false
         },
         {
@@ -4978,12 +4972,12 @@
       "id": 1293,
       "name": "11U OBA Rep",
       "category": "OBA Rep",
-      "gp": 33,
-      "wins": 16,
-      "losses": 17,
+      "gp": 35,
+      "wins": 17,
+      "losses": 18,
       "ties": 0,
-      "runs_for": 281,
-      "runs_against": 253,
+      "runs_for": 297,
+      "runs_against": 268,
       "practices": 22,
       "roster": {
         "players": 12,
@@ -5409,7 +5403,7 @@
           "date": "2026-08-15",
           "start_time": "4:00 PM",
           "end_date": "2026-08-15",
-          "summary": "11U OBA Rep - Game vs St. Thomas Cardinals [11u45]",
+          "summary": "11U OBA Rep - Game vs St. Thomas Cardinals [11u45](L 8-6)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -5419,7 +5413,7 @@
           "date": "2026-08-15",
           "start_time": "6:30 PM",
           "end_date": "2026-08-16",
-          "summary": "11U OBA Rep - Game vs St. Thomas Cardinals [11u82]",
+          "summary": "11U OBA Rep - Game vs St. Thomas Cardinals [11u82](W 7-10)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -5987,9 +5981,9 @@
           "start_time": "4:00 PM",
           "opponent": "St. Thomas Cardinals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 8,
           "cancelled": false
         },
         {
@@ -5999,9 +5993,9 @@
           "start_time": "6:30 PM",
           "opponent": "St. Thomas Cardinals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 10,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -7109,7 +7103,7 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 2,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -7130,33 +7124,6 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
-          },
-          {
-            "date": "2026-08-16",
-            "time": "10:00 AM",
-            "opponent": "London Talons",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Axl Taylor",
-              "Carter Palmer",
-              "Jonas Winklmeier",
-              "Mason Portiss"
-            ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Axl Taylor",
-              "Carter Palmer",
-              "Mason Portiss"
-            ],
-            "denied_umpires": [
-              "Jonas Winklmeier"
-            ],
-            "assigned_count": 4,
-            "accepted_count": 0,
-            "pending_count": 3,
-            "denied_count": 1,
-            "assignment_state": "assigned_but_denied",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -8364,17 +8331,17 @@
             "accepted_umpires": [],
             "pending_umpires": [
               "Carter Wills",
-              "Hayden Scheuermann",
               "Marko Sazdov",
               "Tyler Hoadley"
             ],
             "denied_umpires": [
+              "Hayden Scheuermann",
               "Joey Buchner"
             ],
             "assigned_count": 5,
             "accepted_count": 0,
-            "pending_count": 4,
-            "denied_count": 1,
+            "pending_count": 3,
+            "denied_count": 2,
             "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
           },
@@ -8393,17 +8360,17 @@
             "accepted_umpires": [],
             "pending_umpires": [
               "Carter Wills",
-              "Hayden Scheuermann",
               "Marko Sazdov",
               "Tyler Hoadley"
             ],
             "denied_umpires": [
+              "Hayden Scheuermann",
               "Joey Buchner"
             ],
             "assigned_count": 5,
             "accepted_count": 0,
-            "pending_count": 4,
-            "denied_count": 1,
+            "pending_count": 3,
+            "denied_count": 2,
             "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
           }
@@ -8485,17 +8452,17 @@
                 "accepted_umpires": [],
                 "pending_umpires": [
                   "Carter Wills",
-                  "Hayden Scheuermann",
                   "Marko Sazdov",
                   "Tyler Hoadley"
                 ],
                 "denied_umpires": [
+                  "Hayden Scheuermann",
                   "Joey Buchner"
                 ],
                 "assigned_count": 5,
                 "accepted_count": 0,
-                "pending_count": 4,
-                "denied_count": 1,
+                "pending_count": 3,
+                "denied_count": 2,
                 "assignment_state": "assigned_but_denied"
               },
               {
@@ -8512,17 +8479,17 @@
                 "accepted_umpires": [],
                 "pending_umpires": [
                   "Carter Wills",
-                  "Hayden Scheuermann",
                   "Marko Sazdov",
                   "Tyler Hoadley"
                 ],
                 "denied_umpires": [
+                  "Hayden Scheuermann",
                   "Joey Buchner"
                 ],
                 "assigned_count": 5,
                 "accepted_count": 0,
-                "pending_count": 4,
-                "denied_count": 1,
+                "pending_count": 3,
+                "denied_count": 2,
                 "assignment_state": "assigned_but_denied"
               }
             ]
@@ -10061,10 +10028,10 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 0,
-        "games_missed_upcoming": 2,
-        "doubleheader_mismatch": 0,
-        "doubleheader_mismatch_upcoming": 1,
+        "games_missed": 2,
+        "games_missed_upcoming": 0,
+        "doubleheader_mismatch": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -10082,7 +10049,7 @@
             "pending_count": 0,
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
+            "issue_timing": "past"
           },
           {
             "date": "2026-08-15",
@@ -10098,13 +10065,13 @@
             "pending_count": 0,
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
+            "issue_timing": "past"
           }
         ],
         "doubleheader_mismatch_details": [
           {
             "date": "2026-08-15",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": true,
             "pair_signatures": [],
             "mismatched_names": [],
@@ -11459,12 +11426,12 @@
       "id": 1299,
       "name": "9U Select",
       "category": "Select",
-      "gp": 15,
+      "gp": 17,
       "wins": 2,
-      "losses": 13,
+      "losses": 15,
       "ties": 0,
-      "runs_for": 116,
-      "runs_against": 292,
+      "runs_for": 125,
+      "runs_against": 341,
       "practices": 19,
       "roster": {
         "players": 13,
@@ -11730,7 +11697,7 @@
           "date": "2026-08-15",
           "start_time": "10:00 AM",
           "end_date": "2026-08-15",
-          "summary": "9U Select - Game vs Southwest London Scorpions [9uS50]",
+          "summary": "9U Select - Game vs Southwest London Scorpions [9uS50](L 22-3)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -11740,7 +11707,7 @@
           "date": "2026-08-15",
           "start_time": "1:00 PM",
           "end_date": "2026-08-15",
-          "summary": "9U Select - Game vs Southwest London Scorpions [9uS14]",
+          "summary": "9U Select - Game vs Southwest London Scorpions [9uS14](L 27-6)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -12048,9 +12015,9 @@
           "start_time": "10:00 AM",
           "opponent": "Southwest London Scorpions",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 3,
+          "opp_score": 22,
           "cancelled": false
         },
         {
@@ -12060,9 +12027,9 @@
           "start_time": "1:00 PM",
           "opponent": "Southwest London Scorpions",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 27,
           "cancelled": false
         },
         {
@@ -12081,8 +12048,8 @@
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch": 2,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
@@ -12144,7 +12111,7 @@
           },
           {
             "date": "2026-08-15",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": false,
             "pair_signatures": [
               "Jackson Burlingham | Logan Hiscocks",
