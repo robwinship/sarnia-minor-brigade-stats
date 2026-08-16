@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-16T19:33:10.901327Z",
+  "generated": "2026-08-16T23:03:07.157182Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3374,6 +3374,7 @@
                   "Jonas Winklmeier",
                   "Juan Peralta",
                   "Justin Vanhorn",
+                  "Karver Jacobs",
                   "Kassie Buchan",
                   "Katrina Cadotte",
                   "Kayleigh Buchan",
@@ -3543,17 +3544,17 @@
                   "Brian Mundt",
                   "Brogan Murphy",
                   "Carter Wills",
-                  "Drew Bennett",
                   "Ewan Snedden",
                   "Gage Boyd",
-                  "Jason Lajeunesse",
-                  "Joey Buchner",
+                  "Grady Boyd",
+                  "Hayden Scheuermann",
+                  "Jaxon Jacobs",
+                  "Karver Jacobs",
                   "Katrina Cadotte",
                   "Kayne Golder",
-                  "Logan Conroy",
+                  "Kye Golder",
                   "Marko Sazdov",
                   "Myles Hobbs",
-                  "Ronnie Atyeo",
                   "Ryan Carlton",
                   "Ryder Daye",
                   "Ryder Knight",
@@ -3565,13 +3566,12 @@
                   "Brian Mundt",
                   "Grant Purdy",
                   "Hayden Scheuermann",
-                  "Joey Buchner",
-                  "Summer Steinke"
+                  "Joey Buchner"
                 ],
-                "assigned_count": 108,
+                "assigned_count": 109,
                 "accepted_count": 105,
                 "pending_count": 20,
-                "denied_count": 5,
+                "denied_count": 4,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -3824,12 +3824,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 33,
-      "wins": 16,
+      "gp": 34,
+      "wins": 17,
       "losses": 17,
       "ties": 0,
-      "runs_for": 283,
-      "runs_against": 338,
+      "runs_for": 296,
+      "runs_against": 341,
       "practices": 25,
       "roster": {
         "players": 13,
@@ -4305,7 +4305,7 @@
           "date": "2026-08-16",
           "start_time": "4:00 PM",
           "end_date": "2026-08-16",
-          "summary": "10U A OBA Rep - Game vs St. Thomas Cardinals [10u12]",
+          "summary": "10U A OBA Rep - Game vs St. Thomas Cardinals [10u12](W 3-13)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -4871,9 +4871,9 @@
           "start_time": "4:00 PM",
           "opponent": "St. Thomas Cardinals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 13,
+          "opp_score": 3,
           "cancelled": false
         },
         {
@@ -8331,8 +8331,13 @@
             "assigned_umpires": [
               "Brogan Murphy",
               "Carter Wills",
+              "Gage Boyd",
+              "Grady Boyd",
               "Hayden Scheuermann",
+              "Jaxon Jacobs",
               "Joey Buchner",
+              "Karver Jacobs",
+              "Kye Golder",
               "Marko Sazdov",
               "Ryder Knight",
               "Tyler Hoadley"
@@ -8341,6 +8346,11 @@
             "pending_umpires": [
               "Brogan Murphy",
               "Carter Wills",
+              "Gage Boyd",
+              "Grady Boyd",
+              "Jaxon Jacobs",
+              "Karver Jacobs",
+              "Kye Golder",
               "Marko Sazdov",
               "Ryder Knight",
               "Tyler Hoadley"
@@ -8349,9 +8359,9 @@
               "Hayden Scheuermann",
               "Joey Buchner"
             ],
-            "assigned_count": 7,
+            "assigned_count": 12,
             "accepted_count": 0,
-            "pending_count": 5,
+            "pending_count": 10,
             "denied_count": 2,
             "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
@@ -8364,8 +8374,13 @@
             "assigned_umpires": [
               "Brogan Murphy",
               "Carter Wills",
+              "Gage Boyd",
+              "Grady Boyd",
               "Hayden Scheuermann",
+              "Jaxon Jacobs",
               "Joey Buchner",
+              "Karver Jacobs",
+              "Kye Golder",
               "Marko Sazdov",
               "Ryder Knight",
               "Tyler Hoadley"
@@ -8374,6 +8389,11 @@
             "pending_umpires": [
               "Brogan Murphy",
               "Carter Wills",
+              "Gage Boyd",
+              "Grady Boyd",
+              "Jaxon Jacobs",
+              "Karver Jacobs",
+              "Kye Golder",
               "Marko Sazdov",
               "Ryder Knight",
               "Tyler Hoadley"
@@ -8382,9 +8402,9 @@
               "Hayden Scheuermann",
               "Joey Buchner"
             ],
-            "assigned_count": 7,
+            "assigned_count": 12,
             "accepted_count": 0,
-            "pending_count": 5,
+            "pending_count": 10,
             "denied_count": 2,
             "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
@@ -8460,8 +8480,13 @@
                 "assigned_umpires": [
                   "Brogan Murphy",
                   "Carter Wills",
+                  "Gage Boyd",
+                  "Grady Boyd",
                   "Hayden Scheuermann",
+                  "Jaxon Jacobs",
                   "Joey Buchner",
+                  "Karver Jacobs",
+                  "Kye Golder",
                   "Marko Sazdov",
                   "Ryder Knight",
                   "Tyler Hoadley"
@@ -8470,6 +8495,11 @@
                 "pending_umpires": [
                   "Brogan Murphy",
                   "Carter Wills",
+                  "Gage Boyd",
+                  "Grady Boyd",
+                  "Jaxon Jacobs",
+                  "Karver Jacobs",
+                  "Kye Golder",
                   "Marko Sazdov",
                   "Ryder Knight",
                   "Tyler Hoadley"
@@ -8478,9 +8508,9 @@
                   "Hayden Scheuermann",
                   "Joey Buchner"
                 ],
-                "assigned_count": 7,
+                "assigned_count": 12,
                 "accepted_count": 0,
-                "pending_count": 5,
+                "pending_count": 10,
                 "denied_count": 2,
                 "assignment_state": "assigned_but_denied"
               },
@@ -8491,8 +8521,13 @@
                 "assigned_umpires": [
                   "Brogan Murphy",
                   "Carter Wills",
+                  "Gage Boyd",
+                  "Grady Boyd",
                   "Hayden Scheuermann",
+                  "Jaxon Jacobs",
                   "Joey Buchner",
+                  "Karver Jacobs",
+                  "Kye Golder",
                   "Marko Sazdov",
                   "Ryder Knight",
                   "Tyler Hoadley"
@@ -8501,6 +8536,11 @@
                 "pending_umpires": [
                   "Brogan Murphy",
                   "Carter Wills",
+                  "Gage Boyd",
+                  "Grady Boyd",
+                  "Jaxon Jacobs",
+                  "Karver Jacobs",
+                  "Kye Golder",
                   "Marko Sazdov",
                   "Ryder Knight",
                   "Tyler Hoadley"
@@ -8509,9 +8549,9 @@
                   "Hayden Scheuermann",
                   "Joey Buchner"
                 ],
-                "assigned_count": 7,
+                "assigned_count": 12,
                 "accepted_count": 0,
-                "pending_count": 5,
+                "pending_count": 10,
                 "denied_count": 2,
                 "assignment_state": "assigned_but_denied"
               }
@@ -13570,22 +13610,28 @@
             "venue": "Tecumseh Park",
             "assigned_umpires": [
               "Brogan Murphy",
+              "Carter Wills",
+              "Hayden Scheuermann",
               "Marko Sazdov",
               "Ryan Carlton",
-              "Ryder Daye"
+              "Ryder Daye",
+              "Tyler Hoadley"
             ],
             "accepted_umpires": [
               "Marko Sazdov"
             ],
             "pending_umpires": [
               "Brogan Murphy",
+              "Carter Wills",
+              "Hayden Scheuermann",
               "Ryan Carlton",
-              "Ryder Daye"
+              "Ryder Daye",
+              "Tyler Hoadley"
             ],
             "denied_umpires": [],
-            "assigned_count": 4,
+            "assigned_count": 7,
             "accepted_count": 1,
-            "pending_count": 3,
+            "pending_count": 6,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
