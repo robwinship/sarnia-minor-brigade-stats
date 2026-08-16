@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-16T10:03:18.525279Z",
+  "generated": "2026-08-16T16:03:29.013185Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3411,6 +3411,7 @@
                   "Ryan Carlton",
                   "Ryan Ross",
                   "Ryder Daye",
+                  "Ryder Knight",
                   "Ryerson Nead",
                   "Rylie Bunda",
                   "Sadie Daughtrey",
@@ -3543,13 +3544,15 @@
                   "Brogan Murphy",
                   "Carter Wills",
                   "Ewan Snedden",
-                  "Jackson Burlingham",
+                  "Jason Lajeunesse",
                   "Joey Buchner",
                   "Katrina Cadotte",
+                  "Kayne Golder",
                   "Marko Sazdov",
                   "Myles Hobbs",
                   "Ryan Carlton",
                   "Ryder Daye",
+                  "Ryder Knight",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
@@ -3561,9 +3564,9 @@
                   "Joey Buchner",
                   "Summer Steinke"
                 ],
-                "assigned_count": 107,
+                "assigned_count": 108,
                 "accepted_count": 105,
-                "pending_count": 14,
+                "pending_count": 16,
                 "denied_count": 5,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -8322,25 +8325,29 @@
             "opponent": "London Badgers",
             "venue": "Tecumseh Park",
             "assigned_umpires": [
+              "Brogan Murphy",
               "Carter Wills",
               "Hayden Scheuermann",
               "Joey Buchner",
               "Marko Sazdov",
+              "Ryder Knight",
               "Tyler Hoadley"
             ],
             "accepted_umpires": [],
             "pending_umpires": [
+              "Brogan Murphy",
               "Carter Wills",
               "Marko Sazdov",
+              "Ryder Knight",
               "Tyler Hoadley"
             ],
             "denied_umpires": [
               "Hayden Scheuermann",
               "Joey Buchner"
             ],
-            "assigned_count": 5,
+            "assigned_count": 7,
             "accepted_count": 0,
-            "pending_count": 3,
+            "pending_count": 5,
             "denied_count": 2,
             "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
@@ -8351,25 +8358,29 @@
             "opponent": "London Badgers",
             "venue": "Tecumseh Park",
             "assigned_umpires": [
+              "Brogan Murphy",
               "Carter Wills",
               "Hayden Scheuermann",
               "Joey Buchner",
               "Marko Sazdov",
+              "Ryder Knight",
               "Tyler Hoadley"
             ],
             "accepted_umpires": [],
             "pending_umpires": [
+              "Brogan Murphy",
               "Carter Wills",
               "Marko Sazdov",
+              "Ryder Knight",
               "Tyler Hoadley"
             ],
             "denied_umpires": [
               "Hayden Scheuermann",
               "Joey Buchner"
             ],
-            "assigned_count": 5,
+            "assigned_count": 7,
             "accepted_count": 0,
-            "pending_count": 3,
+            "pending_count": 5,
             "denied_count": 2,
             "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
@@ -8443,25 +8454,29 @@
                 "opponent": "London Badgers",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
+                  "Brogan Murphy",
                   "Carter Wills",
                   "Hayden Scheuermann",
                   "Joey Buchner",
                   "Marko Sazdov",
+                  "Ryder Knight",
                   "Tyler Hoadley"
                 ],
                 "accepted_umpires": [],
                 "pending_umpires": [
+                  "Brogan Murphy",
                   "Carter Wills",
                   "Marko Sazdov",
+                  "Ryder Knight",
                   "Tyler Hoadley"
                 ],
                 "denied_umpires": [
                   "Hayden Scheuermann",
                   "Joey Buchner"
                 ],
-                "assigned_count": 5,
+                "assigned_count": 7,
                 "accepted_count": 0,
-                "pending_count": 3,
+                "pending_count": 5,
                 "denied_count": 2,
                 "assignment_state": "assigned_but_denied"
               },
@@ -8470,25 +8485,29 @@
                 "opponent": "London Badgers",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
+                  "Brogan Murphy",
                   "Carter Wills",
                   "Hayden Scheuermann",
                   "Joey Buchner",
                   "Marko Sazdov",
+                  "Ryder Knight",
                   "Tyler Hoadley"
                 ],
                 "accepted_umpires": [],
                 "pending_umpires": [
+                  "Brogan Murphy",
                   "Carter Wills",
                   "Marko Sazdov",
+                  "Ryder Knight",
                   "Tyler Hoadley"
                 ],
                 "denied_umpires": [
                   "Hayden Scheuermann",
                   "Joey Buchner"
                 ],
-                "assigned_count": 5,
+                "assigned_count": 7,
                 "accepted_count": 0,
-                "pending_count": 3,
+                "pending_count": 5,
                 "denied_count": 2,
                 "assignment_state": "assigned_but_denied"
               }
@@ -16468,12 +16487,12 @@
       "id": 1298,
       "name": "16U PBLO",
       "category": "Senior",
-      "gp": 46,
-      "wins": 29,
+      "gp": 47,
+      "wins": 30,
       "losses": 17,
       "ties": 0,
-      "runs_for": 341,
-      "runs_against": 265,
+      "runs_for": 363,
+      "runs_against": 285,
       "practices": 26,
       "roster": {
         "players": 15,
@@ -16979,7 +16998,7 @@
           "date": "2026-08-14",
           "start_time": "6:00 PM",
           "end_date": "2026-08-15",
-          "summary": "16U PBLO - Game vs Chatham Major Diamonds",
+          "summary": "16U PBLO - Game vs Chatham Major Diamonds(W 6-8)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -16999,7 +17018,7 @@
           "date": "2026-08-15",
           "start_time": "11:00 AM",
           "end_date": "2026-08-15",
-          "summary": "16U PBLO - Game vs Sarnia Brigade 14u",
+          "summary": "16U PBLO - Game vs Sarnia Brigade 14u(T 7-7)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -17009,7 +17028,7 @@
           "date": "2026-08-15",
           "start_time": "1:30 PM",
           "end_date": "2026-08-15",
-          "summary": "16U PBLO - Game vs Sarnia Brigade 14u",
+          "summary": "16U PBLO - Game vs Sarnia Brigade 14u(T 7-7)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -17741,21 +17760,9 @@
           "start_time": "6:00 PM",
           "opponent": "Chatham Major Diamonds Errol Russell Park",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "20380",
-          "href": "https://sarniabrigade.ca/Teams/1298/Games/20380/",
-          "date": "2026-08-14",
-          "start_time": "8:30 PM",
-          "opponent": "Chatham Major Diamonds Errol Russell Park",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 8,
+          "opp_score": 6,
           "cancelled": false
         },
         {
@@ -17766,8 +17773,8 @@
           "opponent": "Sarnia Brigade",
           "home": true,
           "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "brigade_score": 7,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -17778,8 +17785,8 @@
           "opponent": "Sarnia Brigade",
           "home": true,
           "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "brigade_score": 7,
+          "opp_score": 7,
           "cancelled": false
         }
       ],
