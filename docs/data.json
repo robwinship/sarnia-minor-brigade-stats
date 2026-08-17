@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-16T23:03:07.157182Z",
+  "generated": "2026-08-17T10:03:04.321945Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3285,6 +3285,7 @@
               "Matthew Schrie",
               "Max Avery",
               "Max McClintock",
+              "Max Taylor",
               "Mikayla Coubroug",
               "Mike Moorhouse",
               "Myles Hobbs",
@@ -3329,6 +3330,7 @@
                   "Bentley Bartosz",
                   "Bentley Daughtrey",
                   "Blake Adams",
+                  "Brayden Jacques",
                   "Brian Mundt",
                   "Brock Lane",
                   "Brock Prozorowicz",
@@ -3398,6 +3400,7 @@
                   "Matthew Schrie",
                   "Max Avery",
                   "Max McClintock",
+                  "Max Taylor",
                   "Mikayla Coubroug",
                   "Mike Moorhouse",
                   "Myles Hobbs",
@@ -3507,6 +3510,7 @@
                   "Matthew Schrie",
                   "Max Avery",
                   "Max McClintock",
+                  "Max Taylor",
                   "Mikayla Coubroug",
                   "Mike Moorhouse",
                   "Myles Hobbs",
@@ -3541,6 +3545,7 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
+                  "Brayden Jacques",
                   "Brian Mundt",
                   "Brogan Murphy",
                   "Carter Wills",
@@ -3548,16 +3553,20 @@
                   "Gage Boyd",
                   "Grady Boyd",
                   "Hayden Scheuermann",
+                  "Jarett Simons",
                   "Jaxon Jacobs",
                   "Karver Jacobs",
                   "Katrina Cadotte",
                   "Kayne Golder",
                   "Kye Golder",
                   "Marko Sazdov",
+                  "Mike Moorhouse",
                   "Myles Hobbs",
+                  "Paolo Padiglia",
                   "Ryan Carlton",
                   "Ryder Daye",
                   "Ryder Knight",
+                  "Shane Moorhouse",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
@@ -3568,9 +3577,9 @@
                   "Hayden Scheuermann",
                   "Joey Buchner"
                 ],
-                "assigned_count": 109,
-                "accepted_count": 105,
-                "pending_count": 20,
+                "assigned_count": 111,
+                "accepted_count": 106,
+                "pending_count": 25,
                 "denied_count": 4,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -3824,12 +3833,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 34,
-      "wins": 17,
+      "gp": 35,
+      "wins": 18,
       "losses": 17,
       "ties": 0,
-      "runs_for": 296,
-      "runs_against": 341,
+      "runs_for": 306,
+      "runs_against": 347,
       "practices": 25,
       "roster": {
         "players": 13,
@@ -4315,7 +4324,7 @@
           "date": "2026-08-16",
           "start_time": "6:30 PM",
           "end_date": "2026-08-17",
-          "summary": "10U A OBA Rep - Game vs St. Thomas Cardinals [10u42]",
+          "summary": "10U A OBA Rep - Game vs St. Thomas Cardinals [10u42](W 6-10)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -4883,9 +4892,9 @@
           "start_time": "6:30 PM",
           "opponent": "St. Thomas Cardinals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 10,
+          "opp_score": 6,
           "cancelled": false
         },
         {
@@ -8337,8 +8346,10 @@
               "Jaxon Jacobs",
               "Joey Buchner",
               "Karver Jacobs",
+              "Kayne Golder",
               "Kye Golder",
               "Marko Sazdov",
+              "Paolo Padiglia",
               "Ryder Knight",
               "Tyler Hoadley"
             ],
@@ -8350,8 +8361,10 @@
               "Grady Boyd",
               "Jaxon Jacobs",
               "Karver Jacobs",
+              "Kayne Golder",
               "Kye Golder",
               "Marko Sazdov",
+              "Paolo Padiglia",
               "Ryder Knight",
               "Tyler Hoadley"
             ],
@@ -8359,9 +8372,9 @@
               "Hayden Scheuermann",
               "Joey Buchner"
             ],
-            "assigned_count": 12,
+            "assigned_count": 14,
             "accepted_count": 0,
-            "pending_count": 10,
+            "pending_count": 12,
             "denied_count": 2,
             "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
@@ -8382,6 +8395,7 @@
               "Karver Jacobs",
               "Kye Golder",
               "Marko Sazdov",
+              "Paolo Padiglia",
               "Ryder Knight",
               "Tyler Hoadley"
             ],
@@ -8395,6 +8409,7 @@
               "Karver Jacobs",
               "Kye Golder",
               "Marko Sazdov",
+              "Paolo Padiglia",
               "Ryder Knight",
               "Tyler Hoadley"
             ],
@@ -8402,9 +8417,9 @@
               "Hayden Scheuermann",
               "Joey Buchner"
             ],
-            "assigned_count": 12,
+            "assigned_count": 13,
             "accepted_count": 0,
-            "pending_count": 10,
+            "pending_count": 11,
             "denied_count": 2,
             "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
@@ -8486,8 +8501,10 @@
                   "Jaxon Jacobs",
                   "Joey Buchner",
                   "Karver Jacobs",
+                  "Kayne Golder",
                   "Kye Golder",
                   "Marko Sazdov",
+                  "Paolo Padiglia",
                   "Ryder Knight",
                   "Tyler Hoadley"
                 ],
@@ -8499,8 +8516,10 @@
                   "Grady Boyd",
                   "Jaxon Jacobs",
                   "Karver Jacobs",
+                  "Kayne Golder",
                   "Kye Golder",
                   "Marko Sazdov",
+                  "Paolo Padiglia",
                   "Ryder Knight",
                   "Tyler Hoadley"
                 ],
@@ -8508,9 +8527,9 @@
                   "Hayden Scheuermann",
                   "Joey Buchner"
                 ],
-                "assigned_count": 12,
+                "assigned_count": 14,
                 "accepted_count": 0,
-                "pending_count": 10,
+                "pending_count": 12,
                 "denied_count": 2,
                 "assignment_state": "assigned_but_denied"
               },
@@ -8529,6 +8548,7 @@
                   "Karver Jacobs",
                   "Kye Golder",
                   "Marko Sazdov",
+                  "Paolo Padiglia",
                   "Ryder Knight",
                   "Tyler Hoadley"
                 ],
@@ -8542,6 +8562,7 @@
                   "Karver Jacobs",
                   "Kye Golder",
                   "Marko Sazdov",
+                  "Paolo Padiglia",
                   "Ryder Knight",
                   "Tyler Hoadley"
                 ],
@@ -8549,9 +8570,9 @@
                   "Hayden Scheuermann",
                   "Joey Buchner"
                 ],
-                "assigned_count": 12,
+                "assigned_count": 13,
                 "accepted_count": 0,
-                "pending_count": 10,
+                "pending_count": 11,
                 "denied_count": 2,
                 "assignment_state": "assigned_but_denied"
               }
@@ -13612,6 +13633,7 @@
               "Brogan Murphy",
               "Carter Wills",
               "Hayden Scheuermann",
+              "Kayne Golder",
               "Marko Sazdov",
               "Ryan Carlton",
               "Ryder Daye",
@@ -13624,14 +13646,15 @@
               "Brogan Murphy",
               "Carter Wills",
               "Hayden Scheuermann",
+              "Kayne Golder",
               "Ryan Carlton",
               "Ryder Daye",
               "Tyler Hoadley"
             ],
             "denied_umpires": [],
-            "assigned_count": 7,
+            "assigned_count": 8,
             "accepted_count": 1,
-            "pending_count": 6,
+            "pending_count": 7,
             "denied_count": 0,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
@@ -13655,8 +13678,8 @@
       "wins": 9,
       "losses": 10,
       "ties": 0,
-      "runs_for": 202,
-      "runs_against": 209,
+      "runs_for": 210,
+      "runs_against": 217,
       "practices": 23,
       "roster": {
         "players": 12,
@@ -14092,7 +14115,7 @@
           "date": "2026-08-16",
           "start_time": "6:00 PM",
           "end_date": "2026-08-17",
-          "summary": "15U Select - Game vs DKMB River Cats [15uS86]",
+          "summary": "15U Select - Game vs DKMB River Cats [15uS86](T 8-8)",
           "location": "Blackwell Park",
           "type": "game",
           "cancelled": false
@@ -14397,8 +14420,8 @@
           "opponent": "DKMB River Cats",
           "home": true,
           "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "brigade_score": 8,
+          "opp_score": 8,
           "cancelled": false
         },
         {
