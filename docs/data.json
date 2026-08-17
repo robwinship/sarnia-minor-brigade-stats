@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-17T16:02:47.332850Z",
+  "generated": "2026-08-17T19:33:10.243193Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3546,18 +3546,19 @@
                 "pending_umpires": [
                   "Brayden Jacques",
                   "Brian Mundt",
+                  "Brock Lane",
                   "Brogan Murphy",
                   "Carter Wills",
+                  "David Haasen",
                   "Ewan Snedden",
                   "Gage Boyd",
                   "Grady Boyd",
+                  "Greg Baker",
                   "Jaxon Jacobs",
                   "Karver Jacobs",
-                  "Katrina Cadotte",
                   "Marko Sazdov",
                   "Mike Moorhouse",
                   "Myles Hobbs",
-                  "Paolo Padiglia",
                   "Ryder Knight",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
@@ -3568,14 +3569,14 @@
                   "Grant Purdy",
                   "Hayden Scheuermann",
                   "Joey Buchner",
-                  "Kayne Golder",
                   "Kye Golder",
                   "Noah Bechard",
+                  "Paolo Padiglia",
                   "Shane Moorhouse"
                 ],
                 "assigned_count": 110,
                 "accepted_count": 106,
-                "pending_count": 18,
+                "pending_count": 19,
                 "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -8358,7 +8359,6 @@
               "Jaxon Jacobs",
               "Karver Jacobs",
               "Marko Sazdov",
-              "Paolo Padiglia",
               "Ryder Knight",
               "Tyler Hoadley"
             ],
@@ -8366,12 +8366,13 @@
               "Hayden Scheuermann",
               "Joey Buchner",
               "Kye Golder",
-              "Noah Bechard"
+              "Noah Bechard",
+              "Paolo Padiglia"
             ],
             "assigned_count": 14,
             "accepted_count": 0,
-            "pending_count": 10,
-            "denied_count": 4,
+            "pending_count": 9,
+            "denied_count": 5,
             "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
           },
@@ -8406,18 +8407,18 @@
               "Jaxon Jacobs",
               "Karver Jacobs",
               "Marko Sazdov",
-              "Paolo Padiglia",
               "Ryder Knight",
               "Tyler Hoadley"
             ],
             "denied_umpires": [
               "Hayden Scheuermann",
-              "Joey Buchner"
+              "Joey Buchner",
+              "Paolo Padiglia"
             ],
             "assigned_count": 13,
             "accepted_count": 1,
-            "pending_count": 10,
-            "denied_count": 2,
+            "pending_count": 9,
+            "denied_count": 3,
             "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
@@ -8516,7 +8517,6 @@
                   "Jaxon Jacobs",
                   "Karver Jacobs",
                   "Marko Sazdov",
-                  "Paolo Padiglia",
                   "Ryder Knight",
                   "Tyler Hoadley"
                 ],
@@ -8524,12 +8524,13 @@
                   "Hayden Scheuermann",
                   "Joey Buchner",
                   "Kye Golder",
-                  "Noah Bechard"
+                  "Noah Bechard",
+                  "Paolo Padiglia"
                 ],
                 "assigned_count": 14,
                 "accepted_count": 0,
-                "pending_count": 10,
-                "denied_count": 4,
+                "pending_count": 9,
+                "denied_count": 5,
                 "assignment_state": "assigned_but_denied"
               },
               {
@@ -8562,18 +8563,18 @@
                   "Jaxon Jacobs",
                   "Karver Jacobs",
                   "Marko Sazdov",
-                  "Paolo Padiglia",
                   "Ryder Knight",
                   "Tyler Hoadley"
                 ],
                 "denied_umpires": [
                   "Hayden Scheuermann",
-                  "Joey Buchner"
+                  "Joey Buchner",
+                  "Paolo Padiglia"
                 ],
                 "assigned_count": 13,
                 "accepted_count": 1,
-                "pending_count": 10,
-                "denied_count": 2,
+                "pending_count": 9,
+                "denied_count": 3,
                 "assignment_state": "assigned_and_accepted"
               }
             ]
@@ -9279,22 +9280,22 @@
           "cancelled": false
         },
         {
+          "uid": "MS-21597-sarniabrigade.ca",
+          "date": "2026-08-20",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-20",
+          "summary": "14U OBA Rep - Practice",
+          "location": "Blackwell North",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21613-sarniabrigade.ca",
           "date": "2026-08-20",
           "start_time": "6:30 PM",
           "end_date": "2026-08-21",
           "summary": "14U OBA Rep - Practice",
           "location": "Pitch Indoor Sports",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21597-sarniabrigade.ca",
-          "date": "2026-08-20",
-          "start_time": "8:00 PM",
-          "end_date": "2026-08-21",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell North",
           "type": "practice",
           "cancelled": false
         },
@@ -10204,13 +10205,13 @@
       "id": 1297,
       "name": "15U OBA Rep",
       "category": "OBA Rep",
-      "gp": 34,
+      "gp": 36,
       "wins": 16,
-      "losses": 18,
+      "losses": 20,
       "ties": 0,
-      "runs_for": 282,
-      "runs_against": 266,
-      "practices": 29,
+      "runs_for": 295,
+      "runs_against": 290,
+      "practices": 25,
       "roster": {
         "players": 14,
         "adults": 5,
@@ -10735,7 +10736,7 @@
           "date": "2026-08-15",
           "start_time": "10:00 AM",
           "end_date": "2026-08-15",
-          "summary": "15U OBA Rep - Game @ Chatham Major Diamonds",
+          "summary": "15U OBA Rep - Game @ Chatham Major Diamonds(L 10-11)",
           "location": "Fergie Jenkins Field",
           "type": "game",
           "cancelled": false
@@ -10745,7 +10746,7 @@
           "date": "2026-08-15",
           "start_time": "12:30 PM",
           "end_date": "2026-08-15",
-          "summary": "15U OBA Rep - Game @ Chatham Major Diamonds",
+          "summary": "15U OBA Rep - Game @ Chatham Major Diamonds(L 3-13)",
           "location": "Fergie Jenkins Field",
           "type": "game",
           "cancelled": false
@@ -10801,26 +10802,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20986-sarniabrigade.ca",
-          "date": "2026-08-22",
-          "start_time": "11:00 AM",
-          "end_date": "2026-08-22",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20987-sarniabrigade.ca",
-          "date": "2026-08-22",
-          "start_time": "1:30 PM",
-          "end_date": "2026-08-22",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-19795-sarniabrigade.ca",
           "date": "2026-08-25",
           "start_time": "5:30 PM",
@@ -10848,26 +10829,6 @@
           "summary": "15U OBA Rep - LDBA Championships",
           "location": "Tillsonburg, ON",
           "type": "tournament",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19817-sarniabrigade.ca",
-          "date": "2026-09-01",
-          "start_time": "5:30 PM",
-          "end_date": "2026-09-01",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-19818-sarniabrigade.ca",
-          "date": "2026-09-03",
-          "start_time": "5:30 PM",
-          "end_date": "2026-09-03",
-          "summary": "15U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
           "cancelled": false
         }
       ],
@@ -11323,9 +11284,9 @@
           "start_time": "10:00 AM",
           "opponent": "Chatham Major Diamonds Fergie Jenkins Field",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 10,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -11335,9 +11296,9 @@
           "start_time": "12:30 PM",
           "opponent": "Chatham Major Diamonds Fergie Jenkins Field",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 3,
+          "opp_score": 13,
           "cancelled": false
         },
         {
