@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-17T19:33:10.243193Z",
+  "generated": "2026-08-17T23:03:10.829179Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3549,11 +3549,9 @@
                   "Brock Lane",
                   "Brogan Murphy",
                   "Carter Wills",
-                  "David Haasen",
                   "Ewan Snedden",
                   "Gage Boyd",
                   "Grady Boyd",
-                  "Greg Baker",
                   "Jaxon Jacobs",
                   "Karver Jacobs",
                   "Marko Sazdov",
@@ -3571,13 +3569,12 @@
                   "Joey Buchner",
                   "Kye Golder",
                   "Noah Bechard",
-                  "Paolo Padiglia",
-                  "Shane Moorhouse"
+                  "Paolo Padiglia"
                 ],
                 "assigned_count": 110,
                 "accepted_count": 106,
-                "pending_count": 19,
-                "denied_count": 8,
+                "pending_count": 17,
+                "denied_count": 7,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -8593,12 +8590,12 @@
       "id": 1296,
       "name": "14U OBA Rep",
       "category": "OBA Rep",
-      "gp": 46,
+      "gp": 48,
       "wins": 39,
-      "losses": 7,
+      "losses": 9,
       "ties": 0,
-      "runs_for": 562,
-      "runs_against": 242,
+      "runs_for": 579,
+      "runs_against": 263,
       "practices": 34,
       "roster": {
         "players": 14,
@@ -9254,7 +9251,7 @@
           "date": "2026-08-15",
           "start_time": "11:00 AM",
           "end_date": "2026-08-15",
-          "summary": "14U OBA Rep - Game vs Sarnia Brigade 16U",
+          "summary": "14U OBA Rep - Game vs Sarnia Brigade 16U(L 11-10)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -9264,7 +9261,7 @@
           "date": "2026-08-15",
           "start_time": "1:30 PM",
           "end_date": "2026-08-15",
-          "summary": "14U OBA Rep - Game vs Sarnia Brigade 16U",
+          "summary": "14U OBA Rep - Game vs Sarnia Brigade 16U(L 10-7)",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -10070,9 +10067,9 @@
           "start_time": "11:00 AM",
           "opponent": "Sarnia Brigade",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 10,
+          "opp_score": 11,
           "cancelled": false
         },
         {
@@ -10082,9 +10079,9 @@
           "start_time": "1:30 PM",
           "opponent": "Sarnia Brigade",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 7,
+          "opp_score": 10,
           "cancelled": false
         },
         {
@@ -10784,8 +10781,8 @@
         {
           "uid": "MS-19811-sarniabrigade.ca",
           "date": "2026-08-20",
-          "start_time": "5:30 PM",
-          "end_date": "2026-08-20",
+          "start_time": "7:00 PM",
+          "end_date": "2026-08-21",
           "summary": "15U OBA Rep - Practice",
           "location": "Blackwell Park",
           "type": "practice",
