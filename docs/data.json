@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-17T10:03:04.321945Z",
+  "generated": "2026-08-17T16:02:47.332850Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2067,12 +2067,12 @@
       "id": 1292,
       "name": "10U AA OBA Rep",
       "category": "OBA Rep",
-      "gp": 6,
+      "gp": 7,
       "wins": 4,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
-      "runs_for": 66,
-      "runs_against": 56,
+      "runs_for": 72,
+      "runs_against": 63,
       "practices": 27,
       "roster": {
         "players": 13,
@@ -2486,10 +2486,10 @@
         {
           "uid": "MS-20005-sarniabrigade.ca",
           "date": "2026-08-15",
-          "start_time": "11:00 AM",
+          "start_time": "3:30 PM",
           "end_date": "2026-08-15",
-          "summary": "10U AA OBA Rep - Game @ Riverside Royals [DH]",
-          "location": "TBD",
+          "summary": "10U AA OBA Rep - Game @ Chatham Diamonds 10u [WC11U-202](L 6-7)",
+          "location": "Kinsmen Park (2)",
           "type": "game",
           "cancelled": false
         },
@@ -3059,12 +3059,12 @@
           "game_id": "20005",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/20005/",
           "date": "2026-08-15",
-          "start_time": "11:00 AM",
-          "opponent": "Riverside Royals DH TBD",
+          "start_time": "3:30 PM",
+          "opponent": "Chatham Diamonds",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 7,
           "cancelled": false
         },
         {
@@ -3412,7 +3412,6 @@
                   "Penny Core",
                   "Ralph Campbell",
                   "Ronnie Atyeo",
-                  "Ryan Carlton",
                   "Ryan Ross",
                   "Ryder Daye",
                   "Ryder Knight",
@@ -3552,21 +3551,14 @@
                   "Ewan Snedden",
                   "Gage Boyd",
                   "Grady Boyd",
-                  "Hayden Scheuermann",
-                  "Jarett Simons",
                   "Jaxon Jacobs",
                   "Karver Jacobs",
                   "Katrina Cadotte",
-                  "Kayne Golder",
-                  "Kye Golder",
                   "Marko Sazdov",
                   "Mike Moorhouse",
                   "Myles Hobbs",
                   "Paolo Padiglia",
-                  "Ryan Carlton",
-                  "Ryder Daye",
                   "Ryder Knight",
-                  "Shane Moorhouse",
                   "Tyler Hoadley",
                   "Tyler Vandenberg",
                   "Tyler Whetham"
@@ -3575,12 +3567,16 @@
                   "Brian Mundt",
                   "Grant Purdy",
                   "Hayden Scheuermann",
-                  "Joey Buchner"
+                  "Joey Buchner",
+                  "Kayne Golder",
+                  "Kye Golder",
+                  "Noah Bechard",
+                  "Shane Moorhouse"
                 ],
-                "assigned_count": 111,
+                "assigned_count": 110,
                 "accepted_count": 106,
-                "pending_count": 25,
-                "denied_count": 4,
+                "pending_count": 18,
+                "denied_count": 8,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -8346,9 +8342,9 @@
               "Jaxon Jacobs",
               "Joey Buchner",
               "Karver Jacobs",
-              "Kayne Golder",
               "Kye Golder",
               "Marko Sazdov",
+              "Noah Bechard",
               "Paolo Padiglia",
               "Ryder Knight",
               "Tyler Hoadley"
@@ -8361,8 +8357,6 @@
               "Grady Boyd",
               "Jaxon Jacobs",
               "Karver Jacobs",
-              "Kayne Golder",
-              "Kye Golder",
               "Marko Sazdov",
               "Paolo Padiglia",
               "Ryder Knight",
@@ -8370,12 +8364,14 @@
             ],
             "denied_umpires": [
               "Hayden Scheuermann",
-              "Joey Buchner"
+              "Joey Buchner",
+              "Kye Golder",
+              "Noah Bechard"
             ],
             "assigned_count": 14,
             "accepted_count": 0,
-            "pending_count": 12,
-            "denied_count": 2,
+            "pending_count": 10,
+            "denied_count": 4,
             "assignment_state": "assigned_but_denied",
             "issue_timing": "upcoming"
           },
@@ -8399,7 +8395,9 @@
               "Ryder Knight",
               "Tyler Hoadley"
             ],
-            "accepted_umpires": [],
+            "accepted_umpires": [
+              "Kye Golder"
+            ],
             "pending_umpires": [
               "Brogan Murphy",
               "Carter Wills",
@@ -8407,7 +8405,6 @@
               "Grady Boyd",
               "Jaxon Jacobs",
               "Karver Jacobs",
-              "Kye Golder",
               "Marko Sazdov",
               "Paolo Padiglia",
               "Ryder Knight",
@@ -8418,10 +8415,10 @@
               "Joey Buchner"
             ],
             "assigned_count": 13,
-            "accepted_count": 0,
-            "pending_count": 11,
+            "accepted_count": 1,
+            "pending_count": 10,
             "denied_count": 2,
-            "assignment_state": "assigned_but_denied",
+            "assignment_state": "assigned_and_accepted",
             "issue_timing": "upcoming"
           }
         ],
@@ -8486,7 +8483,9 @@
             "issue_timing": "upcoming",
             "incomplete_assignment": true,
             "pair_signatures": [],
-            "mismatched_names": [],
+            "mismatched_names": [
+              "Kye Golder"
+            ],
             "games": [
               {
                 "time": "10:00 AM",
@@ -8501,9 +8500,9 @@
                   "Jaxon Jacobs",
                   "Joey Buchner",
                   "Karver Jacobs",
-                  "Kayne Golder",
                   "Kye Golder",
                   "Marko Sazdov",
+                  "Noah Bechard",
                   "Paolo Padiglia",
                   "Ryder Knight",
                   "Tyler Hoadley"
@@ -8516,8 +8515,6 @@
                   "Grady Boyd",
                   "Jaxon Jacobs",
                   "Karver Jacobs",
-                  "Kayne Golder",
-                  "Kye Golder",
                   "Marko Sazdov",
                   "Paolo Padiglia",
                   "Ryder Knight",
@@ -8525,12 +8522,14 @@
                 ],
                 "denied_umpires": [
                   "Hayden Scheuermann",
-                  "Joey Buchner"
+                  "Joey Buchner",
+                  "Kye Golder",
+                  "Noah Bechard"
                 ],
                 "assigned_count": 14,
                 "accepted_count": 0,
-                "pending_count": 12,
-                "denied_count": 2,
+                "pending_count": 10,
+                "denied_count": 4,
                 "assignment_state": "assigned_but_denied"
               },
               {
@@ -8552,7 +8551,9 @@
                   "Ryder Knight",
                   "Tyler Hoadley"
                 ],
-                "accepted_umpires": [],
+                "accepted_umpires": [
+                  "Kye Golder"
+                ],
                 "pending_umpires": [
                   "Brogan Murphy",
                   "Carter Wills",
@@ -8560,7 +8561,6 @@
                   "Grady Boyd",
                   "Jaxon Jacobs",
                   "Karver Jacobs",
-                  "Kye Golder",
                   "Marko Sazdov",
                   "Paolo Padiglia",
                   "Ryder Knight",
@@ -8571,10 +8571,10 @@
                   "Joey Buchner"
                 ],
                 "assigned_count": 13,
-                "accepted_count": 0,
-                "pending_count": 11,
+                "accepted_count": 1,
+                "pending_count": 10,
                 "denied_count": 2,
-                "assignment_state": "assigned_but_denied"
+                "assignment_state": "assigned_and_accepted"
               }
             ]
           }
@@ -13618,48 +13618,12 @@
       ],
       "umpire_issues": {
         "games_missed": 0,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-08-21",
-            "time": "6:00 PM",
-            "opponent": "Aylmer Pirates",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Brogan Murphy",
-              "Carter Wills",
-              "Hayden Scheuermann",
-              "Kayne Golder",
-              "Marko Sazdov",
-              "Ryan Carlton",
-              "Ryder Daye",
-              "Tyler Hoadley"
-            ],
-            "accepted_umpires": [
-              "Marko Sazdov"
-            ],
-            "pending_umpires": [
-              "Brogan Murphy",
-              "Carter Wills",
-              "Hayden Scheuermann",
-              "Kayne Golder",
-              "Ryan Carlton",
-              "Ryder Daye",
-              "Tyler Hoadley"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 8,
-            "accepted_count": 1,
-            "pending_count": 7,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 5351.68,
@@ -14515,12 +14479,12 @@
       "id": 1304,
       "name": "9U River League",
       "category": "River League",
-      "gp": 18,
-      "wins": 13,
+      "gp": 19,
+      "wins": 14,
       "losses": 5,
       "ties": 0,
-      "runs_for": 249,
-      "runs_against": 163,
+      "runs_for": 264,
+      "runs_against": 170,
       "practices": 11,
       "roster": {
         "players": 16,
@@ -14786,7 +14750,7 @@
           "date": "2026-08-16",
           "start_time": "6:30 PM",
           "end_date": "2026-08-17",
-          "summary": "9U River League - Game @ Wyoming Wranglers Grey [RL9UN-21]",
+          "summary": "9U River League - Game @ Wyoming Wranglers Grey [RL9UN-21](W 15-7)",
           "location": "Kerr Park",
           "type": "game",
           "cancelled": false
@@ -15068,9 +15032,9 @@
           "start_time": "6:30 PM",
           "opponent": "Wyoming Wranglers Grey RL9UN-21 Kerr Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 15,
+          "opp_score": 7,
           "cancelled": false
         },
         {
