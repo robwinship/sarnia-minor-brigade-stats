@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-17T23:03:10.829179Z",
+  "generated": "2026-08-18T10:03:21.932655Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -12220,12 +12220,12 @@
       "id": 1303,
       "name": "11U Select",
       "category": "Select",
-      "gp": 18,
+      "gp": 19,
       "wins": 11,
-      "losses": 7,
+      "losses": 8,
       "ties": 0,
-      "runs_for": 186,
-      "runs_against": 163,
+      "runs_for": 187,
+      "runs_against": 176,
       "practices": 15,
       "roster": {
         "players": 13,
@@ -12531,7 +12531,7 @@
           "date": "2026-08-17",
           "start_time": "6:00 PM",
           "end_date": "2026-08-18",
-          "summary": "11U Select - Game @ St. Thomas Cardinals [11uS54]",
+          "summary": "11U Select - Game @ St. Thomas Cardinals [11uS54](L 1-13)",
           "location": "New York Central",
           "type": "game",
           "cancelled": false
@@ -12891,9 +12891,9 @@
           "start_time": "6:00 PM",
           "opponent": "St. Thomas Cardinals",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 1,
+          "opp_score": 13,
           "cancelled": false
         },
         {
