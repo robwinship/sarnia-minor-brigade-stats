@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-18T19:33:28.042093Z",
+  "generated": "2026-08-18T23:03:39.591632Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3554,7 +3554,6 @@
                   "Jason Lajeunesse",
                   "Jaxon Jacobs",
                   "Karver Jacobs",
-                  "Levi Burlingham",
                   "Marko Sazdov",
                   "Matthew Schrie",
                   "Mike Moorhouse",
@@ -3571,6 +3570,7 @@
                   "Hayden Scheuermann",
                   "Joey Buchner",
                   "Kye Golder",
+                  "Levi Burlingham",
                   "Noah Bechard",
                   "Paolo Padiglia",
                   "Tyler Hoadley",
@@ -3578,8 +3578,8 @@
                 ],
                 "assigned_count": 110,
                 "accepted_count": 106,
-                "pending_count": 19,
-                "denied_count": 10,
+                "pending_count": 18,
+                "denied_count": 11,
                 "assignment_state": "assigned_and_accepted"
               },
               {
