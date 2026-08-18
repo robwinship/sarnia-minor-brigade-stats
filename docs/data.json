@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-18T10:03:21.932655Z",
+  "generated": "2026-08-18T16:03:41.343841Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3330,7 +3330,7 @@
                   "Bentley Bartosz",
                   "Bentley Daughtrey",
                   "Blake Adams",
-                  "Brayden Jacques",
+                  "Brayden Jaques",
                   "Brian Mundt",
                   "Brock Lane",
                   "Brock Prozorowicz",
@@ -3544,9 +3544,8 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Brayden Jacques",
+                  "Brayden Jaques",
                   "Brian Mundt",
-                  "Brock Lane",
                   "Brogan Murphy",
                   "Carter Wills",
                   "Ewan Snedden",
@@ -3555,6 +3554,7 @@
                   "Jaxon Jacobs",
                   "Karver Jacobs",
                   "Marko Sazdov",
+                  "Matthew Schrie",
                   "Mike Moorhouse",
                   "Myles Hobbs",
                   "Ryder Knight",
@@ -3569,12 +3569,14 @@
                   "Joey Buchner",
                   "Kye Golder",
                   "Noah Bechard",
-                  "Paolo Padiglia"
+                  "Paolo Padiglia",
+                  "Tyler Hoadley",
+                  "Tyler Whetham"
                 ],
                 "assigned_count": 110,
                 "accepted_count": 106,
                 "pending_count": 17,
-                "denied_count": 7,
+                "denied_count": 9,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -9297,6 +9299,26 @@
           "cancelled": false
         },
         {
+          "uid": "MD-3387-sarniabrigade.ca",
+          "date": "2026-08-21",
+          "start_time": null,
+          "end_date": "2026-08-24",
+          "summary": "14U OBA Rep - LDBA",
+          "location": "Sarnia, Ont",
+          "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22213-sarniabrigade.ca",
+          "date": "2026-08-21",
+          "start_time": "7:30 PM",
+          "end_date": "2026-08-22",
+          "summary": "14U OBA Rep - Game vs Tincaps [1]",
+          "location": "Errol Russell Park",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-21772-sarniabrigade.ca",
           "date": "2026-08-24",
           "start_time": "6:00 PM",
@@ -9384,6 +9406,16 @@
           "summary": "14U OBA Rep - OBAs",
           "location": "Brantford, On",
           "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22214-sarniabrigade.ca",
+          "date": "2026-09-04",
+          "start_time": "10:00 AM",
+          "end_date": "2026-09-04",
+          "summary": "14U OBA Rep - Game vs TBA2 [1]",
+          "location": "Arnold Anderson",
+          "type": "game",
           "cancelled": false
         }
       ],
@@ -10085,6 +10117,18 @@
           "cancelled": false
         },
         {
+          "game_id": "22213",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/22213/",
+          "date": "2026-08-21",
+          "start_time": "7:30 PM",
+          "opponent": "Tincaps",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "20955",
           "href": "https://sarniabrigade.ca/Teams/1296/Games/20955/",
           "date": "2026-08-30",
@@ -10102,6 +10146,18 @@
           "date": "2026-08-30",
           "start_time": "12:30 PM",
           "opponent": "Windsor Stars Blackwell North",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22214",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/22214/",
+          "date": "2026-09-04",
+          "start_time": "10:00 AM",
+          "opponent": "TBA2",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -12220,12 +12276,12 @@
       "id": 1303,
       "name": "11U Select",
       "category": "Select",
-      "gp": 19,
+      "gp": 20,
       "wins": 11,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "runs_for": 187,
-      "runs_against": 176,
+      "runs_for": 198,
+      "runs_against": 190,
       "practices": 15,
       "roster": {
         "players": 13,
@@ -12521,7 +12577,7 @@
           "date": "2026-08-16",
           "start_time": "10:00 AM",
           "end_date": "2026-08-16",
-          "summary": "11U Select - Game vs Strathroy Royals [11uS34]",
+          "summary": "11U Select - Game vs Strathroy Royals [11uS34](L 14-11)",
           "location": "Clearwater Diamond #2",
           "type": "game",
           "cancelled": false
@@ -12879,9 +12935,9 @@
           "start_time": "10:00 AM",
           "opponent": "Strathroy Royals",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 11,
+          "opp_score": 14,
           "cancelled": false
         },
         {
@@ -14043,16 +14099,6 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21141-sarniabrigade.ca",
-          "date": "2026-08-18",
-          "start_time": "8:00 PM",
-          "end_date": "2026-08-19",
-          "summary": "15U Select - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
           "uid": "MS-21527-sarniabrigade.ca",
           "date": "2026-08-20",
           "start_time": "5:00 PM",
@@ -14089,6 +14135,16 @@
           "end_date": "2026-08-26",
           "summary": "15U Select - Practice",
           "location": "Blackwell Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22216-sarniabrigade.ca",
+          "date": "2026-08-26",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-27",
+          "summary": "15U Select - Practice",
+          "location": "Suncor Recreation Centre",
           "type": "practice",
           "cancelled": false
         }
