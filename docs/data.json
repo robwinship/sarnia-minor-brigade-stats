@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-18T16:03:41.343841Z",
+  "generated": "2026-08-18T19:33:28.042093Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -485,7 +485,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-08-20",
           "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
+          "location": "Germain Diamond #1",
           "type": "practice",
           "cancelled": false
         },
@@ -3551,8 +3551,10 @@
                   "Ewan Snedden",
                   "Gage Boyd",
                   "Grady Boyd",
+                  "Jason Lajeunesse",
                   "Jaxon Jacobs",
                   "Karver Jacobs",
+                  "Levi Burlingham",
                   "Marko Sazdov",
                   "Matthew Schrie",
                   "Mike Moorhouse",
@@ -3564,6 +3566,7 @@
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
+                  "Chris Bonneau",
                   "Grant Purdy",
                   "Hayden Scheuermann",
                   "Joey Buchner",
@@ -3575,8 +3578,8 @@
                 ],
                 "assigned_count": 110,
                 "accepted_count": 106,
-                "pending_count": 17,
-                "denied_count": 9,
+                "pending_count": 19,
+                "denied_count": 10,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -8389,14 +8392,14 @@
               "Jaxon Jacobs",
               "Joey Buchner",
               "Karver Jacobs",
-              "Kye Golder",
+              "Kayne Golder",
               "Marko Sazdov",
               "Paolo Padiglia",
               "Ryder Knight",
               "Tyler Hoadley"
             ],
             "accepted_umpires": [
-              "Kye Golder"
+              "Kayne Golder"
             ],
             "pending_umpires": [
               "Brogan Murphy",
@@ -8484,7 +8487,7 @@
             "incomplete_assignment": true,
             "pair_signatures": [],
             "mismatched_names": [
-              "Kye Golder"
+              "Kayne Golder"
             ],
             "games": [
               {
@@ -8545,14 +8548,14 @@
                   "Jaxon Jacobs",
                   "Joey Buchner",
                   "Karver Jacobs",
-                  "Kye Golder",
+                  "Kayne Golder",
                   "Marko Sazdov",
                   "Paolo Padiglia",
                   "Ryder Knight",
                   "Tyler Hoadley"
                 ],
                 "accepted_umpires": [
-                  "Kye Golder"
+                  "Kayne Golder"
                 ],
                 "pending_umpires": [
                   "Brogan Murphy",
