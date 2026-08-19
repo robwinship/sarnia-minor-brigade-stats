@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-19T10:03:42.186868Z",
+  "generated": "2026-08-19T16:03:05.810283Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3376,7 +3376,6 @@
                   "Jonas Winklmeier",
                   "Juan Peralta",
                   "Justin Vanhorn",
-                  "Karver Jacobs",
                   "Kassie Buchan",
                   "Katrina Cadotte",
                   "Kayleigh Buchan",
@@ -3414,7 +3413,6 @@
                   "Ronnie Atyeo",
                   "Ryan Ross",
                   "Ryder Daye",
-                  "Ryder Knight",
                   "Ryerson Nead",
                   "Rylie Bunda",
                   "Sadie Daughtrey",
@@ -3546,46 +3544,28 @@
                 "pending_umpires": [
                   "Brayden Jaques",
                   "Brian Mundt",
-                  "Brock Lane",
-                  "Brogan Murphy",
-                  "Carter Wills",
+                  "Dan Scott",
                   "Ewan Snedden",
-                  "Gage Boyd",
-                  "Grady Boyd",
                   "Graham Dolbear",
                   "Hayden Scheuermann",
-                  "Jarett Simons",
-                  "Jason Lajeunesse",
-                  "Jaxon Jacobs",
-                  "Karver Jacobs",
-                  "Kirk Vines",
                   "Marko Sazdov",
                   "Matthew Schrie",
                   "Mike Moorhouse",
                   "Myles Hobbs",
                   "Paolo Padiglia",
-                  "Ryder Knight",
                   "Tyler Hoadley",
-                  "Tyler Vandenberg",
-                  "Tyler Whetham"
+                  "Tyler Vandenberg"
                 ],
                 "denied_umpires": [
                   "Brian Mundt",
-                  "Chris Bonneau",
                   "Grant Purdy",
-                  "Hayden Scheuermann",
-                  "Joey Buchner",
-                  "Kye Golder",
-                  "Levi Burlingham",
-                  "Noah Bechard",
-                  "Paolo Padiglia",
-                  "Tyler Hoadley",
+                  "Jason Lajeunesse",
                   "Tyler Whetham"
                 ],
-                "assigned_count": 110,
+                "assigned_count": 108,
                 "accepted_count": 106,
-                "pending_count": 24,
-                "denied_count": 11,
+                "pending_count": 13,
+                "denied_count": 4,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -8315,7 +8295,7 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 2,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
@@ -8336,99 +8316,6 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
-          },
-          {
-            "date": "2026-08-22",
-            "time": "10:00 AM",
-            "opponent": "London Badgers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Brogan Murphy",
-              "Carter Wills",
-              "Gage Boyd",
-              "Grady Boyd",
-              "Hayden Scheuermann",
-              "Jaxon Jacobs",
-              "Joey Buchner",
-              "Karver Jacobs",
-              "Kye Golder",
-              "Marko Sazdov",
-              "Noah Bechard",
-              "Paolo Padiglia",
-              "Ryder Knight",
-              "Tyler Hoadley"
-            ],
-            "accepted_umpires": [],
-            "pending_umpires": [
-              "Brogan Murphy",
-              "Carter Wills",
-              "Gage Boyd",
-              "Grady Boyd",
-              "Jaxon Jacobs",
-              "Karver Jacobs",
-              "Marko Sazdov",
-              "Ryder Knight",
-              "Tyler Hoadley"
-            ],
-            "denied_umpires": [
-              "Hayden Scheuermann",
-              "Joey Buchner",
-              "Kye Golder",
-              "Noah Bechard",
-              "Paolo Padiglia"
-            ],
-            "assigned_count": 14,
-            "accepted_count": 0,
-            "pending_count": 9,
-            "denied_count": 5,
-            "assignment_state": "assigned_but_denied",
-            "issue_timing": "upcoming"
-          },
-          {
-            "date": "2026-08-22",
-            "time": "12:30 PM",
-            "opponent": "London Badgers",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Brogan Murphy",
-              "Carter Wills",
-              "Gage Boyd",
-              "Grady Boyd",
-              "Hayden Scheuermann",
-              "Jaxon Jacobs",
-              "Joey Buchner",
-              "Karver Jacobs",
-              "Kayne Golder",
-              "Marko Sazdov",
-              "Paolo Padiglia",
-              "Ryder Knight",
-              "Tyler Hoadley"
-            ],
-            "accepted_umpires": [
-              "Kayne Golder"
-            ],
-            "pending_umpires": [
-              "Brogan Murphy",
-              "Carter Wills",
-              "Gage Boyd",
-              "Grady Boyd",
-              "Jaxon Jacobs",
-              "Karver Jacobs",
-              "Marko Sazdov",
-              "Ryder Knight",
-              "Tyler Hoadley"
-            ],
-            "denied_umpires": [
-              "Hayden Scheuermann",
-              "Joey Buchner",
-              "Paolo Padiglia"
-            ],
-            "assigned_count": 13,
-            "accepted_count": 1,
-            "pending_count": 9,
-            "denied_count": 3,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -8490,10 +8377,16 @@
           {
             "date": "2026-08-22",
             "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
+            "incomplete_assignment": false,
+            "pair_signatures": [
+              "Jarett Simons | Noah Bechard",
+              "Kayne Golder | Kirk Vines"
+            ],
             "mismatched_names": [
-              "Kayne Golder"
+              "Jarett Simons",
+              "Kayne Golder",
+              "Kirk Vines",
+              "Noah Bechard"
             ],
             "games": [
               {
@@ -8501,88 +8394,39 @@
                 "opponent": "London Badgers",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
-                  "Brogan Murphy",
-                  "Carter Wills",
-                  "Gage Boyd",
-                  "Grady Boyd",
-                  "Hayden Scheuermann",
-                  "Jaxon Jacobs",
-                  "Joey Buchner",
-                  "Karver Jacobs",
-                  "Kye Golder",
-                  "Marko Sazdov",
-                  "Noah Bechard",
-                  "Paolo Padiglia",
-                  "Ryder Knight",
-                  "Tyler Hoadley"
+                  "Jarett Simons",
+                  "Noah Bechard"
                 ],
-                "accepted_umpires": [],
-                "pending_umpires": [
-                  "Brogan Murphy",
-                  "Carter Wills",
-                  "Gage Boyd",
-                  "Grady Boyd",
-                  "Jaxon Jacobs",
-                  "Karver Jacobs",
-                  "Marko Sazdov",
-                  "Ryder Knight",
-                  "Tyler Hoadley"
+                "accepted_umpires": [
+                  "Jarett Simons",
+                  "Noah Bechard"
                 ],
-                "denied_umpires": [
-                  "Hayden Scheuermann",
-                  "Joey Buchner",
-                  "Kye Golder",
-                  "Noah Bechard",
-                  "Paolo Padiglia"
-                ],
-                "assigned_count": 14,
-                "accepted_count": 0,
-                "pending_count": 9,
-                "denied_count": 5,
-                "assignment_state": "assigned_but_denied"
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
               },
               {
                 "time": "12:30 PM",
                 "opponent": "London Badgers",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
-                  "Brogan Murphy",
-                  "Carter Wills",
-                  "Gage Boyd",
-                  "Grady Boyd",
-                  "Hayden Scheuermann",
-                  "Jaxon Jacobs",
-                  "Joey Buchner",
-                  "Karver Jacobs",
                   "Kayne Golder",
-                  "Marko Sazdov",
-                  "Paolo Padiglia",
-                  "Ryder Knight",
-                  "Tyler Hoadley"
+                  "Kirk Vines"
                 ],
                 "accepted_umpires": [
-                  "Kayne Golder"
+                  "Kayne Golder",
+                  "Kirk Vines"
                 ],
-                "pending_umpires": [
-                  "Brogan Murphy",
-                  "Carter Wills",
-                  "Gage Boyd",
-                  "Grady Boyd",
-                  "Jaxon Jacobs",
-                  "Karver Jacobs",
-                  "Marko Sazdov",
-                  "Ryder Knight",
-                  "Tyler Hoadley"
-                ],
-                "denied_umpires": [
-                  "Hayden Scheuermann",
-                  "Joey Buchner",
-                  "Paolo Padiglia"
-                ],
-                "assigned_count": 13,
-                "accepted_count": 1,
-                "pending_count": 9,
-                "denied_count": 3,
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               }
             ]
