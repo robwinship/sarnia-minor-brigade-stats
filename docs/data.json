@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-21T23:03:24.362434Z",
+  "generated": "2026-08-22T10:03:33.872854Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3545,7 +3545,6 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Dan Scott",
                   "Ewan Snedden",
                   "Matthew Schrie",
                   "Myles Hobbs",
@@ -3554,7 +3553,7 @@
                 "denied_umpires": [],
                 "assigned_count": 108,
                 "accepted_count": 107,
-                "pending_count": 6,
+                "pending_count": 5,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -12830,12 +12829,12 @@
       "id": 1300,
       "name": "13U Select",
       "category": "Select",
-      "gp": 19,
-      "wins": 14,
+      "gp": 20,
+      "wins": 15,
       "losses": 5,
       "ties": 0,
-      "runs_for": 204,
-      "runs_against": 118,
+      "runs_for": 224,
+      "runs_against": 122,
       "practices": 15,
       "roster": {
         "players": 12,
@@ -13171,7 +13170,7 @@
           "date": "2026-08-21",
           "start_time": "6:00 PM",
           "end_date": "2026-08-22",
-          "summary": "13U Select - Game vs Aylmer Pirates [13uS57]",
+          "summary": "13U Select - Game vs Aylmer Pirates [13uS57](W 4-20)",
           "location": "Tecumseh Park",
           "type": "game",
           "cancelled": false
@@ -13467,9 +13466,9 @@
           "start_time": "6:00 PM",
           "opponent": "Aylmer Pirates",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 20,
+          "opp_score": 4,
           "cancelled": false
         }
       ],
