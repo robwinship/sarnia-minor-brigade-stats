@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-22T23:03:13.353833Z",
+  "generated": "2026-08-23T10:03:32.556827Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -8340,8 +8340,8 @@
       "umpire_issues": {
         "games_missed": 1,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch": 2,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -8420,7 +8420,7 @@
           },
           {
             "date": "2026-08-22",
-            "issue_timing": "upcoming",
+            "issue_timing": "past",
             "incomplete_assignment": false,
             "pair_signatures": [
               "Jarett Simons | Noah Bechard",
