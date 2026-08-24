@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-24T16:03:27.869103Z",
+  "generated": "2026-08-24T19:33:35.541259Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2576,7 +2576,7 @@
         {
           "uid": "MS-22159-sarniabrigade.ca",
           "date": "2026-08-25",
-          "start_time": "6:15 PM",
+          "start_time": "6:00 PM",
           "end_date": "2026-08-26",
           "summary": "10U AA OBA Rep - Game @ Corunna Giants",
           "location": "Cameron Park",
@@ -3131,7 +3131,7 @@
           "game_id": "22159",
           "href": "https://sarniabrigade.ca/Teams/1292/Games/22159/",
           "date": "2026-08-25",
-          "start_time": "6:15 PM",
+          "start_time": "6:00 PM",
           "opponent": "Corunna Giants Cameron Park",
           "home": false,
           "result": null,
@@ -8497,7 +8497,7 @@
       "ties": 0,
       "runs_for": 579,
       "runs_against": 263,
-      "practices": 34,
+      "practices": 32,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -9215,26 +9215,6 @@
           "summary": "14U OBA Rep - Game vs Tincaps [1]",
           "location": "Errol Russell Park",
           "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21772-sarniabrigade.ca",
-          "date": "2026-08-24",
-          "start_time": "6:00 PM",
-          "end_date": "2026-08-25",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-21614-sarniabrigade.ca",
-          "date": "2026-08-25",
-          "start_time": "6:30 PM",
-          "end_date": "2026-08-26",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Pitch Indoor Sports",
-          "type": "practice",
           "cancelled": false
         },
         {
@@ -10782,6 +10762,16 @@
           "location": "Tillsonburg, ON",
           "type": "tournament",
           "cancelled": false
+        },
+        {
+          "uid": "MS-22270-sarniabrigade.ca",
+          "date": "2026-08-28",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-29",
+          "summary": "15U OBA Rep - Game vs London Talons",
+          "location": "Tillsonburg Hardball Diamond 1",
+          "type": "game",
+          "cancelled": false
         }
       ],
       "games": [
@@ -11287,6 +11277,18 @@
           "result": "W",
           "brigade_score": 14,
           "opp_score": 4,
+          "cancelled": false
+        },
+        {
+          "game_id": "22270",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/22270/",
+          "date": "2026-08-28",
+          "start_time": "6:00 PM",
+          "opponent": "London Talons Tillsonburg Hardball Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
           "cancelled": false
         }
       ],
