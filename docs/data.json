@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-24T19:33:35.541259Z",
+  "generated": "2026-08-24T23:03:30.069696Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3545,7 +3545,6 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Drew Bennett",
                   "Ewan Snedden",
                   "Kevin Johnson",
                   "Myles Hobbs",
@@ -3555,7 +3554,7 @@
                 "denied_umpires": [],
                 "assigned_count": 108,
                 "accepted_count": 107,
-                "pending_count": 7,
+                "pending_count": 6,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -7795,6 +7794,26 @@
           "cancelled": false
         },
         {
+          "uid": "MS-22271-sarniabrigade.ca",
+          "date": "2026-08-25",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-26",
+          "summary": "13U OBA Rep - Game vs London  Badgers",
+          "location": "TBD",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22272-sarniabrigade.ca",
+          "date": "2026-08-25",
+          "start_time": "8:30 PM",
+          "end_date": "2026-08-26",
+          "summary": "13U OBA Rep - Game vs London  Badgers",
+          "location": "TBD",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20857-sarniabrigade.ca",
           "date": "2026-08-27",
           "start_time": "6:00 PM",
@@ -8331,7 +8350,31 @@
           "href": "https://sarniabrigade.ca/Teams/1295/Games/22210/",
           "date": "2026-08-22",
           "start_time": "12:30 PM",
-          "opponent": "London Badgers Tecumseh Park More Details Aug",
+          "opponent": "London Badgers Tecumseh Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22271",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/22271/",
+          "date": "2026-08-25",
+          "start_time": "6:00 PM",
+          "opponent": "London Badgers TBD",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22272",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/22272/",
+          "date": "2026-08-25",
+          "start_time": "8:30 PM",
+          "opponent": "London Badgers TBD More Details Aug",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -8341,9 +8384,9 @@
       ],
       "umpire_issues": {
         "games_missed": 1,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 2,
         "doubleheader_mismatch": 2,
-        "doubleheader_mismatch_upcoming": 0,
+        "doubleheader_mismatch_upcoming": 1,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -8362,6 +8405,38 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
+          },
+          {
+            "date": "2026-08-25",
+            "time": "6:00 PM",
+            "opponent": "London Badgers",
+            "venue": "TBD",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
+          },
+          {
+            "date": "2026-08-25",
+            "time": "8:30 PM",
+            "opponent": "London Badgers",
+            "venue": "TBD",
+            "assigned_umpires": [],
+            "accepted_umpires": [],
+            "pending_umpires": [],
+            "denied_umpires": [],
+            "assigned_count": 0,
+            "accepted_count": 0,
+            "pending_count": 0,
+            "denied_count": 0,
+            "assignment_state": "no_officials_assigned",
+            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -8474,6 +8549,43 @@
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-08-25",
+            "issue_timing": "upcoming",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "6:00 PM",
+                "opponent": "London Badgers",
+                "venue": "TBD",
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
+              },
+              {
+                "time": "8:30 PM",
+                "opponent": "London Badgers",
+                "venue": "TBD",
+                "assigned_umpires": [],
+                "accepted_umpires": [],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 0,
+                "accepted_count": 0,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "no_officials_assigned"
               }
             ]
           }
