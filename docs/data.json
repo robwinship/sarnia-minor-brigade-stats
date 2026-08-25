@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-25T10:03:31.165121Z",
+  "generated": "2026-08-25T16:02:52.400004Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3546,8 +3546,8 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Ewan Snedden",
-                  "Hayden Scheuermann",
-                  "Kevin Johnson",
+                  "Greg Baker",
+                  "Matthew Schrie",
                   "Myles Hobbs",
                   "Tucker Stokes",
                   "Tyler Vandenberg"
@@ -6760,7 +6760,7 @@
         {
           "uid": "MS-20579-sarniabrigade.ca",
           "date": "2026-08-30",
-          "start_time": "10:00 AM",
+          "start_time": "1:00 PM",
           "end_date": "2026-08-30",
           "summary": "12U OBA Rep - Practice",
           "location": "Tecumseh Park",
@@ -7835,6 +7835,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-22274-sarniabrigade.ca",
+          "date": "2026-08-28",
+          "start_time": "6:00 PM",
+          "end_date": "2026-08-29",
+          "summary": "13U OBA Rep - Game vs North London Nationals",
+          "location": "Lucan Memorial Center",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MS-20337-sarniabrigade.ca",
           "date": "2026-08-31",
           "start_time": "5:30 PM",
@@ -7862,6 +7872,16 @@
           "summary": "13U OBA Rep - OBA Championships",
           "location": "TBD",
           "type": "tournament",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22275-sarniabrigade.ca",
+          "date": "2026-09-04",
+          "start_time": "11:00 AM",
+          "end_date": "2026-09-04",
+          "summary": "13U OBA Rep - Game vs Mississauga Twins",
+          "location": "Tom Chater Park",
+          "type": "game",
           "cancelled": false
         }
       ],
@@ -8376,6 +8396,30 @@
           "date": "2026-08-25",
           "start_time": "8:30 PM",
           "opponent": "London Badgers Germain Diamond",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22274",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/22274/",
+          "date": "2026-08-28",
+          "start_time": "6:00 PM",
+          "opponent": "North London Nationals Lucan Memorial Center",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22275",
+          "href": "https://sarniabrigade.ca/Teams/1295/Games/22275/",
+          "date": "2026-09-04",
+          "start_time": "11:00 AM",
+          "opponent": "Mississauga Twins Tom Chater Park",
           "home": true,
           "result": null,
           "brigade_score": null,
