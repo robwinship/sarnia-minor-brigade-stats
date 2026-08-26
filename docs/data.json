@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-26T10:02:30.107633Z",
+  "generated": "2026-08-26T16:03:17.888853Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -515,7 +515,7 @@
           "start_time": "6:00 PM",
           "end_date": "2026-08-27",
           "summary": "8U OBA Rep - Practice",
-          "location": "Coronation Park Diamond",
+          "location": "Germain Diamond #3",
           "type": "practice",
           "cancelled": false
         },
@@ -3546,7 +3546,7 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Ewan Snedden",
-                  "Greg Baker",
+                  "Levi Burlingham",
                   "Myles Hobbs",
                   "Tucker Stokes",
                   "Tyler Vandenberg"
@@ -3863,12 +3863,12 @@
       "id": 1311,
       "name": "10U A OBA Rep",
       "category": "OBA Rep",
-      "gp": 35,
+      "gp": 36,
       "wins": 18,
-      "losses": 17,
+      "losses": 18,
       "ties": 0,
-      "runs_for": 306,
-      "runs_against": 347,
+      "runs_for": 312,
+      "runs_against": 363,
       "practices": 25,
       "roster": {
         "players": 13,
@@ -4404,7 +4404,7 @@
           "date": "2026-08-25",
           "start_time": "6:00 PM",
           "end_date": "2026-08-26",
-          "summary": "10U A OBA Rep - Game @ Chatham Diamonds 10u [WC11U-116]",
+          "summary": "10U A OBA Rep - Game @ Chatham Diamonds 10u [WC11U-116](L 6-16)",
           "location": "Kinsmen Park (2)",
           "type": "game",
           "cancelled": false
@@ -4934,9 +4934,9 @@
           "start_time": "6:00 PM",
           "opponent": "Chatham Diamonds",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "L",
+          "brigade_score": 6,
+          "opp_score": 16,
           "cancelled": false
         }
       ],
