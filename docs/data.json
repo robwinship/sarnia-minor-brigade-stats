@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-27T19:32:54.351266Z",
+  "generated": "2026-08-27T23:03:37.259774Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -6079,11 +6079,11 @@
           "cancelled": true
         },
         {
-          "game_id": "22205",
-          "href": "https://sarniabrigade.ca/Teams/1293/Games/22205/",
-          "date": "2026-09-03",
-          "start_time": "4:00 PM",
-          "opponent": "Greater Niagara Falcons OAK Diamond",
+          "game_id": "22298",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/22298/",
+          "date": "2026-08-28",
+          "start_time": "5:45 PM",
+          "opponent": "London Badgers",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -6091,11 +6091,23 @@
           "cancelled": false
         },
         {
-          "game_id": "22204",
-          "href": "https://sarniabrigade.ca/Teams/1293/Games/22204/",
+          "game_id": "22299",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/22299/",
+          "date": "2026-08-29",
+          "start_time": "9:00 AM",
+          "opponent": "TBD TBD",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22300",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/22300/",
           "date": "2026-09-03",
-          "start_time": "4:00 PM",
-          "opponent": "Greater Niagara Falcons OAK Diamond",
+          "start_time": "4:45 PM",
+          "opponent": "Greater Niagara Falcons",
           "home": true,
           "result": null,
           "brigade_score": null,
