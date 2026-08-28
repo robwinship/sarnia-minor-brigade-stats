@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-28T16:02:55.636312Z",
+  "generated": "2026-08-28T19:34:46.696801Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2067,12 +2067,12 @@
       "id": 1292,
       "name": "10U AA OBA Rep",
       "category": "OBA Rep",
-      "gp": 8,
-      "wins": 4,
+      "gp": 9,
+      "wins": 5,
       "losses": 4,
       "ties": 0,
-      "runs_for": 75,
-      "runs_against": 70,
+      "runs_for": 82,
+      "runs_against": 75,
       "practices": 27,
       "roster": {
         "players": 13,
@@ -2578,7 +2578,7 @@
           "date": "2026-08-25",
           "start_time": "6:00 PM",
           "end_date": "2026-08-26",
-          "summary": "10U AA OBA Rep - Game @ Corunna Giants",
+          "summary": "10U AA OBA Rep - Game @ Corunna Giants(W 7-5)",
           "location": "Cameron Park",
           "type": "game",
           "cancelled": false
@@ -3134,9 +3134,9 @@
           "start_time": "6:00 PM",
           "opponent": "Corunna Giants Cameron Park",
           "home": false,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 7,
+          "opp_score": 5,
           "cancelled": false
         }
       ],
