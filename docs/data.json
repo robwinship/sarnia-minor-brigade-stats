@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-28T10:03:25.920523Z",
+  "generated": "2026-08-28T16:02:55.636312Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -5578,7 +5578,7 @@
         {
           "uid": "MS-22300-sarniabrigade.ca",
           "date": "2026-09-03",
-          "start_time": "4:45 PM",
+          "start_time": "4:00 PM",
           "end_date": "2026-09-03",
           "summary": "11U OBA Rep - Game vs Greater Niagara Falcons [1]",
           "location": "OAK Diamond 2",
@@ -6119,7 +6119,7 @@
           "game_id": "22300",
           "href": "https://sarniabrigade.ca/Teams/1293/Games/22300/",
           "date": "2026-09-03",
-          "start_time": "4:45 PM",
+          "start_time": "4:00 PM",
           "opponent": "Greater Niagara Falcons",
           "home": true,
           "result": null,
