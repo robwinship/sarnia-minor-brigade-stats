@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-27T23:03:37.259774Z",
+  "generated": "2026-08-28T10:03:25.920523Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3226,6 +3226,7 @@
               "Cali Vanderslagt",
               "Cambria Caissie",
               "Carson Whittington",
+              "Carter Palmer",
               "Carter Wills",
               "Chris Bonneau",
               "Clark Thornton",
@@ -3339,6 +3340,7 @@
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
+                  "Carter Palmer",
                   "Carter Wills",
                   "Chris Bonneau",
                   "Clark Thornton",
@@ -3449,6 +3451,7 @@
                   "Cali Vanderslagt",
                   "Cambria Caissie",
                   "Carson Whittington",
+                  "Carter Palmer",
                   "Carter Wills",
                   "Chris Bonneau",
                   "Clark Thornton",
@@ -3550,8 +3553,8 @@
                   "Tyler Vandenberg"
                 ],
                 "denied_umpires": [],
-                "assigned_count": 108,
-                "accepted_count": 107,
+                "assigned_count": 109,
+                "accepted_count": 108,
                 "pending_count": 4,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
@@ -5543,6 +5546,26 @@
           "cancelled": false
         },
         {
+          "uid": "MS-22298-sarniabrigade.ca",
+          "date": "2026-08-28",
+          "start_time": "5:45 PM",
+          "end_date": "2026-08-28",
+          "summary": "11U OBA Rep - Game vs London Badgers 10U",
+          "location": "North London Sports Field #2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22299-sarniabrigade.ca",
+          "date": "2026-08-29",
+          "start_time": "9:00 AM",
+          "end_date": "2026-08-29",
+          "summary": "11U OBA Rep - Game vs TBD",
+          "location": "TBD",
+          "type": "game",
+          "cancelled": false
+        },
+        {
           "uid": "MD-3343-sarniabrigade.ca",
           "date": "2026-09-03",
           "start_time": null,
@@ -5553,21 +5576,11 @@
           "cancelled": false
         },
         {
-          "uid": "MS-22204-sarniabrigade.ca",
+          "uid": "MS-22300-sarniabrigade.ca",
           "date": "2026-09-03",
-          "start_time": "4:00 PM",
+          "start_time": "4:45 PM",
           "end_date": "2026-09-03",
-          "summary": "11U OBA Rep - Game vs Greater Niagara Falcons",
-          "location": "OAK Diamond 2",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-22205-sarniabrigade.ca",
-          "date": "2026-09-03",
-          "start_time": "4:00 PM",
-          "end_date": "2026-09-03",
-          "summary": "11U OBA Rep - Game vs Greater Niagara Falcons",
+          "summary": "11U OBA Rep - Game vs Greater Niagara Falcons [1]",
           "location": "OAK Diamond 2",
           "type": "game",
           "cancelled": false
