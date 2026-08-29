@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-29T16:03:00.132510Z",
+  "generated": "2026-08-29T19:32:44.877056Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3548,8 +3548,10 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
+                  "Carson Whittington",
                   "Dan Scott",
                   "Ewan Snedden",
+                  "Jason Lajeunesse",
                   "Matthew Schrie",
                   "Myles Hobbs",
                   "Tyler Vandenberg"
@@ -3557,7 +3559,7 @@
                 "denied_umpires": [],
                 "assigned_count": 109,
                 "accepted_count": 108,
-                "pending_count": 6,
+                "pending_count": 8,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -8664,7 +8666,7 @@
       "ties": 0,
       "runs_for": 579,
       "runs_against": 263,
-      "practices": 32,
+      "practices": 31,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -9415,13 +9417,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-21773-sarniabrigade.ca",
+          "uid": "MS-22303-sarniabrigade.ca",
           "date": "2026-08-31",
-          "start_time": "6:00 PM",
+          "start_time": "7:30 PM",
           "end_date": "2026-09-01",
-          "summary": "14U OBA Rep - Practice",
-          "location": "Blackwell Park",
-          "type": "practice",
+          "summary": "14U OBA Rep - Game vs TBA",
+          "location": "Errol Russell Park",
+          "type": "game",
           "cancelled": false
         },
         {
@@ -9459,7 +9461,7 @@
           "date": "2026-09-04",
           "start_time": "10:00 AM",
           "end_date": "2026-09-04",
-          "summary": "14U OBA Rep - Game vs TBA2 [1]",
+          "summary": "14U OBA Rep - Game vs North York Blues [1]",
           "location": "Arnold Anderson",
           "type": "game",
           "cancelled": false
@@ -10199,11 +10201,23 @@
           "cancelled": false
         },
         {
+          "game_id": "22303",
+          "href": "https://sarniabrigade.ca/Teams/1296/Games/22303/",
+          "date": "2026-08-31",
+          "start_time": "7:30 PM",
+          "opponent": "TBA Errol Russell Park",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
           "game_id": "22214",
           "href": "https://sarniabrigade.ca/Teams/1296/Games/22214/",
           "date": "2026-09-04",
           "start_time": "10:00 AM",
-          "opponent": "TBA2",
+          "opponent": "North York Blues",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -10213,7 +10227,7 @@
       ],
       "umpire_issues": {
         "games_missed": 2,
-        "games_missed_upcoming": 0,
+        "games_missed_upcoming": 1,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -10250,6 +10264,33 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
+          },
+          {
+            "date": "2026-08-31",
+            "time": "7:30 PM",
+            "opponent": "TBA",
+            "venue": "Errol Russell Park",
+            "assigned_umpires": [
+              "Carson Whittington",
+              "Jason Lajeunesse",
+              "Matthew Schrie",
+              "Paolo Padiglia"
+            ],
+            "accepted_umpires": [
+              "Paolo Padiglia"
+            ],
+            "pending_umpires": [
+              "Carson Whittington",
+              "Jason Lajeunesse",
+              "Matthew Schrie"
+            ],
+            "denied_umpires": [],
+            "assigned_count": 4,
+            "accepted_count": 1,
+            "pending_count": 3,
+            "denied_count": 0,
+            "assignment_state": "assigned_and_accepted",
+            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
