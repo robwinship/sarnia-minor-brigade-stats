@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-29T19:32:44.877056Z",
+  "generated": "2026-08-29T23:03:06.732182Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -8666,7 +8666,7 @@
       "ties": 0,
       "runs_for": 579,
       "runs_against": 263,
-      "practices": 31,
+      "practices": 32,
       "roster": {
         "players": 14,
         "adults": 6,
@@ -9397,23 +9397,13 @@
           "cancelled": false
         },
         {
-          "uid": "MS-20955-sarniabrigade.ca",
+          "uid": "MS-22304-sarniabrigade.ca",
           "date": "2026-08-30",
           "start_time": "10:00 AM",
           "end_date": "2026-08-30",
-          "summary": "14U OBA Rep - Game vs Windsor Stars",
+          "summary": "14U OBA Rep - Practice",
           "location": "Blackwell North",
-          "type": "game",
-          "cancelled": false
-        },
-        {
-          "uid": "MS-20956-sarniabrigade.ca",
-          "date": "2026-08-30",
-          "start_time": "12:30 PM",
-          "end_date": "2026-08-30",
-          "summary": "14U OBA Rep - Game vs Windsor Stars",
-          "location": "Blackwell North",
-          "type": "game",
+          "type": "practice",
           "cancelled": false
         },
         {
@@ -10170,30 +10160,6 @@
           "date": "2026-08-21",
           "start_time": "7:30 PM",
           "opponent": "Tincaps",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "20955",
-          "href": "https://sarniabrigade.ca/Teams/1296/Games/20955/",
-          "date": "2026-08-30",
-          "start_time": "10:00 AM",
-          "opponent": "Windsor Stars Blackwell North",
-          "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
-          "cancelled": false
-        },
-        {
-          "game_id": "20956",
-          "href": "https://sarniabrigade.ca/Teams/1296/Games/20956/",
-          "date": "2026-08-30",
-          "start_time": "12:30 PM",
-          "opponent": "Windsor Stars Blackwell North",
           "home": true,
           "result": null,
           "brigade_score": null,
