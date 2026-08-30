@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-30T16:02:51.867246Z",
+  "generated": "2026-08-30T19:33:08.095160Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3548,10 +3548,8 @@
                 ],
                 "pending_umpires": [
                   "Brian Mundt",
-                  "Carson Whittington",
                   "Dan Scott",
                   "Ewan Snedden",
-                  "Jason Lajeunesse",
                   "Matthew Schrie",
                   "Myles Hobbs",
                   "Tyler Vandenberg"
@@ -3559,7 +3557,7 @@
                 "denied_umpires": [],
                 "assigned_count": 109,
                 "accepted_count": 108,
-                "pending_count": 8,
+                "pending_count": 6,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -5029,7 +5027,7 @@
       "ties": 0,
       "runs_for": 309,
       "runs_against": 274,
-      "practices": 22,
+      "practices": 23,
       "roster": {
         "players": 12,
         "adults": 7,
@@ -5570,6 +5568,16 @@
           "cancelled": false
         },
         {
+          "uid": "MS-22305-sarniabrigade.ca",
+          "date": "2026-09-01",
+          "start_time": "6:00 PM",
+          "end_date": "2026-09-02",
+          "summary": "11U OBA Rep - Practice",
+          "location": "Tecumseh Park",
+          "type": "practice",
+          "cancelled": false
+        },
+        {
           "uid": "MD-3343-sarniabrigade.ca",
           "date": "2026-09-03",
           "start_time": null,
@@ -5586,6 +5594,16 @@
           "end_date": "2026-09-03",
           "summary": "11U OBA Rep - Game vs Greater Niagara Falcons [1]",
           "location": "OAK Diamond 2",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22306-sarniabrigade.ca",
+          "date": "2026-09-04",
+          "start_time": "10:00 AM",
+          "end_date": "2026-09-04",
+          "summary": "11U OBA Rep - Game vs TBA",
+          "location": "TBD",
           "type": "game",
           "cancelled": false
         }
@@ -6125,6 +6143,18 @@
           "date": "2026-09-03",
           "start_time": "4:00 PM",
           "opponent": "Greater Niagara Falcons",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22306",
+          "href": "https://sarniabrigade.ca/Teams/1293/Games/22306/",
+          "date": "2026-09-04",
+          "start_time": "10:00 AM",
+          "opponent": "TBA TBD",
           "home": true,
           "result": null,
           "brigade_score": null,
@@ -10193,7 +10223,7 @@
       ],
       "umpire_issues": {
         "games_missed": 2,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
@@ -10230,33 +10260,6 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
-          },
-          {
-            "date": "2026-08-31",
-            "time": "7:30 PM",
-            "opponent": "TBA",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [
-              "Carson Whittington",
-              "Jason Lajeunesse",
-              "Matthew Schrie",
-              "Paolo Padiglia"
-            ],
-            "accepted_umpires": [
-              "Paolo Padiglia"
-            ],
-            "pending_umpires": [
-              "Carson Whittington",
-              "Jason Lajeunesse",
-              "Matthew Schrie"
-            ],
-            "denied_umpires": [],
-            "assigned_count": 4,
-            "accepted_count": 1,
-            "pending_count": 3,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
