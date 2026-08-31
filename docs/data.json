@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-31T16:04:01.356760Z",
+  "generated": "2026-08-31T19:33:24.463471Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3547,19 +3547,19 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Brayden Jaques",
                   "Brian Mundt",
-                  "Doug Krall",
                   "Ewan Snedden",
-                  "Max Taylor",
+                  "Greg Armstrong",
                   "Myles Hobbs",
                   "Tyler Vandenberg"
                 ],
-                "denied_umpires": [],
+                "denied_umpires": [
+                  "Doug Krall"
+                ],
                 "assigned_count": 109,
                 "accepted_count": 108,
-                "pending_count": 7,
-                "denied_count": 0,
+                "pending_count": 5,
+                "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -10226,9 +10226,9 @@
       ],
       "umpire_issues": {
         "games_missed": 2,
-        "games_missed_upcoming": 1,
+        "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
-        "doubleheader_mismatch_upcoming": 1,
+        "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [
@@ -10263,22 +10263,6 @@
             "denied_count": 0,
             "assignment_state": "no_officials_assigned",
             "issue_timing": "past"
-          },
-          {
-            "date": "2026-08-31",
-            "time": "6:00 PM",
-            "opponent": "TBA",
-            "venue": "Errol Russell Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "upcoming"
           }
         ],
         "doubleheader_mismatch_details": [
@@ -10316,54 +10300,6 @@
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "no_officials_assigned"
-              }
-            ]
-          },
-          {
-            "date": "2026-08-31",
-            "issue_timing": "upcoming",
-            "incomplete_assignment": true,
-            "pair_signatures": [
-              "Matthew Schrie | Paolo Padiglia"
-            ],
-            "mismatched_names": [
-              "Matthew Schrie",
-              "Paolo Padiglia"
-            ],
-            "games": [
-              {
-                "time": "6:00 PM",
-                "opponent": "TBA",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [],
-                "accepted_umpires": [],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 0,
-                "accepted_count": 0,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "no_officials_assigned"
-              },
-              {
-                "time": "8:30 PM",
-                "opponent": "TBA",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Matthew Schrie",
-                  "Paolo Padiglia"
-                ],
-                "accepted_umpires": [
-                  "Matthew Schrie",
-                  "Paolo Padiglia"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
               }
             ]
           }
