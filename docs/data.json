@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-31T19:33:24.463471Z",
+  "generated": "2026-08-31T23:03:11.188677Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3549,7 +3549,6 @@
                 "pending_umpires": [
                   "Brian Mundt",
                   "Ewan Snedden",
-                  "Greg Armstrong",
                   "Myles Hobbs",
                   "Tyler Vandenberg"
                 ],
@@ -3558,7 +3557,7 @@
                 ],
                 "assigned_count": 109,
                 "accepted_count": 108,
-                "pending_count": 5,
+                "pending_count": 4,
                 "denied_count": 1,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -9442,7 +9441,7 @@
           "date": "2026-08-31",
           "start_time": "6:00 PM",
           "end_date": "2026-09-01",
-          "summary": "14U OBA Rep - Game vs TBA",
+          "summary": "CANCELLED 14U OBA Rep - Game vs TBA",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -9452,7 +9451,7 @@
           "date": "2026-08-31",
           "start_time": "8:30 PM",
           "end_date": "2026-09-01",
-          "summary": "14U OBA Rep - Game vs TBA",
+          "summary": "CANCELLED 14U OBA Rep - Game vs TBA",
           "location": "Errol Russell Park",
           "type": "game",
           "cancelled": false
@@ -10197,7 +10196,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "22303",
@@ -10209,7 +10208,7 @@
           "result": null,
           "brigade_score": null,
           "opp_score": null,
-          "cancelled": false
+          "cancelled": true
         },
         {
           "game_id": "22214",
@@ -14875,7 +14874,7 @@
           "date": "2026-08-31",
           "start_time": "6:00 PM",
           "end_date": "2026-09-01",
-          "summary": "9U River League - Practice",
+          "summary": "CANCELLED 9U River League - Practice",
           "location": "Blackwell North",
           "type": "practice",
           "cancelled": false
@@ -19415,6 +19414,24 @@
       "team_id": 1296,
       "team_name": "14U OBA Rep",
       "type": "game",
+      "date": "2026-08-31",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 14U OBA Rep - Game vs TBA",
+      "location": "Errol Russell Park"
+    },
+    {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "game",
+      "date": "2026-08-31",
+      "start_time": "8:30 PM",
+      "summary": "CANCELLED 14U OBA Rep - Game vs TBA",
+      "location": "Errol Russell Park"
+    },
+    {
+      "team_id": 1296,
+      "team_name": "14U OBA Rep",
+      "type": "game",
       "date": "2026-04-26",
       "start_time": "11:00 AM",
       "summary": "CANCELLED 14U OBA Rep - Game",
@@ -19581,6 +19598,15 @@
       "start_time": "12:00 AM",
       "summary": "CANCELLED 15U Select - Practice",
       "location": "Blackwell Park"
+    },
+    {
+      "team_id": 1304,
+      "team_name": "9U River League",
+      "type": "practice",
+      "date": "2026-08-31",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 9U River League - Practice",
+      "location": "Blackwell North"
     },
     {
       "team_id": 1310,
