@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-08-31T23:03:11.188677Z",
+  "generated": "2026-09-01T10:03:21.615996Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3552,13 +3552,11 @@
                   "Myles Hobbs",
                   "Tyler Vandenberg"
                 ],
-                "denied_umpires": [
-                  "Doug Krall"
-                ],
+                "denied_umpires": [],
                 "assigned_count": 109,
                 "accepted_count": 108,
                 "pending_count": 4,
-                "denied_count": 1,
+                "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
               {
@@ -10316,12 +10314,12 @@
       "id": 1297,
       "name": "15U OBA Rep",
       "category": "OBA Rep",
-      "gp": 37,
-      "wins": 17,
+      "gp": 40,
+      "wins": 20,
       "losses": 20,
       "ties": 0,
-      "runs_for": 309,
-      "runs_against": 294,
+      "runs_for": 330,
+      "runs_against": 298,
       "practices": 25,
       "roster": {
         "players": 14,
@@ -10947,8 +10945,28 @@
           "date": "2026-08-28",
           "start_time": "6:00 PM",
           "end_date": "2026-08-29",
-          "summary": "15U OBA Rep - Game vs London Talons",
+          "summary": "15U OBA Rep - Game vs London Talons(W 1-11)",
           "location": "Tillsonburg Hardball Diamond 1",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22314-sarniabrigade.ca",
+          "date": "2026-08-29",
+          "start_time": "5:00 PM",
+          "end_date": "2026-08-29",
+          "summary": "15U OBA Rep - Game @ London West Tincaps(W 5-3)",
+          "location": "Tillsonburg Sam Lamb",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22313-sarniabrigade.ca",
+          "date": "2026-08-29",
+          "start_time": "9:00 AM",
+          "end_date": "2026-08-29",
+          "summary": "15U OBA Rep - Game vs Tillsonburg Otters(W 0-5)",
+          "location": "Tillsonburg Sam Lamb",
           "type": "game",
           "cancelled": false
         }
@@ -11465,9 +11483,33 @@
           "start_time": "6:00 PM",
           "opponent": "London Talons Tillsonburg Hardball Diamond",
           "home": true,
-          "result": null,
-          "brigade_score": null,
-          "opp_score": null,
+          "result": "W",
+          "brigade_score": 11,
+          "opp_score": 1,
+          "cancelled": false
+        },
+        {
+          "game_id": "22313",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/22313/",
+          "date": "2026-08-29",
+          "start_time": "9:00 AM",
+          "opponent": "Tillsonburg Otters Tillsonburg Sam Lamb",
+          "home": true,
+          "result": "W",
+          "brigade_score": 5,
+          "opp_score": 0,
+          "cancelled": false
+        },
+        {
+          "game_id": "22314",
+          "href": "https://sarniabrigade.ca/Teams/1297/Games/22314/",
+          "date": "2026-08-29",
+          "start_time": "5:00 PM",
+          "opponent": "London West Tincaps Tillsonburg Sam Lamb",
+          "home": false,
+          "result": "W",
+          "brigade_score": 5,
+          "opp_score": 3,
           "cancelled": false
         }
       ],
