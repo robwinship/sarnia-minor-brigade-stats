@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-09-02T10:03:08.055351Z",
+  "generated": "2026-09-02T16:03:23.259190Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2632,6 +2632,26 @@
           "location": "TBD",
           "type": "tournament",
           "cancelled": false
+        },
+        {
+          "uid": "MS-22315-sarniabrigade.ca",
+          "date": "2026-09-04",
+          "start_time": "1:00 PM",
+          "end_date": "2026-09-04",
+          "summary": "10U AA OBA Rep - Game vs Guelph [1]",
+          "location": "Burnley",
+          "type": "game",
+          "cancelled": false
+        },
+        {
+          "uid": "MS-22316-sarniabrigade.ca",
+          "date": "2026-09-04",
+          "start_time": "4:30 PM",
+          "end_date": "2026-09-04",
+          "summary": "10U AA OBA Rep - Game vs TBD [2]",
+          "location": "TBD",
+          "type": "game",
+          "cancelled": false
         }
       ],
       "games": [
@@ -3137,6 +3157,30 @@
           "result": "W",
           "brigade_score": 7,
           "opp_score": 5,
+          "cancelled": false
+        },
+        {
+          "game_id": "22315",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/22315/",
+          "date": "2026-09-04",
+          "start_time": "1:00 PM",
+          "opponent": "Guelph",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
+          "cancelled": false
+        },
+        {
+          "game_id": "22316",
+          "href": "https://sarniabrigade.ca/Teams/1292/Games/22316/",
+          "date": "2026-09-04",
+          "start_time": "4:30 PM",
+          "opponent": "TBD",
+          "home": true,
+          "result": null,
+          "brigade_score": null,
+          "opp_score": null,
           "cancelled": false
         }
       ],
