@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-09-03T10:03:15.955549Z",
+  "generated": "2026-09-03T16:02:56.042566Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -2625,7 +2625,7 @@
         },
         {
           "uid": "MD-3237-sarniabrigade.ca",
-          "date": "2026-09-03",
+          "date": "2026-09-04",
           "start_time": null,
           "end_date": "2026-09-07",
           "summary": "10U AA OBA Rep - OBA",
