@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-09-03T19:33:15.325664Z",
+  "generated": "2026-09-03T23:03:19.283756Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -3590,12 +3590,13 @@
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [
-                  "Brian Mundt"
+                  "Brian Mundt",
+                  "Ralph Campbell"
                 ],
                 "denied_umpires": [],
                 "assigned_count": 108,
                 "accepted_count": 108,
-                "pending_count": 1,
+                "pending_count": 2,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
@@ -4495,7 +4496,7 @@
           "date": "2026-09-03",
           "start_time": "5:30 PM",
           "end_date": "2026-09-03",
-          "summary": "10U A OBA Rep - Practice",
+          "summary": "CANCELLED 10U A OBA Rep - Practice",
           "location": "Coronation Park Diamond",
           "type": "practice",
           "cancelled": false
@@ -7953,7 +7954,7 @@
           "date": "2026-09-03",
           "start_time": "6:00 PM",
           "end_date": "2026-09-04",
-          "summary": "13U OBA Rep - Practice",
+          "summary": "CANCELLED 13U OBA Rep - Practice",
           "location": "Tecumseh Park",
           "type": "practice",
           "cancelled": false
@@ -12047,7 +12048,7 @@
           "date": "2026-09-03",
           "start_time": "6:00 PM",
           "end_date": "2026-09-04",
-          "summary": "9U Select - Practice",
+          "summary": "CANCELLED 9U Select - Practice",
           "location": "Blackwell North",
           "type": "practice",
           "cancelled": false
@@ -19322,6 +19323,15 @@
       "location": "Tecumseh Park"
     },
     {
+      "team_id": 1311,
+      "team_name": "10U A OBA Rep",
+      "type": "practice",
+      "date": "2026-09-03",
+      "start_time": "5:30 PM",
+      "summary": "CANCELLED 10U A OBA Rep - Practice",
+      "location": "Coronation Park Diamond"
+    },
+    {
       "team_id": 1293,
       "team_name": "11U OBA Rep",
       "type": "practice",
@@ -19436,6 +19446,15 @@
       "date": "2026-08-08",
       "start_time": "1:15 PM",
       "summary": "CANCELLED 13U OBA Rep - Game vs Windsor Stars",
+      "location": "Tecumseh Park"
+    },
+    {
+      "team_id": 1295,
+      "team_name": "13U OBA Rep",
+      "type": "practice",
+      "date": "2026-09-03",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 13U OBA Rep - Practice",
       "location": "Tecumseh Park"
     },
     {
@@ -19608,6 +19627,15 @@
       "start_time": "6:00 PM",
       "summary": "CANCELLED 9U Select - Game @ London West Tincaps [9uS43]",
       "location": "Hazelden"
+    },
+    {
+      "team_id": 1299,
+      "team_name": "9U Select",
+      "type": "practice",
+      "date": "2026-09-03",
+      "start_time": "6:00 PM",
+      "summary": "CANCELLED 9U Select - Practice",
+      "location": "Blackwell North"
     },
     {
       "team_id": 1303,
