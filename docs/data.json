@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-09-16T10:03:20.628368Z",
+  "generated": "2026-09-16T16:06:31.024608Z",
   "umpire_data_status": {
     "available": true,
     "reason": "ok",
@@ -1015,211 +1015,14 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 2,
+        "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 3,
+        "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-06-07",
-            "time": "10:00 AM",
-            "opponent": "North London Nationals",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "Lane Vanden Ouweland"
-            ],
-            "accepted_umpires": [
-              "Lane Vanden Ouweland"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "past"
-          },
-          {
-            "date": "2026-06-07",
-            "time": "1:00 PM",
-            "opponent": "North London Nationals",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "Lane Vanden Ouweland"
-            ],
-            "accepted_umpires": [
-              "Lane Vanden Ouweland"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "past"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-05-31",
-            "issue_timing": "past",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "Jonas Winklmeier | Rylie Bunda",
-              "Rylie Bunda | Will Garton"
-            ],
-            "mismatched_names": [
-              "Jonas Winklmeier",
-              "Will Garton"
-            ],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [
-                  "Rylie Bunda",
-                  "Will Garton"
-                ],
-                "accepted_umpires": [
-                  "Rylie Bunda",
-                  "Will Garton"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [
-                  "Jonas Winklmeier",
-                  "Rylie Bunda"
-                ],
-                "accepted_umpires": [
-                  "Jonas Winklmeier",
-                  "Rylie Bunda"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-06-07",
-            "issue_timing": "past",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "North London Nationals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [
-                  "Lane Vanden Ouweland"
-                ],
-                "accepted_umpires": [
-                  "Lane Vanden Ouweland"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 1,
-                "accepted_count": 1,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "North London Nationals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [
-                  "Lane Vanden Ouweland"
-                ],
-                "accepted_umpires": [
-                  "Lane Vanden Ouweland"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 1,
-                "accepted_count": 1,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-07-12",
-            "issue_timing": "past",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "Cohen Smith | Juan Peralta",
-              "Juan Peralta | Liam Scott"
-            ],
-            "mismatched_names": [
-              "Cohen Smith",
-              "Liam Scott"
-            ],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "London West Tincaps",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [
-                  "Juan Peralta",
-                  "Liam Scott"
-                ],
-                "accepted_umpires": [
-                  "Juan Peralta",
-                  "Liam Scott"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "London West Tincaps",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [
-                  "Cohen Smith",
-                  "Juan Peralta"
-                ],
-                "accepted_umpires": [
-                  "Cohen Smith",
-                  "Juan Peralta"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7559.7,
       "equipment_cost": 1135.0,
@@ -2069,79 +1872,61 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 1,
+        "games_missed": 0,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 1,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-08-05",
-            "time": "6:00 PM",
-            "opponent": "London Talons",
-            "venue": "Clearwater Diamond #1",
-            "assigned_umpires": [
-              "Axl Taylor"
-            ],
-            "accepted_umpires": [
-              "Axl Taylor"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "past"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": [
           {
-            "date": "2026-07-04",
+            "date": "2026-06-27",
             "issue_timing": "past",
-            "incomplete_assignment": false,
+            "incomplete_assignment": true,
             "pair_signatures": [
-              "Cohen Smith | Tucker Stokes",
-              "Cohen Smith | Zhayn Trowbridge"
+              "Hayden Scheuermann | Zhayn Trowbridge"
             ],
             "mismatched_names": [
-              "Tucker Stokes",
-              "Zhayn Trowbridge"
+              "Jason Lajeunesse",
+              "Tristan Heeringa"
             ],
             "games": [
               {
-                "time": "10:00 AM",
-                "opponent": "St. Thomas Cardinals",
+                "time": "11:00 AM",
+                "opponent": "Lasalle Turtle Club",
                 "venue": "Clearwater Diamond #1",
                 "assigned_umpires": [
-                  "Cohen Smith",
+                  "Hayden Scheuermann",
+                  "Jason Lajeunesse",
+                  "Tristan Heeringa",
                   "Zhayn Trowbridge"
                 ],
                 "accepted_umpires": [
-                  "Cohen Smith",
+                  "Hayden Scheuermann",
+                  "Jason Lajeunesse",
+                  "Tristan Heeringa",
                   "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
+                "assigned_count": 4,
+                "accepted_count": 4,
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
               },
               {
-                "time": "1:00 PM",
-                "opponent": "St. Thomas Cardinals",
+                "time": "2:00 PM",
+                "opponent": "Lasalle Turtle Club",
                 "venue": "Clearwater Diamond #1",
                 "assigned_umpires": [
-                  "Cohen Smith",
-                  "Tucker Stokes"
+                  "Hayden Scheuermann",
+                  "Zhayn Trowbridge"
                 ],
                 "accepted_umpires": [
-                  "Cohen Smith",
-                  "Tucker Stokes"
+                  "Hayden Scheuermann",
+                  "Zhayn Trowbridge"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
@@ -3337,7 +3122,7 @@
       "umpire_issues": {
         "games_missed": 3,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 6,
+        "doubleheader_mismatch": 5,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
@@ -3401,373 +3186,6 @@
         ],
         "doubleheader_mismatch_details": [
           {
-            "date": "2026-04-25",
-            "issue_timing": "past",
-            "incomplete_assignment": true,
-            "pair_signatures": [],
-            "mismatched_names": [
-              "Alexander Pfaff",
-              "Annette Hoggarth",
-              "Axl Taylor",
-              "BProzorowicz",
-              "Bentley Bartosz",
-              "Bentley Daughtrey",
-              "Blake Adams",
-              "Brayden Jaques",
-              "Brian Mundt",
-              "Brock Lane",
-              "Brogan Murphy",
-              "Cali Vanderslagt",
-              "Cambria Caissie",
-              "Carson Whittington",
-              "Carter Palmer",
-              "Carter Wills",
-              "Chris Bonneau",
-              "Clark Thornton",
-              "Cohen Smith",
-              "Colby Sheffer",
-              "Cruz Marinaro",
-              "Dan Scott",
-              "David Haasen",
-              "Dawson O'Brien",
-              "Derek Bayly",
-              "Doug Krall",
-              "Drew Bennett",
-              "Easton McKinlay",
-              "Ethan Antle",
-              "Ethan Carlton",
-              "Gage Boyd",
-              "Grady Boyd",
-              "Graham Dolbear",
-              "Grant Purdy",
-              "Greg Armstrong",
-              "Greg Baker",
-              "Hannah Stewart",
-              "Hayden Scheuermann",
-              "Hunter Wolting",
-              "Jack Needham",
-              "Jackson Bunda",
-              "Jackson Burlingham",
-              "Jacob Dawson",
-              "Jakob Rodriguez",
-              "Jarett Simons",
-              "Jason Lajeunesse",
-              "Jaxon Jacobs",
-              "Joey Buchner",
-              "Jonas Winklmeier",
-              "Juan Peralta",
-              "Justin Vanhorn",
-              "Kassie Buchan",
-              "Katrina Cadotte",
-              "Kayleigh Buchan",
-              "Kayne Golder",
-              "Kevin Johnson",
-              "Kirk Vines",
-              "Kye Golder",
-              "Kylee Salisbury",
-              "LWalls",
-              "Lane Vanden Ouweland",
-              "Lawrence Dyck",
-              "Levi Burlingham",
-              "Liam Scott",
-              "Logan Conroy",
-              "Logan Hiscocks",
-              "Lucas Barker",
-              "Lucas Nethery",
-              "Marko Sazdov",
-              "Mason Harper",
-              "Matt Kennett",
-              "Matthew Schrie",
-              "Max Avery",
-              "Max McClintock",
-              "Max Taylor",
-              "Mikayla Coubroug",
-              "Mike Moorhouse",
-              "Myles Hobbs",
-              "Noah Bechard",
-              "Nolan Bogaert",
-              "Nolan Pool",
-              "Paolo Padiglia",
-              "Parker Leighton",
-              "Penny Core",
-              "Ronnie Atyeo",
-              "Ryan Ross",
-              "Ryder Daye",
-              "Ryerson Nead",
-              "Rylie Bunda",
-              "Sadie Daughtrey",
-              "Sean Baxter",
-              "Shane Moorhouse",
-              "Sophia Kennedy",
-              "Steve McGrail",
-              "Summer Steinke",
-              "Sydney Nisbet",
-              "Terry Doyle",
-              "Tie Richards",
-              "Tristan Heeringa",
-              "Tucker Stokes",
-              "Tyler Hoadley",
-              "Tyler Vandenberg",
-              "Tyler Whetham",
-              "Wiishkpimin Macbeth",
-              "Will Garton",
-              "William MacKenzie",
-              "Zhayn Trowbridge"
-            ],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "10UA OBA REP",
-                "venue": "Clearwater Diamond #2",
-                "assigned_umpires": [
-                  "Alexander Pfaff",
-                  "Annette Hoggarth",
-                  "Axl Taylor",
-                  "BProzorowicz",
-                  "Bentley Bartosz",
-                  "Bentley Daughtrey",
-                  "Blake Adams",
-                  "Brayden Jaques",
-                  "Brian Mundt",
-                  "Brock Lane",
-                  "Brogan Murphy",
-                  "Cali Vanderslagt",
-                  "Cambria Caissie",
-                  "Carson Whittington",
-                  "Carter Palmer",
-                  "Carter Wills",
-                  "Chris Bonneau",
-                  "Clark Thornton",
-                  "Cohen Smith",
-                  "Colby Sheffer",
-                  "Cruz Marinaro",
-                  "Dan Scott",
-                  "David Haasen",
-                  "Dawson O'Brien",
-                  "Derek Bayly",
-                  "Doug Krall",
-                  "Drew Bennett",
-                  "Easton McKinlay",
-                  "Ethan Antle",
-                  "Ethan Carlton",
-                  "Gage Boyd",
-                  "Grady Boyd",
-                  "Graham Dolbear",
-                  "Grant Purdy",
-                  "Greg Armstrong",
-                  "Greg Baker",
-                  "Hannah Stewart",
-                  "Hayden Scheuermann",
-                  "Hunter Wolting",
-                  "Jack Needham",
-                  "Jackson Bunda",
-                  "Jackson Burlingham",
-                  "Jacob Dawson",
-                  "Jakob Rodriguez",
-                  "Jarett Simons",
-                  "Jason Lajeunesse",
-                  "Jaxon Jacobs",
-                  "Joey Buchner",
-                  "Jonas Winklmeier",
-                  "Juan Peralta",
-                  "Justin Vanhorn",
-                  "Kassie Buchan",
-                  "Katrina Cadotte",
-                  "Kayleigh Buchan",
-                  "Kayne Golder",
-                  "Kevin Johnson",
-                  "Kirk Vines",
-                  "Kye Golder",
-                  "Kylee Salisbury",
-                  "LWalls",
-                  "Lane Vanden Ouweland",
-                  "Lawrence Dyck",
-                  "Levi Burlingham",
-                  "Liam Scott",
-                  "Logan Conroy",
-                  "Logan Hiscocks",
-                  "Lucas Barker",
-                  "Lucas Nethery",
-                  "Marko Sazdov",
-                  "Mason Harper",
-                  "Matt Kennett",
-                  "Matthew Schrie",
-                  "Max Avery",
-                  "Max McClintock",
-                  "Max Taylor",
-                  "Mikayla Coubroug",
-                  "Mike Moorhouse",
-                  "Myles Hobbs",
-                  "Noah Bechard",
-                  "Nolan Bogaert",
-                  "Nolan Pool",
-                  "Paolo Padiglia",
-                  "Parker Leighton",
-                  "Penny Core",
-                  "Ralph Campbell",
-                  "Ronnie Atyeo",
-                  "Ryan Ross",
-                  "Ryder Daye",
-                  "Ryerson Nead",
-                  "Rylie Bunda",
-                  "Sadie Daughtrey",
-                  "Sean Baxter",
-                  "Shane Moorhouse",
-                  "Sophia Kennedy",
-                  "Steve McGrail",
-                  "Summer Steinke",
-                  "Sydney Nisbet",
-                  "Terry Doyle",
-                  "Tie Richards",
-                  "Tristan Heeringa",
-                  "Tucker Stokes",
-                  "Tyler Hoadley",
-                  "Tyler Vandenberg",
-                  "Tyler Whetham",
-                  "Wiishkpimin Macbeth",
-                  "Will Garton",
-                  "William MacKenzie",
-                  "Zhayn Trowbridge"
-                ],
-                "accepted_umpires": [
-                  "Alexander Pfaff",
-                  "Annette Hoggarth",
-                  "Axl Taylor",
-                  "BProzorowicz",
-                  "Bentley Bartosz",
-                  "Bentley Daughtrey",
-                  "Blake Adams",
-                  "Brayden Jaques",
-                  "Brian Mundt",
-                  "Brock Lane",
-                  "Brogan Murphy",
-                  "Cali Vanderslagt",
-                  "Cambria Caissie",
-                  "Carson Whittington",
-                  "Carter Palmer",
-                  "Carter Wills",
-                  "Chris Bonneau",
-                  "Clark Thornton",
-                  "Cohen Smith",
-                  "Colby Sheffer",
-                  "Cruz Marinaro",
-                  "Dan Scott",
-                  "David Haasen",
-                  "Dawson O'Brien",
-                  "Derek Bayly",
-                  "Doug Krall",
-                  "Drew Bennett",
-                  "Easton McKinlay",
-                  "Ethan Antle",
-                  "Ethan Carlton",
-                  "Gage Boyd",
-                  "Grady Boyd",
-                  "Graham Dolbear",
-                  "Grant Purdy",
-                  "Greg Armstrong",
-                  "Greg Baker",
-                  "Hannah Stewart",
-                  "Hayden Scheuermann",
-                  "Hunter Wolting",
-                  "Jack Needham",
-                  "Jackson Bunda",
-                  "Jackson Burlingham",
-                  "Jacob Dawson",
-                  "Jakob Rodriguez",
-                  "Jarett Simons",
-                  "Jason Lajeunesse",
-                  "Jaxon Jacobs",
-                  "Joey Buchner",
-                  "Jonas Winklmeier",
-                  "Juan Peralta",
-                  "Justin Vanhorn",
-                  "Kassie Buchan",
-                  "Katrina Cadotte",
-                  "Kayleigh Buchan",
-                  "Kayne Golder",
-                  "Kevin Johnson",
-                  "Kirk Vines",
-                  "Kye Golder",
-                  "Kylee Salisbury",
-                  "LWalls",
-                  "Lane Vanden Ouweland",
-                  "Lawrence Dyck",
-                  "Levi Burlingham",
-                  "Liam Scott",
-                  "Logan Conroy",
-                  "Logan Hiscocks",
-                  "Lucas Barker",
-                  "Lucas Nethery",
-                  "Marko Sazdov",
-                  "Mason Harper",
-                  "Matt Kennett",
-                  "Matthew Schrie",
-                  "Max Avery",
-                  "Max McClintock",
-                  "Max Taylor",
-                  "Mikayla Coubroug",
-                  "Mike Moorhouse",
-                  "Myles Hobbs",
-                  "Noah Bechard",
-                  "Nolan Bogaert",
-                  "Nolan Pool",
-                  "Paolo Padiglia",
-                  "Parker Leighton",
-                  "Penny Core",
-                  "Ralph Campbell",
-                  "Ronnie Atyeo",
-                  "Ryan Ross",
-                  "Ryder Daye",
-                  "Ryerson Nead",
-                  "Rylie Bunda",
-                  "Sadie Daughtrey",
-                  "Sean Baxter",
-                  "Shane Moorhouse",
-                  "Sophia Kennedy",
-                  "Steve McGrail",
-                  "Summer Steinke",
-                  "Sydney Nisbet",
-                  "Terry Doyle",
-                  "Tie Richards",
-                  "Tristan Heeringa",
-                  "Tucker Stokes",
-                  "Tyler Hoadley",
-                  "Tyler Vandenberg",
-                  "Tyler Whetham",
-                  "Wiishkpimin Macbeth",
-                  "Will Garton",
-                  "William MacKenzie",
-                  "Zhayn Trowbridge"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 108,
-                "accepted_count": 108,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "10:00 AM",
-                "opponent": "10UA OBA REP",
-                "venue": "Clearwater Diamond #2",
-                "assigned_umpires": [
-                  "Ralph Campbell"
-                ],
-                "accepted_umpires": [
-                  "Ralph Campbell"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 1,
-                "accepted_count": 1,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
             "date": "2026-05-09",
             "issue_timing": "past",
             "incomplete_assignment": true,
@@ -3821,14 +3239,15 @@
           {
             "date": "2026-07-11",
             "issue_timing": "past",
-            "incomplete_assignment": false,
+            "incomplete_assignment": true,
             "pair_signatures": [
-              "Kye Golder | Tucker Stokes",
               "Tie Richards | Tucker Stokes"
             ],
             "mismatched_names": [
               "Kye Golder",
-              "Tie Richards"
+              "Sean Baxter",
+              "Tie Richards",
+              "William MacKenzie"
             ],
             "games": [
               {
@@ -3837,16 +3256,20 @@
                 "venue": "Clearwater Diamond #2",
                 "assigned_umpires": [
                   "Kye Golder",
-                  "Tucker Stokes"
+                  "Sean Baxter",
+                  "Tucker Stokes",
+                  "William MacKenzie"
                 ],
                 "accepted_umpires": [
                   "Kye Golder",
-                  "Tucker Stokes"
+                  "Sean Baxter",
+                  "Tucker Stokes",
+                  "William MacKenzie"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
+                "assigned_count": 4,
+                "accepted_count": 4,
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
@@ -3931,13 +3354,14 @@
           {
             "date": "2026-07-19",
             "issue_timing": "past",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "Easton McKinlay | Juan Peralta",
-              "Easton McKinlay | Ralph Campbell"
-            ],
+            "incomplete_assignment": true,
+            "pair_signatures": [],
             "mismatched_names": [
+              "Brogan Murphy",
+              "Carson Whittington",
+              "Jason Lajeunesse",
               "Juan Peralta",
+              "Kirk Vines",
               "Ralph Campbell"
             ],
             "games": [
@@ -3947,16 +3371,20 @@
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
                   "Easton McKinlay",
-                  "Juan Peralta"
+                  "Jason Lajeunesse",
+                  "Juan Peralta",
+                  "Kirk Vines"
                 ],
                 "accepted_umpires": [
                   "Easton McKinlay",
-                  "Juan Peralta"
+                  "Jason Lajeunesse",
+                  "Juan Peralta",
+                  "Kirk Vines"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
+                "assigned_count": 4,
+                "accepted_count": 4,
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
@@ -3966,17 +3394,21 @@
                 "opponent": "Windsor Stars",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
+                  "Brogan Murphy",
+                  "Carson Whittington",
                   "Easton McKinlay",
                   "Ralph Campbell"
                 ],
                 "accepted_umpires": [
+                  "Brogan Murphy",
+                  "Carson Whittington",
                   "Easton McKinlay",
                   "Ralph Campbell"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
+                "assigned_count": 4,
+                "accepted_count": 4,
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
@@ -5182,68 +4614,12 @@
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 1,
+        "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-05-31",
-            "issue_timing": "past",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "Axl Taylor | Summer Steinke",
-              "Juan Peralta | Summer Steinke"
-            ],
-            "mismatched_names": [
-              "Axl Taylor",
-              "Juan Peralta"
-            ],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "North London Nationals",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Juan Peralta",
-                  "Summer Steinke"
-                ],
-                "accepted_umpires": [
-                  "Juan Peralta",
-                  "Summer Steinke"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "North London Nationals",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Axl Taylor",
-                  "Summer Steinke"
-                ],
-                "accepted_umpires": [
-                  "Axl Taylor",
-                  "Summer Steinke"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7648.97,
       "equipment_cost": 1135.0,
@@ -6449,217 +5825,14 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 2,
+        "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 3,
+        "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-05-17",
-            "time": "4:00 PM",
-            "opponent": "10U AA OBA Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "accepted_umpires": [
-              "Jason Lajeunesse"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "past"
-          },
-          {
-            "date": "2026-08-04",
-            "time": "6:00 PM",
-            "opponent": "Mitchell Astros Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "past"
-          }
-        ],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-06-13",
-            "issue_timing": "past",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "Clark Thornton | Jackson Bunda",
-              "Jackson Bunda | Rylie Bunda"
-            ],
-            "mismatched_names": [
-              "Clark Thornton",
-              "Rylie Bunda"
-            ],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "DKMB River Cats",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Jackson Bunda",
-                  "Rylie Bunda"
-                ],
-                "accepted_umpires": [
-                  "Jackson Bunda",
-                  "Rylie Bunda"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "DKMB River Cats",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Clark Thornton",
-                  "Jackson Bunda"
-                ],
-                "accepted_umpires": [
-                  "Clark Thornton",
-                  "Jackson Bunda"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-07-04",
-            "issue_timing": "past",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "Jakob Rodriguez | Max McClintock",
-              "Jakob Rodriguez | Paolo Padiglia"
-            ],
-            "mismatched_names": [
-              "Max McClintock",
-              "Paolo Padiglia"
-            ],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "London Badgers 10u",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Jakob Rodriguez",
-                  "Max McClintock"
-                ],
-                "accepted_umpires": [
-                  "Jakob Rodriguez",
-                  "Max McClintock"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "London Badgers 10u",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Jakob Rodriguez",
-                  "Paolo Padiglia"
-                ],
-                "accepted_umpires": [
-                  "Jakob Rodriguez",
-                  "Paolo Padiglia"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-07-11",
-            "issue_timing": "past",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "Juan Peralta | Ralph Campbell",
-              "Ralph Campbell | Will Garton"
-            ],
-            "mismatched_names": [
-              "Juan Peralta",
-              "Will Garton"
-            ],
-            "games": [
-              {
-                "time": "4:00 PM",
-                "opponent": "London West Tincaps",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Juan Peralta",
-                  "Ralph Campbell"
-                ],
-                "accepted_umpires": [
-                  "Juan Peralta",
-                  "Ralph Campbell"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "6:30 PM",
-                "opponent": "London West Tincaps",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "Ralph Campbell",
-                  "Will Garton"
-                ],
-                "accepted_umpires": [
-                  "Ralph Campbell",
-                  "Will Garton"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "games_missed_details": [],
+        "doubleheader_mismatch_details": []
       },
       "uniform_cost": 7233.13,
       "equipment_cost": 1135.0,
@@ -7543,7 +6716,7 @@
       "umpire_issues": {
         "games_missed": 1,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 2,
+        "doubleheader_mismatch": 3,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
@@ -7567,29 +6740,28 @@
         ],
         "doubleheader_mismatch_details": [
           {
-            "date": "2026-06-07",
+            "date": "2026-05-24",
             "issue_timing": "past",
-            "incomplete_assignment": false,
+            "incomplete_assignment": true,
             "pair_signatures": [
-              "Brogan Murphy | Summer Steinke",
-              "Carter Wills | Summer Steinke"
+              "Colby Sheffer | Nolan Pool"
             ],
             "mismatched_names": [
-              "Brogan Murphy",
-              "Carter Wills"
+              "Jarett Simons",
+              "Logan Hiscocks"
             ],
             "games": [
               {
-                "time": "10:00 AM",
-                "opponent": "North London Nationals",
+                "time": "10:45 AM",
+                "opponent": "Windsor Windsor Nationals",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
-                  "Brogan Murphy",
-                  "Summer Steinke"
+                  "Colby Sheffer",
+                  "Nolan Pool"
                 ],
                 "accepted_umpires": [
-                  "Brogan Murphy",
-                  "Summer Steinke"
+                  "Colby Sheffer",
+                  "Nolan Pool"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
@@ -7601,20 +6773,81 @@
               },
               {
                 "time": "1:00 PM",
-                "opponent": "North London Nationals",
+                "opponent": "Windsor Windsor Nationals",
                 "venue": "Tecumseh Park",
                 "assigned_umpires": [
-                  "Carter Wills",
+                  "Colby Sheffer",
+                  "Jarett Simons",
+                  "Logan Hiscocks",
+                  "Nolan Pool"
+                ],
+                "accepted_umpires": [
+                  "Colby Sheffer",
+                  "Jarett Simons",
+                  "Logan Hiscocks",
+                  "Nolan Pool"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 4,
+                "accepted_count": 4,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-06-21",
+            "issue_timing": "past",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "Lasalle Turtle Club",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Jackson Bunda",
+                  "Juan Peralta",
+                  "Ryder Daye",
                   "Summer Steinke"
                 ],
                 "accepted_umpires": [
-                  "Carter Wills",
+                  "Jackson Bunda",
+                  "Juan Peralta",
+                  "Ryder Daye",
                   "Summer Steinke"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
+                "assigned_count": 4,
+                "accepted_count": 4,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "12:30 PM",
+                "opponent": "Lasalle Turtle Club",
+                "venue": "Tecumseh Park",
+                "assigned_umpires": [
+                  "Jackson Bunda",
+                  "Juan Peralta",
+                  "Ryder Daye",
+                  "Summer Steinke"
+                ],
+                "accepted_umpires": [
+                  "Jackson Bunda",
+                  "Juan Peralta",
+                  "Ryder Daye",
+                  "Summer Steinke"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 4,
+                "accepted_count": 4,
                 "pending_count": 0,
                 "denied_count": 0,
                 "assignment_state": "assigned_and_accepted"
@@ -8870,86 +8103,14 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 1,
+        "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 3,
+        "doubleheader_mismatch": 2,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-08-06",
-            "time": "6:00 PM",
-            "opponent": "Exeter Express 13u Rep",
-            "venue": "Tecumseh Park",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "past"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": [
-          {
-            "date": "2026-08-13",
-            "issue_timing": "past",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "David Haasen | Paolo Padiglia",
-              "David Haasen | Summer Steinke"
-            ],
-            "mismatched_names": [
-              "Paolo Padiglia",
-              "Summer Steinke"
-            ],
-            "games": [
-              {
-                "time": "6:00 PM",
-                "opponent": "London West Tincaps",
-                "venue": "Tecumseh Park",
-                "assigned_umpires": [
-                  "David Haasen",
-                  "Paolo Padiglia"
-                ],
-                "accepted_umpires": [
-                  "David Haasen",
-                  "Paolo Padiglia"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "8:30 PM",
-                "opponent": "DKMB River Cats",
-                "venue": "Germain Diamond #2",
-                "assigned_umpires": [
-                  "David Haasen",
-                  "Summer Steinke"
-                ],
-                "accepted_umpires": [
-                  "David Haasen",
-                  "Summer Steinke"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
           {
             "date": "2026-08-22",
             "issue_timing": "past",
@@ -10662,7 +9823,7 @@
       "umpire_issues": {
         "games_missed": 2,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 1,
+        "doubleheader_mismatch": 3,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
@@ -10701,6 +9862,138 @@
           }
         ],
         "doubleheader_mismatch_details": [
+          {
+            "date": "2026-05-29",
+            "issue_timing": "past",
+            "incomplete_assignment": true,
+            "pair_signatures": [],
+            "mismatched_names": [
+              "Axl Taylor",
+              "Lane Vanden Ouweland",
+              "Logan Hiscocks",
+              "Marko Sazdov",
+              "Nolan Bogaert",
+              "Paolo Padiglia"
+            ],
+            "games": [
+              {
+                "time": "6:00 PM",
+                "opponent": "Bearcats 14U Jeff",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Axl Taylor",
+                  "Dan Scott",
+                  "Jason Lajeunesse",
+                  "Lane Vanden Ouweland",
+                  "Marko Sazdov",
+                  "Paolo Padiglia"
+                ],
+                "accepted_umpires": [
+                  "Axl Taylor",
+                  "Dan Scott",
+                  "Jason Lajeunesse",
+                  "Lane Vanden Ouweland",
+                  "Marko Sazdov",
+                  "Paolo Padiglia"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 6,
+                "accepted_count": 6,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "8:30 PM",
+                "opponent": "Bearcats 14U Jeff",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Dan Scott",
+                  "Jason Lajeunesse",
+                  "Logan Hiscocks",
+                  "Nolan Bogaert"
+                ],
+                "accepted_umpires": [
+                  "Dan Scott",
+                  "Jason Lajeunesse",
+                  "Logan Hiscocks",
+                  "Nolan Bogaert"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 4,
+                "accepted_count": 4,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-07-26",
+            "issue_timing": "past",
+            "incomplete_assignment": true,
+            "pair_signatures": [
+              "Jarett Simons | Ralph Campbell"
+            ],
+            "mismatched_names": [
+              "Easton McKinlay",
+              "Hayden Scheuermann",
+              "Juan Peralta",
+              "Max McClintock"
+            ],
+            "games": [
+              {
+                "time": "10:00 AM",
+                "opponent": "Riverside Royals",
+                "venue": "Canton Park",
+                "assigned_umpires": [
+                  "Easton McKinlay",
+                  "Hayden Scheuermann",
+                  "Jarett Simons",
+                  "Juan Peralta",
+                  "Max McClintock",
+                  "Ralph Campbell"
+                ],
+                "accepted_umpires": [
+                  "Easton McKinlay",
+                  "Hayden Scheuermann",
+                  "Jarett Simons",
+                  "Juan Peralta",
+                  "Max McClintock",
+                  "Ralph Campbell"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 6,
+                "accepted_count": 6,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "12:30 PM",
+                "opponent": "Riverside Royals",
+                "venue": "Canton Park",
+                "assigned_umpires": [
+                  "Jarett Simons",
+                  "Ralph Campbell"
+                ],
+                "accepted_umpires": [
+                  "Jarett Simons",
+                  "Ralph Campbell"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
           {
             "date": "2026-08-15",
             "issue_timing": "past",
@@ -12004,123 +11297,12 @@
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 2,
+        "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-07-18",
-            "issue_timing": "past",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "Jason Lajeunesse | Kirk Vines",
-              "Kirk Vines | Paolo Padiglia"
-            ],
-            "mismatched_names": [
-              "Jason Lajeunesse",
-              "Paolo Padiglia"
-            ],
-            "games": [
-              {
-                "time": "11:00 AM",
-                "opponent": "Mitchell Astros Rep",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Jason Lajeunesse",
-                  "Kirk Vines"
-                ],
-                "accepted_umpires": [
-                  "Jason Lajeunesse",
-                  "Kirk Vines"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:30 PM",
-                "opponent": "Tillsonburg Otters",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Kirk Vines",
-                  "Paolo Padiglia"
-                ],
-                "accepted_umpires": [
-                  "Kirk Vines",
-                  "Paolo Padiglia"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-07-23",
-            "issue_timing": "past",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "David Haasen | Kirk Vines",
-              "David Haasen | Mike Moorhouse"
-            ],
-            "mismatched_names": [
-              "Kirk Vines",
-              "Mike Moorhouse"
-            ],
-            "games": [
-              {
-                "time": "6:00 PM",
-                "opponent": "North London Nationals",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "David Haasen",
-                  "Kirk Vines"
-                ],
-                "accepted_umpires": [
-                  "David Haasen",
-                  "Kirk Vines"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "8:30 PM",
-                "opponent": "North London Nationals",
-                "venue": "Blackwell Park",
-                "assigned_umpires": [
-                  "David Haasen",
-                  "Mike Moorhouse"
-                ],
-                "accepted_umpires": [
-                  "David Haasen",
-                  "Mike Moorhouse"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_details": []
       },
       "uniform_cost": 8098.71,
       "equipment_cost": 1135.0,
@@ -12806,123 +11988,12 @@
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 2,
+        "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-05-24",
-            "issue_timing": "past",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "Jakob Rodriguez | Jarett Simons",
-              "Jarett Simons | Logan Hiscocks"
-            ],
-            "mismatched_names": [
-              "Jakob Rodriguez",
-              "Logan Hiscocks"
-            ],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [
-                  "Jakob Rodriguez",
-                  "Jarett Simons"
-                ],
-                "accepted_umpires": [
-                  "Jakob Rodriguez",
-                  "Jarett Simons"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "St. Thomas Cardinals",
-                "venue": "Clearwater Diamond #1",
-                "assigned_umpires": [
-                  "Jarett Simons",
-                  "Logan Hiscocks"
-                ],
-                "accepted_umpires": [
-                  "Jarett Simons",
-                  "Logan Hiscocks"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          },
-          {
-            "date": "2026-08-15",
-            "issue_timing": "past",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "Jackson Burlingham | Logan Hiscocks",
-              "Logan Hiscocks | Mason Harper"
-            ],
-            "mismatched_names": [
-              "Jackson Burlingham",
-              "Mason Harper"
-            ],
-            "games": [
-              {
-                "time": "10:00 AM",
-                "opponent": "Southwest London Scorpions",
-                "venue": "Clearwater Diamond #2",
-                "assigned_umpires": [
-                  "Jackson Burlingham",
-                  "Logan Hiscocks"
-                ],
-                "accepted_umpires": [
-                  "Jackson Burlingham",
-                  "Logan Hiscocks"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "1:00 PM",
-                "opponent": "Southwest London Scorpions",
-                "venue": "Clearwater Diamond #2",
-                "assigned_umpires": [
-                  "Logan Hiscocks",
-                  "Mason Harper"
-                ],
-                "accepted_umpires": [
-                  "Logan Hiscocks",
-                  "Mason Harper"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_details": []
       },
       "uniform_cost": 5051.0,
       "equipment_cost": 1035.0,
@@ -15218,68 +14289,12 @@
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 1,
+        "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
         "games_missed_details": [],
-        "doubleheader_mismatch_details": [
-          {
-            "date": "2026-06-19",
-            "issue_timing": "past",
-            "incomplete_assignment": false,
-            "pair_signatures": [
-              "David Haasen | Jason Lajeunesse",
-              "Jackson Burlingham | Jason Lajeunesse"
-            ],
-            "mismatched_names": [
-              "David Haasen",
-              "Jackson Burlingham"
-            ],
-            "games": [
-              {
-                "time": "6:00 PM",
-                "opponent": "Dorchester Diamondbacks",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "Jackson Burlingham",
-                  "Jason Lajeunesse"
-                ],
-                "accepted_umpires": [
-                  "Jackson Burlingham",
-                  "Jason Lajeunesse"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              },
-              {
-                "time": "9:00 PM",
-                "opponent": "Dorchester Diamondbacks",
-                "venue": "Errol Russell Park",
-                "assigned_umpires": [
-                  "David Haasen",
-                  "Jason Lajeunesse"
-                ],
-                "accepted_umpires": [
-                  "David Haasen",
-                  "Jason Lajeunesse"
-                ],
-                "pending_umpires": [],
-                "denied_umpires": [],
-                "assigned_count": 2,
-                "accepted_count": 2,
-                "pending_count": 0,
-                "denied_count": 0,
-                "assignment_state": "assigned_and_accepted"
-              }
-            ]
-          }
-        ]
+        "doubleheader_mismatch_details": []
       },
       "uniform_cost": 5621.75,
       "equipment_cost": 1035.0,
@@ -15927,50 +14942,13 @@
         }
       ],
       "umpire_issues": {
-        "games_missed": 2,
+        "games_missed": 0,
         "games_missed_upcoming": 0,
         "doubleheader_mismatch": 0,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
-        "games_missed_details": [
-          {
-            "date": "2026-06-15",
-            "time": "6:00 PM",
-            "opponent": "Wyoming Wranglers Red",
-            "venue": "Blackwell North",
-            "assigned_umpires": [],
-            "accepted_umpires": [],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 0,
-            "accepted_count": 0,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "no_officials_assigned",
-            "issue_timing": "past"
-          },
-          {
-            "date": "2026-07-06",
-            "time": "6:00 PM",
-            "opponent": "Corunna Giants Team 2",
-            "venue": "Blackwell North",
-            "assigned_umpires": [
-              "Mikayla Coubroug"
-            ],
-            "accepted_umpires": [
-              "Mikayla Coubroug"
-            ],
-            "pending_umpires": [],
-            "denied_umpires": [],
-            "assigned_count": 1,
-            "accepted_count": 1,
-            "pending_count": 0,
-            "denied_count": 0,
-            "assignment_state": "assigned_and_accepted",
-            "issue_timing": "past"
-          }
-        ],
+        "games_missed_details": [],
         "doubleheader_mismatch_details": []
       },
       "uniform_cost": 2000.0,
@@ -18894,7 +17872,7 @@
       "umpire_issues": {
         "games_missed": 0,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 1,
+        "doubleheader_mismatch": 3,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
@@ -18944,6 +17922,122 @@
                 "accepted_umpires": [
                   "Greg Baker",
                   "Tyler Whetham"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-08-14",
+            "issue_timing": "past",
+            "incomplete_assignment": true,
+            "pair_signatures": [
+              "Kirk Vines | Mike Moorhouse"
+            ],
+            "mismatched_names": [
+              "Drew Bennett",
+              "Shane Moorhouse"
+            ],
+            "games": [
+              {
+                "time": "6:00 PM",
+                "opponent": "Chatham Major Diamonds",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Drew Bennett",
+                  "Kirk Vines",
+                  "Mike Moorhouse",
+                  "Shane Moorhouse"
+                ],
+                "accepted_umpires": [
+                  "Drew Bennett",
+                  "Kirk Vines",
+                  "Mike Moorhouse",
+                  "Shane Moorhouse"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 4,
+                "accepted_count": 4,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "8:30 PM",
+                "opponent": "Chatham",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Kirk Vines",
+                  "Mike Moorhouse"
+                ],
+                "accepted_umpires": [
+                  "Kirk Vines",
+                  "Mike Moorhouse"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-08-15",
+            "issue_timing": "past",
+            "incomplete_assignment": true,
+            "pair_signatures": [
+              "Hayden Scheuermann | Mike Moorhouse"
+            ],
+            "mismatched_names": [
+              "Drew Bennett",
+              "Jonas Winklmeier"
+            ],
+            "games": [
+              {
+                "time": "11:00 AM",
+                "opponent": "Sarnia Brigade 14u",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Drew Bennett",
+                  "Hayden Scheuermann",
+                  "Jonas Winklmeier",
+                  "Mike Moorhouse"
+                ],
+                "accepted_umpires": [
+                  "Drew Bennett",
+                  "Hayden Scheuermann",
+                  "Jonas Winklmeier",
+                  "Mike Moorhouse"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 4,
+                "accepted_count": 4,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "1:30 PM",
+                "opponent": "Sarnia Brigade 14u",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Hayden Scheuermann",
+                  "Mike Moorhouse"
+                ],
+                "accepted_umpires": [
+                  "Hayden Scheuermann",
+                  "Mike Moorhouse"
                 ],
                 "pending_umpires": [],
                 "denied_umpires": [],
@@ -19413,7 +18507,7 @@
       "umpire_issues": {
         "games_missed": 2,
         "games_missed_upcoming": 0,
-        "doubleheader_mismatch": 0,
+        "doubleheader_mismatch": 2,
         "doubleheader_mismatch_upcoming": 0,
         "data_available": true,
         "unavailable_reason": "",
@@ -19451,7 +18545,124 @@
             "issue_timing": "past"
           }
         ],
-        "doubleheader_mismatch_details": []
+        "doubleheader_mismatch_details": [
+          {
+            "date": "2026-05-31",
+            "issue_timing": "past",
+            "incomplete_assignment": true,
+            "pair_signatures": [
+              "Annette Hoggarth | Lawrence Dyck"
+            ],
+            "mismatched_names": [
+              "Juan Peralta",
+              "Summer Steinke"
+            ],
+            "games": [
+              {
+                "time": "12:00 PM",
+                "opponent": "Waterloo",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Annette Hoggarth",
+                  "Lawrence Dyck"
+                ],
+                "accepted_umpires": [
+                  "Annette Hoggarth",
+                  "Lawrence Dyck"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "2:30 PM",
+                "opponent": "Waterloo",
+                "venue": "Errol Russell Park",
+                "assigned_umpires": [
+                  "Annette Hoggarth",
+                  "Juan Peralta",
+                  "Lawrence Dyck",
+                  "Summer Steinke"
+                ],
+                "accepted_umpires": [
+                  "Annette Hoggarth",
+                  "Juan Peralta",
+                  "Lawrence Dyck",
+                  "Summer Steinke"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 4,
+                "accepted_count": 4,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          },
+          {
+            "date": "2026-06-27",
+            "issue_timing": "past",
+            "incomplete_assignment": true,
+            "pair_signatures": [
+              "Brock Lane | Lawrence Dyck"
+            ],
+            "mismatched_names": [
+              "Jason Lajeunesse",
+              "Tristan Heeringa"
+            ],
+            "games": [
+              {
+                "time": "1:00 PM",
+                "opponent": "Hamilton",
+                "venue": "Courtright Community Park",
+                "assigned_umpires": [
+                  "Brock Lane",
+                  "Jason Lajeunesse",
+                  "Lawrence Dyck",
+                  "Tristan Heeringa"
+                ],
+                "accepted_umpires": [
+                  "Brock Lane",
+                  "Jason Lajeunesse",
+                  "Lawrence Dyck",
+                  "Tristan Heeringa"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 4,
+                "accepted_count": 4,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              },
+              {
+                "time": "3:30 PM",
+                "opponent": "Hamilton",
+                "venue": "Courtright Community Park",
+                "assigned_umpires": [
+                  "Brock Lane",
+                  "Lawrence Dyck"
+                ],
+                "accepted_umpires": [
+                  "Brock Lane",
+                  "Lawrence Dyck"
+                ],
+                "pending_umpires": [],
+                "denied_umpires": [],
+                "assigned_count": 2,
+                "accepted_count": 2,
+                "pending_count": 0,
+                "denied_count": 0,
+                "assignment_state": "assigned_and_accepted"
+              }
+            ]
+          }
+        ]
       },
       "uniform_cost": null,
       "equipment_cost": null,
