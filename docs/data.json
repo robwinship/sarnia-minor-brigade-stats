@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-09-30T19:34:11.405611Z",
+  "generated": "2026-09-30T23:03:37.296125Z",
   "umpire_data_status": {
     "available": false,
     "reason": "playwright_error:Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"span.rtIn\").filter(has_text=\"Standard Games Lists\").first\n",
