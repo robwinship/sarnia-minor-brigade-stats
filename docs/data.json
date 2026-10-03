@@ -2,7 +2,7 @@
   "season": 2026,
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "generated": "2026-10-02T23:04:00.513161Z",
+  "generated": "2026-10-03T10:04:07.888222Z",
   "umpire_data_status": {
     "available": false,
     "reason": "playwright_error:Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"span.rtIn\").filter(has_text=\"Standard Games Lists\").first\n",
@@ -652,9 +652,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:02 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:02 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -665,6 +665,76 @@
           "start_time": "7:07 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -1695,9 +1765,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:02 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:02 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -1708,6 +1778,76 @@
           "start_time": "7:07 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -2782,9 +2922,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:02 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:02 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -2795,6 +2935,76 @@
           "start_time": "7:07 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -4081,9 +4291,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:02 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:02 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -4094,6 +4304,76 @@
           "start_time": "7:07 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -5300,9 +5580,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:02 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:02 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -5313,6 +5593,76 @@
           "start_time": "7:07 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -6483,9 +6833,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:02 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:02 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -6496,6 +6846,76 @@
           "start_time": "7:07 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -7582,9 +8002,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:02 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:02 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -7595,6 +8015,76 @@
           "start_time": "7:07 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:07 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -9073,9 +9563,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:03 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:03 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -9086,6 +9576,76 @@
           "start_time": "7:08 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -10638,9 +11198,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:03 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:03 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -10651,6 +11211,76 @@
           "start_time": "7:08 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -11719,9 +12349,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:03 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:03 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -11732,6 +12362,76 @@
           "start_time": "7:08 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -12500,9 +13200,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:03 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:03 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -12513,6 +13213,76 @@
           "start_time": "7:08 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -13341,9 +14111,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:03 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:03 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -13354,6 +14124,76 @@
           "start_time": "7:08 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -14266,9 +15106,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:03 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:03 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -14279,6 +15119,76 @@
           "start_time": "7:08 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -15011,9 +15921,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:03 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:03 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -15024,6 +15934,76 @@
           "start_time": "7:08 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -15656,9 +16636,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:03 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:03 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -15669,6 +16649,76 @@
           "start_time": "7:08 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -16217,9 +17267,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:03 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:03 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -16230,6 +17280,76 @@
           "start_time": "7:08 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -16870,9 +17990,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:03 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:03 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -16883,6 +18003,76 @@
           "start_time": "7:08 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -17879,9 +19069,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:03 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:03 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -17892,6 +19082,76 @@
           "start_time": "7:08 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -18864,9 +20124,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:03 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:03 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -18877,6 +20137,76 @@
           "start_time": "7:08 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -19407,9 +20737,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:03 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:03 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -19420,6 +20750,76 @@
           "start_time": "7:08 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:08 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -19944,9 +21344,9 @@
         {
           "uid": "OUTDATED-1000-sarniabrigade.ca",
           "date": "2026-09-30",
-          "start_time": "7:04 PM",
-          "end_date": "2026-10-01",
-          "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "start_time": "6:04 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
@@ -19957,6 +21357,76 @@
           "start_time": "7:09 PM",
           "end_date": "2026-10-02",
           "summary": "Please stop requesting the calendars from the Sarnia Brigade Minor Baseball Association website - none of those teams are active anymore.  More instructions about how to do this are in this event's details.",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1001-sarniabrigade.ca",
+          "date": "2026-10-03",
+          "start_time": "6:09 AM",
+          "end_date": "2026-10-03",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1002-sarniabrigade.ca",
+          "date": "2026-10-04",
+          "start_time": "6:09 AM",
+          "end_date": "2026-10-04",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1003-sarniabrigade.ca",
+          "date": "2026-10-05",
+          "start_time": "6:09 AM",
+          "end_date": "2026-10-05",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1004-sarniabrigade.ca",
+          "date": "2026-10-06",
+          "start_time": "6:09 AM",
+          "end_date": "2026-10-06",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1005-sarniabrigade.ca",
+          "date": "2026-10-07",
+          "start_time": "6:09 AM",
+          "end_date": "2026-10-07",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1006-sarniabrigade.ca",
+          "date": "2026-10-08",
+          "start_time": "6:09 AM",
+          "end_date": "2026-10-08",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
+          "location": "Your Computer or Device",
+          "type": "other",
+          "cancelled": false
+        },
+        {
+          "uid": "OUTDATED-1007-sarniabrigade.ca",
+          "date": "2026-10-09",
+          "start_time": "6:09 AM",
+          "end_date": "2026-10-09",
+          "summary": "PLEASE DELETE THIS OUT-DATED SARNIA BRIGADE MINOR BASEBALL ASSOCIATION CALENDAR FEED",
           "location": "Your Computer or Device",
           "type": "other",
           "cancelled": false
